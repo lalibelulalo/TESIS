@@ -1,0 +1,2129 @@
+---
+title: "Reconstrucción Ancestral de Secuencias - GCAATTGC - NIES-4071"
+author: "Eduardo PM"
+date: "2023-03-30"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(fig.width=12, fig.height=8)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+#setwd("/home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Callothrix_clade/PALINDROMES/GCAATTGC")
+knitr::opts_knit$set(root.dir = "/home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Callothrix_clade/PALINDROMES/GCAATTGC")
+```
+
+Este pipeline es para hacer una reconstrucción ancestral de secuencias y crear un grafo con toda la información de las transiciones.
+
+# Obtención de datos
+En este pipe voy a utilizar un clado de 6 especies de calothrix:
+
+| File                                  | Accesion        |
+|---------------------------------------|-----------------|
+| Calothrix_sp_336-3_336-3.gbff         | GCF_000734895.2 |
+| Calothrix_sp_NIES-3974_NIES-3974.gbff | GCF_002368395.1 |
+| Calothrix_sp_NIES-4071_NIES-4071.gbff | GCF_002368455.1 |
+| Calothrix_sp_NIES-4105_NIES-4105.gbff | GCF_002368415.1 |
+| Calothrix_sp_PCC_6303_PCC_6303.gbff   | GCF_000317435.1 |
+| Calothrix_sp_PCC_7716_PCC_7716.gbff   | GCF_019977735.1 |
+
+
+
+## Ortólogos
+Primero obtengo los ortólogos usando **get_homologues**:
+```{bash, eval = FALSE}
+## /home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Callothrix_clade/
+get_homologues.pl -d gbff -t 0 -M -n PPN
+```
+
+Obtengo el pangenoma:
+```{bash, eval = FALSE}
+compare_clusters.pl -o pangenoma -m -d gbff_homologues/CalothrixspNIES-3974NIES-3974_f0_0taxa_algOMCL_e0_
+```
+
+Obtengo una lista de ortólogos (**orthologues.list**) la cual contenga solo aquellos en los que dicho ortólogo esta en las 6 especies del clado.
+```{bash, eval = FALSE}
+## /home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Callothrix_clade/
+awk -F "," '{if($15==1 && $16==1 && $17==1 && $18==1 && $19==1 && $20==1) {print $1}}' pangenoma/pangenome_matrix_t0.tr.csv | sed 's/.faa/.fna/g' >orthologues.list
+```
+
+## Conteo de palindromos
+Hago un conteo de palindromos para saber cuales ortólogos contienen los palindromos de interés. Para eso uso **orthologues.list** y una lista con los palindromos de interes: **pals.list**.
+
+Para esto uso parte del código del conteo de palindromos.
+
+**Pals.list** contiene los palindromos a contar. Estos van en un a sola linea y separados por comas. El numero final corresponde al orden del modelo de markov (0-3) sin embargo es irrelevante para este paso ya que solo queremos saber el numero observado de palindromos.
+```{bash, eval = FALSE}
+## /home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Callothrix_clade/
+python3 CountPalsInOrthologues.py ../gbff_homologues/CalothrixspNIES-3974NIES-3974_f0_0taxa_algOMCL_e0_ pals.list ../orthologues.list 3
+```
+
+## Filtrado del conteo
+Para empezar escojo la especie con mayor conteo de palindromos segun la filogenia anotada (**PCC_7716**). Sin embargo tambien me aseguro de que dicha especie sea la que tenga el número de sitios:
+```{r}
+## /home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Callothrix_clade/PALINDROMES/GCAATTGC
+#setwd("/home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Callothrix_clade/PALINDROMES/GCAATTGC")
+Counts <- read.table("../../Markov_count_GCAATTGC_2023-5-8_13hrs20mins_Octanuc_.txt", sep = "\t", header = TRUE)
+
+
+Spp <- Counts$spp
+Spp <- unique(Spp)
+
+i=0
+for (n in 1:length(Spp)){ 
+  for (m in 1:length(Counts$spp)) {
+    if (Spp[n] == Counts[m,2]){
+      i=i+Counts[m,5]
+    }
+  }
+  print(paste0(Spp[n]," ",i))
+  i=0
+}
+```
+
+Aqui podemos ver que  **NIES-4071** y **Calothrix_sp_NIES-4105** son los que tienen mas sitios (**116**) seguido de **PCC_7716** con **243**.
+
+
+```{bash, eval = FALSE}
+## /home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Callothrix_clade/PALINDROMES/GCAATTGC
+awk '{if ($5>=1 && $2=="Calothrix_sp_PCC_7716"){print $1}}' ../../Markov_count_GCAATTGC_2023-5-8_13hrs20mins_Octanuc_.txt >Ortologos_GCAATTGC_Calothrix_sp_NIES-4071.txt
+```
+
+**Ortologos_GCAATTGC_Calothrix_sp_NIES-4071.txt** contiene 220 ortólogos los cuales estan presentes en las 6 especies y tienen por lo menos una ocurrencia del palindromo **GCAATTGC**
+```{bash, eval = FALSE}
+###
+5342_Ppx-GppA_family_phos...fna
+5357_hypothetical_protein.fna
+5376_50S_ribosome-binding...fna
+5404_ftsH3.fna
+5404_ftsH3.fna
+5421_hypothetical_protein.fna
+5444_thiamine_pyrophospha...fna
+5445_trifunctional_serine...fna
+5445_trifunctional_serine...fna
+5445_trifunctional_serine...fna
+###
+```
+
+# Preparación de ortólogos para la alineción
+
+Primero creo una carpeta que contendrá unicamente los ortologos que vamos a usar. Es decir aquellos que estan presentes en todas las especies a analizar y que contienen por lo menos un sitio con palíndromo.
+```{bash, eval = FALSE}
+## /home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Callothrix_clade/PALINDROMES/GCAATTGC
+mkdir Orthologues_GCAATTGC_NIES-4071  ## Creo Carpeta
+cd ../../gbff_homologues/CalothrixspNIES-3974NIES-3974_f0_0taxa_algOMCL_e0_ ## Entro a la carpeta de homólogos
+for word in $(cat ../../PALINDROMES/GCAATTGC/Ortologos_GCAATTGC_Calothrix_sp_NIES-4071.txt); do cp $word ../../PALINDROMES/GCAATTGC/Orthologues_GCAATTGC_NIES-4071; done ## copio los ortólogos de la lista a la carpeta
+```
+## Filtrado de paralogos
+voy a crear dos carpetas una que contenga archivos con paralogos y otra que solo tenga ortólogos
+```{bash, eval = FALSE}
+cd ../../PALINDROMES/GCAATTGC/
+mkdir Only_ORTHOLOGUES
+mkdir PARALOGUES
+```
+Para filtrar aquellos con paralogos uso el siguiente script de python:
+```{r, echo = FALSE}
+library(reticulate)
+```
+```{python, eval = FALSE}
+from Bio import SeqIO
+import re
+import os
+import sys
+import shutil
+
+SEQUENCES_PATH = sys.argv[1] #'Orthologues_GCGATCGC_336_3/' ## Path de la carpeta con los ortólogos.
+#output_file = 'Orthologues_Palindrome_sites.txt' ## Nombre del archivo de salida
+#output = open (output_file, 'w') ## Abrimos el archivo de salida
+
+if SEQUENCES_PATH.endswith("/"): ## Esta parte la pongo por si corro este codigo en la terminal
+    SequencesPath = re.sub('/', '', SEQUENCES_PATH) ## De este modo evito errores en el argumento path 
+    SequencesDir = str(SEQUENCES_PATH)
+else:
+    SequencesPath = SEQUENCES_PATH
+    SequencesDir = str("".join ([SEQUENCES_PATH,'/']))
+Orthologues = [x for x in os.listdir(SequencesDir) if x.endswith(".fna")] ## creo un arreglo con todos los ortólogis de la carpeta
+
+for Orthologue in Orthologues:
+    i = 0
+    FNA = str("".join ([SequencesDir,Orthologue])) ## creo el path completo con el path de la carpeta de ortólogos y el path del ortólogo
+    for record in SeqIO.parse(open(FNA),'fasta'):
+        i += 1
+    #print ('{}\t{}'.format(Orthologue,i))
+    if i == 6:
+        shutil.copyfile(FNA,str("".join (['Only_ORTHOLOGUES/',Orthologue]))) ## si hasy unicamente 6 entradas entonces no hay paralogos
+    else:
+        shutil.copyfile(FNA,str("".join (['PARALOGUES/',Orthologue]))) ## Si hay mas de 6 entradas hay parálogos
+```
+```{python, eval = FALSE}
+python3 ../../FiltradoParalogos.py Orthologues_GCAATTGC_NIES-4071/
+```
+
+Esto me dio como resultado 146 archivos sin paralogos y 50 archivos con paralogos los cuals omitiré por ahora.
+
+Ahora edito el archivo fasta para que el encabezado incluya unicamente la especie
+```{bash, eval = FALSE}
+# /home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Callothrix_clade/PALINDROMES/GCAATTGC/Only_ORTHOLOGUES
+cd Only_ORTHOLOGUES/
+for f in *.fna; do awk -F "|" '{if (NR%2){print ">"$2}else{print $1}}' $f | sed 's/ /_/g' | sed 's/\.//g' | sed 's/\[//g' | sed 's/\]//g' | sed 's/\//-/g' | sed 's/Calothrix_sp_//g' >$f.awk1;done
+```
+
+## Alineación Múltiple
+Hago la alineación multiple con **MAFFT**
+```{bash, eval = FALSE}
+## /home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Callothrix_clade/GCAATTGC/Only_ORTHOLOGUES/
+for f in *.awk1; do mafft $f >$f.mafft;done
+```
+
+## Cambio de fasta a PHYLIP
+```{bash, eval = FALSE}
+## /home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Callothrix_clade/GCAATTGC/
+cd ..
+python3 ../../Fasta2Phylip.py Only_ORTHOLOGUES/
+```
+
+
+Obtengo las coordenadas del palindromo en la alineación usando el siguiente codigo de python: 
+```{r, echo = FALSE}
+library(reticulate)
+```
+```{python, eval = FALSE}
+from Bio import SeqIO
+import re
+import os
+import sys
+
+SEQUENCES_PATH = sys.argv[1] #'Only_ORTHOLOGUES/' #
+pattern = sys.argv[2] #'GCGATCGC' #
+SPP = sys.argv[3] #'336-3' #
+#SEQUENCES_PATH = 'gbff/Only_ORTHOLOGUES/' ## Path de la carpeta con los ortólogos.
+
+output_file = 'Orthologues_Palindrome_sites.txt' ## Nombre del archivo de salida
+output = open (output_file, 'w') ## Abrimos el archivo de salida
+output.write('FILE\tPAL\tSTART\tEND\n')
+
+if SEQUENCES_PATH.endswith("/"): ## Esta parte la pongo por si corro este codigo en la terminal
+    SequencesPath = re.sub('/', '', SEQUENCES_PATH) ## De este modo evito errores en el argumento path 
+    SequencesDir = str(SEQUENCES_PATH)
+else:
+    SequencesPath = SEQUENCES_PATH
+    SequencesDir = str("".join ([SEQUENCES_PATH,'/']))
+Orthologues = [x for x in os.listdir(SequencesDir) if x.endswith(".phy")] ## creo un arreglo con todos los ortólogis de la carpeta
+#pattern = '[cC][-]*[gG][-]*[gG][-]*[cC][-]*[gG][-]*[cC][-]*[cC][-]*[gG]'
+pattern = re.sub('G', '[gG][-]*', pattern)
+pattern = re.sub('C', '[cC][-]*', pattern)
+pattern = re.sub('T', '[tT][-]*', pattern)
+pattern = re.sub('A', '[aA][-]*', pattern)
+pattern = pattern[:-4]
+#pattern
+j=0
+k=0
+for Orthologue in Orthologues:
+    FNA = str("".join ([SequencesDir,Orthologue])) ## creo el path completo con el path de la carpeta de ortólogos y el path del ortólogo
+    for record in SeqIO.parse(open(FNA),'phylip'):
+        Seq = str(record.seq)
+        Spp = record.description
+        i = 0
+        if Spp == SPP:#PCC_6303_PCC_6303 336-3_336-3
+            for match in re.finditer(pattern, Seq):
+                i += 1
+                j += 1
+                site = match.group()
+                start = match.span()[0]
+                end = match.span()[1]
+                if len(site)==8:
+                    k += 1
+                    print ('{}\t{}\t{}\t{}:{}'.format(i,Orthologue,site,start+1,end))
+                    output.write('{}\t{}\t{}\t{}\n'.format(Orthologue,site,start+1,end))
+    print ('_________________________________________________________________________\n')
+output.close()
+print ("TOTAL: {} sitios".format(k))
+```
+
+```{python, eval = FALSE}
+python3 ../../AlignmentPalindromeCoords.py Only_ORTHOLOGUES/ GCAATTGC NIES-4071
+```
+
+
+El ultimo script tiene como salida el archivo **Orthologues_Palindrome_sites.txt** el cual contiene 2 columnas, una con el nombre del archivo del ortólogo y otra con el intervalo de sitios en donde se encuentra el palindromo: 
+```{}
+###
+FILE	PAL	START	END
+9879_cysK.fna.awk1.mafft.phy	gcaattgc	604	611
+6812_ATP-binding_cassette...fna.awk1.mafft.phy	gcaattgc	501	508
+6678_aroH.fna.awk1.mafft.phy	gcaattgc	214	221
+5534_hypothetical_protein.fna.awk1.mafft.phy	gcaattgc	52	59
+9300_prfC.fna.awk1.mafft.phy	gcaattgc	1585	1592
+5986_isoprenyl_transferas...fna.awk1.mafft.phy	gcaattgc	481	488
+8170_HlyD_family_efflux_t...fna.awk1.mafft.phy	gcaattgc	796	803
+6948_ABC_transporter_subs...fna.awk1.mafft.phy	gcaattgc	871	878
+8860_trypsin-like_peptida...fna.awk1.mafft.phy	gcaattgc	625	632
+... etc
+###
+```
+
+# GRAFO
+
+primero cargo las librerias necesarias
+```{r}
+library(ggplot2)
+library(ggtree)
+library(ape)
+library(tidyverse)
+library(tidytree)
+library(phangorn)
+library(dplyr)
+```
+
+## Preparacion de datos para el grafo
+
+Primero cargo **Orthologues_Palindrome_sites.txt** del paso anterior.
+```{r}
+## /home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Callothrix_clade/PALINDROMES/GCAATTGC
+Sites <- read.table("Orthologues_Palindrome_sites.txt", sep = "\t", header = TRUE)
+```
+
+Creo la matriz que va a contener unicamente las transiciones
+```{r}
+DF <- matrix(0,
+             nrow = 0,
+             ncol = 2)
+colnames(DF) <- c("from","to")
+```
+
+Creo una matriz adicional que tendra las transiciones y una columna extra con la direccion de la transición
+```{r}
+{LINKS <- matrix(0,
+             nrow = 0,
+             ncol = 3)
+colnames(LINKS) <- c("from","to","direction")}
+```
+
+Creo una matriz adicional que tendra las deleciones:
+```{r}
+{DELECIONES <- matrix(0,
+                     nrow = 0,
+                     ncol = 4)
+colnames(DELECIONES) <- c("ortólogo","sitio","deleciones","species")}
+```
+
+
+Cargo el **modelo de evolucion**, el metodo de reconstrucción (**bayesiano**), la **filogenia** (previamente calculada con **orthofinder**).
+```{r}
+EvolModel = "F81"
+Method = "bayes"
+Tree = read.tree("../../SpeciesTree_rooted.txt")#"SpeciesTree_rooted.txt"
+#Root = '336-3'
+#Tree <-root(Tree, outgroup = Root, edgelabel = TRUE)
+```
+
+Esta filogenia contiene 11 nodos, sin embargo  posteriormente para el analisis se quita la raiz y quedan 10.
+```{r}
+ggtree(Tree,branch.length="none",) +
+  geom_tiplab(color='firebrick', offset = .14)+
+  geom_label(aes(label = node),show.legend = FALSE)
+```
+
+En el archivo **Orthologues_Palindrome_sites.txt** hay 315 sitios en total.
+Cargamos el primer sitio el cual corresponde a:
+
+```{}
+###
+FILE	PAL	START	END
+9798_DUF3110_domain-conta...fna.awk1.mafft.phy	cggcgccg	406	413
+
+###
+```
+
+El numero **ORTH** correponde al numero de sitio. Por lo tanto cargamos el PATH del alineamiento del primer sitio (**Alignment**), así como su inicio (**SI**) y su termino (**EI**)
+```{r}
+ORTH = 1
+Alignment = paste0("Only_ORTHOLOGUES/",Sites[ORTH,1])
+SI = Sites[ORTH,3]
+EI = Sites[ORTH,4]
+```
+
+## Alineación multiple
+Cargo la alineación multiple
+```{r}
+cyanobacterias <- read.phyDat(Alignment, format = "interleaved")
+
+## Cambio el attributo site.patter a FALSE para poder acceder a todos los indices
+cyanobacterias <- subset(cyanobacterias, site.pattern = FALSE) 
+#TreeR = pratchet(cyanobacterias, trace = 0)|>acctran(cyanobacterias)
+parsimony(Tree, cyanobacterias)
+```
+
+## Filogenia y parametros del modelo
+Estimo los parametros para el modelo. en esta parte uso el modelo de evolucion elegido anteriormente ("F81").
+Además en esta parte el arbol se desenraiza y ahora tenemos 10 nodos. Por lo tanto, debo cambiar el arbol al nuevo sin raiz para evitar errores.
+```{r}
+fit <- pml(Tree, cyanobacterias)
+fit <- optim.pml(fit, model=EvolModel, control = pml.control(trace=0))
+
+Tree2 <- fit[["tree"]]
+ggtree(Tree2,branch.length="none",) +
+  geom_tiplab(color='firebrick', offset = .14)+
+  geom_label(aes(label = node),show.legend = FALSE)
+```
+
+## Reconstrucción de Estados Ancestrales
+Hago la reconstruccion de estados ancestrales para cada sitio. Para esto hay dos métodos: **bayesiano** o **máxima verosimilitud**. Anteriormente habia declarado la variable **Method** como bayes.
+```{r}
+  ## Calculo la probabilidad del árbol filogenético dado el alineamiento y el modelo
+  if(Method == "bayes"){
+    anc.bayes <- ancestral.pml(fit, type="bayes", return = "prob")
+    Reconstruction <- anc.bayes
+  }
+  if(Method == "ml"){
+    anc.ml <- ancestral.pml(fit, "ml")
+    Reconstruction <- anc.ml
+  }
+```
+
+## Armado de palindromos ancestrales
+Armo los palindromos ancestrales de acuerdo a los estados ancestrales usando los sitios de inicio y fin de cada sitio palindromico (**SI** y **EI**). Posteriormente uso dicho intervalo para buscar lel estado de cada nucleotido del intervalo y guardarlo en el vector (**PalindromeNucleotidePositions**). Tambien extraigo los nombres de cada nodo de la reconstrucción:  
+
+```{r}
+PalInterval = SI:EI ## ESTE ES EL INTERVALO DEL SITIO PALINDROMICO
+  
+## Obtengo las posiciones para la posicion PalInterval
+PalindromeNucleotidePositions <- attributes(cyanobacterias)$index[PalInterval]
+
+## Nombre de los nodos
+Nodos <- attributes(Reconstruction)$names
+```
+
+Ahora creo una matriz que contendra 9 columnas, la primera contendrá los **Nodos** y las 8 restantes contendran los nucleotidos correspondientes a su palindromo y prosigo a rellenar la matriz. Sin embargo, en este paso hay un detalle.
+
+La reconstrucción de estado ancestral para cada sitio arroja una probabilidad para cada uno de los 4 sitios posibles (**A**, **T** ,**G** o **C**). Si hay equivalencia en la probabilidad en los estados, es decir que el estado ancestral de un nucleotido tenga la misma probabilidad de haber estado en cualesquiera de los 4 posibles estados, entonces dicho estado se omite, de lo contrario se toma aquel estado con la mayor probabilidad. Otro punto importante es que hay sitios en los que una especie puede contener deleciones. Para estos casos, si gfalta algún  nucleotido sew rellena con un "**-**".
+```{r}
+  ## Transformo el arbol en data frame para extraer las etiquetas de los nodos.
+  a.1 <- as_tibble(Tree2)
+
+  ## NA.NODE corresponde al nodo a partir del cual ya no estan las puntas del arbol
+  NA.NODE = length(cyanobacterias)+1
+  
+  ## Esto es para agregar la etiqueta de los nodos a los que faltan, es decir a los nodos que no son puntas del arbol.
+  for (i in NA.NODE:length(Nodos)){ ## ESTO DEPENDE DE LA ESTRUCTURA DEL ARBOL
+    a.1$label[i] <- a.1$node[i] # x$node[i-1]
+  }
+  
+  ## Agrego las etiquetas de nodo al arbol
+  b.1 <- tibble::tibble(label = Nodos)
+  c.1 <- full_join(a.1, b.1, by = 'label')
+  NodeLabels <- c.1$label
+  
+  TipLabels <- Tree2$tip.label
+  NodeLabels2 <- NodeLabels[-c(1:length(TipLabels))]
+
+  ## Creo una matriz de 8 x length(Nodos) (8 nucleotidos x numero de nodos) para guardar los resultados
+  ScoresMtx <- matrix(0,
+                      nrow = length(Nodos),
+                      ncol = 8)
+  colnames(ScoresMtx) <- c("1","2","3","4","5","6","7","8")
+  rownames(ScoresMtx) <- Nodos
+  
+  
+  ## Relleno la matriz con los scores.
+  ## ESTE CICLO ES UNICAMENTE PARA LAS PUNTAS DE LOS NODOS
+  j = 1
+  i = 1
+  k = 0
+  for (Position in PalindromeNucleotidePositions){
+    for (Nodo in TipLabels){
+      PositionScores <- Reconstruction[[Nodo]][Position,] ## Extraigo los scores para el nodo "NODO" en la posicion "POSITION" de la secuencia
+      if (length(unique(PositionScores)) == 1){
+        k=k+1
+        WinnerNucleotide = "-"
+        ScoresMtx[i,j] <- WinnerNucleotide
+        i=i+1 ## contador para cada Nodo
+      }else{
+        PositionWinnerScore <- max(PositionScores) ## Extraigo el valor mas grande. Este es el valor de la probabilidad de que el nucleotido ancestral sea ese
+        WinnerNucleotide <- which(PositionScores == PositionWinnerScore, arr.ind = T) ## pregunto a que numero (Nucleótido) corresponde ese valor
+        ScoresMtx[i,j] <- WinnerNucleotide ## Guardo dicho valor en la matriz de resultados
+        i=i+1 ## contador para cada Nodo
+      }
+    }
+    j=j+1 ## contador para cada posición
+    i=1 ## Reiniciamoa el contador de Nodo para la siguiente posicion
+  }
+  
+  ## Relleno la matriz con los scores
+  ## ESTA PARTE ES PARA TODOS LOS NODOS RESTANTES QUE NO SON PUNTAS
+  j = 1
+  i = length(TipLabels)+1
+  k = 0
+  #(length(TipLabels)+1):length(NodeLabels)
+  for (Position in PalindromeNucleotidePositions){
+    for (Nodo in NodeLabels2){
+      PositionScores <- Reconstruction[[Nodo]][Position,] ## Extraigo los scores para el nodo "NODO" en la posicion "POSITION" de la secuencia
+      if (length(unique(PositionScores)) == 1){
+        k=k+1
+        WinnerNucleotide = "X"
+        ScoresMtx[i,j] <- WinnerNucleotide
+        i=i+1 ## contador para cada Nodo
+      }else{
+        PositionWinnerScore <- max(PositionScores) ## Extraigo el valor mas grande. Este es el valor de la probabilidad de que el nucleotido ancestral sea ese
+        WinnerNucleotide <- which(PositionScores == PositionWinnerScore, arr.ind = T) ## pregunto a que numero (Nucleótido) corresponde ese valor
+        ScoresMtx[i,j] <- WinnerNucleotide ## Guardo dicho valor en la matriz de resultados
+        i=i+1 ## contador para cada Nodo
+      }
+    }
+    j=j+1 ## contador para cada posición
+    i=length(TipLabels)+1 ## Reiniciamoa el contador de Nodo para la siguiente posicion
+  }
+```
+
+Ahora decodificamos el palindromo a nucleotidos para esto creo una nueva matriz que contendra dos columnas: nodos y sus correspondientes palíndromos.
+```{r}
+## Creo un matriz de 1x14 para guardar la etiqueta (palindromo) de cada nodo
+PalsMtx <- matrix(0,
+                  nrow = length(Nodos),
+                  ncol = 1)
+colnames(PalsMtx) <- c("Palindrome")
+rownames(PalsMtx) <- Nodos
+
+## Extraigo cada palindromo, cambio el codigo de numero por el codigo de letras y lo guardo en la matriz 1x14
+i=0
+j=0
+for (Nodo in Nodos){
+  j=j+1
+  Palindrome <- as.character(ScoresMtx[j,]) # Este es el palindromo
+  pal =""
+  for (nuc in Palindrome){
+    if(nuc== 1){nuc = 'A'}
+    if(nuc== 2){nuc = 'C'}
+    if(nuc== 3){nuc = 'G'}
+    if(nuc== 4){nuc = 'T'}
+    pal = paste(pal,nuc,sep = "")
+  }
+  PalsMtx[j,1] <- pal
+}
+```
+
+Guardo los nodos y los palindromos de cada nodo en 2 vectores. Los cuales voy a usar para anotar el arbol filogenetico.
+```{r}
+l <- as.list(PalsMtx[,1]) 
+Nodes = names(l)
+NodePals = as.character(PalsMtx[,1])
+```
+
+## Anotacion del arbol filogenético
+
+Para poder hacer esto, primero transformo el arbol filogenetico en una tabla y agrego 2 columnas:
+(**label**) que contendra el nombre de cada nodo y
+(**Palindromo**) que contendra el palindromo de dicho nodo.
+```{r}
+## Transformo el arbol en data frame para poder agregar los palindromos de cada nodo
+x <- as_tibble(Tree2)
+
+## Extraigo el Boostrap por si se ocupa
+NA.NODE = length(cyanobacterias)+1
+BootStrap <- x$label[NA.NODE:length(Nodes)]
+for (i in NA.NODE:length(Nodes)){ ## ESTO DEPENDE DE LA ESTRUCTURA DEL ARBOL
+  x$label[i] <- x$node[i] # x$node[i-1]
+}
+## Agrego los datos de los palindromos al arbol
+d <- tibble::tibble(label = Nodes,
+                    Palindromo = NodePals)
+y <- full_join(x, d, by = 'label')
+```
+
+Hasta aqui tenemos una filogenoa anotada con su palindromo ancestral en cada nodo:
+```{r fig2, out.width = '70%',fig.align = "center"}
+ggtree(as.treedata(y),branch.length="none") +
+    geom_tiplab(color='firebrick', offset = .14)+
+    geom_label(aes(label = Palindromo,color=Palindromo),show.legend = FALSE)+
+    aes(color=Palindromo)+
+    guides(fill = guide_legend(override.aes = list(color = NA)), 
+           color = FALSE, 
+           shape = 1)
+```
+
+## Matriz de transiciones para el grafo
+
+Ahora necesito crear una matriz que tenga las tranmsiciones entre cada nodo. Para esto extraigo las direcciones de los nodos desde el arbol filogenetico previamente anotado es decir las columnas **from** y **to** y las guardo en una nueva matriz:
+```{r}
+## Esta es la configuracion del arbol
+from<-y$label#c("336-3","7","7","8","8","9","9","10","10")
+to<-y$parent#c("7","NIES-3974","8","PCC_6303","9","PCC_7716","10","NIES-4071","NIES-4105")
+
+LinksMtx <- matrix(0,
+                   nrow = length(from),
+                   ncol = 2)
+colnames(LinksMtx) <- c("from","to")
+
+for (i in 1:length(from)){
+  LinksMtx[i,1] = from[i]
+  LinksMtx[i,2] = to[i]
+}
+```
+
+Luego extraigo las columnas **label** y **Palindromo** y las guardo en otra matriz. Dicha matriz me servira como diccionario para obtener las transiciones en cada nodo. Posteriormente la convierto a data frame.
+```{r}
+## AQUI VOY A CREAR LA MATRIZ QUE ME SERVIRA COMO DICCIONARIO PARA RELLENAR LA MATRIZ DE TRANSICIONES
+Mat <- y[,4:5]
+
+Mat2 <- as.data.frame(Mat) ## CONVIERTO A DF
+Mat2
+```
+
+Hago un conteo de las deleciones y las guardo en un vector que contendrá el **ortologo**, **sitio** y **numero de deleciones**:
+```{r}
+  #~~~~~~~~~~~~~~~~~~~~~~~~
+  d = 0
+  SPP = c()
+  for (i in 1:length(Mat2[,1])) {
+    if(Mat2[i,2] == '--------'){
+      d = d+1
+      spp = Mat2[i,1]
+      SPP = c(SPP,spp)
+    }
+  }
+  Spp <- paste(SPP, collapse = ",")
+  deleciones <-c()
+  if(d != 0){
+    print(paste0("Hay ",d," delecion(es) en el archivo ",Sites[ORTH,1],". Intervalo ",Sites[ORTH,3],":",Sites[ORTH,4],"."))
+    SITE = paste0(Sites[ORTH,3],":",Sites[ORTH,4])
+    deleciones <- c(Sites[ORTH,1],SITE,d,Spp)
+  }
+  #~~~~~~~~~~~~~~~~~~~~~~~~
+```
+
+
+Ahora creo una nueva matriz que va a tener todas las transiciones. Para esto uso las ultimas dos matrices.
+La matriz **LinksMtx** que tiene las direcciones entre nodos la paso a palindromos con ayuda de **Mat2** la cual me sirve como diccionario y convierto esta ultima matriz (**LinksMtx2**) a dataframe. 
+```{r}
+## AQUI CREO LA MATRIZ DE TRANSICIONES.
+LinksMtx2 <- matrix(0,
+                    nrow = length(from),
+                    ncol = 2)
+colnames(LinksMtx2) <- c("from","to")
+
+## AQUI RELLENO LA MATRIZ DE TRANSICIONES USANDO COMO DICCIONARIO A LA MATRIZ ANTERIOR (Mat2)
+for (i in 1:length(from)) {
+  for (j in 1:length(from)){
+    if (LinksMtx[i,1]==Mat2[j,1]){
+      LinksMtx2[i,1] = Mat2[j,2]
+    }
+    if (LinksMtx[i,2]==Mat2[j,1]){
+      LinksMtx2[i,2] = Mat2[j,2]
+    }
+  }
+}
+df <- as.data.frame(LinksMtx2) ## CONVIERTO A DF LA MATRIZ DE TRANSICIONES
+```
+
+Creo una matriz adicional la cual es identica a la anterior salvo que le agrego las direcciones de cada transicion, las cuales podrian ser de utilidad.
+
+```{r}
+directions<-paste(from,to,sep="--") ## ESTE VECTOR CONTIENE LAS DIRECCIONES
+Links0 = as.data.frame(LinksMtx2) ## HAGO UNA COPIA DE LA MATRIZ DE TRANSICIONES
+Links0$direction<-directions ## AGREGO COMO COLUMNA NUEVA A "directions"
+
+```
+Al final de este paso tendre dos matrices **DF** y **LINKS**
+
+**DF** contiene solo las transiciones 
+```{r}
+DF <- rbind(DF,df) ## UNO LA MATRIZ ACTUAL DE TRANSICIONES CON LA ANTERIOR PARA CREAR UNA SOLA
+DF
+```
+y **LINKS** las transiciones con sus respectivas direcciones.
+```{r}
+LINKS<-rbind(LINKS,Links0) ## UNO LA MATRIZ ACTUAL DE TRANSICIONES(CON DIRECCIONES) CON LA ANTERIOR PARA CREAR UNA SOLA
+LINKS
+```
+
+**DELECIONES** tendrá las deleciones.
+```{r}
+DELECIONES <- rbind(DELECIONES,deleciones)
+DELECIONES
+```
+
+Finalmente repito esto para los **314** sitios palindromicos restantes:
+
+```{r}
+EvolModel = "F81"
+Method = "bayes"
+Tree = read.tree("../../SpeciesTree_rooted.txt")#"SpeciesTree_rooted.txt"
+#Root = '336-3'
+#Tree <-root(Tree, outgroup = Root, edgelabel = TRUE)
+
+for (ORTH in 2:length(Sites[,1])){ ## HAY 2593 ortólogos
+  Alignment = paste0("Only_ORTHOLOGUES/",Sites[ORTH,1])
+  SI = Sites[ORTH,3]
+  EI = Sites[ORTH,4]
+
+  ## Cargo la alineación multiple
+  cyanobacterias <- read.phyDat(Alignment, format = "interleaved")
+  
+  ## Cambio el attributo site.patter a FALSE para poder acceder a todos los indices
+  cyanobacterias <- subset(cyanobacterias, site.pattern = FALSE) 
+  #TreeR = pratchet(cyanobacterias, trace = 0)|>acctran(cyanobacterias)
+  parsimony(Tree, cyanobacterias)
+  
+  ## Estimo los parametros para el modelo
+  fit <- pml(Tree, cyanobacterias)
+  fit <- optim.pml(fit, model=EvolModel, control = pml.control(trace=0))
+  
+  Tree2 <- fit[["tree"]]
+  
+  ## Calculo la probabilidad del árbol filogenético dado el alineamiento y el modelo
+  if(Method == "bayes"){
+    anc.bayes <- ancestral.pml(fit, type="bayes", return = "prob")
+    Reconstruction <- anc.bayes
+  }
+  if(Method == "ml"){
+    anc.ml <- ancestral.pml(fit, "ml")
+    Reconstruction <- anc.ml
+  }
+  
+  #plotAnc(Tree2, anc.bayes, 1)
+  PalInterval = SI:EI ## ESTE ES EL INTERVALO DEL SITIO PALINDROMICO
+  
+  ## Obtengo las posiciones para la posicion PalInterval
+  PalindromeNucleotidePositions <- attributes(cyanobacterias)$index[PalInterval]
+  
+  ## Nombre de los nodos
+  Nodos <- attributes(Reconstruction)$names
+  
+  ########################################################################################################
+  ## Transformo el arbol en data frame para poder agregar los palindromos de cada nodo
+  a.1 <- as_tibble(Tree2)
+  ## Extraigo el Boostrap por si se ocupa
+  NA.NODE = length(cyanobacterias)+1
+  for (i in NA.NODE:length(Nodos)){ ## ESTO DEPENDE DE LA ESTRUCTURA DEL ARBOL
+    a.1$label[i] <- a.1$node[i] # x$node[i-1]
+  }
+  ## Agrego los datos de los palindromos al arbol
+  b.1 <- tibble::tibble(label = Nodos)
+  c.1 <- full_join(a.1, b.1, by = 'label')
+  NodeLabels <- c.1$label
+  
+  TipLabels <- Tree2$tip.label
+  NodeLabels2 <- NodeLabels[-c(1:length(TipLabels))]
+
+  ## Creo una matriz de 8 x length(Nodos) (8 nucleotidos, numero de nodos) para guardar los resultados
+  ScoresMtx <- matrix(0,
+                      nrow = length(Nodos),
+                      ncol = 8)
+  colnames(ScoresMtx) <- c("1","2","3","4","5","6","7","8")
+  rownames(ScoresMtx) <- Nodos
+  
+  
+  ## Relleno la matriz con los scores
+  j = 1
+  i = 1
+  k = 0
+  for (Position in PalindromeNucleotidePositions){
+    for (Nodo in TipLabels){
+      PositionScores <- Reconstruction[[Nodo]][Position,] ## Extraigo los scores para el nodo "NODO" en la posicion "POSITION" de la secuencia
+      if (length(unique(PositionScores)) == 1){
+        k=k+1
+        WinnerNucleotide = "-"
+        ScoresMtx[i,j] <- WinnerNucleotide
+        i=i+1 ## contador para cada Nodo
+      }else{
+        PositionWinnerScore <- max(PositionScores) ## Extraigo el valor mas grande. Este es el valor de la probabilidad de que el nucleotido ancestral sea ese
+        WinnerNucleotide <- which(PositionScores == PositionWinnerScore, arr.ind = T) ## pregunto a que numero (Nucleótido) corresponde ese valor
+        ScoresMtx[i,j] <- WinnerNucleotide ## Guardo dicho valor en la matriz de resultados
+        i=i+1 ## contador para cada Nodo
+      }
+    }
+    j=j+1 ## contador para cada posición
+    i=1 ## Reiniciamoa el contador de Nodo para la siguiente posicion
+  }
+  
+  ## Relleno la matriz con los scores
+  j = 1
+  i = length(TipLabels)+1
+  k = 0
+  #(length(TipLabels)+1):length(NodeLabels)
+  for (Position in PalindromeNucleotidePositions){
+    for (Nodo in NodeLabels2){
+      PositionScores <- Reconstruction[[Nodo]][Position,] ## Extraigo los scores para el nodo "NODO" en la posicion "POSITION" de la secuencia
+      if (length(unique(PositionScores)) == 1){
+        k=k+1
+        WinnerNucleotide = "X"
+        ScoresMtx[i,j] <- WinnerNucleotide
+        i=i+1 ## contador para cada Nodo
+      }else{
+        PositionWinnerScore <- max(PositionScores) ## Extraigo el valor mas grande. Este es el valor de la probabilidad de que el nucleotido ancestral sea ese
+        WinnerNucleotide <- which(PositionScores == PositionWinnerScore, arr.ind = T) ## pregunto a que numero (Nucleótido) corresponde ese valor
+        ScoresMtx[i,j] <- WinnerNucleotide ## Guardo dicho valor en la matriz de resultados
+        i=i+1 ## contador para cada Nodo
+      }
+    }
+    j=j+1 ## contador para cada posición
+    i=length(TipLabels)+1 ## Reiniciamoa el contador de Nodo para la siguiente posicion
+  }
+  ########################################################################################################
+  
+  ## EN ESTA PARTE ARMAREMOS EL PALINDROMO PARA CADA NODO
+  
+  ## Creo un matriz de 1x14 para guardar la etiqueta (palindromo) de cada nodo
+  PalsMtx <- matrix(0,
+                    nrow = length(Nodos),
+                    ncol = 1)
+  colnames(PalsMtx) <- c("Palindrome")
+  rownames(PalsMtx) <- Nodos
+  
+  ## Extraigo cada palindromo, cambio el codigo de numero por el codigo de letras y lo guardo en la matriz 1x14
+  i=0
+  j=0
+  for (Nodo in Nodos){
+    j=j+1
+    Palindrome <- as.character(ScoresMtx[j,]) # Este es el palindromo
+    pal =""
+    for (nuc in Palindrome){
+      if(nuc== 1){nuc = 'A'}
+      if(nuc== 2){nuc = 'C'}
+      if(nuc== 3){nuc = 'G'}
+      if(nuc== 4){nuc = 'T'}
+      pal = paste(pal,nuc,sep = "")
+    }
+    PalsMtx[j,1] <- pal
+  }
+  
+  ## ESTA PATRTE ES PARA GUARDAR LOS PALINDROMOS DE CADA NODO
+  l <- as.list(PalsMtx[,1]) 
+  Nodes = names(l)
+  NodePals = as.character(PalsMtx[,1])
+  
+  ## Transformo el arbol en data frame para poder agregar los palindromos de cada nodo
+  x <- as_tibble(Tree2)
+  
+  ## Extraigo el Boostrap por si se ocupa
+  NA.NODE = length(cyanobacterias)+1
+  BootStrap <- x$label[NA.NODE:length(Nodes)]
+  for (i in NA.NODE:length(Nodes)){ ## ESTO DEPENDE DE LA ESTRUCTURA DEL ARBOL
+    x$label[i] <- x$node[i] # x$node[i-1]
+  }
+  ## Agrego los datos de los palindromos al arbol
+  d <- tibble::tibble(label = Nodes,
+                      Palindromo = NodePals)
+  y <- full_join(x, d, by = 'label')
+  
+  #------------------------
+  
+  ## Esta es la configuracion del arbol
+  from<-y$label#c("336-3","7","7","8","8","9","9","10","10")
+  to<-y$parent#c("7","NIES-3974","8","PCC_6303","9","PCC_7716","10","NIES-4071","NIES-4105")
+  
+  LinksMtx <- matrix(0,
+                     nrow = length(from),
+                     ncol = 2)
+  colnames(LinksMtx) <- c("from","to")
+  
+  for (i in 1:length(from)){
+    LinksMtx[i,1] = from[i]
+    LinksMtx[i,2] = to[i]
+  }
+  
+  ## AQUI VOY A CREAR LA MATRIZ QUE ME SERVIRA COMO DICCIONARIO PARA RELLENAR LA MATRIZ DE TRANSICIONES
+  Mat <- y[,4:5]
+  #Mat <- Mat %>% ## AQJUI QUITO EL RENGLON 7 QUE NO CONTIENE NADA. ESTE CORRESPONDE A LA RAIZ DEL ARBOL
+  #  filter(!is.na(Palindromo))
+  Mat
+  
+  Mat2 <- as.data.frame(Mat) ## CONVIERTO A DF
+  Mat2
+  
+  #~~~~~~~~~~~~~~~~~~~~~~~~
+  d = 0
+  SPP = c()
+  for (i in 1:length(Mat2[,1])) {
+    if(Mat2[i,2] == '--------'){
+      d = d+1
+      spp = Mat2[i,1]
+      SPP = c(SPP,spp)
+    }
+  }
+  Spp <- paste(SPP, collapse = ",")
+  deleciones <-c()
+  if(d != 0){
+    #print(paste0("Hay ",d," delecion(es) en el archivo ",Sites[ORTH,1],". Intervarlo ",Sites[ORTH,3],":",Sites[ORTH,4],"."))
+    SITE = paste0(Sites[ORTH,3],":",Sites[ORTH,4])
+    deleciones <- c(Sites[ORTH,1],SITE,d,Spp)
+  }
+  #~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  ## AQUI CREO LA MATRIZ DE TRANSICIONES.
+  LinksMtx2 <- matrix(0,
+                      nrow = length(from),
+                      ncol = 2)
+  colnames(LinksMtx2) <- c("from","to")
+  
+  ## AQUI RELLENO LA MATRIZ DE TRANSICIONES USANDO COMO DICCIONARIO A LA MATRIZ ANTERIOR (Mat2)
+  for (i in 1:length(from)) {
+    for (j in 1:length(from)){
+      if (LinksMtx[i,1]==Mat2[j,1]){
+        LinksMtx2[i,1] = Mat2[j,2]
+      }
+      if (LinksMtx[i,2]==Mat2[j,1]){
+        LinksMtx2[i,2] = Mat2[j,2]
+      }
+    }
+  }
+  
+  directions<-paste(from,to,sep="--") ## ESTE VECTOR CONTIENE LAS DIRECCIONES
+  Links0 = as.data.frame(LinksMtx2) ## HAGO UNA COPIA DE LA MATRIZ DE TRANSICIONES
+  Links0$direction<-directions ## AGREGO COMO COLUMNA NUEVA A "directions"
+  Links0
+  LINKS<-rbind(LINKS,Links0) ## UNO LA MATRIZ ACTUAL DE TRANSICIONES(CON DIRECCIONES) CON LA ANTERIOR PARA CREAR UNA SOLA
+  
+  df <- as.data.frame(LinksMtx2) ## CONVIERTO A DF LA MATRIZ DE TRANSICIONES
+  DF <- rbind(DF,df) ## UNO LA MATRIZ ACTUAL DE TRANSICIONES CON LA ANTERIOR PARA CREAR UNA SOLA
+  #print(paste0("Archivo ",ORTH, " de ",length(Sites$FILE),"."))
+  DELECIONES <- rbind(DELECIONES,deleciones)
+}
+length(DELECIONES[,1])
+DELECIONES = as.data.frame(DELECIONES)
+DELECIONES = DELECIONES[order(DELECIONES$deleciones,decreasing = TRUE),]
+write.table(DELECIONES,file="DELECIONES.txt",sep="\t",row.names = FALSE,col.names = TRUE)
+
+LINKS = as.data.frame(LINKS)
+LINKS = LINKS[order(LINKS$direction),]
+write.table(LINKS,file="edges.directions",sep="\t",row.names = FALSE,col.names = TRUE)
+```
+
+```{r}
+File= "DELECIONES.txt"
+table = read.table(File,header = TRUE,sep = "\t")
+#knitr::kable(table, align = "lccrr")
+rmarkdown::paged_table(table,options = list(rows.print = 10, cols.print = 4))
+```
+
+Ahora las matrices **DF** y **LINKS** contienen todas las transiciones de todos los sitios.
+En total son 25930 transiciones ya que son 10 transiciones por arbol y tenemos 2593 arboles.
+```{r}
+length(DF$from)
+length(LINKS$from)
+length(DELECIONES[,1])
+```
+
+## Filtrado de datos para el GRAFO
+Primero cuento el numero de veces que se repite cada linea de la matriz de transiciones. El conteo para cada transicion sera el peso de cada vertice. Luego cambio el nombre de la columna **counts** a **weight**, paso su contenido a numeros enteros y la convierto a tibble.
+En total tengo 25930 transiciones:
+```{r}
+library(data.table)
+RowCts <- setDT(DF)[,list(Count=as.numeric(.N)),names(DF)] ## CUENTO EL NUMERO DE OCURRENCIAS DE CADA TRANSICIÓN #7211
+colnames(RowCts) <- c("from","to","weight") 
+RowCts = transform(RowCts, weight = as.integer(weight)) ## CONVIERTO A ENTEROS LA COLUMNA "weight"
+RowCts <-as_tibble(RowCts) ## CONVIERTO A TIBBLE
+RowCts #7211
+```
+
+Filtro conteos bajos (**<=5**) y loops.
+Al final me quedo con **63** transiciones.
+```{r}
+RowCts<-RowCts%>% ##QUITO LOS LOOPS. ES DECIR QUITO AQUELLAS TRANSICIONES QUE VAYAN ASI MISMA
+  filter(from!=to)
+length(RowCts$from) #5604
+RowCts<-RowCts%>% ## QUIRO AQUELLAS TRANSICIONES CON UN PESO MENOR A 10
+  filter(weight>=5)
+length(RowCts$from) #63
+```
+
+Extraigo todos los nodos posibles y los agrego a una matriz que va a contener los nodos del grafo. Adiconalmente le agrego una columna **score** que me indicara que tan parecido es el aplindromo a **HIP1** (despues la quito porque no creo que sea un buen índice)
+```{r}
+GraphNodes <- c(RowCts$from, RowCts$to) ## OBTENGO LOS PALINDROMOS DE CADA NODO
+length(GraphNodes) #126
+GNMtx <- matrix(0, ## CREO LA MATRIZ QUE CONTENDRÁ LAS NODOS PARA EL GRAFO
+                nrow = length(GraphNodes),
+                ncol = 2)
+colnames(GNMtx) <- c("pal","score") ## ETIQUETO LAS COLUMNAS DE LA MATRIZ
+
+for (i in 1:length(GraphNodes)){ ## RELLENO LA MATRIZ
+  GNMtx[i,1] = GraphNodes[i] ## AGREGO LOS NODOS
+  GNMtx[i,2] = RecordLinkage::levenshteinSim(GraphNodes[i], 'GCGATCGC')*1000 ## AGREGO UN SCORE QUE SERÁ EL PORCENTAJE DE IDENTIDAD CON HIP1 MULTIPLICADO POR 1000
+}
+
+GNMtx <- as.data.frame(GNMtx) ## CONVIERTO LA MATRIZ DE NODOS A DF
+GNMtx <- GNMtx[!duplicated(GNMtx), ] ## ELIMINO LOS NODOS DUPLICADOS
+```
+
+Creo un vector que enumerará los palindromos. Dicha enumeracion correspondera a su **ID**
+```{r}
+palindromes<-GNMtx[,1] #34  ## EXTRAIGO LOS NODOS DE LA MATRIZ DEL GRAFO. ESTO LO HAGO PARA POSTERIAMENTE ENUMERARLAS Y ASOCIAR CADA NUMERO COMO ID
+
+ids<-c() ## CREO UN VECTOR VACIO QUE CONTENDRÁ LOS ID'S
+for (k in 1:length(palindromes)){ ## ENUMERO LOS PALINDROMOS. ESTOS NUMEROS SERAN LOS IDS
+  ids <-append(ids, k)
+}
+ids
+length(ids) #34
+length(GNMtx[,1]) #34
+```
+
+Creo una matriz nueva que contendrá los nodos del grafo pero con su **ID** para cada palindromo:
+```{r}
+Nodes2 <-cbind(GNMtx,ids) ## CREO UNA MATRIZ NUEVA CON LA MATRIZ DE NODOS Y LOS IDS. ESTA LA VOY A USAR COMO UN DICCIONARIO ID-NODO
+length(Nodes2$pal)
+Nodes2<-Nodes2[,c(3,1,2)] ## REORDENO LAS COLUMNAS DE LA MATRIZ
+colnames(Nodes2)<-c("id","label","score") ## ETIQUETO LAS COLUMNAS
+```
+
+Creo la matriz de vertices del grafo y tambien sustituyo el nombre de los nodos por sus respectivos **ID'S**.
+Adicionalmente cambio los scores que tengan 0 por 1's ya que hay errores. Sin embargo, la columna score no la uso mas adelante.
+```{r}
+GEMtx <- RowCts ## ESTA VA A SER LA MATRIZ DE VERTICES
+Edges2 <- as.matrix(RowCts)#RowCts ESTA ES OTRA MATRIZ DE VERTICES DE LA CUAL VOY A SUSTITUIR LOS NODOS POR SUS IDS
+
+for (n in 1:length(Nodes2[,2])){ ##AQUI CAMBIARE LOS PALINDROMOS DE LOS NODOS POR IDS
+  Edges2[Edges2==Nodes2[n,2]] <- as.numeric(Nodes2[n,1])
+  #print(n)
+}
+
+for (n in 1:length(Nodes2[,2])){ ## HANDLE 0's
+  Nodes2[Nodes2==0] <- as.numeric(1)
+  #print(n)
+}
+```
+
+
+# VISUALIZACIÓN DEL GRAFO
+
+Cargo las librerias
+```{r}
+library(visNetwork)
+library(networkD3)
+library(tidygraph)
+library(ggraph)
+```
+
+Para empezar cargo los **nodos** y los **vertices**. En esta parte quito la columna score de los nodos.
+```{r}
+nodes = as_tibble(Nodes2)
+nodes = select(nodes, -score)
+
+edges = as_tibble(Edges2)
+edges = transform(edges, from = as.integer(from))
+edges = transform(edges, to = as.integer(to))
+edges = transform(edges, weight = as.integer(weight))
+edges = as_tibble(edges)
+
+
+```
+
+Creo un grafo dirigido agregando un peso de acuerdo a la columna **weight**. 
+```{r}
+routes_tidy <- tbl_graph(nodes = nodes,
+                         edges = edges,
+                         directed = TRUE)
+
+routes_tidy
+
+routes_tidy %>% 
+  activate(edges) %>% 
+  arrange(desc(weight))
+```
+
+Visualizo el grafo:
+```{r}
+ggraph(routes_tidy, layout = "graphopt") + 
+  geom_node_point() +
+  geom_edge_link(aes(width = weight), alpha = 0.8) + 
+  scale_edge_width(range = c(0.2, 2)) +
+  geom_node_text(aes(label = label), repel = TRUE) +
+  labs(edge_width = "Times") +
+  theme_graph()
+```
+
+## GRAFOS INTERACTIVOS
+Este es un grafo sin peso en los vertices.
+```{r}
+visNetwork(nodes, edges)
+```
+
+Este es el mismo grafo pero con peso en sus vertices
+```{r}
+edges <- mutate(edges, width = weight/5 + 1)
+visNetwork(nodes, edges) %>% 
+  visIgraphLayout(layout = "layout_with_fr") %>% 
+  visEdges(arrows = "middle")
+```
+
+Este es otro grafo de fuerzas con peso en sus vertices y te muestra las conceciones de cada nodo de manera mas visual
+```{r}
+nodes_d3 <- mutate(nodes, id = id - 1)
+edges_d3 <- mutate(edges, from = from - 1, to = to - 1)
+
+forceNetwork(Links = edges_d3, Nodes = nodes_d3,
+             Source = "from", Target = "to", 
+             NodeID = "label", Group = "id", Value = "weight", 
+             opacity = 1, fontSize = 16, zoom = TRUE)  
+
+```
+
+Este ultimo grafo muestra el grafo anterior pero de una forma mas analizable.
+```{r}
+sankeyNetwork(Links = edges_d3, Nodes = nodes_d3, Source = "from", Target = "to", 
+              NodeID = "label", Value = "weight", fontSize = 16, unit = "TIME(s)")
+```
+
+# GRAFOS POR **DIRECCION**
+
+Las siguientes figuras corresponden a cada una de las direcciones.
+
+
+```{r}
+WGHT = 1
+
+RowCtsL <- setDT(LINKS)[,list(Count=as.numeric(.N)),names(LINKS)] ## CUENTO EL NUMERO DE OCURRENCIAS DE CADA TRANSICIÓN #11520 ***
+RowCtsLTEST <- setDT(LINKS)[,list(Count=as.numeric(.N)),names(LINKS)] ## CUENTO EL NUMERO DE OCURRENCIAS DE CADA TRANSICIÓN #11520 ***
+colnames(RowCtsL) <- c("from","to","direction","weight") ## CAMBIO LA ETIQUETA "counts" A "weight" ***
+RowCtsL = transform(RowCtsL, weight = as.integer(weight)) ## CONVIERTO A ENTEROS LA COLUMNA "weight" ***
+RowCtsL <-as_tibble(RowCtsL) ## CONVIERTO A TIBBLE**
+length(RowCtsL$from) #11520
+#RowCtsL<-RowCtsL%>% ##QUITO LOS LOOPS. ES DECIR QUITO AQUELLAS TRANSICIONES QUE VAYAN ASI MISMA ***
+#  filter(from!=to)
+#length(RowCtsL$from) #6380
+RowCtsL<-RowCtsL%>% ## QUITO AQUELLAS TRANSICIONES CON UN PESO MENOR A 2 ***
+  filter(weight>=1)
+
+write.table(RowCtsLTEST,file="transiciones_dirección_counts.txt",sep="\t",row.names = FALSE,col.names = TRUE)
+```
+
+
+# **336-3--7**
+```{r}
+ggtree(Tree2) +
+  geom_tiplab(color='firebrick', offset = .10, hjust=3.0)+
+  geom_label(aes(label = node),show.legend = TRUE)
+```
+```{r,echo=FALSE,message=FALSE}
+DIRECTION = "336-3--7"
+
+RowCtsL <- setDT(LINKS)[,list(Count=as.numeric(.N)),names(LINKS)] ## CUENTO EL NUMERO DE OCURRENCIAS DE CADA TRANSICIÓN #11520 ***
+colnames(RowCtsL) <- c("from","to","direction","weight") ## CAMBIO LA ETIQUETA "counts" A "weight" ***
+RowCtsL = transform(RowCtsL, weight = as.integer(weight)) ## CONVIERTO A ENTEROS LA COLUMNA "weight" ***
+RowCtsL <-as_tibble(RowCtsL) ## CONVIERTO A TIBBLE**
+length(RowCtsL$from) #11520
+#RowCtsL<-RowCtsL%>% ##QUITO LOS LOOPS. ES DECIR QUITO AQUELLAS TRANSICIONES QUE VAYAN ASI MISMA ***
+#  filter(from!=to)
+#length(RowCtsL$from) #6380
+RowCtsL<-RowCtsL%>% ## QUITO AQUELLAS TRANSICIONES CON UN PESO MENOR A 2 ***
+  filter(weight>=WGHT)
+#length(RowCtsL$from) #48
+
+RowCtsL<-RowCtsL%>% ## filtro las direcciones 9--8
+  filter(direction==DIRECTION)
+#length(RowCtsL$from) #182
+
+GraphNodesL <- c(RowCtsL$from, RowCtsL$to) ## OBTENGO LOS PALINDROMOS DE CADA NODO ***
+#length(GraphNodesL) #96
+
+GNMtxL <- matrix(0, ## CREO LA MATRIZ QUE CONTENDRÁ LAS NODOS PARA EL GRAFO ***
+                nrow = length(GraphNodesL),
+                ncol = 2)
+colnames(GNMtxL) <- c("pal","score") ## ETIQUETO LAS COLUMNAS DE LA MATRIZ ***
+
+for (i in 1:length(GraphNodesL)){ ## RELLENO LA MATRIZ ***
+  GNMtxL[i,1] = GraphNodesL[i] ## AGREGO LOS NODOS ***
+  GNMtxL[i,2] = RecordLinkage::levenshteinSim(GraphNodesL[i], 'GCGATCGC')*1000 ## AGREGO UN SCORE QUE SERÁ EL PORCENTAJE DE IDENTIDAD CON HIP1 MULTIPLICADO POR 1000 ***
+}
+
+GNMtxL <- as.data.frame(GNMtxL) ## CONVIERTO LA MATRIZ DE NODOS A DF ***
+GNMtxL <- GNMtxL[!duplicated(GNMtxL), ] ## ELIMINO LOS NODOS DUPLICADOS ***
+palindromesL<-GNMtxL[,1] #25  ## EXTRAIGO LOS NODOS DE LA MATRIZ DEL GRAFO. ESTO LO HAGO PARA POSTERIAMENTE ENUMERARLAS Y ASOCIAR CADA NUMERO COMO ID ***
+
+idsL<-c() ## CREO UN VECTOR VACIO QUE CONTENDRÁ LOS ID'S ***
+for (k in 1:length(palindromesL)){ ## ENUMERO LOS PALINDROMOS. ESTOS NUMEROS SERAN LOS IDS ***
+  idsL <-append(idsL, k)
+}
+#idsL
+#length(idsL) #25
+#length(GNMtxL[,1]) #25
+
+Nodes2L <-cbind(GNMtxL,idsL) ## CREO UNA MATRIZ NUEVA CON LA MATRIZ DE NODOS Y LOS IDS. ESTA LA VOY A USAR COMO UN DICCIONARIO ID-NODO ***
+#Nodes2L
+Nodes2L<-Nodes2L[,c(3,1,2)] ## REORDENO LAS COLUMNAS DE LA MATRIZ ***
+colnames(Nodes2L)<-c("id","label","score") ## ETIQUETO LAS COLUMNAS ***
+
+GEMtxL <- RowCtsL ## ESTA VA A SER LA MATRIZ DE VERTICES ***
+Edges2L <- as.matrix(RowCtsL)#RowCts ESTA ES OTRA MATRIZ DE VERTICES DE LA CUAL VOY A SUSTITUIR LOS NODOS POR SUS IDS ***
+
+for (n in 1:length(Nodes2L[,2])){ ##AQUI CAMBIARE LOS PALINDROMOS DE LOS NODOS POR IDS ***
+  Edges2L[Edges2L==Nodes2L[n,2]] <- as.numeric(Nodes2L[n,1])
+  #print(n)
+}
+
+for (n in 1:length(Nodes2L[,2])){ ## HANDLE 0's
+  Nodes2L[Nodes2L==0] <- as.numeric(1)
+  #print(n)
+}
+```
+
+```{r,echo=FALSE,message=FALSE}
+nodesL = as_tibble(Nodes2L)
+nodesL = select(nodesL, -score)
+
+edgesL = as_tibble(Edges2L)
+edgesL = transform(edgesL, from = as.integer(from))
+edgesL = transform(edgesL, to = as.integer(to))
+edgesL = transform(edgesL, weight = as.integer(weight))
+edgesL = as_tibble(edgesL)
+
+### ***  
+routes_tidyL <- tbl_graph(nodes = nodesL,
+                          edges = edgesL,
+                          directed = TRUE)
+
+routes_tidyL %>%
+  activate(edges) %>% 
+  arrange(desc(weight))
+```
+
+
+```{r,message=FALSE,echo=FALSE}
+edgesL <- mutate(edgesL, width = weight/5 + 1)
+visNetwork(nodesL, edgesL) %>% 
+  visIgraphLayout(layout = "layout_with_fr") %>% 
+  visEdges(arrows = "middle")
+```
+ 
+  
+```{r,echo=FALSE}
+nodes_d3L <- mutate(nodesL, id = id - 1)
+edges_d3L <- mutate(edgesL, from = from - 1, to = to - 1)
+```
+
+```{r,echo=FALSE}
+sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", Target = "to", 
+              NodeID = "label", Value = "weight", fontSize = 16, unit = "TIME(s)")
+```
+}
+
+
+# **NIES-3974--7**
+```{r}
+ggtree(Tree2) +
+  geom_tiplab(color='firebrick', offset = .10, hjust=3.0)+
+  geom_label(aes(label = node),show.legend = TRUE)
+```
+```{r,echo=FALSE,message=FALSE}
+DIRECTION = "NIES-3974--7"
+
+RowCtsL <- setDT(LINKS)[,list(Count=as.numeric(.N)),names(LINKS)] ## CUENTO EL NUMERO DE OCURRENCIAS DE CADA TRANSICIÓN #11520 ***
+colnames(RowCtsL) <- c("from","to","direction","weight") ## CAMBIO LA ETIQUETA "counts" A "weight" ***
+RowCtsL = transform(RowCtsL, weight = as.integer(weight)) ## CONVIERTO A ENTEROS LA COLUMNA "weight" ***
+RowCtsL <-as_tibble(RowCtsL) ## CONVIERTO A TIBBLE**
+length(RowCtsL$from) #11520
+#RowCtsL<-RowCtsL%>% ##QUITO LOS LOOPS. ES DECIR QUITO AQUELLAS TRANSICIONES QUE VAYAN ASI MISMA ***
+#  filter(from!=to)
+#length(RowCtsL$from) #6380
+RowCtsL<-RowCtsL%>% ## QUITO AQUELLAS TRANSICIONES CON UN PESO MENOR A 2 ***
+  filter(weight>=WGHT)
+#length(RowCtsL$from) #48
+
+RowCtsL<-RowCtsL%>% ## filtro las direcciones 9--8
+  filter(direction==DIRECTION)
+#length(RowCtsL$from) #182
+
+GraphNodesL <- c(RowCtsL$from, RowCtsL$to) ## OBTENGO LOS PALINDROMOS DE CADA NODO ***
+#length(GraphNodesL) #96
+
+GNMtxL <- matrix(0, ## CREO LA MATRIZ QUE CONTENDRÁ LAS NODOS PARA EL GRAFO ***
+                nrow = length(GraphNodesL),
+                ncol = 2)
+colnames(GNMtxL) <- c("pal","score") ## ETIQUETO LAS COLUMNAS DE LA MATRIZ ***
+
+for (i in 1:length(GraphNodesL)){ ## RELLENO LA MATRIZ ***
+  GNMtxL[i,1] = GraphNodesL[i] ## AGREGO LOS NODOS ***
+  GNMtxL[i,2] = RecordLinkage::levenshteinSim(GraphNodesL[i], 'GCGATCGC')*1000 ## AGREGO UN SCORE QUE SERÁ EL PORCENTAJE DE IDENTIDAD CON HIP1 MULTIPLICADO POR 1000 ***
+}
+
+GNMtxL <- as.data.frame(GNMtxL) ## CONVIERTO LA MATRIZ DE NODOS A DF ***
+GNMtxL <- GNMtxL[!duplicated(GNMtxL), ] ## ELIMINO LOS NODOS DUPLICADOS ***
+palindromesL<-GNMtxL[,1] #25  ## EXTRAIGO LOS NODOS DE LA MATRIZ DEL GRAFO. ESTO LO HAGO PARA POSTERIAMENTE ENUMERARLAS Y ASOCIAR CADA NUMERO COMO ID ***
+
+idsL<-c() ## CREO UN VECTOR VACIO QUE CONTENDRÁ LOS ID'S ***
+for (k in 1:length(palindromesL)){ ## ENUMERO LOS PALINDROMOS. ESTOS NUMEROS SERAN LOS IDS ***
+  idsL <-append(idsL, k)
+}
+#idsL
+#length(idsL) #25
+#length(GNMtxL[,1]) #25
+
+Nodes2L <-cbind(GNMtxL,idsL) ## CREO UNA MATRIZ NUEVA CON LA MATRIZ DE NODOS Y LOS IDS. ESTA LA VOY A USAR COMO UN DICCIONARIO ID-NODO ***
+#Nodes2L
+Nodes2L<-Nodes2L[,c(3,1,2)] ## REORDENO LAS COLUMNAS DE LA MATRIZ ***
+colnames(Nodes2L)<-c("id","label","score") ## ETIQUETO LAS COLUMNAS ***
+
+GEMtxL <- RowCtsL ## ESTA VA A SER LA MATRIZ DE VERTICES ***
+Edges2L <- as.matrix(RowCtsL)#RowCts ESTA ES OTRA MATRIZ DE VERTICES DE LA CUAL VOY A SUSTITUIR LOS NODOS POR SUS IDS ***
+
+for (n in 1:length(Nodes2L[,2])){ ##AQUI CAMBIARE LOS PALINDROMOS DE LOS NODOS POR IDS ***
+  Edges2L[Edges2L==Nodes2L[n,2]] <- as.numeric(Nodes2L[n,1])
+  #print(n)
+}
+
+for (n in 1:length(Nodes2L[,2])){ ## HANDLE 0's
+  Nodes2L[Nodes2L==0] <- as.numeric(1)
+  #print(n)
+}
+```
+
+```{r,echo=FALSE,message=FALSE}
+nodesL = as_tibble(Nodes2L)
+nodesL = select(nodesL, -score)
+
+edgesL = as_tibble(Edges2L)
+edgesL = transform(edgesL, from = as.integer(from))
+edgesL = transform(edgesL, to = as.integer(to))
+edgesL = transform(edgesL, weight = as.integer(weight))
+edgesL = as_tibble(edgesL)
+
+### ***  
+routes_tidyL <- tbl_graph(nodes = nodesL,
+                          edges = edgesL,
+                          directed = TRUE)
+
+routes_tidyL
+
+routes_tidyL %>%
+  activate(edges) %>% 
+  arrange(desc(weight))
+```
+
+
+```{r,message=FALSE,echo=FALSE}
+edgesL <- mutate(edgesL, width = weight/5 + 1)
+visNetwork(nodesL, edgesL) %>% 
+  visIgraphLayout(layout = "layout_with_fr") %>% 
+  visEdges(arrows = "middle")
+```
+ 
+  
+```{r,echo=FALSE}
+nodes_d3L <- mutate(nodesL, id = id - 1)
+edges_d3L <- mutate(edgesL, from = from - 1, to = to - 1)
+```
+
+```{r,echo=FALSE}
+sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", Target = "to", 
+              NodeID = "label", Value = "weight", fontSize = 16, unit = "TIME(s)")
+```
+}
+
+
+# **NIES-4071--10** weight>=1 ONLY LOOPS
+```{r}
+ggtree(Tree2) +
+  geom_tiplab(color='firebrick', offset = .10, hjust=3.0)+
+  geom_label(aes(label = node),show.legend = TRUE)
+```
+```{r,echo=FALSE,message=FALSE}
+DIRECTION = "NIES-4071--10"
+
+RowCtsL <- setDT(LINKS)[,list(Count=as.numeric(.N)),names(LINKS)] ## CUENTO EL NUMERO DE OCURRENCIAS DE CADA TRANSICIÓN #11520 ***
+colnames(RowCtsL) <- c("from","to","direction","weight") ## CAMBIO LA ETIQUETA "counts" A "weight" ***
+RowCtsL = transform(RowCtsL, weight = as.integer(weight)) ## CONVIERTO A ENTEROS LA COLUMNA "weight" ***
+RowCtsL <-as_tibble(RowCtsL) ## CONVIERTO A TIBBLE**
+length(RowCtsL$from) #11520
+#RowCtsL<-RowCtsL%>% ##QUITO LOS LOOPS. ES DECIR QUITO AQUELLAS TRANSICIONES QUE VAYAN ASI MISMA ***
+  #filter(from!=to)
+#length(RowCtsL$from) #6380
+RowCtsL<-RowCtsL%>% ## QUITO AQUELLAS TRANSICIONES CON UN PESO MENOR A 2 ***
+  filter(weight>=1)
+#length(RowCtsL$from) #48
+
+RowCtsL<-RowCtsL%>% ## filtro las direcciones 9--8
+  filter(direction==DIRECTION)
+#length(RowCtsL$from) #182
+
+GraphNodesL <- c(RowCtsL$from, RowCtsL$to) ## OBTENGO LOS PALINDROMOS DE CADA NODO ***
+#length(GraphNodesL) #96
+
+GNMtxL <- matrix(0, ## CREO LA MATRIZ QUE CONTENDRÁ LAS NODOS PARA EL GRAFO ***
+                nrow = length(GraphNodesL),
+                ncol = 2)
+colnames(GNMtxL) <- c("pal","score") ## ETIQUETO LAS COLUMNAS DE LA MATRIZ ***
+
+for (i in 1:length(GraphNodesL)){ ## RELLENO LA MATRIZ ***
+  GNMtxL[i,1] = GraphNodesL[i] ## AGREGO LOS NODOS ***
+  GNMtxL[i,2] = RecordLinkage::levenshteinSim(GraphNodesL[i], 'GCGATCGC')*1000 ## AGREGO UN SCORE QUE SERÁ EL PORCENTAJE DE IDENTIDAD CON HIP1 MULTIPLICADO POR 1000 ***
+}
+
+GNMtxL <- as.data.frame(GNMtxL) ## CONVIERTO LA MATRIZ DE NODOS A DF ***
+GNMtxL <- GNMtxL[!duplicated(GNMtxL), ] ## ELIMINO LOS NODOS DUPLICADOS ***
+palindromesL<-GNMtxL[,1] #25  ## EXTRAIGO LOS NODOS DE LA MATRIZ DEL GRAFO. ESTO LO HAGO PARA POSTERIAMENTE ENUMERARLAS Y ASOCIAR CADA NUMERO COMO ID ***
+
+idsL<-c() ## CREO UN VECTOR VACIO QUE CONTENDRÁ LOS ID'S ***
+for (k in 1:length(palindromesL)){ ## ENUMERO LOS PALINDROMOS. ESTOS NUMEROS SERAN LOS IDS ***
+  idsL <-append(idsL, k)
+}
+#idsL
+#length(idsL) #25
+#length(GNMtxL[,1]) #25
+
+Nodes2L <-cbind(GNMtxL,idsL) ## CREO UNA MATRIZ NUEVA CON LA MATRIZ DE NODOS Y LOS IDS. ESTA LA VOY A USAR COMO UN DICCIONARIO ID-NODO ***
+#Nodes2L
+Nodes2L<-Nodes2L[,c(3,1,2)] ## REORDENO LAS COLUMNAS DE LA MATRIZ ***
+colnames(Nodes2L)<-c("id","label","score") ## ETIQUETO LAS COLUMNAS ***
+
+GEMtxL <- RowCtsL ## ESTA VA A SER LA MATRIZ DE VERTICES ***
+Edges2L <- as.matrix(RowCtsL)#RowCts ESTA ES OTRA MATRIZ DE VERTICES DE LA CUAL VOY A SUSTITUIR LOS NODOS POR SUS IDS ***
+
+for (n in 1:length(Nodes2L[,2])){ ##AQUI CAMBIARE LOS PALINDROMOS DE LOS NODOS POR IDS ***
+  Edges2L[Edges2L==Nodes2L[n,2]] <- as.numeric(Nodes2L[n,1])
+  #print(n)
+}
+
+for (n in 1:length(Nodes2L[,2])){ ## HANDLE 0's
+  Nodes2L[Nodes2L==0] <- as.numeric(1)
+  #print(n)
+}
+```
+
+```{r,echo=FALSE,message=FALSE}
+nodesL = as_tibble(Nodes2L)
+nodesL = select(nodesL, -score)
+
+edgesL = as_tibble(Edges2L)
+edgesL = transform(edgesL, from = as.integer(from))
+edgesL = transform(edgesL, to = as.integer(to))
+edgesL = transform(edgesL, weight = as.integer(weight))
+edgesL = as_tibble(edgesL)
+
+### ***  
+routes_tidyL <- tbl_graph(nodes = nodesL,
+                          edges = edgesL,
+                          directed = TRUE)
+
+routes_tidyL %>%
+  activate(edges) %>% 
+  arrange(desc(weight))
+```
+
+
+```{r,message=FALSE,echo=FALSE}
+edgesL <- mutate(edgesL, width = weight/5 + 1)
+visNetwork(nodesL, edgesL) %>% 
+  visIgraphLayout(layout = "layout_with_fr") %>% 
+  visEdges(arrows = "middle")
+```
+ 
+  
+```{r,echo=FALSE}
+nodes_d3L <- mutate(nodesL, id = id - 1)
+edges_d3L <- mutate(edgesL, from = from - 1, to = to - 1)
+```
+
+```{r,echo=FALSE}
+sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", Target = "to", 
+              NodeID = "label", Value = "weight", fontSize = 16, unit = "TIME(s)")
+```
+
+# **NIES-4105--10** weight>=1 ONLY LOOPS
+```{r}
+ggtree(Tree2) +
+  geom_tiplab(color='firebrick', offset = .10, hjust=3.0)+
+  geom_label(aes(label = node),show.legend = TRUE)
+```
+```{r,echo=FALSE,message=FALSE}
+DIRECTION = "NIES-4105--10"
+
+RowCtsL <- setDT(LINKS)[,list(Count=as.numeric(.N)),names(LINKS)] ## CUENTO EL NUMERO DE OCURRENCIAS DE CADA TRANSICIÓN #11520 ***
+colnames(RowCtsL) <- c("from","to","direction","weight") ## CAMBIO LA ETIQUETA "counts" A "weight" ***
+RowCtsL = transform(RowCtsL, weight = as.integer(weight)) ## CONVIERTO A ENTEROS LA COLUMNA "weight" ***
+RowCtsL <-as_tibble(RowCtsL) ## CONVIERTO A TIBBLE**
+length(RowCtsL$from) #11520
+#RowCtsL<-RowCtsL%>% ##QUITO LOS LOOPS. ES DECIR QUITO AQUELLAS TRANSICIONES QUE VAYAN ASI MISMA ***
+#  filter(from!=to)
+#length(RowCtsL$from) #6380
+RowCtsL<-RowCtsL%>% ## QUITO AQUELLAS TRANSICIONES CON UN PESO MENOR A 2 ***
+  filter(weight>=1)
+#length(RowCtsL$from) #48
+
+RowCtsL<-RowCtsL%>% ## filtro las direcciones 9--8
+  filter(direction==DIRECTION)
+#length(RowCtsL$from) #182
+
+GraphNodesL <- c(RowCtsL$from, RowCtsL$to) ## OBTENGO LOS PALINDROMOS DE CADA NODO ***
+#length(GraphNodesL) #96
+
+GNMtxL <- matrix(0, ## CREO LA MATRIZ QUE CONTENDRÁ LAS NODOS PARA EL GRAFO ***
+                nrow = length(GraphNodesL),
+                ncol = 2)
+colnames(GNMtxL) <- c("pal","score") ## ETIQUETO LAS COLUMNAS DE LA MATRIZ ***
+
+for (i in 1:length(GraphNodesL)){ ## RELLENO LA MATRIZ ***
+  GNMtxL[i,1] = GraphNodesL[i] ## AGREGO LOS NODOS ***
+  GNMtxL[i,2] = RecordLinkage::levenshteinSim(GraphNodesL[i], 'GCGATCGC')*1000 ## AGREGO UN SCORE QUE SERÁ EL PORCENTAJE DE IDENTIDAD CON HIP1 MULTIPLICADO POR 1000 ***
+}
+
+GNMtxL <- as.data.frame(GNMtxL) ## CONVIERTO LA MATRIZ DE NODOS A DF ***
+GNMtxL <- GNMtxL[!duplicated(GNMtxL), ] ## ELIMINO LOS NODOS DUPLICADOS ***
+palindromesL<-GNMtxL[,1] #25  ## EXTRAIGO LOS NODOS DE LA MATRIZ DEL GRAFO. ESTO LO HAGO PARA POSTERIAMENTE ENUMERARLAS Y ASOCIAR CADA NUMERO COMO ID ***
+
+idsL<-c() ## CREO UN VECTOR VACIO QUE CONTENDRÁ LOS ID'S ***
+for (k in 1:length(palindromesL)){ ## ENUMERO LOS PALINDROMOS. ESTOS NUMEROS SERAN LOS IDS ***
+  idsL <-append(idsL, k)
+}
+#idsL
+#length(idsL) #25
+#length(GNMtxL[,1]) #25
+
+Nodes2L <-cbind(GNMtxL,idsL) ## CREO UNA MATRIZ NUEVA CON LA MATRIZ DE NODOS Y LOS IDS. ESTA LA VOY A USAR COMO UN DICCIONARIO ID-NODO ***
+#Nodes2L
+Nodes2L<-Nodes2L[,c(3,1,2)] ## REORDENO LAS COLUMNAS DE LA MATRIZ ***
+colnames(Nodes2L)<-c("id","label","score") ## ETIQUETO LAS COLUMNAS ***
+
+GEMtxL <- RowCtsL ## ESTA VA A SER LA MATRIZ DE VERTICES ***
+Edges2L <- as.matrix(RowCtsL)#RowCts ESTA ES OTRA MATRIZ DE VERTICES DE LA CUAL VOY A SUSTITUIR LOS NODOS POR SUS IDS ***
+
+for (n in 1:length(Nodes2L[,2])){ ##AQUI CAMBIARE LOS PALINDROMOS DE LOS NODOS POR IDS ***
+  Edges2L[Edges2L==Nodes2L[n,2]] <- as.numeric(Nodes2L[n,1])
+  #print(n)
+}
+
+for (n in 1:length(Nodes2L[,2])){ ## HANDLE 0's
+  Nodes2L[Nodes2L==0] <- as.numeric(1)
+  #print(n)
+}
+```
+
+```{r,echo=FALSE,message=FALSE}
+nodesL = as_tibble(Nodes2L)
+nodesL = select(nodesL, -score)
+
+edgesL = as_tibble(Edges2L)
+edgesL = transform(edgesL, from = as.integer(from))
+edgesL = transform(edgesL, to = as.integer(to))
+edgesL = transform(edgesL, weight = as.integer(weight))
+edgesL = as_tibble(edgesL)
+
+### ***  
+routes_tidyL <- tbl_graph(nodes = nodesL,
+                          edges = edgesL,
+                          directed = TRUE)
+
+routes_tidyL %>%
+  activate(edges) %>% 
+  arrange(desc(weight))
+```
+
+```{r,message=FALSE,echo=FALSE}
+edgesL <- mutate(edgesL, width = weight/5 + 1)
+visNetwork(nodesL, edgesL) %>% 
+  visIgraphLayout(layout = "layout_with_fr") %>% 
+  visEdges(arrows = "middle")
+```
+ 
+  
+```{r,echo=FALSE}
+nodes_d3L <- mutate(nodesL, id = id - 1)
+edges_d3L <- mutate(edgesL, from = from - 1, to = to - 1)
+
+#forceNetwork(Links = edges_d3L, Nodes = nodes_d3L,
+#             Source = "from", Target = "to", 
+#             NodeID = "label", Group = "id", Value = "weight", 
+#             opacity = 1, fontSize = 16, zoom = TRUE)  
+```
+
+```{r,echo=FALSE}
+sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", Target = "to", 
+              NodeID = "label", Value = "weight", fontSize = 16, unit = "TIME(s)")
+```
+
+
+# **PCC_6303--8**
+```{r}
+ggtree(Tree2) +
+  geom_tiplab(color='firebrick', offset = .10, hjust=3.0)+
+  geom_label(aes(label = node),show.legend = TRUE)
+```
+```{r,echo=FALSE,message=FALSE}
+DIRECTION = "PCC_6303--8"
+
+RowCtsL <- setDT(LINKS)[,list(Count=as.numeric(.N)),names(LINKS)] ## CUENTO EL NUMERO DE OCURRENCIAS DE CADA TRANSICIÓN #11520 ***
+colnames(RowCtsL) <- c("from","to","direction","weight") ## CAMBIO LA ETIQUETA "counts" A "weight" ***
+RowCtsL = transform(RowCtsL, weight = as.integer(weight)) ## CONVIERTO A ENTEROS LA COLUMNA "weight" ***
+RowCtsL <-as_tibble(RowCtsL) ## CONVIERTO A TIBBLE**
+length(RowCtsL$from) #11520
+#RowCtsL<-RowCtsL%>% ##QUITO LOS LOOPS. ES DECIR QUITO AQUELLAS TRANSICIONES QUE VAYAN ASI MISMA ***
+#  filter(from!=to)
+#length(RowCtsL$from) #6380
+RowCtsL<-RowCtsL%>% ## QUITO AQUELLAS TRANSICIONES CON UN PESO MENOR A 2 ***
+  filter(weight>=WGHT)
+#length(RowCtsL$from) #48
+
+RowCtsL<-RowCtsL%>% ## filtro las direcciones 9--8
+  filter(direction==DIRECTION)
+#length(RowCtsL$from) #182
+
+GraphNodesL <- c(RowCtsL$from, RowCtsL$to) ## OBTENGO LOS PALINDROMOS DE CADA NODO ***
+#length(GraphNodesL) #96
+
+GNMtxL <- matrix(0, ## CREO LA MATRIZ QUE CONTENDRÁ LAS NODOS PARA EL GRAFO ***
+                nrow = length(GraphNodesL),
+                ncol = 2)
+colnames(GNMtxL) <- c("pal","score") ## ETIQUETO LAS COLUMNAS DE LA MATRIZ ***
+
+for (i in 1:length(GraphNodesL)){ ## RELLENO LA MATRIZ ***
+  GNMtxL[i,1] = GraphNodesL[i] ## AGREGO LOS NODOS ***
+  GNMtxL[i,2] = RecordLinkage::levenshteinSim(GraphNodesL[i], 'GCGATCGC')*1000 ## AGREGO UN SCORE QUE SERÁ EL PORCENTAJE DE IDENTIDAD CON HIP1 MULTIPLICADO POR 1000 ***
+}
+
+GNMtxL <- as.data.frame(GNMtxL) ## CONVIERTO LA MATRIZ DE NODOS A DF ***
+GNMtxL <- GNMtxL[!duplicated(GNMtxL), ] ## ELIMINO LOS NODOS DUPLICADOS ***
+palindromesL<-GNMtxL[,1] #25  ## EXTRAIGO LOS NODOS DE LA MATRIZ DEL GRAFO. ESTO LO HAGO PARA POSTERIAMENTE ENUMERARLAS Y ASOCIAR CADA NUMERO COMO ID ***
+
+idsL<-c() ## CREO UN VECTOR VACIO QUE CONTENDRÁ LOS ID'S ***
+for (k in 1:length(palindromesL)){ ## ENUMERO LOS PALINDROMOS. ESTOS NUMEROS SERAN LOS IDS ***
+  idsL <-append(idsL, k)
+}
+#idsL
+#length(idsL) #25
+#length(GNMtxL[,1]) #25
+
+Nodes2L <-cbind(GNMtxL,idsL) ## CREO UNA MATRIZ NUEVA CON LA MATRIZ DE NODOS Y LOS IDS. ESTA LA VOY A USAR COMO UN DICCIONARIO ID-NODO ***
+#Nodes2L
+Nodes2L<-Nodes2L[,c(3,1,2)] ## REORDENO LAS COLUMNAS DE LA MATRIZ ***
+colnames(Nodes2L)<-c("id","label","score") ## ETIQUETO LAS COLUMNAS ***
+
+GEMtxL <- RowCtsL ## ESTA VA A SER LA MATRIZ DE VERTICES ***
+Edges2L <- as.matrix(RowCtsL)#RowCts ESTA ES OTRA MATRIZ DE VERTICES DE LA CUAL VOY A SUSTITUIR LOS NODOS POR SUS IDS ***
+
+for (n in 1:length(Nodes2L[,2])){ ##AQUI CAMBIARE LOS PALINDROMOS DE LOS NODOS POR IDS ***
+  Edges2L[Edges2L==Nodes2L[n,2]] <- as.numeric(Nodes2L[n,1])
+  #print(n)
+}
+
+for (n in 1:length(Nodes2L[,2])){ ## HANDLE 0's
+  Nodes2L[Nodes2L==0] <- as.numeric(1)
+  #print(n)
+}
+```
+
+```{r,echo=FALSE,message=FALSE}
+nodesL = as_tibble(Nodes2L)
+nodesL = select(nodesL, -score)
+
+edgesL = as_tibble(Edges2L)
+edgesL = transform(edgesL, from = as.integer(from))
+edgesL = transform(edgesL, to = as.integer(to))
+edgesL = transform(edgesL, weight = as.integer(weight))
+edgesL = as_tibble(edgesL)
+
+### ***  
+routes_tidyL <- tbl_graph(nodes = nodesL,
+                          edges = edgesL,
+                          directed = TRUE)
+
+routes_tidyL %>%
+  activate(edges) %>% 
+  arrange(desc(weight))
+```
+
+
+```{r,echo=FALSE}
+#visNetwork(nodesL, edgesL)
+```
+
+
+```{r,message=FALSE,echo=FALSE}
+edgesL <- mutate(edgesL, width = weight/5 + 1)
+visNetwork(nodesL, edgesL) %>% 
+  visIgraphLayout(layout = "layout_with_fr") %>% 
+  visEdges(arrows = "middle")
+```
+ 
+  
+```{r,echo=FALSE}
+nodes_d3L <- mutate(nodesL, id = id - 1)
+edges_d3L <- mutate(edgesL, from = from - 1, to = to - 1)
+
+#forceNetwork(Links = edges_d3L, Nodes = nodes_d3L,
+#             Source = "from", Target = "to", 
+#             NodeID = "label", Group = "id", Value = "weight", 
+#             opacity = 1, fontSize = 16, zoom = TRUE)  
+```
+
+```{r,echo=FALSE}
+sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", Target = "to", 
+              NodeID = "label", Value = "weight", fontSize = 16, unit = "TIME(s)")
+```
+}
+
+
+# **PCC_7716--9**
+```{r}
+ggtree(Tree2) +
+  geom_tiplab(color='firebrick', offset = .10, hjust=3.0)+
+  geom_label(aes(label = node),show.legend = TRUE)
+```
+```{r,echo=FALSE,message=FALSE}
+DIRECTION = "PCC_7716--9"
+
+RowCtsL <- setDT(LINKS)[,list(Count=as.numeric(.N)),names(LINKS)] ## CUENTO EL NUMERO DE OCURRENCIAS DE CADA TRANSICIÓN #11520 ***
+colnames(RowCtsL) <- c("from","to","direction","weight") ## CAMBIO LA ETIQUETA "counts" A "weight" ***
+RowCtsL = transform(RowCtsL, weight = as.integer(weight)) ## CONVIERTO A ENTEROS LA COLUMNA "weight" ***
+RowCtsL <-as_tibble(RowCtsL) ## CONVIERTO A TIBBLE**
+length(RowCtsL$from) #11520
+#RowCtsL<-RowCtsL%>% ##QUITO LOS LOOPS. ES DECIR QUITO AQUELLAS TRANSICIONES QUE VAYAN ASI MISMA ***
+#  filter(from!=to)
+#length(RowCtsL$from) #6380
+RowCtsL<-RowCtsL%>% ## QUITO AQUELLAS TRANSICIONES CON UN PESO MENOR A 2 ***
+  filter(weight>=WGHT)
+#length(RowCtsL$from) #48
+
+RowCtsL<-RowCtsL%>% ## filtro las direcciones 9--8
+  filter(direction==DIRECTION)
+#length(RowCtsL$from) #182
+
+GraphNodesL <- c(RowCtsL$from, RowCtsL$to) ## OBTENGO LOS PALINDROMOS DE CADA NODO ***
+#length(GraphNodesL) #96
+
+GNMtxL <- matrix(0, ## CREO LA MATRIZ QUE CONTENDRÁ LAS NODOS PARA EL GRAFO ***
+                nrow = length(GraphNodesL),
+                ncol = 2)
+colnames(GNMtxL) <- c("pal","score") ## ETIQUETO LAS COLUMNAS DE LA MATRIZ ***
+
+for (i in 1:length(GraphNodesL)){ ## RELLENO LA MATRIZ ***
+  GNMtxL[i,1] = GraphNodesL[i] ## AGREGO LOS NODOS ***
+  GNMtxL[i,2] = RecordLinkage::levenshteinSim(GraphNodesL[i], 'GCGATCGC')*1000 ## AGREGO UN SCORE QUE SERÁ EL PORCENTAJE DE IDENTIDAD CON HIP1 MULTIPLICADO POR 1000 ***
+}
+
+GNMtxL <- as.data.frame(GNMtxL) ## CONVIERTO LA MATRIZ DE NODOS A DF ***
+GNMtxL <- GNMtxL[!duplicated(GNMtxL), ] ## ELIMINO LOS NODOS DUPLICADOS ***
+palindromesL<-GNMtxL[,1] #25  ## EXTRAIGO LOS NODOS DE LA MATRIZ DEL GRAFO. ESTO LO HAGO PARA POSTERIAMENTE ENUMERARLAS Y ASOCIAR CADA NUMERO COMO ID ***
+
+idsL<-c() ## CREO UN VECTOR VACIO QUE CONTENDRÁ LOS ID'S ***
+for (k in 1:length(palindromesL)){ ## ENUMERO LOS PALINDROMOS. ESTOS NUMEROS SERAN LOS IDS ***
+  idsL <-append(idsL, k)
+}
+#idsL
+#length(idsL) #25
+#length(GNMtxL[,1]) #25
+
+Nodes2L <-cbind(GNMtxL,idsL) ## CREO UNA MATRIZ NUEVA CON LA MATRIZ DE NODOS Y LOS IDS. ESTA LA VOY A USAR COMO UN DICCIONARIO ID-NODO ***
+#Nodes2L
+Nodes2L<-Nodes2L[,c(3,1,2)] ## REORDENO LAS COLUMNAS DE LA MATRIZ ***
+colnames(Nodes2L)<-c("id","label","score") ## ETIQUETO LAS COLUMNAS ***
+
+GEMtxL <- RowCtsL ## ESTA VA A SER LA MATRIZ DE VERTICES ***
+Edges2L <- as.matrix(RowCtsL)#RowCts ESTA ES OTRA MATRIZ DE VERTICES DE LA CUAL VOY A SUSTITUIR LOS NODOS POR SUS IDS ***
+
+for (n in 1:length(Nodes2L[,2])){ ##AQUI CAMBIARE LOS PALINDROMOS DE LOS NODOS POR IDS ***
+  Edges2L[Edges2L==Nodes2L[n,2]] <- as.numeric(Nodes2L[n,1])
+  #print(n)
+}
+
+for (n in 1:length(Nodes2L[,2])){ ## HANDLE 0's
+  Nodes2L[Nodes2L==0] <- as.numeric(1)
+  #print(n)
+}
+```
+
+```{r,echo=FALSE,message=FALSE}
+nodesL = as_tibble(Nodes2L)
+nodesL = select(nodesL, -score)
+
+edgesL = as_tibble(Edges2L)
+edgesL = transform(edgesL, from = as.integer(from))
+edgesL = transform(edgesL, to = as.integer(to))
+edgesL = transform(edgesL, weight = as.integer(weight))
+edgesL = as_tibble(edgesL)
+
+### ***  
+routes_tidyL <- tbl_graph(nodes = nodesL,
+                          edges = edgesL,
+                          directed = TRUE)
+
+
+routes_tidyL %>%
+  activate(edges) %>% 
+  arrange(desc(weight))
+```
+
+
+```{r,echo=FALSE}
+#visNetwork(nodesL, edgesL)
+```
+
+
+```{r,message=FALSE,echo=FALSE}
+edgesL <- mutate(edgesL, width = weight/5 + 1)
+visNetwork(nodesL, edgesL) %>% 
+  visIgraphLayout(layout = "layout_with_fr") %>% 
+  visEdges(arrows = "middle")
+```
+ 
+  
+```{r,echo=FALSE}
+nodes_d3L <- mutate(nodesL, id = id - 1)
+edges_d3L <- mutate(edgesL, from = from - 1, to = to - 1)
+
+#forceNetwork(Links = edges_d3L, Nodes = nodes_d3L,
+#             Source = "from", Target = "to", 
+#             NodeID = "label", Group = "id", Value = "weight", 
+#             opacity = 1, fontSize = 16, zoom = TRUE)  
+```
+
+```{r,echo=FALSE}
+sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", Target = "to", 
+              NodeID = "label", Value = "weight", fontSize = 16, unit = "TIME(s)")
+```
+
+# **10--9**
+```{r}
+ggtree(Tree2) +
+  geom_tiplab(color='firebrick', offset = .10, hjust=3.0)+
+  geom_label(aes(label = node),show.legend = TRUE)
+```
+```{r,echo=FALSE,message=FALSE}
+DIRECTION = "10--9"
+
+RowCtsL <- setDT(LINKS)[,list(Count=as.numeric(.N)),names(LINKS)] ## CUENTO EL NUMERO DE OCURRENCIAS DE CADA TRANSICIÓN #11520 ***
+colnames(RowCtsL) <- c("from","to","direction","weight") ## CAMBIO LA ETIQUETA "counts" A "weight" ***
+RowCtsL = transform(RowCtsL, weight = as.integer(weight)) ## CONVIERTO A ENTEROS LA COLUMNA "weight" ***
+RowCtsL <-as_tibble(RowCtsL) ## CONVIERTO A TIBBLE**
+length(RowCtsL$from) #11520
+#RowCtsL<-RowCtsL%>% ##QUITO LOS LOOPS. ES DECIR QUITO AQUELLAS TRANSICIONES QUE VAYAN ASI MISMA ***
+#  filter(from!=to)
+#length(RowCtsL$from) #6380
+RowCtsL<-RowCtsL%>% ## QUITO AQUELLAS TRANSICIONES CON UN PESO MENOR A 2 ***
+  filter(weight>=WGHT)
+#length(RowCtsL$from) #48
+
+RowCtsL<-RowCtsL%>% ## filtro las direcciones 9--8
+  filter(direction==DIRECTION)
+#length(RowCtsL$from) #182
+
+GraphNodesL <- c(RowCtsL$from, RowCtsL$to) ## OBTENGO LOS PALINDROMOS DE CADA NODO ***
+#length(GraphNodesL) #96
+
+GNMtxL <- matrix(0, ## CREO LA MATRIZ QUE CONTENDRÁ LAS NODOS PARA EL GRAFO ***
+                nrow = length(GraphNodesL),
+                ncol = 2)
+colnames(GNMtxL) <- c("pal","score") ## ETIQUETO LAS COLUMNAS DE LA MATRIZ ***
+
+for (i in 1:length(GraphNodesL)){ ## RELLENO LA MATRIZ ***
+  GNMtxL[i,1] = GraphNodesL[i] ## AGREGO LOS NODOS ***
+  GNMtxL[i,2] = RecordLinkage::levenshteinSim(GraphNodesL[i], 'GCGATCGC')*1000 ## AGREGO UN SCORE QUE SERÁ EL PORCENTAJE DE IDENTIDAD CON HIP1 MULTIPLICADO POR 1000 ***
+}
+
+GNMtxL <- as.data.frame(GNMtxL) ## CONVIERTO LA MATRIZ DE NODOS A DF ***
+GNMtxL <- GNMtxL[!duplicated(GNMtxL), ] ## ELIMINO LOS NODOS DUPLICADOS ***
+palindromesL<-GNMtxL[,1] #25  ## EXTRAIGO LOS NODOS DE LA MATRIZ DEL GRAFO. ESTO LO HAGO PARA POSTERIAMENTE ENUMERARLAS Y ASOCIAR CADA NUMERO COMO ID ***
+
+idsL<-c() ## CREO UN VECTOR VACIO QUE CONTENDRÁ LOS ID'S ***
+for (k in 1:length(palindromesL)){ ## ENUMERO LOS PALINDROMOS. ESTOS NUMEROS SERAN LOS IDS ***
+  idsL <-append(idsL, k)
+}
+#idsL
+#length(idsL) #25
+#length(GNMtxL[,1]) #25
+
+Nodes2L <-cbind(GNMtxL,idsL) ## CREO UNA MATRIZ NUEVA CON LA MATRIZ DE NODOS Y LOS IDS. ESTA LA VOY A USAR COMO UN DICCIONARIO ID-NODO ***
+#Nodes2L
+Nodes2L<-Nodes2L[,c(3,1,2)] ## REORDENO LAS COLUMNAS DE LA MATRIZ ***
+colnames(Nodes2L)<-c("id","label","score") ## ETIQUETO LAS COLUMNAS ***
+
+GEMtxL <- RowCtsL ## ESTA VA A SER LA MATRIZ DE VERTICES ***
+Edges2L <- as.matrix(RowCtsL)#RowCts ESTA ES OTRA MATRIZ DE VERTICES DE LA CUAL VOY A SUSTITUIR LOS NODOS POR SUS IDS ***
+
+for (n in 1:length(Nodes2L[,2])){ ##AQUI CAMBIARE LOS PALINDROMOS DE LOS NODOS POR IDS ***
+  Edges2L[Edges2L==Nodes2L[n,2]] <- as.numeric(Nodes2L[n,1])
+  #print(n)
+}
+
+for (n in 1:length(Nodes2L[,2])){ ## HANDLE 0's
+  Nodes2L[Nodes2L==0] <- as.numeric(1)
+  #print(n)
+}
+```
+
+```{r,echo=FALSE,message=FALSE}
+nodesL = as_tibble(Nodes2L)
+nodesL = select(nodesL, -score)
+
+edgesL = as_tibble(Edges2L)
+edgesL = transform(edgesL, from = as.integer(from))
+edgesL = transform(edgesL, to = as.integer(to))
+edgesL = transform(edgesL, weight = as.integer(weight))
+edgesL = as_tibble(edgesL)
+
+### ***  
+routes_tidyL <- tbl_graph(nodes = nodesL,
+                          edges = edgesL,
+                          directed = TRUE)
+
+routes_tidyL %>%
+  activate(edges) %>% 
+  arrange(desc(weight))
+```
+
+
+```{r,echo=FALSE}
+#visNetwork(nodesL, edgesL)
+```
+
+
+```{r,message=FALSE,echo=FALSE}
+edgesL <- mutate(edgesL, width = weight/5 + 1)
+visNetwork(nodesL, edgesL) %>% 
+  visIgraphLayout(layout = "layout_with_fr") %>% 
+  visEdges(arrows = "middle")
+```
+ 
+  
+```{r,echo=FALSE}
+nodes_d3L <- mutate(nodesL, id = id - 1)
+edges_d3L <- mutate(edgesL, from = from - 1, to = to - 1)
+
+#forceNetwork(Links = edges_d3L, Nodes = nodes_d3L,
+#             Source = "from", Target = "to", 
+#             NodeID = "label", Group = "id", Value = "weight", 
+#             opacity = 1, fontSize = 16, zoom = TRUE)  
+```
+
+```{r,echo=FALSE}
+sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", Target = "to", 
+              NodeID = "label", Value = "weight", fontSize = 16, unit = "TIME(s)")
+```
+
+# **9--8**
+```{r}
+ggtree(Tree2) +
+  geom_tiplab(color='firebrick', offset = .10, hjust=3.0)+
+  geom_label(aes(label = node),show.legend = TRUE)
+```
+```{r,echo=FALSE,message=FALSE}
+DIRECTION = "9--8"
+
+RowCtsL <- setDT(LINKS)[,list(Count=as.numeric(.N)),names(LINKS)] ## CUENTO EL NUMERO DE OCURRENCIAS DE CADA TRANSICIÓN #11520 ***
+colnames(RowCtsL) <- c("from","to","direction","weight") ## CAMBIO LA ETIQUETA "counts" A "weight" ***
+RowCtsL = transform(RowCtsL, weight = as.integer(weight)) ## CONVIERTO A ENTEROS LA COLUMNA "weight" ***
+RowCtsL <-as_tibble(RowCtsL) ## CONVIERTO A TIBBLE**
+length(RowCtsL$from) #11520
+#RowCtsL<-RowCtsL%>% ##QUITO LOS LOOPS. ES DECIR QUITO AQUELLAS TRANSICIONES QUE VAYAN ASI MISMA ***
+#  filter(from!=to)
+#length(RowCtsL$from) #6380
+RowCtsL<-RowCtsL%>% ## QUITO AQUELLAS TRANSICIONES CON UN PESO MENOR A 2 ***
+  filter(weight>=WGHT)
+#length(RowCtsL$from) #48
+
+RowCtsL<-RowCtsL%>% ## filtro las direcciones 9--8
+  filter(direction==DIRECTION)
+#length(RowCtsL$from) #182
+
+GraphNodesL <- c(RowCtsL$from, RowCtsL$to) ## OBTENGO LOS PALINDROMOS DE CADA NODO ***
+#length(GraphNodesL) #96
+
+GNMtxL <- matrix(0, ## CREO LA MATRIZ QUE CONTENDRÁ LAS NODOS PARA EL GRAFO ***
+                nrow = length(GraphNodesL),
+                ncol = 2)
+colnames(GNMtxL) <- c("pal","score") ## ETIQUETO LAS COLUMNAS DE LA MATRIZ ***
+
+for (i in 1:length(GraphNodesL)){ ## RELLENO LA MATRIZ ***
+  GNMtxL[i,1] = GraphNodesL[i] ## AGREGO LOS NODOS ***
+  GNMtxL[i,2] = RecordLinkage::levenshteinSim(GraphNodesL[i], 'GCGATCGC')*1000 ## AGREGO UN SCORE QUE SERÁ EL PORCENTAJE DE IDENTIDAD CON HIP1 MULTIPLICADO POR 1000 ***
+}
+
+GNMtxL <- as.data.frame(GNMtxL) ## CONVIERTO LA MATRIZ DE NODOS A DF ***
+GNMtxL <- GNMtxL[!duplicated(GNMtxL), ] ## ELIMINO LOS NODOS DUPLICADOS ***
+palindromesL<-GNMtxL[,1] #25  ## EXTRAIGO LOS NODOS DE LA MATRIZ DEL GRAFO. ESTO LO HAGO PARA POSTERIAMENTE ENUMERARLAS Y ASOCIAR CADA NUMERO COMO ID ***
+
+idsL<-c() ## CREO UN VECTOR VACIO QUE CONTENDRÁ LOS ID'S ***
+for (k in 1:length(palindromesL)){ ## ENUMERO LOS PALINDROMOS. ESTOS NUMEROS SERAN LOS IDS ***
+  idsL <-append(idsL, k)
+}
+#idsL
+#length(idsL) #25
+#length(GNMtxL[,1]) #25
+
+Nodes2L <-cbind(GNMtxL,idsL) ## CREO UNA MATRIZ NUEVA CON LA MATRIZ DE NODOS Y LOS IDS. ESTA LA VOY A USAR COMO UN DICCIONARIO ID-NODO ***
+#Nodes2L
+Nodes2L<-Nodes2L[,c(3,1,2)] ## REORDENO LAS COLUMNAS DE LA MATRIZ ***
+colnames(Nodes2L)<-c("id","label","score") ## ETIQUETO LAS COLUMNAS ***
+
+GEMtxL <- RowCtsL ## ESTA VA A SER LA MATRIZ DE VERTICES ***
+Edges2L <- as.matrix(RowCtsL)#RowCts ESTA ES OTRA MATRIZ DE VERTICES DE LA CUAL VOY A SUSTITUIR LOS NODOS POR SUS IDS ***
+
+for (n in 1:length(Nodes2L[,2])){ ##AQUI CAMBIARE LOS PALINDROMOS DE LOS NODOS POR IDS ***
+  Edges2L[Edges2L==Nodes2L[n,2]] <- as.numeric(Nodes2L[n,1])
+  #print(n)
+}
+
+for (n in 1:length(Nodes2L[,2])){ ## HANDLE 0's
+  Nodes2L[Nodes2L==0] <- as.numeric(1)
+  #print(n)
+}
+```
+
+```{r,echo=FALSE,message=FALSE}
+nodesL = as_tibble(Nodes2L)
+nodesL = select(nodesL, -score)
+
+edgesL = as_tibble(Edges2L)
+edgesL = transform(edgesL, from = as.integer(from))
+edgesL = transform(edgesL, to = as.integer(to))
+edgesL = transform(edgesL, weight = as.integer(weight))
+edgesL = as_tibble(edgesL)
+
+### ***  
+routes_tidyL <- tbl_graph(nodes = nodesL,
+                          edges = edgesL,
+                          directed = TRUE)
+
+routes_tidyL %>%
+  activate(edges) %>% 
+  arrange(desc(weight))
+```
+
+
+```{r,echo=FALSE}
+#visNetwork(nodesL, edgesL)
+```
+
+
+```{r,message=FALSE,echo=FALSE}
+edgesL <- mutate(edgesL, width = weight/5 + 1)
+visNetwork(nodesL, edgesL) %>% 
+  visIgraphLayout(layout = "layout_with_fr") %>% 
+  visEdges(arrows = "middle")
+```
+ 
+  
+```{r,echo=FALSE}
+nodes_d3L <- mutate(nodesL, id = id - 1)
+edges_d3L <- mutate(edgesL, from = from - 1, to = to - 1)
+
+#forceNetwork(Links = edges_d3L, Nodes = nodes_d3L,
+#             Source = "from", Target = "to", 
+#             NodeID = "label", Group = "id", Value = "weight", 
+#             opacity = 1, fontSize = 16, zoom = TRUE)  
+```
+
+```{r,echo=FALSE}
+sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", Target = "to", 
+              NodeID = "label", Value = "weight", fontSize = 16, unit = "TIME(s)")
+```
+
+
+# **8--7**
+```{r}
+ggtree(Tree2) +
+  geom_tiplab(color='firebrick', offset = .10, hjust=3.0)+
+  geom_label(aes(label = node),show.legend = TRUE)
+```
+```{r,echo=FALSE,message=FALSE}
+DIRECTION = "8--7"
+
+RowCtsL <- setDT(LINKS)[,list(Count=as.numeric(.N)),names(LINKS)] ## CUENTO EL NUMERO DE OCURRENCIAS DE CADA TRANSICIÓN #11520 ***
+colnames(RowCtsL) <- c("from","to","direction","weight") ## CAMBIO LA ETIQUETA "counts" A "weight" ***
+RowCtsL = transform(RowCtsL, weight = as.integer(weight)) ## CONVIERTO A ENTEROS LA COLUMNA "weight" ***
+RowCtsL <-as_tibble(RowCtsL) ## CONVIERTO A TIBBLE**
+length(RowCtsL$from) #11520
+#RowCtsL<-RowCtsL%>% ##QUITO LOS LOOPS. ES DECIR QUITO AQUELLAS TRANSICIONES QUE VAYAN ASI MISMA ***
+#  filter(from!=to)
+#length(RowCtsL$from) #6380
+RowCtsL<-RowCtsL%>% ## QUITO AQUELLAS TRANSICIONES CON UN PESO MENOR A 2 ***
+  filter(weight>=WGHT)
+#length(RowCtsL$from) #48
+
+RowCtsL<-RowCtsL%>% ## filtro las direcciones 9--8
+  filter(direction==DIRECTION)
+#length(RowCtsL$from) #182
+
+GraphNodesL <- c(RowCtsL$from, RowCtsL$to) ## OBTENGO LOS PALINDROMOS DE CADA NODO ***
+#length(GraphNodesL) #96
+
+GNMtxL <- matrix(0, ## CREO LA MATRIZ QUE CONTENDRÁ LAS NODOS PARA EL GRAFO ***
+                nrow = length(GraphNodesL),
+                ncol = 2)
+colnames(GNMtxL) <- c("pal","score") ## ETIQUETO LAS COLUMNAS DE LA MATRIZ ***
+
+for (i in 1:length(GraphNodesL)){ ## RELLENO LA MATRIZ ***
+  GNMtxL[i,1] = GraphNodesL[i] ## AGREGO LOS NODOS ***
+  GNMtxL[i,2] = RecordLinkage::levenshteinSim(GraphNodesL[i], 'GCGATCGC')*1000 ## AGREGO UN SCORE QUE SERÁ EL PORCENTAJE DE IDENTIDAD CON HIP1 MULTIPLICADO POR 1000 ***
+}
+
+GNMtxL <- as.data.frame(GNMtxL) ## CONVIERTO LA MATRIZ DE NODOS A DF ***
+GNMtxL <- GNMtxL[!duplicated(GNMtxL), ] ## ELIMINO LOS NODOS DUPLICADOS ***
+palindromesL<-GNMtxL[,1] #25  ## EXTRAIGO LOS NODOS DE LA MATRIZ DEL GRAFO. ESTO LO HAGO PARA POSTERIAMENTE ENUMERARLAS Y ASOCIAR CADA NUMERO COMO ID ***
+
+idsL<-c() ## CREO UN VECTOR VACIO QUE CONTENDRÁ LOS ID'S ***
+for (k in 1:length(palindromesL)){ ## ENUMERO LOS PALINDROMOS. ESTOS NUMEROS SERAN LOS IDS ***
+  idsL <-append(idsL, k)
+}
+#idsL
+#length(idsL) #25
+#length(GNMtxL[,1]) #25
+
+Nodes2L <-cbind(GNMtxL,idsL) ## CREO UNA MATRIZ NUEVA CON LA MATRIZ DE NODOS Y LOS IDS. ESTA LA VOY A USAR COMO UN DICCIONARIO ID-NODO ***
+#Nodes2L
+Nodes2L<-Nodes2L[,c(3,1,2)] ## REORDENO LAS COLUMNAS DE LA MATRIZ ***
+colnames(Nodes2L)<-c("id","label","score") ## ETIQUETO LAS COLUMNAS ***
+
+GEMtxL <- RowCtsL ## ESTA VA A SER LA MATRIZ DE VERTICES ***
+Edges2L <- as.matrix(RowCtsL)#RowCts ESTA ES OTRA MATRIZ DE VERTICES DE LA CUAL VOY A SUSTITUIR LOS NODOS POR SUS IDS ***
+
+for (n in 1:length(Nodes2L[,2])){ ##AQUI CAMBIARE LOS PALINDROMOS DE LOS NODOS POR IDS ***
+  Edges2L[Edges2L==Nodes2L[n,2]] <- as.numeric(Nodes2L[n,1])
+  #print(n)
+}
+
+for (n in 1:length(Nodes2L[,2])){ ## HANDLE 0's
+  Nodes2L[Nodes2L==0] <- as.numeric(1)
+  #print(n)
+}
+```
+
+```{r,echo=FALSE,message=FALSE}
+nodesL = as_tibble(Nodes2L)
+nodesL = select(nodesL, -score)
+
+edgesL = as_tibble(Edges2L)
+edgesL = transform(edgesL, from = as.integer(from))
+edgesL = transform(edgesL, to = as.integer(to))
+edgesL = transform(edgesL, weight = as.integer(weight))
+edgesL = as_tibble(edgesL)
+
+### ***  
+routes_tidyL <- tbl_graph(nodes = nodesL,
+                          edges = edgesL,
+                          directed = TRUE)
+
+routes_tidyL
+
+routes_tidyL %>%
+  activate(edges) %>% 
+  arrange(desc(weight))
+```
+
+
+```{r,echo=FALSE}
+#visNetwork(nodesL, edgesL)
+```
+
+
+```{r,message=FALSE,echo=FALSE}
+edgesL <- mutate(edgesL, width = weight/5 + 1)
+visNetwork(nodesL, edgesL) %>% 
+  visIgraphLayout(layout = "layout_with_fr") %>% 
+  visEdges(arrows = "middle")
+```
+ 
+  
+```{r,echo=FALSE}
+nodes_d3L <- mutate(nodesL, id = id - 1)
+edges_d3L <- mutate(edgesL, from = from - 1, to = to - 1)
+
+#forceNetwork(Links = edges_d3L, Nodes = nodes_d3L,
+#             Source = "from", Target = "to", 
+#             NodeID = "label", Group = "id", Value = "weight", 
+#             opacity = 1, fontSize = 16, zoom = TRUE)  
+```
+
+```{r,echo=FALSE}
+sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", Target = "to", 
+              NodeID = "label", Value = "weight", fontSize = 16, unit = "TIME(s)")
+```
+

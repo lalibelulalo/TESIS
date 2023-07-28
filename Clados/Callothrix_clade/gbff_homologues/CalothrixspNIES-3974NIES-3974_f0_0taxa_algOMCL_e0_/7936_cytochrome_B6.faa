@@ -1,0 +1,6 @@
+>ID:WP_082127382.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|petL|96|NZ_CP011382(6283267):5574856-5574951:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035157216.1(1),ID:WP_035157218.1(-1)|neighbour_genes:Gfo/Idh/MocA family ..,bioB| | aligned:1-31 (31)
+MLGVVSYILFIGAFFGLAVGLLFGLRSIKLL
+>ID:WP_157780838.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|cytochrome B6|96|NZ_AP018254(5985875):3296423-3296518:-1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096622425.1(1),ID:WP_096622426.1(-1)|neighbour_genes:hypothetical protein,mechanosensitive ion..| | aligned:1-31 (31)
+MMGILLFVVFIAIFFGIAVGLLFGLRSAKIL
+>ID:WP_144051017.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|cytochrome B6|96|NC_019751(6767834):2235998-2236093:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015197560.1(-1),ID:WP_015197561.1(-1)|neighbour_genes:aroB,TolC family protein| | aligned:1-31 (31)
+MLGAILFVLFIGAFIGLAIGLLFGLRAVKLI

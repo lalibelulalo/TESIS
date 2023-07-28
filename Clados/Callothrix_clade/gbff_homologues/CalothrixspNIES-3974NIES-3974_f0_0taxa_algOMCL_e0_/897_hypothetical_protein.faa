@@ -1,0 +1,8 @@
+>ID:WP_035150300.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|228|NZ_CP011382(6283267):989732-989959:-1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035150298.1(-1),ID:WP_035150303.1(1)|neighbour_genes:type II toxin-antito..,ATP-dependent 6-phos..| | aligned:1-73 (75)
+MLDETALENRLLSLEKAVFALQSQAKEKYSEKNSENWLDKLIGSISDEEAFLEALEYGRAFRQSDKPHDEESEET
+>ID:WP_096691151.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|transferase hexapept..|210|NZ_AP018255(11064963):8113493-8113702:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096691150.1(1),ID:WP_096691152.1(-1)|neighbour_genes:HsdR family type I s..,threonine dehydratas..| | aligned:1-69 (69)
+MLDEEAIEHRLANLEREVAALKQKNNSSNSDNWLNKLIGSISDEDAFLQALEYGRSFRQSDRPVDEGDE
+>ID:WP_096691151.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|transferase hexapept..|210|NZ_AP018290(11062175):8111190-8111399:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096691150.1(1),ID:WP_096691152.1(-1)|neighbour_genes:HsdR family type I s..,threonine dehydratas..| | aligned:1-69 (69)
+MLDEEAIEHRLANLEREVAALKQKNNSSNSDNWLNKLIGSISDEDAFLQALEYGRSFRQSDRPVDEGDE
+>ID:WP_224175547.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|transferase hexapept..|210|NZ_AP025018(11423121):8864906-8865115:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224175546.1(-1),ID:WP_223978195.1(1)|neighbour_genes:hypothetical protein,type II toxin-antito..| | aligned:1-69 (69)
+MLDEAAIEHRLANLEREVAALKQKNNNDSTSDNWLNNLIGSISDEAAFIEALEYGRSFRQSDKPADEGD

@@ -1,0 +1,6 @@
+>ID:WP_172892742.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|hypothetical protein|177|NZ_AP018254(5985875):449220-449396:1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096620197.1(1),ID:WP_096620198.1(-1)|neighbour_genes:Hsp20/alpha crystall..,glycerol acyltransfe..| | aligned:1-58 (58)
+MTDNTTRKGFWQAIIEIPQKVINFISGGVKRIFTPADDNYPEVGPQPFEGEPAEKKNY
+>ID:WP_223973433.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|174|NZ_AP025018(11423121):8524168-8524341:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224175396.1(-1),ID:WP_224175397.1(-1)|neighbour_genes:hypothetical protein,response regulator| | aligned:2-57 (57)
+MANPNTNGILQAVKEVPQKIIGYLSGAVSRIFAPRDDDFPETGVQPFEGEPSEKKHY
+>ID:WP_224176237.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|174|NZ_AP025018(11423121):10063034-10063207:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223979201.1(1),ID:WP_223979220.1(-1)|neighbour_genes:tetratricopeptide re..,CBS domain-containin..| | aligned:1-57 (57)
+MPTNTNRTTILETIKQVPQKIVSYISGAVVRIFSPRDDNYPETGVQPFEGEPSHKRN

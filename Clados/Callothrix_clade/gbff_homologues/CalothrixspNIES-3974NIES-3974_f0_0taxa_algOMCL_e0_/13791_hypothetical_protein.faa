@@ -1,0 +1,6 @@
+>ID:WP_096688307.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|216|NZ_AP018255(11064963):4424446-4424661:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096688306.1(-1),ID:WP_096688308.1(1)|neighbour_genes:cyanophycinase,acetate--CoA ligase ..| | aligned:1-71 (71)
+MNATEASLRNEVKQLAEDAFHRKLISGYGDGPDVSEFQIVFEGKPRHFPLEQAKSFLTALLADADDLNELI
+>ID:WP_096688307.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|216|NZ_AP018290(11062175):4424689-4424904:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096688306.1(-1),ID:WP_096688308.1(1)|neighbour_genes:cyanophycinase,acetate--CoA ligase ..| | aligned:1-71 (71)
+MNATEASLRNEVKQLAEDAFHRKLISGYGDGPDVSEFQIVFEGKPRHFPLEQAKSFLTALLADADDLNELI
+>ID:WP_019490071.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|216|NZ_AP025018(11423121):7659040-7659255:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224175007.1(-1),ID:WP_223972513.1(1)|neighbour_genes:cyanophycin syntheta..,cyanophycinase| | aligned:1-71 (71)
+MNATEASLRNEVRQLAEEAFHRKLISGYGDGPDVSEYQIVIEGKPRHLTLEHAKSFLNALLEGNGDAEELM

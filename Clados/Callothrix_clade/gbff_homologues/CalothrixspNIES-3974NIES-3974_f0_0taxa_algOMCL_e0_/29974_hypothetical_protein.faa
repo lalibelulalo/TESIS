@@ -1,0 +1,6 @@
+>ID:WP_015196038.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|246|NC_019751(6767834):339271-339516:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015196037.1(1),ID:WP_015196039.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-81 (81)
+MLQAISSGQTFVTNLEQFMTKADKFIKIYYAGISEESKVREIVQELQNLLSDTDLQQLEIDYQHYCEIKDLMSDCDDSAWF
+>ID:WP_015197905.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|246|NC_019751(6767834):2674575-2674820:-1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015197904.1(-1),ID:WP_015197906.1(-1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-81 (81)
+MLKAISHEQTFVTNLEQFMTKADKFIKIYYSGISEENKVREIVQELQNLLSDTDLRQLEIDYQHSCGIKDLMSDCDDSAWF
+>ID:WP_015198231.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|246|NC_019751(6767834):3123054-3123299:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015198005.1(1),ID:WP_015196011.1(-1)|neighbour_genes:IS4 family transposa..,ISL3 family transpos..| | aligned:1-81 (81)
+MVQAISNEQTFVTNLEQFMTKADKFIKIYYSGISEENKVREIVQELQNLISDTDLQQLEIDYHNYCEIKDFISDCDDSAWF

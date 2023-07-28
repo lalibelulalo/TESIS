@@ -1,0 +1,8 @@
+>ID:WP_168163480.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|153|NZ_CP011382(6283267):3281729-3281881:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035153918.1(1),ID:WP_035153921.1(1)|neighbour_genes:HEAT repeat domain-c..,class I SAM-dependen..| | aligned:1-50 (50)
+MNLKTDKDKPQTTTSTDISSETEKILCPHCQRTATNGIKCKGICVADSDY
+>ID:WP_172892746.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|hypothetical protein|162|NZ_AP018254(5985875):661252-661413:-1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096620334.1(-1),ID:WP_096620335.1(-1)|neighbour_genes:J domain-containing ..,ABC-F family ATP-bin..| | aligned:6-53 (53)
+MNQENQTQTNQPPTSPNTNNQEAPREEILCHHCLRTATNGIKCKGICVADSDY
+>ID:WP_015200767.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|159|NC_019751(6767834):6351587-6351745:-1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_041740932.1(1),ID:WP_015200768.1(1)|neighbour_genes:S-(hydroxymethyl)glu..,efflux RND transport..| | aligned:1-52 (52)
+MNLQSNKDKLPASITKKITLETEKEKILCPHCQRTATNGIKCQGICVSDSDY
+>ID:WP_255666548.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|135|NZ_AP025018(11423121):9101463-9101597:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223978358.1(1),ID:WP_224175624.1(-1)|neighbour_genes:CHAT domain-containi..,serine hydrolase| | aligned:6-44 (44)
+MSQTNTNTKTQQEIEQEKILCPHCQRTATNGIKCKGICVADNDY

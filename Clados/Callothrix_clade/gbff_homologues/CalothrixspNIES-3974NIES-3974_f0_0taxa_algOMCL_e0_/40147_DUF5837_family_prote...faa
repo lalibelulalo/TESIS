@@ -1,0 +1,4 @@
+>ID:WP_224179425.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|DUF5837 family prote..|210|NZ_AP025018(11423121):5602517-5602726:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223985284.1(1),ID:WP_223985294.1(1)|neighbour_genes:DUF5837 family prote..,DUF5837 family prote..| | aligned:1-69 (69)
+MEEKNKNLLPKLSEPVVRLSPGANPNSSEELSEEELTGNWGVYQAGIDASIFCLQQSNCLQPFAGNNAE
+>ID:WP_223985294.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|DUF5837 family prote..|213|NZ_AP025018(11423121):5602762-5602974:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224179425.1(1),ID:WP_224179426.1(1)|neighbour_genes:DUF5837 family prote..,PatA/PatG family cya..| | aligned:1-70 (70)
+MKDKSNGFLPKISEPVVRLPLGVNPNPDDELSEEELTGNFASSQGGINPSSLAIGCVLALCSPFAGDSAE

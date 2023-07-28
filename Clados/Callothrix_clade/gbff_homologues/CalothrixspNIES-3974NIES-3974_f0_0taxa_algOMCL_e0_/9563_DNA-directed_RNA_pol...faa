@@ -1,0 +1,12 @@
+>ID:WP_035150901.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|DNA-directed RNA pol..|237|NZ_CP011382(6283267):1463309-1463545:-1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035150898.1(-1),ID:WP_035150903.1(-1)|neighbour_genes:hypothetical protein,glycoside hydrolase ..| | aligned:1-78 (78)
+MLKRSRFETTPSQIMHRAEDLISAASNRYRITVQVANRAKRRRYEDFDSAEDMMMKPVLRAIIEMSDELTQPEIIGEV
+>ID:WP_096624997.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|DNA-directed RNA pol..|237|NZ_AP018254(5985875):5423936-5424172:1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096624995.1(1),ID:WP_096624999.1(1)|neighbour_genes:FHA domain-containin..,DUF1818 family prote..| | aligned:1-78 (78)
+MLKRSRFETTQTQIMHRAEDLISAASNRYRITVQVANRAKRRRYEDFDSGDDMVMKPVLRAIIEMSDELTQPEIIGEV
+>ID:WP_026093591.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|DNA-directed RNA pol..|237|NZ_AP018255(11064963):10847636-10847872:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096693459.1(-1),ID:WP_096693462.1(1)|neighbour_genes:hypothetical protein,fasciclin domain-con..| | aligned:1-78 (78)
+MLKRSKFETTQSQIMHRAEDLIHAASNRYRITVQVANRAKRRRYEDFDNADDTLMKPVLRAIIEMSDELTQPEIIGEV
+>ID:WP_026093591.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|DNA-directed RNA pol..|237|NZ_AP018290(11062175):10844848-10845084:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096693459.1(-1),ID:WP_096693462.1(1)|neighbour_genes:hypothetical protein,fasciclin domain-con..| | aligned:1-78 (78)
+MLKRSKFETTQSQIMHRAEDLIHAASNRYRITVQVANRAKRRRYEDFDNADDTLMKPVLRAIIEMSDELTQPEIIGEV
+>ID:WP_015200662.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|DNA-directed RNA pol..|237|NC_019751(6767834):6202154-6202390:-1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015200661.1(-1),ID:WP_015200663.1(-1)|neighbour_genes:hypothetical protein,ACT domain-containin..| | aligned:1-78 (78)
+MLKRSKFETTQSQIMYRAEDLIAAASNRYRITVQVANRAKRRRYEDFDSTDDMMMKPVLRAIIEMSDELTQPEIIGEI
+>ID:WP_026093591.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|DNA-directed RNA pol..|237|NZ_AP025018(11423121):10438940-10439176:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223990240.1(-1),ID:WP_224176406.1(1)|neighbour_genes:fasciclin domain-con..,hypothetical protein| | aligned:1-78 (78)
+MLKRSKFETTQSQIMHRAEDLIHAASNRYRITVQVANRAKRRRYEDFDNADDTLMKPVLRAIIEMSDELTQPEIIGEV

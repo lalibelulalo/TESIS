@@ -1,0 +1,16 @@
+>ID:WP_035152024.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|240|NZ_CP011382(6283267):2065816-2066055:-1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035152022.1(-1),ID:WP_035152025.1(1)|neighbour_genes:HNH endonuclease,class I SAM-dependen..| | aligned:1-79 (79)
+MITQMMVQPSSWVESGIQISKVRDLYLFKFTPDLQARLDRLNENKKTEMLTQEEEAELAGILELDRIFTLLNAKVIAQS
+>ID:WP_096620834.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|hypothetical protein|240|NZ_AP018254(5985875):1403408-1403647:-1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096620833.1(-1),ID:WP_172892757.1(1)|neighbour_genes:HNH endonuclease,SH3 domain-containin..| | aligned:1-79 (79)
+MITQMMVQPSSWVESGIKISKVRDLYLFKFTPELQSRLDDLNDKKKLDTLTSEEEAELTGILELDRIFTLLNAKIIAES
+>ID:WP_096687526.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|234|NZ_AP018255(11064963):3429089-3429322:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096694124.1(1),ID:WP_096694125.1(1)|neighbour_genes:speD,vanadium-dependent h..| | aligned:1-77 (77)
+MTTVIVRPSSLLSSIQIEKLDNFNLFKFDNKLQARMEELLERKKTDLLTTEEAIELEEIGELDRIFTHINAMLVAQK
+>ID:WP_026093300.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|240|NZ_AP018255(11064963):8779021-8779260:1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096691641.1(1),ID:WP_096691642.1(1)|neighbour_genes:hypothetical protein,HNH endonuclease| | aligned:1-79 (79)
+MMTQVMVQPSSWVESGIKISQVRNLKLFKFTDELQSRLEELNANKKAGMLNSEEEAELTGILELDRIFTLLNAKIIADS
+>ID:WP_096687526.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|234|NZ_AP018290(11062175):3429298-3429531:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096694124.1(1),ID:WP_096694125.1(1)|neighbour_genes:speD,vanadium-dependent h..| | aligned:1-77 (77)
+MTTVIVRPSSLLSSIQIEKLDNFNLFKFDNKLQARMEELLERKKTDLLTTEEAIELEEIGELDRIFTHINAMLVAQK
+>ID:WP_026093300.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|240|NZ_AP018290(11062175):8776465-8776704:1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096691641.1(1),ID:WP_096691642.1(1)|neighbour_genes:hypothetical protein,HNH endonuclease| | aligned:1-79 (79)
+MMTQVMVQPSSWVESGIKISQVRNLKLFKFTDELQSRLEELNANKKAGMLNSEEEAELTGILELDRIFTLLNAKIIADS
+>ID:WP_041740528.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|234|NC_019751(6767834):3208531-3208764:-1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015198322.1(-1),ID:WP_015198324.1(-1)|neighbour_genes:HNH endonuclease,hypothetical protein| | aligned:1-77 (77)
+MTTVIARPSSLLSSIRVEKLENFNLFKFNDKLQVRMEELLERKKADLLTPEEIIELEEIGELDRIFTHINAMIVAQK
+>ID:WP_223980800.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|240|NZ_AP025018(11423121):610971-611210:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224177136.1(1),ID:WP_223980802.1(1)|neighbour_genes:hypothetical protein,HNH endonuclease| | aligned:1-79 (79)
+MMTQVMVQPSSWVESGITISQVRNLKLFKFTNELQLRLEELNSRRKAGMLNLEEEAELTGILELDRIFTLLNAKIIADS

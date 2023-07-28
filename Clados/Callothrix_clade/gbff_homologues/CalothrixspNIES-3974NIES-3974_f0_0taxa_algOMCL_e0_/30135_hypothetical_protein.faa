@@ -1,0 +1,4 @@
+>ID:WP_015196188.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|273|NC_019751(6767834):540129-540401:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015196187.1(1),ID:WP_015196189.1(1)|neighbour_genes:BrnT family toxin,hypothetical protein| | aligned:3-72 (90)
+MNRKVNSEMEDELLPEYDFSQLEGGVRGKYVERYQKSTNLVLLEPDVAQMFPDAHAVNEALRLLLRVMNSNQALVTQSPGNIELEATGEK
+>ID:WP_223985987.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|237|NZ_AP025018(11423121):5959345-5959581:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223985984.1(1),ID:WP_223985990.1(-1)|neighbour_genes:ACT domain-containin..,BrnT family toxin| | aligned:2-69 (78)
+MKKVDEEMDDELRAEYDLKSLRVRKFGSGRKNFGDVTVRLEPDVAEIFPNADAVNETLRFVIRVMQQNQPADQIKSAE

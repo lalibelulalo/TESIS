@@ -1,0 +1,6 @@
+>ID:WP_035149749.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|162|NZ_CP011382(6283267):632284-632445:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035149747.1(-1),ID:WP_035149750.1(1)|neighbour_genes:phenylpyruvate tauto..,tellurite resistance..| | aligned:1-45 (53)
+MTTYILFDDALRMLVNAFLLSVGILIAVSGFGLAVVEIVEKAEVREPAPKRFP
+>ID:WP_041740722.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|138|NC_019751(6767834):4138659-4138796:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015199041.1(1),ID:WP_015199043.1(-1)|neighbour_genes:cobalamin biosynthes..,energy-coupling fact..| | aligned:1-45 (45)
+MDNYIFFDDALHMLVNAFLGSVAVLMAASGIGLAVIESIEKTSDR
+>ID:WP_223973057.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|138|NZ_AP025018(11423121):8199256-8199393:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224175254.1(-1),ID:WP_223973058.1(1)|neighbour_genes:GNAT family N-acetyl..,tellurite resistance..| | aligned:1-45 (45)
+MDSYIFFDDALRILVNAFLASAILLMAASGIGLAVIESIEKASDR

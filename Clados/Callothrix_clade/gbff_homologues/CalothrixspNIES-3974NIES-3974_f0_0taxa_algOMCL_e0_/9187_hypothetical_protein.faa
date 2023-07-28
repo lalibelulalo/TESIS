@@ -1,0 +1,10 @@
+>ID:WP_035158321.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|237|NZ_CP011382(6283267):722128-722364:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_168163407.1(-1),ID:WP_035149910.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:7-78 (78)
+MTKSKPSHYSRLFQLTVRFFKYLLLAIFGLTIAYILSMSFGVFSLFAALLPFLGDLFGKLTVILLCLITVTVILESLR
+>ID:WP_096624356.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|hypothetical protein|228|NZ_AP018254(5985875):4894684-4894911:-1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096626432.1(-1),ID:WP_096624358.1(1)|neighbour_genes:S-layer homology dom..,tetratricopeptide re..| | aligned:1-75 (75)
+MTTNRYNPMFRLVVRLIKYFLLMIAGFAIAYLLSHLFGLSALAVSAFPSVTQLIITTGLILMSVLGLLIVVESAK
+>ID:WP_096693395.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|231|NZ_AP018255(11064963):10790567-10790797:1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096693393.1(-1),ID:WP_096694558.1(-1)|neighbour_genes:LuxR C-terminal-rela..,tRNA (N6-isopentenyl..| | aligned:1-76 (76)
+MTTNNYSPLFRLVARFIKYFLLMSLGIAIAYTLSTILGLPHLVGINFIEIAFGWFWRLGVMLLCLIAVTMIYESLR
+>ID:WP_096693395.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|231|NZ_AP018290(11062175):10787779-10788009:1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096693393.1(-1),ID:WP_096694558.1(-1)|neighbour_genes:LuxR C-terminal-rela..,tRNA (N6-isopentenyl..| | aligned:1-76 (76)
+MTTNNYSPLFRLVARFIKYFLLMSLGIAIAYTLSTILGLPHLVGINFIEIAFGWFWRLGVMLLCLIAVTMIYESLR
+>ID:WP_223977648.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|225|NZ_AP025018(11423121):10807336-10807560:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224176522.1(-1),ID:WP_223977649.1(-1)|neighbour_genes:LuxR C-terminal-rela..,miaB| | aligned:1-74 (74)
+MTTNNYSPLFRLVARFIKYFLLMSLGIAIAYTLSTILGASPGLAIVGVAFGWFWRLGVVLLCLIAVTMIYESLR

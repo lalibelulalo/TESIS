@@ -1,0 +1,18 @@
+>ID:WP_035156345.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|psaJ|138|NZ_CP011382(6283267):5061472-5061609:-1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035156342.1(-1),ID:WP_035156348.1(-1)|neighbour_genes:photosystem I reacti..,photosystem I reacti..| | aligned:2-45 (45)
+MDKQSYFVKFLSTAPVITTIWLFITAGILIEFNRFFPDLLFHPMP
+>ID:WP_096625952.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|psaJ|132|NZ_AP018254(5985875):1566375-1566506:1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096620956.1(1),ID:WP_096620957.1(1)|neighbour_genes:Photosystem I reacti..,photosystem I reacti..| | aligned:2-43 (43)
+MEQQHLLKYLSTAPVLIFALLIFTAGLLIEFNRFFPDLLFHPL
+>ID:WP_096689174.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|PsaJ protein|156|NZ_AP018255(11064963):5570055-5570210:1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096689173.1(-1),ID:WP_096694242.1(-1)|neighbour_genes:hypothetical protein,cell division topolo..| | aligned:1-51 (51)
+MQNIQKAEQKRYFSRYISLAPVLAVVSISLAFTIWAIFNNFFPDLLFHPLP
+>ID:WP_096690266.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|Photosystem I reacti..|135|NZ_AP018255(11064963):7004431-7004565:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096690265.1(-1),ID:WP_096690267.1(-1)|neighbour_genes:photosystem I reacti..,Photosystem I reacti..| | aligned:1-44 (44)
+MQNGLLRYLSLAPVTLFAILIAQAVLLIVFNLIFPDLLFHPLPQ
+>ID:WP_096689174.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|PsaJ protein|156|NZ_AP018290(11062175):5568276-5568431:1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096689173.1(-1),ID:WP_096694242.1(-1)|neighbour_genes:hypothetical protein,cell division topolo..| | aligned:1-51 (51)
+MQNIQKAEQKRYFSRYISLAPVLAVVSISLAFTIWAIFNNFFPDLLFHPLP
+>ID:WP_096690266.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|Photosystem I reacti..|135|NZ_AP018290(11062175):7002475-7002609:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096690265.1(-1),ID:WP_096690267.1(-1)|neighbour_genes:photosystem I reacti..,Photosystem I reacti..| | aligned:1-44 (44)
+MQNGLLRYLSLAPVTLFAILIAQAVLLIVFNLIFPDLLFHPLPQ
+>ID:WP_041739903.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|psaJ|132|NC_019751(6767834):5748913-5749044:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015200289.1(1),ID:WP_015200291.1(1)|neighbour_genes:photosystem I reacti..,photosystem I reacti..| | aligned:1-43 (43)
+MDANFLRFLSTAPVMIFALLSFTAGLLIEFNRFFPDLLFHPLP
+>ID:WP_073618674.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|Photosystem I reacti..|135|NZ_AP025018(11423121):3198233-3198367:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223974089.1(1),ID:WP_223974087.1(1)|neighbour_genes:Photosystem I reacti..,photosystem I reacti..| | aligned:1-44 (44)
+MQNGLLRYLSLAPVTLFALLIAQAVLLIVFNLIFPDLLFHPMPR
+>ID:WP_223985021.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|PsaJ protein|150|NZ_AP025018(11423121):5491610-5491759:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224179368.1(-1),ID:WP_223985024.1(-1)|neighbour_genes:PAS domain-containin..,minE| | aligned:1-49 (49)
+MQNTDQQKTFFSRYLSLAPVLAVVSVSIAFTIWAVFNNFFPDLLFHPLP

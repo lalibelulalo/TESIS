@@ -1,0 +1,8 @@
+>ID:WP_096619917.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|hypothetical protein|213|NZ_AP018254(5985875):90911-91123:-1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096619915.1(1),ID:WP_231943170.1(-1)|neighbour_genes:ftsH3,DUF5615 family PIN-l..| | aligned:1-70 (70)
+MNNEKTLDRKQFVGNLKQGVWFFGVSSWMFGITDRSIASFADGYLSALDLTQLFTAATFFVAWLFLKPVK
+>ID:WP_096691411.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|225|NZ_AP018255(11064963):8449394-8449618:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096691410.1(-1),ID:WP_096691412.1(1)|neighbour_genes:DNA cytosine methylt..,UV DNA damage repair..| | aligned:1-74 (74)
+MNNQQSTDSNEFVGNLKNGIWLFGVSSWVFGITDRSIASFSDGYLSALDLTQLFTAATFFAAWLFLKPTSTSKV
+>ID:WP_096691411.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|225|NZ_AP018290(11062175):8447091-8447315:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096691410.1(-1),ID:WP_096691412.1(1)|neighbour_genes:DNA cytosine methylt..,UV DNA damage repair..| | aligned:1-74 (74)
+MNNQQSTDSNEFVGNLKNGIWLFGVSSWVFGITDRSIASFSDGYLSALDLTQLFTAATFFAAWLFLKPTSTSKV
+>ID:WP_127077947.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|216|NZ_AP025018(11423121):1601556-1601771:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223976296.1(1),ID:WP_224177565.1(1)|neighbour_genes:peptidase,uvsE| | aligned:1-70 (71)
+MNNQQSSDSNEFVGNLKNGIWLFGVSSWVFGITDRSIASFSDGYLSALDLTQLFTAATFFVAWIFLKPVKV

@@ -1,0 +1,12 @@
+>ID:WP_035156064.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|195|NZ_CP011382(6283267):4876969-4877163:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035156061.1(-1),ID:WP_035156066.1(-1)|neighbour_genes:NACHT domain-contain..,hypothetical protein| | aligned:1-59 (64)
+MMRIRDVVQKALVTGYLTVEAENQLRQLLSTRYELEDFNAFMLLQEAAMTGKVRQESREQRCPT
+>ID:WP_096622918.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|hypothetical protein|201|NZ_AP018254(5985875):3860138-3860338:-1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096622916.1(1),ID:WP_096622920.1(1)|neighbour_genes:hypothetical protein,NB-ARC domain-contai..| | aligned:1-59 (66)
+MTRIRDVVKVALAKGYLTLEAEESLRKMLANPYDQEDFQAFMMLQEAAMMGQVKQQSREILETAQK
+>ID:WP_096694224.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|186|NZ_AP018255(11064963):5209004-5209189:1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096688903.1(-1),ID:WP_096688904.1(-1)|neighbour_genes:NACHT domain-contain..,hypothetical protein| | aligned:1-61 (61)
+MARIRDVVQEALITGYLTLEAENQLRQLLTTRYDNEDFNAFMKLQEAAMGGKVKQQSRERN
+>ID:WP_096694224.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|186|NZ_AP018290(11062175):5207295-5207480:1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096688903.1(-1),ID:WP_096688904.1(-1)|neighbour_genes:NACHT domain-contain..,hypothetical protein| | aligned:1-61 (61)
+MARIRDVVQEALITGYLTLEAENQLRQLLTTRYDNEDFNAFMKLQEAAMGGKVKQQSRERN
+>ID:WP_015196800.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|192|NC_019751(6767834):1275233-1275424:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015196799.1(-1),ID:WP_015196801.1(-1)|neighbour_genes:NB-ARC domain-contai..,hypothetical protein| | aligned:1-62 (63)
+MDTIRDIAKEALSKGYLTVEAENQLRCLLASRYELEDFNAFMALQEAAMMGKVRQESREDCKI
+>ID:WP_223975283.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|240|NZ_AP025018(11423121):2639462-2639701:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224177976.1(1),ID:WP_224177977.1(1)|neighbour_genes:LapA family protein,NB-ARC domain-contai..| | aligned:1-62 (79)
+MTRIRDVVQEALLTGYLTLEAENQLRQLLTTRYDTEDLNAFMKLQEAAMGGEVRQQSREDSKHEDAAPSVTVHAAPATA

@@ -1,0 +1,6 @@
+>ID:WP_224177279.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|180|NZ_AP025018(11423121):939222-939401:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224177278.1(-1),ID:WP_223981971.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-52 (59)
+MSSSRVQPDVAKVRLTSEKAKQACLEMKKAGEELEEALLQLEAEAQAYKPVRSIKSQTT
+>ID:WP_223981971.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|165|NZ_AP025018(11423121):939610-939774:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224177279.1(1),ID:WP_223981974.1(-1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-53 (54)
+MSSSKVQPDMAKVRLTAEKAKKACLEMEQAFDELEQAILQLEAEAQAHKPVKKY
+>ID:WP_223981982.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|162|NZ_AP025018(11423121):940756-940917:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224177281.1(1),ID:WP_224177282.1(-1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-53 (53)
+MSSSKVQPDIAKVRLTAEKVKKACLEMDKAGEELEKALLQLEAEAQAHKPVKK

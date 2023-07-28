@@ -1,0 +1,12 @@
+>ID:WP_035153226.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|rpmF|171|NZ_CP011382(6283267):2762365-2762535:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035153224.1(1),ID:WP_035153230.1(1)|neighbour_genes:hypothetical protein,sulfite oxidase-like..| | aligned:1-50 (56)
+MAVPKKKTSKSKRDKRRATWRHKAVVQAEKALSLGKSILTGRSTFVYPTAEEEEEE
+>ID:WP_096621345.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|rpmF|177|NZ_AP018254(5985875):2158688-2158864:1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096621344.1(1),ID:WP_096621346.1(-1)|neighbour_genes:hypothetical protein,glycosyltransferase ..| | aligned:1-49 (58)
+MAVPKKKTSKSKRDKRRATWRRKATLQAEKALSLGKSILTGRSTFYYPSDEEEEEEEE
+>ID:WP_019490652.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|50S ribosomal protei..|177|NZ_AP018255(11064963):2604579-2604755:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096686507.1(-1),ID:WP_096686509.1(-1)|neighbour_genes:sulfite oxidase-like..,hypothetical protein| | aligned:1-58 (58)
+MAVPKKKTSKSKRDSRRATWRRKAEVQAQKAISLGKSILSGRSTFVYPTDEEESEDEE
+>ID:WP_019490652.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|50S ribosomal protei..|177|NZ_AP018290(11062175):2604712-2604888:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096686507.1(-1),ID:WP_096686509.1(-1)|neighbour_genes:sulfite oxidase-like..,hypothetical protein| | aligned:1-58 (58)
+MAVPKKKTSKSKRDSRRATWRRKAEVQAQKAISLGKSILSGRSTFVYPTDEEESEDEE
+>ID:WP_015197468.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|rpmF|174|NC_019751(6767834):2133450-2133623:-1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015197467.1(-1),ID:WP_015197469.1(-1)|neighbour_genes:sulfite oxidase-like..,hypothetical protein| | aligned:1-50 (57)
+MAVPKKKTSKSKRDSRRATWRHKAQVQAQKAMALGKSILSGRSNFVYPTAEEDEEEE
+>ID:WP_223985885.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|rpmF|177|NZ_AP025018(11423121):5898007-5898183:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223985883.1(1),ID:WP_223991391.1(1)|neighbour_genes:hypothetical protein,sulfite oxidase-like..| | aligned:1-50 (58)
+MAVPKKKTSKSKRDSRRATWRRKASVEAQKAISLGKSILSGRSTFVYPTDEEESEDEE

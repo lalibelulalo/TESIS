@@ -1,0 +1,6 @@
+>ID:WP_096691647.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|type II toxin-antito..|240|NZ_AP018255(11064963):8785444-8785683:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096691646.1(1),ID:WP_096691648.1(1)|neighbour_genes:tkt,hypothetical protein| | aligned:1-79 (79)
+MKTVEISEIIALLENYSTNEQPSVITRNGQPVALLCPIDDDIESLSLTLNSKFTDIIKKSRKNQKQGGRFFLEDIKFLS
+>ID:WP_096691647.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|type II toxin-antito..|240|NZ_AP018290(11062175):8782888-8783127:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096691646.1(1),ID:WP_096691648.1(1)|neighbour_genes:tkt,hypothetical protein| | aligned:1-79 (79)
+MKTVEISEIIALLENYSTNEQPSVITRNGQPVALLCPIDDDIESLSLTLNSKFTDIIKKSRKNQKQGGRFFLEDIKFLS
+>ID:WP_223980820.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|type II toxin-antito..|243|NZ_AP025018(11423121):617599-617841:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223980811.1(1),ID:WP_224177138.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-80 (80)
+MKTVEISEIIALLENYSTNEQPLVIIRNGQPVAVLLPVEDADIESFSLTLNSKFSDIIEKSRESQKQDGRFFLEDINLFT

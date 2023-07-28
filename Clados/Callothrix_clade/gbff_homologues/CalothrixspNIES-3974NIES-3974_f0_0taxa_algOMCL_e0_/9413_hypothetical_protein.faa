@@ -1,0 +1,12 @@
+>ID:WP_035156036.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|189|NZ_CP011382(6283267):4863888-4864076:-1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035156034.1(1),ID:WP_035156038.1(1)|neighbour_genes:hypothetical protein,glucose-1-phosphate ..| | aligned:2-62 (62)
+MKLIIVGLIVVYVAGAWKFWKGYKRTNFNQTLASRITLALLWPALLIANKSYRQNFRKALKG
+>ID:WP_096624744.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|hypothetical protein|192|NZ_AP018254(5985875):5218398-5218589:-1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096624742.1(-1),ID:WP_096624746.1(1)|neighbour_genes:tetratricopeptide re..,ilvA| | aligned:1-63 (63)
+MPKLILIVLLVVYGIGIYRFWVGFERTNFQRNLPYRIGLSLLWPALFAINKSFRRNFRKALKG
+>ID:WP_096692403.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|192|NZ_AP018255(11064963):9770773-9770964:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096692402.1(1),ID:WP_096692404.1(1)|neighbour_genes:XisI protein,mannose-1-phosphate ..| | aligned:1-63 (63)
+MGSFFGVIFMIVYVSGIWKFWNGFERTNFQRSLPNRLSLSLLWPVLLITNKSYRRNFRKALKG
+>ID:WP_096692403.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|192|NZ_AP018290(11062175):9768107-9768298:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096692402.1(1),ID:WP_096692404.1(1)|neighbour_genes:XisI protein,mannose-1-phosphate ..| | aligned:1-63 (63)
+MGSFFGVIFMIVYVSGIWKFWNGFERTNFQRSLPNRLSLSLLWPVLLITNKSYRRNFRKALKG
+>ID:WP_015200725.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|192|NC_019751(6767834):6295052-6295243:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015200724.1(-1),ID:WP_041739976.1(-1)|neighbour_genes:mannose-1-phosphate ..,YciI family protein| | aligned:1-63 (63)
+MSSLIVVILVGLYGAGAWKFWQGFERTNFQRSLLNRLSLSLLWPVLLVANKSYRRNFRKALKG
+>ID:WP_223976706.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|192|NZ_AP025018(11423121):1362955-1363146:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224177470.1(1),ID:WP_223976704.1(1)|neighbour_genes:Uma2 family endonucl..,mannose-1-phosphate ..| | aligned:1-63 (63)
+MSTLIGVVFVVVYVSGIWKFWNGFERTNFQRSLPNRLSLSILWPVLLITNKSYRRNFRKALKG

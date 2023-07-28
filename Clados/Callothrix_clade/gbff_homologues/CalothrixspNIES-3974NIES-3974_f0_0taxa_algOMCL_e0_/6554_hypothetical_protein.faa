@@ -1,0 +1,6 @@
+>ID:WP_035155047.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|198|NZ_CP011382(6283267):4228320-4228517:-1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035155045.1(1),ID:WP_035155048.1(1)|neighbour_genes:murI,sds| | aligned:1-65 (65)
+MFYGKVPMMIFILASGYLFTVYLLLALAKRSENKNTSKDSSVVSSSNHIQDMSVTANVTEIVNSQ
+>ID:WP_231943233.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|hypothetical protein|177|NZ_AP018254(5985875):1578265-1578441:1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096620964.1(-1),ID:WP_096620965.1(-1)|neighbour_genes:sds,murI| | aligned:1-58 (58)
+MMTFILASGYLFVVYLLLALAKRGTSKIPPRQTQSISSDELAAEVSMNGNITEIVSGQ
+>ID:WP_015200299.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|195|NC_019751(6767834):5759605-5759799:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015200298.1(-1),ID:WP_015200300.1(-1)|neighbour_genes:sds,murI| | aligned:1-64 (64)
+MVYAKMPMMIFILASGYLFTVYLLLALAKRSGKKESGGGVNFVAAGKNQQEVQVGQNLPEVGSS

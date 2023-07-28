@@ -1,0 +1,12 @@
+>ID:WP_035155199.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|NifU family protein|231|NZ_CP011382(6283267):4329478-4329708:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_144416056.1(1),ID:WP_035155205.1(1)|neighbour_genes:ssl1498 family light..,glycoside hydrolase| | aligned:1-76 (76)
+MELTIDNVETVLDEMRPYLISDGGNVELVEIDGPIVKLRLQGACGSCPSSTMTLRMGIERRLREMIPEIAEVEQIM
+>ID:WP_096624925.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|NifU family protein|231|NZ_AP018254(5985875):5374348-5374578:1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_172892810.1(1),ID:WP_096624927.1(1)|neighbour_genes:mtnA,glycoside hydrolase| | aligned:1-76 (76)
+MELTTENVEKVLDEMRPYLMSDGGNVELVELDGPIVKLRLQGACGSCPSSQMTLRMGIERRLREMIPEIAEVEQVA
+>ID:WP_019489174.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|NifU family protein|231|NZ_AP018255(11064963):1905894-1906124:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096685436.1(-1),ID:WP_096685438.1(-1)|neighbour_genes:glycoside hydrolase,GAF domain-containin..| | aligned:1-76 (76)
+MELTVENVETVLDEMRPYLMSDGGNVELVELDGPIVKLRLQGACGSCPSSTMTLRMGLERRLREMIPEIAEVEQVI
+>ID:WP_019489174.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|NifU family protein|231|NZ_AP018290(11062175):1905842-1906072:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096685436.1(-1),ID:WP_096685438.1(-1)|neighbour_genes:glycoside hydrolase,GAF domain-containin..| | aligned:1-76 (76)
+MELTVENVETVLDEMRPYLMSDGGNVELVELDGPIVKLRLQGACGSCPSSTMTLRMGLERRLREMIPEIAEVEQVI
+>ID:WP_041739928.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|NifU family protein|231|NC_019751(6767834):5930288-5930518:-1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015200435.1(-1),ID:WP_015200437.1(1)|neighbour_genes:glycoside hydrolase,ATP-binding protein| | aligned:1-76 (76)
+MELTTDNVEQVLDEMRPYLMSDGGNVELVELDGPIVKLRLQGACGTCPSSAMTLRMGIERRLREMIPEIAEVEQVV
+>ID:WP_019489174.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|NifU family protein|231|NZ_AP025018(11423121):8000607-8000837:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224175132.1(-1),ID:WP_224175133.1(-1)|neighbour_genes:glycoside hydrolase,ATP-binding protein| | aligned:1-76 (76)
+MELTVENVETVLDEMRPYLMSDGGNVELVELDGPIVKLRLQGACGSCPSSTMTLRMGLERRLREMIPEIAEVEQVI

@@ -1,0 +1,12 @@
+>ID:WP_035155488.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|chlorophyll a/b-bind..|171|NZ_CP011382(6283267):4527932-4528102:-1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035155485.1(-1),ID:WP_035155491.1(1)|neighbour_genes:hypothetical protein,ald| | aligned:1-56 (56)
+MTQPQPSVTPKLEEPKFGFNEYAERLNGRAAMIGFLLMVVIEYVTNQGVLAWLGLK
+>ID:WP_096622501.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|chlorophyll a/b-bind..|171|NZ_AP018254(5985875):3385872-3386042:1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096622500.1(-1),ID:WP_096622502.1(1)|neighbour_genes:ald,MFS transporter| | aligned:1-56 (56)
+MTQSQPTVKPNLEETKFGFNSYAERLNGRAAMIGFLLMIIIEVVTDKGVLAWLGLH
+>ID:WP_096687609.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|171|NZ_AP018255(11064963):3526812-3526982:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096687608.1(-1),ID:WP_096687610.1(1)|neighbour_genes:hypothetical protein,ald| | aligned:1-56 (56)
+MTQPQPSVTPKLEEPKFGFNEYAERLNGRAAMIGFLLIVVIEYVTDKGVLTWLGLR
+>ID:WP_096687609.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|171|NZ_AP018290(11062175):3527021-3527191:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096687608.1(-1),ID:WP_096687610.1(1)|neighbour_genes:hypothetical protein,ald| | aligned:1-56 (56)
+MTQPQPSVTPKLEEPKFGFNEYAERLNGRAAMIGFLLIVVIEYVTDKGVLTWLGLR
+>ID:WP_015199727.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|chlorophyll a/b-bind..|171|NC_019751(6767834):5030690-5030860:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015199726.1(-1),ID:WP_015199728.1(1)|neighbour_genes:ald,hypothetical protein| | aligned:1-56 (56)
+MTQPQPSITPKLEDPKFGFNYYAERLNGRAAMIGFLLMVVIEYVTDKGVLSWLGLR
+>ID:WP_026092971.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|chlorophyll a/b-bind..|171|NZ_AP025018(11423121):5679164-5679334:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224179476.1(-1),ID:WP_223985547.1(1)|neighbour_genes:hypothetical protein,ald| | aligned:1-56 (56)
+MTQPQPSITPKLEEPKFGFNEYAERLNGRAAMIGFLLIVVIEYVTDKGVLTWLGLR

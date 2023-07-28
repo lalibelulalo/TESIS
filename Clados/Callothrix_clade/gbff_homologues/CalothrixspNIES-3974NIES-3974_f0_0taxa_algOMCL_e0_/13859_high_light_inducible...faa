@@ -1,0 +1,12 @@
+>ID:WP_096688369.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|high light inducible..|213|NZ_AP018255(11064963):4495331-4495543:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096688368.1(-1),ID:WP_096688369.1(-1)|neighbour_genes:high light inducible..,high light inducible..| | aligned:1-70 (70)
+METRETRPSSDLPAVAKEYNGVDRNAFLFGFNPQAELWNGRLAMIGFLAYLLWDLAGYSVLRDVLHFIGY
+>ID:WP_096688369.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|high light inducible..|213|NZ_AP018255(11064963):4495609-4495821:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096688369.1(-1),ID:WP_096688370.1(1)|neighbour_genes:high light inducible..,hypothetical protein| | aligned:1-70 (70)
+METRETRPSSDLPAVAKEYNGVDRNAFLFGFNPQAELWNGRLAMIGFLAYLLWDLAGYSVLRDVLHFIGY
+>ID:WP_096688369.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|high light inducible..|213|NZ_AP018290(11062175):4495574-4495786:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096688368.1(-1),ID:WP_096688369.1(-1)|neighbour_genes:high light inducible..,high light inducible..| | aligned:1-70 (70)
+METRETRPSSDLPAVAKEYNGVDRNAFLFGFNPQAELWNGRLAMIGFLAYLLWDLAGYSVLRDVLHFIGY
+>ID:WP_096688369.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|high light inducible..|213|NZ_AP018290(11062175):4495852-4496064:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096688369.1(-1),ID:WP_096688370.1(1)|neighbour_genes:high light inducible..,hypothetical protein| | aligned:1-70 (70)
+METRETRPSSDLPAVAKEYNGVDRNAFLFGFNPQAELWNGRLAMIGFLAYLLWDLAGYSVLRDVLHFIGY
+>ID:WP_019489837.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|high light inducible..|213|NZ_AP025018(11423121):7142068-7142280:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223991415.1(-1),ID:WP_224174703.1(-1)|neighbour_genes:chlorophyll a/b-bind..,high light inducible..| | aligned:1-70 (70)
+METRETRPSSDLPAVAKEYNGVDRNAFLFGFTPQAELWNGRLAAIGFLAYLLWDLAGYSVLRDVLHFIGY
+>ID:WP_019489836.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|high light inducible..|213|NZ_AP025018(11423121):7142718-7142930:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224174703.1(-1),ID:WP_224179628.1(1)|neighbour_genes:high light inducible..,MFS transporter| | aligned:1-70 (70)
+METRETRPSSDLPAVAKEYNGVDRNAFLFGFTPQAELWNGRLAAIGFLAYLLWDLAGYSVLRDVLHLIGY

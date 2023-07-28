@@ -1,0 +1,6 @@
+>ID:WP_096688330.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|189|NZ_AP018255(11064963):4449781-4449969:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096688329.1(-1),ID:WP_096688331.1(-1)|neighbour_genes:DUF1778 domain-conta..,XisI protein| | aligned:1-62 (62)
+MTKVEKDFDCLEFKQKAQEEAFENIKNLTREEQIRYYRTIAESSPLGNWWKKVKNKPSSNIE
+>ID:WP_096688330.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|189|NZ_AP018290(11062175):4450024-4450212:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096688329.1(-1),ID:WP_096688331.1(-1)|neighbour_genes:DUF1778 domain-conta..,XisI protein| | aligned:1-62 (62)
+MTKVEKDFDCLEFKQKAQEEAFENIKNLTREEQIRYYRTIAESSPLGNWWKKVKNKPSSNIE
+>ID:WP_224174853.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|192|NZ_AP025018(11423121):7449465-7449656:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224174852.1(1),ID:WP_224174854.1(1)|neighbour_genes:GTP-binding protein,XisH family protein| | aligned:4-63 (63)
+MSQTKFEKDFDCLELKQKAQEETFENIKNLTPEEQIKYYRTVAESSSLGDWWKKVKNKSSNIE

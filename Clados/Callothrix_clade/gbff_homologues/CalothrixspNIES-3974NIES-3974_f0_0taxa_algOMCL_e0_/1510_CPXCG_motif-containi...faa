@@ -1,0 +1,10 @@
+>ID:WP_035151363.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|CPXCG motif-containi..|189|NZ_CP011382(6283267):1749369-1749557:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035151361.1(1),ID:WP_035151366.1(1)|neighbour_genes:B12-binding domain-c..,cyclase| | aligned:1-61 (62)
+MQTTAEFYCAYCGETNLTFIDITGGYQQSYVEDCQVCCRPNILYIRIDEDTLDVEIDTEYEG
+>ID:WP_096692521.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|CPXCG motif-containi..|189|NZ_AP018255(11064963):9916847-9917035:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096692520.1(1),ID:WP_096692522.1(-1)|neighbour_genes:FkbM family methyltr..,B12-binding domain-c..| | aligned:1-62 (62)
+MQTTAVYYCAYCGEDNTTFVDISAGLEQSYIEDCQVCCRPNILYVRIDEDTLDVEIDTDYEE
+>ID:WP_096692521.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|CPXCG motif-containi..|189|NZ_AP018290(11062175):9914181-9914369:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096692520.1(1),ID:WP_096692522.1(-1)|neighbour_genes:FkbM family methyltr..,B12-binding domain-c..| | aligned:1-62 (62)
+MQTTAVYYCAYCGEDNTTFVDISAGLEQSYIEDCQVCCRPNILYVRIDEDTLDVEIDTDYEE
+>ID:WP_015199851.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|CPXCG motif-containi..|189|NC_019751(6767834):5194240-5194428:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015199850.1(1),ID:WP_015199852.1(-1)|neighbour_genes:B12-binding domain-c..,alkaline phosphatase..| | aligned:1-62 (62)
+MQTTAEYYCAFCGEENTTFIDISAGSQQKYVEDCQVCCRPNILYVRIDEDTLDVEIDTEYEE
+>ID:WP_073620405.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|CPXCG motif-containi..|189|NZ_AP025018(11423121):11331960-11332148:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224176774.1(1),ID:WP_223989649.1(-1)|neighbour_genes:radical SAM protein,FkbM family methyltr..| | aligned:1-62 (62)
+MQTTAVYYCAYCGEENLTFVDISAGFEQSYIEDCQVCCRPNILYVRIDEDTLDVEIDTDYEE

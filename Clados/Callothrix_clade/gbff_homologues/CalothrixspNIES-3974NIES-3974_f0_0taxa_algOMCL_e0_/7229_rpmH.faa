@@ -1,0 +1,12 @@
+>ID:WP_082127393.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|rpmH|135|NZ_CP011382(6283267):5968593-5968727:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035157952.1(1),ID:WP_035157954.1(1)|neighbour_genes:DUF2808 domain-conta..,rnpA| | aligned:1-44 (44)
+MQRTLGGTCRKRKRTSGFRARMRTPDGRNVIRARRARGRYRLSV
+>ID:WP_096621547.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|rpmH|135|NZ_AP018254(5985875):2428207-2428341:1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_231943352.1(-1),ID:WP_096621548.1(1)|neighbour_genes:hypothetical protein,rnpA| | aligned:1-44 (44)
+MQRTLRGTCRKRKRTSGFRARMRTPDGRNVIKARRRRGRYRLSV
+>ID:WP_096692741.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|rpmH|135|NZ_AP018255(11064963):10196943-10197077:1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096692740.1(1),ID:WP_096692742.1(1)|neighbour_genes:DUF2808 domain-conta..,ribonuclease P prote..| | aligned:1-44 (44)
+MKRTLEGTNRKRKRTSGFRARMRTPDGRNVLRARRRKGRHRLSV
+>ID:WP_096692741.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|rpmH|135|NZ_AP018290(11062175):10194277-10194411:1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096692740.1(1),ID:WP_096692742.1(1)|neighbour_genes:DUF2808 domain-conta..,ribonuclease P prote..| | aligned:1-44 (44)
+MKRTLEGTNRKRKRTSGFRARMRTPDGRNVLRARRRKGRHRLSV
+>ID:WP_015199889.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|rpmH|135|NC_019751(6767834):5236702-5236836:-1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015199888.1(-1),ID:WP_015199890.1(-1)|neighbour_genes:rnpA,thrS| | aligned:1-44 (44)
+MQRTLGGTCRKRKRTSGFRARMRTPDGRNVIRARRSKGRHRLSV
+>ID:WP_073619720.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|rpmH|135|NZ_AP025018(11423121):10837810-10837944:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223977695.1(-1),ID:WP_127080679.1(-1)|neighbour_genes:rnpA,DUF2808 domain-conta..| | aligned:1-44 (44)
+MKRTLEGTNRKRKRTSGFRARMRTPDGRNVIKARRRKGRHRLSV

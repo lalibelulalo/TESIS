@@ -1,0 +1,10 @@
+>ID:WP_096622689.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|DUF4327 family prote..|225|NZ_AP018254(5985875):3660784-3661008:-1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096622688.1(1),ID:WP_096622690.1(-1)|neighbour_genes:SLBB domain-containi..,host attachment prot..| | aligned:1-74 (74)
+MATTVKYDLEVLRAEARQLVEKGKVKRNDPIYALCKFIPGRDWVCIELELEENDFLLRDKIIDLLAQEEWTEDN
+>ID:WP_096693887.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|DUF4327 family prote..|225|NZ_AP018255(11064963):1457121-1457345:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096684922.1(1),ID:WP_096684923.1(1)|neighbour_genes:hypothetical protein,sensor domain-contai..| | aligned:1-74 (74)
+MDTSVMNYDLQVLKEEARQLVKKGDIKRNEPIYSLCKFMPSCDWNCLEMELERNDFLLRDRVIDLLSNEKWDDD
+>ID:WP_096693887.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|DUF4327 family prote..|225|NZ_AP018290(11062175):1457073-1457297:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096684922.1(1),ID:WP_096684923.1(1)|neighbour_genes:hypothetical protein,sensor domain-contai..| | aligned:1-74 (74)
+MDTSVMNYDLQVLKEEARQLVKKGDIKRNEPIYSLCKFMPSCDWNCLEMELERNDFLLRDRVIDLLSNEKWDDD
+>ID:WP_223978035.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|DUF4327 family prote..|222|NZ_AP025018(11423121):8677968-8678189:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224175470.1(-1),ID:WP_223978036.1(-1)|neighbour_genes:sensor domain-contai..,feoB| | aligned:1-73 (73)
+MDTSVNYDLEVLKEEARQLVKKGDIRRNEPIYSLCRFMPTCDWNCLEMELERNDFLLRDKVIDLLSNEKWDED
+>ID:WP_223979250.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|DUF4327 family prote..|225|NZ_AP025018(11423121):10071126-10071350:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223979248.1(1),ID:WP_223979252.1(1)|neighbour_genes:ppsA,VOC family protein| | aligned:1-74 (74)
+MKTNVKYNLEVLKEEARQLVQKGKVQRNEPIYTLCKFIPGRDWVCIELELEENDFLLRDKIIDLLGNEEWDNDS

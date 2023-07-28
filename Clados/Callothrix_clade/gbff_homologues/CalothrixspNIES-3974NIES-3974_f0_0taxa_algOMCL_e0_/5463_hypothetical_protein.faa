@@ -1,0 +1,12 @@
+>ID:WP_035157844.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|183|NZ_CP011382(6283267):5916798-5916980:-1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035157840.1(1),ID:WP_035157847.1(1)|neighbour_genes:response regulator t..,DUF2854 domain-conta..| | aligned:1-54 (60)
+MEPQIIKERIAAVKSKREYLLNLLQQPNLGTLQLDVTQALEEMDELIEEYRRTFGDFDDN
+>ID:WP_096620011.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|hypothetical protein|180|NZ_AP018254(5985875):166603-166782:1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096620009.1(-1),ID:WP_096620013.1(-1)|neighbour_genes:DUF2854 domain-conta..,response regulator t..| | aligned:1-56 (59)
+MDTQAIKDRVIAVKAKREYLLQLLEKPDLGALKIDVSQALEEMDDLLDEFHRTFPNEVI
+>ID:WP_096688800.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|174|NZ_AP018255(11064963):5089159-5089332:1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096688799.1(1),ID:WP_096688801.1(-1)|neighbour_genes:DUF309 domain-contai..,response regulator t..| | aligned:1-57 (57)
+MDVQTLKQRIVAVETKREYLLQLLEQPNLGALRVDVNQALEEMDDLIDEYRRTFPQG
+>ID:WP_096688800.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|174|NZ_AP018290(11062175):5087449-5087622:1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096688799.1(1),ID:WP_096688801.1(-1)|neighbour_genes:DUF309 domain-contai..,response regulator t..| | aligned:1-57 (57)
+MDVQTLKQRIVAVETKREYLLQLLEQPNLGALRVDVNQALEEMDDLIDEYRRTFPQG
+>ID:WP_085953321.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|174|NC_019751(6767834):876147-876320:-1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015196465.1(1),ID:WP_015196467.1(1)|neighbour_genes:DUF364 domain-contai..,DUF2854 domain-conta..| | aligned:1-57 (57)
+MDIQTIKERVITIQSKRNYLLQLLEQPNLGILRIDVNQALEEMDELLDEYKRTFPET
+>ID:WP_127081798.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|183|NZ_AP025018(11423121):4208047-4208229:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_026093073.1(1),ID:WP_224178716.1(-1)|neighbour_genes:response regulator t..,DUF309 domain-contai..| | aligned:1-57 (60)
+MDLQTLKARIAQVETKREYLLQLLEQPNLGTLRVDVNQALEEMDDLIDEYRRTFPQTGSL

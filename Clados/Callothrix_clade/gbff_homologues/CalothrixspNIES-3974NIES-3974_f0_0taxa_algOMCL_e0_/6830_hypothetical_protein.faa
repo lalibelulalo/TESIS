@@ -1,0 +1,10 @@
+>ID:WP_035157175.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|180|NZ_CP011382(6283267):5546859-5547038:-1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035157173.1(1),ID:WP_035159511.1(-1)|neighbour_genes:hypothetical protein,thiD| | aligned:1-58 (59)
+MTTSTVSERLSQSDLAAKLTRSFYQVDQQVKFLHLQAEVDCLLQQLQNMKKAVTIEPED
+>ID:WP_096626002.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|hypothetical protein|186|NZ_AP018254(5985875):1940349-1940534:1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096621208.1(-1),ID:WP_096621209.1(-1)|neighbour_genes:thrC,hypothetical protein| | aligned:1-53 (61)
+MTTSSLSKPEAPVEQANQLTKTCYQADQQVKFMYLQAEIDCLLEELKNLKRQRCESENVHG
+>ID:WP_096694547.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|198|NZ_AP018255(11064963):10658244-10658441:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096693203.1(1),ID:WP_096693205.1(1)|neighbour_genes:hypothetical protein,threonine synthase| | aligned:1-65 (65)
+MSTSTISERSSVSQMASNLNKMVYQADQQVKFMHLQAEIECLLQELQNLNAQRLTADKQEELTVC
+>ID:WP_096694547.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|198|NZ_AP018290(11062175):10655458-10655655:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096693203.1(1),ID:WP_096693205.1(1)|neighbour_genes:hypothetical protein,threonine synthase| | aligned:1-65 (65)
+MSTSTISERSSVSQMASNLNKMVYQADQQVKFMHLQAEIECLLQELQNLNAQRLTADKQEELTVC
+>ID:WP_223990204.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|183|NZ_AP025018(11423121):10417927-10418109:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224176395.1(1),ID:WP_224176396.1(1)|neighbour_genes:hypothetical protein,thrC| | aligned:1-60 (60)
+MSISTVSERSSVSQLASNLNKTFYQVDQQVKFMHLQAEVECLLQELQNLNTQRLTTIKPE

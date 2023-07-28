@@ -1,0 +1,8 @@
+>ID:WP_035156418.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|141|NZ_CP011382(6283267):5097722-5097862:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035156416.1(-1),ID:WP_035156420.1(1)|neighbour_genes:SGNH/GDSL hydrolase ..,glycerol-3-phosphate..| | aligned:1-46 (46)
+MSDLNRGIMKFDGADSPKLVTISTVLVLGSIAVLIIWAVQSAYAVG
+>ID:WP_172892809.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|hypothetical protein|141|NZ_AP018254(5985875):5334884-5335024:-1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096624875.1(-1),ID:WP_096624877.1(-1)|neighbour_genes:glycerol-3-phosphate..,DEAD/DEAH box helica..| | aligned:1-46 (46)
+MSDLNRGIMKFDGADSPKLVMISSIILLGSIAALILWALQTAYAVG
+>ID:WP_015196862.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|141|NC_019751(6767834):1350322-1350462:-1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015196861.1(-1),ID:WP_015196863.1(1)|neighbour_genes:glycerol-3-phosphate..,SGNH/GDSL hydrolase ..| | aligned:1-45 (46)
+MSDLNRGIMKFEGADSPKLVTVSTVLLLGSIAVLIIWALQSAYAVS
+>ID:WP_170213553.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|141|NZ_AP025018(11423121):5765127-5765267:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224173932.1(-1),ID:WP_224173933.1(1)|neighbour_genes:SGNH/GDSL hydrolase ..,glycerol-3-phosphate..| | aligned:1-46 (46)
+MSDLNRGIMKFDGADSPKLVTISTVVLLGSIFALILWALQSAYAVG

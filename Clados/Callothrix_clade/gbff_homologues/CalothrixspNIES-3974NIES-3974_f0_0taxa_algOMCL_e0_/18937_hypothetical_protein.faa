@@ -1,0 +1,6 @@
+>ID:WP_096693044.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|219|NZ_AP018255(11064963):10549334-10549552:1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096693043.1(1),ID:WP_096693045.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-72 (72)
+MPAGRANHKGTSDKPNVNANGELNMNSAADKSIDPKEVLPENITNNAASRTQEYVDYPPATQRPDEEDKDEE
+>ID:WP_096693044.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|219|NZ_AP018290(11062175):10546548-10546766:1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096693043.1(1),ID:WP_096693045.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-72 (72)
+MPAGRANHKGTSDKPNVNANGELNMNSAADKSIDPKEVLPENITNNAASRTQEYVDYPPATQRPDEEDKDEE
+>ID:WP_223977503.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|213|NZ_AP025018(11423121):10662840-10663052:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223977501.1(-1),ID:WP_223977505.1(1)|neighbour_genes:hypothetical protein,S8 family serine pep..| | aligned:1-70 (70)
+MPAGRANHKGTSDKPNVNANGQLNMNSAADKSVDPKDVLPEGITTNTTRTQEYVDFPPATQRPGEDIEEE

@@ -1,0 +1,10 @@
+>ID:WP_035158164.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|267|NZ_CP011382(6283267):6190345-6190611:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035158163.1(1),ID:WP_168163530.1(-1)|neighbour_genes:GNAT family N-acetyl..,hypothetical protein| | aligned:1-88 (88)
+MFQTFRAILRGNLLHWGDEVKPLSRDEIGVQVLVTILEDEPIPEATGRGKRMAAVLEKLAQTQAFTEIDPVAWQRDVRQDRELPGRDK
+>ID:WP_096687567.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|267|NZ_AP018255(11064963):3476054-3476320:1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096687566.1(1),ID:WP_096687568.1(1)|neighbour_genes:DMT family transport..,hypothetical protein| | aligned:1-88 (88)
+MLQTFRATLRGDSLEWKEEVGSNLRNDRPVQVLVTILEEEPAQETKGRGQRMAAALEKLAQTQAFAGIDPVLWQQDVRQDRELPGRDE
+>ID:WP_096687567.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|267|NZ_AP018290(11062175):3476263-3476529:1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096687566.1(1),ID:WP_096687568.1(1)|neighbour_genes:DMT family transport..,hypothetical protein| | aligned:1-88 (88)
+MLQTFRATLRGDSLEWKEEVGSNLRNDRPVQVLVTILEEEPAQETKGRGQRMAAALEKLAQTQAFAGIDPVLWQQDVRQDRELPGRDE
+>ID:WP_015200851.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|255|NC_019751(6767834):6447543-6447797:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015200850.1(1),ID:WP_015200852.1(1)|neighbour_genes:hypothetical protein,type II toxin-antito..| | aligned:1-84 (84)
+MSKTFKAWLRGSRLEWIDEAPQSGEQMLQIEVTFIDEQAFSEVKTRGQRMAEILENLAATKTLNYVDPVSWQEETRQERSLPGR
+>ID:WP_223987924.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|267|NZ_AP025018(11423121):5339265-5339531:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224179278.1(-1),ID:WP_224179279.1(1)|neighbour_genes:type II toxin-antito..,hypothetical protein| | aligned:1-88 (88)
+MLQTFRATLRGDSLEWAEEARGNLGNNSPVQVLVTILEEEPVQQTKGRGQRMAAALEKLAEAQAFAGIDPVVWQQDMRQDRELPGRNE

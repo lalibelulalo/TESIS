@@ -1,0 +1,10 @@
+>ID:WP_238178380.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|306|NZ_CP011382(6283267):5364002-5364307:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035156901.1(1),ID:WP_052754517.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:13-101 (101)
+MLIFKSVDIRNFMNLIKLVLLACPAFIASILLVANPAQAAVTDITHPIPQVVQVSVQSHHTVFTPHLATSNPIKDQLGCNCSSCVKVRMQLEGKLPLSSVL
+>ID:WP_096688219.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|267|NZ_AP018255(11064963):4321349-4321615:1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096688218.1(1),ID:WP_096688220.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-88 (88)
+MKLIKLILFTFPVLLASLLLISPVTAEVIQPVPVQRLELVSSHPTKATVTPKFSQKSNPINDAMGCSCSACVRAKLQLEGKLQLSSLL
+>ID:WP_096688219.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|267|NZ_AP018290(11062175):4321592-4321858:1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096688218.1(1),ID:WP_096688220.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-88 (88)
+MKLIKLILFTFPVLLASLLLISPVTAEVIQPVPVQRLELVSSHPTKATVTPKFSQKSNPINDAMGCSCSACVRAKLQLEGKLQLSSLL
+>ID:WP_015200092.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|294|NC_019751(6767834):5506824-5507117:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015200091.1(1),ID:WP_015200093.1(-1)|neighbour_genes:DUF1513 domain-conta..,trifunctional serine..| | aligned:1-97 (97)
+MKVIKQIILIFPILFVSLLSFINPASASSVNSAVITAKIELITPQPVYAIASAILSHSQTSNPIVDQMGCSCASCMQAKLVPLKLELQGKLPLVNFL
+>ID:WP_223983679.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|267|NZ_AP025018(11423121):3800476-3800742:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223983677.1(1),ID:WP_223983681.1(1)|neighbour_genes:hypothetical protein,zinc ABC transporter..| | aligned:1-88 (88)
+MKLTKLILFTFPVLLASLLLISPATAEVIQPAQYQRVELVSSHPNEATVTPKFSQKSNPINDAMGCSCSACVKAKLQLEGKLSLSSLL

@@ -1,0 +1,12 @@
+>ID:WP_035151208.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|228|NZ_CP011382(6283267):1656082-1656309:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035151207.1(1),ID:WP_144415997.1(1)|neighbour_genes:hypothetical protein,glycosyltransferase ..| | aligned:1-75 (75)
+MNNQSPMYQTIKAQSELSVKKIVDKILISGKLSRQDHSLLTAIVFNNGEIKDNERRQINRIFDRIQAGQLKLVDW
+>ID:WP_096622460.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|hypothetical protein|225|NZ_AP018254(5985875):3339634-3339858:1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096622459.1(-1),ID:WP_096622461.1(1)|neighbour_genes:gloB,glycosyltransferase ..| | aligned:1-74 (74)
+MSYHSFMYTALDYKLEAKLKKIVDRIIFSAKMSPDDHKLLLSSLVKGRISEGERRQINRIFDYIQTGNIKLVGW
+>ID:WP_096692357.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|225|NZ_AP018255(11064963):9720139-9720363:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096692356.1(-1),ID:WP_096692358.1(1)|neighbour_genes:glycosyltransferase ..,gloB| | aligned:1-74 (74)
+MLHKLSMTRPINSTSEIAVKKLADKIIFSKRYSRGDHTLLTDLIGNSDVSEGARRQLNRILDYIQNGELKLVDW
+>ID:WP_096692357.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|225|NZ_AP018290(11062175):9717473-9717697:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096692356.1(-1),ID:WP_096692358.1(1)|neighbour_genes:glycosyltransferase ..,gloB| | aligned:1-74 (74)
+MLHKLSMTRPINSTSEIAVKKLADKIIFSKRYSRGDHTLLTDLIGNSDVSEGARRQLNRILDYIQNGELKLVDW
+>ID:WP_015197672.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|210|NC_019751(6767834):2381458-2381667:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015197671.1(-1),ID:WP_015197673.1(1)|neighbour_genes:gloB,GDP-mannose 4,6-dehy..| | aligned:1-69 (69)
+MPRLESMERETIVARIVNRIIFSGRLSRQDHILLTSKILGNSRISDGERRQINRIFDQVQTGQLKLIGW
+>ID:WP_026093396.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|228|NZ_AP025018(11423121):1282101-1282328:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223976799.1(-1),ID:WP_223976797.1(1)|neighbour_genes:glycosyltransferase ..,gloB| | aligned:1-75 (75)
+MLHKLSMMKSNDYQSEVAVKKIVDKIIFSRVYSRNDHSLLTEIILNNSDVSDGERRQIYRIFDYIQTGQLRLIGW

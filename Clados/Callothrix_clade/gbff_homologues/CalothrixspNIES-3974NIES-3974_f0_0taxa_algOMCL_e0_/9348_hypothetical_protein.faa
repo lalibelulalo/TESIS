@@ -1,0 +1,10 @@
+>ID:WP_035154925.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|258|NZ_CP011382(6283267):4165396-4165653:-1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035154922.1(-1),ID:WP_035154928.1(1)|neighbour_genes:(2Fe-2S) ferredoxin ..,DNA starvation/stati..| | aligned:9-79 (85)
+MKSFNAEIQGKQIVEIDWAERWQVYQRLQELDIPCWCQTNQPLTVQLEDVSTAVQFWGVMRRLTATRQELIGLLETCWQQSGSEK
+>ID:WP_231943131.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|hypothetical protein|261|NZ_AP018254(5985875):5129501-5129761:-1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096624624.1(-1),ID:WP_096624626.1(1)|neighbour_genes:(2Fe-2S) ferredoxin ..,esterase-like activi..| | aligned:13-83 (86)
+MDLEEQQNVVGGIRDAIALQDSDRWEVYRRLQDLNIKCWCSSHQPLRVEVESIREVVQVWCMVRLVVGSRSELIARLERCWQIQAD
+>ID:WP_096691732.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|246|NZ_AP018255(11064963):8896878-8897123:1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096691731.1(1),ID:WP_096691733.1(1)|neighbour_genes:DUF2079 domain-conta..,(2Fe-2S) ferredoxin ..| | aligned:1-81 (81)
+MKPLTTPDVKIVVSVDWTDRWQVYTRLQELNINCSCGMNQPLTVEISNVTTAIQLWSVVQQFTASRCQLIKALEQCWCCDA
+>ID:WP_096691732.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|246|NZ_AP018290(11062175):8894322-8894567:1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096691731.1(1),ID:WP_096691733.1(1)|neighbour_genes:DUF2079 domain-conta..,(2Fe-2S) ferredoxin ..| | aligned:1-81 (81)
+MKPLTTPDVKIVVSVDWTDRWQVYTRLQELNINCSCGMNQPLTVEISNVTTAIQLWSVVQQFTASRCQLIKALEQCWCCDA
+>ID:WP_223981160.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|240|NZ_AP025018(11423121):722791-723030:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224177168.1(1),ID:WP_223981163.1(1)|neighbour_genes:DUF2079 domain-conta..,(2Fe-2S) ferredoxin ..| | aligned:1-79 (79)
+MKHLTTPETKIVVSVDWTDRWQVYTRLQELNISCACGMNQPLTVEVSNVTAAIQLWSVVQQFTASRYQLIQTLERCWYL

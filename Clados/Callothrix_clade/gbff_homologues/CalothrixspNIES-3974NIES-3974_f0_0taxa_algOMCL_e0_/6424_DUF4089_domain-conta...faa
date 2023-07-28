@@ -1,0 +1,12 @@
+>ID:WP_035154235.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|DUF4089 domain-conta..|189|NZ_CP011382(6283267):3533729-3533917:-1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035154234.1(-1),ID:WP_035154237.1(-1)|neighbour_genes:hypothetical protein,KGK family protein| | aligned:1-62 (62)
+MEKQTGDIGKYVEQMALLMDLNLPEEYQESVITNFRRIQEFAEMVNEFQLTEEVEPVNIFEP
+>ID:WP_096620842.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|DUF4089 domain-conta..|195|NZ_AP018254(5985875):1412712-1412906:-1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096620841.1(-1),ID:WP_096620843.1(1)|neighbour_genes:SH3 domain-containin..,efflux RND transport..| | aligned:1-64 (64)
+MSEKKLELDFNTFVEQMSRLIDLKLRDEYRTGVTENLERIYTQAKLVNEFELPENMEIFGKFEP
+>ID:WP_096690811.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|DUF4089 domain-conta..|189|NZ_AP018255(11064963):7687885-7688073:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096690810.1(1),ID:WP_096690812.1(-1)|neighbour_genes:filamentous hemagglu..,AbgT family transpor..| | aligned:1-62 (62)
+MEERKLEMRVFVEHMALLVDLKLRDEYKDGVVANFERISNIASVVNEFELPDEVEAAPVFEP
+>ID:WP_096690811.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|DUF4089 domain-conta..|189|NZ_AP018290(11062175):7685717-7685905:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096690810.1(1),ID:WP_096690812.1(-1)|neighbour_genes:filamentous hemagglu..,AbgT family transpor..| | aligned:1-62 (62)
+MEERKLEMRVFVEHMALLVDLKLRDEYKDGVVANFERISNIASVVNEFELPDEVEAAPVFEP
+>ID:WP_015196917.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|DUF4089 domain-conta..|186|NC_019751(6767834):1406821-1407006:-1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015196916.1(-1),ID:WP_015196918.1(-1)|neighbour_genes:Asp-tRNA(Asn)/Glu-tR..,cryptochrome/photoly..| | aligned:1-61 (61)
+MENKGNLQHFVENMAVLIGLNLRDEYKDGVIANFQRIQNIAQIVNEFELPEEIEISPTFQP
+>ID:WP_223976152.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|DUF4089 domain-conta..|186|NZ_AP025018(11423121):2452131-2452316:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224177926.1(-1),ID:WP_224177927.1(-1)|neighbour_genes:AtzE family amidohyd..,AbgT family transpor..| | aligned:1-61 (61)
+MEERLEMRVFVEQMALLVDLKLRDEYRDGVITNFERICNVARVVLEFELPEDVEAAPVFEP
