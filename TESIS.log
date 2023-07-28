@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  28 JUL 2023 12:28
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  28 JUL 2023 12:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -850,16 +850,16 @@ Overfull \hbox (5.72964pt too wide) detected at line 266
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 291.
 [12] [13]
-File: ../PIPELINES_2023/REPORTES/Octanucs_FrecObs/df_refseq_chr_269_Octanuc_Fre
-cObs_sel32_significative-palindromes.png Graphic file (type bmp)
-<../PIPELINES_2023/REPORTES/Octanucs_FrecObs/df_refseq_chr_269_Octanuc_FrecObs_
-sel32_significative-palindromes.png>
+File: figures/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes
+.png Graphic file (type bmp)
+<figures/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png>
+
 (./TESIS.bbl [14]) [15
 
 ] (./TESIS.aux) ) 
 Here is how much of TeX's memory you used:
  19276 strings out of 476191
- 355359 string characters out of 5812072
+ 354707 string characters out of 5812072
  836385 words of memory out of 5000000
  39722 multiletter control sequences out of 15000+600000
  475734 words of font info for 84 fonts, out of 8000000 for 9000

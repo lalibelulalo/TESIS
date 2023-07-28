@@ -184,10 +184,10 @@ Para visualizar la abundancia creamos un gráfico que muestra el enriquecimiento
 
 
 ```r
-knitr::include_graphics('/home/lalibelulalo/PIPELINES_2023/REPORTES/Octanucs_FrecObs/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png')
+knitr::include_graphics(normalizePath('figures/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png'))
 ```
 
 <div class="figure" style="text-align: center">
-<img src="../PIPELINES_2023/REPORTES/Octanucs_FrecObs/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png" alt="Here is a nice figure!" width="80%" />
-<p class="caption">(\#fig:nice-fig)Here is a nice figure!</p>
+<img src="figures/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png" alt="Here is a nice figure!" width="80%" />
+<p class="caption">(\#fig:FIG1)Here is a nice figure!</p>
 </div>

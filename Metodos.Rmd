@@ -180,6 +180,6 @@ El conjunto más laxo corresponde a **sel32** ya que su valor de corte de FDR es
 
 Para visualizar la abundancia creamos un gráfico que muestra el enriquecimiento OE vs la abundancia por cada 1000 nucleótidos. Esto se hizo para cada conjunto de significancia y para cada conjunto de genomas.
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-knitr::include_graphics('/home/lalibelulalo/PIPELINES_2023/REPORTES/Octanucs_FrecObs/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png')
+```{r FIG1, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics(normalizePath('figures/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png'))
 ```
