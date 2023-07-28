@@ -2,7 +2,7 @@ bookdown::bs4_book:
   css: style.css
   theme:
     primary: "#ff7400"
-  repo: https://github.com/lalibelulalo/TESIS
+  repo: https://github.com/rstudio/bookdown-demo
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex

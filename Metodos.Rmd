@@ -1,5 +1,3 @@
-# (PART\*) Segunda sección
-
 # Métodos
 
 Se descargaron 2 conjuntos de genomas de cianobacterias del servidor del NCBI (https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes).
