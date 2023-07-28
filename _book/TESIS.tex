@@ -113,14 +113,14 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdftitle={A Minimal Book Example},
-  pdfauthor={John Doe},
+  pdftitle={Evolución de secuencias palindromicas en genomas de cianobacterias},
+  pdfauthor={Eduardo Padilla Mendoza},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
-\title{A Minimal Book Example}
-\author{John Doe}
-\date{2023-07-27}
+\title{Evolución de secuencias palindromicas en genomas de cianobacterias}
+\author{Eduardo Padilla Mendoza}
+\date{2023-07-28}
 
 \begin{document}
 \maketitle
@@ -129,59 +129,14 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\hypertarget{about}{%
-\chapter*{About}\label{about}}
-\addcontentsline{toc}{chapter}{About}
+\hypertarget{resumen}{%
+\chapter*{Resumen}\label{resumen}}
+\addcontentsline{toc}{chapter}{Resumen}
 
-This is a \emph{sample} book written in \textbf{Markdown}. You can use anything that Pandoc's Markdown supports; for example, a math equation \(a^2 + b^2 = c^2\).
-
-\hypertarget{usage}{%
-\section{Usage}\label{usage}}
-
-Each \textbf{bookdown} chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter \emph{must} start with a first-level heading: \texttt{\#\ A\ good\ chapter}, and can contain one (and only one) first-level heading.
-
-Use second-level and higher headings within chapters like: \texttt{\#\#\ A\ short\ section} or \texttt{\#\#\#\ An\ even\ shorter\ section}.
-
-The \texttt{index.Rmd} file is required, and is also your first book chapter. It will be the homepage when you render the book.
-
-\hypertarget{render-book}{%
-\section{Render book}\label{render-book}}
-
-You can render the HTML version of this example book without changing anything:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  Find the \textbf{Build} pane in the RStudio IDE, and
-\item
-  Click on \textbf{Build Book}, then select your output format, or select ``All formats'' if you'd like to use multiple formats from the same book source files.
-\end{enumerate}
-
-Or build the book from the R console:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{bookdown}\SpecialCharTok{::}\FunctionTok{render\_book}\NormalTok{()}
-\end{Highlighting}
-\end{Shaded}
-
-To render this example to PDF as a \texttt{bookdown::pdf\_book}, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): \url{https://yihui.org/tinytex/}.
-
-\hypertarget{preview-book}{%
-\section{Preview book}\label{preview-book}}
-
-As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in ``Preview book'', or from the R console:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{bookdown}\SpecialCharTok{::}\FunctionTok{serve\_book}\NormalTok{()}
-\end{Highlighting}
-\end{Shaded}
+El palíndromo altamente iterado 1 (HIP1 por sus siglas en inglés) cuya secuencia es 5'-GCGATCGC-3', está ampliamente representado en las cianobacterias con excepción de las pico-cianobacterias marinas y otros linajes. El origen de HIP1 y su función (si es que tiene alguna) permanecen desconocidos. Se ha observado que el sitio de reconocimiento (5'-Gm6ATC-3 `) de la enzima Dam metiltransferasa específica para adenina N6 de clase D12 (Dam-met) y el sitio de reconocimiento de DmtC (5'-m5CGATCG-3 ') están contenidos en HIP1, lo que sugiere una posible relación. Sin embargo, la asociación funcional de otros genes con HIP1 no se ha reportado.
 
 \hypertarget{introducciuxf3n}{%
 \chapter{Introducción}\label{introducciuxf3n}}
-
-El palíndromo altamente iterado 1 (HIP1 por sus siglas en inglés) cuya secuencia es 5'-GCGATCGC-3', está ampliamente representado en las cianobacterias con excepción de las pico-cianobacterias marinas y otros linajes. El origen de HIP1 y su función (si es que tiene alguna) permanecen desconocidos. Se ha observado que el sitio de reconocimiento (5'-Gm6ATC-3 `) de la enzima Dam metiltransferasa específica para adenina N6 de clase D12 (Dam-met) y el sitio de reconocimiento de DmtC (5'-m5CGATCG-3 ') están contenidos en HIP1, lo que sugiere una posible relación. Sin embargo, la asociación funcional de otros genes con HIP1 no se ha reportado. Informamos de un conjunto de genes cuyo patrón de presencia/ausencia está asociado con la abundancia de HIP1, lo que sugiere una relación funcional. También informamos de la presencia y representación excesiva de otros palíndromos altamente iterados (HIP) en linajes que carecen de HIP1. Para ello, utilizamos 127 genomas de cianobacterias que se clasificaron en dos grupos según la sobrerrepresentación de HIP1. Luego, nos preguntamos si hay familias génicas cuyo patrón de presencia/ausencia coincidiera con la clasificación de los genomas (con respecto a la sobrerrepresentación de HIP1). Ya que ninguna familia génica coincidió perfectamente, buscamos aquellas con al menos 80\% de coicidencia. 20 de 89 familias génicas identificadas, están asociadas con procesos que implican modificación y/o unión al ADN. Por ejemplo, aquellas con dominios que conforman transportadores ABC, de los que se ha sugerido una función como traslocadores de ADN en B. subtillis. También encontramos familias génicas que podrían participar en mecanismos anteriormente propuestos para aumentar la abundancia de HIP1. Por ejemplo, el mecanismo hipotético sugerido por Elhai J. (2015) en el cual participa el sistema de reparación dirigido por metilación (MMR). En relación con este último mecanismo identificamos un posible análogo de la proteína mutH específico para sitios metilados GmC y algunas enzimas con función de endonucleasa. Por ejemplo, algunas inteínas con dominio de endonucleasa como aquel que está presente en la ADN pol III sub unidad alfa, o como las proteínas con dominio GIY-GIY endonucleasa. El conjunto de familias génicas reportado en este trabajo podría servir para realizar experimentos posteriores para esclarecer la importancia de estas enzimas en el origen y evolución de HIP1.
 
 \hypertarget{muxe9todos}{%
 \chapter{Métodos}\label{muxe9todos}}
@@ -193,14 +148,233 @@ Estos conjuntos corresponden a:
 \begin{itemize}
 \tightlist
 \item
-  269 genomas completos y aquellos que solo contenian el cromosoma (complete\_chr)
+  269 genomas completos y aquellos que solo contenian el cromosoma (\textbf{complete\_chr})
 \item
-  165 genomas nuevos usados en Cabello-Yeves et al.~(2022) (pico)
+  165 genomas nuevos usados en \citet{cabello2022elucidating} (\textbf{pico})
 \end{itemize}
 
 Dichos genomas fueron descargados en formato Genebank (.gbk o gbff).
 
-ESTE ES UN CAMBIO
+\hypertarget{abundancia-de-paluxedndromos.}{%
+\section{Abundancia de palíndromos.}\label{abundancia-de-paluxedndromos.}}
+
+Una vez descargados los genomas, el siguiente paso fue calcular el valor observado y esperado de repeticiones de todos los posibles octámeros palindrómicos de 8 nucleótidos.
+
+El valor observado es el número de veces que cada octámero palindrómico se repite a lo largo de cada genoma.
+El valor esperado se calculó mediante un \textbf{modelo de markov de 3er orden}.
+
+\hypertarget{modelos-de-markov}{%
+\subsection{Modelos de Markov}\label{modelos-de-markov}}
+
+En una cadena de Markov, el valor tomado por una variable aleatoria depende de los valores tomados por la variable aleatoria en un estado anterior. El número de estados históricos que influyen en el valor de la variable aleatoria en un lugar dado a lo largo de la secuencia también se conoce como el \textbf{grado del proceso de Markov}. El modelo de cadena de Markov de \textbf{primer grado} tiene parámetros \(|\Sigma| + |\Sigma|^2\), correspondientes a las frecuencias de nucleótidos individuales así como a las frecuencias de dinucleótidos. De esta manera, este modelo permite que una posición sea dependiente de la posición anterior. Sin embargo, las frecuencias se modelan de manera invariable en la posición y, por lo tanto, pueden no ser adecuadas para modelar señales. Este modelo de secuencia \(M\) se define sobre el espacio muestral \(\Sigma^{*}\) y asigna una probabilidad a cada secuencia \(x\) de longitud \(n(x)\) sobre \(\Sigma^{*}\):
+
+\begin{equation}
+P(x|M) = P_1(x_1) \prod_{i=2,...,n(x)} P_2(x_i|x_{i-1},...,x_{i-n})
+\label{eq:markov}
+\end{equation}
+
+donde \(P_1\) es una función de probabilidad en \(\Sigma\) que modela la distribución de \(\alpha\)'s en la primera posición de la secuencia y \(P_2\) es la función de probabilidad condicional en \(\Sigma\times\Sigma\) que modela la distribución de \(\beta\)'s en la posición \(i>1\) en el símbolo alfabético \(\alpha\) en la posición \(i-1\). La estimación de parámetros se hace utilizando el estimador de \textbf{\emph{probabilidad máxima}}. Las probabilidades de transición se estiman utilizando el teorema de Bayes, como se muestra a continuación:
+
+\begin{equation}
+P_2(\beta|\alpha)={P(\alpha\beta) \over P(\alpha)}
+\label{eq:bayes}
+\end{equation}
+
+De esta manera, las probabilidades transicionales condicionales de encontrar una base \(\beta\) en la posición (\(i\)) dado que la base \(\alpha\) se encontró en la posición (\(i-1\)) se calculan encontrando la abundancia del dinucleótido \(\alpha\beta\) como una fracción de la abundancia del nucleótido \(\alpha\).
+
+\textbf{Ejemplo:}
+
+Considerando una la secuencia de 25 nucleótidos.
+\[Seq = AACGT\space CTCTA\space TCATG\space CCAGG\space ATCTG\]
+
+Al considerar los modelos de cadena de Markov de \textbf{primer grado}, es necesario calcular los \(4-parámetros\) correspondientes a las \textbf{frecuencias de nucleótidos individuales} y los \(4^2\) parámetros correspondientes a las \textbf{frecuencias de dinucleótidos}. Los parámetros de \(\Sigma\) son:
+
+\begin{equation} 
+\begin{split}
+\Sigma & = \{frec(A),frec(C),frec(G),frec(T),\}\\
+ & =\{\frac{6}{25},\frac{7}{25},\frac{7}{25},\frac{5}{25}\}
+\end{split}
+\label{eq:EQ3}
+\end{equation}
+
+Para calcular \(P_2\), los valores de probabilidad condicional \(\Sigma \times \Sigma\), las frecuencias de dinucleótidos y las probabilidades se calculan a partir de los datos de secuencia. Las frecuencias de los dinucleótidos y las probabilidades se muestran a continuación (con los números entre paréntesis que representan las probabilidades):
+
+\begin{equation}
+\Sigma \times \Sigma = 
+\begin{Bmatrix}
+frec(AA)=\frac{1}{24} & frec(AC)=\frac{1}{24} & frec(AT)=\frac{3}{24} & frec(AG)=\frac{1}{24} \\
+frec(CA)=\frac{2}{24} & frec(CC)=\frac{1}{24} & frec(CT)=\frac{3}{24} &frec(CG)=\frac{1}{24} \\
+frec(TA)=\frac{1}{24} & frec(TC)=\frac{4}{24} & frec(TT)=\frac{0}{24} & frec(TG)=\frac{1}{24} \\
+frec(GA)=\frac{1}{24} & frec(GC)=\frac{1}{24} & frec(GT)=\frac{1}{24} & frec(GG)=\frac{1}{24}
+\end{Bmatrix}
+\label{eq:EQ4}
+\end{equation}
+
+A continuación, las probabilidades condicionales se calculan utilizando el teorema de Bayes (consulte la Ecuación \eqref{eq:bayes} ). Por ejemplo, la probabilidad de encontrar \(C\) en la posición \(i+1\) dado que se ha encontrado una \(A\) en la posición (\(i\)) es:
+
+\begin{equation}
+P(C|A)= \frac{P_{AC}}{P_A}=\frac{\frac{1}{24}}{\frac{6}{25}}
+\label{eq:EQ5}
+\end{equation}
+
+Para secuencias grandes, la probabilidad condicional \(P(S_i|S_{i-1})\) se aproxima a:
+
+\begin{equation}
+P(S_i|S_{i-1}) =\frac{frec(S_iS_{i-1})}{frec(S_{i-1})}
+\label{eq:EQ6}
+\end{equation}
+
+Las probabilidades condicionales para la secuencia de ejemplo se muestran en \eqref{eq:EQ4}. Usando estos parámetros del modelo, la probabilidad de encontrar el patrón \(CAAT\) en esta secuencia usando el \textbf{modelo de Markov de primer orden} de la secuencia subyacente sería igual a:
+
+\begin{equation}
+\begin{split}
+P(C)P(A|C)P(A|A)P(T|A) & = P(C)\cdot\frac{P(CA)}{P(C)}\cdot\frac{P(AA)}{P(A)}\cdot\frac{P(AT)}{P(A)} \\
+& = (\frac{7}{25}) \cdot (\frac{50}{168}) \cdot (\frac{25}{144}) \cdot (\frac{75}{144})\\
+& = 0.0075
+\end{split}
+\label{eq:EQ7}
+\end{equation}
+
+\hypertarget{modelo-de-markov-de-orden-1-para-hallar-octanucleuxf3tidos}{%
+\subsection{Modelo de Markov de orden 1 para hallar octanucleótidos}\label{modelo-de-markov-de-orden-1-para-hallar-octanucleuxf3tidos}}
+
+Por ejemplo, para una octanucleótido de 8 letras, digamos HIP1:
+\[W=GCGATCGC\]
+Los parametros de \(\Sigma\) corresponden a:
+\begin{equation}
+\Sigma= \{frec(A),frec(C),frec(G),frec(T)\}
+\end{equation}
+
+Los valores de probabilidad condicional de \(\Sigma \times \Sigma\) son:
+\begin{equation}
+\Sigma \times \Sigma = 
+\begin{Bmatrix}
+  frec(AA) & frec(AC) & frec(AT) & frec(AG) \\ 
+  frec(CA) & frec(CC) & frec(CT) & frec(CG) \\
+  frec(TA) & frec(TC) & frec(TT) & frec(TG) \\
+  frec(GA) & frec(GC) & frec(GT) & frec(GG)
+\end{Bmatrix}
+\end{equation}
+
+Si queremos usar un \textbf{modelo de orden 1}, la probabilidad de hallar \(W\) segun las ecuaciones \eqref{eq:markov} y\eqref{eq:bayes} es:
+\begin{equation}
+\begin{split}
+P(W) & = P(G) \cdot P(C|G) \cdot P(G|C) \cdot P(A|G) \cdot P(T|A) \cdot P(C|T) \cdot P(G|C) \cdot P(C|G)\\
+& = {P(G)} \cdot \frac{P(GC)}{P(G)} \cdot \frac{P(CG)}{P(C)} \cdot \frac{P(GA)}{P(G)} \cdot \frac{P(AT)}{P(A)} \cdot \frac{P(TC)}{P(T)} \cdot \frac{P(CG)}{P(C)} \cdot \frac{P(GC)}{P(G)}\\
+& = P(GC) \cdot \frac{P(CG)}{P(C)} \cdot \frac{P(GA)}{P(G)} \cdot \frac{P(AT)}{P(A)} \cdot \frac{P(TC)}{P(T)} \cdot \frac{P(CG)}{P(C)} \cdot \frac{P(GC)}{P(G)}
+\end{split}
+\end{equation}
+
+finalmente:
+\begin{equation}
+P(W) = \frac{P(GC) \cdot P(CG) \cdot P(GA) \cdot P(AT) \cdot P(TC) \cdot P(CG) \cdot P(GC)}{P(C) \cdot P(G) \cdot P(A) \cdot P(T) \cdot P(C) \cdot P(G)}
+\label{eq:Markov1HIP}
+\end{equation}
+
+\hypertarget{abundancia-de-acuerdo-a-la-frecuencia-observada-y-tasa-oe}{%
+\subsection{Abundancia de acuerdo a la frecuencia observada y tasa OE}\label{abundancia-de-acuerdo-a-la-frecuencia-observada-y-tasa-oe}}
+
+Adicionalmente se calculó una abundancia de acuerdo a la frecuencia observada cada 1000 nucleótidos (\textbf{FrecObs}) y otra en base a la tasa de sitios observados sobre esperados (\textbf{OE}).
+
+\hypertarget{significancia-de-los-conteos-observados}{%
+\section{Significancia de los conteos observados}\label{significancia-de-los-conteos-observados}}
+
+Para darle una significancia estadística al conteo se usó una \textbf{prueba binomial} y un test \textbf{FDR}.
+
+\hypertarget{prueba-binomial.}{%
+\subsection{Prueba binomial.}\label{prueba-binomial.}}
+
+Para calcular la probabilidad de que el \textbf{conteo esperado}, el cual sigue una distribución binomial, tome valores MAYORES O IGUALES al \textbf{conteo observado}, usamos la función \textbf{\emph{pbinom}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{pbinom}\NormalTok{(q, size, prob, }\AttributeTok{lower.tail =} \ConstantTok{FALSE}\NormalTok{)  }
+\end{Highlighting}
+\end{Shaded}
+
+Donde:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{q}: Cuantil o vector de cuantiles
+\item
+  \textbf{size}: Numero de experimentos (n\textgreater=0)
+\item
+  \textbf{prob}: Probabilidad de éxito en cada experimento
+\item
+  \textbf{lower.tail}: si es TRUE, las probabilidades son P(X\textless=x), o P(X\textgreater x) en otro caso.
+\end{itemize}
+
+Tomemos un caso particular del conteo:
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule\noalign{}
+Spp & Palindrome & Observed & Markov (Expected) & GenomeSize \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+336-3 & GCGATCGC & 6202 & 65.396286071305 & 6420126 \\
+\end{longtable}
+
+La probabilidad de que se observen \textbf{6202} sitios \(GCGATCGC\), O MAS, si el número de sitios posibles en el genoma es \textbf{6420119} (\(6420126-8+1\), es decir \(GenomeSize-k+1\)) y la probabilidad de observar dicho sitio es de: \textbf{1.018615e-05} (\(65.3962860713054 \over 6420126-8+1\), es decir \(Expected \over GenomeSize-k+1\)), es casi \textbf{0}.
+
+En otras palabras, la probabilidad de que suceda lo que estoy observando es muy baja.
+
+\hypertarget{fdr}{%
+\subsection{FDR}\label{fdr}}
+
+Para estudios en los que se realizan miles de test de forma simultánea, el resultado de estos métodos es demasiado conservativo e impide que se detecten diferencias reales. Una alternativa es controlar el false discovery rate o FDR.
+
+Para nuestros datos el FDR se calculó en R de usando los valores obtenidos de la prueba binomial:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{p.adjust}\NormalTok{(pval, }\AttributeTok{method=}\StringTok{"fdr"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+Donde \textbf{pval} es la probabilidad obtenida de la prueba binomial.
+
+\hypertarget{conjuntos-de-conteos-de-acuerdo-a-la-significancia}{%
+\subsection{Conjuntos de conteos de acuerdo a la significancia}\label{conjuntos-de-conteos-de-acuerdo-a-la-significancia}}
+
+Se crearon 4 conjuntos de resultados de acuerdo a 4 valores mínimos de significancia de acuerdo al FDR:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{sel32} (\(1 \times 10^{-32}\))
+\item
+  \textbf{sel64} (\(1 \times 10^{-64}\))
+\item
+  \textbf{sel128} (\(1 \times 10^{-128}\))
+\item
+  \textbf{sel256} (\(1 \times 10^{-256}\))
+\end{itemize}
+
+El conjunto más laxo corresponde a \textbf{sel32} ya que su valor de corte de FDR es \(1 \times 10^{-32}\), debido a esto, es el conjunto con más palíndromos. Por otro lado, el conjunto \textbf{sel256} es el conjunto más restrictivo ya que su valor de corte de FDR es de \(1 \times 10^{-256}\), y por lo tanto tiene menos palíndromos.
+
+\hypertarget{visualizaciuxf3n-de-la-abundancia-oe-vs-frecuencia-observada-cada-1000nt}{%
+\section{Visualización de la abundancia: OE vs Frecuencia Observada cada 1000nt}\label{visualizaciuxf3n-de-la-abundancia-oe-vs-frecuencia-observada-cada-1000nt}}
+
+Para visualizar la abundancia creamos un gráfico que muestra el enriquecimiento OE vs la abundancia por cada 1000 nucleótidos. Esto se hizo para cada conjunto de significancia y para cada conjunto de genomas.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{knitr}\SpecialCharTok{::}\FunctionTok{include\_graphics}\NormalTok{(}\StringTok{\textquotesingle{}/home/lalibelulalo/PIPELINES\_2023/REPORTES/Octanucs\_FrecObs/df\_refseq\_chr\_269\_Octanuc\_FrecObs\_sel32\_significative{-}palindromes.png\textquotesingle{}}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{../PIPELINES_2023/REPORTES/Octanucs_FrecObs/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes} 
+
+}
+
+\caption{Here is a nice figure!}\label{fig:nice-fig}
+\end{figure}
 
   \bibliography{book.bib,packages.bib}
 

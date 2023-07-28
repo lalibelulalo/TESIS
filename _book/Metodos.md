@@ -4,10 +4,190 @@ Se descargaron 2 conjuntos de genomas de cianobacterias del servidor del NCBI (h
 
 Estos conjuntos corresponden a:
 
-* 269 genomas completos y aquellos que solo contenian el cromosoma (complete_chr)
-* 165 genomas nuevos usados en Cabello-Yeves et al. (2022) (pico)
+* 269 genomas completos y aquellos que solo contenian el cromosoma (**complete_chr**)
+* 165 genomas nuevos usados en @{cabello2022elucidating} (**pico**)
 
 Dichos genomas fueron descargados en formato Genebank (.gbk o gbff).
 
+## Abundancia de palíndromos. 
 
-ESTE ES UN CAMBIO
+Una vez descargados los genomas, el siguiente paso fue calcular el valor observado y esperado de repeticiones de todos los posibles octámeros palindrómicos de 8 nucleótidos. 
+
+El valor observado es el número de veces que cada octámero palindrómico se repite a lo largo de cada genoma. 
+El valor esperado se calculó mediante un **modelo de markov de 3er orden**.
+
+### Modelos de Markov
+En una cadena de Markov, el valor tomado por una variable aleatoria depende de los valores tomados por la variable aleatoria en un estado anterior. El número de estados históricos que influyen en el valor de la variable aleatoria en un lugar dado a lo largo de la secuencia también se conoce como el **grado del proceso de Markov**. El modelo de cadena de Markov de **primer grado** tiene parámetros $|\Sigma| + |\Sigma|^2$, correspondientes a las frecuencias de nucleótidos individuales así como a las frecuencias de dinucleótidos. De esta manera, este modelo permite que una posición sea dependiente de la posición anterior. Sin embargo, las frecuencias se modelan de manera invariable en la posición y, por lo tanto, pueden no ser adecuadas para modelar señales. Este modelo de secuencia $M$ se define sobre el espacio muestral $\Sigma^{*}$ y asigna una probabilidad a cada secuencia $x$ de longitud $n(x)$ sobre $\Sigma^{*}$:
+
+\begin{equation}
+P(x|M) = P_1(x_1) \prod_{i=2,...,n(x)} P_2(x_i|x_{i-1},...,x_{i-n})
+(\#eq:markov)
+\end{equation}
+
+donde $P_1$ es una función de probabilidad en $\Sigma$ que modela la distribución de $\alpha$'s en la primera posición de la secuencia y $P_2$ es la función de probabilidad condicional en $\Sigma\times\Sigma$ que modela la distribución de $\beta$'s en la posición $i>1$ en el símbolo alfabético $\alpha$ en la posición $i-1$. La estimación de parámetros se hace utilizando el estimador de ***probabilidad máxima***. Las probabilidades de transición se estiman utilizando el teorema de Bayes, como se muestra a continuación:
+
+\begin{equation}
+P_2(\beta|\alpha)={P(\alpha\beta) \over P(\alpha)}
+(\#eq:bayes)
+\end{equation}
+
+De esta manera, las probabilidades transicionales condicionales de encontrar una base $\beta$ en la posición ($i$) dado que la base $\alpha$ se encontró en la posición ($i-1$) se calculan encontrando la abundancia del dinucleótido $\alpha\beta$ como una fracción de la abundancia del nucleótido $\alpha$.
+
+**Ejemplo:**
+
+Considerando una la secuencia de 25 nucleótidos.
+$$Seq = AACGT\space CTCTA\space TCATG\space CCAGG\space ATCTG$$
+
+Al considerar los modelos de cadena de Markov de **primer grado**, es necesario calcular los $4-parámetros$ correspondientes a las **frecuencias de nucleótidos individuales** y los $4^2$ parámetros correspondientes a las **frecuencias de dinucleótidos**. Los parámetros de $\Sigma$ son:
+
+\begin{equation} 
+\begin{split}
+\Sigma & = \{frec(A),frec(C),frec(G),frec(T),\}\\
+ & =\{\frac{6}{25},\frac{7}{25},\frac{7}{25},\frac{5}{25}\}
+\end{split}
+(\#eq:EQ3)
+\end{equation}
+
+Para calcular $P_2$, los valores de probabilidad condicional $\Sigma \times \Sigma$, las frecuencias de dinucleótidos y las probabilidades se calculan a partir de los datos de secuencia. Las frecuencias de los dinucleótidos y las probabilidades se muestran a continuación (con los números entre paréntesis que representan las probabilidades):
+
+\begin{equation}
+\Sigma \times \Sigma = 
+\begin{Bmatrix}
+frec(AA)=\frac{1}{24} & frec(AC)=\frac{1}{24} & frec(AT)=\frac{3}{24} & frec(AG)=\frac{1}{24} \\
+frec(CA)=\frac{2}{24} & frec(CC)=\frac{1}{24} & frec(CT)=\frac{3}{24} &frec(CG)=\frac{1}{24} \\
+frec(TA)=\frac{1}{24} & frec(TC)=\frac{4}{24} & frec(TT)=\frac{0}{24} & frec(TG)=\frac{1}{24} \\
+frec(GA)=\frac{1}{24} & frec(GC)=\frac{1}{24} & frec(GT)=\frac{1}{24} & frec(GG)=\frac{1}{24}
+\end{Bmatrix}
+(\#eq:EQ4)
+\end{equation}
+
+A continuación, las probabilidades condicionales se calculan utilizando el teorema de Bayes (consulte la Ecuación \@ref(eq:bayes) ). Por ejemplo, la probabilidad de encontrar $C$ en la posición $i+1$ dado que se ha encontrado una $A$ en la posición ($i$) es:
+
+\begin{equation}
+P(C|A)= \frac{P_{AC}}{P_A}=\frac{\frac{1}{24}}{\frac{6}{25}}
+(\#eq:EQ5)
+\end{equation}
+
+Para secuencias grandes, la probabilidad condicional $P(S_i|S_{i-1})$ se aproxima a:
+
+\begin{equation}
+P(S_i|S_{i-1}) =\frac{frec(S_iS_{i-1})}{frec(S_{i-1})}
+(\#eq:EQ6)
+\end{equation}
+
+Las probabilidades condicionales para la secuencia de ejemplo se muestran en \@ref(eq:EQ4). Usando estos parámetros del modelo, la probabilidad de encontrar el patrón $CAAT$ en esta secuencia usando el **modelo de Markov de primer orden** de la secuencia subyacente sería igual a:
+
+\begin{equation}
+\begin{split}
+P(C)P(A|C)P(A|A)P(T|A) & = P(C)\cdot\frac{P(CA)}{P(C)}\cdot\frac{P(AA)}{P(A)}\cdot\frac{P(AT)}{P(A)} \\
+& = (\frac{7}{25}) \cdot (\frac{50}{168}) \cdot (\frac{25}{144}) \cdot (\frac{75}{144})\\
+& = 0.0075
+\end{split}
+(\#eq:EQ7)
+\end{equation}
+
+### Modelo de Markov de orden 1 para hallar octanucleótidos
+
+Por ejemplo, para una octanucleótido de 8 letras, digamos HIP1:
+$$W=GCGATCGC$$
+Los parametros de $\Sigma$ corresponden a:
+\begin{equation}
+\Sigma= \{frec(A),frec(C),frec(G),frec(T)\}
+\end{equation}
+
+Los valores de probabilidad condicional de $\Sigma \times \Sigma$ son:
+\begin{equation}
+\Sigma \times \Sigma = 
+\begin{Bmatrix}
+  frec(AA) & frec(AC) & frec(AT) & frec(AG) \\ 
+  frec(CA) & frec(CC) & frec(CT) & frec(CG) \\
+  frec(TA) & frec(TC) & frec(TT) & frec(TG) \\
+  frec(GA) & frec(GC) & frec(GT) & frec(GG)
+\end{Bmatrix}
+\end{equation}
+
+Si queremos usar un **modelo de orden 1**, la probabilidad de hallar $W$ segun las ecuaciones \@ref(eq:markov) y\@ref(eq:bayes) es:
+\begin{equation}
+\begin{split}
+P(W) & = P(G) \cdot P(C|G) \cdot P(G|C) \cdot P(A|G) \cdot P(T|A) \cdot P(C|T) \cdot P(G|C) \cdot P(C|G)\\
+& = {P(G)} \cdot \frac{P(GC)}{P(G)} \cdot \frac{P(CG)}{P(C)} \cdot \frac{P(GA)}{P(G)} \cdot \frac{P(AT)}{P(A)} \cdot \frac{P(TC)}{P(T)} \cdot \frac{P(CG)}{P(C)} \cdot \frac{P(GC)}{P(G)}\\
+& = P(GC) \cdot \frac{P(CG)}{P(C)} \cdot \frac{P(GA)}{P(G)} \cdot \frac{P(AT)}{P(A)} \cdot \frac{P(TC)}{P(T)} \cdot \frac{P(CG)}{P(C)} \cdot \frac{P(GC)}{P(G)}
+\end{split}
+\end{equation}
+
+finalmente:
+\begin{equation}
+P(W) = \frac{P(GC) \cdot P(CG) \cdot P(GA) \cdot P(AT) \cdot P(TC) \cdot P(CG) \cdot P(GC)}{P(C) \cdot P(G) \cdot P(A) \cdot P(T) \cdot P(C) \cdot P(G)}
+(\#eq:Markov1HIP)
+\end{equation}
+
+### Abundancia de acuerdo a la frecuencia observada y tasa OE
+
+Adicionalmente se calculó una abundancia de acuerdo a la frecuencia observada cada 1000 nucleótidos (**FrecObs**) y otra en base a la tasa de sitios observados sobre esperados (**OE**).
+
+## Significancia de los conteos observados
+
+Para darle una significancia estadística al conteo se usó una **prueba binomial** y un test **FDR**. 
+
+### Prueba binomial. 
+
+
+Para calcular la probabilidad de que el **conteo esperado**, el cual sigue una distribución binomial, tome valores MAYORES O IGUALES al **conteo observado**, usamos la función ***pbinom***
+
+```r
+pbinom(q, size, prob, lower.tail = FALSE)  
+```
+
+Donde: 
+
+* **q**: Cuantil o vector de cuantiles 
+* **size**: Numero de experimentos (n>=0) 
+* **prob**: Probabilidad de éxito en cada experimento 
+* **lower.tail**: si es TRUE, las probabilidades son P(X<=x), o P(X>x) en otro caso.
+
+Tomemos un caso particular del conteo:
+
+|Spp   |Palindrome |Observed |Markov (Expected)   |GenomeSize |
+|:------|:-----------|:---------|:----------------|:-----------|
+|336-3 |GCGATCGC   | 6202    |65.396286071305 |6420126    |
+
+La probabilidad de que se observen **6202** sitios $GCGATCGC$, O MAS, si el número de sitios posibles en el genoma es **6420119** ($6420126-8+1$, es decir $GenomeSize-k+1$) y la probabilidad de observar dicho sitio es de: **1.018615e-05** ($65.3962860713054 \over 6420126-8+1$, es decir $Expected \over GenomeSize-k+1$), es casi **0**.
+
+En otras palabras, la probabilidad de que suceda lo que estoy observando es muy baja.
+
+### FDR 
+
+Para estudios en los que se realizan miles de test de forma simultánea, el resultado de estos métodos es demasiado conservativo e impide que se detecten diferencias reales. Una alternativa es controlar el false discovery rate o FDR. 
+
+Para nuestros datos el FDR se calculó en R de usando los valores obtenidos de la prueba binomial:
+
+
+```r
+p.adjust(pval, method="fdr")
+```
+
+Donde **pval** es la probabilidad obtenida de la prueba binomial. 
+
+### Conjuntos de conteos de acuerdo a la significancia
+Se crearon 4 conjuntos de resultados de acuerdo a 4 valores mínimos de significancia de acuerdo al FDR:
+
+* **sel32** ($1 \times 10^{-32}$)
+* **sel64** ($1 \times 10^{-64}$)
+* **sel128** ($1 \times 10^{-128}$)
+* **sel256** ($1 \times 10^{-256}$)
+
+El conjunto más laxo corresponde a **sel32** ya que su valor de corte de FDR es $1 \times 10^{-32}$, debido a esto, es el conjunto con más palíndromos. Por otro lado, el conjunto **sel256** es el conjunto más restrictivo ya que su valor de corte de FDR es de $1 \times 10^{-256}$, y por lo tanto tiene menos palíndromos.
+
+## Visualización de la abundancia: OE vs Frecuencia Observada cada 1000nt 
+
+Para visualizar la abundancia creamos un gráfico que muestra el enriquecimiento OE vs la abundancia por cada 1000 nucleótidos. Esto se hizo para cada conjunto de significancia y para cada conjunto de genomas.
+
+
+```r
+knitr::include_graphics('/home/lalibelulalo/PIPELINES_2023/REPORTES/Octanucs_FrecObs/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png')
+```
+
+<div class="figure" style="text-align: center">
+<img src="../PIPELINES_2023/REPORTES/Octanucs_FrecObs/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png" alt="Here is a nice figure!" width="80%" />
+<p class="caption">(\#fig:nice-fig)Here is a nice figure!</p>
+</div>

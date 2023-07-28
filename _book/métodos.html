@@ -4,15 +4,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 2 Métodos | A Minimal Book Example</title>
-<meta name="author" content="John Doe">
+<title>Chapter 2 Métodos | Evolución de secuencias palindromicas en genomas de cianobacterias</title>
+<meta name="author" content="Eduardo Padilla Mendoza">
 <meta name="description" content="Se descargaron 2 conjuntos de genomas de cianobacterias del servidor del NCBI (https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes). Estos conjuntos corresponden a: 269 genomas completos y...">
 <meta name="generator" content="bookdown 0.34 with bs4_book()">
-<meta property="og:title" content="Chapter 2 Métodos | A Minimal Book Example">
+<meta property="og:title" content="Chapter 2 Métodos | Evolución de secuencias palindromicas en genomas de cianobacterias">
 <meta property="og:type" content="book">
 <meta property="og:description" content="Se descargaron 2 conjuntos de genomas de cianobacterias del servidor del NCBI (https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes). Estos conjuntos corresponden a: 269 genomas completos y...">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 2 Métodos | A Minimal Book Example">
+<meta name="twitter:title" content="Chapter 2 Métodos | Evolución de secuencias palindromicas en genomas de cianobacterias">
 <meta name="twitter:description" content="Se descargaron 2 conjuntos de genomas de cianobacterias del servidor del NCBI (https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes). Estos conjuntos corresponden a: 269 genomas completos y...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +20,28 @@
 <script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
     
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<style type="text/css">
+    /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+        }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
   </style>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -31,7 +53,7 @@
 
     <div class="d-flex align-items-start justify-content-between">
       <h1>
-        <a href="index.html" title="">A Minimal Book Example</a>
+        <a href="index.html" title="">Evolución de secuencias palindromicas en genomas de cianobacterias</a>
       </h1>
       <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
     </div>
@@ -43,9 +65,10 @@
 
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
         <ul class="book-toc list-unstyled">
-<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="index.html">Resumen</a></li>
 <li><a class="" href="introducci%C3%B3n.html"><span class="header-section-number">1</span> Introducción</a></li>
 <li><a class="active" href="m%C3%A9todos.html"><span class="header-section-number">2</span> Métodos</a></li>
+<li><a class="" href="referencias.html">Referencias</a></li>
 </ul>
 
         <div class="book-extra">
@@ -60,19 +83,226 @@
 <p>Se descargaron 2 conjuntos de genomas de cianobacterias del servidor del NCBI (<a href="https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes" class="uri">https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes</a>).</p>
 <p>Estos conjuntos corresponden a:</p>
 <ul>
-<li>269 genomas completos y aquellos que solo contenian el cromosoma (complete_chr)</li>
-<li>165 genomas nuevos usados en Cabello-Yeves et al. (2022) (pico)</li>
+<li>269 genomas completos y aquellos que solo contenian el cromosoma (<strong>complete_chr</strong>)</li>
+<li>165 genomas nuevos usados en <span class="citation">Pedro J Cabello-Yeves et al.<a class="footnote-ref" tabindex="0" data-toggle="popover" data-content="&lt;p&gt;&lt;span&gt;“Elucidating the Picocyanobacteria Salinity Divide Through Ecogenomics of New Freshwater Isolates,”&lt;/span&gt; &lt;em&gt;BMC Biology&lt;/em&gt; 20, no. 1 (2022): 1–24.&lt;/p&gt;"><sup>1</sup></a></span> (<strong>pico</strong>)</li>
 </ul>
 <p>Dichos genomas fueron descargados en formato Genebank (.gbk o gbff).</p>
-<p>ESTE ES UN CAMBIO</p>
+<div id="abundancia-de-palíndromos." class="section level2" number="2.1">
+<h2>
+<span class="header-section-number">2.1</span> Abundancia de palíndromos.<a class="anchor" aria-label="anchor" href="#abundancia-de-pal%C3%ADndromos."><i class="fas fa-link"></i></a>
+</h2>
+<p>Una vez descargados los genomas, el siguiente paso fue calcular el valor observado y esperado de repeticiones de todos los posibles octámeros palindrómicos de 8 nucleótidos.</p>
+<p>El valor observado es el número de veces que cada octámero palindrómico se repite a lo largo de cada genoma.
+El valor esperado se calculó mediante un <strong>modelo de markov de 3er orden</strong>.</p>
+<div id="modelos-de-markov" class="section level3" number="2.1.1">
+<h3>
+<span class="header-section-number">2.1.1</span> Modelos de Markov<a class="anchor" aria-label="anchor" href="#modelos-de-markov"><i class="fas fa-link"></i></a>
+</h3>
+<p>En una cadena de Markov, el valor tomado por una variable aleatoria depende de los valores tomados por la variable aleatoria en un estado anterior. El número de estados históricos que influyen en el valor de la variable aleatoria en un lugar dado a lo largo de la secuencia también se conoce como el <strong>grado del proceso de Markov</strong>. El modelo de cadena de Markov de <strong>primer grado</strong> tiene parámetros <span class="math inline">\(|\Sigma| + |\Sigma|^2\)</span>, correspondientes a las frecuencias de nucleótidos individuales así como a las frecuencias de dinucleótidos. De esta manera, este modelo permite que una posición sea dependiente de la posición anterior. Sin embargo, las frecuencias se modelan de manera invariable en la posición y, por lo tanto, pueden no ser adecuadas para modelar señales. Este modelo de secuencia <span class="math inline">\(M\)</span> se define sobre el espacio muestral <span class="math inline">\(\Sigma^{*}\)</span> y asigna una probabilidad a cada secuencia <span class="math inline">\(x\)</span> de longitud <span class="math inline">\(n(x)\)</span> sobre <span class="math inline">\(\Sigma^{*}\)</span>:</p>
+<p><span class="math display" id="eq:markov">\[\begin{equation}
+P(x|M) = P_1(x_1) \prod_{i=2,...,n(x)} P_2(x_i|x_{i-1},...,x_{i-n})
+\tag{2.1}
+\end{equation}\]</span></p>
+<p>donde <span class="math inline">\(P_1\)</span> es una función de probabilidad en <span class="math inline">\(\Sigma\)</span> que modela la distribución de <span class="math inline">\(\alpha\)</span>’s en la primera posición de la secuencia y <span class="math inline">\(P_2\)</span> es la función de probabilidad condicional en <span class="math inline">\(\Sigma\times\Sigma\)</span> que modela la distribución de <span class="math inline">\(\beta\)</span>’s en la posición <span class="math inline">\(i&gt;1\)</span> en el símbolo alfabético <span class="math inline">\(\alpha\)</span> en la posición <span class="math inline">\(i-1\)</span>. La estimación de parámetros se hace utilizando el estimador de <strong><em>probabilidad máxima</em></strong>. Las probabilidades de transición se estiman utilizando el teorema de Bayes, como se muestra a continuación:</p>
+<p><span class="math display" id="eq:bayes">\[\begin{equation}
+P_2(\beta|\alpha)={P(\alpha\beta) \over P(\alpha)}
+\tag{2.2}
+\end{equation}\]</span></p>
+<p>De esta manera, las probabilidades transicionales condicionales de encontrar una base <span class="math inline">\(\beta\)</span> en la posición (<span class="math inline">\(i\)</span>) dado que la base <span class="math inline">\(\alpha\)</span> se encontró en la posición (<span class="math inline">\(i-1\)</span>) se calculan encontrando la abundancia del dinucleótido <span class="math inline">\(\alpha\beta\)</span> como una fracción de la abundancia del nucleótido <span class="math inline">\(\alpha\)</span>.</p>
+<p><strong>Ejemplo:</strong></p>
+<p>Considerando una la secuencia de 25 nucleótidos.
+<span class="math display">\[Seq = AACGT\space CTCTA\space TCATG\space CCAGG\space ATCTG\]</span></p>
+<p>Al considerar los modelos de cadena de Markov de <strong>primer grado</strong>, es necesario calcular los <span class="math inline">\(4-parámetros\)</span> correspondientes a las <strong>frecuencias de nucleótidos individuales</strong> y los <span class="math inline">\(4^2\)</span> parámetros correspondientes a las <strong>frecuencias de dinucleótidos</strong>. Los parámetros de <span class="math inline">\(\Sigma\)</span> son:</p>
+<p><span class="math display" id="eq:EQ3">\[\begin{equation}
+\begin{split}
+\Sigma &amp; = \{frec(A),frec(C),frec(G),frec(T),\}\\
+&amp; =\{\frac{6}{25},\frac{7}{25},\frac{7}{25},\frac{5}{25}\}
+\end{split}
+\tag{2.3}
+\end{equation}\]</span></p>
+<p>Para calcular <span class="math inline">\(P_2\)</span>, los valores de probabilidad condicional <span class="math inline">\(\Sigma \times \Sigma\)</span>, las frecuencias de dinucleótidos y las probabilidades se calculan a partir de los datos de secuencia. Las frecuencias de los dinucleótidos y las probabilidades se muestran a continuación (con los números entre paréntesis que representan las probabilidades):</p>
+<p><span class="math display" id="eq:EQ4">\[\begin{equation}
+\Sigma \times \Sigma =
+\begin{Bmatrix}
+frec(AA)=\frac{1}{24} &amp; frec(AC)=\frac{1}{24} &amp; frec(AT)=\frac{3}{24} &amp; frec(AG)=\frac{1}{24} \\
+frec(CA)=\frac{2}{24} &amp; frec(CC)=\frac{1}{24} &amp; frec(CT)=\frac{3}{24} &amp;frec(CG)=\frac{1}{24} \\
+frec(TA)=\frac{1}{24} &amp; frec(TC)=\frac{4}{24} &amp; frec(TT)=\frac{0}{24} &amp; frec(TG)=\frac{1}{24} \\
+frec(GA)=\frac{1}{24} &amp; frec(GC)=\frac{1}{24} &amp; frec(GT)=\frac{1}{24} &amp; frec(GG)=\frac{1}{24}
+\end{Bmatrix}
+\tag{2.4}
+\end{equation}\]</span></p>
+<p>A continuación, las probabilidades condicionales se calculan utilizando el teorema de Bayes (consulte la Ecuación <a href="m%C3%A9todos.html#eq:bayes">(2.2)</a> ). Por ejemplo, la probabilidad de encontrar <span class="math inline">\(C\)</span> en la posición <span class="math inline">\(i+1\)</span> dado que se ha encontrado una <span class="math inline">\(A\)</span> en la posición (<span class="math inline">\(i\)</span>) es:</p>
+<p><span class="math display" id="eq:EQ5">\[\begin{equation}
+P(C|A)= \frac{P_{AC}}{P_A}=\frac{\frac{1}{24}}{\frac{6}{25}}
+\tag{2.5}
+\end{equation}\]</span></p>
+<p>Para secuencias grandes, la probabilidad condicional <span class="math inline">\(P(S_i|S_{i-1})\)</span> se aproxima a:</p>
+<p><span class="math display" id="eq:EQ6">\[\begin{equation}
+P(S_i|S_{i-1}) =\frac{frec(S_iS_{i-1})}{frec(S_{i-1})}
+\tag{2.6}
+\end{equation}\]</span></p>
+<p>Las probabilidades condicionales para la secuencia de ejemplo se muestran en <a href="m%C3%A9todos.html#eq:EQ4">(2.4)</a>. Usando estos parámetros del modelo, la probabilidad de encontrar el patrón <span class="math inline">\(CAAT\)</span> en esta secuencia usando el <strong>modelo de Markov de primer orden</strong> de la secuencia subyacente sería igual a:</p>
+<p><span class="math display" id="eq:EQ7">\[\begin{equation}
+\begin{split}
+P(C)P(A|C)P(A|A)P(T|A) &amp; = P(C)\cdot\frac{P(CA)}{P(C)}\cdot\frac{P(AA)}{P(A)}\cdot\frac{P(AT)}{P(A)} \\
+&amp; = (\frac{7}{25}) \cdot (\frac{50}{168}) \cdot (\frac{25}{144}) \cdot (\frac{75}{144})\\
+&amp; = 0.0075
+\end{split}
+\tag{2.7}
+\end{equation}\]</span></p>
+</div>
+<div id="modelo-de-markov-de-orden-1-para-hallar-octanucleótidos" class="section level3" number="2.1.2">
+<h3>
+<span class="header-section-number">2.1.2</span> Modelo de Markov de orden 1 para hallar octanucleótidos<a class="anchor" aria-label="anchor" href="#modelo-de-markov-de-orden-1-para-hallar-octanucle%C3%B3tidos"><i class="fas fa-link"></i></a>
+</h3>
+<p>Por ejemplo, para una octanucleótido de 8 letras, digamos HIP1:
+<span class="math display">\[W=GCGATCGC\]</span>
+Los parametros de <span class="math inline">\(\Sigma\)</span> corresponden a:
+<span class="math display">\[\begin{equation}
+\Sigma= \{frec(A),frec(C),frec(G),frec(T)\}
+\end{equation}\]</span></p>
+<p>Los valores de probabilidad condicional de <span class="math inline">\(\Sigma \times \Sigma\)</span> son:
+<span class="math display">\[\begin{equation}
+\Sigma \times \Sigma =
+\begin{Bmatrix}
+  frec(AA) &amp; frec(AC) &amp; frec(AT) &amp; frec(AG) \\
+  frec(CA) &amp; frec(CC) &amp; frec(CT) &amp; frec(CG) \\
+  frec(TA) &amp; frec(TC) &amp; frec(TT) &amp; frec(TG) \\
+  frec(GA) &amp; frec(GC) &amp; frec(GT) &amp; frec(GG)
+\end{Bmatrix}
+\end{equation}\]</span></p>
+<p>Si queremos usar un <strong>modelo de orden 1</strong>, la probabilidad de hallar <span class="math inline">\(W\)</span> segun las ecuaciones <a href="m%C3%A9todos.html#eq:markov">(2.1)</a> y<a href="m%C3%A9todos.html#eq:bayes">(2.2)</a> es:
+<span class="math display">\[\begin{equation}
+\begin{split}
+P(W) &amp; = P(G) \cdot P(C|G) \cdot P(G|C) \cdot P(A|G) \cdot P(T|A) \cdot P(C|T) \cdot P(G|C) \cdot P(C|G)\\
+&amp; = {P(G)} \cdot \frac{P(GC)}{P(G)} \cdot \frac{P(CG)}{P(C)} \cdot \frac{P(GA)}{P(G)} \cdot \frac{P(AT)}{P(A)} \cdot \frac{P(TC)}{P(T)} \cdot \frac{P(CG)}{P(C)} \cdot \frac{P(GC)}{P(G)}\\
+&amp; = P(GC) \cdot \frac{P(CG)}{P(C)} \cdot \frac{P(GA)}{P(G)} \cdot \frac{P(AT)}{P(A)} \cdot \frac{P(TC)}{P(T)} \cdot \frac{P(CG)}{P(C)} \cdot \frac{P(GC)}{P(G)}
+\end{split}
+\end{equation}\]</span></p>
+<p>finalmente:
+<span class="math display" id="eq:Markov1HIP">\[\begin{equation}
+P(W) = \frac{P(GC) \cdot P(CG) \cdot P(GA) \cdot P(AT) \cdot P(TC) \cdot P(CG) \cdot P(GC)}{P(C) \cdot P(G) \cdot P(A) \cdot P(T) \cdot P(C) \cdot P(G)}
+\tag{2.8}
+\end{equation}\]</span></p>
+</div>
+<div id="abundancia-de-acuerdo-a-la-frecuencia-observada-y-tasa-oe" class="section level3" number="2.1.3">
+<h3>
+<span class="header-section-number">2.1.3</span> Abundancia de acuerdo a la frecuencia observada y tasa OE<a class="anchor" aria-label="anchor" href="#abundancia-de-acuerdo-a-la-frecuencia-observada-y-tasa-oe"><i class="fas fa-link"></i></a>
+</h3>
+<p>Adicionalmente se calculó una abundancia de acuerdo a la frecuencia observada cada 1000 nucleótidos (<strong>FrecObs</strong>) y otra en base a la tasa de sitios observados sobre esperados (<strong>OE</strong>).</p>
+</div>
+</div>
+<div id="significancia-de-los-conteos-observados" class="section level2" number="2.2">
+<h2>
+<span class="header-section-number">2.2</span> Significancia de los conteos observados<a class="anchor" aria-label="anchor" href="#significancia-de-los-conteos-observados"><i class="fas fa-link"></i></a>
+</h2>
+<p>Para darle una significancia estadística al conteo se usó una <strong>prueba binomial</strong> y un test <strong>FDR</strong>.</p>
+<div id="prueba-binomial." class="section level3" number="2.2.1">
+<h3>
+<span class="header-section-number">2.2.1</span> Prueba binomial.<a class="anchor" aria-label="anchor" href="#prueba-binomial."><i class="fas fa-link"></i></a>
+</h3>
+<p>Para calcular la probabilidad de que el <strong>conteo esperado</strong>, el cual sigue una distribución binomial, tome valores MAYORES O IGUALES al <strong>conteo observado</strong>, usamos la función <strong><em>pbinom</em></strong></p>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/Binomial.html">pbinom</a></span><span class="op">(</span><span class="va">q</span>, <span class="va">size</span>, <span class="va">prob</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span>  </span></code></pre></div>
+<p>Donde:</p>
+<ul>
+<li>
+<strong>q</strong>: Cuantil o vector de cuantiles</li>
+<li>
+<strong>size</strong>: Numero de experimentos (n&gt;=0)</li>
+<li>
+<strong>prob</strong>: Probabilidad de éxito en cada experimento</li>
+<li>
+<strong>lower.tail</strong>: si es TRUE, las probabilidades son P(X&lt;=x), o P(X&gt;x) en otro caso.</li>
+</ul>
+<p>Tomemos un caso particular del conteo:</p>
+<div class="inline-table"><table class="table table-sm">
+<thead><tr class="header">
+<th align="left">Spp</th>
+<th align="left">Palindrome</th>
+<th align="left">Observed</th>
+<th align="left">Markov (Expected)</th>
+<th align="left">GenomeSize</th>
+</tr></thead>
+<tbody><tr class="odd">
+<td align="left">336-3</td>
+<td align="left">GCGATCGC</td>
+<td align="left">6202</td>
+<td align="left">65.396286071305</td>
+<td align="left">6420126</td>
+</tr></tbody>
+</table></div>
+<p>La probabilidad de que se observen <strong>6202</strong> sitios <span class="math inline">\(GCGATCGC\)</span>, O MAS, si el número de sitios posibles en el genoma es <strong>6420119</strong> (<span class="math inline">\(6420126-8+1\)</span>, es decir <span class="math inline">\(GenomeSize-k+1\)</span>) y la probabilidad de observar dicho sitio es de: <strong>1.018615e-05</strong> (<span class="math inline">\(65.3962860713054 \over 6420126-8+1\)</span>, es decir <span class="math inline">\(Expected \over GenomeSize-k+1\)</span>), es casi <strong>0</strong>.</p>
+<p>En otras palabras, la probabilidad de que suceda lo que estoy observando es muy baja.</p>
+</div>
+<div id="fdr" class="section level3" number="2.2.2">
+<h3>
+<span class="header-section-number">2.2.2</span> FDR<a class="anchor" aria-label="anchor" href="#fdr"><i class="fas fa-link"></i></a>
+</h3>
+<p>Para estudios en los que se realizan miles de test de forma simultánea, el resultado de estos métodos es demasiado conservativo e impide que se detecten diferencias reales. Una alternativa es controlar el false discovery rate o FDR.</p>
+<p>Para nuestros datos el FDR se calculó en R de usando los valores obtenidos de la prueba binomial:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/p.adjust.html">p.adjust</a></span><span class="op">(</span><span class="va">pval</span>, method<span class="op">=</span><span class="st">"fdr"</span><span class="op">)</span></span></code></pre></div>
+<p>Donde <strong>pval</strong> es la probabilidad obtenida de la prueba binomial.</p>
+</div>
+<div id="conjuntos-de-conteos-de-acuerdo-a-la-significancia" class="section level3" number="2.2.3">
+<h3>
+<span class="header-section-number">2.2.3</span> Conjuntos de conteos de acuerdo a la significancia<a class="anchor" aria-label="anchor" href="#conjuntos-de-conteos-de-acuerdo-a-la-significancia"><i class="fas fa-link"></i></a>
+</h3>
+<p>Se crearon 4 conjuntos de resultados de acuerdo a 4 valores mínimos de significancia de acuerdo al FDR:</p>
+<ul>
+<li>
+<strong>sel32</strong> (<span class="math inline">\(1 \times 10^{-32}\)</span>)</li>
+<li>
+<strong>sel64</strong> (<span class="math inline">\(1 \times 10^{-64}\)</span>)</li>
+<li>
+<strong>sel128</strong> (<span class="math inline">\(1 \times 10^{-128}\)</span>)</li>
+<li>
+<strong>sel256</strong> (<span class="math inline">\(1 \times 10^{-256}\)</span>)</li>
+</ul>
+<p>El conjunto más laxo corresponde a <strong>sel32</strong> ya que su valor de corte de FDR es <span class="math inline">\(1 \times 10^{-32}\)</span>, debido a esto, es el conjunto con más palíndromos. Por otro lado, el conjunto <strong>sel256</strong> es el conjunto más restrictivo ya que su valor de corte de FDR es de <span class="math inline">\(1 \times 10^{-256}\)</span>, y por lo tanto tiene menos palíndromos.</p>
+</div>
+</div>
+<div id="visualización-de-la-abundancia-oe-vs-frecuencia-observada-cada-1000nt" class="section level2" number="2.3">
+<h2>
+<span class="header-section-number">2.3</span> Visualización de la abundancia: OE vs Frecuencia Observada cada 1000nt<a class="anchor" aria-label="anchor" href="#visualizaci%C3%B3n-de-la-abundancia-oe-vs-frecuencia-observada-cada-1000nt"><i class="fas fa-link"></i></a>
+</h2>
+<p>Para visualizar la abundancia creamos un gráfico que muestra el enriquecimiento OE vs la abundancia por cada 1000 nucleótidos. Esto se hizo para cada conjunto de significancia y para cada conjunto de genomas.</p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">knitr</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/knitr/man/include_graphics.html">include_graphics</a></span><span class="op">(</span><span class="st">'/home/lalibelulalo/PIPELINES_2023/REPORTES/Octanucs_FrecObs/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png'</span><span class="op">)</span></span></code></pre></div>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:nice-fig"></span>
+<img src="../PIPELINES_2023/REPORTES/Octanucs_FrecObs/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png" alt="Here is a nice figure!" width="80%"><p class="caption">
+Figure 2.1: Here is a nice figure!
+</p>
+</div>
 
 </div>
+</div>
+
   <div class="chapter-nav">
 <div class="prev"><a href="introducci%C3%B3n.html"><span class="header-section-number">1</span> Introducción</a></div>
-<div class="empty"></div>
+<div class="next"><a href="referencias.html">Referencias</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <ul class="nav navbar-nav"><li><a class="nav-link" href="#m%C3%A9todos"><span class="header-section-number">2</span> Métodos</a></li></ul>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#m%C3%A9todos"><span class="header-section-number">2</span> Métodos</a></li>
+<li>
+<a class="nav-link" href="#abundancia-de-pal%C3%ADndromos."><span class="header-section-number">2.1</span> Abundancia de palíndromos.</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#modelos-de-markov"><span class="header-section-number">2.1.1</span> Modelos de Markov</a></li>
+<li><a class="nav-link" href="#modelo-de-markov-de-orden-1-para-hallar-octanucle%C3%B3tidos"><span class="header-section-number">2.1.2</span> Modelo de Markov de orden 1 para hallar octanucleótidos</a></li>
+<li><a class="nav-link" href="#abundancia-de-acuerdo-a-la-frecuencia-observada-y-tasa-oe"><span class="header-section-number">2.1.3</span> Abundancia de acuerdo a la frecuencia observada y tasa OE</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#significancia-de-los-conteos-observados"><span class="header-section-number">2.2</span> Significancia de los conteos observados</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#prueba-binomial."><span class="header-section-number">2.2.1</span> Prueba binomial.</a></li>
+<li><a class="nav-link" href="#fdr"><span class="header-section-number">2.2.2</span> FDR</a></li>
+<li><a class="nav-link" href="#conjuntos-de-conteos-de-acuerdo-a-la-significancia"><span class="header-section-number">2.2.3</span> Conjuntos de conteos de acuerdo a la significancia</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#visualizaci%C3%B3n-de-la-abundancia-oe-vs-frecuencia-observada-cada-1000nt"><span class="header-section-number">2.3</span> Visualización de la abundancia: OE vs Frecuencia Observada cada 1000nt</a></li>
+</ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
@@ -89,7 +319,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>A Minimal Book Example</strong>" was written by John Doe. It was last built on 2023-07-27.</p>
+    <p>"<strong>Evolución de secuencias palindromicas en genomas de cianobacterias</strong>" was written by Eduardo Padilla Mendoza. It was last built on 2023-07-28.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
