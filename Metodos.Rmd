@@ -174,7 +174,7 @@ Se crearon 4 conjuntos de resultados de acuerdo a 4 valores mínimos de signific
 * **sel128** ($1 \times 10^{-128}$)
 * **sel256** ($1 \times 10^{-256}$)
 
-El conjunto más laxo corresponde a **sel32** ya que su valor de corte de FDR es $1 \times 10^{-32}$, debido a esto, es el conjunto con más palíndromos (Figure \@ref(fig:FIG1)). Por otro lado, el conjunto **sel256** es el conjunto más restrictivo ya que su valor de corte de FDR es de $1 \times 10^{-256}$, y por lo tanto tiene menos palíndromos (Figure \@ref(fig:FIG2)).
+El conjunto más laxo corresponde a **sel32** ya que su valor de corte de FDR es $1 \times 10^{-32}$, debido a esto, es el conjunto con más palíndromos (Figura \@ref(fig:FIG1)). Por otro lado, el conjunto **sel256** es el conjunto más restrictivo ya que su valor de corte de FDR es de $1 \times 10^{-256}$, y por lo tanto tiene menos palíndromos (Figura \@ref(fig:FIG2)).
 
 ## Visualización de la abundancia: OE vs Frecuencia Observada cada 1000nt 
 
@@ -199,7 +199,7 @@ orthofinder –f genomas/
 
 ### Anotación de la filogenia
 
-Para tener una forma de más visual de entender la distribución de los palíndromos en los genomas, anotamos las filogenias de acuerdo a su abundancia. Se anotaron 4 filogenias según la significancia (**sel32**, **sel64**, **sel128** y **sel256**) para los 2 conjuntos de genomas. Además, esta anotación se hizo para la abundancia de acuerdo a la Frecuencia Observada por cada 1000 nucleotidos ($FrecObs$) (Figure \@ref(fig:FIG3)) y a la tasa de Observados sobre esperados ($OE$) (Figure \@ref(fig:FIG4)). 
+Para tener una forma de más visual de entender la distribución de los palíndromos en los genomas, anotamos las filogenias de acuerdo a su abundancia. Se anotaron 4 filogenias según la significancia (**sel32**, **sel64**, **sel128** y **sel256**) para los 2 conjuntos de genomas. Además, esta anotación se hizo para la abundancia de acuerdo a la Frecuencia Observada por cada 1000 nucleotidos ($FrecObs$) (Figura \@ref(fig:FIG3)) y a la tasa de Observados sobre esperados ($OE$) (Figura \@ref(fig:FIG4)). 
 
 La anotación de las filogenias consistió en agregarles un heatmap que mostrara la abundancia de cada palíndromo y un diagrama de barras que indicara aquel palíndromo con mayor abundancia. 
 
@@ -213,12 +213,12 @@ knitr::include_graphics("figures/refseq_chr_269_Octanuc_OE_sel256_filogenia_HIG.
 
 ## Identificación de casos relevantes
 
-De acuerdo a las filogenias anotadas, se buscaron aquellos casos en los que HIP1 o algún otro palíndromo se hubiera ganado o perdido abruptamente y en su lugar hubiese otro palíndromo abundante. Además, se buscó que en aquellos casos, las ramas en la filogenia no fueran tan largas. Esto se hizo de manera visual revisando el diagrama de barras que mostraba el palíndromo más abundante para cada especie. En total hubo 6 subclados que mostraban cambios abruptos en la abundancia de sus palíndromos (Figure \@ref(fig:FIG5)).
+De acuerdo a las filogenias anotadas, se buscaron aquellos casos en los que HIP1 o algún otro palíndromo se hubiera ganado o perdido abruptamente y en su lugar hubiese otro palíndromo abundante. Además, se buscó que en aquellos casos, las ramas en la filogenia no fueran tan largas. Esto se hizo de manera visual revisando el diagrama de barras que mostraba el palíndromo más abundante para cada especie. En total hubo 6 subclados que mostraban cambios abruptos en la abundancia de sus palíndromos (Figura \@ref(fig:FIG5)).
 ```{r FIG5, echo=FALSE, fig.cap="**Casos de interés.** En la figura se muestran remarcados los casos interesantes: **clado calothrix** (rojo), **clado cyanobacterium** (naranja), **clado geminocystis** (amarillo), **clado thermosynechococcus** (azul), **clado pseudoanabaena** (verde).", fig.align='center'}
 knitr::include_graphics("figures/refseq_chr_269_Octanuc_FrecObs_sel256_filogenia_HIG_cases.png")
 ```
 
-También se hallo un caso interesante en el conjunto **pico** (**clado A18-40**) el cual sirvió como punto de partida para analisis posteriores. En este caso se muestra que la especie Synechococcus A18-40 muestra una tasa OE mucho mayor comparada con las demás especies del clado (Figure \@ref(fig:FIG6)).
+También se hallo un caso interesante en el conjunto **pico** (**clado A18-40**) el cual sirvió como punto de partida para analisis posteriores. En este caso se muestra que la especie Synechococcus A18-40 muestra una tasa OE mucho mayor comparada con las demás especies del clado (Figura \@ref(fig:FIG6)).
 
 ```{r FIG6, echo=FALSE, fig.cap="**Casos de interés.** En la figura se muestra remarcado el **clado A18-40** (azul).",fig.align='center'}
 knitr::include_graphics("figures/pico_165_Octanuc_OE_sel32_filogenia_HIG_cases.png")

@@ -1,0 +1,53 @@
+Clade	Taxon	Palindrome	PalInterval	RepeatLength	RepeatFreq	PalFreq	BLAST	Identity	QueryCover	ProtName	Spp	RepeatType	GC
+Calothrix	336-3	HIP1	154-157	120	4	4	WP_238178408	100	99	tetratricopeptide repeat protein	Calothrix sp. 336/3	TRP	41.7
+Calothrix	336-3	HIP1	1129-1132	126	12	5	WP_035150556.1	100	99	WD40 repeat domain-containing protein	Calothrix sp. 336/3	WD40	45.2
+Calothrix	336-3	HIP1	1392-1397	126	6	6	AKG20868.1	100	99	hypothetical protein IJ00_05730	Calothrix sp. 336/3	TRP	44
+Calothrix	336-3	HIP1	1513-1517	120	8	5	WP_035151030.1	100	99	CHAT domain-containing tetratricopeptide repeat protein	Calothrix sp. 336/3	TRP	41.8
+Calothrix	336-3	HIP1	1561-1564	56	4	4	WP_168163390.1	100	59	hypothetical protein	Calothrix sp. 336/3	-	46.4
+Calothrix	336-3	HIP1	2295-2312	32	20	18	-	-	-	-	-	-	48.3
+Calothrix	336-3	HIP1	2946-2962	35	20	17	WP_168163471.1	100	23	hypothetical protein	Calothrix sp. 336/3	-	48.2
+Calothrix	336-3	HIP1	2963-2969	120	7	7	WP_035153627.1	100	100	tetratricopeptide repeat protein	Calothrix sp. 336/3	TRP	44.8
+Calothrix	336-3	HIP1	3606-3609	66	4	4	WP_035154393.1	100	100	response regulator	Calothrix sp. 336/3	-	49.2
+Calothrix	336-3	HIP1	3699-3710	102	12	12	WP_035154521.1	100	99	tetratricopeptide repeat protein	Calothrix sp. 336/3	TRP	46
+Calothrix	336-3	HIP1	4869-4886	35	18	18	WP_144416065.1	100	100	hypothetical protein	Calothrix sp. 336/3	-	43
+Calothrix	NIES-3974	HIP1	92-98	69	7	7	-	-	-	-	-	-	44.1
+Calothrix	NIES-3974	HIP1	4960-4964	78	5	5	-	-	-	-	-	-	41
+Calothrix	PCC_6303	HIP1	1018-1022	32	5	5	-	-	-	-	-	-	47.1
+Calothrix	PCC_6303	HIP1	1030-1034	33	5	5	-	-	-	-	-	-	51.3
+Calothrix	PCC_6303	HIP1	1924-1945	114	25	22	WP_015198052.1	99	99	hypothetical protein	Calothrix sp. PCC 6303	-	38.7
+Calothrix	PCC_6303	HIP1	2214-2217	35	4	4	WP_255348459.1	100	62	hypothetical protein	Calothrix sp. PCC 6303	-	41.3
+Calothrix	PCC_6303	HIP1	2712-2722	126	15	11	WP_015198903.1	100	100	WD40 repeat domain-containing protein	Calothrix sp. PCC 6303	WD40	44.1
+Calothrix	PCC_6303	HIP1	3235-3241	33	7	7	AFZ02853.1	100	88	glycosyl transferase family protein	Calothrix sp. PCC 6303	-	43.1
+Calothrix	PCC_6303	HIP1	3659-3663	120	5	5	WP_015199930.1	100	100	tetratricopeptide repeat protein	Calothrix sp. PCC 6303	TRP	43.8
+Calothrix	PCC_6303	HIP1	4174-4177	35	8	5	-	-	-	-	-	-	47.6
+Calothrix	PCC_7716	TGGCGCCA	2344-2347	321	8	5	BDA75223.1	100	99	hypothetical protein CAL7716_093890	Calothrix sp. PCC 6303	-	42.4
+Calothrix	NIES-4071	TGGCGCCA	32-35	447	4	4	WP_096683815.1	100	75	MULTISPECIES: hypothetical protein	unclassified Calothrix	-	43.1
+Calothrix	NIES-4105	TGGCGCCA	32-35	447	4	4	WP_096683815.1	100	75	MULTISPECIES: hypothetical protein	unclassified Calothrix	-	43.1
+Cyanobacterium	PCC_8801	HIP1	191-197	125	7	7	WP_157861280.1	100	83	hypothetical protein	Rippkaea orientalis	-	37.7
+Cyanobacterium	PCC_8801	HIP1	313-316	167	4	4	ACK64556.1	100	33	hypothetical protein PCC8801_0460	Rippkaea orientalis PCC 8801	-	36.2
+Cyanobacterium	PCC_8801	HIP1	850-864	102	16	15	WP_012594639.1	100	99	serine protease	Rippkaea orientalis	-	45.9
+Cyanobacterium	PCC_8801	HIP1	2894-2897	330	4	4	WP_015957406.1	100	100	Calx-beta domain-containing protein	Rippkaea orientalis	-	36.7
+Geminocystis	PCC_6308	TGGCGCCA	562-569	22	8	8	WP_017293179.1	100	97	hypothetical protein	Geminocystis herdmanii	-	53.2
+Geminocystis	PCC_6605	TGGCGCCA	1435-1454	72	20	20	-	-	-	-	-	-	53.1
+Geminocystis	PCC_7418	HIP1	1529-1532	33	11	7	-	-	-	-	-	-	45.3
+Geminocystis	PCC_8305	HIP1	351-364	35	26	15	WP_041235310.1	100	99	hypothetical protein	Dactylococcopsis salina]	-	45
+Geminocystis	PCC_8305	TGGCGCCA	135-140	79	6	6	WP_156800612.1	98	86	hypothetical protein	Dactylococcopsis salina]	-	43.5
+Geminocystis	PCC_8305	HIP1	1273-1283	5	5	5	XP_046196560.1	46	65	basic proline-rich protein-like, partial	Oncorhynchus gorbuscha	-	47.9
+Geminocystis	PCC_8305	TGGCGCCA	432-438	297	8	8	WP_015229159.1	100	99	WD40 repeat domain-containing protein	Dactylococcopsis salina]	WD40	35.5
+Geminocystis	PCC_8305	TGGCGCCA	1017-1020	381	4	4	-	-	-	-	-	-	37.6
+Geminocystis	PCC_8305	TGGCGCCA	1046-1050	54	5	5	BAI92435.1	47	62	hypothetical protein NIES39_L02760	Arthrospira platensis NIES-39	-	40.4
+Geminocystis	Z-M001	HIP1	479-485	102	7	7	WP_146294750.1	100	100	tetratricopeptide repeat protein	Euhalothece natronophila	TRP	40.1
+Pseudoanabaena	ABRG-3	HIP1	188-198	58	5	5	WP_055077697.1	50	86	hypothetical protein	Pseudanabaena sp. Roaring Creek	-	42
+Pseudoanabaena	JA-2-3Ba	GGGATCCC	212-247	74	36	36	WP_238376837.1	97	3	cyclopropane fatty acyl phospholipid synthase	Synechococcus sp. JA-2-3Ba(2-13)	-	52.2
+Pseudoanabaena	JA-2-3Ba	GGGATCCC	703-720	78	18	18	KAG8251530.1	27	49	hypothetical protein J6590_078243	Homalodisca vitripennis	-	53.4
+Pseudoanabaena	JA-2-3Ba	GGGATCCC	1211-1225	74	15	15	WP_228375496.1	78	7	MULTISPECIES: metallophosphoesterase	unclassified Synechococcus	-	54.7
+Pseudoanabaena	JA-2-3Ba	GGGATCCC	2653-2682	75	31	31	-	-	-	-	-	-	50.6
+Pseudoanabaena	JA-3-3Ab	GGGATCCC	1473-1476	77	4	4	-	-	-	-	-	-	54.1
+Pseudoanabaena	JA-3-3Ab	GGGATCCC	2691-2707	76	17	17	-	-	-	-	-	-	51.6
+Pseudoanabaena	JA-3-3Ab	GGGATCCC	2981-2991	76	11	11	-	-	-	-	-	-	52.2
+Pseudoanabaena	PCC_7336	HIP1	3336-3341	198	6	6	WP_020480085.1	100	99	hypothetical protein	Synechococcus sp. PCC 7336	-	57.1
+Pseudoanabaena	PCC_7336	HIP1	6361-6367	338	7	7	WP_156820017.1	72	64	hypothetical protein	Synechococcus sp. PCC 7336	-	50.4
+Pseudoanabaena	PCC_7637	HIP1	784-787	777	4	4	WP_015163780.1	100	99	malectin domain-containing carbohydrate-binding protein	Pseudanabaena sp. PCC 7367	-	48.7
+Synechococcus Cyanobium	M30B3	GCTGCAGC	963-976	231	14	14	QVL52596.1	100	97	MAG: hypothetical protein KFB97_14580	Cyanobium sp. M30B3	-	68.3
+Thermosynechococcus	Moss_Beach	HIP1	914-918	102	5	5	WP_235110729.1	100	100	tetratricopeptide repeat protein	Acaryochloris sp. Moss Beach	TRP	49.6
+Thermosynechococcus	Moss_Beach	HIP1	1711-1718	120	8	8	WP_235108087.1	100	94	tetratricopeptide repeat protein	Acaryochloris sp. Moss Beach	TRP	49.7

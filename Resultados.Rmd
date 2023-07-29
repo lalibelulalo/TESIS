@@ -1,0 +1,356 @@
+# Resultados
+
+## Clado Calothrix
+
+El clado calothrix contiene 6 especies  y es de interes ya que segun la filogenia estan estrechamente relacionadas y muestra un cambio en el palindromo mas abundante, pasando de **GCGATCGC** a **TGGCGCCA** (Figure \@ref(fig:FIG12)).
+```{r FIG12, echo=FALSE, fig.cap="**Filogenia anotada del clado Calothrix.** En esta imagen se muestra un cambio abrupto en la Frecuencia observada de **GCGCATCGC** en las especies PCC\\_6303, NIES-3974 y 336-3.", out.width="100%", fig.align='center'}
+knitr::include_graphics("Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia_HIG.png")
+```
+
+### Red de transiciones
+
+Para hacer mas visual la reconstrucción, construimos una red de las transiciones entre los estados ancestrales. Esto lo hicimos en r usando la función ```Create_Transition_Table()```:
+
+```{r,eval=FALSE,message=FALSE,warning=FALSE,results='hide'}
+source("ASR_Orth_Functions/NodeAndEdges.R")
+Nodes.Edges <- Create_Transition_Table(SitesTable = "Clados/Callothrix_clade/PALINDROMES/GCGATCGC/Orthologues_Palindrome_sites.txt",
+                                EvolutionModel = "F81",
+                                Method = "bayes",
+                                Phylogeny = "Clados/Callothrix_clade/SpeciesTree_rooted.txt",
+                                OrthoPath = "Clados/Callothrix_clade/PALINDROMES/GCGATCGC/Only_ORTHOLOGUES/")
+
+```
+
+Posteriormente creamos la red usando la función ```Create_Network()```:
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE,results='hide'}
+source("ASR_Orth_Functions/NodeAndEdges.R")
+Transition_table <- read.table("Clados/Callothrix_clade/PALINDROMES/GCGATCGC/TRANSICIONES.txt", sep = "\t", header = TRUE )
+Network <- Create_Network(Transitions = Transition_table)
+```
+
+y visualizamos dicha red .
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE,results='hide'}
+nodes = Network[[1]]
+edges = Network[[2]]
+
+## Este es otro grafo de fuerzas con peso en sus vertices y te muestra las conceciones de cada nodo de manera mas visual
+nodes_d3 <- mutate(nodes, id = id - 1)
+edges_d3 <- mutate(edges, from = from - 1, to = to - 1)
+
+FORCE <- networkD3::forceNetwork(Links = edges_d3, Nodes = nodes_d3,
+                        Source = "from", Target = "to", 
+                        NodeID = "label", Group = "id", Value = "weight", 
+                        opacity = 1, fontSize = 16, zoom = TRUE)
+```
+
+Para visualizar la red usamos la paqueteria ```networkD3```. Hicimos 2 figuras, la (Figura \@ref(fig:FIG13)) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En dicha red podemos ver algunos nodos con bordes muy gruesos como **GCAATTGC**, **GCAATCGC**, **GCAATAGC**, **GCGATTGC** (Tabla \@ref(tab:TAB6)).
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE,results='hide'}
+routes_tidy <- tidygraph::tbl_graph(nodes = nodes,
+                         edges = edges,
+                         directed = TRUE)
+
+routes_tidy %>% 
+  tidygraph::activate(edges) %>% 
+  tidygraph::arrange(desc(weight))
+
+RED <- visNetwork::visNetwork(nodes, edges)
+
+```
+
+```{r FIG13, eval=knitr::is_html_output(), echo=FALSE,fig.align='center',fig.cap="**Red de todas las transiciones del clado Calothrix.** En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios.",message=FALSE,warning=FALSE}
+Sys.setenv("OPENSSL_CONF"="/dev/null")
+#RED
+FORCE
+```
+
+En la (Figura \@ref(fig:FIG14)) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
+```{r FIG14, eval=knitr::is_html_output(), echo=FALSE, fig.align='center',fig.cap="**Red de todas las transiciones del clado Calothrix.** En esta imagen se muestra la red  de la Figura \\@ref(fig:FIG13) de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió.",message=FALSE,warning=FALSE}
+Sys.setenv("OPENSSL_CONF"="/dev/null")
+## Este ultimo grafo muestra el grafo anterior pero de una forma mas analizable.
+networkD3::sankeyNetwork(Links = edges_d3, Nodes = nodes_d3, Source = "from", Target = "to", 
+                         NodeID = "label", Value = "weight", fontSize = 16, unit = "TIME(s)")
+```
+
+```{r TAB6,  eval=knitr::is_html_output(), echo=FALSE, message=FALSE,warning=FALSE}
+library(kableExtra)
+library(formattable)
+Sys.setenv("OPENSSL_CONF"="/dev/null")
+table.Transitions <- as.data.frame(edges)
+table.nodes <- as.data.frame(nodes)
+for (i in 1:length(table.nodes[,1])){
+  table.Transitions$from[table.Transitions$from == table.nodes[i,1]] <- table.nodes[i,2]
+  table.Transitions$to[table.Transitions$to == table.nodes[i,1]] <- table.nodes[i,2]
+}
+table.Transitions <- table.Transitions[order(table.Transitions$weight,decreasing=TRUE),]
+
+
+row.names(table.Transitions ) <- NULL
+table.Transitions$from = cell_spec(table.Transitions$from,
+                                   color = ifelse(table.Transitions$from == 'GCGATCGC',"red",ifelse(table.Transitions$from == 'GCAATTGC',"blue","black")))
+table.Transitions$to= cell_spec(table.Transitions$to,
+                                   color = ifelse(table.Transitions$to == 'GCGATCGC',"red",ifelse(table.Transitions$to == 'GCAATTGC',"blue","black")))
+
+table.Transitions$weight <- color_tile("white", "orange")(table.Transitions$weight)
+
+kbl(table.Transitions, align = "l",caption = "Transiciones entre nodos.",longtable = TRUE,format = "html", escape = F) %>%
+  kable_paper(full_width = T) %>%
+  column_spec(1:2, bold = T) %>%
+  collapse_rows(columns = 1:2, valign = "top")%>%
+  kable_styling(c("striped", "condensed"), 
+                latex_options = "striped", 
+                full_width = F,
+                fixed_thead = T,
+                font_size = 11)
+
+```
+
+#### Transiciones entre Nodo 9 y Nodo 10
+Para entender más como es que se gana o se pierden los sitios palindrómicos revisamos la transición en tre los nodos 9 y 10. Esto es porque es esta transicion de nodos la que separa a los dos subclados entre los que hay una repentino cambio de abundancia de sitios palindrómicos (Figura \@ref(fig:FIG15)).
+
+```{r FIG15,echo=FALSE,fig.cap="**Filogenia del clado Calotrix**. En rojo y azul se muestran los subclados unidos (en verde) por la transición entre los nodos 9 y 10. "}
+Tree = ggtree::read.tree("Clados/Callothrix_clade/SpeciesTree_rooted.txt")
+tree2 <- ggtree::groupClade(Tree, c(7,10,11))
+tree3 <- as.data.frame(tidytree::as_tibble(tree2))
+
+tree3[4,5]<- 3
+
+ggtree::ggtree(tidytree::as.treedata(tree3), ggplot2::aes(color=group),branch.length='none') + 
+  ggplot2::theme(legend.position='none')+
+  ggtree::scale_color_manual(values=c("red","green","steelblue"))+
+  ggtree::geom_label(ggplot2::aes(label = node),show.legend = TRUE)+
+    ggtree::geom_cladelab(node=1, label="336-3", align=TRUE, 
+                        geom='label', fill='red')+
+  ggtree::geom_cladelab(node=2, label="PCC_6303", align=TRUE, 
+                        geom='label', fill='red')+
+  ggtree::geom_cladelab(node=3, label="NIES-3974", align=TRUE, 
+                        geom='label', fill='red',)+
+    ggtree::geom_cladelab(node=4, label="PCC_7716", align=TRUE, 
+                        geom='label', fill='steelblue')+
+  ggtree::geom_cladelab(node=5, label="NIES-4071", align=TRUE, 
+                        geom='label', fill='steelblue')+
+  ggtree::geom_cladelab(node=6, label="NIES-4105", align=TRUE, 
+                        geom='label', fill='steelblue')+
+  ggplot2::expand_limits(x = 6) 
+
+```
+
+Para hacer esto filtramos los datos de la red para mostrar unicamente las transiciones que se dieron entre los nodos 9 y 10 e hicimos las mismas figuras.
+En la (Figura \@ref(fig:FIG16)) se muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En la (Figura \@ref(fig:FIG17)) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
+
+```{r, echo=FALSE,message=FALSE,warning=FALSE,results='hide'}
+Directed_Transition_table <- read.table("Clados/Callothrix_clade/PALINDROMES/GCGATCGC/TRANSICIONES_DIRECCION.txt", sep = "\t", header = TRUE )
+Directed_Network <- Create_Directed_Network(DirectedTransitions = Directed_Transition_table,
+                                             Direction = "9--8",
+                                             Weight = 30)
+nodesL = Directed_Network[[1]]
+edgesL = Directed_Network[[2]]
+
+nodes_d3L <- mutate(nodesL, id = id - 1)
+edges_d3L <- mutate(edgesL, from = from - 1, to = to - 1)
+```
+
+```{r FIG16, eval=knitr::is_html_output(), echo=FALSE,fig.align='center',fig.cap="**Red de las transiciones entre los Nodos 9 y 10 del clado Calothrix.** En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios.",message=FALSE,warning=FALSE}
+Sys.setenv("OPENSSL_CONF"="/dev/null")
+networkD3::forceNetwork(Links = edges_d3L, Nodes = nodes_d3L,
+                        Source = "from", Target = "to", 
+                        NodeID = "label", Group = "id", Value = "weight", 
+                        opacity = 1, fontSize = 16, zoom = TRUE)  
+```
+
+```{r FIG17, eval=knitr::is_html_output(), echo=FALSE, fig.align='center',fig.cap="**Red de las transiciones entre los nodos 9 y 10 del clado Calothrix.** En esta imagen se muestra la red  de la Figura \\@ref(fig:FIG16) de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió.",message=FALSE,warning=FALSE}
+## Este ultimo grafo muestra el grafo anterior pero de una forma mas analizable.
+Sys.setenv("OPENSSL_CONF"="/dev/null")
+networkD3::sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", Target = "to", 
+                         NodeID = "label", Value = "weight", fontSize = 16, unit = "TIME(s)")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Clado A18-40
+
+El clado A18-40 fue de particular interés ya que entre las especies **Synechococcus_sp_A18−40** y **Synechococcus sp RS9915** hay un cambio abrupto del palíndromo con mayor OE. Más aun, los genomas de ambas especies son muy parecidos y ambas especias son cercanas segun la filogenia (Figura \@ref(fig:FIG7)).
+```{r FIG7, echo=FALSE, fig.cap="**Filogenia anotada del clado A18-40.** En esta imagen se muestra un cambio abrupto en la tasa OE de la especie Synechococcus sp A18-40.", out.width="100%", fig.align='center'}
+knitr::include_graphics("figures/A18-40_Octanuc_OE_sel32_filogenia_HIG.png")
+```
+
+Para saber que tan parecidos eran los genomas hicimos dos análisis de sintenia, uno de enfocado en los ortólogos (Figura \@ref(fig:FIG8)) y otro enfocado en el genoma (Figura \@ref(fig:FIG9)).
+
+```{r FIG8, echo=FALSE, fig.cap="**Sintenía de ortólogos entre las especies Synechococcus sp A18-40 y Synechococcus sp RS99150.** En esta imagen se hizo un análisis de sintenia de ortólogos para ver que tan parecidos eran los genomas. En azul se muestra la especie Synechococcus sp A18-40 y en verde Synechococcus sp RS99150.", out.width="75%",fig.align='center'}
+knitr::include_graphics("figures/circos.png")
+```
+
+```{r FIG9, echo=FALSE, fig.cap="**Sintenia de DNA entre especies Synechococcus sp A18−40 y Synechococcus sp RS99150.** En esta imagen se hizo un análisis de sintenia de ortólogos para ver que tan parecidos eran los genomas. En el eje X se muestra la especie Synechococcus sp A18−40 y en el eje Y Synechococcus sp RS99150.",fig.align='center'}
+knitr::include_graphics("figures/out.png")
+```
+
+### CGTTAACG
+
+El palíndromo con la tasa OE mas alta es **CGTTAACG** y lo tiene la especie **Synechococcus sp A18−40** (Tabla \@ref(tab:TAB1)) con un conteo de 112 sitios para dicho palindromo mientras que en las demás especies oscila entre 3 y 15 sitios. 
+
+```{r ,echo=FALSE, include=FALSE}
+library(dplyr)
+tabla = read.table(file="Clados/Clado_A18-40/Markov_count_pico_2022_gbff_2022-10-28_10hrs29mins_Octanuc_M3_.txt", header=TRUE, sep="\t")
+tabla <- tabla%>%
+  filter(spp=='Parasynechococcus_marenigrum_WH_8102'|spp=='Synechococcus_sp_WH_8103'|spp=='Synechococcus_sp_A18-46_1'|spp=='Synechococcus_sp_BOUM118'|spp=='Synechococcus_sp_RS9915'|spp=='Synechococcus_sp_A18-40'|spp=='Synechococcus_sp_A15-24'|spp=='Synechococcus_sp_A15-28')
+tabla <- tabla%>%
+  filter(palindrome=='CGTTAACG')
+tabla = tabla[ , c(1,3,4,5)]
+```
+  
+```{r TAB1, echo=FALSE}
+knitr::kable(
+  head(tabla[, 1:4], 10), booktabs = TRUE,
+             caption = "Conteo del palíndromo **CGTTAACG** en el clado **A18-40**",
+             digits = 2
+)
+```
+
+#### Ubicación de sitios CGTTAACG en los genomas del clado A18-40
+Para tratar de entender la distribución del palindromo en el genoma buscamos la ubicación de cada sitio y analizamos la distancia entre cada uno de ellos (Tabla \@ref(tab:TAB2)).
+En dicho análisis pudimos observar que había 101 sitios que se encontraban entre repeticiones de 340 nuclótidos (columna 3 de la Tabla \@ref(tab:TAB2)).
+
+```{r,echo=FALSE, include=FALSE}
+library(dplyr)
+tabla2 = read.table(file="Clados/Clado_A18-40/Orthologues_Palindrome_sites.txt", header=TRUE, sep="\t")
+tabla2 = tabla2[ , c(1,4,5,6)]
+
+```
+
+```{r TAB2, echo=FALSE}
+knitr::kable(
+  head(tabla2[, 1:4], 15), booktabs = TRUE,
+  caption = "**Ubicación de los sitios CGTTACG.** La tabla muestra las priemras 15 lineas de la tabla. La primera columna se muestra el numero de sitio. La segunda columna muestra el intervalo en el que se encuentra el palíndromo. La tercera columna muestra a cuantos nucléotidos se encuentra el ultimo sitio. La cuarta columna indica la diferencia entre la distancia del ultimo palindromo y la distancia del siguiente.",
+  digits = 2,align = 'r')
+```
+
+Para entender un poco más esta secuencia hicimos un blast el cual arrojó que dicha repetcion de 340 nucleotidos era un motivo **SWM_repeat** el cual se encuentra aaltamente repetido en una proteína de la superficie celular requerida para la movilidad (**QNJ16559.1**). Además, segun la secuencia de aminoácidos, el palindromo esta segmentado en 2 partes. La primera mitad corresponde a **TTA ACG** en el primer y segundo codon  y **CG** en el ultimo codón del motivo **SWM_repeat** (Figure \@ref(fig:FIG10)).
+
+```{r FIG10, echo=FALSE, fig.cap="**Traducción del motivo SWM\\_repeat.** En esta imagen se muestra la secuencia traducida del motivo SWM\\_repeat la cual se encuentra en la especie Synechococcus sp A18-40.", out.width="100%", fig.align='center'}
+knitr::include_graphics("Clados/Clado_A18-40/SWM_repeat_AA.png")
+```
+Debido a que estos 101 sitios solo estaban presentes en la especie  **Synechococcus sp A18−40** se concluyo que la tasa elevada de OE solo se debia a que tenia presente dicha proteína, ya que si se omitía del conteo, las tasas OE eran homogeneas en todo el clado.
+
+### ATGCGCAT
+
+El segundo palíndromo con la tasa OE mas alta es **ATGCGCAT** en la misma especie **Synechococcus sp A18−40** (Tabla \@ref(tab:TAB3)) con un conteo de 135 sitios para dicho palindromo mientras que en las demás especies oscila entre 22 y 31 sitios. 
+
+```{r,echo=FALSE, include=FALSE}
+library(dplyr)
+tabla = read.table(file="Clados/Clado_A18-40/Markov_count_pico_2022_gbff_2022-10-28_10hrs29mins_Octanuc_M3_.txt", header=TRUE, sep="\t")
+tabla <- tabla%>%
+  filter(spp=='Parasynechococcus_marenigrum_WH_8102'|spp=='Synechococcus_sp_WH_8103'|spp=='Synechococcus_sp_A18-46_1'|spp=='Synechococcus_sp_BOUM118'|spp=='Synechococcus_sp_RS9915'|spp=='Synechococcus_sp_A18-40'|spp=='Synechococcus_sp_A15-24'|spp=='Synechococcus_sp_A15-28')
+tabla <- tabla%>%
+  filter(palindrome=='ATGCGCAT')
+tabla = tabla[ , c(1,3,4,5)]
+```
+  
+```{r TAB3, echo=FALSE}
+knitr::kable(tabla,
+             caption = "Conteo del palíndromo ATGCGCAT en el clado A18-40",
+             digits = 2)
+```
+
+#### Ubicación de sitios ATGCGCAT en los genomas del clado A18-40
+Al analizar la distribución del palindromo en el genoma pudimos observar que, al igual que CGTTAACG, había 101 sitios que se encontraban entre repeticiones de 340 nuclótidos (columna 5 de la Tabla \@ref(tab:TAB4))
+```{r,echo=FALSE, include=FALSE}
+library(dplyr)
+tabla3 = read.table(file="Clados/Clado_A18-40/[aA][-]*[tT][-]*[gG][-]*[cC][-]*[gG][-]*[cC][-]*[aA][-]*[tT].Orthologues_Palindrome_sites.txt", header=TRUE, sep="\t")
+tabla3 = tabla3[ , c(1,4,5,6)]
+```
+
+
+```{r TAB4, echo=FALSE}
+knitr::kable(
+  head(tabla3[, 1:4], 15), booktabs = TRUE,
+  caption = "**Ubicación de los sitios ATGCGCAT.** La primera columna se muestra el numero de sitio. La segunda columna muestra el intervalo en el que se encuentra el palíndromo. La tercera columna muestra a cuantos nucléotidos se encuentra el ultimo sitio. La cuarta columna indica la diferencia entre la distancia del ultimo palindromo y la distancia del siguiente.",
+  digits = 2,align = 'r')
+```
+
+Al hacer un blast el cual arrojó que dicha repetcion de 340 nucleotidos era el mismo motivo **SWM_repeat** de la misma proteína de la superficie celular requerida para la movilidad (**QNJ16559.1**). Al revisar la ubicacion del palíndromo pudimos notar que las mismas cantidades de los palíndromos **ATGCGCAT** y **CGTTAAGC** se debe a que estan a un nucleótido de distancia el uno del otro (Figure \@ref(fig:FIG11)). 
+
+```{r FIG11,fig.align='center',fig.cap="**Traducción del motivo SWM\\_repeat.** En esta imagen se muestra la secuencia traducida del motivo SWM\\_repeat. Subrayado en amarillo y rojo se señalan los palíndromos **CGTTAAGC** y **ATGCGCAT** respectivamente, los cuales se encuentran a un nucleotido de distancia.", echo=FALSE}
+knitr::include_graphics("Clados/Clado_A18-40/SWM_3.png")
+```
+

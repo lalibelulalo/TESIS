@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  28 JUL 2023 12:38
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  28 JUL 2023 19:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -854,16 +854,151 @@ File: figures/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes
 .png Graphic file (type bmp)
 <figures/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png>
 
-(./TESIS.bbl [14]) [15
+File: figures/df_refseq_chr_269_Octanuc_FrecObs_sel256_significative-palindrome
+s.png Graphic file (type bmp)
+<figures/df_refseq_chr_269_Octanuc_FrecObs_sel256_significative-palindromes.png
+>
+[14] [15]
+File: figures/refseq_chr_269_Octanuc_FrecObs_sel256_filogenia_HIG.png Graphic f
+ile (type bmp)
+<figures/refseq_chr_269_Octanuc_FrecObs_sel256_filogenia_HIG.png>
 
-] (./TESIS.aux) ) 
+Overfull \hbox (205.01086pt too wide) in paragraph at lines 404--405
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 94.12085pt on input line 409.
+
+File: figures/refseq_chr_269_Octanuc_OE_sel256_filogenia_HIG.png Graphic file (
+type bmp)
+<figures/refseq_chr_269_Octanuc_OE_sel256_filogenia_HIG.png>
+
+Overfull \hbox (205.01086pt too wide) in paragraph at lines 413--414
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 94.12085pt on input line 418.
+
+File: figures/refseq_chr_269_Octanuc_FrecObs_sel256_filogenia_HIG_cases.png Gra
+phic file (type bmp)
+<figures/refseq_chr_269_Octanuc_FrecObs_sel256_filogenia_HIG_cases.png>
+
+Overfull \hbox (205.01086pt too wide) in paragraph at lines 427--428
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 60.51085pt on input line 432.
+
+File: figures/pico_165_Octanuc_OE_sel32_filogenia_HIG_cases.png Graphic file (t
+ype bmp)
+<figures/pico_165_Octanuc_OE_sel32_filogenia_HIG_cases.png>
+
+Overfull \hbox (205.01086pt too wide) in paragraph at lines 438--439
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 36.51085pt on input line 443.
+
+[16]
+Overfull \hbox (73.75342pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 2.6.  RECONSTRUCCIÓN ANCESTRAL DE SITIOS PALINDRÓMICOS EN ORTÓL
+OGOS \TU/lmr/m/n/10 17
+ []
+
+[17] [18]
+Overfull \hbox (73.75342pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 2.6.  RECONSTRUCCIÓN ANCESTRAL DE SITIOS PALINDRÓMICOS EN ORTÓL
+OGOS \TU/lmr/m/n/10 19
+ []
+
+[19] [20]
+Overfull \hbox (73.75342pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 2.6.  RECONSTRUCCIÓN ANCESTRAL DE SITIOS PALINDRÓMICOS EN ORTÓL
+OGOS \TU/lmr/m/n/10 21
+ []
+
+[21] [22
+
+]
+Chapter 3.
+File: Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia
+_HIG.png Graphic file (type bmp)
+<Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia_HIG.
+png>
+
+LaTeX Warning: Reference `fig:FIG13' on page 23 undefined on input line 535.
+
+
+LaTeX Warning: Reference `tab:TAB6' on page 23 undefined on input line 535.
+
+
+LaTeX Warning: Reference `fig:FIG14' on page 23 undefined on input line 537.
+
+[23] [24]
+File: Resultados_files/figure-latex/FIG15-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG15-1.pdf>
+
+LaTeX Warning: Reference `fig:FIG16' on page 25 undefined on input line 551.
+
+
+LaTeX Warning: Reference `fig:FIG17' on page 25 undefined on input line 551.
+
+File: figures/A18-40_Octanuc_OE_sel32_filogenia_HIG.png Graphic file (type bmp)
+
+<figures/A18-40_Octanuc_OE_sel32_filogenia_HIG.png>
+File: figures/circos.png Graphic file (type bmp)
+<figures/circos.png>
+File: figures/out.png Graphic file (type bmp)
+<figures/out.png>
+
+Overfull \hbox (205.03809pt too wide) in paragraph at lines 580--581
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 60.08807pt on input line 585.
+
+[25] [26] [27] [28]
+Overfull \hbox (9.61006pt too wide) in paragraph at lines 596--611
+ [][] 
+ []
+
+File: Clados/Clado_A18-40/SWM_repeat_AA.png Graphic file (type bmp)
+<Clados/Clado_A18-40/SWM_repeat_AA.png>
+
+Overfull \hbox (10.26004pt too wide) in paragraph at lines 670--691
+ [][] 
+ []
+
+[29] [30]
+File: Clados/Clado_A18-40/SWM_3.png Graphic file (type bmp)
+<Clados/Clado_A18-40/SWM_3.png>
+
+Overfull \hbox (912.56133pt too wide) in paragraph at lines 731--732
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 28.812pt on input line 736.
+
+(./TESIS.bbl [31] [32] [33] [34
+
+]) [35] (./TESIS.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 19276 strings out of 476191
- 354707 string characters out of 5812072
- 836385 words of memory out of 5000000
- 39722 multiletter control sequences out of 15000+600000
+ 19533 strings out of 476191
+ 366727 string characters out of 5812072
+ 842900 words of memory out of 5000000
+ 39964 multiletter control sequences out of 15000+600000
  475734 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  86i,15n,121p,1002b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on TESIS.pdf (15 pages).
+Output written on TESIS.pdf (35 pages).

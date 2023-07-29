@@ -9,5 +9,6 @@ rmd_files: [
   "index.Rmd",
   "Introduccion.Rmd",
   "Metodos.Rmd",
+  "Resultados.Rmd",
   "Referencias.Rmd"
 ]

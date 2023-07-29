@@ -176,18 +176,104 @@ Se crearon 4 conjuntos de resultados de acuerdo a 4 valores mínimos de signific
 * **sel128** ($1 \times 10^{-128}$)
 * **sel256** ($1 \times 10^{-256}$)
 
-El conjunto más laxo corresponde a **sel32** ya que su valor de corte de FDR es $1 \times 10^{-32}$, debido a esto, es el conjunto con más palíndromos. Por otro lado, el conjunto **sel256** es el conjunto más restrictivo ya que su valor de corte de FDR es de $1 \times 10^{-256}$, y por lo tanto tiene menos palíndromos.
+El conjunto más laxo corresponde a **sel32** ya que su valor de corte de FDR es $1 \times 10^{-32}$, debido a esto, es el conjunto con más palíndromos (Figura \@ref(fig:FIG1)). Por otro lado, el conjunto **sel256** es el conjunto más restrictivo ya que su valor de corte de FDR es de $1 \times 10^{-256}$, y por lo tanto tiene menos palíndromos (Figura \@ref(fig:FIG2)).
 
 ## Visualización de la abundancia: OE vs Frecuencia Observada cada 1000nt 
 
 Para visualizar la abundancia creamos un gráfico que muestra el enriquecimiento OE vs la abundancia por cada 1000 nucleótidos. Esto se hizo para cada conjunto de significancia y para cada conjunto de genomas.
 
-
-```r
-knitr::include_graphics(normalizePath('figures/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png'))
-```
+<div class="figure" style="text-align: center">
+<img src="figures/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png" alt="**Enriquecimiento versus abundancia de palíndromos octámeros en el conjunto de genomas complete\_chr con un $FDR \leq 1 \times 10^{-32}$.** Enriquecimiento (**O/E**) en función de la frecuencia del motivo cada 1000 nt (**FrecObs**). Cada punto representa un palíndromo octámero de un genoma." width="80%" />
+<p class="caption">(\#fig:FIG1)**Enriquecimiento versus abundancia de palíndromos octámeros en el conjunto de genomas complete\_chr con un $FDR \leq 1 \times 10^{-32}$.** Enriquecimiento (**O/E**) en función de la frecuencia del motivo cada 1000 nt (**FrecObs**). Cada punto representa un palíndromo octámero de un genoma.</p>
+</div>
 
 <div class="figure" style="text-align: center">
-<img src="figures/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png" alt="Here is a nice figure!" width="80%" />
-<p class="caption">(\#fig:FIG1)Here is a nice figure!</p>
+<img src="figures/df_refseq_chr_269_Octanuc_FrecObs_sel256_significative-palindromes.png" alt="**Enriquecimiento versus abundancia de palíndromos octámeros en el conjunto de genomas complete\_chr con un $FDR \leq 1 \times 10^{-256}$.** Enriquecimiento (**O/E**) en función de la frecuencia del motivo cada 1000 nt (**FrecObs**). Cada punto representa un palíndromo octámero de un genoma." width="80%" />
+<p class="caption">(\#fig:FIG2)**Enriquecimiento versus abundancia de palíndromos octámeros en el conjunto de genomas complete\_chr con un $FDR \leq 1 \times 10^{-256}$.** Enriquecimiento (**O/E**) en función de la frecuencia del motivo cada 1000 nt (**FrecObs**). Cada punto representa un palíndromo octámero de un genoma.</p>
 </div>
+
+## Filogenia
+
+Se infirieron filogenias para los dos conjuntos de genomas. Para esto usamos el software **Orthofinder** (@{emms2019orthofinder}), el cual utiliza **FastME** para inferir la filogenia  (@{lefort2015fastme}). **FastME** proporciona algoritmos de distancia para inferir filogenias. FastME se basa en una evolución mínima equilibrada, que es el principio mismo de Neighbor Joining (NJ). 
+
+El software se corrió en la línea de comandos de la siguiente manera: 
+
+```bash
+orthofinder –f genomas/ 
+```
+
+### Anotación de la filogenia
+
+Para tener una forma de más visual de entender la distribución de los palíndromos en los genomas, anotamos las filogenias de acuerdo a su abundancia. Se anotaron 4 filogenias según la significancia (**sel32**, **sel64**, **sel128** y **sel256**) para los 2 conjuntos de genomas. Además, esta anotación se hizo para la abundancia de acuerdo a la Frecuencia Observada por cada 1000 nucleotidos ($FrecObs$) (Figura \@ref(fig:FIG3)) y a la tasa de Observados sobre esperados ($OE$) (Figura \@ref(fig:FIG4)). 
+
+La anotación de las filogenias consistió en agregarles un heatmap que mostrara la abundancia de cada palíndromo y un diagrama de barras que indicara aquel palíndromo con mayor abundancia. 
+
+<div class="figure" style="text-align: center">
+<img src="figures/refseq_chr_269_Octanuc_FrecObs_sel256_filogenia_HIG.png" alt="**Filogenia del conjunto de genomas *complete\_chr* anotada de acuerdo a la Frecuencia observada cada 1000 nt (FrecObs).** La abundancia visualizada en esta filogenia es de acuerdo al conjunto **sel256**, es decir conteos con un $FDR \leq 1 \times 10^{-256}$. La filogenia muestra 269 especies, frente a la filogenia se muestra un heatmap que indica la abundancia de cada palíndromo. Frente al Heatmap se muestra un Diagrama de barras el cual indíca el palindromo mas abundante de entre todos." width="5400" />
+<p class="caption">(\#fig:FIG3)**Filogenia del conjunto de genomas *complete\_chr* anotada de acuerdo a la Frecuencia observada cada 1000 nt (FrecObs).** La abundancia visualizada en esta filogenia es de acuerdo al conjunto **sel256**, es decir conteos con un $FDR \leq 1 \times 10^{-256}$. La filogenia muestra 269 especies, frente a la filogenia se muestra un heatmap que indica la abundancia de cada palíndromo. Frente al Heatmap se muestra un Diagrama de barras el cual indíca el palindromo mas abundante de entre todos.</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="figures/refseq_chr_269_Octanuc_OE_sel256_filogenia_HIG.png" alt="**Filogenia del conjunto de genomas *complete\_chr* anotada de acuerdo a la tasa de observados sobre esperados (OE).** La abundancia visualizada en esta filogenia es de acuerdo al conjunto **sel256**, es decir conteos con un $FDR \leq 1 \times 10^{-256}$. La filogenia muestra 269 especies, frente a la filogenia se muestra un heatmap que indica la abundancia de cada palíndromo. Frente al Heatmap se muestra un Diagrama de barras el cual indíca el palindromo mas abundante de entre todos." width="5400" />
+<p class="caption">(\#fig:FIG4)**Filogenia del conjunto de genomas *complete\_chr* anotada de acuerdo a la tasa de observados sobre esperados (OE).** La abundancia visualizada en esta filogenia es de acuerdo al conjunto **sel256**, es decir conteos con un $FDR \leq 1 \times 10^{-256}$. La filogenia muestra 269 especies, frente a la filogenia se muestra un heatmap que indica la abundancia de cada palíndromo. Frente al Heatmap se muestra un Diagrama de barras el cual indíca el palindromo mas abundante de entre todos.</p>
+</div>
+
+## Identificación de casos relevantes
+
+De acuerdo a las filogenias anotadas, se buscaron aquellos casos en los que HIP1 o algún otro palíndromo se hubiera ganado o perdido abruptamente y en su lugar hubiese otro palíndromo abundante. Además, se buscó que en aquellos casos, las ramas en la filogenia no fueran tan largas. Esto se hizo de manera visual revisando el diagrama de barras que mostraba el palíndromo más abundante para cada especie. En total hubo 6 subclados que mostraban cambios abruptos en la abundancia de sus palíndromos (Figura \@ref(fig:FIG5)).
+<div class="figure" style="text-align: center">
+<img src="figures/refseq_chr_269_Octanuc_FrecObs_sel256_filogenia_HIG_cases.png" alt="**Casos de interés.** En la figura se muestran remarcados los casos interesantes: **clado calothrix** (rojo), **clado cyanobacterium** (naranja), **clado geminocystis** (amarillo), **clado thermosynechococcus** (azul), **clado pseudoanabaena** (verde)." width="5400" />
+<p class="caption">(\#fig:FIG5)**Casos de interés.** En la figura se muestran remarcados los casos interesantes: **clado calothrix** (rojo), **clado cyanobacterium** (naranja), **clado geminocystis** (amarillo), **clado thermosynechococcus** (azul), **clado pseudoanabaena** (verde).</p>
+</div>
+
+También se hallo un caso interesante en el conjunto **pico** (**clado A18-40**) el cual sirvió como punto de partida para analisis posteriores. En este caso se muestra que la especie Synechococcus A18-40 muestra una tasa OE mucho mayor comparada con las demás especies del clado (Figura \@ref(fig:FIG6)).
+
+<div class="figure" style="text-align: center">
+<img src="figures/pico_165_Octanuc_OE_sel32_filogenia_HIG_cases.png" alt="**Casos de interés.** En la figura se muestra remarcado el **clado A18-40** (azul)." width="5400" />
+<p class="caption">(\#fig:FIG6)**Casos de interés.** En la figura se muestra remarcado el **clado A18-40** (azul).</p>
+</div>
+
+## Reconstrucción Ancestral de sitios palindrómicos en ortólogos
+
+Para tratar de entender como es que los sitios HIP1 han ido evolucionando, hicimos una reconstrucción de sitios ancestrales y posteriormente construimos varios conjuntos de redes para visualizar dicha evolución.
+
+### Ortólogos
+
+Para simplificar la reconstrucción de secuencias ancestrales usamos unicamente los ortólogos. Para obtener esto usamos el pipeline 	```get_homologues```:
+
+
+```bash
+get_homologues.pl -d gbff -t 0 -M -n PPN
+```
+
+Después de obtener los ortólgos filtramos:
+
+* aquellos que no estuvieran en las 6 especies del clado
+* aquellos que tuvieran mas de una copia (parálogos)
+* aquellos sin sitios HIP1
+
+### Reconstrucción
+
+Para hacer la reconstrucción usamos la pagueteria de R ```phangorn```, la cual proporciona varios métodos para estimar estados de caracteres ancestrales con Máxima Parsimonia (MP) o Máxima Verosimilitud (ML). En este caso usamos ML. Adicionalmente podemos asignar los estados ancestrales según la máxima verosimilitud (“ml”):
+$$P(x_r=A) = {{L(x_r=A)} \over {\sum\limits_{k\in \{A,C,G,T\}}} L(x_r= k) }$$
+
+y el criterio de mayor probabilidad posterior (“bayes”):
+$$P(x_r=A) = {{\pi_A L(x_r=A)} \over {\sum\limits_{k\in \{A,C,G,T\}}} \pi_k L(x_r= k) }$$
+
+dónde $L(x_r)$ es la probabilidad conjunta de los estados en las puntas y el estado en la raíz $x_r$ y $\pi_i$ son las frecuencias base estimadas del estado $i$.
+
+Toda la información de la reconstrucción fue guardada en dos tablas las cuales contienen listas de cada transicion entre cada estado. Estas tablas fueron creadas con la siguiente función:
+
+
+```r
+source("ASR_Orth_Functions/NodeAndEdges.R")
+
+Create_Transition_Table (SitesTable = "Clados/Callothrix_clade/PALINDROMES/GCGATCGC/Orthologues_Palindrome_sites.txt",
+                                EvolutionModel = "F81",
+                                Method = "bayes",
+                                Phylogeny = "Clados/Callothrix_clade/SpeciesTree_rooted.txt",
+                                OrthoPath = "Clados/Callothrix_clade/PALINDROMES/GCGATCGC/Only_ORTHOLOGUES/")
+```
+
+
+

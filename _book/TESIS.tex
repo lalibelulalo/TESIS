@@ -354,18 +354,12 @@ Se crearon 4 conjuntos de resultados de acuerdo a 4 valores mínimos de signific
   \textbf{sel256} (\(1 \times 10^{-256}\))
 \end{itemize}
 
-El conjunto más laxo corresponde a \textbf{sel32} ya que su valor de corte de FDR es \(1 \times 10^{-32}\), debido a esto, es el conjunto con más palíndromos. Por otro lado, el conjunto \textbf{sel256} es el conjunto más restrictivo ya que su valor de corte de FDR es de \(1 \times 10^{-256}\), y por lo tanto tiene menos palíndromos.
+El conjunto más laxo corresponde a \textbf{sel32} ya que su valor de corte de FDR es \(1 \times 10^{-32}\), debido a esto, es el conjunto con más palíndromos (Figura \ref{fig:FIG1}). Por otro lado, el conjunto \textbf{sel256} es el conjunto más restrictivo ya que su valor de corte de FDR es de \(1 \times 10^{-256}\), y por lo tanto tiene menos palíndromos (Figura \ref{fig:FIG2}).
 
 \hypertarget{visualizaciuxf3n-de-la-abundancia-oe-vs-frecuencia-observada-cada-1000nt}{%
 \section{Visualización de la abundancia: OE vs Frecuencia Observada cada 1000nt}\label{visualizaciuxf3n-de-la-abundancia-oe-vs-frecuencia-observada-cada-1000nt}}
 
 Para visualizar la abundancia creamos un gráfico que muestra el enriquecimiento OE vs la abundancia por cada 1000 nucleótidos. Esto se hizo para cada conjunto de significancia y para cada conjunto de genomas.
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{knitr}\SpecialCharTok{::}\FunctionTok{include\_graphics}\NormalTok{(}\FunctionTok{normalizePath}\NormalTok{(}\StringTok{\textquotesingle{}figures/df\_refseq\_chr\_269\_Octanuc\_FrecObs\_sel32\_significative{-}palindromes.png\textquotesingle{}}\NormalTok{))}
-\end{Highlighting}
-\end{Shaded}
 
 \begin{figure}
 
@@ -373,7 +367,372 @@ Para visualizar la abundancia creamos un gráfico que muestra el enriquecimiento
 
 }
 
-\caption{Here is a nice figure!}\label{fig:FIG1}
+\caption{**Enriquecimiento versus abundancia de palíndromos octámeros en el conjunto de genomas complete\_chr con un $FDR \leq 1 \times 10^{-32}$.** Enriquecimiento (**O/E**) en función de la frecuencia del motivo cada 1000 nt (**FrecObs**). Cada punto representa un palíndromo octámero de un genoma.}\label{fig:FIG1}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{figures/df_refseq_chr_269_Octanuc_FrecObs_sel256_significative-palindromes} 
+
+}
+
+\caption{**Enriquecimiento versus abundancia de palíndromos octámeros en el conjunto de genomas complete\_chr con un $FDR \leq 1 \times 10^{-256}$.** Enriquecimiento (**O/E**) en función de la frecuencia del motivo cada 1000 nt (**FrecObs**). Cada punto representa un palíndromo octámero de un genoma.}\label{fig:FIG2}
+\end{figure}
+
+\hypertarget{filogenia}{%
+\section{Filogenia}\label{filogenia}}
+
+Se infirieron filogenias para los dos conjuntos de genomas. Para esto usamos el software \textbf{Orthofinder} (\citet{emms2019orthofinder}), el cual utiliza \textbf{FastME} para inferir la filogenia (\citet{lefort2015fastme}). \textbf{FastME} proporciona algoritmos de distancia para inferir filogenias. FastME se basa en una evolución mínima equilibrada, que es el principio mismo de Neighbor Joining (NJ).
+
+El software se corrió en la línea de comandos de la siguiente manera:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{orthofinder}\NormalTok{ –f genomas/ }
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{anotaciuxf3n-de-la-filogenia}{%
+\subsection{Anotación de la filogenia}\label{anotaciuxf3n-de-la-filogenia}}
+
+Para tener una forma de más visual de entender la distribución de los palíndromos en los genomas, anotamos las filogenias de acuerdo a su abundancia. Se anotaron 4 filogenias según la significancia (\textbf{sel32}, \textbf{sel64}, \textbf{sel128} y \textbf{sel256}) para los 2 conjuntos de genomas. Además, esta anotación se hizo para la abundancia de acuerdo a la Frecuencia Observada por cada 1000 nucleotidos (\(FrecObs\)) (Figura \ref{fig:FIG3}) y a la tasa de Observados sobre esperados (\(OE\)) (Figura \ref{fig:FIG4}).
+
+La anotación de las filogenias consistió en agregarles un heatmap que mostrara la abundancia de cada palíndromo y un diagrama de barras que indicara aquel palíndromo con mayor abundancia.
+
+\begin{figure}
+
+{\centering \includegraphics[width=75in]{figures/refseq_chr_269_Octanuc_FrecObs_sel256_filogenia_HIG} 
+
+}
+
+\caption{**Filogenia del conjunto de genomas *complete\_chr* anotada de acuerdo a la Frecuencia observada cada 1000 nt (FrecObs).** La abundancia visualizada en esta filogenia es de acuerdo al conjunto **sel256**, es decir conteos con un $FDR \leq 1 \times 10^{-256}$. La filogenia muestra 269 especies, frente a la filogenia se muestra un heatmap que indica la abundancia de cada palíndromo. Frente al Heatmap se muestra un Diagrama de barras el cual indíca el palindromo mas abundante de entre todos.}\label{fig:FIG3}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=75in]{figures/refseq_chr_269_Octanuc_OE_sel256_filogenia_HIG} 
+
+}
+
+\caption{**Filogenia del conjunto de genomas *complete\_chr* anotada de acuerdo a la tasa de observados sobre esperados (OE).** La abundancia visualizada en esta filogenia es de acuerdo al conjunto **sel256**, es decir conteos con un $FDR \leq 1 \times 10^{-256}$. La filogenia muestra 269 especies, frente a la filogenia se muestra un heatmap que indica la abundancia de cada palíndromo. Frente al Heatmap se muestra un Diagrama de barras el cual indíca el palindromo mas abundante de entre todos.}\label{fig:FIG4}
+\end{figure}
+
+\hypertarget{identificaciuxf3n-de-casos-relevantes}{%
+\section{Identificación de casos relevantes}\label{identificaciuxf3n-de-casos-relevantes}}
+
+De acuerdo a las filogenias anotadas, se buscaron aquellos casos en los que HIP1 o algún otro palíndromo se hubiera ganado o perdido abruptamente y en su lugar hubiese otro palíndromo abundante. Además, se buscó que en aquellos casos, las ramas en la filogenia no fueran tan largas. Esto se hizo de manera visual revisando el diagrama de barras que mostraba el palíndromo más abundante para cada especie. En total hubo 6 subclados que mostraban cambios abruptos en la abundancia de sus palíndromos (Figura \ref{fig:FIG5}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=75in]{figures/refseq_chr_269_Octanuc_FrecObs_sel256_filogenia_HIG_cases} 
+
+}
+
+\caption{**Casos de interés.** En la figura se muestran remarcados los casos interesantes: **clado calothrix** (rojo), **clado cyanobacterium** (naranja), **clado geminocystis** (amarillo), **clado thermosynechococcus** (azul), **clado pseudoanabaena** (verde).}\label{fig:FIG5}
+\end{figure}
+
+También se hallo un caso interesante en el conjunto \textbf{pico} (\textbf{clado A18-40}) el cual sirvió como punto de partida para analisis posteriores. En este caso se muestra que la especie Synechococcus A18-40 muestra una tasa OE mucho mayor comparada con las demás especies del clado (Figura \ref{fig:FIG6}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=75in]{figures/pico_165_Octanuc_OE_sel32_filogenia_HIG_cases} 
+
+}
+
+\caption{**Casos de interés.** En la figura se muestra remarcado el **clado A18-40** (azul).}\label{fig:FIG6}
+\end{figure}
+
+\hypertarget{reconstrucciuxf3n-ancestral-de-sitios-palindruxf3micos-en-ortuxf3logos}{%
+\section{Reconstrucción Ancestral de sitios palindrómicos en ortólogos}\label{reconstrucciuxf3n-ancestral-de-sitios-palindruxf3micos-en-ortuxf3logos}}
+
+Para tratar de entender como es que los sitios HIP1 han ido evolucionando, hicimos una reconstrucción de sitios ancestrales y posteriormente construimos varios conjuntos de redes para visualizar dicha evolución.
+
+\hypertarget{ortuxf3logos}{%
+\subsection{Ortólogos}\label{ortuxf3logos}}
+
+Para simplificar la reconstrucción de secuencias ancestrales usamos unicamente los ortólogos. Para obtener esto usamos el pipeline \texttt{get\_homologues}:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{get\_homologues.pl} \AttributeTok{{-}d}\NormalTok{ gbff }\AttributeTok{{-}t}\NormalTok{ 0 }\AttributeTok{{-}M} \AttributeTok{{-}n}\NormalTok{ PPN}
+\end{Highlighting}
+\end{Shaded}
+
+Después de obtener los ortólgos filtramos:
+
+\begin{itemize}
+\tightlist
+\item
+  aquellos que no estuvieran en las 6 especies del clado
+\item
+  aquellos que tuvieran mas de una copia (parálogos)
+\item
+  aquellos sin sitios HIP1
+\end{itemize}
+
+\hypertarget{reconstrucciuxf3n}{%
+\subsection{Reconstrucción}\label{reconstrucciuxf3n}}
+
+Para hacer la reconstrucción usamos la pagueteria de R \texttt{phangorn}, la cual proporciona varios métodos para estimar estados de caracteres ancestrales con Máxima Parsimonia (MP) o Máxima Verosimilitud (ML). En este caso usamos ML. Adicionalmente podemos asignar los estados ancestrales según la máxima verosimilitud (``ml''):
+\[P(x_r=A) = {{L(x_r=A)} \over {\sum\limits_{k\in \{A,C,G,T\}}} L(x_r= k) }\]
+
+y el criterio de mayor probabilidad posterior (``bayes''):
+\[P(x_r=A) = {{\pi_A L(x_r=A)} \over {\sum\limits_{k\in \{A,C,G,T\}}} \pi_k L(x_r= k) }\]
+
+dónde \(L(x_r)\) es la probabilidad conjunta de los estados en las puntas y el estado en la raíz \(x_r\) y \(\pi_i\) son las frecuencias base estimadas del estado \(i\).
+
+Toda la información de la reconstrucción fue guardada en dos tablas las cuales contienen listas de cada transicion entre cada estado. Estas tablas fueron creadas con la siguiente función:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{source}\NormalTok{(}\StringTok{"ASR\_Orth\_Functions/NodeAndEdges.R"}\NormalTok{)}
+
+\FunctionTok{Create\_Transition\_Table}\NormalTok{ (}\AttributeTok{SitesTable =} \StringTok{"Clados/Callothrix\_clade/PALINDROMES/GCGATCGC/Orthologues\_Palindrome\_sites.txt"}\NormalTok{,}
+                                \AttributeTok{EvolutionModel =} \StringTok{"F81"}\NormalTok{,}
+                                \AttributeTok{Method =} \StringTok{"bayes"}\NormalTok{,}
+                                \AttributeTok{Phylogeny =} \StringTok{"Clados/Callothrix\_clade/SpeciesTree\_rooted.txt"}\NormalTok{,}
+                                \AttributeTok{OrthoPath =} \StringTok{"Clados/Callothrix\_clade/PALINDROMES/GCGATCGC/Only\_ORTHOLOGUES/"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{resultados}{%
+\chapter{Resultados}\label{resultados}}
+
+\hypertarget{clado-calothrix}{%
+\section{Clado Calothrix}\label{clado-calothrix}}
+
+El clado calothrix contiene 6 especies y es de interes ya que segun la filogenia estan estrechamente relacionadas y muestra un cambio en el palindromo mas abundante, pasando de \textbf{GCGATCGC} a \textbf{TGGCGCCA} (Figure \ref{fig:FIG12}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia_HIG} 
+
+}
+
+\caption{**Filogenia anotada del clado Calothrix.** En esta imagen se muestra un cambio abrupto en la Frecuencia observada de **GCGCATCGC** en las especies PCC\_6303, NIES-3974 y 336-3.}\label{fig:FIG12}
+\end{figure}
+
+\hypertarget{red-de-transiciones}{%
+\subsection{Red de transiciones}\label{red-de-transiciones}}
+
+Para hacer mas visual la reconstrucción, construimos una red de las transiciones entre los estados ancestrales. Esto lo hicimos en r usando la función \texttt{Create\_Transition\_Table()}:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{source}\NormalTok{(}\StringTok{"ASR\_Orth\_Functions/NodeAndEdges.R"}\NormalTok{)}
+\NormalTok{Nodes.Edges }\OtherTok{\textless{}{-}} \FunctionTok{Create\_Transition\_Table}\NormalTok{(}\AttributeTok{SitesTable =} \StringTok{"Clados/Callothrix\_clade/PALINDROMES/GCGATCGC/Orthologues\_Palindrome\_sites.txt"}\NormalTok{,}
+                                \AttributeTok{EvolutionModel =} \StringTok{"F81"}\NormalTok{,}
+                                \AttributeTok{Method =} \StringTok{"bayes"}\NormalTok{,}
+                                \AttributeTok{Phylogeny =} \StringTok{"Clados/Callothrix\_clade/SpeciesTree\_rooted.txt"}\NormalTok{,}
+                                \AttributeTok{OrthoPath =} \StringTok{"Clados/Callothrix\_clade/PALINDROMES/GCGATCGC/Only\_ORTHOLOGUES/"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+Posteriormente creamos la red usando la función \texttt{Create\_Network()}:
+
+y visualizamos dicha red .
+
+Para visualizar la red usamos la paqueteria \texttt{networkD3}. Hicimos 2 figuras, la (Figura \ref{fig:FIG13}) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En dicha red podemos ver algunos nodos con bordes muy gruesos como \textbf{GCAATTGC}, \textbf{GCAATCGC}, \textbf{GCAATAGC}, \textbf{GCGATTGC} (Tabla \ref{tab:TAB6}).
+
+En la (Figura \ref{fig:FIG14}) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
+
+\hypertarget{transiciones-entre-nodo-9-y-nodo-10}{%
+\subsubsection{Transiciones entre Nodo 9 y Nodo 10}\label{transiciones-entre-nodo-9-y-nodo-10}}
+
+Para entender más como es que se gana o se pierden los sitios palindrómicos revisamos la transición en tre los nodos 9 y 10. Esto es porque es esta transicion de nodos la que separa a los dos subclados entre los que hay una repentino cambio de abundancia de sitios palindrómicos (Figura \ref{fig:FIG15}).
+
+\begin{figure}
+\centering
+\includegraphics{Resultados_files/figure-latex/FIG15-1.pdf}
+\caption{\label{fig:FIG15}\textbf{Filogenia del clado Calotrix}. En rojo y azul se muestran los subclados unidos (en verde) por la transición entre los nodos 9 y 10.}
+\end{figure}
+
+Para hacer esto filtramos los datos de la red para mostrar unicamente las transiciones que se dieron entre los nodos 9 y 10 e hicimos las mismas figuras.
+En la (Figura \ref{fig:FIG16}) se muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En la (Figura \ref{fig:FIG17}) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
+
+\hypertarget{clado-a18-40}{%
+\section{Clado A18-40}\label{clado-a18-40}}
+
+El clado A18-40 fue de particular interés ya que entre las especies \textbf{Synechococcus\_sp\_A18−40} y \textbf{Synechococcus sp RS9915} hay un cambio abrupto del palíndromo con mayor OE. Más aun, los genomas de ambas especies son muy parecidos y ambas especias son cercanas segun la filogenia (Figura \ref{fig:FIG7}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{figures/A18-40_Octanuc_OE_sel32_filogenia_HIG} 
+
+}
+
+\caption{**Filogenia anotada del clado A18-40.** En esta imagen se muestra un cambio abrupto en la tasa OE de la especie Synechococcus sp A18-40.}\label{fig:FIG7}
+\end{figure}
+
+Para saber que tan parecidos eran los genomas hicimos dos análisis de sintenia, uno de enfocado en los ortólogos (Figura \ref{fig:FIG8}) y otro enfocado en el genoma (Figura \ref{fig:FIG9}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{figures/circos} 
+
+}
+
+\caption{**Sintenía de ortólogos entre las especies Synechococcus sp A18-40 y Synechococcus sp RS99150.** En esta imagen se hizo un análisis de sintenia de ortólogos para ver que tan parecidos eran los genomas. En azul se muestra la especie Synechococcus sp A18-40 y en verde Synechococcus sp RS99150.}\label{fig:FIG8}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=11.11in]{figures/out} 
+
+}
+
+\caption{**Sintenia de DNA entre especies Synechococcus sp A18−40 y Synechococcus sp RS99150.** En esta imagen se hizo un análisis de sintenia de ortólogos para ver que tan parecidos eran los genomas. En el eje X se muestra la especie Synechococcus sp A18−40 y en el eje Y Synechococcus sp RS99150.}\label{fig:FIG9}
+\end{figure}
+
+\hypertarget{cgttaacg}{%
+\subsection{CGTTAACG}\label{cgttaacg}}
+
+El palíndromo con la tasa OE mas alta es \textbf{CGTTAACG} y lo tiene la especie \textbf{Synechococcus sp A18−40} (Tabla \ref{tab:TAB1}) con un conteo de 112 sitios para dicho palindromo mientras que en las demás especies oscila entre 3 y 15 sitios.
+
+\begin{table}
+
+\caption{\label{tab:TAB1}Conteo del palíndromo **CGTTAACG** en el clado **A18-40**}
+\centering
+\begin{tabular}[t]{llrr}
+\toprule
+spp & palindrome & obs & markov3\\
+\midrule
+Synechococcus\_sp\_A18-46\_1 & CGTTAACG & 10 & 9.19\\
+Synechococcus\_sp\_A18-40 & CGTTAACG & 112 & 9.71\\
+Synechococcus\_sp\_WH\_8103 & CGTTAACG & 9 & 9.14\\
+Synechococcus\_sp\_RS9915 & CGTTAACG & 10 & 8.58\\
+Synechococcus\_sp\_A15-28 & CGTTAACG & 3 & 7.58\\
+\addlinespace
+Parasynechococcus\_marenigrum\_WH\_8102 & CGTTAACG & 15 & 9.35\\
+Synechococcus\_sp\_A15-24 & CGTTAACG & 11 & 7.99\\
+Synechococcus\_sp\_BOUM118 & CGTTAACG & 11 & 8.24\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\hypertarget{ubicaciuxf3n-de-sitios-cgttaacg-en-los-genomas-del-clado-a18-40}{%
+\subsubsection{Ubicación de sitios CGTTAACG en los genomas del clado A18-40}\label{ubicaciuxf3n-de-sitios-cgttaacg-en-los-genomas-del-clado-a18-40}}
+
+Para tratar de entender la distribución del palindromo en el genoma buscamos la ubicación de cada sitio y analizamos la distancia entre cada uno de ellos (Tabla \ref{tab:TAB2}).
+En dicho análisis pudimos observar que había 101 sitios que se encontraban entre repeticiones de 340 nuclótidos (columna 3 de la Tabla \ref{tab:TAB2}).
+
+\begin{table}
+
+\caption{\label{tab:TAB2}**Ubicación de los sitios CGTTACG.** La tabla muestra las priemras 15 lineas de la tabla. La primera columna se muestra el numero de sitio. La segunda columna muestra el intervalo en el que se encuentra el palíndromo. La tercera columna muestra a cuantos nucléotidos se encuentra el ultimo sitio. La cuarta columna indica la diferencia entre la distancia del ultimo palindromo y la distancia del siguiente.}
+\centering
+\begin{tabular}[t]{rrrr}
+\toprule
+SiteNumber & Interval & Dist2NextPal & DifBetDist\\
+\midrule
+1 & 315323:315331 & 315323 & -315323\\
+2 & 522737:522745 & 207406 & 107917\\
+3 & 594946:594954 & 72201 & 135205\\
+4 & 683860:683868 & 88906 & -16705\\
+5 & 893774:893782 & 209906 & -121000\\
+\addlinespace
+6 & 894122:894130 & 340 & 209566\\
+7 & 894470:894478 & 340 & 0\\
+8 & 894818:894826 & 340 & 0\\
+9 & 895166:895174 & 340 & 0\\
+10 & 895514:895522 & 340 & 0\\
+\addlinespace
+11 & 895862:895870 & 340 & 0\\
+12 & 896210:896218 & 340 & 0\\
+13 & 896558:896566 & 340 & 0\\
+14 & 896906:896914 & 340 & 0\\
+15 & 897254:897262 & 340 & 0\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Para entender un poco más esta secuencia hicimos un blast el cual arrojó que dicha repetcion de 340 nucleotidos era un motivo \textbf{SWM\_repeat} el cual se encuentra aaltamente repetido en una proteína de la superficie celular requerida para la movilidad (\textbf{QNJ16559.1}). Además, segun la secuencia de aminoácidos, el palindromo esta segmentado en 2 partes. La primera mitad corresponde a \textbf{TTA ACG} en el primer y segundo codon y \textbf{CG} en el ultimo codón del motivo \textbf{SWM\_repeat} (Figure \ref{fig:FIG10}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{Clados/Clado_A18-40/SWM_repeat_AA} 
+
+}
+
+\caption{**Traducción del motivo SWM\_repeat.** En esta imagen se muestra la secuencia traducida del motivo SWM\_repeat la cual se encuentra en la especie Synechococcus sp A18-40.}\label{fig:FIG10}
+\end{figure}
+
+Debido a que estos 101 sitios solo estaban presentes en la especie \textbf{Synechococcus sp A18−40} se concluyo que la tasa elevada de OE solo se debia a que tenia presente dicha proteína, ya que si se omitía del conteo, las tasas OE eran homogeneas en todo el clado.
+
+\hypertarget{atgcgcat}{%
+\subsection{ATGCGCAT}\label{atgcgcat}}
+
+El segundo palíndromo con la tasa OE mas alta es \textbf{ATGCGCAT} en la misma especie \textbf{Synechococcus sp A18−40} (Tabla \ref{tab:TAB3}) con un conteo de 135 sitios para dicho palindromo mientras que en las demás especies oscila entre 22 y 31 sitios.
+
+\begin{table}
+
+\caption{\label{tab:TAB3}Conteo del palíndromo ATGCGCAT en el clado A18-40}
+\centering
+\begin{tabular}[t]{l|l|r|r}
+\hline
+spp & palindrome & obs & markov3\\
+\hline
+Synechococcus\_sp\_A18-46\_1 & ATGCGCAT & 31 & 21.14\\
+\hline
+Synechococcus\_sp\_A18-40 & ATGCGCAT & 135 & 21.67\\
+\hline
+Synechococcus\_sp\_WH\_8103 & ATGCGCAT & 28 & 20.73\\
+\hline
+Synechococcus\_sp\_RS9915 & ATGCGCAT & 31 & 20.50\\
+\hline
+Synechococcus\_sp\_A15-28 & ATGCGCAT & 22 & 19.56\\
+\hline
+Parasynechococcus\_marenigrum\_WH\_8102 & ATGCGCAT & 28 & 20.60\\
+\hline
+Synechococcus\_sp\_A15-24 & ATGCGCAT & 30 & 19.93\\
+\hline
+Synechococcus\_sp\_BOUM118 & ATGCGCAT & 29 & 19.87\\
+\hline
+\end{tabular}
+\end{table}
+
+\hypertarget{ubicaciuxf3n-de-sitios-atgcgcat-en-los-genomas-del-clado-a18-40}{%
+\subsubsection{Ubicación de sitios ATGCGCAT en los genomas del clado A18-40}\label{ubicaciuxf3n-de-sitios-atgcgcat-en-los-genomas-del-clado-a18-40}}
+
+Al analizar la distribución del palindromo en el genoma pudimos observar que, al igual que CGTTAACG, había 101 sitios que se encontraban entre repeticiones de 340 nuclótidos (columna 5 de la Tabla \ref{tab:TAB4})
+
+\begin{table}
+
+\caption{\label{tab:TAB4}**Ubicación de los sitios ATGCGCAT.** La primera columna se muestra el numero de sitio. La segunda columna muestra el intervalo en el que se encuentra el palíndromo. La tercera columna muestra a cuantos nucléotidos se encuentra el ultimo sitio. La cuarta columna indica la diferencia entre la distancia del ultimo palindromo y la distancia del siguiente.}
+\centering
+\begin{tabular}[t]{rrrr}
+\toprule
+SiteNumber & Interval & Dist2NextPal & DifBetDist\\
+\midrule
+1 & 24777:24785 & 24777 & -24777\\
+2 & 91754:91762 & 66969 & -42192\\
+3 & 106816:106824 & 15054 & 51915\\
+4 & 303729:303737 & 196905 & -181851\\
+5 & 415357:415365 & 111620 & 85285\\
+\addlinespace
+6 & 420623:420631 & 5258 & 106362\\
+7 & 540975:540983 & 120344 & -115086\\
+8 & 540987:540995 & 4 & 120340\\
+9 & 571743:571751 & 30748 & -30744\\
+10 & 694673:694681 & 122922 & -92174\\
+\addlinespace
+11 & 708637:708645 & 13956 & 108966\\
+12 & 760389:760397 & 51744 & -37788\\
+13 & 867192:867200 & 106795 & -55051\\
+14 & 893783:893791 & 26583 & 80212\\
+15 & 894131:894139 & 340 & 26243\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Al hacer un blast el cual arrojó que dicha repetcion de 340 nucleotidos era el mismo motivo \textbf{SWM\_repeat} de la misma proteína de la superficie celular requerida para la movilidad (\textbf{QNJ16559.1}). Al revisar la ubicacion del palíndromo pudimos notar que las mismas cantidades de los palíndromos \textbf{ATGCGCAT} y \textbf{CGTTAAGC} se debe a que estan a un nucleótido de distancia el uno del otro (Figure \ref{fig:FIG11}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=17.4in]{Clados/Clado_A18-40/SWM_3} 
+
+}
+
+\caption{**Traducción del motivo SWM\_repeat.** En esta imagen se muestra la secuencia traducida del motivo SWM\_repeat. Subrayado en amarillo y rojo se señalan los palíndromos **CGTTAAGC** y **ATGCGCAT** respectivamente, los cuales se encuentran a un nucleotido de distancia.}\label{fig:FIG11}
 \end{figure}
 
   \bibliography{book.bib,packages.bib}

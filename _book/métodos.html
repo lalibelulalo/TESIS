@@ -17,7 +17,9 @@
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.5.0/transition.js"></script><script src="libs/bs3compat-0.5.0/tabs.js"></script><script src="libs/bs3compat-0.5.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
-<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="libs/htmlwidgets-1.6.2/htmlwidgets.js"></script><script src="libs/d3-4.5.0/d3.min.js"></script><script src="libs/forceNetwork-binding-0.4/forceNetwork.js"></script><script src="libs/sankey-1/sankey.js"></script><script src="libs/sankeyNetwork-binding-0.4/sankeyNetwork.js"></script><script src="libs/kePrint-0.0.1/kePrint.js"></script><link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet">
+<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
     
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   </style>
@@ -68,6 +70,7 @@
 <li><a class="" href="index.html">Resumen</a></li>
 <li><a class="" href="introducci%C3%B3n.html"><span class="header-section-number">1</span> Introducción</a></li>
 <li><a class="active" href="m%C3%A9todos.html"><span class="header-section-number">2</span> Métodos</a></li>
+<li><a class="" href="resultados.html"><span class="header-section-number">3</span> Resultados</a></li>
 <li><a class="" href="referencias.html">Referencias</a></li>
 </ul>
 
@@ -260,7 +263,7 @@ P(W) = \frac{P(GC) \cdot P(CG) \cdot P(GA) \cdot P(AT) \cdot P(TC) \cdot P(CG) \
 <li>
 <strong>sel256</strong> (<span class="math inline">\(1 \times 10^{-256}\)</span>)</li>
 </ul>
-<p>El conjunto más laxo corresponde a <strong>sel32</strong> ya que su valor de corte de FDR es <span class="math inline">\(1 \times 10^{-32}\)</span>, debido a esto, es el conjunto con más palíndromos. Por otro lado, el conjunto <strong>sel256</strong> es el conjunto más restrictivo ya que su valor de corte de FDR es de <span class="math inline">\(1 \times 10^{-256}\)</span>, y por lo tanto tiene menos palíndromos.</p>
+<p>El conjunto más laxo corresponde a <strong>sel32</strong> ya que su valor de corte de FDR es <span class="math inline">\(1 \times 10^{-32}\)</span>, debido a esto, es el conjunto con más palíndromos (Figura <a href="m%C3%A9todos.html#fig:FIG1">2.1</a>). Por otro lado, el conjunto <strong>sel256</strong> es el conjunto más restrictivo ya que su valor de corte de FDR es de <span class="math inline">\(1 \times 10^{-256}\)</span>, y por lo tanto tiene menos palíndromos (Figura <a href="m%C3%A9todos.html#fig:FIG2">2.2</a>).</p>
 </div>
 </div>
 <div id="visualización-de-la-abundancia-oe-vs-frecuencia-observada-cada-1000nt" class="section level2" number="2.3">
@@ -268,21 +271,109 @@ P(W) = \frac{P(GC) \cdot P(CG) \cdot P(GA) \cdot P(AT) \cdot P(TC) \cdot P(CG) \
 <span class="header-section-number">2.3</span> Visualización de la abundancia: OE vs Frecuencia Observada cada 1000nt<a class="anchor" aria-label="anchor" href="#visualizaci%C3%B3n-de-la-abundancia-oe-vs-frecuencia-observada-cada-1000nt"><i class="fas fa-link"></i></a>
 </h2>
 <p>Para visualizar la abundancia creamos un gráfico que muestra el enriquecimiento OE vs la abundancia por cada 1000 nucleótidos. Esto se hizo para cada conjunto de significancia y para cada conjunto de genomas.</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">knitr</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/knitr/man/include_graphics.html">include_graphics</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/normalizePath.html">normalizePath</a></span><span class="op">(</span><span class="st">'figures/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png'</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:FIG1"></span>
-<img src="figures/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png" alt="Here is a nice figure!" width="80%"><p class="caption">
-Figure 2.1: Here is a nice figure!
+<img src="figures/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes.png" alt="**Enriquecimiento versus abundancia de palíndromos octámeros en el conjunto de genomas complete\_chr con un $FDR \leq 1 \times 10^{-32}$.** Enriquecimiento (**O/E**) en función de la frecuencia del motivo cada 1000 nt (**FrecObs**). Cada punto representa un palíndromo octámero de un genoma." width="80%"><p class="caption">
+Figure 2.1: <strong>Enriquecimiento versus abundancia de palíndromos octámeros en el conjunto de genomas complete_chr con un <span class="math inline">\(FDR \leq 1 \times 10^{-32}\)</span>.</strong> Enriquecimiento (<strong>O/E</strong>) en función de la frecuencia del motivo cada 1000 nt (<strong>FrecObs</strong>). Cada punto representa un palíndromo octámero de un genoma.
 </p>
 </div>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG2"></span>
+<img src="figures/df_refseq_chr_269_Octanuc_FrecObs_sel256_significative-palindromes.png" alt="**Enriquecimiento versus abundancia de palíndromos octámeros en el conjunto de genomas complete\_chr con un $FDR \leq 1 \times 10^{-256}$.** Enriquecimiento (**O/E**) en función de la frecuencia del motivo cada 1000 nt (**FrecObs**). Cada punto representa un palíndromo octámero de un genoma." width="80%"><p class="caption">
+Figure 2.2: <strong>Enriquecimiento versus abundancia de palíndromos octámeros en el conjunto de genomas complete_chr con un <span class="math inline">\(FDR \leq 1 \times 10^{-256}\)</span>.</strong> Enriquecimiento (<strong>O/E</strong>) en función de la frecuencia del motivo cada 1000 nt (<strong>FrecObs</strong>). Cada punto representa un palíndromo octámero de un genoma.
+</p>
+</div>
+</div>
+<div id="filogenia" class="section level2" number="2.4">
+<h2>
+<span class="header-section-number">2.4</span> Filogenia<a class="anchor" aria-label="anchor" href="#filogenia"><i class="fas fa-link"></i></a>
+</h2>
+<p>Se infirieron filogenias para los dos conjuntos de genomas. Para esto usamos el software <strong>Orthofinder</strong> (<span class="citation">David M Emms and Steven Kelly<a class="footnote-ref" tabindex="0" data-toggle="popover" data-content="&lt;p&gt;&lt;span&gt;“OrthoFinder: Phylogenetic Orthology Inference for Comparative Genomics,”&lt;/span&gt; &lt;em&gt;Genome Biology&lt;/em&gt; 20 (2019): 1–14.&lt;/p&gt;"><sup>2</sup></a></span>), el cual utiliza <strong>FastME</strong> para inferir la filogenia (<span class="citation">Vincent Lefort, Richard Desper, and Olivier Gascuel<a class="footnote-ref" tabindex="0" data-toggle="popover" data-content="&lt;p&gt;&lt;span&gt;“FastME 2.0: A Comprehensive, Accurate, and Fast Distance-Based Phylogeny Inference Program,”&lt;/span&gt; &lt;em&gt;Molecular Biology and Evolution&lt;/em&gt; 32, no. 10 (2015): 2798–2800.&lt;/p&gt;"><sup>3</sup></a></span>). <strong>FastME</strong> proporciona algoritmos de distancia para inferir filogenias. FastME se basa en una evolución mínima equilibrada, que es el principio mismo de Neighbor Joining (NJ).</p>
+<p>El software se corrió en la línea de comandos de la siguiente manera:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="m%C3%A9todos.html#cb3-1" tabindex="-1"></a><span class="ex">orthofinder</span> –f genomas/ </span></code></pre></div>
+<div id="anotación-de-la-filogenia" class="section level3" number="2.4.1">
+<h3>
+<span class="header-section-number">2.4.1</span> Anotación de la filogenia<a class="anchor" aria-label="anchor" href="#anotaci%C3%B3n-de-la-filogenia"><i class="fas fa-link"></i></a>
+</h3>
+<p>Para tener una forma de más visual de entender la distribución de los palíndromos en los genomas, anotamos las filogenias de acuerdo a su abundancia. Se anotaron 4 filogenias según la significancia (<strong>sel32</strong>, <strong>sel64</strong>, <strong>sel128</strong> y <strong>sel256</strong>) para los 2 conjuntos de genomas. Además, esta anotación se hizo para la abundancia de acuerdo a la Frecuencia Observada por cada 1000 nucleotidos (<span class="math inline">\(FrecObs\)</span>) (Figura <a href="m%C3%A9todos.html#fig:FIG3">2.3</a>) y a la tasa de Observados sobre esperados (<span class="math inline">\(OE\)</span>) (Figura <a href="m%C3%A9todos.html#fig:FIG4">2.4</a>).</p>
+<p>La anotación de las filogenias consistió en agregarles un heatmap que mostrara la abundancia de cada palíndromo y un diagrama de barras que indicara aquel palíndromo con mayor abundancia.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG3"></span>
+<img src="figures/refseq_chr_269_Octanuc_FrecObs_sel256_filogenia_HIG.png" alt="**Filogenia del conjunto de genomas *complete\_chr* anotada de acuerdo a la Frecuencia observada cada 1000 nt (FrecObs).** La abundancia visualizada en esta filogenia es de acuerdo al conjunto **sel256**, es decir conteos con un $FDR \leq 1 \times 10^{-256}$. La filogenia muestra 269 especies, frente a la filogenia se muestra un heatmap que indica la abundancia de cada palíndromo. Frente al Heatmap se muestra un Diagrama de barras el cual indíca el palindromo mas abundante de entre todos." width="2700"><p class="caption">
+Figure 2.3: <strong>Filogenia del conjunto de genomas <em>complete_chr</em> anotada de acuerdo a la Frecuencia observada cada 1000 nt (FrecObs).</strong> La abundancia visualizada en esta filogenia es de acuerdo al conjunto <strong>sel256</strong>, es decir conteos con un <span class="math inline">\(FDR \leq 1 \times 10^{-256}\)</span>. La filogenia muestra 269 especies, frente a la filogenia se muestra un heatmap que indica la abundancia de cada palíndromo. Frente al Heatmap se muestra un Diagrama de barras el cual indíca el palindromo mas abundante de entre todos.
+</p>
+</div>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG4"></span>
+<img src="figures/refseq_chr_269_Octanuc_OE_sel256_filogenia_HIG.png" alt="**Filogenia del conjunto de genomas *complete\_chr* anotada de acuerdo a la tasa de observados sobre esperados (OE).** La abundancia visualizada en esta filogenia es de acuerdo al conjunto **sel256**, es decir conteos con un $FDR \leq 1 \times 10^{-256}$. La filogenia muestra 269 especies, frente a la filogenia se muestra un heatmap que indica la abundancia de cada palíndromo. Frente al Heatmap se muestra un Diagrama de barras el cual indíca el palindromo mas abundante de entre todos." width="2700"><p class="caption">
+Figure 2.4: <strong>Filogenia del conjunto de genomas <em>complete_chr</em> anotada de acuerdo a la tasa de observados sobre esperados (OE).</strong> La abundancia visualizada en esta filogenia es de acuerdo al conjunto <strong>sel256</strong>, es decir conteos con un <span class="math inline">\(FDR \leq 1 \times 10^{-256}\)</span>. La filogenia muestra 269 especies, frente a la filogenia se muestra un heatmap que indica la abundancia de cada palíndromo. Frente al Heatmap se muestra un Diagrama de barras el cual indíca el palindromo mas abundante de entre todos.
+</p>
+</div>
+</div>
+</div>
+<div id="identificación-de-casos-relevantes" class="section level2" number="2.5">
+<h2>
+<span class="header-section-number">2.5</span> Identificación de casos relevantes<a class="anchor" aria-label="anchor" href="#identificaci%C3%B3n-de-casos-relevantes"><i class="fas fa-link"></i></a>
+</h2>
+De acuerdo a las filogenias anotadas, se buscaron aquellos casos en los que HIP1 o algún otro palíndromo se hubiera ganado o perdido abruptamente y en su lugar hubiese otro palíndromo abundante. Además, se buscó que en aquellos casos, las ramas en la filogenia no fueran tan largas. Esto se hizo de manera visual revisando el diagrama de barras que mostraba el palíndromo más abundante para cada especie. En total hubo 6 subclados que mostraban cambios abruptos en la abundancia de sus palíndromos (Figura <a href="m%C3%A9todos.html#fig:FIG5">2.5</a>).
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG5"></span>
+<img src="figures/refseq_chr_269_Octanuc_FrecObs_sel256_filogenia_HIG_cases.png" alt="**Casos de interés.** En la figura se muestran remarcados los casos interesantes: **clado calothrix** (rojo), **clado cyanobacterium** (naranja), **clado geminocystis** (amarillo), **clado thermosynechococcus** (azul), **clado pseudoanabaena** (verde)." width="2700"><p class="caption">
+Figure 2.5: <strong>Casos de interés.</strong> En la figura se muestran remarcados los casos interesantes: <strong>clado calothrix</strong> (rojo), <strong>clado cyanobacterium</strong> (naranja), <strong>clado geminocystis</strong> (amarillo), <strong>clado thermosynechococcus</strong> (azul), <strong>clado pseudoanabaena</strong> (verde).
+</p>
+</div>
+<p>También se hallo un caso interesante en el conjunto <strong>pico</strong> (<strong>clado A18-40</strong>) el cual sirvió como punto de partida para analisis posteriores. En este caso se muestra que la especie Synechococcus A18-40 muestra una tasa OE mucho mayor comparada con las demás especies del clado (Figura <a href="m%C3%A9todos.html#fig:FIG6">2.6</a>).</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG6"></span>
+<img src="figures/pico_165_Octanuc_OE_sel32_filogenia_HIG_cases.png" alt="**Casos de interés.** En la figura se muestra remarcado el **clado A18-40** (azul)." width="2700"><p class="caption">
+Figure 2.6: <strong>Casos de interés.</strong> En la figura se muestra remarcado el <strong>clado A18-40</strong> (azul).
+</p>
+</div>
+</div>
+<div id="reconstrucción-ancestral-de-sitios-palindrómicos-en-ortólogos" class="section level2" number="2.6">
+<h2>
+<span class="header-section-number">2.6</span> Reconstrucción Ancestral de sitios palindrómicos en ortólogos<a class="anchor" aria-label="anchor" href="#reconstrucci%C3%B3n-ancestral-de-sitios-palindr%C3%B3micos-en-ort%C3%B3logos"><i class="fas fa-link"></i></a>
+</h2>
+<p>Para tratar de entender como es que los sitios HIP1 han ido evolucionando, hicimos una reconstrucción de sitios ancestrales y posteriormente construimos varios conjuntos de redes para visualizar dicha evolución.</p>
+<div id="ortólogos" class="section level3" number="2.6.1">
+<h3>
+<span class="header-section-number">2.6.1</span> Ortólogos<a class="anchor" aria-label="anchor" href="#ort%C3%B3logos"><i class="fas fa-link"></i></a>
+</h3>
+<p>Para simplificar la reconstrucción de secuencias ancestrales usamos unicamente los ortólogos. Para obtener esto usamos el pipeline <code>get_homologues</code>:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="m%C3%A9todos.html#cb4-1" tabindex="-1"></a><span class="ex">get_homologues.pl</span> <span class="at">-d</span> gbff <span class="at">-t</span> 0 <span class="at">-M</span> <span class="at">-n</span> PPN</span></code></pre></div>
+<p>Después de obtener los ortólgos filtramos:</p>
+<ul>
+<li>aquellos que no estuvieran en las 6 especies del clado</li>
+<li>aquellos que tuvieran mas de una copia (parálogos)</li>
+<li>aquellos sin sitios HIP1</li>
+</ul>
+</div>
+<div id="reconstrucción" class="section level3" number="2.6.2">
+<h3>
+<span class="header-section-number">2.6.2</span> Reconstrucción<a class="anchor" aria-label="anchor" href="#reconstrucci%C3%B3n"><i class="fas fa-link"></i></a>
+</h3>
+<p>Para hacer la reconstrucción usamos la pagueteria de R <code>phangorn</code>, la cual proporciona varios métodos para estimar estados de caracteres ancestrales con Máxima Parsimonia (MP) o Máxima Verosimilitud (ML). En este caso usamos ML. Adicionalmente podemos asignar los estados ancestrales según la máxima verosimilitud (“ml”):
+<span class="math display">\[P(x_r=A) = {{L(x_r=A)} \over {\sum\limits_{k\in \{A,C,G,T\}}} L(x_r= k) }\]</span></p>
+<p>y el criterio de mayor probabilidad posterior (“bayes”):
+<span class="math display">\[P(x_r=A) = {{\pi_A L(x_r=A)} \over {\sum\limits_{k\in \{A,C,G,T\}}} \pi_k L(x_r= k) }\]</span></p>
+<p>dónde <span class="math inline">\(L(x_r)\)</span> es la probabilidad conjunta de los estados en las puntas y el estado en la raíz <span class="math inline">\(x_r\)</span> y <span class="math inline">\(\pi_i\)</span> son las frecuencias base estimadas del estado <span class="math inline">\(i\)</span>.</p>
+<p>Toda la información de la reconstrucción fue guardada en dos tablas las cuales contienen listas de cada transicion entre cada estado. Estas tablas fueron creadas con la siguiente función:</p>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/source.html">source</a></span><span class="op">(</span><span class="st">"ASR_Orth_Functions/NodeAndEdges.R"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">Create_Transition_Table</span> <span class="op">(</span>SitesTable <span class="op">=</span> <span class="st">"Clados/Callothrix_clade/PALINDROMES/GCGATCGC/Orthologues_Palindrome_sites.txt"</span>,</span>
+<span>                                EvolutionModel <span class="op">=</span> <span class="st">"F81"</span>,</span>
+<span>                                Method <span class="op">=</span> <span class="st">"bayes"</span>,</span>
+<span>                                Phylogeny <span class="op">=</span> <span class="st">"Clados/Callothrix_clade/SpeciesTree_rooted.txt"</span>,</span>
+<span>                                OrthoPath <span class="op">=</span> <span class="st">"Clados/Callothrix_clade/PALINDROMES/GCGATCGC/Only_ORTHOLOGUES/"</span><span class="op">)</span></span></code></pre></div>
 
+</div>
 </div>
 </div>
 
   <div class="chapter-nav">
 <div class="prev"><a href="introducci%C3%B3n.html"><span class="header-section-number">1</span> Introducción</a></div>
-<div class="next"><a href="referencias.html">Referencias</a></div>
+<div class="next"><a href="resultados.html"><span class="header-section-number">3</span> Resultados</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
@@ -302,6 +393,16 @@ Figure 2.1: Here is a nice figure!
 </ul>
 </li>
 <li><a class="nav-link" href="#visualizaci%C3%B3n-de-la-abundancia-oe-vs-frecuencia-observada-cada-1000nt"><span class="header-section-number">2.3</span> Visualización de la abundancia: OE vs Frecuencia Observada cada 1000nt</a></li>
+<li>
+<a class="nav-link" href="#filogenia"><span class="header-section-number">2.4</span> Filogenia</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#anotaci%C3%B3n-de-la-filogenia"><span class="header-section-number">2.4.1</span> Anotación de la filogenia</a></li></ul>
+</li>
+<li><a class="nav-link" href="#identificaci%C3%B3n-de-casos-relevantes"><span class="header-section-number">2.5</span> Identificación de casos relevantes</a></li>
+<li>
+<a class="nav-link" href="#reconstrucci%C3%B3n-ancestral-de-sitios-palindr%C3%B3micos-en-ort%C3%B3logos"><span class="header-section-number">2.6</span> Reconstrucción Ancestral de sitios palindrómicos en ortólogos</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#ort%C3%B3logos"><span class="header-section-number">2.6.1</span> Ortólogos</a></li>
+<li><a class="nav-link" href="#reconstrucci%C3%B3n"><span class="header-section-number">2.6.2</span> Reconstrucción</a></li>
+</ul>
+</li>
 </ul>
 
       <div class="book-extra">
