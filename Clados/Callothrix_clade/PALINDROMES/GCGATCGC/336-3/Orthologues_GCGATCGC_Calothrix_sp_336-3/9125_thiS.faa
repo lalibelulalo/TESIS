@@ -1,0 +1,12 @@
+>ID:WP_035150476.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|thiS|213|NZ_CP011382(6283267):1109011-1109223:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035158417.1(1),ID:WP_035150478.1(1)|neighbour_genes:thiamine phosphate s..,hypothetical protein| | aligned:1-70 (70)
+MSTQITLEVNGETRNCIAQTLLPELLQQLGFNPRLVAVEYNGEILHRQFWSETKINQGDRLEIVTIVGGG
+>ID:WP_096624256.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|thiS|210|NZ_AP018254(5985875):4806241-4806450:1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096624254.1(1),ID:WP_096624258.1(-1)|neighbour_genes:thiamine phosphate s..,FKBP-type peptidyl-p..| | aligned:3-69 (69)
+MVQIQLQVNGETRHCCEQINLPKLLTDLGFNPRLVAVEYNGEILHRQYWETTVIQPGDRLEVVTIVGGG
+>ID:WP_096690730.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|thiS|213|NZ_AP018255(11064963):7593389-7593601:-1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096690729.1(-1),ID:WP_096690731.1(-1)|neighbour_genes:hypothetical protein,thiamine phosphate s..| | aligned:1-70 (70)
+MADQITLQVNGEPRTCAEQTALPDLLQQLGYNARLVAVEYNGEILHRQYWESTQVKANDKLEIVTIVGGG
+>ID:WP_096690730.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|thiS|213|NZ_AP018290(11062175):7591221-7591433:-1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096690729.1(-1),ID:WP_096690731.1(-1)|neighbour_genes:hypothetical protein,thiamine phosphate s..| | aligned:1-70 (70)
+MADQITLQVNGEPRTCAEQTALPDLLQQLGYNARLVAVEYNGEILHRQYWESTQVKANDKLEIVTIVGGG
+>ID:WP_015199384.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|thiS|213|NC_019751(6767834):4572004-4572216:-1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015199383.1(1),ID:WP_015199385.1(-1)|neighbour_genes:serA,thiamine phosphate s..| | aligned:1-70 (70)
+MSEQIDIHVNGESRSCAKQTPLPQLLQQLGFNPRLVAVEYNGEILHRQYWESTLIQLSDRLEVVTIVGGG
+>ID:WP_224178388.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|thiS|213|NZ_AP025018(11423121):3536671-3536883:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224178387.1(1),ID:WP_224178389.1(1)|neighbour_genes:thiamine phosphate s..,hypothetical protein| | aligned:1-70 (70)
+MSNQITLQVNGEPRTCTEQTFLPDLLQQLGFNPRLVAVEYNGEILHRQHWQTTQIKANDNLEIVTIVGGG

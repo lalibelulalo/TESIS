@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  28 JUL 2023 19:35
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  31 JUL 2023 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -947,6 +947,44 @@ LaTeX Warning: Reference `fig:FIG16' on page 25 undefined on input line 551.
 
 LaTeX Warning: Reference `fig:FIG17' on page 25 undefined on input line 551.
 
+File: Resultados_files/figure-latex/FIG18-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG18-1.pdf>
+File: Resultados_files/figure-latex/FIG18-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG18-2.pdf>
+File: Resultados_files/figure-latex/FIG18-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG18-3.pdf>
+[25] [26]
+File: Resultados_files/figure-latex/FIG19-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG19-1.pdf>
+File: Resultados_files/figure-latex/FIG19-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG19-2.pdf>
+File: Resultados_files/figure-latex/FIG19-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG19-3.pdf>
+File: Resultados_files/figure-latex/FIG20-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG20-1.pdf>
+File: Resultados_files/figure-latex/FIG20-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG20-2.pdf>
+File: Resultados_files/figure-latex/FIG20-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG20-3.pdf>
+File: Resultados_files/figure-latex/FIG21-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG21-1.pdf>
+File: Resultados_files/figure-latex/FIG21-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG21-2.pdf>
+File: Resultados_files/figure-latex/FIG21-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG21-3.pdf>
+File: Resultados_files/figure-latex/FIG22-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG22-1.pdf>
+File: Resultados_files/figure-latex/FIG22-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG22-2.pdf>
+File: Resultados_files/figure-latex/FIG22-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG22-3.pdf>
+File: Resultados_files/figure-latex/FIG23-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG23-1.pdf>
+File: Resultados_files/figure-latex/FIG23-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG23-2.pdf>
+File: Resultados_files/figure-latex/FIG23-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG23-3.pdf>
+[27] [28] [29] [30] [31] [32]
 File: figures/A18-40_Octanuc_OE_sel32_filogenia_HIG.png Graphic file (type bmp)
 
 <figures/A18-40_Octanuc_OE_sel32_filogenia_HIG.png>
@@ -955,50 +993,53 @@ File: figures/circos.png Graphic file (type bmp)
 File: figures/out.png Graphic file (type bmp)
 <figures/out.png>
 
-Overfull \hbox (205.03809pt too wide) in paragraph at lines 580--581
+Overfull \hbox (205.03809pt too wide) in paragraph at lines 684--685
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 60.08807pt on input line 585.
+LaTeX Warning: Float too large for page by 60.08807pt on input line 689.
 
-[25] [26] [27] [28]
-Overfull \hbox (9.61006pt too wide) in paragraph at lines 596--611
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[33] [34] [35]
+Overfull \hbox (9.61006pt too wide) in paragraph at lines 700--715
  [][] 
  []
 
 File: Clados/Clado_A18-40/SWM_repeat_AA.png Graphic file (type bmp)
 <Clados/Clado_A18-40/SWM_repeat_AA.png>
 
-Overfull \hbox (10.26004pt too wide) in paragraph at lines 670--691
+Overfull \hbox (10.26004pt too wide) in paragraph at lines 774--795
  [][] 
  []
 
-[29] [30]
+[36] [37]
 File: Clados/Clado_A18-40/SWM_3.png Graphic file (type bmp)
 <Clados/Clado_A18-40/SWM_3.png>
 
-Overfull \hbox (912.56133pt too wide) in paragraph at lines 731--732
+Overfull \hbox (912.56133pt too wide) in paragraph at lines 835--836
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 28.812pt on input line 736.
+LaTeX Warning: Float too large for page by 28.812pt on input line 840.
 
-(./TESIS.bbl [31] [32] [33] [34
+(./TESIS.bbl [38] [39] [40]) [41
 
-]) [35] (./TESIS.aux)
+] (./TESIS.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 19533 strings out of 476191
- 366727 string characters out of 5812072
- 842900 words of memory out of 5000000
- 39964 multiletter control sequences out of 15000+600000
+ 19723 strings out of 476191
+ 374846 string characters out of 5812072
+ 844090 words of memory out of 5000000
+ 40136 multiletter control sequences out of 15000+600000
  475734 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  86i,15n,121p,1002b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on TESIS.pdf (35 pages).
+Output written on TESIS.pdf (41 pages).
