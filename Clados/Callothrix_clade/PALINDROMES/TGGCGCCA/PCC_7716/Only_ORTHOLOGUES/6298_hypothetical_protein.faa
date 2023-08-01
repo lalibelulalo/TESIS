@@ -1,0 +1,12 @@
+>ID:WP_035156645.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|252|NZ_CP011382(6283267):5212869-5213120:-1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035156642.1(1),ID:WP_035156649.1(-1)|neighbour_genes:N-acetylmuramoyl-L-a..,hypothetical protein| | aligned:1-82 (83)
+MAKNRILICTFLALISGFFGGFVSGQIAQSLQQQNCEKQAWIFKGACNTFVTTGASWQGNITGLWVGTILGAFVGGLVTHEPN
+>ID:WP_231943221.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|hypothetical protein|276|NZ_AP018254(5985875):1251416-1251691:1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096620733.1(1),ID:WP_096620734.1(-1)|neighbour_genes:YdcF family protein,hypothetical protein| | aligned:16-91 (91)
+MSRDMRNVKPPTHGTFICTTIALVFGVSSAYLGGQLSTHLHNQKCTTKGWGWQQLCHITTTPAAMWQGSTTGLWTGIIFGAFLGGIVCRRR
+>ID:WP_096690642.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|249|NZ_AP018255(11064963):7487068-7487316:1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096690641.1(1),ID:WP_096690643.1(-1)|neighbour_genes:phosphoenolpyruvate ..,hypothetical protein| | aligned:1-82 (82)
+MTKNRVLICTFLALTSGFFAGFAGWQISMNLKSQKCQNQVWGVREICTAAIAPGAIWSGSTTGLWTGTILGAFAGGLVTKKK
+>ID:WP_096690642.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|249|NZ_AP018290(11062175):7484965-7485213:1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096690641.1(1),ID:WP_096690643.1(-1)|neighbour_genes:phosphoenolpyruvate ..,hypothetical protein| | aligned:1-82 (82)
+MTKNRVLICTFLALTSGFFAGFAGWQISMNLKSQKCQNQVWGVREICTAAIAPGAIWSGSTTGLWTGTILGAFAGGLVTKKK
+>ID:WP_015196959.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|285|NC_019751(6767834):1448309-1448593:-1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015196958.1(1),ID:WP_015196960.1(-1)|neighbour_genes:helix-turn-helix dom..,ppc| | aligned:12-90 (94)
+MFKIIGQFSKLDNITKTCTLIALTSGVFAGFIGGQIAVNLSNQKCQTQGWGFKELCYVSSTPVAMWQGSTTGAWTGVVLGAFVGGLVARRSPKS
+>ID:WP_223976123.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|249|NZ_AP025018(11423121):2826883-2827131:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223974868.1(1),ID:WP_224178088.1(-1)|neighbour_genes:transcription antite..,phosphoenolpyruvate ..| | aligned:1-82 (82)
+MTKNRVLICTFIALTSGFFAGFTGWQISMNLKSQKCQNQVWGVRELCTAAVAPGAMWSGSTTGLWTGTILGAFAGGLVTKKK
