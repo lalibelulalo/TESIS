@@ -1,0 +1,4 @@
+>ID:WP_009546010.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|(2Fe-2S)-binding pro..|336|NC_010546(4934271):788806-789141:-1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009546009.1(1),ID:WP_009546011.1(-1)|neighbour_genes:phosphoglucomutase/p..,FAD-dependent monoox..| | aligned:1-108 (111)
+MFQITAQGKTIICHEGENLRRVLLRNNIDLYNGQAKIINCRGIGTCGTCALEIEGLVSEANWKDQARRSLPPHSLDKNRRLACQTKVQGDLKLTKYDGFWGQGDNVVWTAE
+>ID:WP_012593823.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|(2Fe-2S)-binding pro..|327|NC_011726(4679413):458684-459010:1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012593822.1(-1),ID:WP_012593824.1(1)|neighbour_genes:cimA,Rpn family recombina..| | aligned:1-108 (108)
+MPTITVQGQVITCDRGANLRRVLLQHGIPLYNHKAKFINCRGIGSCGTCAVEIVGEVSDPNWKDTARRSLPPHSPLKNRRLACQTQVLGDIQVIKYDGFWGQGDIPIF

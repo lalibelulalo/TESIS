@@ -1,0 +1,4 @@
+>ID:WP_008273783.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|photosystem II react..|120|NC_010546(4934271):1826390-1826509:1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009545618.1(-1),ID:WP_009545620.1(1)|neighbour_genes:SagB/ThcOx family de..,alpha amylase C-term..| | aligned:1-39 (39)
+MELLAALNLEPIFQLTFVGLIVIAGPIVIAVLAFRGGDL
+>ID:WP_012596811.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|photosystem II react..|120|NC_011726(4679413):3742969-3743088:-1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012596810.1(1),ID:WP_012596812.1(1)|neighbour_genes:isoaspartyl peptidas..,YkgJ family cysteine..| | aligned:1-39 (39)
+MELLAALNLEPIFQLTFVGLIMVAGPVVIFLLAFRGGDL

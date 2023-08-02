@@ -1,0 +1,8 @@
+>ID:WP_071813733.1 |[Candidatus Atelocyanobacterium thalassa isolate ALOHA]|ALOHA|Candidatus_Atelocyanobacterium_thalassa_isolate_ALOHA.gbff|psaM|93|NC_013771(1443806):857822-857914:-1 ^^ Candidatus Atelocyanobacterium thalassa isolate ALOHA, complete sequence.|neighbours:ID:WP_012954129.1(-1),ID:WP_012954131.1(1)|neighbour_genes:hypothetical protein,phage holin family p..| | aligned:1-30 (30)
+MLSNAQIFIALAIALVPGILAFRLSTELYK
+>ID:WP_008278427.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|psaM|93|NC_010546(4934271):4401797-4401889:1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009543659.1(1),ID:WP_012362397.1(1)|neighbour_genes:universal stress pro..,hypothetical protein| | aligned:1-30 (30)
+MLSDTQVLVALVIALVPGILAFRLATELYK
+>ID:WP_012594204.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|photosystem I reacti..|96|NC_011726(4679413):891872-891967:1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_015783362.1(1),ID:WP_012594205.1(1)|neighbour_genes:EAL domain-containin..,hypothetical protein| | aligned:3-31 (31)
+MALSDTQIIVALIIALLPGFLAFRLATELYK
+>ID:WP_040054708.1 |[cyanobacterium endosymbiont of Braarudosphaera bigelowii]||cyanobacterium_endosymbiont_of_Braarudosphaera_bigelowii_CPSB-1.gbff|psaM|93|NZ_AP024987(1491611):1250033-1250125:-1 ^^ Cyanobacterium endosymbiont of Braarudosphaera bigelowii isolate CPSB-1 chromosome, complete genome.|neighbours:ID:WP_229637096.1(-1),ID:WP_229637097.1(1)|neighbour_genes:hypothetical protein,phage holin family p..| | aligned:1-30 (30)
+MLSNAQIFIALAVALVPGILAFRLSTELYK

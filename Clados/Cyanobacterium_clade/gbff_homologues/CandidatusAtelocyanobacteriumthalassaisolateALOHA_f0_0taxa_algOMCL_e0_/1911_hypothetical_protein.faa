@@ -1,0 +1,6 @@
+>ID:WP_009546760.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|hypothetical protein|183|NC_010546(4934271):257561-257743:-1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009546759.1(-1),ID:WP_009546761.1(-1)|neighbour_genes:hypothetical protein,psbA| | aligned:4-59 (60)
+MNEPTLAQLKRLYLLSYTLTNVMFQPIHIIRLDERNQNLFILAGHQENIEIVITPDGEAF
+>ID:WP_009545820.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|hypothetical protein|177|NC_010546(4934271):2050766-2050942:1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009545819.1(1),ID:WP_009545821.1(1)|neighbour_genes:acs,hypothetical protein| | aligned:2-57 (58)
+MPTHEQLEGLYRICYYLTYRALQPIHLICTDERTGNLFILAGDKENIEIEITPNGEVI
+>ID:WP_012596102.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|hypothetical protein|189|NC_011726(4679413):2926363-2926551:1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012596101.1(-1),ID:WP_012596103.1(1)|neighbour_genes:pentapeptide repeat-..,hypothetical protein| | aligned:3-58 (62)
+MNPTNEQAQGLYRLCYRLTNAIYPQWQYRNIELVRIDERTGNLYVLAGELDFEIKPSGGDEP

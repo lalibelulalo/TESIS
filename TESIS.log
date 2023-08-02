@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  1 AUG 2023 01:06
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  1 AUG 2023 23:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1038,6 +1038,67 @@ File: Resultados_files/figure-latex/FIG33-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG33-2.pdf>
 File: Resultados_files/figure-latex/FIG33-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG33-3.pdf>
+File: Clados/Cyanobacterium_clade/figures/cyanobacterium_Octanuc_FrecObs_sel32_
+filogenia_HIG.png Graphic file (type bmp)
+<Clados/Cyanobacterium_clade/figures/cyanobacterium_Octanuc_FrecObs_sel32_filog
+enia_HIG.png>
+[36] [37] [38] [39] [40] [41]
+
+LaTeX Warning: Reference `fig:FIG13C' on page 42 undefined on input line 822.
+
+
+LaTeX Warning: Reference `tab:TAB6C' on page 42 undefined on input line 822.
+
+
+LaTeX Warning: Reference `fig:FIG14C' on page 42 undefined on input line 824.
+
+File: Resultados_files/figure-latex/FIG15C-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG15C-1.pdf>
+
+LaTeX Warning: Reference `fig:FIG16C' on page 42 undefined on input line 838.
+
+
+LaTeX Warning: Reference `fig:FIG17C' on page 42 undefined on input line 838.
+
+[42]
+File: Resultados_files/figure-latex/FIG18C-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG18C-1.pdf>
+File: Resultados_files/figure-latex/FIG18C-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG18C-2.pdf>
+File: Resultados_files/figure-latex/FIG18C-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG18C-3.pdf>
+[43]
+File: Resultados_files/figure-latex/FIG19C-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG19C-1.pdf>
+File: Resultados_files/figure-latex/FIG19C-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG19C-2.pdf>
+File: Resultados_files/figure-latex/FIG19C-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG19C-3.pdf>
+[44]
+File: Resultados_files/figure-latex/FIG20C-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG20C-1.pdf>
+File: Resultados_files/figure-latex/FIG20C-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG20C-2.pdf>
+File: Resultados_files/figure-latex/FIG20C-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG20C-3.pdf>
+File: Resultados_files/figure-latex/FIG21C-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG21C-1.pdf>
+File: Resultados_files/figure-latex/FIG21C-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG21C-2.pdf>
+File: Resultados_files/figure-latex/FIG21C-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG21C-3.pdf>
+File: Resultados_files/figure-latex/FIG22C-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG22C-1.pdf>
+File: Resultados_files/figure-latex/FIG22C-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG22C-2.pdf>
+File: Resultados_files/figure-latex/FIG22C-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG22C-3.pdf>
+File: Resultados_files/figure-latex/FIG23C-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG23C-1.pdf>
+File: Resultados_files/figure-latex/FIG23C-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG23C-2.pdf>
+File: Resultados_files/figure-latex/FIG23C-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG23C-3.pdf>
 File: figures/A18-40_Octanuc_OE_sel32_filogenia_HIG.png Graphic file (type bmp)
 
 <figures/A18-40_Octanuc_OE_sel32_filogenia_HIG.png>
@@ -1046,41 +1107,37 @@ File: figures/circos.png Graphic file (type bmp)
 File: figures/out.png Graphic file (type bmp)
 <figures/out.png>
 
-Overfull \hbox (205.03809pt too wide) in paragraph at lines 812--813
+Overfull \hbox (205.03809pt too wide) in paragraph at lines 964--965
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 60.08807pt on input line 817.
+LaTeX Warning: Float too large for page by 60.08807pt on input line 969.
 
 
-Overfull \hbox (9.61006pt too wide) in paragraph at lines 828--843
+Overfull \hbox (9.61006pt too wide) in paragraph at lines 980--995
  [][] 
  []
 
-
-Underfull \vbox (badness 1038) has occurred while \output is active []
-
-[36] [37] [38] [39] [40] [41] [42] [43]
+[45] [46] [47] [48] [49] [50] [51] [52]
 File: Clados/Clado_A18-40/SWM_repeat_AA.png Graphic file (type bmp)
 <Clados/Clado_A18-40/SWM_repeat_AA.png>
-[44]
-Overfull \hbox (10.26004pt too wide) in paragraph at lines 902--923
+[53]
+Overfull \hbox (10.26004pt too wide) in paragraph at lines 1054--1075
  [][] 
  []
 
-[45] [46]
 File: Clados/Clado_A18-40/SWM_3.png Graphic file (type bmp)
 <Clados/Clado_A18-40/SWM_3.png>
 
-Overfull \hbox (912.56133pt too wide) in paragraph at lines 963--964
+Overfull \hbox (912.56133pt too wide) in paragraph at lines 1115--1116
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 28.812pt on input line 968.
+LaTeX Warning: Float too large for page by 28.812pt on input line 1120.
 
-(./TESIS.bbl [47] [48]) [49
+(./TESIS.bbl [54] [55] [56]) [57
 
 ] (./TESIS.aux)
 
@@ -1088,12 +1145,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 19920 strings out of 476191
- 382972 string characters out of 5812072
- 845345 words of memory out of 5000000
- 40315 multiletter control sequences out of 15000+600000
+ 20148 strings out of 476191
+ 393455 string characters out of 5812072
+ 849343 words of memory out of 5000000
+ 40522 multiletter control sequences out of 15000+600000
  475734 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  86i,15n,121p,1002b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on TESIS.pdf (49 pages).
+Output written on TESIS.pdf (57 pages).

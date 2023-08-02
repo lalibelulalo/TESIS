@@ -1,0 +1,4 @@
+>ID:WP_009543341.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|Mo-dependent nitroge..|351|NC_010546(4934271):4759567-4759917:1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009543342.1(1),ID:WP_009543340.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-116 (116)
+MNVTDYTIKNFVLGCGSSEPVSISKWFKYPASKMLQSLRDRLEHQEISDRTFAHRLCRLIPAQCPFERKIELFGYVLLNIPPLCKLNPLYDDLMALRFRALCYLAEEWGEDISQYC
+>ID:WP_012595283.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|Mo-dependent nitroge..|366|NC_011726(4679413):2049976-2050341:1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012595282.1(-1),ID:WP_012595284.1(1)|neighbour_genes:ATP-binding protein,hypothetical protein| | aligned:1-121 (121)
+MSVTDYTIKHFIIHSLAINPPSDHSLLPNFPSPLSLPDGLKPLRNWLNNQEIHNPTLAHRLCRLIPAQCPFARDVNLFGRVILSIPPLCKINPLYEELMFLRFRALCYLAEEMGEDISQYC

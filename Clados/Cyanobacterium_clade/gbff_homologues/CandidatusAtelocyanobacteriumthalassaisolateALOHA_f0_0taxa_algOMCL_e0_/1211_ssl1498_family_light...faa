@@ -1,0 +1,6 @@
+>ID:WP_009547962.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|ssl1498 family light..|171|NC_010542(14685):13885-14055:1 ^^ Crocosphaera subtropica ATCC 51142 plasmid pC, complete sequence.|neighbours:ID:WP_024750405.1(-1),ID:WP_157861277.1(1)|neighbour_genes:hypothetical protein,DUF2513 domain-conta..| | aligned:3-56 (56)
+MYTTQLDNGLTNTYAVETKPYYAEYPAPYQQRRYLIQGAVAALFVTSLVMVSAVIS
+>ID:WP_012595667.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|ssl1498 family light..|174|NC_011726(4679413):2460786-2460959:-1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012595666.1(1),ID:WP_241392540.1(1)|neighbour_genes:Uma2 family endonucl..,hypothetical protein| | aligned:1-57 (57)
+MYTTTQLDNGILNNYAVEPKPYYAEYPAPYQQRRYLVQGAIAALFITSLVIVSAVIS
+>ID:WP_012597072.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|ssl1498 family light..|174|NC_011726(4679413):4051624-4051797:1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012597071.1(-1),ID:WP_012597073.1(1)|neighbour_genes:WD40 repeat domain-c..,PspA/IM30 family pro..| | aligned:1-57 (57)
+MYTTTQLDNGILNNYAVEPNTYYAQYPAPYQQRRYLIQGAIAALLVTTLVLISAAIS

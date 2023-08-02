@@ -1,0 +1,4 @@
+>ID:WP_009544437.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|DUF2470 domain-conta..|285|NC_010546(4934271):1651601-1651885:1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009544436.1(1),ID:WP_009544438.1(1)|neighbour_genes:cobalt-precorrin-6A ..,aldo/keto reductase| | aligned:1-92 (94)
+MSDPITPAISDRICKHMNEDHSNAIVLYAKVFANVSEAETATMESIDPEGMNLSITVKGETIPVRVKFDHVLKDSEDAHHTLIDMVKKARTSNS
+>ID:WP_012597224.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|DUF2470 domain-conta..|279|NC_011726(4679413):4223841-4224119:-1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012597223.1(-1),ID:WP_012597225.1(-1)|neighbour_genes:Uma2 family endonucl..,cobalt-precorrin-6A ..| | aligned:1-92 (92)
+MSEPITTTISDRICKHMNEDHSEAIVLYAKVFGNTPEAETAQMINIDPEGMNLSVQIKGETIPIRVTFDHPLKDAEDAHHTLIDMVKQARKS

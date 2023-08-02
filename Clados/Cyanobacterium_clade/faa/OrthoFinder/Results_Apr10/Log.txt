@@ -1,0 +1,16 @@
+2023-04-10 12:59:45 : Started OrthoFinder version 2.5.4
+Command Line: orthofinder -f faa/
+
+WorkingDirectory_Base: /home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Cyanobacterium_clade/faa/OrthoFinder/Results_Apr10/WorkingDirectory/
+
+Species used: 
+0: Candidatus_Atelocyanobacterium_thalassa_isolate_ALOHA_GCF_000025125.1_protein.faa
+1: Crocosphaera_subtropica_ATCC_51142_GCF_000017845.1_protein.faa
+2: Rippkaea_orientalis_PCC_8801_GCF_000021805.1_protein.faa
+3: cyanobacterium_endosymbiont_of_Braarudosphaera_bigelowii_CPSB-1_GCF_020885515.1_protein.faa
+4: cyanobacterium_endosymbiont_of_Epithemia_turgida_isolate_EtSB_Lake_Yunoko_ETSB_Lake_Yunoko_GCF_000829235.1_protein.faa
+5: cyanobacterium_endosymbiont_of_Rhopalodia_gibberula_RgSB_GCF_003574135.1_protein.faa
+
+FN_Orthogroups: /home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Cyanobacterium_clade/faa/OrthoFinder/Results_Apr10/WorkingDirectory/clusters_OrthoFinder_I1.5.txt_id_pairs.txt
+WorkingDirectory_Trees: /home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Cyanobacterium_clade/faa/OrthoFinder/Results_Apr10/WorkingDirectory/
+2023-04-10 13:01:08 : OrthoFinder run completed

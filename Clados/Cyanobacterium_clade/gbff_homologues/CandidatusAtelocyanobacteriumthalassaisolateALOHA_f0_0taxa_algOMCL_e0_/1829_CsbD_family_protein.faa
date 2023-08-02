@@ -1,0 +1,6 @@
+>ID:WP_009543031.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|CsbD family protein|183|NC_010546(4934271):165592-165774:-1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009543032.1(-1),ID:WP_009543030.1(1)|neighbour_genes:CsbD family protein,SH3 domain-containin..| | aligned:1-60 (60)
+MSTEDRVDATMKNLEGKAQEMVGEVTGDPEDKAEGKMKQAKAEAQHSVEDAKDKVKKAID
+>ID:WP_009544807.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|CsbD family protein|183|NC_010546(4934271):2558706-2558888:1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009544808.1(1),ID:WP_009544806.1(-1)|neighbour_genes:DUF3177 family prote..,transposase| | aligned:1-60 (60)
+MSTQDRVEATKSNIEGKAQEAMGEITGDPQDKAKGEAKQEKAKAQHAVEDAKDKVKQALD
+>ID:WP_009545378.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|CsbD family protein|204|NC_010546(4934271):3551930-3552133:1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009545379.1(1),ID:WP_009545377.1(1)|neighbour_genes:MFS transporter,GlsB/YeaQ/YmgE famil..| | aligned:1-60 (67)
+MSTEDKIKATAKNLEGKAQGFLGEMTGDTEMQAEGKAKQVEASAMHMAENVKDKAKDVLDAIKDKLD

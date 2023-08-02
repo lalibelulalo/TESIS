@@ -1,0 +1,4 @@
+>ID:WP_009543731.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|response regulator|363|NC_010546(4934271):4325518-4325880:-1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009543732.1(-1),ID:WP_009543730.1(-1)|neighbour_genes:chemotaxis protein C..,response regulator| | aligned:1-119 (120)
+MGTVLVIEDSLTEREIITQYLKIAGITAAIATSGEEALEKLNGELPDLIVLDVVLPGVSGFEICRAIKAEERTSKIPIVICSTKDTDMDKFWGKRQGADAYIPKPIDQDIFLNTIKQLIA
+>ID:WP_012596568.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|response regulator|366|NC_011726(4679413):3484400-3484765:1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012596567.1(1),ID:WP_012596569.1(1)|neighbour_genes:response regulator,CheW domain-containi..| | aligned:1-119 (121)
+MGTALIVEDSLTEREIISQCLQRAGLSVSIAVSGEEALEKLNISLPDVIVLDVVLPGLSGFEICRTLKAEDRTSNIPVIICSTKNTDMDKFWGKRQGADAYIPKPIDQETLVNTVKQLIKS

@@ -1,0 +1,6 @@
+>ID:WP_008276509.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|photosystem II react..|117|NC_010546(4934271):3492856-3492972:-1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_012362149.1(-1),ID:WP_009545435.1(1)|neighbour_genes:DUF3769 domain-conta..,NAD(P)H-quinone oxid..| | aligned:1-38 (38)
+MLTLKIAVYIVVAFFISLFVFGFLSSDPTRNPGRKDFE
+>ID:WP_012596511.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|photosystem II react..|117|NC_011726(4679413):3425732-3425848:1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012596510.1(-1),ID:WP_012596512.1(1)|neighbour_genes:hypothetical protein,DUF3769 domain-conta..| | aligned:1-38 (38)
+MLTLKIAVYIVVAFFVSLFIFGFLSSDPTRNPGRKDFE
+>ID:WP_119260156.1 |[cyanobacterium endosymbiont of Rhopalodia gibberula]||cyanobacterium_endosymbiont_of_Rhopalodia_gibberula_RgSB.gbff|photosystem II react..|117|NZ_AP018341(3020309):1659829-1659945:-1 ^^ Cyanobacterium endosymbiont of Rhopalodia gibberula isolate cyanobacterium endosymbiont of Rhopalodia gibberula isolate RgSB Namiki Park chromosome, complete genome.|neighbours:ID:WP_119260155.1(-1),ID:WP_119260157.1(-1)|neighbour_genes:DUF3769 domain-conta..,hypothetical protein| | aligned:1-38 (38)
+MLILKIAVYIVVALFISLFVFGFLSSDPTRNPGRKDFE

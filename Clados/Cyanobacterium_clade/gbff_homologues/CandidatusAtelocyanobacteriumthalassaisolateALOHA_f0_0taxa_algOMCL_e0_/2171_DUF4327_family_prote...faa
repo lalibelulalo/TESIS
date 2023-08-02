@@ -1,0 +1,4 @@
+>ID:WP_009546619.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|DUF4327 family prote..|255|NC_010546(4934271):547036-547290:-1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009546618.1(-1),ID:WP_009546620.1(-1)|neighbour_genes:DUF4327 family prote..,precorrin-2 C(20)-me..| | aligned:1-84 (84)
+MSSITLPSPPSSAPSTTYTINMIKDEVRHLVESGVVSRQQPLYVLCEFIPPREWVCIETELERCEYLLRDQIGDLMACETWEND
+>ID:WP_012596343.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|DUF4327 family prote..|261|NC_011726(4679413):3242184-3242444:1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012596342.1(1),ID:WP_012596344.1(1)|neighbour_genes:precorrin-2 C(20)-me..,DUF4327 family prote..| | aligned:1-86 (86)
+MSLTTLPSPASSAPTTSSHYTISMIKDEVRQLVETGTVSRHQPIYVLCEYIPPREWVCVETELERCDYLLRDQIGDLVSCETWDND

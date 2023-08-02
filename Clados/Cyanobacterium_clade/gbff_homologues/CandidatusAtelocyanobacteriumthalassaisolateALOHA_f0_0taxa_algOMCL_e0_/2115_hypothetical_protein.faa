@@ -1,0 +1,4 @@
+>ID:WP_009546562.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|hypothetical protein|252|NC_010546(4934271):480291-480542:-1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009546561.1(-1),ID:WP_024750206.1(1)|neighbour_genes:(2Fe-2S) ferredoxin ..,DNA starvation/stati..| | aligned:1-82 (83)
+MNLTNLPLEPRQVVEVDWCDRWIVYHRLRELDIPCSCETHKPLQANLSSPTAIIQLWSVTKQYSASRQELIDWLKSCWNLNKR
+>ID:WP_012595728.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|hypothetical protein|252|NC_011726(4679413):2534492-2534743:1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012595727.1(-1),ID:WP_012595729.1(1)|neighbour_genes:DNA starvation/stati..,(2Fe-2S) ferredoxin ..| | aligned:1-82 (83)
+MNSANLPLKSSQIVQVPWNDRWTVYHRLQELGISCYCSSNQPLEVQLSSPTAVIQLWSVVKHCSSSRQELIQWLQTCWDLKKT

@@ -1,0 +1,4 @@
+>ID:WP_012593691.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|hypothetical protein|144|NC_011726(4679413):308513-308656:-1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012593690.1(-1),ID:WP_157861280.1(-1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-47 (47)
+MAIIFVVNDVTEYKVSPVDGITAIATIFILDPCFVDKKPQPVWRLLL
+>ID:WP_157861280.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|hypothetical protein|144|NC_011726(4679413):309007-309150:-1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012593691.1(-1),ID:WP_012593692.1(-1)|neighbour_genes:hypothetical protein,endo-1,4-beta-xylana..| | aligned:1-47 (47)
+MAITFVVNNVTEYKVSPVDGITAIATISILDPCFVDKKPQPVWRLLL

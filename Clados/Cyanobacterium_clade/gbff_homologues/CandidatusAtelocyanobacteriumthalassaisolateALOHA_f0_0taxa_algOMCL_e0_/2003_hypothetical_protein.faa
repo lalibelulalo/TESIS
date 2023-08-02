@@ -1,0 +1,4 @@
+>ID:WP_243397370.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|hypothetical protein|312|NC_010546(4934271):361472-361783:-1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009546447.1(-1),ID:WP_009546449.1(1)|neighbour_genes:ABC transporter subs..,hypothetical protein| | aligned:2-101 (103)
+MAYADQCSYVDKEQALKAATFLKLNQLIYLFCEPCGETTPQPVTIRSISVGTVDYENYWQVSINNQGVDLAYTYVPSSLGQKPINLAALADCPAQDVSPFINP
+>ID:WP_012596352.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|hypothetical protein|366|NC_011726(4679413):3252939-3253304:-1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012596351.1(1),ID:WP_012596353.1(-1)|neighbour_genes:polA,sbcC| | aligned:21-120 (121)
+MKSFKAVIFSVITTISVTLPAYADQCSYITKEQALRAVSLLDLKQMVYLFCEPCGEKVPQRININSLAVATVNYQDFWQVSINGKGIDLAYTFIESSLDKKPINLAAIAGCPASDVSPVLP

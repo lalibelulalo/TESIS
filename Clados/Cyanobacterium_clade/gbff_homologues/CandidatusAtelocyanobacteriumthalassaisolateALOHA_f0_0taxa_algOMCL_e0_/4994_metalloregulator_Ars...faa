@@ -1,0 +1,4 @@
+>ID:WP_009545280.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|metalloregulator Ars..|327|NC_010546(4934271):3680364-3680690:1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_012362190.1(-1),ID:WP_009545279.1(-1)|neighbour_genes:DUF2256 domain-conta..,response regulator| | aligned:6-107 (108)
+MVSTTSTQLSTILLGFRALSDPIRLQVLELLKRQELCVCDLCEQLDISQSKLSFHLKNLKEAQLVRSRQEGRWIYYCLNLSQLALLENYLSQYQQFQHILPAHSCEEQ
+>ID:WP_012595606.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|metalloregulator Ars..|336|NC_011726(4679413):2387417-2387752:-1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012595605.1(-1),ID:WP_012595607.1(-1)|neighbour_genes:arsB,alcohol dehydrogenas..| | aligned:10-111 (111)
+MQTITSNDFNPNLVPILSSFRALSDPIRLQIVELLRSQELCVCDLCELLSIKQPKLSFHLKILKDAQLLHSRQDGRWVYYSLNLPQWVILQDYLAKYRCLNPINPANACQD

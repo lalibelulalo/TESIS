@@ -1,0 +1,100 @@
+	Candidatus_Atelocyanobacterium_thalassa_isolate_ALOHA_GCF_000025125.1_protein	Crocosphaera_subtropica_ATCC_51142_GCF_000017845.1_protein	Rippkaea_orientalis_PCC_8801_GCF_000021805.1_protein	cyanobacterium_endosymbiont_of_Braarudosphaera_bigelowii_CPSB-1_GCF_020885515.1_protein	cyanobacterium_endosymbiont_of_Epithemia_turgida_isolate_EtSB_Lake_Yunoko_ETSB_Lake_Yunoko_GCF_000829235.1_protein	cyanobacterium_endosymbiont_of_Rhopalodia_gibberula_RgSB_GCF_003574135.1_protein
+Number of genes	1161	4900	4362	1178	1665	1865
+Number of genes in orthogroups	1152	4024	3755	1167	1615	1770
+Number of unassigned genes	9	876	607	11	50	95
+Percentage of genes in orthogroups	99.2	82.1	86.1	99.1	97.0	94.9
+Percentage of unassigned genes	0.8	17.9	13.9	0.9	3.0	5.1
+Number of orthogroups containing species	1112	3079	3015	1128	1558	1709
+Percentage of orthogroups containing species	34.7	95.9	94.0	35.2	48.6	53.3
+Number of species-specific orthogroups	0	113	66	0	0	0
+Number of genes in species-specific orthogroups	0	284	192	0	0	0
+Percentage of genes in species-specific orthogroups	0.0	5.8	4.4	0.0	0.0	0.0
+
+
+Number of genes per-species in orthogroup	Number of orthogroups	Number of orthogroups	Number of orthogroups	Number of orthogroups	Number of orthogroups	Number of orthogroups
+'0	2097	130	194	2081	1651	1500
+'1	1077	2516	2611	1095	1511	1655
+'2	30	366	269	27	38	47
+'3	5	114	70	6	8	7
+'4	0	40	30	0	1	0
+'5	0	23	11	0	0	0
+'6	0	10	6	0	0	0
+'7	0	2	2	0	0	0
+'8	0	4	3	0	0	0
+'9	0	1	5	0	0	0
+'10	0	0	3	0	0	0
+11-15	0	2	4	0	0	0
+16-20	0	1	0	0	0	0
+21-50	0	0	1	0	0	0
+51-100	0	0	0	0	0	0
+101-150	0	0	0	0	0	0
+151-200	0	0	0	0	0	0
+201-500	0	0	0	0	0	0
+501-1000	0	0	0	0	0	0
+'1001+	0	0	0	0	0	0
+
+Number of genes per-species in orthogroup	Percentage of orthogroups	Percentage of orthogroups	Percentage of orthogroups	Percentage of orthogroups	Percentage of orthogroups	Percentage of orthogroups
+'0	65.3	4.1	6.0	64.8	51.4	46.7
+'1	33.6	78.4	81.4	34.1	47.1	51.6
+'2	0.9	11.4	8.4	0.8	1.2	1.5
+'3	0.2	3.6	2.2	0.2	0.2	0.2
+'4	0.0	1.2	0.9	0.0	0.0	0.0
+'5	0.0	0.7	0.3	0.0	0.0	0.0
+'6	0.0	0.3	0.2	0.0	0.0	0.0
+'7	0.0	0.1	0.1	0.0	0.0	0.0
+'8	0.0	0.1	0.1	0.0	0.0	0.0
+'9	0.0	0.0	0.2	0.0	0.0	0.0
+'10	0.0	0.0	0.1	0.0	0.0	0.0
+11-15	0.0	0.1	0.1	0.0	0.0	0.0
+16-20	0.0	0.0	0.0	0.0	0.0	0.0
+21-50	0.0	0.0	0.0	0.0	0.0	0.0
+51-100	0.0	0.0	0.0	0.0	0.0	0.0
+101-150	0.0	0.0	0.0	0.0	0.0	0.0
+151-200	0.0	0.0	0.0	0.0	0.0	0.0
+201-500	0.0	0.0	0.0	0.0	0.0	0.0
+501-1000	0.0	0.0	0.0	0.0	0.0	0.0
+'1001+	0.0	0.0	0.0	0.0	0.0	0.0
+
+Number of genes per-species in orthogroup	Number of genes	Number of genes	Number of genes	Number of genes	Number of genes	Number of genes
+'0	0	0	0	0	0	0
+'1	1077	2516	2611	1095	1511	1655
+'2	60	732	538	54	76	94
+'3	15	342	210	18	24	21
+'4	0	160	120	0	4	0
+'5	0	115	55	0	0	0
+'6	0	60	36	0	0	0
+'7	0	14	14	0	0	0
+'8	0	32	24	0	0	0
+'9	0	9	45	0	0	0
+'10	0	0	30	0	0	0
+11-15	0	26	51	0	0	0
+16-20	0	18	0	0	0	0
+21-50	0	0	21	0	0	0
+51-100	0	0	0	0	0	0
+101-150	0	0	0	0	0	0
+151-200	0	0	0	0	0	0
+201-500	0	0	0	0	0	0
+501-1000	0	0	0	0	0	0
+'1001+	0	0	0	0	0	0
+
+Number of genes per-species in orthogroup	Percentage of genes	Percentage of genes	Percentage of genes	Percentage of genes	Percentage of genes	Percentage of genes
+'0	0.0	0.0	0.0	0.0	0.0	0.0
+'1	92.8	51.3	59.9	93.0	90.8	88.7
+'2	5.2	14.9	12.3	4.6	4.6	5.0
+'3	1.3	7.0	4.8	1.5	1.4	1.1
+'4	0.0	3.3	2.8	0.0	0.2	0.0
+'5	0.0	2.3	1.3	0.0	0.0	0.0
+'6	0.0	1.2	0.8	0.0	0.0	0.0
+'7	0.0	0.3	0.3	0.0	0.0	0.0
+'8	0.0	0.7	0.6	0.0	0.0	0.0
+'9	0.0	0.2	1.0	0.0	0.0	0.0
+'10	0.0	0.0	0.7	0.0	0.0	0.0
+11-15	0.0	0.5	1.2	0.0	0.0	0.0
+16-20	0.0	0.4	0.0	0.0	0.0	0.0
+21-50	0.0	0.0	0.5	0.0	0.0	0.0
+51-100	0.0	0.0	0.0	0.0	0.0	0.0
+101-150	0.0	0.0	0.0	0.0	0.0	0.0
+151-200	0.0	0.0	0.0	0.0	0.0	0.0
+201-500	0.0	0.0	0.0	0.0	0.0	0.0
+501-1000	0.0	0.0	0.0	0.0	0.0	0.0
+'1001+	0.0	0.0	0.0	0.0	0.0	0.0

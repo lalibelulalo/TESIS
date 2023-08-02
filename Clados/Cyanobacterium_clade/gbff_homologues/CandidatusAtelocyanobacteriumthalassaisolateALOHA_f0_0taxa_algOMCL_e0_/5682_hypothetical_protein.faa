@@ -1,0 +1,6 @@
+>ID:WP_009543623.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|hypothetical protein|159|NC_010546(4934271):4448604-4448762:1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009543624.1(1),ID:WP_009543622.1(-1)|neighbour_genes:RNaseH domain-contai..,argJ| | aligned:1-46 (52)
+MLYKPLKLMLITATIFVWIRLLAGTVEVFNNPNQSLLDNQTIASESKSYIQR
+>ID:WP_012595711.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|hypothetical protein|153|NC_011726(4679413):2510602-2510754:-1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012595710.1(-1),ID:WP_049769529.1(1)|neighbour_genes:hemolysin family pro..,acylase| | aligned:1-46 (50)
+MNYQSLRLLIIVATVTVWVRLFVGAVQTLTNPTQTLSNSPVATTETIQIK
+>ID:WP_171816359.1 |[cyanobacterium endosymbiont of Epithemia turgida isolate EtSB Lake Yunoko]||cyanobacterium_endosymbiont_of_Epithemia_turgida_isolate_EtSB_Lake_Yunoko.gbff|hypothetical protein|153|NZ_AP012549(2794318):2178052-2178204:1 ^^ Cyanobacterium endosymbiont of Epithemia turgida isolate EtSB Lake Yunoko chromosome.|neighbours:ID:WP_044107075.1(1),ID:WP_044107076.1(-1)|neighbour_genes:murG,argJ| | aligned:3-47 (50)
+MTMTHKSLKLLIVVATFFIWVRLFVGTVQTLNSTTENHWNNRAFASEKTK

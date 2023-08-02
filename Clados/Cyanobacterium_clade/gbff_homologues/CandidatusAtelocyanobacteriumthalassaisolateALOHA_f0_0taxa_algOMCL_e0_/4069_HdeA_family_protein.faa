@@ -1,0 +1,4 @@
+>ID:WP_009544747.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|HdeA family protein|321|NC_010546(4934271):2626196-2626516:1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_012361910.1(1),ID:WP_009544746.1(1)|neighbour_genes:hypothetical protein,4-hydroxybenzoate so..| | aligned:1-106 (106)
+MTSMNKLLATFLLTIIISPALTLSSLAQDTSEDTKVELNQISCRELLKMPGKDKELTFIFFHGFMTAKKNQMVIDRIALREATDKITDYCINNPDSMLMTAFEEYR
+>ID:WP_012594188.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|HdeA family protein|321|NC_011726(4679413):868595-868915:-1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_241392656.1(1),ID:WP_012594189.1(-1)|neighbour_genes:TetR/AcrR family tra..,hypothetical protein| | aligned:1-106 (106)
+MKRIKALLSILVLTTVISGVGTSSSQAQENSGEMTVNLMEVTCRELFKASAEDKDLILVFYHGLVTAKKNQMVIDRTQLEQATDKITDYCIDNPKATLMTVFEKYR

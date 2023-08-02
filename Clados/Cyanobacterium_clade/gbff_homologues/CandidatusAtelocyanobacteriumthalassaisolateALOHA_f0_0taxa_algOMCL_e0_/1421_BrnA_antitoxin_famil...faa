@@ -1,0 +1,4 @@
+>ID:WP_009546292.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|BrnA antitoxin famil..|273|NC_010547(429701):182372-182644:1 ^^ Crocosphaera subtropica ATCC 51142 chromosome linear, complete sequence.|neighbours:ID:WP_009546293.1(1),ID:WP_107667133.1(1)|neighbour_genes:BrnT family toxin,hypothetical protein| | aligned:1-80 (90)
+MSISREQQIEILKKMRDEEIDFSDAPEATDEQLARLEAFVPPKKKTITIKLDEDIIDWFKDEQPQGGYQTFINAVLRDYVRRKVEERQIE
+>ID:WP_009543208.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|BrnA antitoxin famil..|252|NC_010546(4934271):4921770-4922021:-1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009543209.1(1),ID:WP_243397444.1(-1)|neighbour_genes:cobN,BrnT family toxin| | aligned:1-78 (83)
+MPMSREEQLKIRGQMKESDIDYSDIPATETEFWKEATVNNPIKVSVTLKLDPSVFAWYKQQFPQEYQSLINAVLEKYMIENNS

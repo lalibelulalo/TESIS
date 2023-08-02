@@ -1,0 +1,4 @@
+>ID:WP_009544813.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|metallothionein|174|NC_010546(4934271):2553329-2553502:-1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009544814.1(-1),ID:WP_009544812.1(-1)|neighbour_genes:radC,tyrosine-type recomb..| | aligned:1-57 (57)
+MTSATVTQMKCACPSCNCIVSISDAVQKEGKYYCGDACANGHPNGSGCSHHGCECHA
+>ID:WP_012594214.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|metallothionein|174|NC_011726(4679413):902693-902866:-1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012594213.1(1),ID:WP_012594215.1(1)|neighbour_genes:metalloregulator Ars..,GTP-binding protein| | aligned:1-57 (57)
+MTAATVTQMKCACSSCVCIVDLSDAIQKDGKYYCSDACANGHPDGAGCSHHGCECHS

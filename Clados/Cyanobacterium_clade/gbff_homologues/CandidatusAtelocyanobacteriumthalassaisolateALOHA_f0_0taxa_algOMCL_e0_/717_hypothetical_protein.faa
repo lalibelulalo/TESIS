@@ -1,0 +1,6 @@
+>ID:WP_012954170.1 |[Candidatus Atelocyanobacterium thalassa isolate ALOHA]|ALOHA|Candidatus_Atelocyanobacterium_thalassa_isolate_ALOHA.gbff|hypothetical protein|144|NC_013771(1443806):899157-899300:1 ^^ Candidatus Atelocyanobacterium thalassa isolate ALOHA, complete sequence.|neighbours:ID:WP_012954169.1(-1),ID:WP_012954171.1(1)|neighbour_genes:hypothetical protein,aroQ| | aligned:1-42 (47)
+MDYLKEIIEKLKELAQKLIETLLEPNKEPEIELIPIPVNDPQDYYGN
+>ID:WP_012594074.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|hypothetical protein|138|NC_011726(4679413):740245-740382:1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012594073.1(1),ID:WP_012594075.1(1)|neighbour_genes:rpsF,aroQ| | aligned:1-45 (45)
+MDYLEKVLEKLKEWAQKLIETLLGPQAEPEPELIPIPVNDSHRRR
+>ID:WP_172582019.1 |[cyanobacterium endosymbiont of Rhopalodia gibberula]||cyanobacterium_endosymbiont_of_Rhopalodia_gibberula_RgSB.gbff|hypothetical protein|138|NZ_AP018341(3020309):859417-859554:1 ^^ Cyanobacterium endosymbiont of Rhopalodia gibberula isolate cyanobacterium endosymbiont of Rhopalodia gibberula isolate RgSB Namiki Park chromosome, complete genome.|neighbours:ID:WP_119259739.1(1),ID:WP_119259740.1(1)|neighbour_genes:rpsF,aroQ| | aligned:1-45 (45)
+MDYLEKVLEKLKEWAQKLIETLLGPQAEPEPELLPVPVNDPQHRR

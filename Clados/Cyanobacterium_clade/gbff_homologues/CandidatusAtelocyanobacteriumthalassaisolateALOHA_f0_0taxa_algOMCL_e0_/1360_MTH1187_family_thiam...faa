@@ -1,0 +1,4 @@
+>ID:WP_009546354.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|MTH1187 family thiam..|306|NC_010547(429701):122017-122322:1 ^^ Crocosphaera subtropica ATCC 51142 chromosome linear, complete sequence.|neighbours:ID:WP_009546355.1(1),ID:WP_009546353.1(1)|neighbour_genes:ParB/RepB/Spo0J fami..,hypothetical protein| | aligned:1-101 (101)
+MKVVADICVIPMGVGVSVSEYVAVCQTIFTEANLNPQLHGYGTNVEGEWDEVMAALKRCHEKIHAMGSPRISTSIRLGTRTDREQTIADKLDSVNSNLTGI
+>ID:WP_009543200.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|MTH1187 family thiam..|306|NC_010546(4934271):4930567-4930872:1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_008276699.1(-1),ID:WP_009543198.1(1)|neighbour_genes:petL,ltrA| | aligned:1-101 (101)
+MKVIADICLIPMGVGVSVSEYVAVCQTIFTEANLNPQLHGYGTNVEGEWDEVMTALKRCHEKIHAMGSPRISTSIRLGTRTDREQTIADKIDSVNSNLTGI

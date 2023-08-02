@@ -1,0 +1,4 @@
+>ID:WP_009547630.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|antibiotic biosynthe..|333|NC_010546(4934271):3340217-3340549:1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009547631.1(-1),ID:WP_009547629.1(-1)|neighbour_genes:aldehyde dehydrogena..,hypothetical protein| | aligned:1-109 (110)
+MSGEFLDFLKHKYAYVAVGEFKPGQFCEAQKLYEKAVSTYKQGFQGAFLLQKPGTDEGIAVIMWEKLEDMEANQSEVCQKILEEMTPLFVKPPKTDFYEVCSEIDGFSET
+>ID:WP_012595148.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|hypothetical protein|342|NC_011726(4679413):1915632-1915973:-1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012595147.1(1),ID:WP_012595149.1(-1)|neighbour_genes:metK,MbtH family protein| | aligned:1-109 (113)
+MSQEFLDCLQHKYAYVALGEFKPGKFSEAQRLYEKAVSTYKDGFKGAFLLQKPGTDQGIAVIMWEKIEDMESNDNAMYQKILEEMTPLFIKPPVTDFYEVCSEIVGYSQESKS

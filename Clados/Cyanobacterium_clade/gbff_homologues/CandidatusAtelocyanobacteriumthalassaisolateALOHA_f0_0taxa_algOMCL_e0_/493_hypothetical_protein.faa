@@ -1,0 +1,6 @@
+>ID:WP_012953942.1 |[Candidatus Atelocyanobacterium thalassa isolate ALOHA]|ALOHA|Candidatus_Atelocyanobacterium_thalassa_isolate_ALOHA.gbff|hypothetical protein|114|NC_013771(1443806):615647-615760:1 ^^ Candidatus Atelocyanobacterium thalassa isolate ALOHA, complete sequence.|neighbours:ID:WP_012953941.1(-1),ID:WP_012953943.1(1)|neighbour_genes:photosystem I reacti..,HypC/HybG/HupF famil..| | aligned:1-37 (37)
+MLGTYALPYLPVIFVPLMAVLAFTVMGLLFMHVESEA
+>ID:WP_008275886.1 |[Crocosphaera subtropica ATCC 51142]|ATCC 51142|Crocosphaera_subtropica_ATCC_51142.gbff|photosystem I reacti..|117|NC_010546(4934271):4092085-4092201:-1 ^^ Crocosphaera subtropica ATCC 51142 chromosome circular, complete sequence.|neighbours:ID:WP_009547207.1(-1),ID:WP_009547206.1(-1)|neighbour_genes:HypC/HybG/HupF famil..,photosystem I reacti..| | aligned:1-38 (38)
+MNGAYAASYLPWILIPVVTWLMPIVVMGLLFIYIEQEA
+>ID:WP_203427678.1 |[Rippkaea orientalis PCC 8801]|PCC 8801|Rippkaea_orientalis_PCC_8801.gbff|photosystem I reacti..|114|NC_011726(4679413):4171496-4171609:1 ^^ Rippkaea orientalis PCC 8801, complete sequence.|neighbours:ID:WP_012597175.1(-1),ID:WP_012597177.1(-1)|neighbour_genes:photosystem I reacti..,hypothetical protein| | aligned:1-37 (37)
+MIGNYAASYLPVIFVPLMAVLAFTVMGLLFIYVESEA
