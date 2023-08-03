@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  3 AUG 2023 14:43
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  3 AUG 2023 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1160,45 +1160,103 @@ File: Resultados_files/figure-latex/FIG23G-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23G-2.pdf>
 File: Resultados_files/figure-latex/FIG23G-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23G-3.pdf>
+
+LaTeX Warning: Reference `fig:FIG24G' on page 54 undefined on input line 1112.
+
+
+LaTeX Warning: Reference `tab:TAB62G' on page 54 undefined on input line 1112.
+
+
+LaTeX Warning: Reference `fig:FIG25G' on page 54 undefined on input line 1114.
+
+[54] [55] [56] [57] [58]
+
+LaTeX Warning: Reference `fig:FIG26G' on page 59 undefined on input line 1122.
+
+
+LaTeX Warning: Reference `fig:FIG27G' on page 59 undefined on input line 1122.
+
+File: Resultados_files/figure-latex/FIG28G-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG28G-1.pdf>
+File: Resultados_files/figure-latex/FIG28G-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG28G-2.pdf>
+File: Resultados_files/figure-latex/FIG28G-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG28G-3.pdf>
+File: Resultados_files/figure-latex/FIG29G-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG29G-1.pdf>
+File: Resultados_files/figure-latex/FIG29G-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG29G-2.pdf>
+File: Resultados_files/figure-latex/FIG29G-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG29G-3.pdf>
+[59] [60] [61]
+File: Resultados_files/figure-latex/FIG30G-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG30G-1.pdf>
+File: Resultados_files/figure-latex/FIG30G-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG30G-2.pdf>
+File: Resultados_files/figure-latex/FIG30G-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG30G-3.pdf>
+File: Resultados_files/figure-latex/FIG31G-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG31G-1.pdf>
+File: Resultados_files/figure-latex/FIG31G-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG31G-2.pdf>
+File: Resultados_files/figure-latex/FIG31G-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG31G-3.pdf>
+File: Resultados_files/figure-latex/FIG32G-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG32G-1.pdf>
+File: Resultados_files/figure-latex/FIG32G-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG32G-2.pdf>
+File: Resultados_files/figure-latex/FIG32G-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG32G-3.pdf>
+
+Underfull \vbox (badness 2990) has occurred while \output is active []
+
+[62] [63] [64]
+File: Resultados_files/figure-latex/FIG33G-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG33G-1.pdf>
+File: Resultados_files/figure-latex/FIG33G-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG33G-2.pdf>
+File: Resultados_files/figure-latex/FIG33G-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG33G-3.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[65]
 File: Clados/Pseudoanabaena_clade/figures/pseudoanabaena_Octanuc_FrecObs_sel32_
 filogenia_HIG.png Graphic file (type bmp)
 <Clados/Pseudoanabaena_clade/figures/pseudoanabaena_Octanuc_FrecObs_sel32_filog
 enia_HIG.png>
+[66]
 
-LaTeX Warning: Reference `fig:FIG13P' on page 54 undefined on input line 1126.
+LaTeX Warning: Reference `fig:FIG13P' on page 67 undefined on input line 1258.
 
 
-LaTeX Warning: Reference `tab:TAB6P' on page 54 undefined on input line 1126.
+LaTeX Warning: Reference `tab:TAB6P' on page 67 undefined on input line 1258.
 
-[54] [55] [56] [57] [58] [59]
 
-LaTeX Warning: Reference `fig:FIG14P' on page 60 undefined on input line 1128.
+LaTeX Warning: Reference `fig:FIG14P' on page 67 undefined on input line 1260.
 
 File: Resultados_files/figure-latex/FIG15P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG15P-1.pdf>
 
-LaTeX Warning: Reference `fig:FIG16P' on page 60 undefined on input line 1142.
+LaTeX Warning: Reference `fig:FIG16P' on page 67 undefined on input line 1274.
 
 
-LaTeX Warning: Reference `fig:FIG17P' on page 60 undefined on input line 1142.
+LaTeX Warning: Reference `fig:FIG17P' on page 67 undefined on input line 1274.
 
-[60]
 File: Resultados_files/figure-latex/FIG18P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18P-1.pdf>
 File: Resultados_files/figure-latex/FIG18P-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18P-2.pdf>
 File: Resultados_files/figure-latex/FIG18P-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18P-3.pdf>
-
-Underfull \vbox (badness 1163) has occurred while \output is active []
-
-[61]
+[67] [68] [69]
 File: Resultados_files/figure-latex/FIG19P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19P-1.pdf>
 File: Resultados_files/figure-latex/FIG19P-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19P-2.pdf>
 File: Resultados_files/figure-latex/FIG19P-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19P-3.pdf>
+[70]
 File: Resultados_files/figure-latex/FIG20P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20P-1.pdf>
 File: Resultados_files/figure-latex/FIG20P-2.pdf Graphic file (type pdf)
@@ -1227,41 +1285,39 @@ File: Clados/Thermosynechococcus_clade/figures/thermosynechococcus_Octanuc_Frec
 Obs_sel32_filogenia_HIG.png Graphic file (type bmp)
 <Clados/Thermosynechococcus_clade/figures/thermosynechococcus_Octanuc_FrecObs_s
 el32_filogenia_HIG.png>
-[62] [63] [64] [65] [66] [67]
-Underfull \vbox (badness 2088) has occurred while \output is active []
+[71] [72] [73] [74] [75] [76]
 
-[68]
-
-LaTeX Warning: Reference `fig:FIG13T' on page 69 undefined on input line 1278.
+LaTeX Warning: Reference `fig:FIG13T' on page 77 undefined on input line 1410.
 
 
-LaTeX Warning: Reference `tab:TAB6T' on page 69 undefined on input line 1278.
+LaTeX Warning: Reference `tab:TAB6T' on page 77 undefined on input line 1410.
 
 
-LaTeX Warning: Reference `fig:FIG14T' on page 69 undefined on input line 1280.
+LaTeX Warning: Reference `fig:FIG14T' on page 77 undefined on input line 1412.
 
 File: Resultados_files/figure-latex/FIG15T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG15T-1.pdf>
 
-LaTeX Warning: Reference `fig:FIG16T' on page 69 undefined on input line 1294.
+LaTeX Warning: Reference `fig:FIG16T' on page 77 undefined on input line 1426.
 
 
-LaTeX Warning: Reference `fig:FIG17T' on page 69 undefined on input line 1294.
+LaTeX Warning: Reference `fig:FIG17T' on page 77 undefined on input line 1426.
 
+[77]
 File: Resultados_files/figure-latex/FIG18T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18T-1.pdf>
 File: Resultados_files/figure-latex/FIG18T-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18T-2.pdf>
 File: Resultados_files/figure-latex/FIG18T-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18T-3.pdf>
-[69]
+[78]
 File: Resultados_files/figure-latex/FIG19T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19T-1.pdf>
 File: Resultados_files/figure-latex/FIG19T-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19T-2.pdf>
 File: Resultados_files/figure-latex/FIG19T-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19T-3.pdf>
-[70] [71] [72]
+[79]
 File: Resultados_files/figure-latex/FIG20T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20T-1.pdf>
 File: Resultados_files/figure-latex/FIG20T-2.pdf Graphic file (type pdf)
@@ -1286,60 +1342,58 @@ File: Resultados_files/figure-latex/FIG23T-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23T-2.pdf>
 File: Resultados_files/figure-latex/FIG23T-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23T-3.pdf>
-[73] [74] [75]
 File: figures/A18-40_Octanuc_OE_sel32_filogenia_HIG.png Graphic file (type bmp)
 
 <figures/A18-40_Octanuc_OE_sel32_filogenia_HIG.png>
 File: figures/circos.png Graphic file (type bmp)
 <figures/circos.png>
-[76] [77]
 File: figures/out.png Graphic file (type bmp)
 <figures/out.png>
 
-Overfull \hbox (205.03809pt too wide) in paragraph at lines 1420--1421
+Overfull \hbox (205.03809pt too wide) in paragraph at lines 1552--1553
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 60.08807pt on input line 1425.
+LaTeX Warning: Float too large for page by 60.08807pt on input line 1557.
 
 
-Overfull \hbox (9.61006pt too wide) in paragraph at lines 1436--1451
+Overfull \hbox (9.61006pt too wide) in paragraph at lines 1568--1583
  [][] 
  []
 
-[78] [79] [80]
+[80] [81] [82] [83] [84] [85] [86] [87]
 File: Clados/Clado_A18-40/SWM_repeat_AA.png Graphic file (type bmp)
 <Clados/Clado_A18-40/SWM_repeat_AA.png>
-
-Overfull \hbox (10.26004pt too wide) in paragraph at lines 1510--1531
+[88]
+Overfull \hbox (10.26004pt too wide) in paragraph at lines 1642--1663
  [][] 
  []
 
 File: Clados/Clado_A18-40/SWM_3.png Graphic file (type bmp)
 <Clados/Clado_A18-40/SWM_3.png>
 
-Overfull \hbox (912.56133pt too wide) in paragraph at lines 1571--1572
+Overfull \hbox (912.56133pt too wide) in paragraph at lines 1703--1704
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 28.812pt on input line 1576.
+LaTeX Warning: Float too large for page by 28.812pt on input line 1708.
 
-(./TESIS.bbl [81] [82] [83] [84
+(./TESIS.bbl [89] [90] [91] [92
 
-]) [85] (./TESIS.aux)
+]) [93] (./TESIS.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 20832 strings out of 476191
- 425019 string characters out of 5812072
- 851627 words of memory out of 5000000
- 41143 multiletter control sequences out of 15000+600000
+ 21029 strings out of 476191
+ 433399 string characters out of 5812072
+ 858623 words of memory out of 5000000
+ 41322 multiletter control sequences out of 15000+600000
  475734 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  86i,15n,121p,1002b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on TESIS.pdf (85 pages).
+Output written on TESIS.pdf (93 pages).
