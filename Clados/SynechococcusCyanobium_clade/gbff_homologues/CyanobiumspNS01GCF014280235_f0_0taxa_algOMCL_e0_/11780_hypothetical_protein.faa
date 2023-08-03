@@ -1,0 +1,16 @@
+>ID:WP_015109478.1 |[Cyanobium gracile PCC 6307]|PCC 6307|Cyanobium_gracile_PCC_6307_GCF_000316515.1_genomic.gbff|hypothetical protein|138|NC_019675(3342364):1840097-1840234:1 ^^ Cyanobium gracile PCC 6307, complete sequence.|neighbours:ID:WP_015109477.1(1),ID:WP_015109479.1(-1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-45 (45)
+METASFNLGTVLLAVSGLFVLTTLFFGTKGGYYDTDDYDGNGTAH
+>ID:WP_213203390.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|138|NZ_CP073761(3180296):2811011-2811148:1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213203389.1(-1),ID:WP_213203391.1(-1)|neighbour_genes:DNA-3-methyladenine ..,hypothetical protein| | aligned:1-45 (45)
+MESGGFNLGTVLVFGSGLFVLATLFFGTKGGYYDTDDYDGNGTAH
+>ID:WP_172820855.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|hypothetical protein|138|NZ_LT578417(3021545):1720427-1720564:1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_225867320.1(-1),ID:WP_087068120.1(-1)|neighbour_genes:DNA-3-methyladenine ..,hypothetical protein| | aligned:1-45 (45)
+MESSGFTLASVLLAGSGLFCLATLFFGTKGGYYDTEAYDGNGTAH
+>ID:WP_186697355.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|hypothetical protein|138|NZ_CP047940(2748087):2388584-2388721:1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186697354.1(-1),ID:WP_186697356.1(-1)|neighbour_genes:DNA-3-methyladenine ..,hypothetical protein| | aligned:1-45 (45)
+MDSSGFTLATVLLLTSGLFCLSTLFFGTKGGYYDTDAYDGNGTAH
+>ID:WP_197157276.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|hypothetical protein|144|NZ_CP060398(3854122):1653380-1653523:-1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197157278.1(1),ID:WP_197171668.1(1)|neighbour_genes:hypothetical protein,DNA-3-methyladenine ..| | aligned:1-47 (47)
+MTDPSSSFNPGLVVLVVSVLFCLTTLFFGTKGGYYDTDAYDGNGTAH
+>ID:WP_197210389.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|hypothetical protein|138|NZ_CP060397(3672318):2233740-2233877:1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197210388.1(1),ID:WP_197210390.1(-1)|neighbour_genes:rhomboid family intr..,hypothetical protein| | aligned:1-45 (45)
+MDSNTFTLGSILLGLSALFVLATLFFGTKGGYYDTDDYDGNGTAH
+>ID:WP_197157276.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|hypothetical protein|144|NZ_CP060396(3860130):567492-567635:1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197157272.1(-1),ID:WP_197157278.1(-1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-47 (47)
+MTDPSSSFNPGLVVLVVSVLFCLTTLFFGTKGGYYDTDAYDGNGTAH
+>ID:WP_197147911.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|hypothetical protein|138|NZ_CP060395(3226220):1781465-1781602:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197147910.1(1),ID:WP_197147912.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-45 (45)
+MHSSGFTLATVLIFGSGLFVLATLFFGTKGGYYNTDSYDGNGTAH

@@ -1,0 +1,6 @@
+>ID:WP_213204207.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|261|NZ_CP073761(3180296):661126-661386:1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213204206.1(-1),ID:WP_213204208.1(-1)|neighbour_genes:IS1182 family transp..,hypothetical protein| | aligned:17-86 (86)
+MRRILSTIAAGVLLAGPAAAVDNLNTDLEEICKPLLELNTEFGASAAPGSPIGGQMQNELSLSAAQYGALWSLLKLTPTPSCSRMY
+>ID:WP_157665413.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|hypothetical protein|252|NZ_LT578417(3021545):2039450-2039701:1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087068341.1(1),ID:WP_087068343.1(-1)|neighbour_genes:hypothetical protein,GAP family protein| | aligned:7-83 (83)
+MPVLLLVLLLQPAASGADNDLNPDIETMCEGLAVINRELGATAAPGSPMGRRMQQELSVSAAQYDALWTLMKLTPTPTCTELH
+>ID:WP_186698184.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|hypothetical protein|261|NZ_CP047940(2748087):236221-236481:-1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186698182.1(-1),ID:WP_186698186.1(1)|neighbour_genes:APC family permease,hypothetical protein| | aligned:12-86 (86)
+MTTLLVVALPLVLQPQAARARQPLNPDIETMCEGLALINQKLGATAAPGTPMAELMEQELVITAAQYEALWSLMKLTPTPICESLY

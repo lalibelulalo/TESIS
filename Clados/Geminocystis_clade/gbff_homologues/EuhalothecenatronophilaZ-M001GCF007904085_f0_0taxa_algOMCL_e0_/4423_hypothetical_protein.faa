@@ -1,0 +1,4 @@
+>ID:WP_015161587.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|294|NC_019697(6284095):4840979-4841272:1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015161586.1(1),ID:WP_015161588.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-89 (97)
+MTAATDTDIREIKDLITALDKKIEGLDKRIEVGFAKVEGQINTVEAKLEGKIDKLEERTKLGFWGFIFRGTALAALAAMTAIFVKYLFPILPPVPLG
+>ID:WP_015162668.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|336|NC_019697(6284095):6054015-6054350:-1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015162667.1(1),ID:WP_015162669.1(-1)|neighbour_genes:hypothetical protein,AAA family ATPase| | aligned:1-111 (111)
+MTQSTDRDIQEINNAVDANSRAIDANSKAIADLTASIAGLREEMRVGFTKAEGQINNVETKLDAKIDVVRGELRVIDVKSEGRNRIGFWSLLVRGTAIVVLGGLFVVFLFS

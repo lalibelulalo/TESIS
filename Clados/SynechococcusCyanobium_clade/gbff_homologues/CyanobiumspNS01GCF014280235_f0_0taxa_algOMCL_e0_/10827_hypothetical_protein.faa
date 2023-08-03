@@ -1,0 +1,12 @@
+>ID:WP_156818421.1 |[Cyanobium gracile PCC 6307]|PCC 6307|Cyanobium_gracile_PCC_6307_GCF_000316515.1_genomic.gbff|hypothetical protein|198|NC_019675(3342364):1664924-1665121:1 ^^ Cyanobium gracile PCC 6307, complete sequence.|neighbours:ID:WP_015109295.1(-1),ID:WP_015109297.1(1)|neighbour_genes:hypothetical protein,PIN domain nuclease| | aligned:1-65 (65)
+MGEILALTGERKKGPAIRRLMEEALQQRRRAQVAQRFLSGEWGVELESFESDQERDRQQAQAIDP
+>ID:WP_213203836.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|198|NZ_CP073761(3180296):245963-246160:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213203835.1(-1),ID:WP_213203837.1(-1)|neighbour_genes:PIN domain-containin..,hypothetical protein| | aligned:1-65 (65)
+MAEVLELTGERKKGPAIRRLMEEALQQRRRAQIAQRFLSGAWGVELETYEADQERERQRDQEIAS
+>ID:WP_172820883.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|hypothetical protein|198|NZ_LT578417(3021545):2330101-2330298:1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_172820882.1(1),ID:WP_087068558.1(1)|neighbour_genes:helicase-related pro..,PIN domain nuclease| | aligned:1-65 (65)
+MAEILVLTGERKKGPAIRRLMEEALQQRRRAQIAQRFISGEWGVELESFEADQERERQRDQEIAS
+>ID:WP_186696568.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|hypothetical protein|198|NZ_CP047940(2748087):1468743-1468940:-1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_225875560.1(-1),ID:WP_186696569.1(-1)|neighbour_genes:hypothetical protein,AraC family transcri..| | aligned:1-65 (65)
+MAEILDLTGERKKGPAIRRLMEEALQQRRRAQIAQRFLSGEWGVELESYEADQERERQQAQEFAS
+>ID:WP_197210466.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|hypothetical protein|198|NZ_CP060397(3672318):2337684-2337881:-1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197210465.1(-1),ID:WP_197210467.1(-1)|neighbour_genes:PIN domain nuclease,oxidoreductase| | aligned:1-65 (65)
+MAEIMDLTGERKKGPAIRRLMEEALQQRRRAQIAQRFLNGEWGVELDTYEADQERERQRAQEISP
+>ID:WP_197153524.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|hypothetical protein|198|NZ_CP060395(3226220):2056496-2056693:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197148157.1(-1),ID:WP_197148158.1(-1)|neighbour_genes:PIN domain-containin..,hypA| | aligned:1-64 (65)
+MAEVLELTGERKKGPAIRLLMEEALQRHRRARIAQRFLSGEWGVELDSFEADRQRDRDRDQALAR

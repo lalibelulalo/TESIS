@@ -1,0 +1,6 @@
+>ID:WP_187152995.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|189|NC_009929(226680):112012-112200:1 ^^ Acaryochloris marina MBIC11017 plasmid pREB4, complete sequence.|neighbours:ID:WP_012167732.1(1),ID:WP_010478916.1(-1)|neighbour_genes:hypD,Hsp20/alpha crystall..| | aligned:1-62 (62)
+MIPTEKPSNSKRANAKSKKSKHRRRKEIYRQKLVSLGVPQKPLQSRLPESTHEKLSDWEAAS
+>ID:WP_212667106.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|249|NZ_CP064926(251809):244972-245220:-1 ^^ Acaryochloris marina S15 plasmid unnamed13, complete sequence.|neighbours:ID:WP_212667105.1(1),ID:WP_212667107.1(-1)|neighbour_genes:acyl-CoA dehydrogena..,hypD| | aligned:1-82 (82)
+MLVLPKSGGDQYPQRQEVLMMMPTEKPSNSKRASAKSKKSKHRRRKEIYLPRGGNIGVPKQLLRSRSPAPNHEKLKDWEAAS
+>ID:WP_212667106.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|hypothetical protein|249|NZ_CP071719(276907):197635-197883:1 ^^ Acaryochloris sp. 'Moss Beach' plasmid pMB02, complete sequence.|neighbours:ID:WP_212667107.1(1),ID:WP_212667105.1(-1)|neighbour_genes:hypD,acyl-CoA dehydrogena..| | aligned:1-82 (82)
+MLVLPKSGGDQYPQRQEVLMMMPTEKPSNSKRASAKSKKSKHRRRKEIYLPRGGNIGVPKQLLRSRSPAPNHEKLKDWEAAS

@@ -1,0 +1,22 @@
+>ID:WP_015160828.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|PetM family cytochro..|108|NC_019697(6284095):3929943-3930050:1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015160827.1(-1),ID:WP_015160829.1(1)|neighbour_genes:GNAT family N-acetyl..,SDR family oxidoredu..| | aligned:5-35 (35)
+MAGEIFNAAILSSSLILVGLGLGFLFLKIQGPEEE
+>ID:WP_096718259.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|PetM family cytochro..|114|NZ_AP018281(4516676):804191-804304:-1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096718257.1(-1),ID:WP_096718261.1(1)|neighbour_genes:psb28,GNAT family N-acetyl..| | aligned:1-37 (37)
+MSAESMLFNGAILCITLILGGLSLGFLILKIQGGEPE
+>ID:WP_015219613.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|PetM family cytochro..|111|NC_019776(4114099):2138961-2139071:-1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015219612.1(1),ID:WP_015219614.1(-1)|neighbour_genes:peroxiredoxin,chlP| | aligned:1-36 (36)
+MTAESMLFNGAILCFVVVLIGLAWGFLLLKLTGESE
+>ID:WP_015229228.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|PetM family cytochro..|114|NC_019780(3781008):1564222-1564335:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015229227.1(-1),ID:WP_015229229.1(1)|neighbour_genes:psb28,2TM domain-containin..| | aligned:1-37 (37)
+MTANTIIFNAAVLSSTLILVGLAWGFLLLKIQGNNAE
+>ID:WP_146295504.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|PetM family cytochro..|111|NZ_CP042326(3326959):1700790-1700900:1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146295503.1(-1),ID:WP_146295505.1(1)|neighbour_genes:2TM domain-containin..,RNA-guided endonucle..| | aligned:1-36 (36)
+MTANSIIFNSAILSFTLILVGLAWGFLLLKIQGNEE
+>ID:WP_017293955.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|PetM family cytochro..|111|NZ_CM001775(4263418):1631948-1632058:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017293954.1(-1),ID:WP_017293956.1(1)|neighbour_genes:PAS domain-containin..,nucleotidyltransfera..| | aligned:1-36 (36)
+MTAESMLFNGAILCFGVVLVGLAWGFLLLKLTGEAK
+>ID:WP_066348818.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|PetM family cytochro..|111|NZ_AP014815(3883409):3532080-3532190:-1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_231933190.1(1),ID:WP_066348820.1(-1)|neighbour_genes:FAD-dependent oxidor..,branched-chain amino..| | aligned:1-36 (36)
+MTAESMLFNGAILCFTVVLVGLAWGFLLLKLSGESK
+>ID:WP_066117799.1 |[Geminocystis sp. NIES-3709]|NIES-3709|Geminocystis_sp_NIES-3709_GCF_001548115.1_genomic.gbff|PetM family cytochro..|111|NZ_AP014821(4150181):1664613-1664723:1 ^^ Geminocystis sp. NIES-3709 chromosome, complete genome.|neighbours:ID:WP_066117797.1(1),ID:WP_066117802.1(1)|neighbour_genes:MBL fold metallo-hyd..,cysteine desulfurase| | aligned:1-36 (36)
+MTAESMLFNGAIICFSVVLIGLAWGFLLLKLTGEAK
+>ID:WP_015226161.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|PetM family cytochro..|114|NC_019779(4179170):2348066-2348179:-1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015226160.1(-1),ID:WP_015226162.1(1)|neighbour_genes:psb28,2TM domain-containin..| | aligned:1-37 (37)
+MTANTIIFNAAVLSFTLILVGLAWGFLLLKIQGNSAE
+>ID:WP_015192776.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|PetM family cytochro..|114|NC_019748(5041209):1722245-1722358:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015192775.1(-1),ID:WP_015192777.1(1)|neighbour_genes:pdxA,alpha/beta hydrolase| | aligned:1-37 (37)
+MSAESMLFNGAILCIVLILVGLAWGFLLLKIQGGEAE
+>ID:WP_096387729.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|PetM family cytochro..|114|NZ_AP017375(5319768):725902-726015:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096380890.1(-1),ID:WP_096380892.1(1)|neighbour_genes:YnfA family protein,4-hydroxythreonine-4..| | aligned:1-37 (37)
+MSAESMLFNGVILCIVLVLVGLAWGFLLLKIQGGEAE

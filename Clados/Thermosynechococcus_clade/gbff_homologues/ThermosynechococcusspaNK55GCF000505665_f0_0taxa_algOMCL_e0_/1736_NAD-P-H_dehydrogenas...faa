@@ -1,0 +1,10 @@
+>ID:WP_010468488.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|NAD(P)H dehydrogenas..|189|NC_009925(6503724):1442331-1442519:1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012162008.1(1),ID:WP_012162009.1(-1)|neighbour_genes:rodA,RDD family protein| | aligned:1-62 (62)
+MILPGSSVRVVNTGDTYFGFEGQVQRVADGQAAVIFDGGNWTKIVTFRLPELEIVKRGKGKK
+>ID:WP_212666344.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|NAD(P)H dehydrogenas..|189|NZ_CP064923(5881945):4179066-4179254:1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212662562.1(1),ID:WP_212662563.1(-1)|neighbour_genes:rodA,RDD family protein| | aligned:1-62 (62)
+MILPGSAVRVVNTGDTYFGFEGQVQRVADGQAAVIFDGGNWTKIVTFRLPELEIVKRGKGKK
+>ID:WP_212666344.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|NAD(P)H dehydrogenas..|189|NZ_CP071717(5699248):1204808-1204996:1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_212662562.1(1),ID:WP_235109376.1(-1)|neighbour_genes:rodA,RDD family protein| | aligned:1-62 (62)
+MILPGSAVRVVNTGDTYFGFEGQVQRVADGQAAVIFDGGNWTKIVTFRLPELEIVKRGKGKK
+>ID:WP_041431386.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|NAD(P)H dehydrogenas..|192|NC_019680(3697276):1986997-1987188:1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015124689.1(1),ID:WP_015124691.1(-1)|neighbour_genes:rodA,trans-splicing intei..| | aligned:1-63 (63)
+MILPGTIVKVINPGDTYYGFQGLVQRITDGKAAVLFEGGNWDKLVTFRLSELAPQELPKGKKK
+>ID:WP_225901621.1 |[Thermosynechococcus sp. TA-1]|TA-1|Thermosynechococcus_sp_TA-1_GCF_017086385.1_genomic.gbff|NAD(P)H dehydrogenas..|225|NZ_CP070960(2658717):431611-431835:1 ^^ Thermosynechococcus sp. TA-1 chromosome, complete genome.|neighbours:ID:WP_206200850.1(-1),ID:WP_206200851.1(1)|neighbour_genes:TolC family protein,hypothetical protein| | aligned:9-71 (74)
+MASDLAMTILPGMTVKVTNPNDTYYQFQGIVQRVTDGKVAVLFEGGNWDKLVTFQLSELEPVVTTPKGKAKAKK

@@ -1,0 +1,4 @@
+>ID:WP_015108515.1 |[Cyanobium gracile PCC 6307]|PCC 6307|Cyanobium_gracile_PCC_6307_GCF_000316515.1_genomic.gbff|CsbD family protein|219|NC_019675(3342364):883212-883430:1 ^^ Cyanobium gracile PCC 6307, complete sequence.|neighbours:ID:WP_216593363.1(-1),ID:WP_015108516.1(1)|neighbour_genes:alpha-amylase family..,DUF302 domain-contai..| | aligned:1-69 (72)
+MSNKADAAAKDAEGRLESALGELTGDTGHQLKGKAKQVQASAMNAAEDLKDGARAVAQKVSDAAAKLADGQD
+>ID:WP_213205307.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|CsbD family protein|219|NZ_CP073761(3180296):2036744-2036962:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213202726.1(-1),ID:WP_213205308.1(-1)|neighbour_genes:lmo0937 family membr..,transglutaminase fam..| | aligned:1-69 (72)
+MSKRSDAVAKDAEGKLESAYGEISGDICHQIKGKSKQVQASAMNAAEDVREGIRSAAKNVSKAATDIADDIN

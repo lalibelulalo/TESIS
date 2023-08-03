@@ -1,0 +1,8 @@
+>ID:WP_174235272.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|DDE transposase fami..|228|NZ_AP017560(4796642):3287233-3287460:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126387452.1(-1),ID:WP_126387454.1(1)|neighbour_genes:trpA,ATP-binding protein| | aligned:3-75 (75)
+MISDSLNSLRDSQESITAERWFIGKRADTGICEIVKGNSQEDLTDFVETWGAFNSQGEAIAKRVGLIRAGKCQPL
+>ID:WP_015163640.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|hypothetical protein|243|NC_019701(4557046):456065-456307:-1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015163639.1(-1),ID:WP_015163641.1(-1)|neighbour_genes:hypothetical protein,DUF4359 domain-conta..| | aligned:8-80 (80)
+MPEQPIESNSVNSPANSPDIDAATNAATNWYIHRQPSGVCLITNHQEAQGSLETWGPFANQNEAIAKRVGLIRAGKCIPA
+>ID:WP_187147261.1 |[Synechococcus sp. JA-2-3B'a(2-13)]|JA-2-3B'a(2-13)|Synechococcus_sp_JA-2-3Ba_2-13_JA-2-3Ba_2-13_GCF_000013225.1_genomic.gbff|hypothetical protein|177|NC_007776(3046682):509515-509691:1 ^^ Synechococcus sp. JA-2-3B'a(2-13), complete sequence.|neighbours:ID:WP_041436180.1(1),ID:WP_011432151.1(1)|neighbour_genes:hypothetical protein,GNAT family N-acetyl..| | aligned:3-58 (58)
+MVSDPVSGWYVIKQAQGSCQVLHLAALSRQEHWGPFPSQAEATGRRVGLIRAGKCQPG
+>ID:WP_038025878.1 |[Synechococcus sp. PCC 7336]|PCC 7336|Synechococcus_sp_PCC_7336_GCF_000332275.1_genomic.gbff|hypothetical protein|189|NZ_CM001776(5066637):2093078-2093266:-1 ^^ Synechococcus sp. PCC 7336 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017325799.1(-1),ID:WP_017325800.1(1)|neighbour_genes:GNAT family N-acetyl..,S8 family serine pep..| | aligned:1-62 (62)
+MTDSQSSPARSHGWYIVQQPDGHCTLTPTPAENARHWGPFDTEGEAIARRVGLIRSGTCKPV

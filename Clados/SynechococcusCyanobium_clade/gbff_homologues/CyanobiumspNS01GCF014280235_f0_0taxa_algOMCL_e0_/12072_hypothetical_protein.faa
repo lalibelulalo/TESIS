@@ -1,0 +1,10 @@
+>ID:WP_087069381.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|hypothetical protein|213|NZ_LT578417(3021545):2266191-2266403:1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_157665424.1(1),ID:WP_087068510.1(1)|neighbour_genes:hypothetical protein,ferredoxin--nitrite ..| | aligned:1-70 (70)
+MALPVQSSQRASQRASSPLGVALAFLGMFVVGSLGVQLLSTLPRAAAVPSGGPEPVLAHPAALWSALGER
+>ID:WP_186697770.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|hypothetical protein|207|NZ_CP047940(2748087):2693481-2693687:-1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186697768.1(-1),ID:WP_186697772.1(-1)|neighbour_genes:ferredoxin--nitrite ..,hypothetical protein| | aligned:1-68 (68)
+MATPLQATRSASSPLGVALAFVGMFVVGSLGVQLLAGLLRDAAPAASAGRAASVVAHPATLWSALGER
+>ID:WP_197171410.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|hypothetical protein|204|NZ_CP060398(3854122):1262625-1262828:1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197171408.1(-1),ID:WP_197171412.1(1)|neighbour_genes:anthranilate phospho..,ferredoxin--nitrite ..| | aligned:1-67 (67)
+MAAPLQVTRAQASPLGVALAFLGMFVVGSLAVQLLASLPRSSGAASRSGPVPVIAHQATLWQTLGER
+>ID:WP_197157681.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|hypothetical protein|204|NZ_CP060396(3860130):870229-870432:-1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197158968.1(-1),ID:WP_197157683.1(1)|neighbour_genes:ferredoxin--nitrite ..,anthranilate phospho..| | aligned:1-67 (67)
+MAAPLQVTRAQASPLGVALAFLGMFVVGSLAVQLLASLPRSSGAASRSAPAPVIAHQATLWQTLGER
+>ID:WP_197152540.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|hypothetical protein|207|NZ_CP060395(3226220):1295762-1295968:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197152539.1(-1),ID:WP_197152541.1(-1)|neighbour_genes:ferredoxin--nitrite ..,hypothetical protein| | aligned:1-68 (68)
+MATPLQTTRSASSPLGVALAFVGMFVVGSLGVQLLAGLLRDAAPAASAGRAASVVAHPATLWSALGER

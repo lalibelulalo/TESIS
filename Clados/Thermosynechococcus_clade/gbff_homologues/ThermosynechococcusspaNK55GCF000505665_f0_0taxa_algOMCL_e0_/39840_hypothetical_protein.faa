@@ -1,0 +1,4 @@
+>ID:WP_181495239.1 |[Thermosynechococcus elongatus PKUAC-SCTE542]|PKUAC-SCTE542|Thermosynechococcus_elongatus_PKUAC-SCTE542_GCF_003555505.1_genomic.gbff|hypothetical protein|147|NZ_CP032152(2650294):2473521-2473667:1 ^^ Thermosynechococcus elongatus PKUAC-SCTE542 chromosome, complete genome.|neighbours:ID:WP_011057134.1(-1),ID:WP_181495240.1(1)|neighbour_genes:efp,NifU family protein| | aligned:1-47 (48)
+MSYRAVHQATIVSLSVAVPNTVEQISLEPDPLAPLGIPKGRSPLQMLD
+>ID:WP_157869649.1 |[Thermosynechococcus sp. NK55a]|NK55|Thermosynechococcus_sp_a_NK55_GCF_000505665.1_genomic.gbff|hypothetical protein|147|NC_023033(2520064):696859-697005:1 ^^ Thermosynechococcus sp. NK55a, complete sequence.|neighbours:ID:WP_011057134.1(-1),ID:WP_024124414.1(1)|neighbour_genes:efp,NifU family protein| | aligned:1-47 (48)
+MSYRAVHQAIIVSLSAAVPNPVEQISLEQDPLAPLGIPKGRSLLSMLH

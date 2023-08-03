@@ -1,0 +1,6 @@
+>ID:WP_213203924.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|type II toxin-antito..|228|NZ_CP073761(3180296):348068-348295:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213203923.1(-1),ID:WP_213203925.1(1)|neighbour_genes:type II toxin-antito..,grxC| | aligned:2-75 (75)
+MQQISASQFKARCLGLMDEVARSGEALVITKNGTPVAELHPCRPERLSTPFGLHPTTRLLGDVVTPLAEPWQALQ
+>ID:WP_197210563.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|type II toxin-antito..|231|NZ_CP060397(3672318):2452477-2452707:-1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_231596800.1(-1),ID:WP_231597366.1(-1)|neighbour_genes:PIN domain-containin..,prfB| | aligned:3-75 (76)
+MRRTISASQFKARCLGLMDEVARDGDVLVITKNGRPVAELHPCSLTRPASPFGLHPDLELLGDVLAPLDEPWEALG
+>ID:WP_197152008.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|type II toxin-antito..|180|NZ_CP060395(3226220):1043822-1044001:1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197152006.1(-1),ID:WP_197153394.1(1)|neighbour_genes:grxC,prfB| | aligned:1-59 (59)
+MDDVSRSGEALVITKNGQPVAELHPCRGTRRASPFGLHLATRLDGDVVAPLDEPWDVLQ

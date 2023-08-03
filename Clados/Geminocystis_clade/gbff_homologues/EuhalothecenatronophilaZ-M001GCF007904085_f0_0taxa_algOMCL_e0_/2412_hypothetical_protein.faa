@@ -1,0 +1,6 @@
+>ID:WP_015159689.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|213|NC_019697(6284095):2582282-2582494:1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015159688.1(1),ID:WP_015159690.1(1)|neighbour_genes:DUF2382 domain-conta..,SDR family NAD(P)-de..| | aligned:1-70 (70)
+MSYTDFVDEISLAEQAENLGRMAMMMGLIPSFVVRHFPDSWEFYIPDETGNRLTPEEAYLHLNRLVDPDN
+>ID:WP_015328789.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|270|NC_020053(446651):103849-104118:-1 ^^ Chamaesiphon minutus PCC 6605 plasmid pCHA6605.01, complete sequence.|neighbours:ID:WP_015328788.1(-1),ID:WP_015328790.1(-1)|neighbour_genes:MFS transporter,pgmB| | aligned:1-67 (89)
+MNHAEFTDEITLAARAEKLGEVALMMGLVRSFVVRHFPDSWEFYIPDETAQQLTPEEAYLHFKQLVDRSERKIDRDLTPQQSFEQLNAT
+>ID:WP_051039059.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|198|NC_020053(446651):124492-124689:-1 ^^ Chamaesiphon minutus PCC 6605 plasmid pCHA6605.01, complete sequence.|neighbours:ID:WP_015328803.1(-1),ID:WP_015158531.1(1)|neighbour_genes:glgX,ISL3 family transpos..| | aligned:2-58 (65)
+MENPEGLAKQAMQLGLIPSFTVHHFPDSWQFYLPNLNPELLTPEEAYLRLQRLIESRNSTARSIL

@@ -1,0 +1,6 @@
+>ID:WP_126385464.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|tatA|180|NZ_AP017560(4796642):902749-902928:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_197725183.1(1),ID:WP_126385465.1(1)|neighbour_genes:tsaE,hypothetical protein| | aligned:1-59 (59)
+MFGIGWPELVVISLVGVAIFGAKRIPEIGRSVGQALRGFQDEIKGQGEDDSAKTQDKDS
+>ID:WP_015164589.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|twin-arginine transl..|174|NC_019701(4557046):1688728-1688901:1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015164588.1(-1),ID:WP_156800356.1(-1)|neighbour_genes:TerB family tellurit..,IS1 family transposa..| | aligned:1-57 (57)
+MFGLGWPEAIVITVVALALFGAKRLPELGRGMGETIKGFRDEMKGDPAEPNSEESNS
+>ID:WP_015168538.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|tatA|183|NC_019702(3510253):1855890-1856072:1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015168537.1(1),ID:WP_015168539.1(1)|neighbour_genes:raiA,NIL domain-containin..| | aligned:1-60 (60)
+MFGLGLPEMIIISVVGVAIFGAKRIPELGKSIGQTIRGFKQGLKEEPDLPGQPSKTDNNN

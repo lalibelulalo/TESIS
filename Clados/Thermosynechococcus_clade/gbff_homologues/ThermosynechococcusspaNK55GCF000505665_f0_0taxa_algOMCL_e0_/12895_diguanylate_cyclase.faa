@@ -1,0 +1,4 @@
+>ID:WP_212666551.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|diguanylate cyclase|342|NZ_CP064924(309759):108486-108827:1 ^^ Acaryochloris marina S15 plasmid unnamed8, complete sequence.|neighbours:ID:WP_212666550.1(-1),ID:WP_212666552.1(1)|neighbour_genes:phosphate-starvation..,transposase family p..| | aligned:1-113 (113)
+MQKILLEELEKHQWPVTFSMGVLIFEYPPSSVDELIQSADQLMYEAKDAGKNAVAYSNTNPGLFHSHRAVDMVGSQPQYPEPPECLKLLLSKPFAICLTIVALEGEDTLNRYV
+>ID:WP_212666551.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|diguanylate cyclase|342|NZ_CP064924(309759):302561-302902:-1 ^^ Acaryochloris marina S15 plasmid unnamed8, complete sequence.|neighbours:ID:WP_212666692.1(-1),ID:WP_212666550.1(1)|neighbour_genes:ISAs1 family transpo..,phosphate-starvation..| | aligned:1-113 (113)
+MQKILLEELEKHQWPVTFSMGVLIFEYPPSSVDELIQSADQLMYEAKDAGKNAVAYSNTNPGLFHSHRAVDMVGSQPQYPEPPECLKLLLSKPFAICLTIVALEGEDTLNRYV

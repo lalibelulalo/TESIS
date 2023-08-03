@@ -1,0 +1,6 @@
+>ID:WP_015229417.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|hypothetical protein|204|NC_019780(3781008):1789344-1789547:1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015229416.1(1),ID:WP_015229418.1(-1)|neighbour_genes:phosphoribulokinase,NADH-quinone oxidore..| | aligned:2-67 (67)
+MMLRFWLVCFGILFAMVELWGWLQELTLSFPLCILGGIVLAIVSNLKFSPLPSSATHLTLPPQRSDQ
+>ID:WP_146294312.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|hypothetical protein|213|NZ_CP042326(3326959):297549-297761:1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146294311.1(1),ID:WP_146294313.1(1)|neighbour_genes:phosphoribulokinase,glycosyl transferase| | aligned:1-69 (70)
+MLRFWLVCFGLLFVLVELWQWLQELTLPLPFCILGGIALAIASNFNFSKTRPNNEQISSLNLPPDSNNQS
+>ID:WP_015224637.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|hypothetical protein|201|NC_019779(4179170):580503-580703:-1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015224636.1(1),ID:WP_015224638.1(-1)|neighbour_genes:metal ABC transporte..,phosphoribulokinase| | aligned:1-66 (66)
+MLRFWLVCFGLLFVVVEIWEGLRELTLTFPLCLLGGLILAIASNLKFVSPPTQSSQMRLPPDSSSD

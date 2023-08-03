@@ -1,0 +1,6 @@
+>ID:WP_017323964.1 |[Synechococcus sp. PCC 7336]|PCC 7336|Synechococcus_sp_PCC_7336_GCF_000332275.1_genomic.gbff|NblA/ycf18 family pr..|180|NZ_CM001776(5066637):110814-110993:1 ^^ Synechococcus sp. PCC 7336 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017323963.1(-1),ID:WP_156819952.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-56 (59)
+MESSTSLSMEQQFQLQLLHRDVKKMNREQAQEFLMELLQQMMLKDNAIAQMFKGRSPAT
+>ID:WP_038025779.1 |[Synechococcus sp. PCC 7336]|PCC 7336|Synechococcus_sp_PCC_7336_GCF_000332275.1_genomic.gbff|NblA/ycf18 family pr..|201|NZ_CM001776(5066637):1330097-1330297:-1 ^^ Synechococcus sp. PCC 7336 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017325114.1(-1),ID:WP_255346721.1(-1)|neighbour_genes:thiamine pyrophospha..,RES family NAD+ phos..| | aligned:1-53 (66)
+MNGPGTLKMEQQFRLQVMREAVKSADREQLEEFFLELTRQLMLKDNWIQHMFKECYLPDFSSLKVQ
+>ID:WP_017326221.1 |[Synechococcus sp. PCC 7336]|PCC 7336|Synechococcus_sp_PCC_7336_GCF_000332275.1_genomic.gbff|NblA/ycf18 family pr..|192|NZ_CM001776(5066637):2542040-2542231:-1 ^^ Synechococcus sp. PCC 7336 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017326220.1(-1),ID:WP_051039808.1(1)|neighbour_genes:bleomycin hydrolase,phycobiliprotein lya..| | aligned:3-55 (63)
+MESTDLSMEQQFKLRVLSEQVQRLSREQAQEYLMEVMRQMMVKDNIVKNLLIGQGNLWQQQNG

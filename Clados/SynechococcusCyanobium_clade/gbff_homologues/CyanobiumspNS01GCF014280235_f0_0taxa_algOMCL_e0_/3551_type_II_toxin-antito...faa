@@ -1,0 +1,6 @@
+>ID:WP_213203859.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|type II toxin-antito..|285|NZ_CP073761(3180296):268291-268575:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213205056.1(-1),ID:WP_213203860.1(1)|neighbour_genes:type II toxin-antito..,biliverdin-producing..| | aligned:1-93 (94)
+MAHEHPRPASCTGPVSAQQAKAQFSALLDRVEQGEHLVITRRNRPIAELRPTQPPLPMAPRPLGQADDAGTPIPAAFFEPLPADLQAAFEGETP
+>ID:WP_197212760.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|type II toxin-antito..|261|NZ_CP060397(3672318):1426145-1426405:1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197212759.1(1),ID:WP_197212761.1(1)|neighbour_genes:superoxide dismutase,type II toxin-antito..| | aligned:16-86 (86)
+MAPGPPSSLPPEPRCINVQEAKTHLSALLARVSAGERIVLARHGKPIAQLVPLDPQPRRQLGFLQGQVDAAFFDPLPEEELRAWEA
+>ID:WP_197147824.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|type II toxin-antito..|285|NZ_CP060395(3226220):1675194-1675478:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_231596165.1(-1),ID:WP_197147825.1(1)|neighbour_genes:PIN domain-containin..,biliverdin-producing..| | aligned:1-93 (94)
+MASQHSRPAGCPGPVSAQQAKAQFSALLDRVERGERLVITRRNRPIAELRPTQPPLPTAPRPLGQAEDAGTPIPATFFEPLPADLQAAFEGKTA

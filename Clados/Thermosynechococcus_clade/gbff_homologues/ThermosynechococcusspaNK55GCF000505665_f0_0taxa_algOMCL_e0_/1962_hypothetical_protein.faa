@@ -1,0 +1,6 @@
+>ID:WP_012162260.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|213|NC_009925(6503724):1707570-1707782:1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012162259.1(-1),ID:WP_012162261.1(-1)|neighbour_genes:response regulator t..,HAD-IA family hydrol..| | aligned:1-70 (70)
+MPQPENSPSPSSLGFLLKVLGLSTILSAAIKYLGPLLPISGSNALALGVVLTPSLVLGGLLLLRGQRQAG
+>ID:WP_212662737.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|222|NZ_CP064923(5881945):4421102-4421323:1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212662736.1(-1),ID:WP_212662738.1(-1)|neighbour_genes:response regulator t..,HAD-IA family hydrol..| | aligned:1-73 (73)
+MPQPENAPPQSGKSSLGFVLKVLGLSTILSVAIKDLGPLLPISSSNPLALGVVLTPSLVLGVLLLLRGQRQSG
+>ID:WP_212662737.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|hypothetical protein|222|NZ_CP071717(5699248):1453179-1453400:1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_212662735.1(1),ID:WP_235109620.1(-1)|neighbour_genes:tilS,HAD-IA family hydrol..| | aligned:1-73 (73)
+MPQPENAPPQSGKSSLGFVLKVLGLSTILSVAIKDLGPLLPISSSNPLALGVVLTPSLVLGVLLLLRGQRQSG

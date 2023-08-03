@@ -1,0 +1,6 @@
+>ID:WP_126385114.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|rpsP|249|NZ_AP017560(4796642):638550-638798:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126385112.1(-1),ID:WP_126385116.1(1)|neighbour_genes:KH domain-containing..,GDP-mannose 4,6-dehy..| | aligned:1-82 (82)
+MIKLRLKRFGKKFEASYRIVVVNSTSRRDGRPLAELGFYNPRTKETQLDVPAIVDRIKKGAQPTDTVRRILEKAKVFDLVSA
+>ID:WP_015166535.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|rpsP|249|NC_019701(4557046):4165947-4166195:1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015166534.1(1),ID:WP_015166536.1(1)|neighbour_genes:ffh,KH domain-containing..| | aligned:1-82 (82)
+MVKLRLKRFGRKRAATYRIVAVNSTSRRDGRPLEELGIYNPITDETRLEVEAIVRRLKQGAQPTETVRAILNKAKIFDLVSA
+>ID:WP_015168632.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|rpsP|249|NC_019702(3510253):1948094-1948342:1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015168631.1(-1),ID:WP_041429346.1(1)|neighbour_genes:hypothetical protein,KH domain-containing..| | aligned:1-82 (82)
+MVKLRLKRFGKKRMPSYRIVAINSTTRRDARPLEELGIYNPRTKETRLEVEAIVTRLKQGAQPTDTVRAILEKAKIFDLVGA

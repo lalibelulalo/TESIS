@@ -1,0 +1,4 @@
+>ID:WP_181494847.1 |[Thermosynechococcus elongatus PKUAC-SCTE542]|PKUAC-SCTE542|Thermosynechococcus_elongatus_PKUAC-SCTE542_GCF_003555505.1_genomic.gbff|spore coat protein U..|225|NZ_CP032152(2650294):1984442-1984666:1 ^^ Thermosynechococcus elongatus PKUAC-SCTE542 chromosome, complete genome.|neighbours:ID:WP_181494846.1(-1),ID:WP_181494848.1(-1)|neighbour_genes:MFS transporter,ferredoxin--nitrite ..| | aligned:11-74 (74)
+MPTAPLVPLLIDYNLYIDAARTQIWGDGIGGSSLRTLVPVNNAPTTLEIFGGIPTRQFVPAGIYSDTIVVTLEY
+>ID:WP_206201497.1 |[Thermosynechococcus sp. TA-1]|TA-1|Thermosynechococcus_sp_TA-1_GCF_017086385.1_genomic.gbff|spore coat protein U..|258|NZ_CP070960(2658717):1276246-1276503:-1 ^^ Thermosynechococcus sp. TA-1 chromosome, complete genome.|neighbours:ID:WP_206201496.1(1),ID:WP_206201498.1(1)|neighbour_genes:ferredoxin--nitrite ..,MFS transporter| | aligned:22-85 (85)
+MAPTGNAGRFTPRQMTSGRGRLDYNLYIDAARTQIWGDGTRGSSLRTLVPVNHAPTTLEIFGRIPTRQFVPAGIYSDTIVVTLEY

@@ -1,0 +1,14 @@
+>ID:WP_041549875.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|141|NC_019697(6284095):5195051-5195191:1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015161902.1(1),ID:WP_015161904.1(1)|neighbour_genes:pgsA,aroQ| | aligned:1-45 (46)
+MDYIERVLEKLKHWAGKLIEALLGPEMQPEPELIPIPVDDRIRQRR
+>ID:WP_015220000.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|hypothetical protein|138|NC_019776(4114099):2630793-2630930:1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015219999.1(-1),ID:WP_015220001.1(1)|neighbour_genes:B12-binding domain-c..,aroQ| | aligned:1-45 (45)
+MEQVDKILEKLKEWTQKVIEALFGPESQPEAELIPIPVKDYPRRY
+>ID:WP_015229846.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|hypothetical protein|144|NC_019780(3781008):2255950-2256093:1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_156800767.1(1),ID:WP_015229847.1(1)|neighbour_genes:hypothetical protein,aroQ| | aligned:1-47 (47)
+MEYIEEALEKLKEWSRKLIELLLGPEMEPEAEPIPIPVEERGSGQYR
+>ID:WP_186708859.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|hypothetical protein|144|NZ_CP042326(3326959):2946102-2946245:1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146296888.1(-1),ID:WP_146296889.1(1)|neighbour_genes:PAS domain-containin..,aroQ| | aligned:1-47 (47)
+MEYIEEALEKLKNWARRLIELLGGPEMEPESEPIPVPVEERVSRYYR
+>ID:WP_255358410.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|hypothetical protein|135|NZ_AP014815(3883409):223952-224086:1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_066343207.1(-1),ID:WP_066343210.1(1)|neighbour_genes:PipX family protein,aroQ| | aligned:1-44 (44)
+MDQIEKVIEKLKEWTQRLIEALLGPQSEPEPELIPIPVRDRGQY
+>ID:WP_015224179.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|hypothetical protein|144|NC_019779(4179170):55014-55157:1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015224178.1(-1),ID:WP_015224180.1(1)|neighbour_genes:PAS domain-containin..,aroQ| | aligned:1-47 (47)
+MESIEQALEKLKDWGRKLIELLLGPEMEPEAEPIPVPVEDRVSRYYR
+>ID:WP_015192748.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|hypothetical protein|144|NC_019748(5041209):1691192-1691335:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015192747.1(-1),ID:WP_041619231.1(1)|neighbour_genes:DUF3120 domain-conta..,aroQ| | aligned:1-47 (47)
+MDYLENLLEKLKEWAQKLIEILLGPEAEPEAEPIPVPVNEPHRGRYR

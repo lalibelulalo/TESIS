@@ -1,0 +1,6 @@
+>ID:WP_238376842.1 |[Synechococcus sp. JA-2-3B'a(2-13)]|JA-2-3B'a(2-13)|Synechococcus_sp_JA-2-3Ba_2-13_JA-2-3Ba_2-13_GCF_000013225.1_genomic.gbff|hypothetical protein|216|NC_007776(3046682):212638-212853:1 ^^ Synechococcus sp. JA-2-3B'a(2-13), complete sequence.|neighbours:ID:WP_011431871.1(-1),ID:WP_011431873.1(1)|neighbour_genes:rbfA,DNA photolyase famil..| | aligned:1-66 (71)
+MIKTPEALRRSIEQFMLNVTEPLDPLLSLKLTQLVVMLGDTAYAMGYSDGQQKPEERCRYCPSRVFDSLEL
+>ID:WP_228375432.1 |[Synechococcus sp. JA-3-3Ab]|JA-3-3Ab|Synechococcus_sp_JA-3-3Ab_GCF_000013205.1_genomic.gbff|hypothetical protein|207|NC_007775(2932766):783968-784174:1 ^^ Synechococcus sp. JA-3-3Ab, complete sequence.|neighbours:ID:WP_011429668.1(-1),ID:WP_011429671.1(1)|neighbour_genes:RNA-guided endonucle..,DNA photolyase famil..| | aligned:1-67 (68)
+MSKTPEALRRSVEQFLLNVPEPLDPLLALKLTQLVMRPGDTAYAMGSSDGQRNLDERCCPCPGRLLGE
+>ID:WP_015169389.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|hypothetical protein|231|NC_019702(3510253):2764497-2764727:-1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015169388.1(1),ID:WP_015169390.1(1)|neighbour_genes:hypothetical protein,rbfA| | aligned:7-73 (76)
+MINQTTIKTPEALLRSIEKLYMDMTEPLDPYIALALTNLTTKMVDTIYLMGYQDGQRISSPTCGYCQPGECLGRAL

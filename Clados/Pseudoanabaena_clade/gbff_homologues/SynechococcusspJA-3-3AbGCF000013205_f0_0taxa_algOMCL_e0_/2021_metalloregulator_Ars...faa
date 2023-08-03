@@ -1,0 +1,4 @@
+>ID:WP_126386154.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|metalloregulator Ars..|303|NZ_AP017560(4796642):1761636-1761938:1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126386153.1(-1),ID:WP_126386155.1(-1)|neighbour_genes:alkene reductase,carbonic anhydrase| | aligned:1-96 (100)
+MRQYQHPDRENISLTGVLYALSDPTRLQIVKMLATQEEITCGEFCLEMSKSTQSHHFKVLRDMGIMYTRLEGTQHYNSLRRADLDARFPNLLDAVLNGIN
+>ID:WP_041430085.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|ArsR family transcri..|309|NC_019702(3510253):1917058-1917366:1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015168601.1(1),ID:WP_015168603.1(-1)|neighbour_genes:2OG-Fe(II) oxygenase,hypothetical protein| | aligned:1-98 (102)
+MRKMTFPTLEQISLTSVLYALSDPTRLQIVKSLAEKEEMTCCSFVFKSAIAKSTLSHHFKVLRDAGVILTRAEGTQGINSLRKQDLDQRFPGMLDAILRVTD

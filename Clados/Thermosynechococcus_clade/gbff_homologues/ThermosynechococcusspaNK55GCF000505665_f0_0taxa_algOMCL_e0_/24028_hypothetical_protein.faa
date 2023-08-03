@@ -1,0 +1,4 @@
+>ID:WP_015123942.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|hypothetical protein|294|NC_019680(3697276):1174236-1174529:-1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015123941.1(-1),ID:WP_015123943.1(-1)|neighbour_genes:Calvin cycle protein..,dxs| | aligned:1-97 (97)
+MKYVLTLPMFSIAFLIPSPAIAETYPDEAVQSFITDCTERFATKAPPGFSNRGPTFCTCMIETIQEKMSFQAYQQLGDAPDNPTLKPIEQGCMVRLF
+>ID:WP_015124879.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|hypothetical protein|294|NC_019680(3697276):2172771-2173064:-1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015124878.1(-1),ID:WP_015124880.1(-1)|neighbour_genes:mtnA,isocitrate/isopropyl..| | aligned:1-97 (97)
+MKFLISVPILSIAFFIPGPVLAASYPPASIQKFMVDCTRRFQKQAPPGFGGRGTAFCTCMIEGIQAKMSFKQFQRLASNPNDPALKPIQRGCMFHLF

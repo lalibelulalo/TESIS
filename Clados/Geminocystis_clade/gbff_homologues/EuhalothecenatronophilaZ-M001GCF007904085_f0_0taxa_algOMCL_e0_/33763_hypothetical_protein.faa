@@ -1,0 +1,6 @@
+>ID:WP_015225772.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|hypothetical protein|201|NC_019779(4179170):1891964-1892164:1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015225771.1(1),ID:WP_015225773.1(-1)|neighbour_genes:NAD(P)H-quinone oxid..,TenA family protein| | aligned:6-64 (66)
+MRSPTLTLALVLTILFVAIGDLFLPQPLAKASYRTRNQLNQLFVSLLPQPNVDHLQRNRFEEWEKH
+>ID:WP_015194421.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|hypothetical protein|246|NC_019748(5041209):3683564-3683809:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015194420.1(1),ID:WP_015194422.1(-1)|neighbour_genes:DUF6439 family prote..,ilvC| | aligned:1-81 (81)
+MYIKSFFKLCLVMSLTYVTLGDEFLPQPYSSSSQKVRSEINEFLIGLLPNKEFNTLKNTTQTIQQFEQGEFSSFERRQTLQ
+>ID:WP_096382399.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|246|NZ_AP017375(5319768):1431771-1432016:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096382397.1(1),ID:WP_096382402.1(-1)|neighbour_genes:ketol-acid reductois..,DUF6439 family prote..| | aligned:1-81 (81)
+MYIKSFLKLCLVMSLTYVALGDEFLPQPYSSSSQKVRSEINEFLISLLPNKELDTLKNTTKTIQQFEKGEFSSLERRQSLQ

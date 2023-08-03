@@ -1,0 +1,4 @@
+>ID:WP_213204399.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|240|NZ_CP073761(3180296):907819-908058:1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213204398.1(1),ID:WP_213204400.1(1)|neighbour_genes:DUF433 domain-contai..,hypothetical protein| | aligned:1-78 (79)
+MTLPDQLRSMRQSVDADTGAILFRHPTLQGIPDLVVEGDGYTLEFMGPTLLCLDIIDPGALGRLLAEPIKQQLPVGLGH
+>ID:WP_197153048.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|hypothetical protein|240|NZ_CP060395(3226220):1524039-1524278:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197153046.1(-1),ID:WP_197153050.1(-1)|neighbour_genes:DUF2887 domain-conta..,hypothetical protein| | aligned:1-78 (79)
+MTLPDQLRNMRQSVDPDTGAILFRHPTLQGIPDLVVEADGYTMEFIGPTLLCLDIIDPGALGRLLAEPIKQQLPVGLGD

@@ -1,0 +1,4 @@
+>ID:WP_126385832.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|hypothetical protein|201|NZ_AP017560(4796642):1371005-1371205:1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126385831.1(1),ID:WP_126385833.1(1)|neighbour_genes:UvrD-helicase domain..,CopG family transcri..| | aligned:1-54 (66)
+MEKVINKVSLKQQTSDFQYWQQQTPQKRLEALEQIRQEYHQYKYNAQPRFQRVYAIINLDNLKKIN
+>ID:WP_015169736.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|hypothetical protein|189|NC_019702(3510253):3141620-3141808:1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015169734.1(-1),ID:WP_246828904.1(-1)|neighbour_genes:potassium channel pr..,transposase| | aligned:1-54 (62)
+MEKVITRINIKQQTTDFQYWQQQTPQKRLETLEQIRREYHQYKYNAQPRLQRVYRACFISHE

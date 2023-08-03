@@ -1,0 +1,10 @@
+>ID:WP_015110772.1 |[Cyanobium gracile PCC 6307]|PCC 6307|Cyanobium_gracile_PCC_6307_GCF_000316515.1_genomic.gbff|hypothetical protein|234|NC_019675(3342364):3176646-3176879:1 ^^ Cyanobium gracile PCC 6307, complete sequence.|neighbours:ID:WP_015110771.1(1),ID:WP_245552548.1(-1)|neighbour_genes:secreted hydrolase,MFS transporter| | aligned:1-72 (77)
+MAAADHPGTPSPPSAESGDAAGTAAEHPHNFEVQKEIHRRIRNDPDYDDWEYGTEPLPHEAWVERQAAASGERPAGA
+>ID:WP_157665347.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|hypothetical protein|222|NZ_LT578417(3021545):1157662-1157883:-1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087067648.1(1),ID:WP_087067650.1(-1)|neighbour_genes:MFS transporter,ychF| | aligned:6-73 (73)
+MRQQDPGAPNAPHTPSRPDVPRTAAADHPHNFDVQKELHQQIRNDPDYDDWEYGTEPLPHEAWALRQPPQASA
+>ID:WP_186700887.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|hypothetical protein|222|NZ_CP047940(2748087):1998119-1998340:-1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_225875633.1(1),ID:WP_186697015.1(-1)|neighbour_genes:MFS transporter,ychF| | aligned:1-73 (73)
+MSQTSGPGEAAPEKAQPAGPTPDLPADHPHNFDAQKELHRKIRNDPDYDDWEYGTEPLPHEAWALRQPPETSA
+>ID:WP_197213036.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|hypothetical protein|231|NZ_CP060397(3672318):1651081-1651311:1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197213035.1(-1),ID:WP_197213038.1(-1)|neighbour_genes:hypothetical protein,MFS transporter| | aligned:4-72 (76)
+MTSDESRPSAGTPADPADAGAHHNFDIQKEEHRRIRNDPDYDDWEYGTEPLPHEAWLTAQRASGRKAAASGENASA
+>ID:WP_197153674.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|hypothetical protein|216|NZ_CP060395(3226220):2320808-2321023:1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_231596259.1(1),ID:WP_197153559.1(-1)|neighbour_genes:hypothetical protein,MFS transporter| | aligned:5-70 (71)
+MTDPAQQKPAQTNSPANSPADSLHDFDVQKELHQKIRNDPDYDDWEYGTEPLPHEAWVASQAPKPEPPAAV

@@ -1,0 +1,10 @@
+>ID:WP_213205350.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|high light inducible..|135|NZ_CP073761(3180296):2311033-2311167:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213202940.1(1),ID:WP_213202941.1(-1)|neighbour_genes:type IV pilus twitch..,tsaD| | aligned:1-44 (44)
+MSSSELNAWRRGFTPQAEIWNGRLAMLGLSLGLAVLLISRLSIR
+>ID:WP_186700653.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|high light inducible..|165|NZ_CP047940(2748087):2002368-2002532:-1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186697016.1(-1),ID:WP_186697017.1(-1)|neighbour_genes:wecB,tsaD| | aligned:4-54 (54)
+MKPSEPDHEPVSPTELNAWRRGFTPQAEIWNGRLAMLGLSVGLTVLLLARLAMG
+>ID:WP_197159136.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|chlorophyll a/b-bind..|189|NZ_CP060398(3854122):2264604-2264792:1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197153920.1(1),ID:WP_231597755.1(-1)|neighbour_genes:tsaD,PilT/PilU family typ..| | aligned:1-62 (62)
+MEASLPGGVESETVIEPVGPEELNAWRRGFTPQAEIWNGRLAMLGLSVGLSVLLIARLAAGH
+>ID:WP_197159136.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|chlorophyll a/b-bind..|189|NZ_CP060396(3860130):2215158-2215346:1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197153920.1(1),ID:WP_231597755.1(-1)|neighbour_genes:tsaD,PilT/PilU family typ..| | aligned:1-62 (62)
+MEASLPGGVESETVIEPVGPEELNAWRRGFTPQAEIWNGRLAMLGLSVGLSVLLIARLAAGH
+>ID:WP_197153557.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|high light inducible..|135|NZ_CP060395(3226220):2314010-2314144:1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197148431.1(1),ID:WP_197148436.1(-1)|neighbour_genes:tsaD,PilT/PilU family typ..| | aligned:1-44 (44)
+MPPTELNAWRRGFTPQAEIWNGRLAMVGLSVGLSVLVVARLASR

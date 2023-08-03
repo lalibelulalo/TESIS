@@ -1,0 +1,8 @@
+>ID:WP_126391282.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|molybdopterin-bindin..|210|NZ_AP017564(125503):28914-29123:-1 ^^ Pseudanabaena sp. ABRG5-3 plasmid ABRG53d, complete sequence.|neighbours:ID:WP_126391280.1(-1),ID:WP_126391284.1(-1)|neighbour_genes:modA,TOBE domain-containi..| | aligned:1-69 (69)
+MKVSARNSLKGIVKTVTIGAVNAEISIEISDGVEITSIITKSSAEALGLKEGSEAYAVIKASDVILAID
+>ID:WP_126391284.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|TOBE domain-containi..|210|NZ_AP017564(125503):29221-29430:-1 ^^ Pseudanabaena sp. ABRG5-3 plasmid ABRG53d, complete sequence.|neighbours:ID:WP_126391282.1(-1),ID:WP_126391286.1(-1)|neighbour_genes:molybdopterin-bindin..,methyltransferase do..| | aligned:1-69 (69)
+MKISARNSLKGVVKKLRIGLVSAEVSIEIAAGITITAVITKSSAETLELEEGKEAYVVIKSSDVMVAID
+>ID:WP_011430671.1 |[Synechococcus sp. JA-2-3B'a(2-13)]|JA-2-3B'a(2-13)|Synechococcus_sp_JA-2-3Ba_2-13_JA-2-3Ba_2-13_GCF_000013225.1_genomic.gbff|molybdopterin-bindin..|210|NC_007776(3046682):415575-415784:1 ^^ Synechococcus sp. JA-2-3B'a(2-13), complete sequence.|neighbours:ID:WP_041436131.1(-1),ID:WP_011432065.1(-1)|neighbour_genes:modA,helix-turn-helix dom..| | aligned:1-69 (69)
+MQISTRNFFKGTVKSFQVGMVNAEIVLEVAPGIEITAIISKHSAERLGIAVGKEAYAAIKASDVVIAVD
+>ID:WP_011430671.1 |[Synechococcus sp. JA-3-3Ab]|JA-3-3Ab|Synechococcus_sp_JA-3-3Ab_GCF_000013205.1_genomic.gbff|molybdopterin-bindin..|210|NC_007775(2932766):1844018-1844227:-1 ^^ Synechococcus sp. JA-3-3Ab, complete sequence.|neighbours:ID:WP_011430670.1(1),ID:WP_049749762.1(1)|neighbour_genes:helix-turn-helix dom..,modA| | aligned:1-69 (69)
+MQISTRNFFKGTVKSFQVGMVNAEIVLEVAPGIEITAIISKHSAERLGIAVGKEAYAAIKASDVVIAVD

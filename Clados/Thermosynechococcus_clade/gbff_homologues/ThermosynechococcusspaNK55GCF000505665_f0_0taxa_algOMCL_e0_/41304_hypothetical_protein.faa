@@ -1,0 +1,16 @@
+>ID:WP_015126160.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|hypothetical protein|159|NC_019680(3697276):3532425-3532583:-1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015126159.1(1),ID:WP_015126161.1(-1)|neighbour_genes:HD domain-containing..,petN| | aligned:1-51 (52)
+METSVVNVLILVALGLLLAITGGISYLTFAEWRDRRRLDQEQKEQRVKGKRK
+>ID:WP_099798331.1 |[Thermostichus lividus PCC 6715]|PCC 6715|Thermostichus_lividus_PCC_6715_GCF_002754935.1_genomic.gbff|hypothetical protein|162|NZ_CP018092(2659739):737256-737417:-1 ^^ Thermostichus lividus PCC 6715 chromosome, complete genome.|neighbours:ID:WP_227517554.1(-1),ID:WP_099798332.1(-1)|neighbour_genes:argS,cytochrome b6-f comp..| | aligned:3-53 (53)
+MDLSVSLADVFVLIALLLLIVVSGGIGYLTYAEWRDRRRYRAEQQEQRRGRKR
+>ID:WP_181496321.1 |[Thermosynechococcus elongatus PKUAC-SCTE542]|PKUAC-SCTE542|Thermosynechococcus_elongatus_PKUAC-SCTE542_GCF_003555505.1_genomic.gbff|hypothetical protein|156|NZ_CP032152(2650294):772424-772579:-1 ^^ Thermosynechococcus elongatus PKUAC-SCTE542 chromosome, complete genome.|neighbours:ID:WP_181496320.1(-1),ID:WP_011056671.1(-1)|neighbour_genes:argS,petN| | aligned:1-51 (51)
+MSVSLADLPVLVALLLLIVVTGGIGYLTFAEWRDRRRLQAEQKEQRRGRKR
+>ID:WP_149817663.1 |[Thermosynechococcus sp. CL-1]|CL-1|Thermosynechococcus_sp_CL-1_GCF_008386235.1_genomic.gbff|hypothetical protein|156|NZ_CP040671(2647823):376101-376256:1 ^^ Thermosynechococcus sp. CL-1 chromosome, complete genome.|neighbours:ID:WP_011056671.1(1),ID:WP_149817665.1(1)|neighbour_genes:petN,argS| | aligned:1-51 (51)
+MTVSLADLLVLVALLLLIVVTGGIGYLTFAEWRDRRRLQAEQKEQRRGRKR
+>ID:WP_250682156.1 |[Thermosynechococcus sp. HN-54]|HN-54|Thermosynechococcus_sp_HN-54_GCF_023650955.1_genomic.gbff|hypothetical protein|156|NZ_CP098039(2705963):2302371-2302526:1 ^^ Thermosynechococcus sp. HN-54 chromosome, complete genome.|neighbours:ID:WP_011056671.1(1),ID:WP_250682157.1(1)|neighbour_genes:petN,argS| | aligned:1-51 (51)
+MTVSLADLLVLVALLLLILVTGGIGYLTFAEWRDRRRLQAEQKEQRRGRKR
+>ID:WP_206201408.1 |[Thermosynechococcus sp. TA-1]|TA-1|Thermosynechococcus_sp_TA-1_GCF_017086385.1_genomic.gbff|hypothetical protein|156|NZ_CP070960(2658717):1159196-1159351:-1 ^^ Thermosynechococcus sp. TA-1 chromosome, complete genome.|neighbours:ID:WP_206201407.1(-1),ID:WP_011056671.1(-1)|neighbour_genes:argS,petN| | aligned:1-51 (51)
+MTVSLADLLVLVALLLLIVVTGGIGYLTFAEWRDRRRLQAEQKEQQRGRKR
+>ID:WP_024125756.1 |[Thermosynechococcus sp. NK55a]|NK55|Thermosynechococcus_sp_a_NK55_GCF_000505665.1_genomic.gbff|hypothetical protein|156|NC_023033(2520064):2248488-2248643:-1 ^^ Thermosynechococcus sp. NK55a, complete sequence.|neighbours:ID:WP_024125755.1(-1),ID:WP_011056671.1(-1)|neighbour_genes:argS,petN| | aligned:1-51 (51)
+MTTSLADLLILVALLLLIVVTGGIGYLTFAEWRDRRRLQAEQKEQRRGRKR
+>ID:WP_011056670.1 |[Thermosynechococcus vestitus BP-1]|BP-1|Thermosynechococcus_vestitus_BP-1_GCF_000011345.1_genomic.gbff|hypothetical protein|156|NC_004113(2593857):852448-852603:-1 ^^ Thermosynechococcus vestitus BP-1, complete sequence.|neighbours:ID:WP_011056669.1(-1),ID:WP_011056671.1(-1)|neighbour_genes:argS,petN| | aligned:1-51 (51)
+MTTALADLLALVALLLLIVVTGGIGYLTFAEWRDRRRLQAEQKEQRRGRKR

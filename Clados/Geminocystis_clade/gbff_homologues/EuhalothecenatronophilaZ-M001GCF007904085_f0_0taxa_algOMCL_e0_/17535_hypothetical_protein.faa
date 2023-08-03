@@ -1,0 +1,6 @@
+>ID:WP_146297633.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|hypothetical protein|249|NZ_CP042329(44260):16306-16554:-1 ^^ Euhalothece natronophila Z-M001 plasmid pEu3, complete sequence.|neighbours:ID:WP_146297631.1(-1),ID:WP_146297635.1(-1)|neighbour_genes:type II toxin-antito..,transcriptional regu..| | aligned:1-80 (82)
+MKVKGIKRGKFIELLEDIAIEDGVEVSVEFVDTVSDKTEQWEKLQEVIGEWKDDQEITDIFAQIDQERHADIGRPVNFDDHF
+>ID:WP_015195477.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|hypothetical protein|258|NC_019748(5041209):4886632-4886889:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015195476.1(-1),ID:WP_015195478.1(1)|neighbour_genes:tellurite resistance..,type II toxin-antito..| | aligned:1-83 (85)
+MKVKGIIRNNSIELLENISIAEGTEVTIEITESSLINRDSQWQQLQKVIGSWKDNLEIDVIFNEIDQERHKYHGRDLNFEDFEVS
+>ID:WP_096383562.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|252|NZ_AP017375(5319768):1900505-1900756:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096383558.1(-1),ID:WP_096383565.1(1)|neighbour_genes:type II toxin-antito..,hypothetical protein| | aligned:1-83 (83)
+MKVKGIIRDNSIELLENISIAEGTEVTIEITESSLINRDSQWQQLQKVIGSWKDNSEIDVIFNEIDEERHKYQGRDINFEDFE

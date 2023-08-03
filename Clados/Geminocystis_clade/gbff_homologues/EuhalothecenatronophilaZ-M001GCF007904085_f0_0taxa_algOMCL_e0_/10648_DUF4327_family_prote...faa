@@ -1,0 +1,6 @@
+>ID:WP_015218041.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|DUF4327 family prote..|219|NC_019776(4114099):185372-185590:-1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015218040.1(-1),ID:WP_015218042.1(1)|neighbour_genes:hypothetical protein,lipid kinase| | aligned:1-72 (72)
+MSVKTIYSVGIIKQKAKELVSKGLISRQQPIYTLCNFIPAGEWHTIEIELEFNGYLLRDHIIDLIQPETWED
+>ID:WP_017295050.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|DUF4327 family prote..|222|NZ_CM001775(4263418):2780166-2780387:-1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017295049.1(1),ID:WP_017295051.1(1)|neighbour_genes:hypothetical protein,lipid kinase| | aligned:1-73 (73)
+MNLQLNYSINSLKEEVRQLIKKGLLGRQQPIYTICNFIPAREWHKIEIELELNGYLLRDHLIDLIQPERWDNN
+>ID:WP_066117910.1 |[Geminocystis sp. NIES-3709]|NIES-3709|Geminocystis_sp_NIES-3709_GCF_001548115.1_genomic.gbff|DUF4327 family prote..|222|NZ_AP014821(4150181):1720380-1720601:-1 ^^ Geminocystis sp. NIES-3709 chromosome, complete genome.|neighbours:ID:WP_066117907.1(1),ID:WP_066117912.1(1)|neighbour_genes:LysR substrate-bindi..,lipid kinase| | aligned:1-73 (73)
+MNIQLNYSINSLKQKVRQLVKKGLLSRQQPIYTICNFIPAREWHKIEIELELNGYLLRDHLIDLMQPEKWDNN

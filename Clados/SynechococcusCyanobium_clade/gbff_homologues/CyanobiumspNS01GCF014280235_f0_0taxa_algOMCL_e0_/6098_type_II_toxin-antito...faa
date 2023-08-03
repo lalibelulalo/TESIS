@@ -1,0 +1,4 @@
+>ID:WP_213205391.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|type II toxin-antito..|252|NZ_CP073761(3180296):2800695-2800946:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213203377.1(-1),ID:WP_213203378.1(-1)|neighbour_genes:type II toxin-antito..,bifunctional 4-hydro..| | aligned:1-83 (83)
+MSGSPRQVSKSHFKAHALELFRQVEASGEPLVVTDHGRPSIEVRPYRPAGYSDTDPLELLRGSVLRFDEPFESVGENDWEALA
+>ID:WP_231596180.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|type II toxin-antito..|273|NZ_CP060395(3226220):1799488-1799760:1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197147929.1(-1),ID:WP_197147930.1(1)|neighbour_genes:hypothetical protein,type II toxin-antito..| | aligned:9-90 (90)
+MVLPSAPLLPGSPRQVSKSRFKAQALELFRQVEASGEPLVVTDHGRPTLEVRPYRPARLDADPLQELRGSVLRFDDPFAPVGENDWEALA

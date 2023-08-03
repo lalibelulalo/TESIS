@@ -1,0 +1,6 @@
+>ID:WP_041235477.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|type II toxin-antito..|219|NC_019780(3781008):2519681-2519899:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015230068.1(-1),ID:WP_015230069.1(1)|neighbour_genes:type II toxin-antito..,AarF/ABC1/UbiB kinas..| | aligned:1-71 (72)
+MKYKGYEAVIEYDEEDRLFFGRVINIEDVIVFDGLSVDELEQSFQQVIDEYLADNQARDKKPNRSFSNQVNG
+>ID:WP_017294457.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|hypothetical protein|207|NZ_CM001775(4263418):2167434-2167640:-1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017294456.1(1),ID:WP_017294458.1(-1)|neighbour_genes:cupin domain-contain..,DUF309 domain-contai..| | aligned:1-68 (68)
+MKYKGYEAVIEYDEFERIFVGRVINIKDIIMFDGISVDELQQSFHNVIDEYLEDCQKLNKIPNQPSKN
+>ID:WP_015227705.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|type II toxin-antito..|216|NC_019779(4179170):4023089-4023304:1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015227704.1(1),ID:WP_235620725.1(-1)|neighbour_genes:type II toxin-antito..,glycosyltransferase ..| | aligned:1-71 (71)
+MIYKGYEAVIEYDEEDQILVGRVINTKDIIVFDGLSVDEIKQSFHQVIDEYLADCQQFNKTPSQMTSNQLT

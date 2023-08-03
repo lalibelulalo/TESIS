@@ -1,0 +1,4 @@
+>ID:WP_197171506.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|hypothetical protein|207|NZ_CP060398(3854122):1388009-1388215:-1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197157519.1(1),ID:WP_197171508.1(-1)|neighbour_genes:aspartate kinase,uvrB| | aligned:1-68 (68)
+MPSPAELMLSLMLGFVGMAYVLYGRKQDALVPLVSGILLMIVPFFLPGVLPQLIVGLLLIALPFLVQR
+>ID:WP_197157517.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|hypothetical protein|207|NZ_CP060396(3860130):746832-747038:1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197157516.1(1),ID:WP_197157519.1(-1)|neighbour_genes:uvrB,aspartate kinase| | aligned:1-68 (68)
+MPSPAELMFSLMLGFVGMAFVLYGRKQDALVPLVSGILLMIVPFFLPGVLPQLIVGLLLIALPFLVRR

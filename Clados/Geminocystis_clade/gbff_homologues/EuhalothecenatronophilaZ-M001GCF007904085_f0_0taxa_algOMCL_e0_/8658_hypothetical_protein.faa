@@ -1,0 +1,12 @@
+>ID:WP_096720311.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|hypothetical protein|123|NZ_AP018281(4516676):2376318-2376440:1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096720309.1(1),ID:WP_096720313.1(1)|neighbour_genes:cation:proton antipo..,MBL fold metallo-hyd..| | aligned:1-40 (40)
+MDVKLILLIFTAVFTVACLFFGTKGGYYDTDKYDGNGSAH
+>ID:WP_017296219.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|hypothetical protein|141|NZ_CM001775(4263418):3986287-3986427:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017296218.1(1),ID:WP_017296220.1(1)|neighbour_genes:hypothetical protein,MBL fold metallo-hyd..| | aligned:7-46 (46)
+MEQLSPMDVKMLIVILTGLFIVSALFFGTKNGYYDTDDYDGNGSAH
+>ID:WP_255358403.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|hypothetical protein|123|NZ_AP014815(3883409):3464671-3464793:1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_066348703.1(1),ID:WP_066348706.1(1)|neighbour_genes:ParA family protein,MBL fold metallo-hyd..| | aligned:1-40 (40)
+MDVKMLIVILTGLFIVSALFFGTRNGFYDSDDYDGNGSAH
+>ID:WP_255359679.1 |[Geminocystis sp. NIES-3709]|NIES-3709|Geminocystis_sp_NIES-3709_GCF_001548115.1_genomic.gbff|hypothetical protein|123|NZ_AP014821(4150181):396463-396585:-1 ^^ Geminocystis sp. NIES-3709 chromosome, complete genome.|neighbours:ID:WP_066115654.1(-1),ID:WP_066115656.1(-1)|neighbour_genes:MBL fold metallo-hyd..,alpha/beta hydrolase| | aligned:1-40 (40)
+MDVKILIVILTGLFIVSALFFGTRNGFYDTDDYDGNGSAH
+>ID:WP_015224866.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|hypothetical protein|123|NC_019779(4179170):854661-854783:1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015224865.1(-1),ID:WP_041596139.1(1)|neighbour_genes:YihY/virulence facto..,MBL fold metallo-hyd..| | aligned:1-40 (40)
+MDVKLILLVLSGLFIVSCLFFGTKNGFYDSEDYHGNGSAH
+>ID:WP_096386067.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|123|NZ_AP017375(5319768):4555049-4555171:1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096386064.1(1),ID:WP_096386069.1(1)|neighbour_genes:cation:proton antipo..,MBL fold metallo-hyd..| | aligned:1-40 (40)
+MDVKLLMVVLAGLFIVASLFFGTKNGFYDSDNYDGNGTAH

@@ -1,0 +1,8 @@
+>ID:WP_015219657.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|hypothetical protein|153|NC_019776(4114099):2190595-2190747:1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015219656.1(1),ID:WP_015219658.1(1)|neighbour_genes:hypothetical protein,dacB| | aligned:1-50 (50)
+MISQKTLENARQAHRTNLIKSLERRIEVAKAKGQIALVEQLEAEKLYYLK
+>ID:WP_017292405.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|hypothetical protein|153|NZ_CM001775(4263418):39598-39750:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017292404.1(1),ID:WP_017292406.1(1)|neighbour_genes:hypothetical protein,gpmI| | aligned:1-50 (50)
+MINPKTVESARQAHRNSLLETLERRLEVAKSKGQTALVNQLEAEKRYYLK
+>ID:WP_173644987.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|hypothetical protein|153|NZ_AP014815(3883409):507061-507213:1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_255358411.1(1),ID:WP_066343767.1(-1)|neighbour_genes:hypothetical protein,mutT| | aligned:1-50 (50)
+MINQKTVESARKAHRNTLLQTLEHRLEVAKSKGQTALVAQLEAEKSYYLK
+>ID:WP_173645726.1 |[Geminocystis sp. NIES-3709]|NIES-3709|Geminocystis_sp_NIES-3709_GCF_001548115.1_genomic.gbff|hypothetical protein|153|NZ_AP014821(4150181):3402582-3402734:1 ^^ Geminocystis sp. NIES-3709 chromosome, complete genome.|neighbours:ID:WP_173645725.1(1),ID:WP_066120662.1(1)|neighbour_genes:hypothetical protein,ilvC| | aligned:1-50 (50)
+MISQKTIENARQAHRTALLETLERRLEVAKSKGQSALVDQLEAEKHYYTK

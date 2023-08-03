@@ -1,0 +1,24 @@
+>ID:WP_010468797.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|rpmH|138|NC_009925(6503724):3123852-3123989:-1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012163518.1(-1),ID:WP_012163519.1(1)|neighbour_genes:rnpA,dnaA| | aligned:1-45 (45)
+MTKRTLGGTCRKRKRTSGFRARMRSQSGQNVISSRRRKGRKRLSV
+>ID:WP_212663768.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|rpmH|138|NZ_CP064923(5881945):5722380-5722517:-1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212663767.1(-1),ID:WP_212663769.1(1)|neighbour_genes:rnpA,dnaA| | aligned:1-45 (45)
+MTKRTLGGTCRKRKRTSGFRARMRSQSGQNVIGSRRRKGRKRLSV
+>ID:WP_212663768.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|rpmH|138|NZ_CP071717(5699248):2714565-2714702:-1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_212663767.1(-1),ID:WP_212663769.1(1)|neighbour_genes:rnpA,dnaA| | aligned:1-45 (45)
+MTKRTLGGTCRKRKRTSGFRARMRSQSGQNVIGSRRRKGRKRLSV
+>ID:WP_071454003.1 |[Gloeomargarita lithophora Alchichica-D10]|D10|Gloeomargarita_lithophora_Alchichica-_D10_GCF_001870225.1_genomic.gbff|rpmH|141|NZ_CP017675(3049282):1126313-1126453:-1 ^^ Gloeomargarita lithophora Alchichica-D10 chromosome.|neighbours:ID:WP_071454002.1(-1),ID:WP_084111494.1(1)|neighbour_genes:rnpA,dnaA| | aligned:1-45 (46)
+MTKRTLEGTSRKRLRRSGFRARMATPGGRRVLQARRTKGRKRLALV
+>ID:WP_015126310.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|rpmH|138|NC_019680(3697276):3697122-3697259:-1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015126309.1(-1),end()|neighbour_genes:rnpA,end()| | aligned:1-45 (45)
+MTKRTLGGTVRKRKRTSGFRARMRTHTGQQVLKARRRKGRARLAV
+>ID:WP_099799755.1 |[Thermostichus lividus PCC 6715]|PCC 6715|Thermostichus_lividus_PCC_6715_GCF_002754935.1_genomic.gbff|rpmH|138|NZ_CP018092(2659739):2659594-2659731:-1 ^^ Thermostichus lividus PCC 6715 chromosome, complete genome.|neighbours:ID:WP_099799754.1(-1),end()|neighbour_genes:rnpA,end()| | aligned:1-45 (45)
+MTQRTLGGTVRKRKRTSGFRARMRTKSGQNVIKARRRKGRARLAV
+>ID:WP_181496580.1 |[Thermosynechococcus elongatus PKUAC-SCTE542]|PKUAC-SCTE542|Thermosynechococcus_elongatus_PKUAC-SCTE542_GCF_003555505.1_genomic.gbff|rpmH|138|NZ_CP032152(2650294):1066025-1066162:-1 ^^ Thermosynechococcus elongatus PKUAC-SCTE542 chromosome, complete genome.|neighbours:ID:WP_233838684.1(-1),ID:WP_181496581.1(1)|neighbour_genes:PH domain-containing..,dnaA| | aligned:1-45 (45)
+MTQRTLGGTVRKRKRTSGFRARMRTKSGQKVIKARRRKGRARLTV
+>ID:WP_099799755.1 |[Thermosynechococcus sp. CL-1]|CL-1|Thermosynechococcus_sp_CL-1_GCF_008386235.1_genomic.gbff|rpmH|138|NZ_CP040671(2647823):2647507-2647644:-1 ^^ Thermosynechococcus sp. CL-1 chromosome, complete genome.|neighbours:ID:WP_225901724.1(-1),end()|neighbour_genes:PH domain-containing..,end()| | aligned:1-45 (45)
+MTQRTLGGTVRKRKRTSGFRARMRTKSGQNVIKARRRKGRARLAV
+>ID:WP_011056450.1 |[Thermosynechococcus sp. HN-54]|HN-54|Thermosynechococcus_sp_HN-54_GCF_023650955.1_genomic.gbff|rpmH|138|NZ_CP098039(2705963):2705646-2705783:-1 ^^ Thermosynechococcus sp. HN-54 chromosome, complete genome.|neighbours:ID:WP_250683746.1(-1),end()|neighbour_genes:PH domain-containing..,end()| | aligned:1-45 (45)
+MTQRTLGGTVRKRKRTSGFRARMRTKSGQNVIKARRRKGRARLTV
+>ID:WP_099799755.1 |[Thermosynechococcus sp. TA-1]|TA-1|Thermosynechococcus_sp_TA-1_GCF_017086385.1_genomic.gbff|rpmH|138|NZ_CP070960(2658717):2658401-2658538:-1 ^^ Thermosynechococcus sp. TA-1 chromosome, complete genome.|neighbours:ID:WP_225901724.1(-1),end()|neighbour_genes:PH domain-containing..,end()| | aligned:1-45 (45)
+MTQRTLGGTVRKRKRTSGFRARMRTKSGQNVIKARRRKGRARLAV
+>ID:WP_011056450.1 |[Thermosynechococcus sp. NK55a]|NK55|Thermosynechococcus_sp_a_NK55_GCF_000505665.1_genomic.gbff|rpmH|138|NC_023033(2520064):2519747-2519884:-1 ^^ Thermosynechococcus sp. NK55a, complete sequence.|neighbours:ID:WP_041429969.1(-1),end()|neighbour_genes:PH domain-containing..,end()| | aligned:1-45 (45)
+MTQRTLGGTVRKRKRTSGFRARMRTKSGQNVIKARRRKGRARLTV
+>ID:WP_011056450.1 |[Thermosynechococcus vestitus BP-1]|BP-1|Thermosynechococcus_vestitus_BP-1_GCF_000011345.1_genomic.gbff|rpmH|138|NC_004113(2593857):609672-609809:-1 ^^ Thermosynechococcus vestitus BP-1, complete sequence.|neighbours:ID:WP_231833855.1(-1),ID:WP_011056451.1(1)|neighbour_genes:PH domain-containing..,dnaA| | aligned:1-45 (45)
+MTQRTLGGTVRKRKRTSGFRARMRTKSGQNVIKARRRKGRARLTV

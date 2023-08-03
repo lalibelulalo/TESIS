@@ -1,0 +1,6 @@
+>ID:WP_126385913.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|hypothetical protein|276|NZ_AP017560(4796642):1454227-1454502:1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126385912.1(1),ID:WP_126385914.1(1)|neighbour_genes:hypothetical protein,clan AA aspartic pro..| | aligned:1-91 (91)
+MAIHQPRYSKEEFAKRGDLIYQTQIRPQVEAGNHGKIVAIDIETGDFEVANSPMLAVDRLYERNPDAQPWVIRIGHRAVFRFGSRSLRKPV
+>ID:WP_126388483.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|hypothetical protein|276|NZ_AP017560(4796642):3916604-3916879:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126388481.1(-1),ID:WP_126388485.1(-1)|neighbour_genes:clan AA aspartic pro..,hypothetical protein| | aligned:1-91 (91)
+MAVRQPRYSKEEFAQRGDLIYQTQIRPQVEADNHGKIVAIDIETGAFEIANDTMTATRRLRERLPDSQTWVVRIGYRAVHRFGARSLKEKL
+>ID:WP_017324074.1 |[Synechococcus sp. PCC 7336]|PCC 7336|Synechococcus_sp_PCC_7336_GCF_000332275.1_genomic.gbff|hypothetical protein|276|NZ_CM001776(5066637):222358-222633:1 ^^ Synechococcus sp. PCC 7336 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017324073.1(1),ID:WP_227498577.1(1)|neighbour_genes:rsfS,hypothetical protein| | aligned:1-91 (91)
+MTARQPRYSKEEFARRGDEIYETQVRSQVEAGNHGRIVAIDIETGDFEVADDILPATNRLFERLPNAQPWIVRIGHRAVHRVGSRGLKQSV

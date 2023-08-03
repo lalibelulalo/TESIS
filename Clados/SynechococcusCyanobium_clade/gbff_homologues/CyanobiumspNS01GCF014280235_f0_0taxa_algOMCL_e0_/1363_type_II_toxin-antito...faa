@@ -1,0 +1,6 @@
+>ID:WP_245552622.1 |[Cyanobium gracile PCC 6307]|PCC 6307|Cyanobium_gracile_PCC_6307_GCF_000316515.1_genomic.gbff|type II toxin-antito..|237|NC_019675(3342364):1425256-1425492:-1 ^^ Cyanobium gracile PCC 6307, complete sequence.|neighbours:ID:WP_015109040.1(-1),ID:WP_043326725.1(1)|neighbour_genes:hypothetical protein,serS| | aligned:1-77 (78)
+MAEAKAQLSALLEAVEMGDEVVITRRGQPVARLVREIPAPVEEAPTPWLERLRRFHDHQAPFPGDAVALVGELRRDRG
+>ID:WP_213203143.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|type II toxin-antito..|252|NZ_CP073761(3180296):2535374-2535625:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213203142.1(-1),ID:WP_213203144.1(-1)|neighbour_genes:type II toxin-antito..,hypothetical protein| | aligned:1-82 (83)
+MRSVGLAQAKAQLSALLDAVESGDEVVITRRGQPVARLVRENAAAPQAGGQSWPERLRLFHTNQPPFAGDAVALVRELREERE
+>ID:WP_197153097.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|type II toxin-antito..|249|NZ_CP060395(3226220):1546761-1547009:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197153095.1(-1),ID:WP_197153099.1(-1)|neighbour_genes:type II toxin-antito..,secA| | aligned:1-81 (82)
+MKTVGLAEAKAQLSALLDAVEAGDEVVITRRGQVVARLVRDHGYAREPGASAWVQRLRRLHAEAPPMEASAVELVRELRDEP

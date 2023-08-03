@@ -1,0 +1,6 @@
+>ID:WP_255376842.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|type II toxin-antito..|246|NZ_LT578417(3021545):876712-876957:-1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087067421.1(1),ID:WP_157665331.1(1)|neighbour_genes:AAA family ATPase,hypothetical protein| | aligned:1-81 (81)
+MHEAKTHLSRLVEEAAAGEAFVICKAGRPMVRVTALDDAGSAPPPRRRLGLLQGQCQVPDDFDRMAAAEMADLFEGLEQRG
+>ID:WP_231605292.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|type II toxin-antito..|201|NZ_CP060396(3860130):3243871-3244071:1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197155691.1(-1),ID:WP_197155695.1(1)|neighbour_genes:hypothetical protein,IS5 family transposa..| | aligned:1-66 (66)
+MHDDKTHRSRLVEDAAAGEAFVIGMAGRPMVRRLGLLGDQCSVPDDFDQMAAGDIAALFEGAGQGG
+>ID:WP_197148320.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|type II toxin-antito..|249|NZ_CP060395(3226220):2242096-2242344:1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197148318.1(1),ID:WP_197148321.1(1)|neighbour_genes:glycosyltransferase ..,type II toxin-antito..| | aligned:6-82 (82)
+MRQVNMHEAKTHLSRLVEEAAAGESFVICKAGRPMVRVTPLNEAGAAAAPLRRLGLLAGQCQVPDDFDQLAAAEIADLFEGA

@@ -1,0 +1,16 @@
+>ID:WP_015109629.1 |[Cyanobium gracile PCC 6307]|PCC 6307|Cyanobium_gracile_PCC_6307_GCF_000316515.1_genomic.gbff|psbH|201|NC_019675(3342364):1991231-1991431:-1 ^^ Cyanobium gracile PCC 6307, complete sequence.|neighbours:ID:WP_015109628.1(-1),ID:WP_015109630.1(1)|neighbour_genes:TatA/E family twin a..,psbN| | aligned:1-66 (66)
+MAQRTRLGNLLRPLNSEYGKVVPGWGTTPVMGVFMLLFLVFLLVILQLYNKSLLLEGINVNWNGVG
+>ID:WP_087068148.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|psbH|201|NZ_CP073761(3180296):2884222-2884422:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213203422.1(-1),ID:WP_213203423.1(1)|neighbour_genes:TatA/E family twin a..,psbN| | aligned:1-66 (66)
+MAQRTRLGDLLRPLNSEYGKVVPGWGTTPVMGIFMLLFLVFLLVILQLYNQSLLLEGINVNWNGAG
+>ID:WP_087068148.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|psbH|201|NZ_LT578417(3021545):1751644-1751844:-1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087068147.1(-1),ID:WP_006909586.1(1)|neighbour_genes:TatA/E family twin a..,psbN| | aligned:1-66 (66)
+MAQRTRLGDLLRPLNSEYGKVVPGWGTTPVMGIFMLLFLVFLLVILQLYNQSLLLEGINVNWNGAG
+>ID:WP_186697382.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|psbH|201|NZ_CP047940(2748087):2416731-2416931:-1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186697381.1(-1),ID:WP_186697383.1(1)|neighbour_genes:TatA/E family twin a..,psbN| | aligned:1-66 (66)
+MAQRTPLGDLLRPLNSEYGKVVPGWGTTPVMGIFMALFLVFLLVILQLYNQSLLLEGINVNWNGAG
+>ID:WP_197157324.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|psbH|201|NZ_CP060398(3854122):1627641-1627841:1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197157326.1(-1),ID:WP_197157322.1(1)|neighbour_genes:psbN,TatA/E family twin a..| | aligned:1-66 (66)
+MAQRTPLGNLLRPLNSEYGKVVPGWGTTPVMGVFMLLFLVFLLVILQLYNKSLLLEGITVNWNGVG
+>ID:WP_197210935.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|psbH|201|NZ_CP060397(3672318):2953943-2954143:-1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197210934.1(-1),ID:WP_197210936.1(1)|neighbour_genes:TatA/E family twin a..,psbN| | aligned:1-66 (66)
+MAQRTRLGDILRPLNSEYGKVVPGWGTTPVMGVFMALFLVFLLVILQLYNKSLLLEGINVNWNGIG
+>ID:WP_197157324.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|psbH|201|NZ_CP060396(3860130):593090-593290:-1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197157322.1(-1),ID:WP_197157326.1(1)|neighbour_genes:TatA/E family twin a..,psbN| | aligned:1-66 (66)
+MAQRTPLGNLLRPLNSEYGKVVPGWGTTPVMGVFMLLFLVFLLVILQLYNKSLLLEGITVNWNGVG
+>ID:WP_190388692.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|psbH|201|NZ_CP060395(3226220):1758545-1758745:1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197147890.1(-1),ID:WP_231596173.1(1)|neighbour_genes:psbN,TatA/E family twin a..| | aligned:1-66 (66)
+MAQRTRLGDILRPLNSEYGKVVPGWGTTPVMGIFMVLFLVFLLVILQLYNKSLLLEGITVNWNGLG

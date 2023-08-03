@@ -1,0 +1,6 @@
+>ID:WP_012161401.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|DUF3134 family prote..|216|NC_009925(6503724):753121-753336:1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_041658936.1(-1),ID:WP_063710509.1(-1)|neighbour_genes:modA,NUDIX hydrolase| | aligned:1-71 (71)
+MYNPSLTEENRNQVSPVIAPRKNTSLYDWLEENGRFRKNDNSDFDWSTDDEELLSEYSSSNEEASYVPKAA
+>ID:WP_212662174.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|DUF3134 family prote..|228|NZ_CP064923(5881945):3637259-3637486:1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212662173.1(-1),ID:WP_212662175.1(-1)|neighbour_genes:modA,NUDIX hydrolase| | aligned:1-75 (75)
+MYNPSLTEENRNQVSPVIAPRKNTSLYNWLEENGRFRQNDESDFDWSTDDEELLSEYSNNNSNSNNDESYTPMAA
+>ID:WP_212662174.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|DUF3134 family prote..|228|NZ_CP071717(5699248):656692-656919:1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235109033.1(-1),ID:WP_235109034.1(-1)|neighbour_genes:modA,NUDIX domain-contain..| | aligned:1-75 (75)
+MYNPSLTEENRNQVSPVIAPRKNTSLYNWLEENGRFRQNDESDFDWSTDDEELLSEYSNNNSNSNNDESYTPMAA

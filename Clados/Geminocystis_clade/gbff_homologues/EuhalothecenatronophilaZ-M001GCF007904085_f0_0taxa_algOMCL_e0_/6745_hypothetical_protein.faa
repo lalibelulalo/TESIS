@@ -1,0 +1,6 @@
+>ID:WP_096717131.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|hypothetical protein|225|NZ_AP018281(4516676):66076-66300:1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096717129.1(1),ID:WP_096717133.1(-1)|neighbour_genes:egtD,hypothetical protein| | aligned:1-67 (74)
+MATNISNTWWENYRNTVEFTKSFRELVSLVDDREDVARNMINWEKSRHPGKAEIWYAKKLIKELKNQRLASIIY
+>ID:WP_041619480.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|hypothetical protein|207|NC_019748(5041209):3564858-3565064:-1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015194316.1(1),ID:WP_041619482.1(1)|neighbour_genes:DEAD/DEAH box helica..,hypothetical protein| | aligned:1-68 (68)
+MNTNTSKSWWQQYREAVRRSRLHQELLMLLHGQQDQAQRLINLEKSKNPGHLETWYLNKVIYDLRKEA
+>ID:WP_096385554.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|207|NZ_AP017375(5319768):4159130-4159336:1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096385553.1(-1),ID:WP_096385556.1(-1)|neighbour_genes:hypothetical protein,DEAD/DEAH box helica..| | aligned:1-68 (68)
+MNTNTSKSWWQQYREAVRRSRLYQELLMLLHGQQDTAQRLINFEKSKNPGHLESWYLDKVIYDLRKEA

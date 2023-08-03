@@ -1,0 +1,4 @@
+>ID:WP_096724234.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|hypothetical protein|225|NZ_AP018283(123154):1104-1328:1 ^^ Chondrocystis sp. NIES-4102 plasmid plasmid2 DNA, complete genome.|neighbours:start(),ID:WP_096724236.1(1)|neighbour_genes:start(),antirestriction prot..| | aligned:1-74 (74)
+MTKHIIALLENLVTEGFETEIKDDQCFKLRGTYQGYPLVICSDHRRQEIWFISRTFPGIAELKYSYERFYLKFC
+>ID:WP_096724234.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|hypothetical protein|225|NZ_AP018283(123154):121827-122051:-1 ^^ Chondrocystis sp. NIES-4102 plasmid plasmid2 DNA, complete genome.|neighbours:ID:WP_096724236.1(-1),end()|neighbour_genes:antirestriction prot..,end()| | aligned:1-74 (74)
+MTKHIIALLENLVTEGFETEIKDDQCFKLRGTYQGYPLVICSDHRRQEIWFISRTFPGIAELKYSYERFYLKFC

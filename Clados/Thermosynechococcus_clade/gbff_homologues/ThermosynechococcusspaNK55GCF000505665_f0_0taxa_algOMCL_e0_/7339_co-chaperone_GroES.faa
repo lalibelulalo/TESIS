@@ -1,0 +1,4 @@
+>ID:WP_212667003.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|co-chaperone GroES|264|NZ_CP064926(251809):90909-91172:1 ^^ Acaryochloris marina S15 plasmid unnamed13, complete sequence.|neighbours:ID:WP_212667002.1(1),ID:WP_212661567.1(1)|neighbour_genes:DUF1816 domain-conta..,transposase| | aligned:1-85 (87)
+MTTLALNVSTVSPLGDRVFLKVSKAEEKTAGGILMPDIAREKPQIGEVVSVGLGKRQDDGSNIPMDIQKGDQVLYSKFSGTDIKLVS
+>ID:WP_235111892.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|groES|312|NZ_CP071719(276907):54278-54589:1 ^^ Acaryochloris sp. 'Moss Beach' plasmid pMB02, complete sequence.|neighbours:ID:WP_212667002.1(1),ID:WP_235111893.1(1)|neighbour_genes:DUF1816 domain-conta..,groL| | aligned:1-85 (103)
+MTTLALNVSTVSPLGDRVFLKVSKAEEKTAGGILMPDIAREKPQIGEVVSVGLGKRQDDGSNIPMDIQKGDQVLYSKFSGTDIKLGNEDYVLVGEQDLLAVIG

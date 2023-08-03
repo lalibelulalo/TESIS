@@ -1,0 +1,4 @@
+>ID:WP_011433158.1 |[Synechococcus sp. JA-2-3B'a(2-13)]|JA-2-3B'a(2-13)|Synechococcus_sp_JA-2-3Ba_2-13_JA-2-3Ba_2-13_GCF_000013225.1_genomic.gbff|hypothetical protein|243|NC_007776(3046682):1622162-1622404:1 ^^ Synechococcus sp. JA-2-3B'a(2-13), complete sequence.|neighbours:ID:WP_011433157.1(-1),ID:WP_011433159.1(-1)|neighbour_genes:pyk,hypothetical protein| | aligned:1-65 (80)
+MPVAPEYAFPFEHHQKFSLDNPTISSPGVSKREYIASKVLQGIVSNPQTPVGDLSPEQRQALVYTAVSLADDLLAALGAQ
+>ID:WP_041438297.1 |[Synechococcus sp. JA-3-3Ab]|JA-3-3Ab|Synechococcus_sp_JA-3-3Ab_GCF_000013205.1_genomic.gbff|hypothetical protein|243|NC_007775(2932766):1384524-1384766:-1 ^^ Synechococcus sp. JA-3-3Ab, complete sequence.|neighbours:ID:WP_011430221.1(1),ID:WP_011430223.1(1)|neighbour_genes:SLC13 family permeas..,IS607 family transpo..| | aligned:1-80 (80)
+MPVASEYAFPFEHHQKFSLDNPTISSPGVSKREYVASRVLQGMLSNPQTAIGNLSPEQRQALVYTAVLLADELLAALSAQ

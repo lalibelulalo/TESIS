@@ -1,0 +1,6 @@
+>ID:WP_010481945.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|183|NC_009931(172728):11631-11813:1 ^^ Acaryochloris marina MBIC11017 plasmid pREB6, complete sequence.|neighbours:ID:WP_148216111.1(-1),ID:WP_012168085.1(1)|neighbour_genes:hypothetical protein,DUF3768 domain-conta..| | aligned:1-60 (60)
+MSDILTQAWQPRTDAEMSQPWTTPKKWLSVPTQDGYQHQPYDSGDSRHFVPDTHPEDTWN
+>ID:WP_012167767.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|189|NC_009929(226680):88525-88713:1 ^^ Acaryochloris marina MBIC11017 plasmid pREB4, complete sequence.|neighbours:ID:WP_010478845.1(-1),ID:WP_012167766.1(1)|neighbour_genes:helix-turn-helix tra..,DUF3768 domain-conta..| | aligned:1-62 (62)
+MLTDTLTQAWQPWTDAELSERNKLTPKKWLQVPIQNGYQHQPWESGDSRHFTSDTHPEDTWN
+>ID:WP_212666643.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|189|NZ_CP064924(309759):215144-215332:-1 ^^ Acaryochloris marina S15 plasmid unnamed8, complete sequence.|neighbours:ID:WP_212666642.1(-1),ID:WP_212666644.1(1)|neighbour_genes:DUF3768 domain-conta..,helix-turn-helix dom..| | aligned:1-62 (62)
+MLTDTLTEAWQTKTDYERYEQTWIAPKQHLNIPTQDGYQHQPLDSGDSRHFVPDVHPEDTWN

@@ -1,0 +1,8 @@
+>ID:WP_015159157.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|171|NC_019697(6284095):1947967-1948137:1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015159156.1(1),ID:WP_015159158.1(1)|neighbour_genes:efflux RND transport..,hypothetical protein| | aligned:1-56 (56)
+MIKNLTKTTLINAFPIDRTAKILGLRLWKKLDGQRLVIDRTVEETDPIPPYDDPLY
+>ID:WP_232432235.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|177|NC_019697(6284095):1975565-1975741:1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_198288470.1(-1),ID:WP_015159183.1(-1)|neighbour_genes:PrsW family glutamic..,DUF2127 domain-conta..| | aligned:4-58 (58)
+MFATKLTLLTDRIAKIPGLRVWSKFKSSMSAHDRHQLANHYSTVEEIDDVPPYDDPLY
+>ID:WP_015328765.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|174|NC_020053(446651):80570-80743:1 ^^ Chamaesiphon minutus PCC 6605 plasmid pCHA6605.01, complete sequence.|neighbours:ID:WP_015328764.1(1),ID:WP_015328766.1(1)|neighbour_genes:efflux RND transport..,hypothetical protein| | aligned:1-57 (57)
+MKKTCTKTTLTNALLINNLAKILRLCLVTKLDSQRSVVERSLVAQTDPIPPYDDPLY
+>ID:WP_015329065.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|174|NC_020053(446651):386058-386231:-1 ^^ Chamaesiphon minutus PCC 6605 plasmid pCHA6605.01, complete sequence.|neighbours:ID:WP_015329064.1(-1),ID:WP_015329066.1(-1)|neighbour_genes:hypothetical protein,DUF475 domain-contai..| | aligned:1-57 (57)
+MKKTCTKTILTNSLPIKNPNKILGLRLGTKLDSQRSVIDRSLVAQTDSIPPYDDPLY

@@ -1,0 +1,4 @@
+>ID:WP_015195081.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|hypothetical protein|186|NC_019748(5041209):4444344-4444529:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015195080.1(-1),ID:WP_015195082.1(1)|neighbour_genes:gshA,speB| | aligned:1-61 (61)
+MSTLLSSPVKNSSDYSVATINTERLTKFYQADQQVKYLHLQAEIEVLLQELQTIKEQKLIK
+>ID:WP_096381888.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|186|NZ_AP017375(5319768):1216465-1216650:1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096381884.1(-1),ID:WP_096381890.1(1)|neighbour_genes:gshA,speB| | aligned:1-61 (61)
+MSTLLSSPVKNPTAPAVATVNTERLTKCYQADQQVKYLHLQAEIEVLLQELQTIKEQKLIK

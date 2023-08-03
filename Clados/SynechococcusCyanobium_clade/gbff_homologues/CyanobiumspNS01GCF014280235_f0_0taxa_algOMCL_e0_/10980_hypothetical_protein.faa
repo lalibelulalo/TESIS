@@ -1,0 +1,12 @@
+>ID:WP_213204161.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|189|NZ_CP073761(3180296):620735-620923:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213204160.1(1),ID:WP_213204162.1(-1)|neighbour_genes:hypothetical protein,WD40 repeat domain-c..| | aligned:1-62 (62)
+MPDTKAPLPAIGARCWRDRISPESGATVLSLAAEIPEDEPIVELAYDEGGSGWWPLSTLVFA
+>ID:WP_213202710.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|195|NZ_CP073761(3180296):2019888-2020082:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213202709.1(1),ID:WP_213202711.1(-1)|neighbour_genes:sigma-70 family RNA ..,hypothetical protein| | aligned:1-64 (64)
+MTDTTTPLPAIGSRCWRDRISPETGATVLNLATEFSDTDPLLELAYDEGGSGWWPLSTLVFEQS
+>ID:WP_087067755.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|hypothetical protein|192|NZ_LT578417(3021545):1291089-1291280:-1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087067754.1(1),ID:WP_087067756.1(-1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-61 (63)
+MTASPTPLPAIGEPCWRDLISPGTGATVLSLESSSPEDPMVELSYDEGGGGWWPLSTLVFAAD
+>ID:WP_186696689.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|hypothetical protein|195|NZ_CP047940(2748087):1601809-1602003:1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186696688.1(1),ID:WP_186696690.1(-1)|neighbour_genes:hypothetical protein,sigma-70 family RNA ..| | aligned:1-64 (64)
+MPDTTTPLPAIGSRWWRDLISPETGATVLSVAAGTPEDDPMVELAYDEGGSGWWPLSTLVFEQS
+>ID:WP_197169804.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|hypothetical protein|195|NZ_CP060398(3854122):2489345-2489539:1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197169803.1(1),ID:WP_231597797.1(-1)|neighbour_genes:hypothetical protein,sigma-70 family RNA ..| | aligned:1-64 (64)
+MPDTTTPLPATGSRCWRDLISPETGATVLNLAADSSDADPMVELTYDEGGSGWWPLSTLVFEQS
+>ID:WP_197169804.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|hypothetical protein|195|NZ_CP060397(3672318):371920-372114:-1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197172283.1(1),ID:WP_197169803.1(-1)|neighbour_genes:sigma-70 family RNA ..,hypothetical protein| | aligned:1-64 (64)
+MPDTTTPLPATGSRCWRDLISPETGATVLNLAADSSDADPMVELTYDEGGSGWWPLSTLVFEQS

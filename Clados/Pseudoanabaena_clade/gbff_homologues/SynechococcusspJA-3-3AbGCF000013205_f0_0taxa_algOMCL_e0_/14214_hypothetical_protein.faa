@@ -1,0 +1,4 @@
+>ID:WP_011434030.1 |[Synechococcus sp. JA-2-3B'a(2-13)]|JA-2-3B'a(2-13)|Synechococcus_sp_JA-2-3Ba_2-13_JA-2-3Ba_2-13_GCF_000013225.1_genomic.gbff|hypothetical protein|162|NC_007776(3046682):2565177-2565338:-1 ^^ Synechococcus sp. JA-2-3B'a(2-13), complete sequence.|neighbours:ID:WP_011434029.1(1),ID:WP_041436753.1(-1)|neighbour_genes:DUF309 domain-contai..,cytochrome b6-f comp..| | aligned:1-53 (53)
+METDLPLVARIAYGSIFLLLTAVTLGVGYITFIDWRDRRRRNEVERKARRSKR
+>ID:WP_011431549.1 |[Synechococcus sp. JA-3-3Ab]|JA-3-3Ab|Synechococcus_sp_JA-3-3Ab_GCF_000013205.1_genomic.gbff|hypothetical protein|189|NC_007775(2932766):2796426-2796614:1 ^^ Synechococcus sp. JA-3-3Ab, complete sequence.|neighbours:ID:WP_011431548.1(1),ID:WP_041438668.1(-1)|neighbour_genes:cytochrome b6-f comp..,DUF309 domain-contai..| | aligned:9-61 (62)
+MSFATSGSMETDLPWVARLAYGSIFLLLTAVTVGVGYITFIDWRDRRRRNEAERQARRSKRR

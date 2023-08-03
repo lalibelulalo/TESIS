@@ -1,0 +1,6 @@
+>ID:WP_126385605.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|SemiSWEET transporte..|255|NZ_AP017560(4796642):1089322-1089576:1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126385604.1(-1),ID:WP_225886814.1(1)|neighbour_genes:coaE,NnrU family protein| | aligned:1-84 (84)
+MDFTNILGFTAASLTTFAFLPQVIQVWRSRSTKDISLPMLVTFIAGITLWLIYGLLVNAAPIYIANGITLILNLAILRFKLKYG
+>ID:WP_041438445.1 |[Synechococcus sp. JA-3-3Ab]|JA-3-3Ab|Synechococcus_sp_JA-3-3Ab_GCF_000013205.1_genomic.gbff|SemiSWEET transporte..|261|NC_007775(2932766):2016004-2016264:1 ^^ Synechococcus sp. JA-3-3Ab, complete sequence.|neighbours:ID:WP_049749829.1(1),ID:WP_011430817.1(-1)|neighbour_genes:SAM-dependent methyl..,hypothetical protein| | aligned:1-82 (86)
+MNLTFWVGLSAAALTTASFFPQAWKTWHSQKADDFSWSYLLLFGAGILMWDLYGLLRQDAVILLANTVTLALVGVIILTKLRTSAR
+>ID:WP_015169134.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|SemiSWEET transporte..|255|NC_019702(3510253):2484351-2484605:-1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015169133.1(1),ID:WP_015169135.1(-1)|neighbour_genes:modA,alpha/beta fold hydr..| | aligned:1-84 (84)
+MNAENIIGFLAAILTTSAFLPQVLKIWHSHSTKDLSLPMLVTFVLGISLWLIYGLLLNASPIIIANFITLILNLIILGFKLRYG

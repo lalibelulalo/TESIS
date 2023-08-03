@@ -1,0 +1,6 @@
+>ID:WP_235107244.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|hypothetical protein|213|NZ_CP071717(5699248):3517453-3517665:1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235107243.1(-1),ID:WP_235107245.1(1)|neighbour_genes:mutY,PIN domain-containin..| | aligned:1-70 (70)
+MATNVSLEERLAALEIAITELQEHIAISPQSNWLEQITGSFKDEPAFEEILTYGQEIRKGSESLLPAENE
+>ID:WP_071453778.1 |[Gloeomargarita lithophora Alchichica-D10]|D10|Gloeomargarita_lithophora_Alchichica-_D10_GCF_001870225.1_genomic.gbff|hypothetical protein|216|NZ_CP017675(3049282):855444-855659:1 ^^ Gloeomargarita lithophora Alchichica-D10 chromosome.|neighbours:ID:WP_071455711.1(1),ID:WP_071453779.1(1)|neighbour_genes:hypothetical protein,type II toxin-antito..| | aligned:1-70 (71)
+MSTNTSLEKRLALVEAAIAELQKQMAVPQPTNWLQQITGSFKDEPAFEEVLAYGRAIRQGDETLLEVQDKL
+>ID:WP_015123990.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|hypothetical protein|204|NC_019680(3697276):1230395-1230598:1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015123989.1(-1),ID:WP_156804746.1(1)|neighbour_genes:aroB,GIY-YIG nuclease fam..| | aligned:9-67 (67)
+MTVEGKTIHTSLEERLTLAEKAITELQRQVSTSESINWLQEITGSFKDEPEFEKVLAYGQAVRHGNK

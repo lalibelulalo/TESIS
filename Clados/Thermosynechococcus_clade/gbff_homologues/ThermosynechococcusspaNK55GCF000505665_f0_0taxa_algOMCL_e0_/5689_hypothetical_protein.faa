@@ -1,0 +1,6 @@
+>ID:WP_012166056.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|183|NC_009925(6503724):5979153-5979335:-1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_010476274.1(1),ID:WP_012166057.1(-1)|neighbour_genes:DUF4280 domain-conta..,SPFH domain-containi..| | aligned:1-50 (60)
+MSKKKRFLLRLDQALYDTLERWAADELRSVNAQIEFLLKESTRKAGRQKEPSSDQESASD
+>ID:WP_212665738.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|189|NZ_CP064923(5881945):2380450-2380638:1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_249370020.1(1),ID:WP_212665739.1(-1)|neighbour_genes:SPFH domain-containi..,DUF4280 domain-conta..| | aligned:1-62 (62)
+MSKKKRFLLRLDQTLYDTLERWAADELRSVNAQMEFLLKESARKAGRKKEFPSDQDSASDSS
+>ID:WP_212665738.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|hypothetical protein|189|NZ_CP071717(5699248):5284169-5284357:1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235108370.1(1),ID:WP_212665739.1(-1)|neighbour_genes:SPFH domain-containi..,DUF4280 domain-conta..| | aligned:1-62 (62)
+MSKKKRFLLRLDQTLYDTLERWAADELRSVNAQMEFLLKESARKAGRKKEFPSDQDSASDSS

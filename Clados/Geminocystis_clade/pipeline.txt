@@ -1,0 +1,24 @@
+awk -F "," '{if($15==1 && $16==1 && $17==1 && $18==1 && $19==1 && $20==1) {print $1}}' pangenoma/pangenome_matrix_t0.tr.csv | sed 's/.faa/.fna/g' >orthologues.list
+
+python3 CountPalsInOrthologues.py gbff_homologues/EuhalothecenatronophilaZ-M001GCF007904085_f0_0taxa_algOMCL_e0_ pals.list orthologues.list 3
+
+awk '{if ($5>=1 && $2=="Chondrocystis_sp_NIES-4102"){print $1}}' Markov_count_GCGATCGC_gbff_homologuesEuhalothecenatronophilaZ-M001GCF007904085_f0_0taxa_algOMCL_e0__2023-4-12_13hrs30mins_Octanuc_M3_.txt >Ortologos_GCGATCGC_Chondrocystis_sp_NIES-4102.txt
+
+awk '{if ($5>=1 && $2=="Chamaesiphon_minutus_PCC_6605"){print $1}}' Markov_count_TCGATCGA_gbff_homologuesEuhalothecenatronophilaZ-M001GCF007904085_f0_0taxa_algOMCL_e0__2023-4-12_13hrs30mins_Octanuc_M3_.txt >Ortologos_TCGATCGA_Chamaesiphon_minutus_PCC_6605.txt
+
+mkdir Orthologues_GCGATCGC_Chondrocystis_sp_NIES-4102  ## Creo Carpeta
+cd gbff_homologues/EuhalothecenatronophilaZ-M001GCF007904085_f0_0taxa_algOMCL_e0_ ## Entro a la carpeta de homólogos
+for word in $(cat ../../Ortologos_GCGATCGC_Chondrocystis_sp_NIES-4102.txt); do cp $word ../../Orthologues_GCGATCGC_Chondrocystis_sp_NIES-4102; done ## copio los ortólogos de la lista a la carpeta
+
+mkdir Orthologues_TCGATCGA_Chamaesiphon_minutus_PCC_660  ## Creo Carpeta
+cd gbff_homologues/EuhalothecenatronophilaZ-M001GCF007904085_f0_0taxa_algOMCL_e0_ ## Entro a la carpeta de homólogos
+for word in $(cat ../../Ortologos_TCGATCGA_Chamaesiphon_minutus_PCC_6605.txt); do cp $word ../../Orthologues_TCGATCGA_Chamaesiphon_minutus_PCC_660; done ## copio los ortólogos de la lista a la carpeta
+
+
+awk -F "|" '{if (NR%2){print ">"$2}else{print $1}}' 17560_mgtE.fna | sed 's/ /_/g' | sed 's/\.//g' | sed 's/\[//g' | sed 's/\]//g' | sed 's/\//-/g' | sed 's/Chamaesiphon_minutus_PCC_6605/PCC_6605/g' | sed 's/Chondrocystis_sp_NIES-4102/NIES-4102/g' | sed 's/Cyanobacterium_aponinum_PCC_10605/PCC_10605/g' | sed 's/Dactylococcopsis_salina_PCC_8305/PCC_8305/g' | sed 's/Euhalothece_natronophila_Z-M001/Z-M001/g' | sed 's/Geminocystis_herdmanii_PCC_6308/PCC_6308/g' | sed 's/Geminocystis_sp_NIES-3708/NIES-3708/g' | sed 's/Geminocystis_sp_NIES-3709/NIES-3709/g' | sed 's/Halothece_sp_PCC_7418/PCC_7418/g' | sed 's/Stanieria_cyanosphaera_PCC_7437/PCC_7437/g' | sed 's/Stanieria_sp_NIES-3757/NIES-3757/g'
+
+for f in *.fna; do awk -F "|" '{if (NR%2){print ">"$2}else{print $1}}' 17560_mgtE.fna | sed 's/ /_/g' | sed 's/\.//g' | sed 's/\[//g' | sed 's/\]//g' | sed 's/\//-/g' | sed 's/Chamaesiphon_minutus_PCC_6605/PCC_6605/g' | sed 's/Chondrocystis_sp_NIES-4102/NIES-4102/g' | sed 's/Cyanobacterium_aponinum_PCC_10605/PCC_10605/g' | sed 's/Dactylococcopsis_salina_PCC_8305/PCC_8305/g' | sed 's/Euhalothece_natronophila_Z-M001/Z-M001/g' | sed 's/Geminocystis_herdmanii_PCC_6308/PCC_6308/g' | sed 's/Geminocystis_sp_NIES-3708/NIES-3708/g' | sed 's/Geminocystis_sp_NIES-3709/NIES-3709/g' | sed 's/Halothece_sp_PCC_7418/PCC_7418/g' | sed 's/Stanieria_cyanosphaera_PCC_7437/PCC_7437/g' | sed 's/Stanieria_sp_NIES-3757/NIES-3757/g' >$f.awk1;done
+
+
+
+

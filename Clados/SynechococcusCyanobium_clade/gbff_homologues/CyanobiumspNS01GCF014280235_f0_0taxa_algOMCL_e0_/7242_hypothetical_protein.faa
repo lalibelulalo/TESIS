@@ -1,0 +1,6 @@
+>ID:WP_087067395.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|hypothetical protein|303|NZ_LT578417(3021545):829015-829317:1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_255376852.1(1),ID:WP_172820809.1(1)|neighbour_genes:drmC,hypothetical protein| | aligned:1-96 (100)
+MKEIPNDKLKPYDIPDPDGDLNEWFDFAHTINGYEEAGSFKACAELANEQSAKTLTEMRCALLFEARRDRHSGGMGYIDTDWIRKLLRGIKEMVEAQGNL
+>ID:WP_231598112.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|hypothetical protein|300|NZ_CP060398(3854122):1079099-1079398:1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197171264.1(1),ID:WP_197171266.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-99 (99)
+MKELTNHQLDLARIPDPEGDLHGWEHFAHTINGYEAAGSFEACADLANHNCATTLTELRCALFFVARSDRHGGMFDDCSPQVRELLKKIRTRVEAGDLK
+>ID:WP_231598112.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|hypothetical protein|300|NZ_CP060396(3860130):1049641-1049940:-1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197157919.1(1),ID:WP_197157921.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-99 (99)
+MKELTNHQLDLARIPDPEGDLHGWEHFAHTINGYEAAGSFEACADLANHNCATTLTELRCALFFVARSDRHGGMFDDCSPQVRELLKKIRTRVEAGDLK

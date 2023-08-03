@@ -1,0 +1,6 @@
+>ID:WP_015162129.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|195|NC_019697(6284095):5432450-5432644:-1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015162128.1(-1),ID:WP_041549940.1(1)|neighbour_genes:molybdopterin molybd..,mannose-1-phosphate ..| | aligned:2-62 (64)
+MNFVVIGLVGAYGYGVWRFSRNYNRTNYQRTLPTKIVLALLWPVCYVVNASYRQNFNRALKGGD
+>ID:WP_096720073.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|hypothetical protein|195|NZ_AP018281(4516676):2250358-2250552:1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096720071.1(-1),ID:WP_096720075.1(-1)|neighbour_genes:mannose-1-phosphate ..,leuS| | aligned:1-63 (64)
+MSDLITFILLLVYGGGIWKFLSGYSRTNFDPSLSRKAVLALLWPVFLATNKSYRRNFRKALKGR
+>ID:WP_015194747.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|192|NZ_AP017375(5319768):3489096-3489287:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096384939.1(-1),ID:WP_096384940.1(1)|neighbour_genes:DUF2470 domain-conta..,mannose-1-phosphate ..| | aligned:1-63 (63)
+MSQLIVLILSIVYFGGVWKFWQGFRRTNFNPSLSNKLVLAVFWPALCLTNKSYRKNFQKALKG

@@ -1,0 +1,6 @@
+>ID:WP_186696656.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|helix-turn-helix dom..|237|NZ_CP047940(2748087):1573783-1574019:-1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186696655.1(1),ID:WP_186696657.1(-1)|neighbour_genes:ATP-binding cassette..,BRO family protein| | aligned:1-78 (78)
+MSSSQGASRQRAWITTAEVCEWLGISRETLRQLRLRGVLQPGKQFRRWGCTQGKGPLQWHLENVEATITGWSRRHLRQ
+>ID:WP_255517691.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|helix-turn-helix dom..|237|NZ_CP060395(3226220):2026322-2026558:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197148124.1(1),ID:WP_197148126.1(-1)|neighbour_genes:GNAT family N-acetyl..,KilA-N domain-contai..| | aligned:1-77 (78)
+METPTTSSRQRVWVTTAEACTALGMSRETLRQLRLRGVLTPGKHYRRWGCTQGRGPLQWHLENVEATITGWSRKHLRL
+>ID:WP_197149478.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|helix-turn-helix dom..|237|NZ_CP060395(3226220):2981149-2981385:1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197149476.1(1),ID:WP_231596379.1(1)|neighbour_genes:KilA-N domain-contai..,AbrB/MazE/SpoVT fami..| | aligned:1-78 (78)
+METQVTTTRQRVWVTTAEACTALGMSRETLRRLRLRGVLTPGKHYRRWGCTQGRGPLQWHLENVEATITGWSRRHLQH

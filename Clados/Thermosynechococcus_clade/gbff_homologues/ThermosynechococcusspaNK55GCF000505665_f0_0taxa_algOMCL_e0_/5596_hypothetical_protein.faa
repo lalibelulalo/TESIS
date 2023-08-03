@@ -1,0 +1,4 @@
+>ID:WP_012165950.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|252|NC_009925(6503724):5874692-5874943:1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012165949.1(1),ID:WP_041660547.1(-1)|neighbour_genes:hisF,hpnI| | aligned:1-83 (83)
+MIILLVGAIGLVMWSLQLMKMAHHSSEKSLIFAGVLVAVSAIGLVAVYMLMDGCMGYITGGESVSAQASNLPLMVVSHFSSIF
+>ID:WP_212665773.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|252|NZ_CP064923(5881945):2434633-2434884:-1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212665772.1(1),ID:WP_212665774.1(-1)|neighbour_genes:hpnI,hisF| | aligned:1-83 (83)
+MIILLVGAIGLVMWSLQLMKMAHHSSEKSLIFAGVLVAVSAVGLVAVYLLMDGCMGYITGGESISAQSSYLPIMMISHFSSIL

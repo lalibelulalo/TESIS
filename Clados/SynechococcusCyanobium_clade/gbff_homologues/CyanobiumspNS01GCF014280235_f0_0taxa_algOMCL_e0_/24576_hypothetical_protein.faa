@@ -1,0 +1,4 @@
+>ID:WP_197147781.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|hypothetical protein|183|NZ_CP060395(3226220):1620116-1620298:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197147780.1(1),ID:WP_197147782.1(-1)|neighbour_genes:Nif11-like leader pe..,hypothetical protein| | aligned:1-60 (60)
+MEATTTTSCRSRQRKPQRRHPVQVARQLVLFSLPVPQPIGCCWDLICPEAAWEEPLRWSV
+>ID:WP_197149271.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|hypothetical protein|204|NZ_CP060395(3226220):2854895-2855098:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_255517708.1(1),ID:WP_197149273.1(1)|neighbour_genes:NAD(P)/FAD-dependent..,DNA-binding protein| | aligned:1-58 (67)
+MHPTSTLLRSSSTKQPKAGQASTAVLQLVLFSLPEPIGSCWDLICPEEAWEQPLSPAVSGHQDAHFL

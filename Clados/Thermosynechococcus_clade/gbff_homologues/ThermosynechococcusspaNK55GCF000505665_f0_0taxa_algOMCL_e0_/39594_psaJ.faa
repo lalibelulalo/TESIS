@@ -1,0 +1,24 @@
+>ID:WP_187152943.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|Photosystem I reacti..|114|NC_009925(6503724):1430824-1430937:-1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012161997.1(-1),ID:WP_012161999.1(-1)|neighbour_genes:bifunctional ADP-dep..,photosystem I protei..| | aligned:1-37 (37)
+MKFFSTAPVIALVFFTLTAGFLVELNRFFPDILFFPY
+>ID:WP_212662552.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|Photosystem I reacti..|114|NZ_CP064923(5881945):4167487-4167600:-1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_249369394.1(-1),ID:WP_212662553.1(-1)|neighbour_genes:NAD(P)H-hydrate dehy..,Photosystem I reacti..| | aligned:1-37 (37)
+MKFFSTAPVIAFVFFTLTAGFLVELNRFFPDILFFPY
+>ID:WP_212662552.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|Photosystem I reacti..|114|NZ_CP071717(5699248):1193225-1193338:-1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235109369.1(-1),ID:WP_212662553.1(-1)|neighbour_genes:NAD(P)H-hydrate dehy..,Photosystem I reacti..| | aligned:1-37 (37)
+MKFFSTAPVIAFVFFTLTAGFLVELNRFFPDILFFPY
+>ID:WP_071454868.1 |[Gloeomargarita lithophora Alchichica-D10]|D10|Gloeomargarita_lithophora_Alchichica-_D10_GCF_001870225.1_genomic.gbff|photosystem I reacti..|126|NZ_CP017675(3049282):2137948-2138073:1 ^^ Gloeomargarita lithophora Alchichica-D10 chromosome.|neighbours:ID:WP_071454867.1(1),ID:WP_071454869.1(1)|neighbour_genes:Photosystem I reacti..,photosystem I reacti..| | aligned:1-41 (41)
+MQDLLKYLSVAPVLLTVWMFIIAGILIELNRFYPDVLALPF
+>ID:WP_015123668.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|psaJ|132|NC_019680(3697276):908166-908297:1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015123667.1(1),ID:WP_015123669.1(1)|neighbour_genes:photosystem I reacti..,type II toxin-antito..| | aligned:1-43 (43)
+MQVKYLLTYLSTAPVLAAVWMAFTAGLLIEFNRFFPDLLFHPL
+>ID:WP_099797570.1 |[Thermostichus lividus PCC 6715]|PCC 6715|Thermostichus_lividus_PCC_6715_GCF_002754935.1_genomic.gbff|psaJ|132|NZ_CP018092(2659739):43585-43716:-1 ^^ Thermostichus lividus PCC 6715 chromosome, complete genome.|neighbours:ID:WP_099797569.1(-1),ID:WP_099797571.1(-1)|neighbour_genes:rplI,Photosystem I reacti..| | aligned:1-43 (43)
+MQTKHLLTYLSTAPVLAALWMTITAGILIEFNRFYPDLLFHPL
+>ID:WP_011058244.1 |[Thermosynechococcus elongatus PKUAC-SCTE542]|PKUAC-SCTE542|Thermosynechococcus_elongatus_PKUAC-SCTE542_GCF_003555505.1_genomic.gbff|psaJ|126|NZ_CP032152(2650294):2521274-2521399:-1 ^^ Thermosynechococcus elongatus PKUAC-SCTE542 chromosome, complete genome.|neighbours:ID:WP_181495278.1(-1),ID:WP_181495279.1(-1)|neighbour_genes:rplI,Photosystem I reacti..| | aligned:1-41 (41)
+MKHFLTYLSTAPVLAAIWMTITAGILIEFNRFYPDLLFHPL
+>ID:WP_011058244.1 |[Thermosynechococcus sp. CL-1]|CL-1|Thermosynechococcus_sp_CL-1_GCF_008386235.1_genomic.gbff|psaJ|126|NZ_CP040671(2647823):1914619-1914744:1 ^^ Thermosynechococcus sp. CL-1 chromosome, complete genome.|neighbours:ID:WP_149820294.1(1),ID:WP_149820295.1(1)|neighbour_genes:Photosystem I reacti..,rplI| | aligned:1-41 (41)
+MKHFLTYLSTAPVLAAIWMTITAGILIEFNRFYPDLLFHPL
+>ID:WP_011058244.1 |[Thermosynechococcus sp. HN-54]|HN-54|Thermosynechococcus_sp_HN-54_GCF_023650955.1_genomic.gbff|psaJ|126|NZ_CP098039(2705963):2667617-2667742:1 ^^ Thermosynechococcus sp. HN-54 chromosome, complete genome.|neighbours:ID:WP_250682462.1(1),ID:WP_250682463.1(1)|neighbour_genes:Photosystem I reacti..,rplI| | aligned:1-41 (41)
+MKHFLTYLSTAPVLAAIWMTITAGILIEFNRFYPDLLFHPL
+>ID:WP_011058244.1 |[Thermosynechococcus sp. TA-1]|TA-1|Thermosynechococcus_sp_TA-1_GCF_017086385.1_genomic.gbff|psaJ|126|NZ_CP070960(2658717):518224-518349:-1 ^^ Thermosynechococcus sp. TA-1 chromosome, complete genome.|neighbours:ID:WP_149820295.1(-1),ID:WP_206200909.1(-1)|neighbour_genes:rplI,Photosystem I reacti..| | aligned:1-41 (41)
+MKHFLTYLSTAPVLAAIWMTITAGILIEFNRFYPDLLFHPL
+>ID:WP_011058244.1 |[Thermosynechococcus sp. NK55a]|NK55|Thermosynechococcus_sp_a_NK55_GCF_000505665.1_genomic.gbff|psaJ|126|NC_023033(2520064):440726-440851:-1 ^^ Thermosynechococcus sp. NK55a, complete sequence.|neighbours:ID:WP_024124197.1(-1),ID:WP_024124198.1(-1)|neighbour_genes:rplI,photosystem I subuni..| | aligned:1-41 (41)
+MKHFLTYLSTAPVLAAIWMTITAGILIEFNRFYPDLLFHPL
+>ID:WP_011058244.1 |[Thermosynechococcus vestitus BP-1]|BP-1|Thermosynechococcus_vestitus_BP-1_GCF_000011345.1_genomic.gbff|psaJ|126|NC_004113(2593857):2524509-2524634:1 ^^ Thermosynechococcus vestitus BP-1, complete sequence.|neighbours:ID:WP_011058243.1(1),ID:WP_011058245.1(1)|neighbour_genes:photosystem I reacti..,rplI| | aligned:1-41 (41)
+MKHFLTYLSTAPVLAAIWMTITAGILIEFNRFYPDLLFHPL

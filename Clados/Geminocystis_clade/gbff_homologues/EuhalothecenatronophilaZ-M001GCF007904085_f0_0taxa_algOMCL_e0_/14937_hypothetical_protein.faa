@@ -1,0 +1,4 @@
+>ID:WP_198007640.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|hypothetical protein|297|NC_019780(3781008):1063533-1063829:1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015228777.1(1),ID:WP_232225275.1(1)|neighbour_genes:FAD-dependent hydrox..,type II toxin-antito..| | aligned:7-98 (98)
+MTTRTIMDASTLKQLLEKYNQFYSGYNQNPDAWEAENGAWLEYEHLEKAKMLEEMGQLMSLLHQKTANETNLATNGDLEYYSTVREVLQDLRQFLENS
+>ID:WP_015226497.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|hypothetical protein|279|NC_019779(4179170):2710784-2711062:1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015226496.1(-1),ID:WP_015226498.1(-1)|neighbour_genes:RNA-guided endonucle..,hypothetical protein| | aligned:1-92 (92)
+MNAATLKQKLDQYSEFYRGYNEDPATWEAQHGSWVEYEHLEKAKMLQEMGKIMSLLHEKTANETSLATNGDLEYYSTVKEILAELRQFLEES

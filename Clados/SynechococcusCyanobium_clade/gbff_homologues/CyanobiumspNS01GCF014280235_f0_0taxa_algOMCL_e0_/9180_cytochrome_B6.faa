@@ -1,0 +1,4 @@
+>ID:WP_087068919.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|cytochrome B6|93|NZ_LT578417(3021545):2836156-2836248:-1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087068918.1(1),ID:WP_087068920.1(1)|neighbour_genes:rimO,B12-binding domain-c..| | aligned:1-30 (30)
+MGAAIYLGLVGGGLVAAFVASVVLRGVKLI
+>ID:WP_197151768.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|cytochrome b6-f comp..|93|NZ_CP060395(3226220):937251-937343:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197151766.1(1),ID:WP_197151770.1(1)|neighbour_genes:rimO,B12-binding domain-c..| | aligned:1-30 (30)
+MTAAIYLGLMGGGIAVAIAASIVLRGIKLI

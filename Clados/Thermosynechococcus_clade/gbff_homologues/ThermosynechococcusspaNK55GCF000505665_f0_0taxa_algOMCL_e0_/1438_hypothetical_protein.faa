@@ -1,0 +1,8 @@
+>ID:WP_010477777.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|195|NC_009925(6503724):1092497-1092691:-1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012161706.1(1),ID:WP_012161708.1(-1)|neighbour_genes:NAD(+) kinase,uvrC| | aligned:1-63 (64)
+MSRIEKIRCPNCGSQHGERHYIDNLMRTQCVECDYLMITDAKTGEVVEAYAPGLYMHQLSSCSS
+>ID:WP_235109184.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|hypothetical protein|204|NZ_CP071717(5699248):906863-907066:-1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_212666329.1(1),ID:WP_235109185.1(-1)|neighbour_genes:NAD(+) kinase,uvrC| | aligned:1-63 (67)
+MSRIEKVRCPNCGSQHGERHHIDNLMRTQCIECDYLMITDAKTGEVVEAYAPGLYMHQLRSCAPLKS
+>ID:WP_099092498.1 |[Gloeomargarita lithophora Alchichica-D10]|D10|Gloeomargarita_lithophora_Alchichica-_D10_GCF_001870225.1_genomic.gbff|replication restart ..|171|NZ_CP017675(3049282):2450513-2450683:1 ^^ Gloeomargarita lithophora Alchichica-D10 chromosome.|neighbours:ID:WP_071455127.1(1),ID:WP_084111749.1(-1)|neighbour_genes:hypothetical protein,glycosyltransferase| | aligned:4-55 (56)
+MPSELVRCPNCGQYAQRSLQAESGWLETECSHCDYLLILHASSGQVIEAYAPGLYP
+>ID:WP_015123171.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|hypothetical protein|222|NC_019680(3697276):395717-395938:-1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015123170.1(1),ID:WP_253276398.1(1)|neighbour_genes:phycocyanobilin:ferr..,AAA-like domain-cont..| | aligned:1-55 (73)
+MQTFHTIHCPNCGRPAERYFLHLDRISRTQCPSCDYFMVQCLDSGRVIEAYAPGLVGKTDNLPLLARRTAFSH

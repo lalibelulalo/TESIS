@@ -1,0 +1,6 @@
+>ID:WP_012163157.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|acyl carrier protein|240|NC_009925(6503724):2740619-2740858:1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012163156.1(1),ID:WP_012163158.1(1)|neighbour_genes:HAD-IIIC family phos..,acyltransferase| | aligned:1-79 (79)
+MAENGVQDRVKLVFSDILDIDLQTISDDLGPDNCDSWDSMNNLRLITALEEEFSISFSMEEISSMVDISRVFELIESKS
+>ID:WP_212663442.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|acyl carrier protein|240|NZ_CP064923(5881945):5325747-5325986:1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212663441.1(1),ID:WP_212663443.1(1)|neighbour_genes:HAD-IIIC family phos..,acyltransferase| | aligned:1-79 (79)
+MAKSGVQERVKLVFSDVLDIDLQTISDDLGPDNCDSWDSMNNLRLITALEEEFSINFSMEEISSMVDISRAIELIESKS
+>ID:WP_235110412.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|phosphopantetheine-b..|243|NZ_CP071717(5699248):2332304-2332546:1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235110411.1(1),ID:WP_235110413.1(1)|neighbour_genes:HAD-IIIC family phos..,acyltransferase| | aligned:1-79 (80)
+MANQEIEIQAKEIIADILDIDEDQISNNFSPENCDSWDSMNNLRMITALEKAFKIKFSMEEISSMTNMEAISAMISQKSL

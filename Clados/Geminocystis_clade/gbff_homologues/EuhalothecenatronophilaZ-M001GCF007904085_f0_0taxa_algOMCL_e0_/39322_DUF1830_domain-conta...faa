@@ -1,0 +1,4 @@
+>ID:WP_015194230.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|DUF1830 domain-conta..|255|NC_019748(5041209):3458152-3458406:-1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015194229.1(-1),ID:WP_015194231.1(1)|neighbour_genes:ftsH2,pentapeptide repeat-..| | aligned:1-79 (84)
+MFCPCPPNCSKKIFCCYINHSDQVQIGRISNVADWYLERVIFPKQRLLFEAPAEAELEIYTNSFSSAILSERIRCEHLEFIKLN
+>ID:WP_096386100.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|DUF1830 domain-conta..|243|NZ_AP017375(5319768):4571412-4571654:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096386097.1(-1),ID:WP_096386102.1(-1)|neighbour_genes:ATP-dependent zinc m..,ferredoxin-NADP redu..| | aligned:1-79 (80)
+MFSSCPSNCPENILCSYTNHTQKVQIGRISNVTNWYLERVIFPGQRLVFEAPPQAELEIYTSSFSSAILAERIRCEQLEC

@@ -1,0 +1,12 @@
+>ID:WP_246828954.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|hypothetical protein|201|NC_019702(3510253):415468-415668:-1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_246828953.1(-1),ID:WP_015168729.1(-1)|neighbour_genes:transposase,transposase| | aligned:1-53 (66)
+MNSQKKSKWTTLIIIDSQAVKNTCNASIESKGFCSYKATNGIKRHLAVDTLGISFLYLFNKSKCIR
+>ID:WP_246828903.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|hypothetical protein|162|NC_019702(3510253):427638-427799:1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015168135.1(1),ID:WP_246828904.1(1)|neighbour_genes:transposase,transposase| | aligned:1-53 (53)
+MNSQKKSKWTTLIIIDSQAVKNTCNASIESKGFCSYKATNGIKRHLAVDTLGI
+>ID:WP_246828903.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|hypothetical protein|162|NC_019702(3510253):2057533-2057694:1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015168729.1(1),ID:WP_246828904.1(1)|neighbour_genes:transposase,transposase| | aligned:1-53 (53)
+MNSQKKSKWTTLIIIDSQAVKNTCNASIESKGFCSYKATNGIKRHLAVDTLGI
+>ID:WP_246828903.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|hypothetical protein|162|NC_019702(3510253):2305432-2305593:-1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_246828904.1(-1),ID:WP_015168135.1(-1)|neighbour_genes:transposase,transposase| | aligned:1-53 (53)
+MNSQKKSKWTTLIIIDSQAVKNTCNASIESKGFCSYKATNGIKRHLAVDTLGI
+>ID:WP_246828903.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|hypothetical protein|162|NC_019702(3510253):3142199-3142360:-1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_246828904.1(-1),ID:WP_015168135.1(-1)|neighbour_genes:transposase,transposase| | aligned:1-53 (53)
+MNSQKKSKWTTLIIIDSQAVKNTCNASIESKGFCSYKATNGIKRHLAVDTLGI
+>ID:WP_246828903.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|hypothetical protein|162|NC_019702(3510253):3194005-3194166:-1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_246828940.1(-1),ID:WP_041429575.1(-1)|neighbour_genes:transposase,transposase| | aligned:1-53 (53)
+MNSQKKSKWTTLIIIDSQAVKNTCNASIESKGFCSYKATNGIKRHLAVDTLGI

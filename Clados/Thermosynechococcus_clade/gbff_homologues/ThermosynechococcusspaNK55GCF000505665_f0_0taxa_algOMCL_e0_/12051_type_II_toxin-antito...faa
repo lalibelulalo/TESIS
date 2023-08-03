@@ -1,0 +1,6 @@
+>ID:WP_212663469.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|type II toxin-antito..|207|NZ_CP064923(5881945):5365371-5365577:1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_249369582.1(-1),ID:WP_249370221.1(1)|neighbour_genes:lepB,hypothetical protein| | aligned:1-68 (68)
+MIFDIKIEQEEDGRWIAEIPSLPGVMLYGQTPEEAKAKVKALALRVLAERIESGETEPELVSVTFNAA
+>ID:WP_235110451.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|type II toxin-antito..|207|NZ_CP071717(5699248):2368695-2368901:1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235110450.1(-1),ID:WP_235110453.1(1)|neighbour_genes:hypothetical protein,type II toxin-antito..| | aligned:1-68 (68)
+MIFDIQIEQEEDGRWIAEIPSLPGVMLYGQTPEEAKAKVKALALRVLAERIESGETEPELVSVTFNAA
+>ID:WP_015125102.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|type II toxin-antito..|207|NC_019680(3697276):2407856-2408062:1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015125101.1(-1),ID:WP_015125103.1(1)|neighbour_genes:DUF433 domain-contai..,DNA adenine methylas..| | aligned:6-66 (68)
+MRQVIVYRDEDGYWIAECPSLKGCVSQGKTKEEALTNIKDAISGYVAALEEDGLTVPEETFETFMAVV

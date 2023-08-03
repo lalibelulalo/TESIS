@@ -1,0 +1,4 @@
+>ID:WP_096724682.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|hypothetical protein|219|NZ_AP018284(149096):143835-144053:-1 ^^ Chondrocystis sp. NIES-4102 plasmid plasmid3 DNA, complete genome.|neighbours:ID:WP_096724680.1(-1),ID:WP_096724684.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-69 (72)
+MTHPNSLANLKHEGRPLKRGSEKKSRRLSITNEGWQGCKQLSDELGLSVSEILESLGRGELILSKPLNRSNT
+>ID:WP_015211918.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|hypothetical protein|210|NC_019765(309296):61342-61551:1 ^^ Stanieria cyanosphaera PCC 7437 plasmid pSTA7437.01, complete sequence.|neighbours:ID:WP_015211917.1(-1),ID:WP_051036132.1(1)|neighbour_genes:hypothetical protein,RHS repeat protein| | aligned:1-69 (69)
+MTNPNSLANLKHEGRPLKRGSTKKHRRLSVTDEGWKGCQELSEDLDMSISEILESLGRGEFILSKPLTK

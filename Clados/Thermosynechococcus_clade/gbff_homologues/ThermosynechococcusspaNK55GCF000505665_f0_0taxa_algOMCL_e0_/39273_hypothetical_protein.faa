@@ -1,0 +1,12 @@
+>ID:WP_181496981.1 |[Thermosynechococcus elongatus PKUAC-SCTE542]|PKUAC-SCTE542|Thermosynechococcus_elongatus_PKUAC-SCTE542_GCF_003555505.1_genomic.gbff|hypothetical protein|156|NZ_CP032152(2650294):1191082-1191237:-1 ^^ Thermosynechococcus elongatus PKUAC-SCTE542 chromosome, complete genome.|neighbours:ID:WP_181496685.1(1),ID:WP_181496686.1(-1)|neighbour_genes:transglutaminase,lepA| | aligned:1-51 (51)
+MSQRSSGKWVAIVTGAISLLLGIGYLVLVQLLDWRGDWQPAPLGILQLLLP
+>ID:WP_149817193.1 |[Thermosynechococcus sp. CL-1]|CL-1|Thermosynechococcus_sp_CL-1_GCF_008386235.1_genomic.gbff|hypothetical protein|156|NZ_CP040671(2647823):121714-121869:-1 ^^ Thermosynechococcus sp. CL-1 chromosome, complete genome.|neighbours:ID:WP_149817191.1(1),ID:WP_149817195.1(-1)|neighbour_genes:transglutaminase,lepA| | aligned:1-51 (51)
+MSQRSSGKWVAIVTGVISLLLGIGYLVLVQLLDWRGDWQPAPLGLLRVLLF
+>ID:WP_250682937.1 |[Thermosynechococcus sp. HN-54]|HN-54|Thermosynechococcus_sp_HN-54_GCF_023650955.1_genomic.gbff|hypothetical protein|168|NZ_CP098039(2705963):504847-505014:1 ^^ Thermosynechococcus sp. HN-54 chromosome, complete genome.|neighbours:ID:WP_250682936.1(1),ID:WP_250682938.1(-1)|neighbour_genes:lepA,transglutaminase| | aligned:1-51 (55)
+MSKRSSGKWVAIITGTISLLLGVGYLLLVQLLDWRGDWQPAPLGVIFLLLYQGQV
+>ID:WP_206201713.1 |[Thermosynechococcus sp. TA-1]|TA-1|Thermosynechococcus_sp_TA-1_GCF_017086385.1_genomic.gbff|hypothetical protein|156|NZ_CP070960(2658717):119143-119298:-1 ^^ Thermosynechococcus sp. TA-1 chromosome, complete genome.|neighbours:ID:WP_206200613.1(1),ID:WP_206200614.1(-1)|neighbour_genes:transglutaminase,lepA| | aligned:1-50 (51)
+MSQRSSGKWVAIVTGVISLLLGIGYLVLVQLLDWRGDWQPAPLGLLRVLLS
+>ID:WP_024123914.1 |[Thermosynechococcus sp. NK55a]|NK55|Thermosynechococcus_sp_a_NK55_GCF_000505665.1_genomic.gbff|hypothetical protein|156|NC_023033(2520064):112156-112311:-1 ^^ Thermosynechococcus sp. NK55a, complete sequence.|neighbours:ID:WP_024123913.1(1),ID:WP_024123915.1(-1)|neighbour_genes:transglutaminase-lik..,lepA| | aligned:1-51 (51)
+MSQRSSGKWVAIATGAISLLLGIGYLVLVQLLDWRGDWQPAPLGVLRLLLP
+>ID:WP_011056161.1 |[Thermosynechococcus vestitus BP-1]|BP-1|Thermosynechococcus_vestitus_BP-1_GCF_000011345.1_genomic.gbff|hypothetical protein|156|NC_004113(2593857):288822-288977:1 ^^ Thermosynechococcus vestitus BP-1, complete sequence.|neighbours:ID:WP_011056160.1(1),ID:WP_011056162.1(-1)|neighbour_genes:lepA,transglutaminase| | aligned:1-51 (51)
+MSQRSSGKWVAIVTGAISLLLGIGYLVLVQLLDWRGDWQPAPLGLLPLLLP

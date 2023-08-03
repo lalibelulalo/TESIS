@@ -1,0 +1,6 @@
+>ID:WP_015192624.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|hypothetical protein|255|NC_019748(5041209):1535956-1536210:-1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015192623.1(-1),ID:WP_015192625.1(-1)|neighbour_genes:type II toxin-antito..,devC| | aligned:1-79 (84)
+MTELPDLQQTIANLTRAQLEEIITEIAKDTIKQEMMINQQNQSQSVYKASQSLKETFGIWDDERTDEEIIKEIYDSRNSNLTST
+>ID:WP_096379767.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|219|NZ_AP017375(5319768):255365-255583:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096379765.1(1),ID:WP_096379770.1(-1)|neighbour_genes:higA,hypothetical protein| | aligned:1-72 (72)
+MTEKPSLGQKIGNLTRGQLEEIIKEIVQNTIKQETINAQENKVQALAATFGKWEDERKEEEIIKDIYDSRTG
+>ID:WP_096379770.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|246|NZ_AP017375(5319768):256307-256552:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096379767.1(-1),ID:WP_096379772.1(-1)|neighbour_genes:hypothetical protein,glutamate synthase s..| | aligned:1-72 (81)
+MMEQPYLEQNIGNLTRGQLEEIIKDIVQNTIKQETINAQENQAQALAATFGKWEDDRTVEEIIKDIYDSRTGEFNINLITN

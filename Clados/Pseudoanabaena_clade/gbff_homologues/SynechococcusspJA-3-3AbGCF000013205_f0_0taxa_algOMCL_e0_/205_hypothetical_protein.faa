@@ -1,0 +1,4 @@
+>ID:WP_126391497.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|hypothetical protein|192|NZ_AP017565(111135):17584-17775:1 ^^ Pseudanabaena sp. ABRG5-3 plasmid ABRG53e, complete sequence.|neighbours:ID:WP_126391495.1(-1),ID:WP_126391499.1(1)|neighbour_genes:YtxH domain-containi..,PRC-barrel domain-co..| | aligned:1-63 (63)
+MPRLVGKKNNSVLYTGLAMLIAAVGIIALEYFGVIDFIPNFGKETEVKSNATSQPVKINKPVN
+>ID:WP_015168733.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|hypothetical protein|201|NC_019702(3510253):2060859-2061059:-1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015168732.1(-1),ID:WP_015168734.1(-1)|neighbour_genes:PRC-barrel domain-co..,hypothetical protein| | aligned:1-63 (66)
+MPRLVGKKFNPALSIGLGLLIAALGTIALEYFGVINIIPDTGKEPKPTSTSTQMPVQINKSNNSTN

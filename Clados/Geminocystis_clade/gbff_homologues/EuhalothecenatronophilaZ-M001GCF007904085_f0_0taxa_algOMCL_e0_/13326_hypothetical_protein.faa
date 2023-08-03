@@ -1,0 +1,4 @@
+>ID:WP_015220681.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|hypothetical protein|267|NC_019776(4114099):3450982-3451248:-1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015220680.1(-1),ID:WP_015220682.1(-1)|neighbour_genes:PIN domain-containin..,glmS| | aligned:1-88 (88)
+MEATKVIGMIDNQGQLIIKEKINLSPGKVEIVILKSENINIQDNEKKESKIKFKNQTFRDLLENQNPTDENYDVDEQKWSYLKEKHNL
+>ID:WP_017294062.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|hypothetical protein|267|NZ_CM001775(4263418):1738705-1738971:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017294061.1(1),ID:WP_017294063.1(1)|neighbour_genes:hypothetical protein,PIN domain-containin..| | aligned:1-88 (88)
+MEATKLKGIVNQKGQLIIEESINLSPGEVEIVILKIDNLNNTKISIKSPPIKHRSQTFKDLLENQSPTDENFNVDGKKWDYLKDKHNL

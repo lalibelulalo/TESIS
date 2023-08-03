@@ -1,0 +1,4 @@
+>ID:WP_015193175.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|hypothetical protein|216|NC_019748(5041209):2190105-2190320:-1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015193174.1(1),ID:WP_015193176.1(-1)|neighbour_genes:rbsK,nadA| | aligned:1-71 (71)
+MSQTQELRYRFYHELETIYHRFFDEIAQANLGDGEAGRLTQAVLLSRQEGLKHLVSPDEIADYLAIYPEDA
+>ID:WP_096384769.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|216|NZ_AP017375(5319768):3273714-3273929:1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096384768.1(1),ID:WP_096384770.1(-1)|neighbour_genes:quinolinate synthase..,rbsK| | aligned:1-71 (71)
+MSQTQELRYRFYHELETIYHRFFDEIARANLGDGEAGRLTQAVLLSRQEGLKQLVSPDEMADYLAIYPEDA

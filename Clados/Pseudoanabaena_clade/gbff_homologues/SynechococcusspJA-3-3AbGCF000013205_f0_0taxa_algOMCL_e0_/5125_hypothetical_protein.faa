@@ -1,0 +1,4 @@
+>ID:WP_015146160.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|hypothetical protein|315|NC_019690(328634):143655-143969:-1 ^^ Pseudanabaena sp. PCC 7367 plasmid pPSE7367.01, complete sequence.|neighbours:ID:WP_015146159.1(-1),ID:WP_225882728.1(1)|neighbour_genes:type II toxin-antito..,helix-turn-helix dom..| | aligned:1-104 (104)
+MATLNQKIQQHLDALPGEQVKAAVKRWLNNSDIDLVKLEQSLAQEQDAIAKFDAIMESEEFRKEFPYMTEEEQIQRSLRAHAEFERDGGKSHAEIGAWIKSLPR
+>ID:WP_015146233.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|hypothetical protein|315|NC_019690(328634):227321-227635:1 ^^ Pseudanabaena sp. PCC 7367 plasmid pPSE7367.01, complete sequence.|neighbours:ID:WP_015146232.1(1),ID:WP_015146234.1(1)|neighbour_genes:tetratricopeptide re..,type II toxin-antito..| | aligned:1-104 (104)
+MATLNQKIQQQLDALPGDQVKAALKRWLDISDADLTALEQALWEEQEAIAAVDTMMESQKFIQEFPILTEEQKIQRSLEAHADYEKNGGIANAEIEAWISNLPN

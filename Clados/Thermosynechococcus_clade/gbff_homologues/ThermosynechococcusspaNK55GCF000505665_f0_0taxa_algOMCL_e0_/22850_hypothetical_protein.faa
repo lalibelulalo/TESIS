@@ -1,0 +1,4 @@
+>ID:WP_015126315.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|hypothetical protein|126|NC_019681(23223):2382-2507:-1 ^^ Synechococcus sp. PCC 6312 plasmid pSYN6312.01, complete sequence.|neighbours:ID:WP_015126314.1(1),ID:WP_015126316.1(-1)|neighbour_genes:DUF6464 family prote..,BrnT family toxin| | aligned:1-41 (41)
+MTEEELQAAIDSDPDCAELPDEAWETAEFVPAFTPIETLKR
+>ID:WP_015124359.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|hypothetical protein|126|NC_019680(3697276):1648752-1648877:1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015124358.1(1),ID:WP_015124360.1(-1)|neighbour_genes:BrnT family toxin,phosphoketolase fami..| | aligned:1-41 (41)
+MTEAELQAAIDSDPDCDELPDQAWETAEFVPAFTPIESLNR

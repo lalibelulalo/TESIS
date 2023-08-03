@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  1 AUG 2023 23:22
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  3 AUG 2023 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1099,58 +1099,247 @@ File: Resultados_files/figure-latex/FIG23C-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23C-2.pdf>
 File: Resultados_files/figure-latex/FIG23C-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23C-3.pdf>
+File: Clados/Geminocystis_clade/figures/geminocystis_Octanuc_FrecObs_sel32_filo
+genia_HIG.png Graphic file (type bmp)
+<Clados/Geminocystis_clade/figures/geminocystis_Octanuc_FrecObs_sel32_filogenia
+_HIG.png>
+
+LaTeX Warning: Reference `fig:FIG13G' on page 45 undefined on input line 974.
+
+
+LaTeX Warning: Reference `tab:TAB6G' on page 45 undefined on input line 974.
+
+[45] [46] [47] [48] [49] [50]
+
+LaTeX Warning: Reference `fig:FIG14G' on page 51 undefined on input line 976.
+
+File: Resultados_files/figure-latex/FIG15G-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG15G-1.pdf>
+
+LaTeX Warning: Reference `fig:FIG16G' on page 51 undefined on input line 990.
+
+
+LaTeX Warning: Reference `fig:FIG17G' on page 51 undefined on input line 990.
+
+[51]
+File: Resultados_files/figure-latex/FIG18G-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG18G-1.pdf>
+File: Resultados_files/figure-latex/FIG18G-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG18G-2.pdf>
+File: Resultados_files/figure-latex/FIG18G-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG18G-3.pdf>
+[52]
+File: Resultados_files/figure-latex/FIG19G-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG19G-1.pdf>
+File: Resultados_files/figure-latex/FIG19G-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG19G-2.pdf>
+File: Resultados_files/figure-latex/FIG19G-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG19G-3.pdf>
+[53]
+File: Resultados_files/figure-latex/FIG20G-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG20G-1.pdf>
+File: Resultados_files/figure-latex/FIG20G-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG20G-2.pdf>
+File: Resultados_files/figure-latex/FIG20G-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG20G-3.pdf>
+File: Resultados_files/figure-latex/FIG21G-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG21G-1.pdf>
+File: Resultados_files/figure-latex/FIG21G-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG21G-2.pdf>
+File: Resultados_files/figure-latex/FIG21G-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG21G-3.pdf>
+File: Resultados_files/figure-latex/FIG22G-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG22G-1.pdf>
+File: Resultados_files/figure-latex/FIG22G-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG22G-2.pdf>
+File: Resultados_files/figure-latex/FIG22G-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG22G-3.pdf>
+File: Resultados_files/figure-latex/FIG23G-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG23G-1.pdf>
+File: Resultados_files/figure-latex/FIG23G-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG23G-2.pdf>
+File: Resultados_files/figure-latex/FIG23G-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG23G-3.pdf>
+File: Clados/Pseudoanabaena_clade/figures/pseudoanabaena_Octanuc_FrecObs_sel32_
+filogenia_HIG.png Graphic file (type bmp)
+<Clados/Pseudoanabaena_clade/figures/pseudoanabaena_Octanuc_FrecObs_sel32_filog
+enia_HIG.png>
+
+LaTeX Warning: Reference `fig:FIG13P' on page 54 undefined on input line 1126.
+
+
+LaTeX Warning: Reference `tab:TAB6P' on page 54 undefined on input line 1126.
+
+[54] [55] [56] [57] [58] [59]
+
+LaTeX Warning: Reference `fig:FIG14P' on page 60 undefined on input line 1128.
+
+File: Resultados_files/figure-latex/FIG15P-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG15P-1.pdf>
+
+LaTeX Warning: Reference `fig:FIG16P' on page 60 undefined on input line 1142.
+
+
+LaTeX Warning: Reference `fig:FIG17P' on page 60 undefined on input line 1142.
+
+[60]
+File: Resultados_files/figure-latex/FIG18P-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG18P-1.pdf>
+File: Resultados_files/figure-latex/FIG18P-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG18P-2.pdf>
+File: Resultados_files/figure-latex/FIG18P-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG18P-3.pdf>
+
+Underfull \vbox (badness 1163) has occurred while \output is active []
+
+[61]
+File: Resultados_files/figure-latex/FIG19P-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG19P-1.pdf>
+File: Resultados_files/figure-latex/FIG19P-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG19P-2.pdf>
+File: Resultados_files/figure-latex/FIG19P-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG19P-3.pdf>
+File: Resultados_files/figure-latex/FIG20P-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG20P-1.pdf>
+File: Resultados_files/figure-latex/FIG20P-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG20P-2.pdf>
+File: Resultados_files/figure-latex/FIG20P-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG20P-3.pdf>
+File: Resultados_files/figure-latex/FIG21P-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG21P-1.pdf>
+File: Resultados_files/figure-latex/FIG21P-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG21P-2.pdf>
+File: Resultados_files/figure-latex/FIG21P-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG21P-3.pdf>
+File: Resultados_files/figure-latex/FIG22P-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG22P-1.pdf>
+File: Resultados_files/figure-latex/FIG22P-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG22P-2.pdf>
+File: Resultados_files/figure-latex/FIG22P-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG22P-3.pdf>
+File: Resultados_files/figure-latex/FIG23P-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG23P-1.pdf>
+File: Resultados_files/figure-latex/FIG23P-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG23P-2.pdf>
+File: Resultados_files/figure-latex/FIG23P-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG23P-3.pdf>
+File: Clados/Thermosynechococcus_clade/figures/thermosynechococcus_Octanuc_Frec
+Obs_sel32_filogenia_HIG.png Graphic file (type bmp)
+<Clados/Thermosynechococcus_clade/figures/thermosynechococcus_Octanuc_FrecObs_s
+el32_filogenia_HIG.png>
+[62] [63] [64] [65] [66] [67]
+Underfull \vbox (badness 2088) has occurred while \output is active []
+
+[68]
+
+LaTeX Warning: Reference `fig:FIG13T' on page 69 undefined on input line 1278.
+
+
+LaTeX Warning: Reference `tab:TAB6T' on page 69 undefined on input line 1278.
+
+
+LaTeX Warning: Reference `fig:FIG14T' on page 69 undefined on input line 1280.
+
+File: Resultados_files/figure-latex/FIG15T-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG15T-1.pdf>
+
+LaTeX Warning: Reference `fig:FIG16T' on page 69 undefined on input line 1294.
+
+
+LaTeX Warning: Reference `fig:FIG17T' on page 69 undefined on input line 1294.
+
+File: Resultados_files/figure-latex/FIG18T-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG18T-1.pdf>
+File: Resultados_files/figure-latex/FIG18T-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG18T-2.pdf>
+File: Resultados_files/figure-latex/FIG18T-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG18T-3.pdf>
+[69]
+File: Resultados_files/figure-latex/FIG19T-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG19T-1.pdf>
+File: Resultados_files/figure-latex/FIG19T-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG19T-2.pdf>
+File: Resultados_files/figure-latex/FIG19T-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG19T-3.pdf>
+[70] [71] [72]
+File: Resultados_files/figure-latex/FIG20T-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG20T-1.pdf>
+File: Resultados_files/figure-latex/FIG20T-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG20T-2.pdf>
+File: Resultados_files/figure-latex/FIG20T-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG20T-3.pdf>
+File: Resultados_files/figure-latex/FIG21T-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG21T-1.pdf>
+File: Resultados_files/figure-latex/FIG21T-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG21T-2.pdf>
+File: Resultados_files/figure-latex/FIG21T-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG21T-3.pdf>
+File: Resultados_files/figure-latex/FIG22T-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG22T-1.pdf>
+File: Resultados_files/figure-latex/FIG22T-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG22T-2.pdf>
+File: Resultados_files/figure-latex/FIG22T-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG22T-3.pdf>
+File: Resultados_files/figure-latex/FIG23T-1.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG23T-1.pdf>
+File: Resultados_files/figure-latex/FIG23T-2.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG23T-2.pdf>
+File: Resultados_files/figure-latex/FIG23T-3.pdf Graphic file (type pdf)
+<use Resultados_files/figure-latex/FIG23T-3.pdf>
+[73] [74] [75]
 File: figures/A18-40_Octanuc_OE_sel32_filogenia_HIG.png Graphic file (type bmp)
 
 <figures/A18-40_Octanuc_OE_sel32_filogenia_HIG.png>
 File: figures/circos.png Graphic file (type bmp)
 <figures/circos.png>
+[76] [77]
 File: figures/out.png Graphic file (type bmp)
 <figures/out.png>
 
-Overfull \hbox (205.03809pt too wide) in paragraph at lines 964--965
+Overfull \hbox (205.03809pt too wide) in paragraph at lines 1420--1421
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 60.08807pt on input line 969.
+LaTeX Warning: Float too large for page by 60.08807pt on input line 1425.
 
 
-Overfull \hbox (9.61006pt too wide) in paragraph at lines 980--995
+Overfull \hbox (9.61006pt too wide) in paragraph at lines 1436--1451
  [][] 
  []
 
-[45] [46] [47] [48] [49] [50] [51] [52]
+[78] [79] [80]
 File: Clados/Clado_A18-40/SWM_repeat_AA.png Graphic file (type bmp)
 <Clados/Clado_A18-40/SWM_repeat_AA.png>
-[53]
-Overfull \hbox (10.26004pt too wide) in paragraph at lines 1054--1075
+
+Overfull \hbox (10.26004pt too wide) in paragraph at lines 1510--1531
  [][] 
  []
 
 File: Clados/Clado_A18-40/SWM_3.png Graphic file (type bmp)
 <Clados/Clado_A18-40/SWM_3.png>
 
-Overfull \hbox (912.56133pt too wide) in paragraph at lines 1115--1116
+Overfull \hbox (912.56133pt too wide) in paragraph at lines 1571--1572
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 28.812pt on input line 1120.
+LaTeX Warning: Float too large for page by 28.812pt on input line 1576.
 
-(./TESIS.bbl [54] [55] [56]) [57
+(./TESIS.bbl [81] [82] [83] [84
 
-] (./TESIS.aux)
+]) [85] (./TESIS.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 20148 strings out of 476191
- 393455 string characters out of 5812072
- 849343 words of memory out of 5000000
- 40522 multiletter control sequences out of 15000+600000
+ 20832 strings out of 476191
+ 425019 string characters out of 5812072
+ 851627 words of memory out of 5000000
+ 41143 multiletter control sequences out of 15000+600000
  475734 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  86i,15n,121p,1002b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on TESIS.pdf (57 pages).
+Output written on TESIS.pdf (85 pages).

@@ -1,0 +1,4 @@
+>ID:WP_096724744.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|YgiT-type zinc finge..|240|NZ_AP018285(22161):15390-15629:-1 ^^ Chondrocystis sp. NIES-4102 plasmid plasmid4 DNA, complete genome.|neighbours:ID:WP_096724742.1(-1),ID:WP_096724746.1(-1)|neighbour_genes:TetR/AcrR family tra..,DUF4258 domain-conta..| | aligned:1-75 (79)
+MFKCHVCGSEDSRTEYTNEVFNIGGKFYLVEDIPTKVCSRCGEEVFSRETTERIRLMLHGENKPVRSISLDVFSYDEAV
+>ID:WP_017295630.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|YgiT-type zinc finge..|234|NZ_CM001775(4263418):3371429-3371662:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017295629.1(1),ID:WP_020479974.1(1)|neighbour_genes:DUF4258 domain-conta..,dynamin family prote..| | aligned:1-75 (77)
+MNKCHVCGSNEIKQKLVKETFEIDGKLVIVEEIPAQVCQRCGEITFSSEIAENIRLIIYSNKQPTKSIQVDVFAFSA

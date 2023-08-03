@@ -1,0 +1,20 @@
+>ID:WP_096720209.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|photosystem II prote..|120|NZ_AP018281(4516676):2332765-2332884:1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096720207.1(-1),ID:WP_096720211.1(1)|neighbour_genes:FHA domain-containin..,alanine--tRNA ligase| | aligned:1-39 (39)
+MDWRVLIVLSPLAIAAGWAIFNIGSAAIAQAQRYFGKQG
+>ID:WP_015220437.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|photosystem II prote..|123|NC_019776(4114099):3144518-3144640:1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015220436.1(1),ID:WP_015220438.1(-1)|neighbour_genes:hypothetical protein,FAD-dependent oxidor..| | aligned:1-40 (40)
+MDWRVLIVLLPLGVAAGWALFNIGAAAIAQFQKVLNKQNS
+>ID:WP_015230397.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|photosystem II prote..|123|NC_019780(3781008):2940696-2940818:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015230396.1(1),ID:WP_015230398.1(-1)|neighbour_genes:mannose-1-phosphate ..,S9 family peptidase| | aligned:1-40 (40)
+MDWRIVIVLAPVLLAASWALFNIGAVAIRQAQDFLNNQNS
+>ID:WP_146294851.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|photosystem II prote..|123|NZ_CP042326(3326959):950932-951054:-1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146294850.1(-1),ID:WP_146294852.1(-1)|neighbour_genes:TrkA family potassiu..,S9 family peptidase| | aligned:1-40 (40)
+MDWRILIVLAPVMVAAGWAVFNIGAIALRQAQDFLNRQNS
+>ID:WP_017294207.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|photosystem II prote..|126|NZ_CM001775(4263418):1890309-1890434:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017294206.1(1),ID:WP_017294208.1(1)|neighbour_genes:zinc ribbon domain-c..,mnmE| | aligned:3-41 (41)
+MDFDWRLLVVLLPLGVAGGWAVYNIGALAITQAQKFLKKQS
+>ID:WP_066343310.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|photosystem II prote..|120|NZ_AP014815(3883409):275084-275203:-1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_066349291.1(-1),ID:WP_066343312.1(1)|neighbour_genes:mnmE,alpha/beta hydrolase| | aligned:1-39 (39)
+MDWRILIVVLPLAVAGGWAVYNIGTLAINQAQKFLKKQS
+>ID:WP_066117355.1 |[Geminocystis sp. NIES-3709]|NIES-3709|Geminocystis_sp_NIES-3709_GCF_001548115.1_genomic.gbff|photosystem II prote..|120|NZ_AP014821(4150181):1468651-1468770:1 ^^ Geminocystis sp. NIES-3709 chromosome, complete genome.|neighbours:ID:WP_066117352.1(1),ID:WP_197671886.1(1)|neighbour_genes:2Fe-2S iron-sulfur c..,mnmE| | aligned:1-39 (39)
+MDWRLLVVLLPLGVAGGWAVFNIGALALSQAQKFLNKQS
+>ID:WP_015224823.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|photosystem II prote..|123|NC_019779(4179170):810821-810943:1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015224822.1(1),ID:WP_015224824.1(-1)|neighbour_genes:S9 family peptidase,mannose-1-phosphate ..| | aligned:1-40 (40)
+MDWRIVIVLSPIILAASWALFNIGAAAIRQAQDFLNNQNG
+>ID:WP_015192120.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|photosystem II prote..|120|NC_019748(5041209):947971-948090:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015192119.1(1),ID:WP_015192121.1(-1)|neighbour_genes:gamma carbonic anhyd..,mutL| | aligned:1-39 (39)
+MDWRLIIVLAPLIVAGSWALYNVGTIALRQAQQFIGKNS
+>ID:WP_096387075.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|photosystem II prote..|120|NZ_AP017375(5319768):5039405-5039524:1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096387071.1(1),ID:WP_096387078.1(-1)|neighbour_genes:gamma carbonic anhyd..,DNA mismatch repair ..| | aligned:1-39 (39)
+MDWRLIIVLAPLIVAASWALYNVGAIALRQAQQFIGKNS

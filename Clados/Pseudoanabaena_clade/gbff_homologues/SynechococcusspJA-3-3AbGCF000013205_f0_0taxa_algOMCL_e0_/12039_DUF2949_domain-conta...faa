@@ -1,0 +1,4 @@
+>ID:WP_011432361.1 |[Synechococcus sp. JA-2-3B'a(2-13)]|JA-2-3B'a(2-13)|Synechococcus_sp_JA-2-3Ba_2-13_JA-2-3Ba_2-13_GCF_000013225.1_genomic.gbff|DUF2949 domain-conta..|258|NC_007776(3046682):739515-739772:-1 ^^ Synechococcus sp. JA-2-3B'a(2-13), complete sequence.|neighbours:ID:WP_011432360.1(1),ID:WP_011432362.1(-1)|neighbour_genes:multidrug efflux RND..,hypothetical protein| | aligned:1-84 (85)
+MEPTLPDLQALSQWDRQFCQFAEQQQLLKPKQLALALKIQRQQHGPLALILWQLGFVGLQHLAQFWEKMPSEAESELLEDRACGG
+>ID:WP_041438079.1 |[Synechococcus sp. JA-3-3Ab]|JA-3-3Ab|Synechococcus_sp_JA-3-3Ab_GCF_000013205.1_genomic.gbff|DUF2949 domain-conta..|255|NC_007775(2932766):450604-450858:1 ^^ Synechococcus sp. JA-3-3Ab, complete sequence.|neighbours:ID:WP_011429340.1(1),ID:WP_011429342.1(-1)|neighbour_genes:hypothetical protein,multidrug efflux RND..| | aligned:1-84 (84)
+MELTVPDLQALSQWDRQFCRFAEQQQLLKPKQLALALKIQRQQHGPLALILWQLGFVGLQHLAQFWERVSGDADPELLQDKAFG

@@ -1,0 +1,6 @@
+>ID:WP_087067964.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|hypothetical protein|213|NZ_LT578417(3021545):1533906-1534118:-1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087067963.1(-1),ID:WP_225867640.1(1)|neighbour_genes:chlorophyll a/b-bind..,DoxX family membrane..| | aligned:1-64 (70)
+MTVGELFLESVSTGVITPAELHWLTQRQNLFSRVEEAAAVRLGRLLDQGEIQLGCRLGHRPAPSGGFPAA
+>ID:WP_225875657.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|hypothetical protein|210|NZ_CP047940(2748087):2164891-2165100:1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186697158.1(-1),ID:WP_186697159.1(1)|neighbour_genes:DUF839 domain-contai..,hypothetical protein| | aligned:9-65 (69)
+MNTLRNIAMTMGELFLESMATGVITPEELSWLARRQTEFSRVEEAAALRLGRLLDQGVIQLGCRLPRLA
+>ID:WP_197211870.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|hypothetical protein|222|NZ_CP060397(3672318):525590-525811:1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197211868.1(-1),ID:WP_197213355.1(-1)|neighbour_genes:cyclic nucleotide-bi..,arsS| | aligned:1-64 (73)
+MLIGEVYLEALASGIITQDEIDWLTTHQASFNRDEEAKALKIGRLLDEGAIQIGCRLLGKPSTSVSNTGSGAG

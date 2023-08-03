@@ -1,0 +1,12 @@
+>ID:WP_015157766.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|ribbon-helix-helix p..|135|NC_019697(6284095):299980-300114:-1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_232432157.1(-1),ID:WP_232432262.1(-1)|neighbour_genes:S-layer homology dom..,ftsZ| | aligned:1-44 (44)
+MSLKQLNVKIPEQELRILEAFAEKTERTKTDIIREFIRSLQAKI
+>ID:WP_015161962.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|150|NC_019697(6284095):5263799-5263948:-1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015161961.1(1),ID:WP_015161963.1(-1)|neighbour_genes:GDYXXLXY domain-cont..,HEAT repeat domain-c..| | aligned:3-48 (49)
+MTVKARKVKQLNIKLPVRELSILETFTEQAERTKTDVIREFIRALQVNT
+>ID:WP_086936273.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|ribbon-helix-helix p..|147|NC_019697(6284095):5820413-5820559:-1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015162462.1(1),ID:WP_232432140.1(-1)|neighbour_genes:tkt,NAD(P)H-hydrate dehy..| | aligned:1-47 (48)
+MRTKSPRQLNVKLLKQDIEILEAFSEKTQRTKTDIIREFIRSLQNEIR
+>ID:WP_096724091.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|DNA-binding protein|153|NZ_AP018282(161734):85343-85495:1 ^^ Chondrocystis sp. NIES-4102 plasmid plasmid1 DNA, complete genome.|neighbours:ID:WP_096724089.1(1),ID:WP_096724093.1(-1)|neighbour_genes:LuxR C-terminal-rela..,hypothetical protein| | aligned:1-44 (50)
+MPKTTFNIRIEESEMTLLEAYCQQVGRTKTDVVRELIRSLKRKISDYPDR
+>ID:WP_015224771.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|ribbon-helix-helix p..|135|NC_019779(4179170):745218-745352:-1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015224770.1(-1),ID:WP_235620736.1(1)|neighbour_genes:TPM domain-containin..,helix-turn-helix dom..| | aligned:1-44 (44)
+MAKTQLNLRIEESEMRILERYAKKTGRTKTDILREFIRCLKFSV
+>ID:WP_015224771.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|ribbon-helix-helix p..|135|NC_019779(4179170):749813-749947:-1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015224775.1(-1),ID:WP_015224776.1(1)|neighbour_genes:tryptophan-rich sens..,RNA-guided endonucle..| | aligned:1-44 (44)
+MAKTQLNLRIEESEMRILERYAKKTGRTKTDILREFIRCLKFSV

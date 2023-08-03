@@ -1,0 +1,6 @@
+>ID:WP_012162958.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|144|NC_009925(6503724):2515328-2515471:1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012162957.1(-1),ID:WP_012162959.1(1)|neighbour_genes:Calvin cycle protein..,glycosyltransferase ..| | aligned:1-47 (47)
+MMTICDNTDQTELLRFWVQELTHLSPHEVDEVVTALSQEKATLNPAA
+>ID:WP_212663344.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|144|NZ_CP064923(5881945):5194989-5195132:1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212663343.1(-1),ID:WP_212666411.1(1)|neighbour_genes:Calvin cycle protein..,glycosyltransferase ..| | aligned:1-47 (47)
+MTTICDNTDQTELLRFWVRELTHFSPHEVDAVVTALSQEKATLNPAS
+>ID:WP_212663344.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|hypothetical protein|144|NZ_CP071717(5699248):2209023-2209166:1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_212663343.1(-1),ID:WP_235110299.1(1)|neighbour_genes:Calvin cycle protein..,glycosyltransferase| | aligned:1-47 (47)
+MTTICDNTDQTELLRFWVRELTHFSPHEVDAVVTALSQEKATLNPAS

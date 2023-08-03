@@ -1,0 +1,6 @@
+>ID:WP_015160025.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|204|NC_019697(6284095):2978623-2978826:1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015160024.1(1),ID:WP_015160026.1(1)|neighbour_genes:hypothetical protein,transposase| | aligned:1-60 (67)
+MNDQFRIPDPETRAKSIASLKAASRLLDLSNLQLDEAIAFVEKDLREQQRARLLYKSNSIPTNKMDS
+>ID:WP_015160539.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|195|NC_019697(6284095):3581795-3581989:-1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015160538.1(-1),ID:WP_015160540.1(-1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-60 (64)
+METKFKIPDPETRAKTLAKLREARHQGDLAILMLDETLALADAHLLKQHRERLLGKTDSVIDSP
+>ID:WP_237741271.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|hypothetical protein|189|NZ_CM001775(4263418):1702000-1702188:-1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017294018.1(1),ID:WP_017294020.1(-1)|neighbour_genes:DUF4351 domain-conta..,hypothetical protein| | aligned:2-59 (62)
+MMNNLYYIPDLKARTKSVAKWREACRKLDLVTLKFDELIAMIEVDLRHQSLERLQNQIELKD

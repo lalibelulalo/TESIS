@@ -1,0 +1,6 @@
+>ID:WP_071819935.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|chlorophyll A-B bind..|144|NC_009925(6503724):1290056-1290199:1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012161872.1(1),ID:WP_012161875.1(1)|neighbour_genes:efflux RND transport..,high light inducible..| | aligned:1-47 (47)
+MNSSNNFFGFNPFAEAWSGRLAMVGLYIALIIELVTGKGVLHFWGLI
+>ID:WP_012162141.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|144|NC_009925(6503724):1572848-1572991:1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012162140.1(-1),ID:WP_012162142.1(1)|neighbour_genes:ATP-binding cassette..,high light inducible..| | aligned:1-47 (47)
+MNSSNNFFGFNPFAEAWSGRLAMVGIYIALIIELVTGKGVLHFWGLM
+>ID:WP_235112839.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|chlorophyll A-B bind..|144|NZ_CP071723(140525):27251-27394:-1 ^^ Acaryochloris sp. 'Moss Beach' plasmid pMB06, complete sequence.|neighbours:ID:WP_235112838.1(-1),ID:WP_235112840.1(-1)|neighbour_genes:high light inducible..,hypothetical protein| | aligned:1-47 (47)
+MNSSNSFFGFNPFAEAWSGRLAMVGFYIALVIELVTGKGVLHFWGLM

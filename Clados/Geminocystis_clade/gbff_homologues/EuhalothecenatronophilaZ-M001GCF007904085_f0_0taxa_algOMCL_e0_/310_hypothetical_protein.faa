@@ -1,0 +1,8 @@
+>ID:WP_015157814.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|183|NC_019697(6284095):350244-350426:1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015157813.1(1),ID:WP_015157815.1(1)|neighbour_genes:DEAD/DEAH box helica..,hypothetical protein| | aligned:4-60 (60)
+MSTPTDTQLRGLYRLSYWLTYIMIQPIYLVCIDDRTNNLYILAGENENLEFQITPNGGVF
+>ID:WP_015228542.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|hypothetical protein|192|NC_019780(3781008):777082-777273:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_198007627.1(-1),ID:WP_041235310.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:3-60 (63)
+MKPTPAQIEQLYEVTHWLTEYLKEPITIVRIDERPPHHLYVQFGVEDERFFLITAKGDVLSDG
+>ID:WP_173644999.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|hypothetical protein|177|NZ_AP014815(3883409):1678466-1678642:-1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_066345267.1(-1),ID:WP_066345269.1(-1)|neighbour_genes:hypothetical protein,acs| | aligned:1-58 (58)
+MPTSQQLEGLYRICYYLTYRALQPIHLICLDERTGNLFILAGDEENIEMEITPIGEVL
+>ID:WP_096384189.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|219|NZ_AP017375(5319768):2529195-2529413:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096384188.1(-1),ID:WP_096384190.1(-1)|neighbour_genes:hypothetical protein,acs| | aligned:15-72 (72)
+MRLKSVSVVKIKTGMPTTEQLQSLYRVSYQLTYTMLQPIHLICIDNRTKNLYILAGYEEELEFQIKPNGEVI

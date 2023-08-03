@@ -1,0 +1,20 @@
+>ID:WP_010476195.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|PetM family cytochro..|99|NC_009925(6503724):2670709-2670807:1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012163090.1(-1),ID:WP_012163091.1(-1)|neighbour_genes:rubredoxin,ychF| | aligned:1-32 (32)
+MAGEIFTTAFLCFSLILVGIGLGYLLLKVAPD
+>ID:WP_212663400.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|PetM family cytochro..|99|NZ_CP064923(5881945):5268433-5268531:1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212663399.1(-1),ID:WP_212663401.1(-1)|neighbour_genes:rubredoxin,ychF| | aligned:1-32 (32)
+MGGEIFTTAFLCFSLILVGIGLGYLLLKVAPD
+>ID:WP_212663400.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|PetM family cytochro..|99|NZ_CP071717(5699248):2278349-2278447:1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_212663399.1(-1),ID:WP_212663401.1(-1)|neighbour_genes:rubredoxin,ychF| | aligned:1-32 (32)
+MGGEIFTTAFLCFSLILVGIGLGYLLLKVAPD
+>ID:WP_015124662.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|PetM family cytochro..|102|NC_019680(3697276):1954089-1954190:-1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015124661.1(1),ID:WP_015124663.1(-1)|neighbour_genes:hypothetical protein,2-phosphosulfolactat..| | aligned:1-33 (33)
+MAEEIFNTAVISFTLVLVGLGLGYFLLRVTPDE
+>ID:WP_099799527.1 |[Thermostichus lividus PCC 6715]|PCC 6715|Thermostichus_lividus_PCC_6715_GCF_002754935.1_genomic.gbff|petM|102|NZ_CP018092(2659739):2354709-2354810:-1 ^^ Thermostichus lividus PCC 6715 chromosome, complete genome.|neighbours:ID:WP_198406032.1(1),ID:WP_227517399.1(1)|neighbour_genes:AEC family transport..,RNA methyltransferas..| | aligned:1-33 (33)
+MAEEIFNTAVISFTLVLVGLGAGYLLLRLTPDD
+>ID:WP_011057256.1 |[Thermosynechococcus elongatus PKUAC-SCTE542]|PKUAC-SCTE542|Thermosynechococcus_elongatus_PKUAC-SCTE542_GCF_003555505.1_genomic.gbff|cytochrome b6-f comp..|102|NZ_CP032152(2650294):2640524-2640625:1 ^^ Thermosynechococcus elongatus PKUAC-SCTE542 chromosome, complete genome.|neighbours:ID:WP_181495366.1(1),ID:WP_181495367.1(-1)|neighbour_genes:hypothetical protein,AEC family transport..| | aligned:1-33 (33)
+MAEEIFNTAVITFTLVLVGLGAGYLLLRLTPDD
+>ID:WP_011057256.1 |[Thermosynechococcus sp. HN-54]|HN-54|Thermosynechococcus_sp_HN-54_GCF_023650955.1_genomic.gbff|petM|102|NZ_CP098039(2705963):2533782-2533883:-1 ^^ Thermosynechococcus sp. HN-54 chromosome, complete genome.|neighbours:ID:WP_250682361.1(1),ID:WP_250682362.1(-1)|neighbour_genes:AEC family transport..,hypothetical protein| | aligned:1-33 (33)
+MAEEIFNTAVITFTLVLVGLGAGYLLLRLTPDD
+>ID:WP_011057256.1 |[Thermosynechococcus sp. TA-1]|TA-1|Thermosynechococcus_sp_TA-1_GCF_017086385.1_genomic.gbff|petM|102|NZ_CP070960(2658717):875123-875224:1 ^^ Thermosynechococcus sp. TA-1 chromosome, complete genome.|neighbours:ID:WP_206201184.1(1),ID:WP_206201185.1(-1)|neighbour_genes:hypothetical protein,AEC family transport..| | aligned:1-33 (33)
+MAEEIFNTAVITFTLVLVGLGAGYLLLRLTPDD
+>ID:WP_011057256.1 |[Thermosynechococcus sp. NK55a]|NK55|Thermosynechococcus_sp_a_NK55_GCF_000505665.1_genomic.gbff|petM|102|NC_023033(2520064):534200-534301:1 ^^ Thermosynechococcus sp. NK55a, complete sequence.|neighbours:ID:WP_024124272.1(1),ID:WP_024124273.1(-1)|neighbour_genes:hypothetical protein,AEC family transport..| | aligned:1-33 (33)
+MAEEIFNTAVITFTLVLVGLGAGYLLLRLTPDD
+>ID:WP_011057256.1 |[Thermosynechococcus vestitus BP-1]|BP-1|Thermosynechococcus_vestitus_BP-1_GCF_000011345.1_genomic.gbff|cytochrome b6-f comp..|102|NC_004113(2593857):1482638-1482739:1 ^^ Thermosynechococcus vestitus BP-1, complete sequence.|neighbours:ID:WP_011057255.1(1),ID:WP_011057257.1(-1)|neighbour_genes:hypothetical protein,AEC family transport..| | aligned:1-33 (33)
+MAEEIFNTAVITFTLVLVGLGAGYLLLRLTPDD

@@ -1,0 +1,6 @@
+>ID:WP_010481253.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|UPF0175 family prote..|252|NC_009925(6503724):5933842-5934093:1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012166022.1(1),ID:WP_012166023.1(1)|neighbour_genes:DNA adenine methylas..,DUF3368 domain-conta..| | aligned:1-83 (83)
+MTQVTLNIPDDLVVNQADNGESFAHRLQLAAAIYWYARGEISQGKAAQLAGMNRKEFLKRLAHENMDVFQVDFDDLAQELARG
+>ID:WP_015124739.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|UPF0175 family prote..|252|NC_019680(3697276):2024834-2025085:-1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015124738.1(-1),ID:WP_015124740.1(-1)|neighbour_genes:DUF4258 domain-conta..,HEPN domain-containi..| | aligned:1-83 (83)
+MIQIQLNLPESAFSALRSTPDEFAQELLITAVVKWYEMGIISQSKAAEIAGISRQAFLQALNRFEVSPFQTTVEELIEEVGRG
+>ID:WP_099798618.1 |[Thermostichus lividus PCC 6715]|PCC 6715|Thermostichus_lividus_PCC_6715_GCF_002754935.1_genomic.gbff|UPF0175 family prote..|231|NZ_CP018092(2659739):1098589-1098819:1 ^^ Thermostichus lividus PCC 6715 chromosome, complete genome.|neighbours:ID:WP_099798617.1(1),ID:WP_198406178.1(1)|neighbour_genes:Uma2 family endonucl..,DUF3368 domain-conta..| | aligned:3-72 (76)
+MLMQELKLKLPLEVSPDEVKLLLAIKLYEVGKLSIGQAAKVAGYSKRAFMEILGHYQVPIFSYSPDELAAEVDLLS

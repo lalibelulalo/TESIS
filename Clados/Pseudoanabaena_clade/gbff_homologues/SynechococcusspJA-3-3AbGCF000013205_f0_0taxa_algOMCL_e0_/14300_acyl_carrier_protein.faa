@@ -1,0 +1,12 @@
+>ID:WP_126386184.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|acpP|240|NZ_AP017560(4796642):1811263-1811502:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126386183.1(-1),ID:WP_126386185.1(-1)|neighbour_genes:fabF,acyl-CoA thioesteras..| | aligned:1-79 (79)
+MSSTFEQVQEIVASQLGVDKAEVKPEASFANDLGADSLDTVELVMALEEKFGVEIPDEDAEKIATVKDAVDYIDSKQAA
+>ID:WP_015164039.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|acyl carrier protein|243|NC_019701(4557046):979232-979474:1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_041698952.1(-1),ID:WP_015164040.1(1)|neighbour_genes:5-formyltetrahydrofo..,fabF| | aligned:1-79 (80)
+MSETLSKVQDIVADKLSVDAAEVKPEASFANDLGADSLDVVELVMALEEEFEVDIPDEDAEAIATVQDAVNYIEQKKAAV
+>ID:WP_041436540.1 |[Synechococcus sp. JA-2-3B'a(2-13)]|JA-2-3B'a(2-13)|Synechococcus_sp_JA-2-3Ba_2-13_JA-2-3Ba_2-13_GCF_000013225.1_genomic.gbff|acyl carrier protein|246|NC_007776(3046682):1744357-1744602:1 ^^ Synechococcus sp. JA-2-3B'a(2-13), complete sequence.|neighbours:ID:WP_011433268.1(-1),ID:WP_011433270.1(1)|neighbour_genes:rpsF,fabF| | aligned:1-81 (81)
+MSADEVYSRVRKIVSDQLGVEDDKVTPEANFQNDLGADSLDTVELVMAFEEEFDLEIPDEDAEGIATVQDAVNYILSKKAA
+>ID:WP_011431644.1 |[Synechococcus sp. JA-3-3Ab]|JA-3-3Ab|Synechococcus_sp_JA-3-3Ab_GCF_000013205.1_genomic.gbff|acyl carrier protein|246|NC_007775(2932766):2892183-2892428:-1 ^^ Synechococcus sp. JA-3-3Ab, complete sequence.|neighbours:ID:WP_011431643.1(-1),ID:WP_228375378.1(1)|neighbour_genes:fabF,rpsF| | aligned:1-81 (81)
+MSADEVYSRVRKIVSDQLGVEDDKVTLEANFQNDLGADSLDTVELVMAFEEEFDLEIPDEDAEGIATVQDAVNYILSKKAA
+>ID:WP_017325349.1 |[Synechococcus sp. PCC 7336]|PCC 7336|Synechococcus_sp_PCC_7336_GCF_000332275.1_genomic.gbff|acyl carrier protein|240|NZ_CM001776(5066637):1611337-1611576:-1 ^^ Synechococcus sp. PCC 7336 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017325348.1(-1),ID:WP_017325350.1(-1)|neighbour_genes:fabF,ggt| | aligned:1-79 (79)
+MSATLESVRKIVAEQLGVEEGTIEPGSHFQNDLGADSLDTVELVMAFEEEFDLEIPDEEAEKIATVGDAVSYIETTNKS
+>ID:WP_015170025.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|acpP|243|NC_019702(3510253):3469667-3469909:-1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015170024.1(-1),ID:WP_015170026.1(1)|neighbour_genes:fabF,rfaE2| | aligned:1-79 (80)
+MSDTLAKVQSIVAEQLGVEVAEVKPEASFQNDLGADSLDLVEVVMALEEEFEVEIPDEDADSIKTVQEAVDYIEQKQAAA

@@ -1,0 +1,4 @@
+>ID:WP_197210501.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|hypothetical protein|222|NZ_CP060397(3672318):2387567-2387788:1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_231596786.1(-1),ID:WP_197210502.1(-1)|neighbour_genes:FecR domain-containi..,Txe/YoeB family addi..| | aligned:1-70 (73)
+MAEARTQLSSLLDAVEAGEAVVSTRRCKPLAELVPRCNVHDLLPQLAALRGSLPEQPTTGVETMRAFWDEPGA
+>ID:WP_197148138.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|type II toxin-antito..|237|NZ_CP060395(3226220):2032416-2032652:1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197148137.1(-1),ID:WP_197148139.1(1)|neighbour_genes:plasmid stabilizatio..,type II toxin-antito..| | aligned:6-75 (78)
+MVEVTVAEAKTQLSSLLDAVEAGEAVVITRRGKPIAELVPRCSVRDLLPQLAALREALPEQQASGVETMRALRDDSRP

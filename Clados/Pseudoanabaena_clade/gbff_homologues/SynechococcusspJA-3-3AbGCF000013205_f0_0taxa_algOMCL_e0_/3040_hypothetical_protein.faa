@@ -1,0 +1,6 @@
+>ID:WP_126387114.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|hypothetical protein|282|NZ_AP017560(4796642):2885111-2885392:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126387113.1(-1),ID:WP_126387115.1(-1)|neighbour_genes:hypothetical protein,4-vinyl reductase| | aligned:1-93 (93)
+MNSSDWRLQPLRSFWQGVNWENQVIAPVIVNTQNGSYPTLSLLMPVRQYFRAIAWNGVPEIAVTSHDSAPSVNAVDDNSVTVEDFLDDISKFF
+>ID:WP_156800339.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|hypothetical protein|324|NC_019701(4557046):1097071-1097394:-1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015164125.1(-1),ID:WP_015164127.1(-1)|neighbour_genes:hypothetical protein,4-vinyl reductase 4V..| | aligned:14-107 (107)
+MTANSAAANMADGWQDQTVLSFWKAVNWENMPIAVAAVTQQQDGSPALNVVTTLSMELPVQKYFAAIPWSGVGEIGAVPQATTDNIGSPEDRSDTLDDFLDDISQFF
+>ID:WP_015169291.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|hypothetical protein|252|NC_019702(3510253):2656614-2656865:1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015169290.1(1),ID:WP_015169292.1(1)|neighbour_genes:hydrocarbon binding ..,murI| | aligned:1-83 (83)
+MTNQKFLGQTVKAFWQGVNWENRPILTNQSSSSAMTLTVQDYFAMIPWSGGAIAVATSKPQIPQDLGSSETLEDFLDDISKFF

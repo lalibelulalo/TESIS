@@ -1,0 +1,12 @@
+>ID:WP_015159937.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|186|NC_019697(6284095):2860746-2860931:1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015159936.1(1),ID:WP_015159938.1(-1)|neighbour_genes:BCD family MFS trans..,putative O-linked N-..| | aligned:15-61 (61)
+MTSPIDPDLPTTSQDRQDSVSNRDENRTEPQPAEPILCPHCLRTASNGIKCKGICVSDSDY
+>ID:WP_015220622.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|hypothetical protein|156|NC_019776(4114099):3373433-3373588:-1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015220621.1(1),ID:WP_015220623.1(-1)|neighbour_genes:hypothetical protein,MFS transporter| | aligned:1-51 (51)
+MKDLDRENDNLNNCSQNQDQKQEEKILCPHCKRTATNGIKCKGICVADSDY
+>ID:WP_017292442.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|hypothetical protein|153|NZ_CM001775(4263418):70777-70929:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017292441.1(1),ID:WP_017292443.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:2-50 (50)
+MMKSTIEQDKNIKNNQPNQEMNDPILCDHCKRTATNGIKCKGICVADNDY
+>ID:WP_173644989.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|hypothetical protein|165|NZ_AP014815(3883409):576672-576836:1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_066343827.1(1),ID:WP_082713979.1(-1)|neighbour_genes:Mur ligase family pr..,M15 family metallope..| | aligned:1-54 (54)
+MTNSINSDKNSKKIFMNHKSDAQIKDELILCQHCLRTANNGIKCKGICVADSDY
+>ID:WP_173645705.1 |[Geminocystis sp. NIES-3709]|NIES-3709|Geminocystis_sp_NIES-3709_GCF_001548115.1_genomic.gbff|hypothetical protein|159|NZ_AP014821(4150181):1666534-1666692:1 ^^ Geminocystis sp. NIES-3709 chromosome, complete genome.|neighbours:ID:WP_066117802.1(1),ID:WP_066117809.1(1)|neighbour_genes:cysteine desulfurase,cysC| | aligned:1-52 (52)
+MTFFVETDKNNSIKNSESSQEMTDNPILCNHCKRTATNGIKCKGICVADSDY
+>ID:WP_096382868.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|210|NZ_AP017375(5319768):1617912-1618121:1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096382864.1(1),ID:WP_096382871.1(1)|neighbour_genes:hypothetical protein,RtcB family protein| | aligned:1-69 (69)
+MTLKFQSEQFEPQVSINQKSERETANQTSLSNSSLSDNTIVDKILCSHCQRTATNGIKCQGICVADSEY

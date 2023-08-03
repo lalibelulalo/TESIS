@@ -1,0 +1,6 @@
+>ID:WP_017292938.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|type II toxin-antito..|240|NZ_CM001775(4263418):603051-603290:-1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017292937.1(1),ID:WP_017292939.1(-1)|neighbour_genes:hemB,hypothetical protein| | aligned:1-79 (79)
+MPKNIPSLKPKELIKILEKAGCQYYREGKGDHRLYFREFEGKKRVVPIDIGAKEMSPPYVLRIFRQFGFTDNEIQILIK
+>ID:WP_015191804.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|type II toxin-antito..|240|NC_019748(5041209):608108-608347:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015191803.1(1),ID:WP_015191805.1(-1)|neighbour_genes:hypothetical protein,type II toxin-antito..| | aligned:1-79 (79)
+MPKNIPSLKLKQLIKILEKGGCKFYREGKGDHCIYIRIIDDKRWIVPIDLGAREMSPAYVLRIFRQFGFTDKEIEKLLR
+>ID:WP_096382556.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|type II toxin-antito..|240|NZ_AP017375(5319768):1495067-1495306:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096382553.1(1),ID:WP_096387829.1(-1)|neighbour_genes:transcriptional regu..,type II toxin-antito..| | aligned:1-79 (79)
+MPKNIPSLKPKQLIKILEKGGCKFYREGKGDHYIYIRIIEDKRWIVPIDLGAREMSPAYVLRIFRQFGFIDKEIEKLLR

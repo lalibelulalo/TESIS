@@ -1,0 +1,4 @@
+>ID:WP_012161525.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|285|NC_009925(6503724):884782-885066:-1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012161523.1(1),ID:WP_187152941.1(1)|neighbour_genes:chemotaxis protein C..,ammonium transporter| | aligned:1-94 (94)
+MDDRLKVLVALQMRYKVPKPEATVMAEAWLQANPDQTWASLNSMLKSSQVVVAGDQLVFAGSAPQSPPSQATAQSPPPSAPSNKAQRMYRGRPI
+>ID:WP_235108932.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|hypothetical protein|288|NZ_CP071717(5699248):515241-515528:1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235108931.1(-1),ID:WP_235108933.1(-1)|neighbour_genes:ammonium transporter,chemotaxis protein C..| | aligned:1-95 (95)
+MDDRLKVLVAMQMRYKVPRPEATVMGEAWLQANPGQTWTTLNEFLKSAQVVVADNQLVFAGGAAPQSPPAQASAESPPQTTPNNKVQRMYRGRPI

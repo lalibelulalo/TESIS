@@ -1,0 +1,4 @@
+>ID:WP_198013410.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|hypothetical protein|144|NC_019701(4557046):2808690-2808833:1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015165439.1(1),ID:WP_015165441.1(1)|neighbour_genes:GNAT family N-acetyl..,GUN4 domain-containi..| | aligned:6-47 (47)
+MTMKLKLQDSAIGLVILILFIGFAFAGFRILHREGSYNHRNTYYLNQ
+>ID:WP_156800385.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|hypothetical protein|153|NC_019701(4557046):2809715-2809867:1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015165441.1(1),ID:WP_015165442.1(-1)|neighbour_genes:GUN4 domain-containi..,TauD/TfdA family dio..| | aligned:5-50 (50)
+MKTKTKKKQITEAIVCLSLVGLFVGFSIAGYRILHQGGASHDYNTHYLHE

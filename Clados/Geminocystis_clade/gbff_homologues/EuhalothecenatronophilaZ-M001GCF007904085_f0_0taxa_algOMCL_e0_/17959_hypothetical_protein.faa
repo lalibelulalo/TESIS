@@ -1,0 +1,4 @@
+>ID:WP_146294438.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|hypothetical protein|303|NZ_CP042326(3326959):457021-457323:-1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146294437.1(-1),ID:WP_146294439.1(-1)|neighbour_genes:cysK,fdxB| | aligned:1-85 (100)
+MTDNQRQDEYFELIDRLLQCPNGKEPEVLEGSFHLVDQEFIKTLIQVATAMAHDDNQQSAQFLMFIARELSKQLGFYPDFNNSSSNQEVDSSVSTDSVMS
+>ID:WP_015225817.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|hypothetical protein|270|NC_019779(4179170):1942679-1942948:-1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015225816.1(-1),ID:WP_015225818.1(-1)|neighbour_genes:cysK,hypothetical protein| | aligned:1-85 (89)
+MANNQRQEEYFELIDRLLHCPNGKEPEVLDSRSDLLDQDFIKTLIQVATAMAHDDNQEASQFLMFIARELSKQLGFYPDFATPSSAIKE

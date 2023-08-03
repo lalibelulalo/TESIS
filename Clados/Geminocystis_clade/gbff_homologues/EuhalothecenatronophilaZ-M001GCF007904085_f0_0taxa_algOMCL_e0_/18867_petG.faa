@@ -1,0 +1,22 @@
+>ID:WP_015161879.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|petG|114|NC_019697(6284095):5164171-5164284:-1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015161878.1(1),ID:WP_232432326.1(1)|neighbour_genes:rsmD,cytochrome c| | aligned:1-37 (37)
+MVEPLLSGIVLGLVFITLSGLFAAAYMQYKRGNQIGL
+>ID:WP_096717919.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|cytochrome b6-f comp..|117|NZ_AP018281(4516676):582459-582575:-1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096717917.1(1),ID:WP_096717921.1(1)|neighbour_genes:tRNA (adenosine(37)-..,cytochrome c| | aligned:1-38 (38)
+MIEPLLLGIVLGLVFMTLSGLFFAAYMQYKRGNQLGMD
+>ID:WP_015220136.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|petG|117|NC_019776(4114099):2778033-2778149:1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015220135.1(-1),ID:WP_015220137.1(1)|neighbour_genes:HNH endonuclease,deoxyribodipyrimidin..| | aligned:1-38 (38)
+MVEPLLLGIVLGLIPVTLIGLFFAAYRQYRRSSEIGLE
+>ID:WP_015226211.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|petG|102|NC_019780(3781008):2365818-2365919:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015229930.1(-1),ID:WP_041235465.1(1)|neighbour_genes:hybrid sensor histid..,c-type cytochrome| | aligned:1-33 (33)
+MIEPLLLGIVLGLIFVTLAGLFFAAYMQYRRTS
+>ID:WP_146295260.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|petG|102|NZ_CP042326(3326959):1412510-1412611:1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146295259.1(-1),ID:WP_146295261.1(1)|neighbour_genes:cytochrome c,glycosyltransferase ..| | aligned:1-33 (33)
+MIEPLLLGIVLGLIFVTLAGLFFAAYQQYRRTN
+>ID:WP_017295524.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|petG|117|NZ_CM001775(4263418):3251088-3251204:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017295523.1(1),ID:WP_017295526.1(1)|neighbour_genes:lpxA,uvrB| | aligned:1-38 (38)
+MIEPLLLGIVLGLIPVTLIGLFFAAYRQYKRSSEIGLE
+>ID:WP_066343921.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|petG|117|NZ_AP014815(3883409):657230-657346:-1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_066343920.1(-1),ID:WP_066343922.1(1)|neighbour_genes:recQ,cytochrome c| | aligned:1-38 (38)
+MIEPLLLGIVLGLIPVTLIGLFVAAYRQYKRSSEIGLE
+>ID:WP_066120474.1 |[Geminocystis sp. NIES-3709]|NIES-3709|Geminocystis_sp_NIES-3709_GCF_001548115.1_genomic.gbff|petG|117|NZ_AP014821(4150181):3281693-3281809:1 ^^ Geminocystis sp. NIES-3709 chromosome, complete genome.|neighbours:ID:WP_173645723.1(-1),ID:WP_066120477.1(1)|neighbour_genes:cytochrome c,glgA| | aligned:1-38 (38)
+MIEPLLLGIVLGLIPVTIIGLFFAAYRQYKRSSEIGLE
+>ID:WP_015226211.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|petG|102|NC_019779(4179170):2397436-2397537:1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_216086634.1(1),ID:WP_015226212.1(1)|neighbour_genes:DUF1997 domain-conta..,hybrid sensor histid..| | aligned:1-33 (33)
+MIEPLLLGIVLGLIFVTLAGLFFAAYMQYRRTS
+>ID:WP_015193764.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|petG|117|NC_019748(5041209):2888277-2888393:-1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015193763.1(1),ID:WP_015193765.1(1)|neighbour_genes:tsaE,cytochrome c| | aligned:1-38 (38)
+MIEPLLLGIVLGLITITLAGLFFAAYMQYKRGNQLGID
+>ID:WP_015193764.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|cytochrome b6-f comp..|117|NZ_AP017375(5319768):970759-970875:1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096381369.1(-1),ID:WP_096381372.1(-1)|neighbour_genes:cytochrome c,tRNA (adenosine(37)-..| | aligned:1-38 (38)
+MIEPLLLGIVLGLITITLAGLFFAAYMQYKRGNQLGID

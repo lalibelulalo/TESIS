@@ -1,0 +1,4 @@
+>ID:WP_041660272.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|330|NC_009925(6503724):5186061-5186390:1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012165350.1(1),ID:WP_041660274.1(1)|neighbour_genes:alpha-D-glucose phos..,NAD-dependent epimer..| | aligned:1-109 (109)
+MDDDKEYKLSIRIAGNTQIPCLQAIYSKGYILSHYYLNNTPGEWKDPQWDAEKNGRRFSATSLEELLGLIAMWEIRGDDWRHQSGEQELYDHLIESAPMYNSEGNIIDN
+>ID:WP_235107863.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|hypothetical protein|336|NZ_CP071717(5699248):4569159-4569494:-1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235107862.1(1),ID:WP_235107864.1(-1)|neighbour_genes:gltX,AAA family ATPase| | aligned:3-111 (111)
+MQMDDSKEYKLSIRIAGNTQIPCLQALHSKGYVLSHNYLNDTPGKWEDPQWDAEKNGRRFSATSLEELLGLISMWEIRGDDWRHKSWEEELYDQLIESASMYDSEGNIIDN

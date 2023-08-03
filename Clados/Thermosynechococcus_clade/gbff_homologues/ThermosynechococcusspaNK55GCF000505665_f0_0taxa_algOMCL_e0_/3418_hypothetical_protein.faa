@@ -1,0 +1,6 @@
+>ID:WP_012163707.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|222|NC_009925(6503724):3339403-3339624:1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012163706.1(-1),ID:WP_012163708.1(-1)|neighbour_genes:FAD-dependent oxidor..,NAD(P)H-dependent ox..| | aligned:1-73 (73)
+MDTLKINPKILAAVFASVVIIADLVPAPNLGPGLIVSSYNWAASQVQSPPDTQHANQKIRAKRSQSRNPAYNQ
+>ID:WP_212663920.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|222|NZ_CP064923(5881945):23413-23634:1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212663919.1(-1),ID:WP_212663921.1(-1)|neighbour_genes:FAD-dependent oxidor..,NAD(P)H-dependent ox..| | aligned:1-73 (73)
+MDTLKINPKILAAVFASVVVIADLVPAPNLGPGMIVSSYNWAASQVQPPTDTQQVNQKIRAKRSQSRNPSYNQ
+>ID:WP_235106835.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|hypothetical protein|222|NZ_CP071717(5699248):2885397-2885618:1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235106834.1(-1),ID:WP_212663921.1(-1)|neighbour_genes:FAD-dependent oxidor..,NAD(P)H-dependent ox..| | aligned:1-73 (73)
+MDTLKINPKILAAVFASVVVIADLVPAPNLGPGMIVSSYNWAASQVQPPTDTQQANQKIRAKRSQSRNSSYNQ

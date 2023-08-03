@@ -1,0 +1,8 @@
+>ID:WP_015161106.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|DUF433 domain-contai..|192|NC_019697(6284095):4252923-4253114:-1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015161105.1(1),ID:WP_015161107.1(1)|neighbour_genes:hypothetical protein,RNA-binding transcri..| | aligned:1-62 (63)
+MKELSRITFNPEVMGGKPCIRGLRVTVGTIVGLMASGRTPEEILAAYPYLELLDIYEALSYAK
+>ID:WP_015220810.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|DUF433 domain-contai..|228|NC_019776(4114099):3601868-3602095:1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015220809.1(1),ID:WP_015220811.1(1)|neighbour_genes:type II toxin-antito..,type II toxin-antito..| | aligned:1-74 (75)
+MESIERITINPHICHGKPCIRGLRYPVEMILELLSAGMTTEEILLDYEDLELEDILAVLSFATKLTQVKSISLIK
+>ID:WP_017295644.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|DUF433 domain-contai..|201|NZ_CM001775(4263418):3385779-3385979:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017293493.1(1),ID:WP_017295645.1(1)|neighbour_genes:psbD,psbU| | aligned:1-65 (66)
+MKLIERITIDPHICHGKPCIRGLRYPVEMILELLSAGMTTEEILMDYEDLELDDILLVLCFATKLI
+>ID:WP_015227194.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|DUF433 domain-contai..|228|NC_019779(4179170):3446914-3447141:-1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_216086649.1(-1),ID:WP_015227195.1(-1)|neighbour_genes:DUF5615 family PIN-l..,priA| | aligned:2-73 (75)
+MKFRRITINPNQMGGVPCIRSLRIPVATIVGMFADGMSEAEILEAYPDLEKADIEEALRYATVALQEQELPLVME

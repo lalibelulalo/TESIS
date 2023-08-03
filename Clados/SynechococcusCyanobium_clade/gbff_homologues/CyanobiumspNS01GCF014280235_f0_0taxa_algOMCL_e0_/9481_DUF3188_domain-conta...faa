@@ -1,0 +1,6 @@
+>ID:WP_225867349.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|DUF3188 domain-conta..|291|NZ_LT578417(3021545):2068395-2068685:-1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087068360.1(-1),ID:WP_087069355.1(-1)|neighbour_genes:HEAT repeat domain-c..,amidohydrolase| | aligned:14-96 (96)
+MSPAAGPGAGTGEMRQPMPTPSRGLLNTLLALSAPLLLLVALAVLVQRRGPDRIQAVPALVIGGVLLGTSLHSRRRRRRRLLAALRSGTPSGRLEP
+>ID:WP_186698053.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|DUF3188 domain-conta..|252|NZ_CP047940(2748087):138598-138849:1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_225875716.1(1),ID:WP_186698055.1(1)|neighbour_genes:amidohydrolase,HEAT repeat domain-c..| | aligned:1-83 (83)
+MSHPAATRQRPFLYTMLALSAPLLLVVALGVLAQRRGPDRWQAVPALVIGAALLGTSLHSRRRRRRSLLAALRQGRPSARLEP
+>ID:WP_197153201.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|DUF3188 domain-conta..|219|NZ_CP060395(3226220):1583019-1583237:1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197153199.1(1),ID:WP_197153202.1(1)|neighbour_genes:amidohydrolase,HEAT repeat domain-c..| | aligned:2-71 (72)
+MRNRPLLRGLLALSSPLLILMSLLVLLQRRGVDRLPALPALLIGTGLLGTSLLGWRRRRRNLLAALGQDGPQ

@@ -1,0 +1,6 @@
+>ID:WP_015218583.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|hypothetical protein|216|NC_019776(4114099):882074-882289:-1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015218582.1(-1),ID:WP_015218584.1(-1)|neighbour_genes:putative toxin-antit..,hypothetical protein| | aligned:1-71 (71)
+MSIVDLIKAEIDNIPENKLAELYQYIKKLVKPEKTLNHLWQKIDELGEDEDQLSMEEIVSLVKEVRENKTK
+>ID:WP_017292708.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|hypothetical protein|216|NZ_CM001775(4263418):333633-333848:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017292707.1(1),ID:WP_017292709.1(-1)|neighbour_genes:dcm,type II toxin-antito..| | aligned:1-71 (71)
+MSIVDLIKAEIDNIPEDKLTELYQYIKQLVKPQKTLNNLWLKIDELGEDEKQLSMEEIVSLVKEIRENKTK
+>ID:WP_066345320.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|hypothetical protein|216|NZ_AP014815(3883409):1714881-1715096:-1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_066345318.1(-1),ID:WP_066345323.1(-1)|neighbour_genes:putative toxin-antit..,dcm| | aligned:1-71 (71)
+MSIADLIKAEIDNIPEDKLAELYQYIKKLAKPQKTLNHLWQKIDELGEDEDQLSMEEIVSLVKEVRETKTK

@@ -1,0 +1,4 @@
+>ID:WP_169363571.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|hypothetical protein|174|NZ_AP017560(4796642):3476002-3476175:1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126387730.1(1),ID:WP_126387732.1(-1)|neighbour_genes:SpoIID/LytB domain-c..,hypothetical protein| | aligned:2-55 (57)
+MSDLPIEKQFTHMMFCQQIQNIDLDSAKQLLTELHMLYLGQQAVMVKIAKQEFLGGI
+>ID:WP_015165822.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|hypothetical protein|204|NC_019701(4557046):3268316-3268519:1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015165821.1(-1),ID:WP_015165823.1(-1)|neighbour_genes:upp,aldo/keto reductase| | aligned:5-59 (67)
+MSSNNNLPLEKQFAHSTFCRQLDEIDLDAAKKLLEDLHLLYLGQQSLFAKMIKQGEFGSNRIDFEAS

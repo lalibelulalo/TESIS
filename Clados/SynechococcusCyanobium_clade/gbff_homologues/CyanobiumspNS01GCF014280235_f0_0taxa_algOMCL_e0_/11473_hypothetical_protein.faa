@@ -1,0 +1,12 @@
+>ID:WP_015108999.1 |[Cyanobium gracile PCC 6307]|PCC 6307|Cyanobium_gracile_PCC_6307_GCF_000316515.1_genomic.gbff|hypothetical protein|183|NC_019675(3342364):1382441-1382623:-1 ^^ Cyanobium gracile PCC 6307, complete sequence.|neighbours:ID:WP_015108998.1(1),ID:WP_015109000.1(-1)|neighbour_genes:hypothetical protein,glyQ| | aligned:1-60 (60)
+MKRTLLVGVLVLGAFQAGRLTERAIWPCRLRPLAALVAPLVGQELPSPQLCELMLKLPSF
+>ID:WP_213205428.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|192|NZ_CP073761(3180296):2421155-2421346:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213203035.1(-1),ID:WP_213203036.1(-1)|neighbour_genes:ComEC/Rec2 family co..,glyQ| | aligned:6-63 (63)
+MAKAPRMLLLAVLLLGSFQLGRLSERAFWPCRLRPVASLVAPLLGQEMPSAQLCELLLQLPRF
+>ID:WP_087067800.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|hypothetical protein|189|NZ_LT578417(3021545):1339960-1340148:-1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087067799.1(-1),ID:WP_087067801.1(-1)|neighbour_genes:ComEC/Rec2 family co..,glyQ| | aligned:1-62 (62)
+MKPLRLRLLLLVLLLGSFQLGRLSERRIWPCRLRPLAALVEPWLGQDLPSAQLCELLLQLPG
+>ID:WP_225875651.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|hypothetical protein|192|NZ_CP047940(2748087):2101883-2102074:-1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_225875650.1(-1),ID:WP_186697099.1(-1)|neighbour_genes:ComEC/Rec2 family co..,glyQ| | aligned:1-62 (63)
+MTPLRRRLLLAVLLLGSFQLGRSSERQIWPCRLRPLAALVEPLLQRELPSEQLCDLLLRLPGS
+>ID:WP_231597786.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|hypothetical protein|192|NZ_CP060398(3854122):2442990-2443181:1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197169758.1(1),ID:WP_197169759.1(1)|neighbour_genes:glyQ,ComEC/Rec2 family co..| | aligned:1-63 (63)
+MPPLRRSLLMAVLILGSFQVGRLSERAVWPCRLRPVAAIVAPLVGQSVPSPQLCELLLQIPQF
+>ID:WP_231597786.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|hypothetical protein|192|NZ_CP060396(3860130):2401069-2401260:1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197154050.1(1),ID:WP_197154051.1(1)|neighbour_genes:glyQ,ComEC/Rec2 family co..| | aligned:1-63 (63)
+MPPLRRSLLMAVLILGSFQVGRLSERAVWPCRLRPVAAIVAPLVGQSVPSPQLCELLLQIPQF

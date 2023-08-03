@@ -1,0 +1,4 @@
+>ID:WP_197210647.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|hypothetical protein|285|NZ_CP060397(3672318):2563102-2563386:-1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197210646.1(-1),ID:WP_197210648.1(-1)|neighbour_genes:Gfo/Idh/MocA family ..,ISAs1 family transpo..| | aligned:1-94 (94)
+MYATLRQYEGIENAAEIIKEVAASFLPAQKNIPGFVSYCFVDVGESGGRMISLSVFTSKEGAVESNRLAAAWVAQHPNLIPPATNAEEGPVVVS
+>ID:WP_231596321.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|hypothetical protein|285|NZ_CP060395(3226220):2720564-2720848:1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197149039.1(-1),ID:WP_197149041.1(1)|neighbour_genes:ion transporter,cupin domain-contain..| | aligned:1-94 (94)
+MHATLRQYEGIENAAEIIKQVAASFLPDQKTIPGFVSYYFVDVGESGGRMISLSVFASEEGAVESNRRAAAWVAKHPNLIPAATNSEEGPVVVS

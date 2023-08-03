@@ -1,0 +1,4 @@
+>ID:WP_213202740.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|207|NZ_CP073761(3180296):2049583-2049789:1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213202739.1(-1),ID:WP_213202741.1(1)|neighbour_genes:hypothetical protein,helix-turn-helix tra..| | aligned:2-58 (68)
+MPGDGQTPQSRLFRKPRRITITVPQATAELLVQRSFREGRSLSNLAAVLLERAITTEQIEPPREGCHG
+>ID:WP_213203308.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|186|NZ_CP073761(3180296):2698385-2698570:1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213203307.1(1),ID:WP_213203309.1(-1)|neighbour_genes:ribbon-helix-helix p..,serine hydrolase| | aligned:7-61 (61)
+MGIQASPGDTRPPLAFRKPQRITITIPHAVYENLSTISFRDGRSMSNLASFLLERAINNHQ

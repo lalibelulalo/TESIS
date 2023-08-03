@@ -1,0 +1,14 @@
+>ID:WP_096721240.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|twin-arginine transl..|174|NZ_AP018281(4516676):3002815-3002988:-1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096721238.1(-1),ID:WP_096721242.1(1)|neighbour_genes:precorrin-8X methylm..,phycocyanobilin:ferr..| | aligned:1-57 (57)
+MFGLGVPEVAIIAVVAILIFGPKKIPEIGSALGKTIRGFKEEMDNPQLDDEREKDRE
+>ID:WP_015229068.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|tatA|174|NC_019780(3781008):1393357-1393530:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_041235741.1(-1),ID:WP_015229069.1(1)|neighbour_genes:RDD family protein,phycocyanobilin:ferr..| | aligned:1-57 (57)
+MLGLGWLEVTVILGVAILIFGPKKLPEMGNALGKTLKGFREEMTSSSDEDDSELDRK
+>ID:WP_146296361.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|twin-arginine transl..|180|NZ_CP042326(3326959):2362714-2362893:-1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146296359.1(-1),ID:WP_146296363.1(1)|neighbour_genes:RDD family protein,phycocyanobilin:ferr..| | aligned:1-58 (59)
+MLGLGWLEVSVIIGVAILIFGPKKLPEMGSSLGKTLQGFREGMSNPSQEEEENSYIDKD
+>ID:WP_066345346.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|tatA|153|NZ_AP014815(3883409):1734456-1734608:1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_066345345.1(-1),ID:WP_066345347.1(-1)|neighbour_genes:phycocyanobilin:ferr..,undecaprenyl-diphosp..| | aligned:1-50 (50)
+MFGLGWTEVTLIIAIALLIFGPKKLPELGNSLGKMLRGFKEEIKQPDEDN
+>ID:WP_015224853.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|tatA|174|NC_019779(4179170):840612-840785:-1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015224852.1(-1),ID:WP_015224854.1(1)|neighbour_genes:RDD family protein,phycocyanobilin:ferr..| | aligned:1-57 (57)
+MLGLGWLEVTVILGVAILIFGPKKLPEMGNSLGKTLRGFRDEMNAPQEDEESDFHQK
+>ID:WP_015192754.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|tatA|174|NC_019748(5041209):1696773-1696946:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_041619858.1(-1),ID:WP_015192755.1(1)|neighbour_genes:phycocyanobilin:ferr..,EAL domain-containin..| | aligned:1-57 (57)
+MFGLGWPEVAIIGIVALLVFGPKKIPEIGSALGKTLRGFKEEINNPQLEEEDSEIDR
+>ID:WP_096385779.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|twin-arginine transl..|174|NZ_AP017375(5319768):4367515-4367688:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096388094.1(-1),ID:WP_096385781.1(1)|neighbour_genes:EAL domain-containin..,phycocyanobilin:ferr..| | aligned:1-57 (57)
+MFGLGWPEVAIIGIVALLVFGPKKIPEIGSALGKTLRGFKEEINNPQLEEEDSKIDR

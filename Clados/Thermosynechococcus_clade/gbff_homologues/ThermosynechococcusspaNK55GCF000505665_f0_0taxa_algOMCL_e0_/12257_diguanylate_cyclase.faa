@@ -1,0 +1,4 @@
+>ID:WP_212663646.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|diguanylate cyclase|186|NZ_CP064923(5881945):5590161-5590346:1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212663645.1(-1),ID:WP_212663647.1(1)|neighbour_genes:rpmF,peroxiredoxin| | aligned:1-61 (61)
+MVAEDLRHLIGIQLFLPDHSVTVSIGVATLHPKEDWMTWMQRSDDYLYRAKSAGRNQVMCM
+>ID:WP_235110708.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|diguanylate cyclase|186|NZ_CP071717(5699248):2584561-2584746:1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_212663645.1(-1),ID:WP_235110710.1(1)|neighbour_genes:rpmF,redoxin domain-conta..| | aligned:1-61 (61)
+MVAEDLRHLIGTQPFLPDHSVTVSIGVATLHPKEDWMTWMQRSDDYLYRAKSAGRNQVMCM

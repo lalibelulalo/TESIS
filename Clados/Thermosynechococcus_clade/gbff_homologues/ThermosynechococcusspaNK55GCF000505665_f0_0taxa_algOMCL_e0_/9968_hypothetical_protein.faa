@@ -1,0 +1,4 @@
+>ID:WP_212661658.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|252|NZ_CP064923(5881945):2939585-2939836:-1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_249370163.1(-1),ID:WP_212661657.1(-1)|neighbour_genes:ISAs1 family transpo..,IS4 family transposa..| | aligned:1-83 (83)
+MLGCSLHVAPSAETDNPYCQPHPAIMMVTGYVVERGLILPPYEVDQKTNEIKALPEMIEQLALKGVVFAFDAINTQKNSTAHC
+>ID:WP_212661658.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|252|NZ_CP064923(5881945):2956159-2956410:1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212661657.1(1),ID:WP_249370163.1(1)|neighbour_genes:IS4 family transposa..,ISAs1 family transpo..| | aligned:1-83 (83)
+MLGCSLHVAPSAETDNPYCQPHPAIMMVTGYVVERGLILPPYEVDQKTNEIKALPEMIEQLALKGVVFAFDAINTQKNSTAHC

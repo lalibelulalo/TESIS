@@ -1,0 +1,8 @@
+>ID:WP_096718197.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|sugar metabolism tra..|225|NZ_AP018281(4516676):767626-767850:1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096718195.1(1),ID:WP_096718199.1(-1)|neighbour_genes:YdiU family protein,hypothetical protein| | aligned:1-74 (74)
+MNLKELQDFVADFQRVSFAEMQLYLQIDAETLKPMLNMLLQNGTVQKSPTDEKCLTCQKCESEELEFYEWVQSV
+>ID:WP_026102037.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|FeoC-like transcript..|222|NZ_CM001775(4263418):2315207-2315428:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017294589.1(1),ID:WP_017294591.1(-1)|neighbour_genes:feoB,hypothetical protein| | aligned:1-73 (73)
+MILTDIQNYLIKHRKASLQELAIYAHSDADAIRLMLSRLIRKGRVKQIKGKKCGGCHSCTPESMEFYEWILNH
+>ID:WP_066348119.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|FeoC-like transcript..|228|NZ_AP014815(3883409):3130986-3131213:-1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_066348118.1(1),ID:WP_066348120.1(-1)|neighbour_genes:pntB,feoB| | aligned:1-73 (75)
+MILTDIQNYLIKHRKASLEELAMYAHSDADAIRLMLNRLIRKGRVKQIEGKKCGGCHSCTPESIEFYEWKINNCK
+>ID:WP_096380079.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|sugar metabolism tra..|225|NZ_AP017375(5319768):429149-429373:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096380075.1(1),ID:WP_096380082.1(-1)|neighbour_genes:methyltransferase do..,hypothetical protein| | aligned:1-74 (74)
+MSLKELQDFVFNFQRVSLAEMKLVFQIDGDKLRAMLDRLIKKGKVQKSPMTEKCQSCQKCESDELEFYEWSENI

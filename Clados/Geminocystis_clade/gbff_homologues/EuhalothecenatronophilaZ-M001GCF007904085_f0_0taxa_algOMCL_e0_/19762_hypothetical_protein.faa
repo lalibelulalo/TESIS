@@ -1,0 +1,6 @@
+>ID:WP_015227974.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|hypothetical protein|216|NC_019780(3781008):150711-150926:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015227973.1(-1),ID:WP_015227975.1(1)|neighbour_genes:truB,response regulator t..| | aligned:1-71 (71)
+MPNPFLGVRIPPEIEQAIIDRMHQTGQSKSDIVIAALKLYLELPSCHQRLTEVEERLAEVESALNQEHRDH
+>ID:WP_146296289.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|hypothetical protein|225|NZ_CP042326(3326959):2331644-2331868:-1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146296288.1(-1),ID:WP_186708792.1(1)|neighbour_genes:truB,response regulator t..| | aligned:1-70 (74)
+MPNPFLGVRIPPEVEQALIDRIHQTGESKSEIVIAALKAYLNLPSYSERLAELEKRLSEVESTLNRHHNEETDS
+>ID:WP_015225200.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|hypothetical protein|234|NC_019779(4179170):1219504-1219737:1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015225199.1(-1),ID:WP_015225201.1(1)|neighbour_genes:response regulator t..,truB| | aligned:1-71 (77)
+MPNPFLGVRIPPEIEQAIVERMQHTGQSKSDIVVAALKTYLELPSCHQRLTEVEERLAEVESALKTHQTDNSTPDSE

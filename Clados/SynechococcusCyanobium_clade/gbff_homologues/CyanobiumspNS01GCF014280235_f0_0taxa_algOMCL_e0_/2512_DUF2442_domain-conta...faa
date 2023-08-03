@@ -1,0 +1,6 @@
+>ID:WP_071881593.1 |[Cyanobium gracile PCC 6307]|PCC 6307|Cyanobium_gracile_PCC_6307_GCF_000316515.1_genomic.gbff|DUF2442 domain-conta..|297|NC_019675(3342364):2545941-2546237:1 ^^ Cyanobium gracile PCC 6307, complete sequence.|neighbours:ID:WP_245552672.1(1),ID:WP_015110164.1(1)|neighbour_genes:PQQ-dependent sugar ..,hypothetical protein| | aligned:1-95 (98)
+MPGTTTLGAEVTNVSGHCIWILIDDEELALPYSEFPWFKAATIQQIISVLRSTADHLYWPDLDVDLSVESIRHPDRFPLRARCTFQPCHSPESPPQTH
+>ID:WP_231597404.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|DUF2442 domain-conta..|234|NZ_CP060397(3672318):3616455-3616688:-1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197211451.1(-1),ID:WP_197211453.1(-1)|neighbour_genes:restriction endonucl..,DUF4160 domain-conta..| | aligned:1-75 (77)
+MLIDDEELALPYSEFPWFKAATIQQILNVLRPTSDHLYWPDLDVDLSVESIRHPERFPLKAESTFQPCHTPGSLPTI
+>ID:WP_197153447.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|DUF2442 domain-conta..|252|NZ_CP060395(3226220):1539648-1539899:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197153079.1(-1),ID:WP_197153081.1(-1)|neighbour_genes:hypothetical protein,type II toxin-antito..| | aligned:1-82 (83)
+MPGTIALDAEVTNISGHCLWVLVDDEELALPFSEFPWFRSATIDQALNVVRPSSSHLHWPDLDVDLSLESIRHPGRYPLKANF

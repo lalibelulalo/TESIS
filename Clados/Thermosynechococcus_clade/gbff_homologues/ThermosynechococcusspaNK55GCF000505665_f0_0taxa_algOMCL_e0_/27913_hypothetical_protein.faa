@@ -1,0 +1,4 @@
+>ID:WP_157768336.1 |[Thermostichus lividus PCC 6715]|PCC 6715|Thermostichus_lividus_PCC_6715_GCF_002754935.1_genomic.gbff|hypothetical protein|240|NZ_CP018092(2659739):1463906-1464145:-1 ^^ Thermostichus lividus PCC 6715 chromosome, complete genome.|neighbours:ID:WP_099798908.1(1),ID:WP_099798910.1(1)|neighbour_genes:Uma2 family endonucl..,msrA| | aligned:1-60 (79)
+MDGQGKRTADLNKYCRVLAKEYPWAKKLNSLARPTMAERAWSAISRFYNNCKQKVKGKTGTTPSISQTRGVKKSRQSKA
+>ID:WP_198405956.1 |[Thermostichus lividus PCC 6715]|PCC 6715|Thermostichus_lividus_PCC_6715_GCF_002754935.1_genomic.gbff|hypothetical protein|219|NZ_CP018092(2659739):1646719-1646937:1 ^^ Thermostichus lividus PCC 6715 chromosome, complete genome.|neighbours:ID:WP_099799045.1(1),ID:WP_099799047.1(-1)|neighbour_genes:RNA-guided endonucle..,UvrD-helicase domain..| | aligned:1-60 (72)
+MDGQGKRTADLNKYCRVLAKEYPWAKTLNSLTRQAMAERAWSAISRFYNNCKQKVKGKKGFPRFKSAWLPMA

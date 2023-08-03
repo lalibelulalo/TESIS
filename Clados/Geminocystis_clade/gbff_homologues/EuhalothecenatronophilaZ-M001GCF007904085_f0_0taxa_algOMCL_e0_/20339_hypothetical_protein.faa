@@ -1,0 +1,4 @@
+>ID:WP_015228269.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|hypothetical protein|183|NC_019780(3781008):486970-487152:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015228268.1(-1),ID:WP_232225168.1(-1)|neighbour_genes:Gfo/Idh/MocA family ..,hypothetical protein| | aligned:1-60 (60)
+MTSQLERMTREQVRDYLRHNPADDQAWEIFFQKLDESPKQKISSIQEFNQLLKEKTNPNQ
+>ID:WP_146296853.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|hypothetical protein|192|NZ_CP042326(3326959):2909057-2909248:1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146296852.1(1),ID:WP_146296854.1(1)|neighbour_genes:hypothetical protein,phosphoketolase| | aligned:1-60 (63)
+MTDQLEQMSRKEVRDYLRRNPNDDNAWEIFFQKLDHSPKQKISSLDEFKQLLKQKTNPNQTNN

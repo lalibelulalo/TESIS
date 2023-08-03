@@ -1,0 +1,10 @@
+>ID:WP_156818320.1 |[Cyanobium gracile PCC 6307]|PCC 6307|Cyanobium_gracile_PCC_6307_GCF_000316515.1_genomic.gbff|hypothetical protein|156|NC_019675(3342364):41332-41487:1 ^^ Cyanobium gracile PCC 6307, complete sequence.|neighbours:ID:WP_015107723.1(-1),ID:WP_015107725.1(-1)|neighbour_genes:FAD-dependent oxidor..,ppsA| | aligned:1-49 (51)
+MGLAHCPLCMGLAALCAVRCGAHALLLWRLWFEGGGTPEGPAPVRLRQAAC
+>ID:WP_172820805.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|hypothetical protein|141|NZ_LT578417(3021545):743216-743356:-1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087067336.1(-1),ID:WP_087067337.1(1)|neighbour_genes:MBL fold metallo-hyd..,FAD-dependent oxidor..| | aligned:1-44 (46)
+MGLAHCPLCVALAVLSVLRCGAHAVQLWHLGAIVVPTARPLRLQPL
+>ID:WP_255459996.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|hypothetical protein|129|NZ_CP047940(2748087):1519367-1519495:-1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186696612.1(-1),ID:WP_186700488.1(1)|neighbour_genes:MBL fold metallo-hyd..,FAD-dependent oxidor..| | aligned:1-40 (42)
+MGLAHCPLCVALAVLCVLRSGAHAMQLWQLRPAAVPLPIPTS
+>ID:WP_197156636.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|hypothetical protein|141|NZ_CP060398(3854122):41331-41471:1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197170523.1(-1),ID:WP_197172577.1(1)|neighbour_genes:FAD-dependent oxidor..,hypothetical protein| | aligned:1-46 (46)
+MGLTHCPLCVALAVLSALRGGAHALLVWRLWIAAPHPQPPLRLQRV
+>ID:WP_197156636.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|hypothetical protein|141|NZ_CP060396(3860130):41340-41480:1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197156635.1(-1),ID:WP_197156637.1(1)|neighbour_genes:FAD-dependent oxidor..,MBL fold metallo-hyd..| | aligned:1-46 (46)
+MGLTHCPLCVALAVLSALRGGAHALLVWRLWIAAPHPQPPLRLQRV

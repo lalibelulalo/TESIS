@@ -1,0 +1,4 @@
+>ID:WP_012164239.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|antibiotic biosynthe..|306|NC_009925(6503724):3939279-3939584:1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012164238.1(1),ID:WP_012164240.1(1)|neighbour_genes:ChaN family lipoprot..,SDR family NAD(P)-de..| | aligned:1-101 (101)
+MILEVAILDVIPGQADQFQADFQQAQHIIAAMPGYLGHELQRCIEQPSRYLLLVHWQTLEDHVQGFRQSPQYQQWKTLLHHYYDPFPIVEHYAAVFSQTKR
+>ID:WP_015124607.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|antibiotic biosynthe..|318|NC_019680(3697276):1906799-1907116:-1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015124606.1(-1),ID:WP_015124608.1(-1)|neighbour_genes:heavy metal-responsi..,type II toxin-antito..| | aligned:1-101 (105)
+MILEVAVLDIKPGLATEFKTAFEKASTIIATMPGYISLELQRCIETQSRYILLVRWQKLEDHTIGFRQSPQYQEWRSLLHHFYEPFPVVEHYATVLYNSRNGSVP

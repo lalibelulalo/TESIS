@@ -1,0 +1,4 @@
+>ID:WP_015229660.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|hypothetical protein|270|NC_019780(3781008):2042159-2042428:1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015229659.1(1),ID:WP_015229661.1(1)|neighbour_genes:glutathione S-transf..,PfkB family carbohyd..| | aligned:1-89 (89)
+MSEFSTPSDETRQQALASLTRQLVQNGHPEQYAQQMAVAAIFQADLELRNAQLSHLLSWLKENYPDVHSQGLDLVEKTREEFEQRVKEG
+>ID:WP_015225097.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|hypothetical protein|270|NC_019779(4179170):1102209-1102478:1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_150107027.1(-1),ID:WP_015225098.1(1)|neighbour_genes:hypothetical protein,bifunctional ADP-hep..| | aligned:1-89 (89)
+MSEFSVPSDQVRQQALASLTRQLVQQGHPEQYAQHMAVAAIFQADLALRNAQLSRLLSWLKENYPEVHAQGLDLVEQTREEFEQRVQEG

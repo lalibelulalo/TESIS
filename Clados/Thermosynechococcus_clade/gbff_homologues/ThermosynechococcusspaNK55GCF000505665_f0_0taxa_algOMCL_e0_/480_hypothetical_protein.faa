@@ -1,0 +1,6 @@
+>ID:WP_071820043.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|225|NC_009931(172728):158018-158242:-1 ^^ Acaryochloris marina MBIC11017 plasmid pREB6, complete sequence.|neighbours:ID:WP_012168236.1(1),ID:WP_012168237.1(-1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-65 (74)
+MEPTQVFYNGTPITSPSNHLTNEQKLELLDWHPIFTGRCPNCQRPIRETTPPRSHWDCGECGWRDHNRHKFKTE
+>ID:WP_012166971.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|207|NC_009927(356087):61624-61830:1 ^^ Acaryochloris marina MBIC11017 plasmid pREB2, complete sequence.|neighbours:ID:WP_012166970.1(1),ID:WP_012166972.1(1)|neighbour_genes:hypothetical protein,DPP IV N-terminal do..| | aligned:1-65 (68)
+MKPTQAFYNGTPIAPPSNHPTIEQNMELLDWHPIFTGRCPNCERPIRKTTPPRSHWDCGSCGWRDDSD
+>ID:WP_012166977.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|204|NC_009927(356087):65529-65732:1 ^^ Acaryochloris marina MBIC11017 plasmid pREB2, complete sequence.|neighbours:ID:WP_012166975.1(-1),ID:WP_012166979.1(-1)|neighbour_genes:hypothetical protein,PEP-CTERM sorting do..| | aligned:1-60 (67)
+MTPTQAFYNGTPIAPPSNHLTTEQNMELLDWHPIFTGRCPNCERPIRETTPPRSHWDCAEFEASQGE

@@ -1,0 +1,16 @@
+>ID:WP_015109472.1 |[Cyanobium gracile PCC 6307]|PCC 6307|Cyanobium_gracile_PCC_6307_GCF_000316515.1_genomic.gbff|PCP reductase family..|162|NC_019675(3342364):1836418-1836579:1 ^^ Cyanobium gracile PCC 6307, complete sequence.|neighbours:ID:WP_015109471.1(-1),ID:WP_015109473.1(1)|neighbour_genes:DUF2555 domain-conta..,hypothetical protein| | aligned:1-53 (53)
+MDWSSDAEASLREIPFVVRPIIRRRIESLAREAGLEGVDLAFYQQAKERFGRK
+>ID:WP_213203385.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|protochlorophyllide ..|162|NZ_CP073761(3180296):2808172-2808333:1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213203384.1(-1),ID:WP_213203386.1(1)|neighbour_genes:DUF2555 domain-conta..,hypothetical protein| | aligned:1-53 (53)
+MNWTEAAQARLKEIPFFVRPAVRRRIESLAVEASLQTIDEAFYEQAKARFGQK
+>ID:WP_087068116.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|PCP reductase family..|162|NZ_LT578417(3021545):1717544-1717705:1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087068115.1(-1),ID:WP_006910971.1(1)|neighbour_genes:DUF2555 domain-conta..,hypothetical protein| | aligned:1-53 (53)
+MEWTSEAENRLKEVPFFVRPAVRRRIEAMAAEAGVQPIDEAFYAMARERFGQK
+>ID:WP_186697350.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|PCP reductase family..|174|NZ_CP047940(2748087):2385797-2385970:1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186697349.1(-1),ID:WP_186697351.1(1)|neighbour_genes:DUF2555 domain-conta..,hypothetical protein| | aligned:7-57 (57)
+MPAPTPWTAEAESALKEVPFFVRPAVRRRVEAMAAEAGLEQVDGAFYAEARARFGQK
+>ID:WP_197172140.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|PCP reductase family..|162|NZ_CP060398(3854122):1656198-1656359:-1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197157265.1(-1),ID:WP_231597813.1(-1)|neighbour_genes:hypothetical protein,IS5 family transposa..| | aligned:1-53 (53)
+MEWSSDAEVELKEVPFFVRPAVRRRIERLAADAGLERIEVAFYEQAKAQFGEK
+>ID:WP_197213754.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|PCP reductase family..|162|NZ_CP060397(3672318):2297468-2297629:1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197210431.1(-1),ID:WP_197210432.1(1)|neighbour_genes:DUF2555 domain-conta..,hypothetical protein| | aligned:1-53 (53)
+MSWSDEAEQLLREVPFFVRPAVRRRIESLALEAGEAVVDADFYRRARDSFGRK
+>ID:WP_197158924.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|PCP reductase family..|162|NZ_CP060396(3860130):554281-554442:1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197157263.1(-1),ID:WP_197157265.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-53 (53)
+MEWSSDAEVELKEVPFFVRPAVRRRIERLAADAGLERIEVAFYEQAKAQFGQK
+>ID:WP_197147918.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|PCP reductase family..|162|NZ_CP060395(3226220):1786517-1786678:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197147917.1(-1),ID:WP_197147919.1(1)|neighbour_genes:hypothetical protein,DUF2555 domain-conta..| | aligned:1-52 (53)
+MNWHPDAEALLKEVPFFVRPAVRRRIELMAREAGIGEVDGPFYEQAKAQFGQT

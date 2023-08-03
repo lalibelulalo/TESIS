@@ -1,0 +1,4 @@
+>ID:WP_212661626.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|162|NZ_CP064921(144267):103439-103600:1 ^^ Acaryochloris marina S15 plasmid unnamed43, complete sequence.|neighbours:ID:WP_212661545.1(-1),ID:WP_212661627.1(1)|neighbour_genes:ParA family protein,IS66 family transpos..| | aligned:1-53 (53)
+MLCLASFLAFSEGLFVLTLPEILEYLDFKVYVETPDDLRMNRRIIRDGTEKLR
+>ID:WP_212661626.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|hypothetical protein|162|NZ_CP071718(394275):281650-281811:-1 ^^ Acaryochloris sp. 'Moss Beach' plasmid pMB01, complete sequence.|neighbours:ID:WP_235111746.1(-1),ID:WP_212661545.1(1)|neighbour_genes:IS66 family transpos..,ParA family protein| | aligned:1-53 (53)
+MLCLASFLAFSEGLFVLTLPEILEYLDFKVYVETPDDLRMNRRIIRDGTEKLR

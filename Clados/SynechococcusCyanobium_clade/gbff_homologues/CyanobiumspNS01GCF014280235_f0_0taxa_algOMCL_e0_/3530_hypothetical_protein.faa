@@ -1,0 +1,4 @@
+>ID:WP_213203840.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|213|NZ_CP073761(3180296):247959-248171:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213203839.1(-1),ID:WP_213203841.1(1)|neighbour_genes:TIGR01458 family HAD..,hypothetical protein| | aligned:1-64 (70)
+MFVIQALHPAGWVDQGTAQLEYWAHQEAQMRCCSDGRTYRILSGDDRQVVALITTSGCRLDRQRLKAALS
+>ID:WP_197211927.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|hypothetical protein|240|NZ_CP060397(3672318):593428-593667:-1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_231597017.1(-1),ID:WP_197211928.1(1)|neighbour_genes:hypothetical protein,carbonic anhydrase| | aligned:1-64 (79)
+MYIIESLHPDGWREQGSARIEYWAYQEAQARCCSDGRNTRIIEPLTRQIIALIDTSSCRLNPARASDLPLCREPSELSG

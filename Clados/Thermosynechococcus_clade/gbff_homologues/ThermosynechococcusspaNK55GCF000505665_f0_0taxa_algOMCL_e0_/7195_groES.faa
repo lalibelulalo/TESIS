@@ -1,0 +1,6 @@
+>ID:WP_012167682.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|groES|312|NC_009929(226680):171902-172213:1 ^^ Acaryochloris marina MBIC11017 plasmid pREB4, complete sequence.|neighbours:ID:WP_010476539.1(1),ID:WP_041661416.1(1)|neighbour_genes:PRC-barrel domain-co..,groL| | aligned:1-103 (103)
+MSTLTLNVSTVSPLGDRVFLKVNRAEEKTAGGILMPDTAQEKSQVGKVVSVGPGLRSGNGSYAPIDVQVGDQVLYAKYSGTDIKLGNEDYVLTKAQDILAIVT
+>ID:WP_212667054.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|groES|312|NZ_CP064926(251809):170020-170331:-1 ^^ Acaryochloris marina S15 plasmid unnamed13, complete sequence.|neighbours:ID:WP_212667053.1(-1),ID:WP_212667055.1(-1)|neighbour_genes:groL,PRC-barrel domain-co..| | aligned:1-103 (103)
+MTTLTLNVSTVRPLGDRVFLKVNQAAEKTPGGILMPDTAQEKPQVGEVVSVGPGLRSGNGSYAPIDIQVGDQVLYAKYSGTDINLGNEDYVLTKAQDILAIVT
+>ID:WP_212667054.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|groES|312|NZ_CP071719(276907):270187-270498:1 ^^ Acaryochloris sp. 'Moss Beach' plasmid pMB02, complete sequence.|neighbours:ID:WP_212667055.1(1),ID:WP_235111841.1(1)|neighbour_genes:PRC-barrel domain-co..,groL| | aligned:1-103 (103)
+MTTLTLNVSTVRPLGDRVFLKVNQAAEKTPGGILMPDTAQEKPQVGEVVSVGPGLRSGNGSYAPIDIQVGDQVLYAKYSGTDINLGNEDYVLTKAQDILAIVT

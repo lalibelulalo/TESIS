@@ -1,0 +1,4 @@
+>ID:WP_263972205.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|BrnA antitoxin famil..|264|NZ_AP017560(4796642):1586267-1586530:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126386017.1(-1),ID:WP_126386019.1(-1)|neighbour_genes:DUF4258 domain-conta..,BrnT family toxin| | aligned:1-79 (87)
+MNSTSRTNWAALKAMSDEDIDYSDIPPLTDEFFERATLRIPVDQAQNLVQLDPDVKQWFQNQGDQYKTLINTVLRQYIENSKTQQSA
+>ID:WP_015167379.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|hypothetical protein|264|NC_019702(3510253):572641-572904:1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_246828959.1(1),ID:WP_015167380.1(1)|neighbour_genes:BrnT family toxin,phosphomannomutase/p..| | aligned:6-84 (87)
+MNSKNLKSTSRTNWAALESSSEDNIDYSDIPPLEDEFFERATLRISAEQARSLVKIEPDIKLWFQKQGVEYKALINEVLRQYIKEHN

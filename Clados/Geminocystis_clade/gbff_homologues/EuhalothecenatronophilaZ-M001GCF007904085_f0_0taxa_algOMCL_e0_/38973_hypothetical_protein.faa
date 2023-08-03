@@ -1,0 +1,4 @@
+>ID:WP_015193890.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|hypothetical protein|228|NC_019748(5041209):3071104-3071331:-1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015193889.1(1),ID:WP_015193891.1(-1)|neighbour_genes:DUF6335 family prote..,cas2| | aligned:1-75 (75)
+MANQPLNDAQKNNQSEPTNESNKSMIEQAINPPELINQPNFPKNPEELISNPGVAPQMLDDRRDLRGDLTRDEES
+>ID:WP_096385138.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|228|NZ_AP017375(5319768):3757526-3757753:1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096385137.1(1),ID:WP_096388048.1(-1)|neighbour_genes:PDZ domain-containin..,DUF6335 family prote..| | aligned:1-75 (75)
+MANQPLNDEQKNNQSEPTRESKQSMIEQAVNPPELINQPNFPKNPEELLSNPAVAPQMLDDRRDLRGDLTRDEES

@@ -1,0 +1,8 @@
+>ID:WP_126388921.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|DUF433 domain-contai..|219|NZ_AP017560(4796642):4187987-4188205:1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126388919.1(1),ID:WP_126388923.1(1)|neighbour_genes:helix-turn-helix dom..,BsuBI/PstI family ty..| | aligned:5-72 (72)
+MFRDSKFISSSTDVMGGTTIFTNTRVPVQTLLDYLKAGESIDDFLDGFPTVTREQVICFLEELGRSLLSVAA
+>ID:WP_126389315.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|DUF433 domain-contai..|237|NZ_AP017560(4796642):4450648-4450884:1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126386471.1(-1),ID:WP_126389317.1(1)|neighbour_genes:IS4 family transposa..,DUF5615 family PIN-l..| | aligned:1-78 (78)
+MTLNNLLEMKGIIHRDPDIMSGVPVFKGTRVPLQTFFDYLEGEGGLAEFIDDFPYLKSQVMRVLESAAKLLITQERAA
+>ID:WP_026101272.1 |[Synechococcus sp. PCC 7336]|PCC 7336|Synechococcus_sp_PCC_7336_GCF_000332275.1_genomic.gbff|DUF433 domain-contai..|225|NZ_CM001776(5066637):5048507-5048731:1 ^^ Synechococcus sp. PCC 7336 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017328413.1(1),ID:WP_017328416.1(-1)|neighbour_genes:hypothetical protein,rpsD| | aligned:5-74 (74)
+MKAATHVIHSDPDILGGIPVFVGTRVPVKTLLDYLEAGDPLDEFLDHFPSVRREQAIAVLELAKKMLTTYANPA
+>ID:WP_015167485.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|DUF433 domain-contai..|237|NC_019702(3510253):696089-696325:1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015167484.1(1),ID:WP_256377885.1(1)|neighbour_genes:MarR family transcri..,hypothetical protein| | aligned:1-78 (78)
+MTLNNLLEMKGIIHRDPDIMSGVPVFKGTRVPLQTFFDYLEGDGGLAEFIDDFPYLKSQVMRVLESAAKLLIAQERSA

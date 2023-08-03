@@ -1,0 +1,6 @@
+>ID:WP_146296573.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|UPF0175 family prote..|228|NZ_CP042326(3326959):2585183-2585410:-1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146296572.1(-1),ID:WP_146296574.1(-1)|neighbour_genes:DUF3368 domain-conta..,Uma2 family endonucl..| | aligned:1-69 (75)
+MRTLELNIPNTIEETDEELRLLIAAKLYENGTLSSGQAAAVAGLSKREFIEILGDYQISLFSTSVEELELDIENA
+>ID:WP_017294222.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|UPF0175 family prote..|225|NZ_CM001775(4263418):1904909-1905133:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017294221.1(1),ID:WP_017294223.1(1)|neighbour_genes:SpoIID/LytB domain-c..,DUF3368 domain-conta..| | aligned:1-72 (74)
+MNNTQVSLELPDHISEDEVKLLLAIKMYELQKITLGQASKIAGLSKSSLIEILGKYQIPVFNYSPNELREELGL
+>ID:WP_096385214.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|UPF0175 family prote..|219|NZ_AP017375(5319768):3858984-3859202:1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096385213.1(1),ID:WP_096385215.1(1)|neighbour_genes:hypothetical protein,DUF3368 domain-conta..| | aligned:1-70 (72)
+MNALEVQLPQDISVEEARLLLMVKLFETGKLSVGQAAELAGYSKPTFIELLGKLGVSVIDYPPEELEQELNY

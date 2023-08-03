@@ -1,0 +1,4 @@
+>ID:WP_213203234.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|204|NZ_CP073761(3180296):2630386-2630589:1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213203233.1(-1),ID:WP_213205379.1(1)|neighbour_genes:NAD-dependent epimer..,phycobilisome rod-co..| | aligned:1-67 (67)
+MQVNVPGCSGDALSLALGPLGLSDFRVERRSQDGRQWFFQATFKPGGIEAPAAGLVTRLVSVDRILD
+>ID:WP_197148047.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|hypothetical protein|243|NZ_CP060395(3226220):1930569-1930811:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197148046.1(1),ID:WP_197148048.1(1)|neighbour_genes:heme oxygenase (bili..,NAD-dependent epimer..| | aligned:14-80 (80)
+MPVYCVEVPGLPPLPVSCVGCSGDALQLALREQGLANFRVERRSKDGRQWWFQVNFKPGSIDPATTEELTRLVSVDLIED

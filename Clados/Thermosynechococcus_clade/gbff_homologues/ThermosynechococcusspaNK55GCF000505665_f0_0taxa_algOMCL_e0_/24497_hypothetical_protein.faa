@@ -1,0 +1,4 @@
+>ID:WP_041430739.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|hypothetical protein|282|NC_019680(3697276):1693542-1693823:-1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_156804762.1(1),ID:WP_156804763.1(1)|neighbour_genes:hypothetical protein,winged helix-turn-he..| | aligned:1-76 (93)
+MPMDKRKYPKNWKAIAYTIKHNANWICQDCGRPCRKPGVPWKVFIHWLCDHPDKCWIKDTLENDREKVQRFTLTVAHLNHRPQDNRIVGVSLP
+>ID:WP_041430866.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|hypothetical protein|252|NC_019680(3697276):2743098-2743349:1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015125421.1(1),ID:WP_015125422.1(-1)|neighbour_genes:DUF305 domain-contai..,hypothetical protein| | aligned:1-76 (83)
+MPIDRRKYPKNWKSIAHTIKHNANWTCQDCGRPCRPPGVPWKVFIHWLCDYPDKRWIKDTLQNDRKMVQRFTLTVATSTLALS

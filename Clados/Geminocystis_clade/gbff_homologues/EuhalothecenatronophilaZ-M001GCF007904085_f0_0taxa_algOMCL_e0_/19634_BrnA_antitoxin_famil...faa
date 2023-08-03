@@ -1,0 +1,6 @@
+>ID:WP_015228522.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|BrnA antitoxin famil..|258|NC_019780(3781008):761883-762140:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_232225192.1(1),ID:WP_015228523.1(1)|neighbour_genes:DUF192 domain-contai..,phosphoketolase fami..| | aligned:1-85 (85)
+MEAKYDFSHGKRGAIDPTPSGKTRITIRLDDDVLAWFRQSVHLAGGGNYQTLINEALRQYIQEQNPESLEDTLRRVVREELDRAH
+>ID:WP_146296076.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|BrnA antitoxin famil..|258|NZ_CP042326(3326959):2190808-2191065:-1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146296075.1(1),ID:WP_146296078.1(-1)|neighbour_genes:hypothetical protein,bifunctional (p)ppGp..| | aligned:1-81 (85)
+MKTEDDFSQGKRGAVDLSSSGKTRITIRLDDDILQWFRQQVHLAGGGNYQTLINEALRQHIQQTREPLEETLRRVVREELNNIAS
+>ID:WP_041596560.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|BrnA antitoxin famil..|255|NC_019779(4179170):1964969-1965223:-1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015225844.1(1),ID:WP_235620780.1(-1)|neighbour_genes:modA,BrnT family toxin| | aligned:1-84 (84)
+MEAEYDFSQGKRGAIDPTPSRQTRITISIDNDILDWFRRSVHLSGGGDYQALMNEALRQYIEENRESLEETLRRVVREELNQNH

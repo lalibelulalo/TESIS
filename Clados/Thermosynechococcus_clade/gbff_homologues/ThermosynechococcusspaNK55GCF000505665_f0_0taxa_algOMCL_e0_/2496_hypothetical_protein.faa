@@ -1,0 +1,6 @@
+>ID:WP_012162792.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|180|NC_009925(6503724):2307262-2307441:-1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012162791.1(-1),ID:WP_012162793.1(1)|neighbour_genes:inorganic diphosphat..,aroA| | aligned:1-59 (59)
+MQPSLKKQLLWVTAACILLTLGFGLALSVAVNLSLQGFEQQRPDLEILPSENTPSSAPL
+>ID:WP_212663198.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|180|NZ_CP064923(5881945):5001600-5001779:-1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212663197.1(-1),ID:WP_212663199.1(1)|neighbour_genes:inorganic diphosphat..,aroA| | aligned:1-59 (59)
+MQPSLKKQLLWVTVACILLTLGFGLALSVAVNLSLQGFEQQRPDLEILPSESAPSSAPL
+>ID:WP_212663198.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|hypothetical protein|180|NZ_CP071717(5699248):2025551-2025730:-1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_212663197.1(-1),ID:WP_235110140.1(1)|neighbour_genes:inorganic diphosphat..,aroA| | aligned:1-59 (59)
+MQPSLKKQLLWVTVACILLTLGFGLALSVAVNLSLQGFEQQRPDLEILPSESAPSSAPL

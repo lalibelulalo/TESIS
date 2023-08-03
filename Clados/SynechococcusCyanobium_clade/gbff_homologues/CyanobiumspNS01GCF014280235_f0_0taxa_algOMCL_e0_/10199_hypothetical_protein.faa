@@ -1,0 +1,10 @@
+>ID:WP_213204542.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|147|NZ_CP073761(3180296):1070342-1070488:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213204541.1(-1),ID:WP_213204543.1(-1)|neighbour_genes:carbohydrate porin,HupE/UreJ family pro..| | aligned:1-47 (48)
+MAELLLFIGVLAAFGLAFWLTTDSDDDNGGGGLMQPVLVPVRTSQPRR
+>ID:WP_186699175.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|hypothetical protein|144|NZ_CP047940(2748087):871035-871178:-1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_225875799.1(-1),ID:WP_225875800.1(-1)|neighbour_genes:extracellular solute..,GTP-binding protein| | aligned:1-46 (47)
+MAELLLCIGVLGVLGLAFWLTTDSDDDNGGGGLMQPALVPVRVRRNG
+>ID:WP_197156307.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|hypothetical protein|144|NZ_CP060398(3854122):3668622-3668765:1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197170442.1(1),ID:WP_231598331.1(1)|neighbour_genes:HupE/UreJ family pro..,extracellular solute..| | aligned:1-47 (47)
+MAELLVFTGVLALFGLAFWLTADSDDDSGGGGLMQPVLVPIPVRRQR
+>ID:WP_197156307.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|hypothetical protein|144|NZ_CP060396(3860130):3668748-3668891:1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197156305.1(1),ID:WP_231598331.1(1)|neighbour_genes:HupE/UreJ family pro..,extracellular solute..| | aligned:1-47 (47)
+MAELLVFTGVLALFGLAFWLTADSDDDSGGGGLMQPVLVPIPVRRQR
+>ID:WP_197151025.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|hypothetical protein|144|NZ_CP060395(3226220):481848-481991:1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197151024.1(1),ID:WP_197151031.1(1)|neighbour_genes:GTP-binding protein,iron uptake porin| | aligned:1-47 (47)
+MAELILCSGVLALFGLALWLTTDSDDDNGGGGLMQPVLVPVPVRRHH

@@ -1,0 +1,4 @@
+>ID:WP_011433464.1 |[Synechococcus sp. JA-2-3B'a(2-13)]|JA-2-3B'a(2-13)|Synechococcus_sp_JA-2-3Ba_2-13_JA-2-3Ba_2-13_GCF_000013225.1_genomic.gbff|hypothetical protein|216|NC_007776(3046682):1952458-1952673:1 ^^ Synechococcus sp. JA-2-3B'a(2-13), complete sequence.|neighbours:ID:WP_238376734.1(-1),ID:WP_011433465.1(-1)|neighbour_genes:methyltransferase do..,ABC transporter perm..| | aligned:17-71 (71)
+MSVSHPSSAAPSSSGSNFGLREYVTELQLHMALQARSLTPSLSVSPAQDSPLALVQRAQAAMEKSVSRQWL
+>ID:WP_011431490.1 |[Synechococcus sp. JA-3-3Ab]|JA-3-3Ab|Synechococcus_sp_JA-3-3Ab_GCF_000013205.1_genomic.gbff|hypothetical protein|216|NC_007775(2932766):2730464-2730679:-1 ^^ Synechococcus sp. JA-3-3Ab, complete sequence.|neighbours:ID:WP_011431489.1(1),ID:WP_011431491.1(1)|neighbour_genes:ABC transporter perm..,methyltransferase do..| | aligned:1-71 (71)
+MSASYASATARSSSAAGFDLRDYVTELQLHMALQARSLTPPLHLSPAKDSPLALVQQAQAELEKSVSRQWL

@@ -1,0 +1,4 @@
+>ID:WP_015229178.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|DUF433 domain-contai..|273|NC_019780(3781008):1504125-1504397:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015229177.1(-1),ID:WP_198007654.1(-1)|neighbour_genes:DUF5615 family PIN-l..,hypothetical protein| | aligned:13-88 (90)
+MNQITNLMINQQLDRITSDSTRMNGQPCIRNLRLTVRRVIELLAIYPDREELRQEFPELEDEDIQQALIYASTCMDDRIIPLSKNHETIT
+>ID:WP_015226588.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|DUF433 domain-contai..|243|NC_019779(4179170):2804457-2804699:1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_255348257.1(1),ID:WP_235620700.1(1)|neighbour_genes:hypothetical protein,DUF5615 family PIN-l..| | aligned:3-78 (80)
+MTLDRITSDPNRMNGQPCIRHLRLTVRRVLELIATYPDRQELFQEFPELEEEDLQQALIFASSYLDDYIMELPKSNETAA

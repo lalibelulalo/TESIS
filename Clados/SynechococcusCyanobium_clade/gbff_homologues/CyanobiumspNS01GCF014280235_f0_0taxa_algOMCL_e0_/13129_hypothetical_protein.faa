@@ -1,0 +1,6 @@
+>ID:WP_197172583.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|hypothetical protein|237|NZ_CP060398(3854122):1082228-1082464:-1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197171272.1(-1),ID:WP_197159382.1(-1)|neighbour_genes:Hsp20/alpha crystall..,hypothetical protein| | aligned:1-78 (78)
+MRTPTAVLNPLRSSTTASAADDRLALNQRITRLDSEARLAAERGDVTASARSILELLDCERRAGQSGPQVLQLIKPRS
+>ID:WP_197214062.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|hypothetical protein|255|NZ_CP060397(3672318):2465648-2465902:-1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197210574.1(1),ID:WP_197214063.1(-1)|neighbour_genes:divalent-cation tole..,hypothetical protein| | aligned:2-84 (84)
+MTATSAPVRPSVPIPGRRPPLPVVESIPRHQLLDQASQLFDQASRAAEAGDVADSAQLILKALDCERRAGGVGPQVLQLIKPRG
+>ID:WP_231605696.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|hypothetical protein|258|NZ_CP060396(3860130):1035371-1035628:1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197159382.1(1),ID:WP_231605697.1(-1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:8-85 (85)
+MQARVKSLRTPTAVLNPLRSSAAASAADDRLALNQRITRLDSEARLAAEQGDVTASARSILELLDCERRAGQSGPQVLQLIKPRS

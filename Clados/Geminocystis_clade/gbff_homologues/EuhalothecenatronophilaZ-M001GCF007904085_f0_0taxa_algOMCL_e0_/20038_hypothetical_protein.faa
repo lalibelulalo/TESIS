@@ -1,0 +1,6 @@
+>ID:WP_015220422.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|hypothetical protein|204|NC_019776(4114099):3123872-3124075:1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015220421.1(1),ID:WP_015220423.1(1)|neighbour_genes:hypothetical protein,MoxR family ATPase| | aligned:1-66 (67)
+MIPTELKQKGYQVLVKELGQVDTIRFLQEMGWGNGDYTKERQDTLKNTTRAEFWCEIEEMRKEQKPT
+>ID:WP_015228131.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|hypothetical protein|198|NC_019780(3781008):312630-312827:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015228130.1(-1),ID:WP_015228132.1(-1)|neighbour_genes:ferredoxin,PIN domain-containin..| | aligned:1-65 (65)
+MKLTEIRQQGYQALINSLGVVGTLRFLQQFEVGYGDYTTEKYQLDEPTLEEFKEFVRQRKQQNKP
+>ID:WP_246140315.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|hypothetical protein|204|NZ_CP042326(3326959):2599515-2599718:1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146296585.1(1),ID:WP_146294359.1(1)|neighbour_genes:type II toxin-antito..,hypothetical protein| | aligned:7-67 (67)
+MMKTKEEILREGYSALIGSLGATDAIRFLQHFRSGQGDYTKERRQWLDNKSLMEVWEEMEQVSNEPK

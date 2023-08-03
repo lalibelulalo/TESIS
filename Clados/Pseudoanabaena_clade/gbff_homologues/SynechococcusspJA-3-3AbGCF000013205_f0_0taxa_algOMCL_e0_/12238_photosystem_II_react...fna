@@ -1,0 +1,4 @@
+>ID:WP_011431949.1 |[Synechococcus sp. JA-2-3B'a(2-13)]|JA-2-3B'a(2-13)|Synechococcus_sp_JA-2-3Ba_2-13_JA-2-3Ba_2-13_GCF_000013225.1_genomic.gbff|photosystem II react..|99|NC_007776(3046682):297371-297469:1 ^^ Synechococcus sp. JA-2-3B'a(2-13), complete sequence.|neighbours:ID:WP_011431948.1(1),ID:WP_011431950.1(1)|neighbour_genes:psbB,response regulator|
+ATGGAAGCCATCACCTACACCTTTATCCTGTTTTTGACGTTGGGCCTTCTGTTTTTCGCGGTCGCCTTTCGGGAAACTCCGAGAATTACCAAGAAGTAA
+>ID:WP_011429542.1 |[Synechococcus sp. JA-3-3Ab]|JA-3-3Ab|Synechococcus_sp_JA-3-3Ab_GCF_000013205.1_genomic.gbff|photosystem II react..|99|NC_007775(2932766):656014-656112:1 ^^ Synechococcus sp. JA-3-3Ab, complete sequence.|neighbours:ID:WP_011429541.1(1),ID:WP_011429543.1(1)|neighbour_genes:psbB,response regulator|
+ATGGAAGCCATCACCTACACCTTTATTCTGTTTTTGACGCTGGGCCTTCTGTTTTTTGCCGTCGCCTTTCGCGAAACTCCTAGGATTCAGAAGAAGTAA

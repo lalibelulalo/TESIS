@@ -1,0 +1,14 @@
+>ID:WP_015125618.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|hypothetical protein|129|NC_019680(3697276):2955476-2955604:-1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015125617.1(-1),ID:WP_015125619.1(1)|neighbour_genes:zinc-dependent dehyd..,tetratricopeptide re..| | aligned:1-42 (42)
+MWIEFRQAMQKLFEACGRIFTPAKDDYPATGTQPYSGSVSKR
+>ID:WP_099798664.1 |[Thermostichus lividus PCC 6715]|PCC 6715|Thermostichus_lividus_PCC_6715_GCF_002754935.1_genomic.gbff|nicotinate phosphori..|144|NZ_CP018092(2659739):1163689-1163832:-1 ^^ Thermostichus lividus PCC 6715 chromosome, complete genome.|neighbours:ID:WP_099798663.1(1),ID:WP_099798665.1(1)|neighbour_genes:PD40 domain-containi..,beta-glucosidase| | aligned:1-47 (47)
+MLKSLRQKLQGMMEFLMEAFGRIFTPRNDHYPSTGVQPFSGTRPRKS
+>ID:WP_181495457.1 |[Thermosynechococcus elongatus PKUAC-SCTE542]|PKUAC-SCTE542|Thermosynechococcus_elongatus_PKUAC-SCTE542_GCF_003555505.1_genomic.gbff|hypothetical protein|144|NZ_CP032152(2650294):110237-110380:1 ^^ Thermosynechococcus elongatus PKUAC-SCTE542 chromosome, complete genome.|neighbours:ID:WP_181495456.1(-1),ID:WP_181495458.1(-1)|neighbour_genes:beta-glucosidase,sat| | aligned:1-47 (47)
+MLKALREKLQSMMVFLMEAFGRIFTPRNDHYPSTGAQPFTGTPSRKS
+>ID:WP_181495457.1 |[Thermosynechococcus sp. CL-1]|CL-1|Thermosynechococcus_sp_CL-1_GCF_008386235.1_genomic.gbff|hypothetical protein|144|NZ_CP040671(2647823):2332009-2332152:1 ^^ Thermosynechococcus sp. CL-1 chromosome, complete genome.|neighbours:ID:WP_149820999.1(-1),ID:WP_149821001.1(-1)|neighbour_genes:beta-glucosidase,sat| | aligned:1-47 (47)
+MLKALREKLQSMMVFLMEAFGRIFTPRNDHYPSTGAQPFTGTPSRKS
+>ID:WP_181495457.1 |[Thermosynechococcus sp. HN-54]|HN-54|Thermosynechococcus_sp_HN-54_GCF_023650955.1_genomic.gbff|hypothetical protein|144|NZ_CP098039(2705963):223936-224079:-1 ^^ Thermosynechococcus sp. HN-54 chromosome, complete genome.|neighbours:ID:WP_250682679.1(1),ID:WP_250682680.1(1)|neighbour_genes:sat,beta-glucosidase| | aligned:1-47 (47)
+MLKALREKLQSMMVFLMEAFGRIFTPRNDHYPSTGAQPFTGTPSRKS
+>ID:WP_181495457.1 |[Thermosynechococcus sp. TA-1]|TA-1|Thermosynechococcus_sp_TA-1_GCF_017086385.1_genomic.gbff|hypothetical protein|144|NZ_CP070960(2658717):414479-414622:-1 ^^ Thermosynechococcus sp. TA-1 chromosome, complete genome.|neighbours:ID:WP_206200839.1(1),ID:WP_206200840.1(1)|neighbour_genes:sat,glycoside hydrolase ..| | aligned:1-47 (47)
+MLKALREKLQSMMVFLMEAFGRIFTPRNDHYPSTGAQPFTGTPSRKS
+>ID:WP_165442182.1 |[Thermosynechococcus vestitus BP-1]|BP-1|Thermosynechococcus_vestitus_BP-1_GCF_000011345.1_genomic.gbff|hypothetical protein|144|NC_004113(2593857):1079389-1079532:1 ^^ Thermosynechococcus vestitus BP-1, complete sequence.|neighbours:ID:WP_011056886.1(-1),ID:WP_011056887.1(-1)|neighbour_genes:hydrolase,sat| | aligned:1-47 (47)
+MLRAIREKLQSMMVFLMEAFGRIFTPRNDHYPSTGAQPFTGTPSRKS

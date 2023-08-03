@@ -1,0 +1,8 @@
+>ID:WP_213205191.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|282|NZ_CP073761(3180296):1307488-1307769:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213204751.1(-1),ID:WP_213204752.1(-1)|neighbour_genes:A24 family peptidase,phosphoribulokinase| | aligned:13-92 (93)
+MIAGALDTPPAGLRLDRINSQQVFHQARQALFHYMERCPGGGEPIGVVLQGGRGRVVFEQPILLPDEQFVPIDLMRGRPDNRAAGRLRMPRNR
+>ID:WP_225867459.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|hypothetical protein|192|NZ_LT578417(3021545):213008-213199:-1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087066905.1(-1),ID:WP_087066907.1(-1)|neighbour_genes:A24 family peptidase,phosphoribulokinase| | aligned:1-63 (63)
+MYAYMDRCPSGPDPCGVVLQAGRGRVVFELPVLLPDEQFIPLDLIRGKSSRSSSSRVRWARPS
+>ID:WP_225875820.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|hypothetical protein|252|NZ_CP047940(2748087):980283-980534:-1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186699373.1(-1),ID:WP_186699375.1(-1)|neighbour_genes:A24 family peptidase,phosphoribulokinase| | aligned:3-83 (83)
+MNLRLDRINSQQVVLLARRALFSYMERCPGGPDPCGVVLQAERGRVVLEMPVLLPDEQFIPIELIRGRLTRGGGSRLRWARPS
+>ID:WP_231596326.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|hypothetical protein|288|NZ_CP060395(3226220):2750883-2751170:1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197149097.1(1),ID:WP_231596327.1(1)|neighbour_genes:phosphoribulokinase,prepilin peptidase| | aligned:5-89 (95)
+MAPVLRLDQINSQMVIQAARRVLFEALDHCAPAADVCGVVLKANPANFQGRIVQAMPVLLPDEQFVPIDLIRARRSRSGPSRLRFPRTTPSPTTV

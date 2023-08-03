@@ -1,0 +1,8 @@
+>ID:WP_213204928.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|213|NZ_CP073761(3180296):1465774-1465986:1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213204926.1(-1),ID:WP_213204930.1(1)|neighbour_genes:tryptophan-rich sens..,hypothetical protein| | aligned:1-70 (70)
+MNRTLRGVAYVSVWVLLWGTAASLADVVLLEREAYAAGGAGQAITFASYGMAAVVLAVRLAGRFLKHDSP
+>ID:WP_186699519.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|hypothetical protein|210|NZ_CP047940(2748087):1081328-1081537:1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_225875832.1(-1),ID:WP_225875833.1(-1)|neighbour_genes:M23 family metallope..,recQ| | aligned:1-69 (69)
+MNQTVKGITYVSVWVLLWGTASSLADFVLLQRGTYETGTSGQLLTFAAYGLAALVMGVRLSGRFLKTED
+>ID:WP_197210807.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|hypothetical protein|210|NZ_CP060397(3672318):2784714-2784923:-1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197210806.1(-1),ID:WP_231597377.1(-1)|neighbour_genes:hypothetical protein,alpha/beta hydrolase| | aligned:1-69 (69)
+MNPTLRGIVYVSVWVMLWGTAASLADFVLLERGAYDAGTSGQAITFASYGIAAVVLAVKLSGRFLKTDA
+>ID:WP_231596401.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|hypothetical protein|225|NZ_CP060395(3226220):3206928-3207152:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197149865.1(1),ID:WP_197149867.1(-1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-70 (74)
+MGKTAKGVGYVSVWVLIWGTAASLVDYILLKREVYASFSIGQGFTFVGYGVAAAYLAVKFAPRFLKQEEPPAAD

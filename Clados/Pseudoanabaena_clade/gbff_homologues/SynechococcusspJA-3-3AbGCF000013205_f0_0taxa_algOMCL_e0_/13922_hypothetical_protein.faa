@@ -1,0 +1,4 @@
+>ID:WP_011433048.1 |[Synechococcus sp. JA-2-3B'a(2-13)]|JA-2-3B'a(2-13)|Synechococcus_sp_JA-2-3Ba_2-13_JA-2-3Ba_2-13_GCF_000013225.1_genomic.gbff|hypothetical protein|279|NC_007776(3046682):1503574-1503852:-1 ^^ Synechococcus sp. JA-2-3B'a(2-13), complete sequence.|neighbours:ID:WP_011433047.1(-1),ID:WP_011433049.1(-1)|neighbour_genes:(2Fe-2S) ferredoxin ..,DNA starvation/stati..| | aligned:5-91 (92)
+MNPVFLDSERGYLLNIPLGERWRVGRRLMELGIPAICTGDGRLRVEVSTPLAVLQVRSVIRQHTARRQELLDGLEVCWQLNTEAGGQDEQVS
+>ID:WP_041438578.1 |[Synechococcus sp. JA-3-3Ab]|JA-3-3Ab|Synechococcus_sp_JA-3-3Ab_GCF_000013205.1_genomic.gbff|hypothetical protein|267|NC_007775(2932766):2474013-2474279:-1 ^^ Synechococcus sp. JA-3-3Ab, complete sequence.|neighbours:ID:WP_041438576.1(-1),ID:WP_011431259.1(-1)|neighbour_genes:(2Fe-2S) ferredoxin ..,DNA starvation/stati..| | aligned:3-87 (88)
+MNFVSSGSGYCLQIPLGERWRIGRRLVELGIPAVCTGEGHLQVQVDTPLALVQVRSVIRQYTARRRELLDSLEICWQLNAGGQDEQVG

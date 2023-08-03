@@ -1,0 +1,4 @@
+>ID:WP_212663048.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|195|NZ_CP064923(5881945):4808327-4808521:1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_235109979.1(1),ID:WP_249369487.1(-1)|neighbour_genes:DUF4327 family prote..,cofactor assembly of..| | aligned:1-64 (64)
+MDGGRVQDAGETPIHIQNLFLSQGSLRYLHPWEESLQGIGLNPGFVPTKTLRLIHENSSILDER
+>ID:WP_235109980.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|hypothetical protein|195|NZ_CP071717(5699248):1818382-1818576:1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235109979.1(1),ID:WP_235109982.1(-1)|neighbour_genes:DUF4327 family prote..,cofactor assembly of..| | aligned:1-64 (64)
+MAGGRVQDAGETPIHIQHLFLSQDSLRYLHPWEKSLQGIGLNPGFVPTKTLRPIHENSSILDER

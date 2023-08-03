@@ -1,0 +1,6 @@
+>ID:WP_015160955.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|ribbon-helix-helix d..|198|NC_019697(6284095):4068478-4068675:-1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015160954.1(-1),ID:WP_015160956.1(1)|neighbour_genes:BrnT family toxin,leuS| | aligned:1-65 (65)
+MASITIAIPDEQLEKLQQLARESKVSTEDLVRANLEDWLANSNDDFTQSASYVLKKNAELYRRLA
+>ID:WP_015228538.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|hypothetical protein|198|NC_019780(3781008):775439-775636:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015228537.1(-1),ID:WP_156800642.1(1)|neighbour_genes:type II toxin-antito..,hypothetical protein| | aligned:1-65 (65)
+MTYITIDLSDSQFQKLQNLARVHGIATEVLLKASLEDWLNLQKGDFVNAADYVLEKNAELYRRLA
+>ID:WP_146294930.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|ribbon-helix-helix d..|198|NZ_CP042326(3326959):1043095-1043292:1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_222597862.1(1),ID:WP_146294931.1(1)|neighbour_genes:hypothetical protein,type II toxin-antito..| | aligned:1-65 (65)
+MNSLTIQLPDEKLQKLQQLAKEKGITTEELIETKINEWLTHNPQEFPEVANYVVNKNADLYKRLA

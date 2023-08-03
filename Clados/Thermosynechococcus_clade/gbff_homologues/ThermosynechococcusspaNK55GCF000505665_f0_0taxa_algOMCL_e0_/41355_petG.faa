@@ -1,0 +1,24 @@
+>ID:WP_010474545.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|petG|111|NC_009925(6503724):2044745-2044855:-1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012162557.1(1),ID:WP_012162558.1(-1)|neighbour_genes:rsmD,plastocyanin/azurin ..| | aligned:1-36 (36)
+MVEPLLAGIVLGLVPVTLAGLFVAAWQQYKRGEEVG
+>ID:WP_010474545.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|petG|111|NZ_CP064923(5881945):4760675-4760785:-1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212663010.1(1),ID:WP_212663011.1(1)|neighbour_genes:rsmD,energy transducer To..| | aligned:1-36 (36)
+MVEPLLAGIVLGLVPVTLAGLFVAAWQQYKRGEEVG
+>ID:WP_010474545.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|petG|111|NZ_CP071717(5699248):1771707-1771817:-1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235109926.1(1),ID:WP_235109927.1(1)|neighbour_genes:rsmD,hypothetical protein| | aligned:1-36 (36)
+MVEPLLAGIVLGLVPVTLAGLFVAAWQQYKRGEEVG
+>ID:WP_071454704.1 |[Gloeomargarita lithophora Alchichica-D10]|D10|Gloeomargarita_lithophora_Alchichica-_D10_GCF_001870225.1_genomic.gbff|petG|99|NZ_CP017675(3049282):1945407-1945505:-1 ^^ Gloeomargarita lithophora Alchichica-D10 chromosome.|neighbours:ID:WP_071454703.1(1),ID:WP_216634548.1(1)|neighbour_genes:RsmD family RNA meth..,cobS| | aligned:1-32 (32)
+MIEPLVLSIVLGLVSVTLAGLFVAAYMQYKRN
+>ID:WP_015124688.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|petG|114|NC_019680(3697276):1985026-1985139:-1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015124687.1(-1),ID:WP_015124689.1(1)|neighbour_genes:metK,rodA| | aligned:1-37 (37)
+MIEPLLCGIVLGLIPVTLAGLFVAAYLQYKRGDQLGV
+>ID:WP_099799905.1 |[Thermostichus lividus PCC 6715]|PCC 6715|Thermostichus_lividus_PCC_6715_GCF_002754935.1_genomic.gbff|petG|114|NZ_CP018092(2659739):1794837-1794950:-1 ^^ Thermostichus lividus PCC 6715 chromosome, complete genome.|neighbours:ID:WP_250644934.1(-1),ID:WP_099799142.1(1)|neighbour_genes:50S ribosome-binding..,response regulator| | aligned:1-37 (37)
+MIEPLLCGIVLGLIPVTLAGLFFAAYQQYKRGNQLGL
+>ID:WP_181496367.1 |[Thermosynechococcus elongatus PKUAC-SCTE542]|PKUAC-SCTE542|Thermosynechococcus_elongatus_PKUAC-SCTE542_GCF_003555505.1_genomic.gbff|petG|114|NZ_CP032152(2650294):814471-814584:1 ^^ Thermosynechococcus elongatus PKUAC-SCTE542 chromosome, complete genome.|neighbours:ID:WP_181496366.1(-1),ID:WP_181496368.1(1)|neighbour_genes:response regulator,der| | aligned:1-37 (37)
+MIEPLLCGIVLGLIPVTLAGLFFAAYQQYKRGSQFEL
+>ID:WP_149817584.1 |[Thermosynechococcus sp. CL-1]|CL-1|Thermosynechococcus_sp_CL-1_GCF_008386235.1_genomic.gbff|petG|114|NZ_CP040671(2647823):333675-333788:-1 ^^ Thermosynechococcus sp. CL-1 chromosome, complete genome.|neighbours:ID:WP_149817582.1(-1),ID:WP_149817586.1(1)|neighbour_genes:der,response regulator| | aligned:1-37 (37)
+MIEPLLCGIVLGLIPVTLAGLFFAAYQQYKRGSQFET
+>ID:WP_181496367.1 |[Thermosynechococcus sp. HN-54]|HN-54|Thermosynechococcus_sp_HN-54_GCF_023650955.1_genomic.gbff|petG|114|NZ_CP098039(2705963):2190572-2190685:1 ^^ Thermosynechococcus sp. HN-54 chromosome, complete genome.|neighbours:ID:WP_250682044.1(-1),ID:WP_250682045.1(1)|neighbour_genes:response regulator,der| | aligned:1-37 (37)
+MIEPLLCGIVLGLIPVTLAGLFFAAYQQYKRGSQFEL
+>ID:WP_149817584.1 |[Thermosynechococcus sp. TA-1]|TA-1|Thermosynechococcus_sp_TA-1_GCF_017086385.1_genomic.gbff|petG|114|NZ_CP070960(2658717):1201749-1201862:1 ^^ Thermosynechococcus sp. TA-1 chromosome, complete genome.|neighbours:ID:WP_206201445.1(-1),ID:WP_206201446.1(1)|neighbour_genes:PAS domain-containin..,der| | aligned:1-37 (37)
+MIEPLLCGIVLGLIPVTLAGLFFAAYQQYKRGSQFET
+>ID:WP_011056721.1 |[Thermosynechococcus sp. NK55a]|NK55|Thermosynechococcus_sp_a_NK55_GCF_000505665.1_genomic.gbff|petG|114|NC_023033(2520064):2289701-2289814:1 ^^ Thermosynechococcus sp. NK55a, complete sequence.|neighbours:ID:WP_024125806.1(-1),ID:WP_024125807.1(1)|neighbour_genes:response regulator,der| | aligned:1-37 (37)
+MIEPLLCGIVLGLIPVTLAGLFFAAYQQYKRGSQLEL
+>ID:WP_011056721.1 |[Thermosynechococcus vestitus BP-1]|BP-1|Thermosynechococcus_vestitus_BP-1_GCF_000011345.1_genomic.gbff|petG|114|NC_004113(2593857):893900-894013:1 ^^ Thermosynechococcus vestitus BP-1, complete sequence.|neighbours:ID:WP_164920774.1(-1),ID:WP_011056722.1(1)|neighbour_genes:response regulator,der| | aligned:1-37 (37)
+MIEPLLCGIVLGLIPVTLAGLFFAAYQQYKRGSQLEL

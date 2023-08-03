@@ -1,0 +1,8 @@
+>ID:WP_227517704.1 |[Thermostichus lividus PCC 6715]|PCC 6715|Thermostichus_lividus_PCC_6715_GCF_002754935.1_genomic.gbff|hypothetical protein|198|NZ_CP018092(2659739):1088654-1088851:-1 ^^ Thermostichus lividus PCC 6715 chromosome, complete genome.|neighbours:ID:WP_099798611.1(1),ID:WP_227517602.1(-1)|neighbour_genes:argC,hypothetical protein| | aligned:11-65 (65)
+MRPLGTKMPRSPHYPTTLLLSLGTAPFLVGVCVGRVLWAFSLDLSAASTELLRGECLPLVNADEV
+>ID:WP_181494439.1 |[Thermosynechococcus elongatus PKUAC-SCTE542]|PKUAC-SCTE542|Thermosynechococcus_elongatus_PKUAC-SCTE542_GCF_003555505.1_genomic.gbff|hypothetical protein|171|NZ_CP032152(2650294):1505069-1505239:1 ^^ Thermosynechococcus elongatus PKUAC-SCTE542 chromosome, complete genome.|neighbours:ID:WP_181494438.1(1),ID:WP_181496904.1(-1)|neighbour_genes:hypothetical protein,argC| | aligned:1-56 (56)
+MARLAPPTLLLSLSTAPFLAALCLGQGLWQMGLSLSASSTELLRGDRLPLVEQDET
+>ID:WP_149818598.1 |[Thermosynechococcus sp. CL-1]|CL-1|Thermosynechococcus_sp_CL-1_GCF_008386235.1_genomic.gbff|hypothetical protein|171|NZ_CP040671(2647823):894427-894597:-1 ^^ Thermosynechococcus sp. CL-1 chromosome, complete genome.|neighbours:ID:WP_149818596.1(1),ID:WP_149818600.1(-1)|neighbour_genes:argC,hypothetical protein| | aligned:1-56 (56)
+MARLAPTTLLLSLSTAPFLAALCLGQGLWQMGLSLSASSTELLRGDRLPLVEQDET
+>ID:WP_011058052.1 |[Thermosynechococcus vestitus BP-1]|BP-1|Thermosynechococcus_vestitus_BP-1_GCF_000011345.1_genomic.gbff|hypothetical protein|171|NC_004113(2593857):2300914-2301084:1 ^^ Thermosynechococcus vestitus BP-1, complete sequence.|neighbours:ID:WP_164920999.1(1),ID:WP_011058053.1(-1)|neighbour_genes:hypothetical protein,argC| | aligned:1-56 (56)
+MAPLTPATLLLSLMTIPFLVALCLGQGLWQMGLFLSAASTELLRGDRLPLVEPDET

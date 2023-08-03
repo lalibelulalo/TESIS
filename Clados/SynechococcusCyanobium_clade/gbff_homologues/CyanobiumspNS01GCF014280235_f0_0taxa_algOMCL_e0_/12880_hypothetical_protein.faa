@@ -1,0 +1,4 @@
+>ID:WP_197171023.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|hypothetical protein|255|NZ_CP060398(3854122):825615-825869:1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197158271.1(-1),ID:WP_197158268.1(1)|neighbour_genes:hypothetical protein,TerB family tellurit..| | aligned:1-84 (84)
+MKGEDAKRKTRIRALERKVRLEQAWFTFRRASVVIGFAGLLLLLFLVGSWLTSGPSGEDQIDRESVDTCVQQQQHSSGNIDLCY
+>ID:WP_197158269.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|hypothetical protein|258|NZ_CP060396(3860130):1269831-1270088:-1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197158268.1(-1),ID:WP_197158271.1(1)|neighbour_genes:TerB family tellurit..,hypothetical protein| | aligned:1-85 (85)
+MKGEDAKRKTRIRALERKVRLEQAWFTFRRASVVIGFAGLLLLLFLVGSWLTSGPSGEDQIDRESVDTCVQQQQQHSSGNIDLCY

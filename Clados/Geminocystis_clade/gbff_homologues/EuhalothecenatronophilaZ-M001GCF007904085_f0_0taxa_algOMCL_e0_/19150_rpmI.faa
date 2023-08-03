@@ -1,0 +1,22 @@
+>ID:WP_015158016.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|rpmI|198|NC_019697(6284095):589982-590179:1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_041548637.1(1),ID:WP_015158017.1(1)|neighbour_genes:rnc,rplT| | aligned:1-65 (65)
+MPKLKSRKAAAKRFRASGSGKIMRRKAFKSHLLEHKNADRRRSLSKATAVDETDVLRVRGMLPYL
+>ID:WP_096717025.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|50S ribosomal protei..|204|NZ_AP018281(4516676):8404-8607:1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096717023.1(1),ID:WP_096717027.1(1)|neighbour_genes:DUF1517 domain-conta..,50S ribosomal protei..| | aligned:1-67 (67)
+MPKLKTKKSAAKRFRITGSGKKIMRRKAFKNHLLERKSKERTRRRLSSMAVVHETDEKAVRTMMPYS
+>ID:WP_015219413.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|rpmI|210|NC_019776(4114099):1901093-1901302:-1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015219412.1(-1),ID:WP_241212809.1(1)|neighbour_genes:rplT,grrP| | aligned:1-68 (69)
+MPKVKTKKSAAKRFRVTGSGKKIFRRKANKNHLLEHKTAEQKRRRLSNLTLVHENDVKEVRLMLPYSKR
+>ID:WP_015229371.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|rpmI|201|NC_019780(3781008):1738299-1738499:1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015229370.1(-1),ID:WP_015229372.1(1)|neighbour_genes:RNA-binding protein,rplT| | aligned:1-66 (66)
+MPKLKTNRAAAKRFRVTGSGKIRRRKAFKNHLLQHKSTKRKRDLSKLTYVDERDEDNVRQMLPYMK
+>ID:WP_146295524.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|rpmI|201|NZ_CP042326(3326959):1727441-1727641:1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146295523.1(1),ID:WP_146295525.1(1)|neighbour_genes:adenosine deaminase,rplT| | aligned:1-66 (66)
+MPKLKTNRAAAKRFRATGRGKIRRRKAFKNHLLEPKKTSRKRRLSKLTFVNERDAEKVEQMLPYMK
+>ID:WP_017292575.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|rpmI|201|NZ_CM001775(4263418):192269-192469:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017292574.1(1),ID:WP_017292576.1(1)|neighbour_genes:Fic family protein,rplT| | aligned:1-66 (66)
+MPKLKTKKSAAKRFRITGSGKKIVRRKANKNHLLEHKTSKQRRRLSNPALVHETNEKEVRLMLPYA
+>ID:WP_066344823.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|rpmI|207|NZ_AP014815(3883409):1344853-1345059:-1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_066344822.1(-1),ID:WP_066344825.1(-1)|neighbour_genes:rplT,rpsJ| | aligned:1-68 (68)
+MPKLKTKKSAAKRFRITGSGKKILRRKANKNHLLEHKSPEQKRRRLSNLALVDESNEKEVRLMLPYAK
+>ID:WP_066118244.1 |[Geminocystis sp. NIES-3709]|NIES-3709|Geminocystis_sp_NIES-3709_GCF_001548115.1_genomic.gbff|rpmI|204|NZ_AP014821(4150181):1952269-1952472:1 ^^ Geminocystis sp. NIES-3709 chromosome, complete genome.|neighbours:ID:WP_015223309.1(1),ID:WP_066118246.1(1)|neighbour_genes:rpsJ,rplT| | aligned:1-67 (67)
+MPKLKTKKSAAKRFRITGSGKKIVRRKANKNHLLEHKSKEQKRRRLSNLALVHENDEKEVRLMLPYA
+>ID:WP_015226638.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|rpmI|201|NC_019779(4179170):2852790-2852990:1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015226637.1(-1),ID:WP_015226639.1(1)|neighbour_genes:DUF3352 domain-conta..,rplT| | aligned:1-66 (66)
+MPKLKTNRAAAKRFRTTGSGKIRRRKAFKNHLLQPKTTKRKRTLSKLTIVNERDEDNVRQMLPYLK
+>ID:WP_015193119.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|rpmI|204|NC_019748(5041209):2124806-2125009:-1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015193118.1(-1),ID:WP_216087153.1(-1)|neighbour_genes:rplT,ftsH| | aligned:1-67 (67)
+MPKLKTRKAAAKRFRPTGSGKKIFRRKAFKNHLLQPKSKERTRRRLSNIALVDEADEKNVRLMMPYM
+>ID:WP_096379723.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|50S ribosomal protei..|204|NZ_AP017375(5319768):226245-226448:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096379721.1(-1),ID:WP_096379725.1(-1)|neighbour_genes:50S ribosomal protei..,ATP-dependent zinc m..| | aligned:1-67 (67)
+MPKLKTRKAAAKRFRPTGSGKKIFRRKAFKNHLLQPKSKERIRRRLSNISLVDEADEKNVRLMMPYM

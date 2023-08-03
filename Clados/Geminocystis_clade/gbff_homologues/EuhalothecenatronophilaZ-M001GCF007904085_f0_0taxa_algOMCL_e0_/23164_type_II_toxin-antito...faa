@@ -1,0 +1,6 @@
+>ID:WP_202803906.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|type II toxin-antito..|225|NZ_CM001775(4263418):2446515-2446739:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017294717.1(1),ID:WP_017294719.1(1)|neighbour_genes:type II toxin-antito..,type II toxin-antito..| | aligned:2-74 (74)
+MMKKREFYVVIEKDEDGFYVGEVPQLKACYSQGETIDELMENMKEVITMCLEELEENNNLVSLNEFIGVQKIRV
+>ID:WP_015225385.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|type II toxin-antito..|210|NC_019779(4179170):1426289-1426498:-1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015225384.1(-1),ID:WP_171814893.1(1)|neighbour_genes:type II toxin-antito..,hypothetical protein| | aligned:1-69 (69)
+MPNREFYVLVEKDEDGYFVGEVPQLQGCYSQGQTLDELMTNIKEVIHLCLEDEDHQHKNEFVGIQKIEV
+>ID:WP_015194534.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|type II toxin-antito..|216|NC_019748(5041209):3812727-3812942:-1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015194533.1(-1),ID:WP_015194535.1(-1)|neighbour_genes:type II toxin-antito..,metallophosphoestera..| | aligned:3-71 (71)
+MSMSKREFYVIIERDEDGYYVGEVPQLKGCYSQGKTIDELMLNMKEVVELCLEDEDNDIMSEFVGVQKLVV

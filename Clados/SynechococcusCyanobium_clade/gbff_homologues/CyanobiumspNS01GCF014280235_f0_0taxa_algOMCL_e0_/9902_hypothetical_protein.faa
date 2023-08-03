@@ -1,0 +1,14 @@
+>ID:WP_213205438.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|144|NZ_CP073761(3180296):711310-711453:1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213204240.1(1),ID:WP_213204241.1(1)|neighbour_genes:Na+:solute symporter,HEAT repeat domain-c..| | aligned:1-47 (47)
+MRPVPFVQFFRSTLLPAAIVLLFALALVAVSARIWLPGDMAAPAPIA
+>ID:WP_006909996.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|hypothetical protein|126|NZ_LT578417(3021545):2666296-2666421:-1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087069447.1(-1),ID:WP_087068800.1(-1)|neighbour_genes:HEAT repeat domain-c..,Na+:solute symporter| | aligned:1-41 (41)
+MQFFRSTLLPAAIVLLFALALLAVSARIWLPGDMAAPAPMA
+>ID:WP_255460123.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|hypothetical protein|126|NZ_CP047940(2748087):576770-576895:1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186698695.1(1),ID:WP_225875893.1(1)|neighbour_genes:Na+:solute symporter,HEAT repeat domain-c..| | aligned:1-41 (41)
+MQFLRSTLLPAAIVVLFGLALFAVSARIWLPGDMAAPAPVG
+>ID:WP_255518220.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|hypothetical protein|126|NZ_CP060398(3854122):232239-232364:-1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197170615.1(-1),ID:WP_231598011.1(1)|neighbour_genes:HEAT repeat domain-c..,MFS transporter| | aligned:1-41 (41)
+MQFFRSTLLPAAIVLLFGLALVAVSARIWLPGDMAAPAPLL
+>ID:WP_255518286.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|hypothetical protein|126|NZ_CP060397(3672318):3425789-3425914:1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197211294.1(1),ID:WP_197211295.1(1)|neighbour_genes:Na+:solute symporter,HEAT repeat domain-c..| | aligned:1-41 (41)
+MNFLRSTLLPAAIVLLFGVALFAVSARIWLPGDMAAPAPVG
+>ID:WP_197159376.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|hypothetical protein|144|NZ_CP060396(3860130):215516-215659:-1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197156884.1(-1),ID:WP_197153924.1(-1)|neighbour_genes:HEAT repeat domain-c..,IS630 family transpo..| | aligned:1-47 (47)
+MQSLDSVQFFRSTLLPAAIVLLFGLALVAVSARIWLPGDMAAPAPLL
+>ID:WP_254931544.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|hypothetical protein|126|NZ_CP060395(3226220):783492-783617:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_231596510.1(-1),ID:WP_197151479.1(1)|neighbour_genes:HEAT repeat domain-c..,MFS transporter| | aligned:1-41 (41)
+MQFFRSTLLPASIVVLFALALFAVSARIWLPGDMAAPAPIG

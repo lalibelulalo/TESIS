@@ -1,0 +1,24 @@
+>ID:WP_071819940.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|photosystem II react..|93|NC_009925(6503724):2018009-2018101:1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_010474498.1(1),ID:WP_012162534.1(-1)|neighbour_genes:psbB,rimM| | aligned:1-30 (30)
+MDVIAYVFILACLIGLFFFAVFFREKPTRI
+>ID:WP_212662988.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|photosystem II react..|93|NZ_CP064923(5881945):4734963-4735055:1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212662987.1(1),ID:WP_235109897.1(-1)|neighbour_genes:psbB,rimM| | aligned:1-30 (30)
+MEVIAYVFILACLIGLFFFAVFFREKPTRI
+>ID:WP_212662988.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|photosystem II react..|93|NZ_CP071717(5699248):1746827-1746919:1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_212662987.1(1),ID:WP_235109897.1(-1)|neighbour_genes:psbB,rimM| | aligned:1-30 (30)
+MEVIAYVFILACLIGLFFFAVFFREKPTRI
+>ID:WP_071454092.1 |[Gloeomargarita lithophora Alchichica-D10]|D10|Gloeomargarita_lithophora_Alchichica-_D10_GCF_001870225.1_genomic.gbff|photosystem II prote..|99|NZ_CP017675(3049282):1243310-1243408:1 ^^ Gloeomargarita lithophora Alchichica-D10 chromosome.|neighbours:ID:WP_071454091.1(1),ID:WP_071454093.1(-1)|neighbour_genes:prephenate/arogenate..,sugar phosphate nucl..| | aligned:1-32 (32)
+MEALTYTVLLVGVLGVIFFAIFFREPPRIDKE
+>ID:WP_015125665.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|photosystem II react..|99|NC_019680(3697276):2998203-2998301:1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015125664.1(1),ID:WP_015125666.1(-1)|neighbour_genes:psbB,ybeY| | aligned:1-32 (32)
+MESIAYVFIFACIIGLFFFAIFFREPPRITKK
+>ID:WP_099799540.1 |[Thermostichus lividus PCC 6715]|PCC 6715|Thermostichus_lividus_PCC_6715_GCF_002754935.1_genomic.gbff|photosystem II react..|99|NZ_CP018092(2659739):2371101-2371199:1 ^^ Thermostichus lividus PCC 6715 chromosome, complete genome.|neighbours:ID:WP_099799539.1(1),ID:WP_099799541.1(1)|neighbour_genes:psbB,protein-glutamate O-..| | aligned:1-32 (32)
+METITYVFIFACLIALFFFAIFFREPPRITKK
+>ID:WP_011057371.1 |[Thermosynechococcus elongatus PKUAC-SCTE542]|PKUAC-SCTE542|Thermosynechococcus_elongatus_PKUAC-SCTE542_GCF_003555505.1_genomic.gbff|photosystem II react..|99|NZ_CP032152(2650294):2225176-2225274:-1 ^^ Thermosynechococcus elongatus PKUAC-SCTE542 chromosome, complete genome.|neighbours:ID:WP_181495031.1(-1),ID:WP_181495032.1(-1)|neighbour_genes:histidine phosphatas..,psbB| | aligned:1-32 (32)
+METITYVFIFACIIALFFFAIFFREPPRITKK
+>ID:WP_011057371.1 |[Thermosynechococcus sp. CL-1]|CL-1|Thermosynechococcus_sp_CL-1_GCF_008386235.1_genomic.gbff|photosystem II react..|99|NZ_CP040671(2647823):1609626-1609724:1 ^^ Thermosynechococcus sp. CL-1 chromosome, complete genome.|neighbours:ID:WP_149819834.1(1),ID:WP_149819836.1(1)|neighbour_genes:psbB,histidine phosphatas..| | aligned:1-32 (32)
+METITYVFIFACIIALFFFAIFFREPPRITKK
+>ID:WP_011057371.1 |[Thermosynechococcus sp. HN-54]|HN-54|Thermosynechococcus_sp_HN-54_GCF_023650955.1_genomic.gbff|photosystem II react..|99|NZ_CP098039(2705963):767063-767161:1 ^^ Thermosynechococcus sp. HN-54 chromosome, complete genome.|neighbours:ID:WP_250683151.1(1),ID:WP_250683152.1(1)|neighbour_genes:psbB,histidine phosphatas..| | aligned:1-32 (32)
+METITYVFIFACIIALFFFAIFFREPPRITKK
+>ID:WP_011057371.1 |[Thermosynechococcus sp. TA-1]|TA-1|Thermosynechococcus_sp_TA-1_GCF_017086385.1_genomic.gbff|photosystem II react..|99|NZ_CP070960(2658717):2475806-2475904:1 ^^ Thermosynechococcus sp. TA-1 chromosome, complete genome.|neighbours:ID:WP_206200382.1(1),ID:WP_255521539.1(1)|neighbour_genes:psbB,histidine phosphatas..| | aligned:1-32 (32)
+METITYVFIFACIIALFFFAIFFREPPRITKK
+>ID:WP_011057371.1 |[Thermosynechococcus sp. NK55a]|NK55|Thermosynechococcus_sp_a_NK55_GCF_000505665.1_genomic.gbff|photosystem II react..|99|NC_023033(2520064):918892-918990:1 ^^ Thermosynechococcus sp. NK55a, complete sequence.|neighbours:ID:WP_024124590.1(1),ID:WP_024124591.1(1)|neighbour_genes:psbB,histidine phosphatas..| | aligned:1-32 (32)
+METITYVFIFACIIALFFFAIFFREPPRITKK
+>ID:WP_011057371.1 |[Thermosynechococcus vestitus BP-1]|BP-1|Thermosynechococcus_vestitus_BP-1_GCF_000011345.1_genomic.gbff|photosystem II react..|99|NC_004113(2593857):1597531-1597629:1 ^^ Thermosynechococcus vestitus BP-1, complete sequence.|neighbours:ID:WP_011057370.1(1),ID:WP_011057372.1(1)|neighbour_genes:psbB,histidine phosphatas..| | aligned:1-32 (32)
+METITYVFIFACIIALFFFAIFFREPPRITKK

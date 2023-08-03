@@ -1,0 +1,12 @@
+>ID:WP_099092482.1 |[Gloeomargarita lithophora Alchichica-D10]|D10|Gloeomargarita_lithophora_Alchichica-_D10_GCF_001870225.1_genomic.gbff|hypothetical protein|123|NZ_CP017675(3049282):1496015-1496137:1 ^^ Gloeomargarita lithophora Alchichica-D10 chromosome.|neighbours:ID:WP_071454320.1(-1),ID:WP_071454321.1(1)|neighbour_genes:thiC,MBL fold metallo-hyd..| | aligned:1-40 (40)
+MDVKVIFVGLTVVFTVATLYFGTRNGFYDTDDYHGNGSAH
+>ID:WP_257790494.1 |[Thermostichus lividus PCC 6715]|PCC 6715|Thermostichus_lividus_PCC_6715_GCF_002754935.1_genomic.gbff|hypothetical protein|135|NZ_CP018092(2659739):549395-549529:-1 ^^ Thermostichus lividus PCC 6715 chromosome, complete genome.|neighbours:ID:WP_099798182.1(-1),ID:WP_099799806.1(1)|neighbour_genes:MBL fold metallo-hyd..,histone deacetylase| | aligned:1-44 (44)
+MDVVISVKPILLGITPVFILLCLVFGTQNGYYDSDNYHGNGSAH
+>ID:WP_255451743.1 |[Thermosynechococcus sp. CL-1]|CL-1|Thermosynechococcus_sp_CL-1_GCF_008386235.1_genomic.gbff|hypothetical protein|135|NZ_CP040671(2647823):2520748-2520882:1 ^^ Thermosynechococcus sp. CL-1 chromosome, complete genome.|neighbours:ID:WP_149821332.1(1),ID:WP_149821334.1(1)|neighbour_genes:FAD-dependent thymid..,MBL fold metallo-hyd..| | aligned:1-44 (44)
+MDVAINVKPILLAITPVFIVLCLVFGTRNGFYDTDNYHGNGSAH
+>ID:WP_256468078.1 |[Thermosynechococcus sp. HN-54]|HN-54|Thermosynechococcus_sp_HN-54_GCF_023650955.1_genomic.gbff|hypothetical protein|135|NZ_CP098039(2705963):409633-409767:1 ^^ Thermosynechococcus sp. HN-54 chromosome, complete genome.|neighbours:ID:WP_250682847.1(1),ID:WP_250682848.1(1)|neighbour_genes:FAD-dependent thymid..,MBL fold metallo-hyd..| | aligned:1-44 (44)
+MDVAINVKPILLAITPVFILLCLVFGTRNGFYDTDNYHGNGSAH
+>ID:WP_255451743.1 |[Thermosynechococcus sp. TA-1]|TA-1|Thermosynechococcus_sp_TA-1_GCF_017086385.1_genomic.gbff|hypothetical protein|135|NZ_CP070960(2658717):2591000-2591134:-1 ^^ Thermosynechococcus sp. TA-1 chromosome, complete genome.|neighbours:ID:WP_206200474.1(-1),ID:WP_206200475.1(-1)|neighbour_genes:MBL fold metallo-hyd..,FAD-dependent thymid..| | aligned:1-44 (44)
+MDVAINVKPILLAITPVFIVLCLVFGTRNGFYDTDNYHGNGSAH
+>ID:WP_024124343.1 |[Thermosynechococcus sp. NK55a]|NK55|Thermosynechococcus_sp_a_NK55_GCF_000505665.1_genomic.gbff|hypothetical protein|135|NC_023033(2520064):606936-607070:1 ^^ Thermosynechococcus sp. NK55a, complete sequence.|neighbours:ID:WP_024124342.1(1),ID:WP_024124344.1(1)|neighbour_genes:FAD-dependent thymid..,MBL fold metallo-hyd..| | aligned:1-44 (44)
+MDAVISVKPILLAMTPVFILLCLFFGTRNGFYDTDQYHGNGSAH

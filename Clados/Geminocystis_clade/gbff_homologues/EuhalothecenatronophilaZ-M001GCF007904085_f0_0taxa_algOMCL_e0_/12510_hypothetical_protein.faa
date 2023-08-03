@@ -1,0 +1,10 @@
+>ID:WP_155084708.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|hypothetical protein|138|NC_019776(4114099):2495027-2495164:1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015219886.1(1),ID:WP_015219887.1(1)|neighbour_genes:petN,efflux RND transport..| | aligned:1-45 (45)
+MEFSPLFNVLFIVALALLVFVSGGILYLTTLEWRDRRRRDRDKRL
+>ID:WP_192816146.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|hypothetical protein|141|NZ_CM001775(4263418):953874-954014:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017293292.1(1),ID:WP_026101928.1(1)|neighbour_genes:petN,efflux RND transport..| | aligned:1-46 (46)
+MESSPVILNILFIVAIVLLIFVSGGILYLSTLEWRDRRQRDRDKKL
+>ID:WP_173645021.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|hypothetical protein|138|NZ_AP014815(3883409):3312774-3312911:-1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_066348485.1(-1),ID:WP_015222656.1(-1)|neighbour_genes:efflux RND transport..,petN| | aligned:1-45 (45)
+MESLPVLNLLFVAAIALLVFVSGGILYLTTLEWRDRRRRDRDKKL
+>ID:WP_173645690.1 |[Geminocystis sp. NIES-3709]|NIES-3709|Geminocystis_sp_NIES-3709_GCF_001548115.1_genomic.gbff|hypothetical protein|141|NZ_AP014821(4150181):240540-240680:1 ^^ Geminocystis sp. NIES-3709 chromosome, complete genome.|neighbours:ID:WP_015222656.1(1),ID:WP_066115388.1(1)|neighbour_genes:petN,efflux RND transport..| | aligned:1-46 (46)
+MESSPVLLNTLFIIAIALLIFVSGAILYLTTLEWRDRRRRDQDKKI
+>ID:WP_171815438.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|hypothetical protein|144|NC_019748(5041209):544782-544925:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015191753.1(1),ID:WP_015191754.1(-1)|neighbour_genes:petN,DUF3134 family prote..| | aligned:1-45 (47)
+METAYLVNTLFLIALALLIIVSGGILYLSAIKWQDRRRQKNDERLNR

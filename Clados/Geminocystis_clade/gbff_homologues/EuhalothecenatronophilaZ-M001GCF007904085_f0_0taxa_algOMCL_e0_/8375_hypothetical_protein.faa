@@ -1,0 +1,8 @@
+>ID:WP_096719812.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|hypothetical protein|231|NZ_AP018281(4516676):2054550-2054780:-1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096719810.1(-1),ID:WP_096719814.1(-1)|neighbour_genes:hypothetical protein,excinuclease ABC sub..| | aligned:1-76 (76)
+MTELLQQAIAQIAKLPPEQQDVIATRLLAELQDERKWETSFAATTDAQWDQMAAMVRQEIANGETVPLDSIFPPQT
+>ID:WP_015228293.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|hypothetical protein|234|NC_019780(3781008):512989-513222:1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015228292.1(1),ID:WP_015228294.1(1)|neighbour_genes:histone deacetylase,hypothetical protein| | aligned:1-76 (77)
+MTRLLEQVISKLKSLPEEEQNAIASRLLAEVEDEQSWKTQFESTTDEQWDQMAEMVRNEIKTGDTTPIIDIFPSQSE
+>ID:WP_041596257.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|hypothetical protein|225|NC_019779(4179170):2752518-2752742:-1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015226534.1(-1),ID:WP_015226537.1(1)|neighbour_genes:nrtS,cob(I)yrinic acid a,..| | aligned:1-71 (74)
+MTQLLEQAIEQIKTLPNDVQDAIASRLLAEMEDEASWQSKFELTTDQQWDQMAEMVLQEIASGETIPLDEVSDL
+>ID:WP_015195151.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|hypothetical protein|225|NC_019748(5041209):4511269-4511493:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015195150.1(1),ID:WP_015195152.1(1)|neighbour_genes:GNAT family N-acetyl..,hypothetical protein| | aligned:1-74 (74)
+MTKLLQQVIAQIEKLPPDKQDEIASRLLAELQEEERWDTRFAATTDEQWDRMAAIVREEIDKGETVPLDEVFPT

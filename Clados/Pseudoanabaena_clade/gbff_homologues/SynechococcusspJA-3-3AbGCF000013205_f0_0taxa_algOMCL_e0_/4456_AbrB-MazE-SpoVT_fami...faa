@@ -1,0 +1,4 @@
+>ID:WP_126389346.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|AbrB/MazE/SpoVT fami..|261|NZ_AP017560(4796642):4467042-4467302:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126389344.1(-1),ID:WP_126389348.1(1)|neighbour_genes:type II toxin-antito..,DUF1778 domain-conta..| | aligned:1-86 (86)
+MSTAIRTRIIKIGNSQGIRIPKTLLEQSGIQTEVEISVDGDRLTIRPLQQLRTGWDQAFASMATQQDDVLLDEVNPTDWEQDEWEW
+>ID:WP_017324671.1 |[Synechococcus sp. PCC 7336]|PCC 7336|Synechococcus_sp_PCC_7336_GCF_000332275.1_genomic.gbff|AbrB/MazE/SpoVT fami..|267|NZ_CM001776(5066637):862463-862729:-1 ^^ Synechococcus sp. PCC 7336 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017324670.1(-1),ID:WP_017324672.1(1)|neighbour_genes:type II toxin-antito..,rlmD| | aligned:1-88 (88)
+MVASIRSRLISIGNSQGFRVPKPLLEQAGIAGDVEIGVRDGRIVIQSARKAREGWDEAFALMAANGDDRLLDSHDGSLSDWDETEWEW

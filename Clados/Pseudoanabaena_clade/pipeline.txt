@@ -1,0 +1,33 @@
+awk -F "," '{if($15==1 && $16==1 && $17==1 && $18==1 && $19==1 && $20==1) {print $1}}' pangenoma/pangenome_matrix_t0.tr.csv | sed 's/.faa/.fna/g' >orthologues.list
+
+python3 CountPalsInOrthologues.py gbff_homologues/SynechococcusspJA-3-3AbGCF000013205_f0_0taxa_algOMCL_e0_ pals.list orthologues.list 3
+
+awk '{if ($5>=1 && $2=="Synechococcus_sp_PCC_7336"){print $1}}' Markov_count_GCGATCGC_gbff_homologuesSynechococcusspJA-3-3AbGCF000013205_f0_0taxa_algOMCL_e0__2023-4-13_12hrs49mins_Octanuc_M3_.txt >Ortologos_GCGATCGC_Synechococcus_sp_PCC_7336.txt
+
+awk '{if ($5>=1 && $2=="Synechococcus_sp_JA-2-3Ba2-13"){print $1}}' Markov_count_GCGATCGC_gbff_homologuesSynechococcusspJA-3-3AbGCF000013205_f0_0taxa_algOMCL_e0__2023-4-13_12hrs49mins_Octanuc_M3_.txt >Ortologos_GGGATCCC_Synechococcus_sp_JA-2-3Ba2-13.txt
+
+mkdir Orthologues_GCGATCGC_Synechococcus_sp_PCC_7336  ## Creo Carpeta
+cd gbff_homologues/SynechococcusspJA-3-3AbGCF000013205_f0_0taxa_algOMCL_e0_ ## Entro a la carpeta de homólogos
+for word in $(cat ../../Ortologos_GCGATCGC_Synechococcus_sp_PCC_7336.txt); do cp $word ../../Orthologues_GCGATCGC_Synechococcus_sp_PCC_7336; done ## copio los ortólogos de la lista a la carpeta
+
+mkdir Orthologues_GGGATCCC_Synechococcus_sp_JA-2-3Ba2-13  ## Creo Carpeta
+cd gbff_homologues/SynechococcusspJA-3-3AbGCF000013205_f0_0taxa_algOMCL_e0_ ## Entro a la carpeta de homólogos
+for word in $(cat ../../Ortologos_GGGATCCC_Synechococcus_sp_JA-2-3Ba2-13.txt); do cp $word ../../Orthologues_GGGATCCC_Synechococcus_sp_JA-2-3Ba2-13; done ## copio los ortólogos de la lista a la carpeta
+
+
+awk -F "|" '{if (NR%2){print ">"$2}else{print $1}}' 11628_dnaA.fna | sed 's/ /_/g' | sed 's/\.//g' | sed 's/\[//g' | sed 's/\]//g' | sed 's/)//g' | sed 's/(//g'| sed "s/'//g" | sed 's/\//-/g' | sed 's/Pseudanabaena_sp_ABRG5-3/ABRG5-3/g' | sed 's/Pseudanabaena_sp_PCC_7367/PCC_7367/g' | sed 's/Synechococcus_sp_JA-2-3Ba2-13/JA-2-3Ba/g' | sed 's/Synechococcus_sp_JA-3-3Ab/JA-3-3Ab/g' | sed 's/Synechococcus_sp_PCC_7336/PCC_7336/g' | sed 's/Synechococcus_sp_PCC_7502/PCC_7502/g'
+
+| Pseudanabaena_sp_ABRG5-3.gbff | GCF_003967015.1 |
+| Pseudanabaena_sp_PCC_7367.gbff | GCF_000317065.1 |
+| Synechococcus_sp_JA-2-3Ba_2-13_JA-2-3Ba_2-13.gbff | GCF_000013225.1 |
+| Synechococcus_sp_JA-3-3Ab.gbff | GCF_000013205.1 |
+| Synechococcus_sp_PCC_7336.gbff | GCF_000332275.1 |
+| Synechococcus_sp_PCC_7502.gbff | GCF_000317085.1 |
+Synechococcus_sp_JA-2-3B'a2-13'
+Synechococcus_sp_JA-2-3Ba2-13
+
+for f in *.fna; do awk -F "|" '{if (NR%2){print ">"$2}else{print $1}}' $f | sed 's/ /_/g' | sed 's/\.//g' | sed 's/\[//g' | sed 's/\]//g' | sed 's/)//g' | sed 's/(//g'| sed "s/'//g" | sed 's/\//-/g' | sed 's/Pseudanabaena_sp_ABRG5-3/ABRG5-3/g' | sed 's/Pseudanabaena_sp_PCC_7367/PCC_7367/g' | sed 's/Synechococcus_sp_JA-2-3Ba2-13/JA-2-3Ba/g' | sed 's/Synechococcus_sp_JA-3-3Ab/JA-3-3Ab/g' | sed 's/Synechococcus_sp_PCC_7336/PCC_7336/g' | sed 's/Synechococcus_sp_PCC_7502/PCC_7502/g' >$f.awk1;done
+
+
+
+

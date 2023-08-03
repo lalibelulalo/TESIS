@@ -1,0 +1,8 @@
+>ID:WP_087068279.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|AbrB/MazE/SpoVT fami..|243|NZ_LT578417(3021545):1950884-1951126:1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_197686652.1(1),ID:WP_087068280.1(1)|neighbour_genes:hypothetical protein,mazF| | aligned:1-80 (80)
+MQTKVQKWGNSLGVRIPRGLAEEVGLGAGTEVSLTAKDGELVLRPSVPSRFKLADLLAEVTPENIHASIDSGDAVGAEAF
+>ID:WP_186698291.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|AbrB/MazE/SpoVT fami..|243|NZ_CP047940(2748087):304876-305118:-1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186698289.1(-1),ID:WP_225875736.1(-1)|neighbour_genes:mazF,phage integrase N-te..| | aligned:1-80 (80)
+MQTRVQKWGNSLGVRIPRGLADEVGLGAGTEVSLTAKDGELVLRPSLPSRLRLVDLLADITPENIHASVHTGDAVGSEAF
+>ID:WP_197158780.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|AbrB/MazE/SpoVT fami..|246|NZ_CP060396(3860130):1812267-1812512:-1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_231605563.1(-1),ID:WP_197158781.1(-1)|neighbour_genes:type II toxin-antito..,alpha/beta hydrolase| | aligned:1-80 (81)
+MQTRVQKWGNSLGVRIPRGLAEEVGLGAGSEVSLSAKDGELVVKPSVPARLSLDDLLAEVSEENLHSSIDTGSAVGAEIFC
+>ID:WP_197152927.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|AbrB/MazE/SpoVT fami..|237|NZ_CP060395(3226220):1473492-1473728:1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197152925.1(-1),ID:WP_231596590.1(1)|neighbour_genes:AbrB/MazE/SpoVT fami..,type II toxin-antito..| | aligned:1-78 (78)
+MKVKVQAWGNSLGLRIPKAYAAELGVGSGSEMELKVEAGALLARPAEAIHLDALLAEITAENQHSETDWGEPTGAEVW

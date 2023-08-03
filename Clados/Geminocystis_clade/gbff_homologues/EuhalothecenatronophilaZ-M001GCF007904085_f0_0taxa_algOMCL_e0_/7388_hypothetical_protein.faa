@@ -1,0 +1,8 @@
+>ID:WP_096723615.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|hypothetical protein|201|NZ_AP018281(4516676):818416-818616:1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096718285.1(1),ID:WP_096718287.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-66 (66)
+MSTLEQIEAAILTLPSEEFEQLRQWFFDLDYQRWDRKLEQDIEDGKLEVLAEEAIAEFQAGQFRVL
+>ID:WP_015219472.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|hypothetical protein|201|NC_019776(4114099):1962388-1962588:1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015219471.1(-1),ID:WP_015219473.1(1)|neighbour_genes:YchJ family protein,hypothetical protein| | aligned:1-66 (66)
+MTKLQLIQAEIETLTSDDFTYLKNWINELDTQQWEKQIEQDSNDGKLDFLIEEALLEKTKNQLQEL
+>ID:WP_015230286.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|hypothetical protein|186|NC_019780(3781008):2793409-2793594:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015230285.1(-1),ID:WP_015230287.1(-1)|neighbour_genes:rpsO,ruvX| | aligned:1-58 (61)
+MSKIEKLEENVRNLSPEEFSQFREWFYELENERWDQEIEMDFEAGKFDRLIEKARQEFAPR
+>ID:WP_040466859.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|hypothetical protein|198|NZ_CM001775(4263418):2072092-2072289:-1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017294364.1(-1),ID:WP_017294367.1(1)|neighbour_genes:hypothetical protein,CBS domain-containin..| | aligned:2-65 (65)
+MTIEQIEKAILNLSEQDFSKLRNWLLDLDYQQWDQQLEQDIIDGKLDALAQEALAEFEAGDYQEI

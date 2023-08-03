@@ -1,0 +1,8 @@
+>ID:WP_126385189.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|hypothetical protein|225|NZ_AP017560(4796642):671751-671975:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126385187.1(1),ID:WP_126385191.1(-1)|neighbour_genes:mtnA,S8 family peptidase| | aligned:1-73 (74)
+MNIQITGTVEYIDIGTGAWAIVTDTDEQYEIWQPAPEEILQEGLKVSVTAKIRDDVMTMAAIGDIIEIEDFQIP
+>ID:WP_015166465.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|hypothetical protein|225|NC_019701(4557046):4082652-4082876:-1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015166464.1(1),ID:WP_015166466.1(-1)|neighbour_genes:SWIM zinc finger dom..,S8 family peptidase| | aligned:1-73 (74)
+MSIEITGTIKAIDLGPGSWTVVTEAGKQYELMQPIDNKLKQSGAKVKLKGQVRDDVMTISMNGPILEVQEYHFL
+>ID:WP_041436283.1 |[Synechococcus sp. JA-2-3B'a(2-13)]|JA-2-3B'a(2-13)|Synechococcus_sp_JA-2-3Ba_2-13_JA-2-3Ba_2-13_GCF_000013225.1_genomic.gbff|hypothetical protein|222|NC_007776(3046682):846704-846925:-1 ^^ Synechococcus sp. JA-2-3B'a(2-13), complete sequence.|neighbours:ID:WP_011432454.1(1),ID:WP_011432456.1(-1)|neighbour_genes:FGGY-family carbohyd..,S8 family peptidase| | aligned:1-73 (73)
+MQEYSGTIQFLDIEGGVWVLTLPSGEHYALFRAPKELLQEGLEVTIQGQIREDMVTVAQVGPVLEVRSFRRQP
+>ID:WP_011431200.1 |[Synechococcus sp. JA-3-3Ab]|JA-3-3Ab|Synechococcus_sp_JA-3-3Ab_GCF_000013205.1_genomic.gbff|hypothetical protein|222|NC_007775(2932766):2412211-2412432:1 ^^ Synechococcus sp. JA-3-3Ab, complete sequence.|neighbours:ID:WP_011431199.1(1),ID:WP_011431201.1(-1)|neighbour_genes:S8 family serine pep..,pentapeptide repeat-..| | aligned:1-73 (73)
+MQEYSGTIEFLDIEGGVWVLTLPSGQHYALFRAPKELLQEGLEVTIQGQLKEDMVTVAQVGPVLEVKSFRTQP

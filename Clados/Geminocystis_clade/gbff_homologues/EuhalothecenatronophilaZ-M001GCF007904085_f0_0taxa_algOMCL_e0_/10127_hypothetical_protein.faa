@@ -1,0 +1,6 @@
+>ID:WP_096723032.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|hypothetical protein|219|NZ_AP018281(4516676):4128616-4128834:-1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096723030.1(-1),ID:WP_096723034.1(-1)|neighbour_genes:acetyl-CoA carboxyla..,NAD(P)H-quinone oxid..| | aligned:1-67 (72)
+MSWITLKTTKARWEAELMQQILTAYNIPARVLNIGAGIYCGEGDQVALQVRTKDQWTALLLLSPPEDSPELN
+>ID:WP_071882356.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|hypothetical protein|186|NC_019748(5041209):4857705-4857890:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015195449.1(-1),ID:WP_015195451.1(1)|neighbour_genes:hypothetical protein,accD| | aligned:1-61 (61)
+MTKARWEAELMQQILAAYDIPSRVIDIGVGIYFGQGSQAALQVHTKNQWTALLLLSSPEDH
+>ID:WP_096385395.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|207|NZ_AP017375(5319768):4036895-4037101:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096385393.1(-1),ID:WP_096385396.1(1)|neighbour_genes:acetyl-CoA carboxyla..,hypothetical protein| | aligned:1-68 (68)
+MSWITVRMTKARWEAELMQQILAAYDIPSRVIDIGVGIYFGQGSQAALQVHAKNQWTALLLLSSPEDH

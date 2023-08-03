@@ -1,0 +1,6 @@
+>ID:WP_012165445.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|putative addiction m..|297|NC_009925(6503724):5286658-5286954:1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012165444.1(1),ID:WP_012165446.1(1)|neighbour_genes:type II toxin-antito..,dut| | aligned:1-97 (98)
+MMPISTTYWDSAAHLKTDEDIQLYLEACIEEAEDDPALIIHALGVVARAKNMSQLSRETGLSREGLYKALSVDGNPTFATIAKVTKALGFKLTIQPTA
+>ID:WP_249369922.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|putative addiction m..|297|NZ_CP064923(5881945):1631237-1631533:-1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212666191.1(-1),ID:WP_212666193.1(-1)|neighbour_genes:dut,type II toxin-antito..| | aligned:1-97 (98)
+MMSISTTRWDSAAHLKTDEDIQLYLEACVEEAEDDPALIIHALGVVARAKNMSQLSRETGLSREGLYKALSVDGNPTFAIVAKVTKALGFKLTIQPTV
+>ID:WP_235107812.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|putative addiction m..|300|NZ_CP071717(5699248):4470297-4470596:-1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235111195.1(-1),ID:WP_212665166.1(-1)|neighbour_genes:dut,hypothetical protein| | aligned:1-97 (99)
+MMPISTTHWDSAAHLKTDEDIQLYLEACVEEAEDDPALIIHALGVVARAKNMSQLSRETGLSREGLYKALSADGNPTFATIAKVTKALGFKLTIQPTQL

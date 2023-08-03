@@ -1,0 +1,12 @@
+>ID:WP_126387910.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|psbF|135|NZ_AP017560(4796642):3569403-3569537:1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126387908.1(1),ID:WP_071590099.1(1)|neighbour_genes:psbE,photosystem II react..| | aligned:1-44 (44)
+MASNNPNQPVQYPVFTFRWLAVHGLGVPTVFFIGAIAAMQFISR
+>ID:WP_015164179.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|psbF|135|NC_019701(4557046):1174060-1174194:1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015164178.1(1),ID:WP_015164180.1(1)|neighbour_genes:psbE,photosystem II react..| | aligned:1-44 (44)
+MTNSNPNQPVEYPVFTVRWLSIHALGVPTVFFLGAIAAMQFISR
+>ID:WP_187147281.1 |[Synechococcus sp. JA-2-3B'a(2-13)]|JA-2-3B'a(2-13)|Synechococcus_sp_JA-2-3Ba_2-13_JA-2-3Ba_2-13_GCF_000013225.1_genomic.gbff|psbF|138|NC_007776(3046682):1572949-1573086:1 ^^ Synechococcus sp. JA-2-3B'a(2-13), complete sequence.|neighbours:ID:WP_011433109.1(1),ID:WP_011433111.1(1)|neighbour_genes:psbE,photosystem II react..| | aligned:1-45 (45)
+MSMATKSDEPVFYPVFTVRWLAVHTLAIPTVFFLGAIAAMQFIQR
+>ID:WP_011431224.1 |[Synechococcus sp. JA-3-3Ab]|JA-3-3Ab|Synechococcus_sp_JA-3-3Ab_GCF_000013205.1_genomic.gbff|psbF|144|NC_007775(2932766):2437227-2437370:-1 ^^ Synechococcus sp. JA-3-3Ab, complete sequence.|neighbours:ID:WP_011431223.1(-1),ID:WP_011431225.1(-1)|neighbour_genes:photosystem II react..,psbE| | aligned:1-47 (47)
+MATKSVNKPDEPVFYPVFTVRWLAVHTLAIPTVFFLGAIAAMQFIQR
+>ID:WP_071590742.1 |[Synechococcus sp. PCC 7336]|PCC 7336|Synechococcus_sp_PCC_7336_GCF_000332275.1_genomic.gbff|psbF|138|NZ_CM001776(5066637):977063-977200:1 ^^ Synechococcus sp. PCC 7336 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017324790.1(1),ID:WP_017324792.1(1)|neighbour_genes:psbE,photosystem II react..| | aligned:1-45 (45)
+MMNSSNIDEPVYYPVFTVRWLAIHTLAIPTVFFVGAIASMQFIQR
+>ID:WP_015168349.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|psbF|129|NC_019702(3510253):1628909-1629037:-1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015168348.1(-1),ID:WP_015168350.1(-1)|neighbour_genes:photosystem II react..,psbE| | aligned:1-42 (42)
+MSNPNLPVQYPVFTVRWLTIHALGVPSVFFLGAITAMQFISR

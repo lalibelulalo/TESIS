@@ -1,0 +1,6 @@
+>ID:WP_175307264.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|153|NC_009925(6503724):4812135-4812287:-1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012165024.1(1),ID:WP_012165026.1(-1)|neighbour_genes:cysteine desulfurase,gamma-glutamylcyclot..| | aligned:1-50 (50)
+MDSFTSRLCSKTSLAIGLYISAMVSLGFLAHAQLNAMQLMQSERPVSVSP
+>ID:WP_175307264.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|153|NZ_CP064923(5881945):945930-946082:-1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212664638.1(1),ID:WP_212664639.1(-1)|neighbour_genes:cysteine desulfurase,gamma-glutamylcyclot..| | aligned:1-50 (50)
+MDSFTSRLCSKTSLAIGLYISAMVSLGFLAHAQLNAMQLMQSERPVSVSP
+>ID:WP_235107420.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|hypothetical protein|153|NZ_CP071717(5699248):3793649-3793801:-1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235107419.1(1),ID:WP_235107421.1(-1)|neighbour_genes:IscS subfamily cyste..,gamma-glutamylcyclot..| | aligned:1-50 (50)
+MDSFTSRLCSKTSFAIGLYISAMVSLGFLAHAQLNAMQLMQSERPVSVSP

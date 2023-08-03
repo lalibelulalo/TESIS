@@ -1,0 +1,4 @@
+>ID:WP_249369592.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|171|NZ_CP064923(5881945):5431094-5431264:-1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_249369590.1(1),ID:WP_212663517.1(1)|neighbour_genes:hypothetical protein,acyltransferase| | aligned:1-56 (56)
+MLKIESSLAGWEDVIAFDGETVNELETSFRNVVEDYWEGCQRMGKDSDKPCTGRFT
+>ID:WP_235110528.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|hypothetical protein|192|NZ_CP071717(5699248):2428811-2429002:-1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235110527.1(1),ID:WP_212663517.1(1)|neighbour_genes:type IV pilin-like G..,acyltransferase| | aligned:8-63 (63)
+MKLLFSWMLKIESSLAGWEDVIAFDGETVDELETSFRNVVEDYWEGCQRMGKDSDKPCTGRFT

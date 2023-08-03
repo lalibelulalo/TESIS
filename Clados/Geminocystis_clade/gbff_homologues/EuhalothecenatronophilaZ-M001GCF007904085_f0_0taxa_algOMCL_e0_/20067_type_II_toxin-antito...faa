@@ -1,0 +1,4 @@
+>ID:WP_146296604.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|type II toxin-antito..|225|NZ_CP042326(3326959):2620600-2620824:-1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146296603.1(1),ID:WP_146296605.1(-1)|neighbour_genes:BrnA antitoxin famil..,DUF4258 domain-conta..| | aligned:1-74 (74)
+MKCSICQQGEIKQGKVTVPLEREGVILIFKNVPAEVCENCGEYYLSEQTTDLLLEQAENAIAHGTQLEVRQFAA
+>ID:WP_015225380.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|type II toxin-antito..|225|NC_019779(4179170):1423086-1423310:-1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_150107036.1(-1),ID:WP_015225381.1(-1)|neighbour_genes:hypothetical protein,DUF4258 domain-conta..| | aligned:1-74 (74)
+MKCLICQQGETKQGKVTVPLEREGVILIFKNVPAEVCENCGEYYLSEQTTDLLLEQAENAIAHGTQLEVRQFAA

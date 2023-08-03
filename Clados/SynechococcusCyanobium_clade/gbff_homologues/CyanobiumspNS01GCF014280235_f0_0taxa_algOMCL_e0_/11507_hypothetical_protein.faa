@@ -1,0 +1,8 @@
+>ID:WP_186697127.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|hypothetical protein|228|NZ_CP047940(2748087):2131048-2131275:1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186697126.1(1),ID:WP_186697128.1(-1)|neighbour_genes:rsmI,hypothetical protein| | aligned:1-71 (75)
+MLVRLRLVLASLSGGALLLLLLCLGAQNLEQRPKLWVGAGSTAPLPAGFLVGLALVAGVVSGGCSAALLWPGPRN
+>ID:WP_197153873.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|hypothetical protein|225|NZ_CP060398(3854122):2198371-2198595:-1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197169664.1(-1),ID:WP_197153874.1(-1)|neighbour_genes:hypothetical protein,rsmI| | aligned:1-74 (74)
+MLLRLRLLCSTVIGSGLLLLVLCLGAQNLEDRPSLQLGFGRTAPLPSGFLVGMALVLGMVSGGTSAAILLPRRP
+>ID:WP_197213177.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|hypothetical protein|237|NZ_CP060397(3672318):1761786-1762022:-1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197213176.1(1),ID:WP_197213178.1(-1)|neighbour_genes:hypothetical protein,rsmI| | aligned:1-73 (78)
+MLLRLRLLLGSLVGSVLLFALLCLGAQNLDEKVSLRLGPARSAPLPTGFLIGLAVVLGVVSGGSSVALLLPMRDDEGA
+>ID:WP_197153873.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|hypothetical protein|225|NZ_CP060396(3860130):2153290-2153514:-1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197153872.1(-1),ID:WP_231605132.1(-1)|neighbour_genes:hypothetical protein,rsmI| | aligned:1-74 (74)
+MLLRLRLLCSTVIGSGLLLLVLCLGAQNLEDRPSLQLGFGRTAPLPSGFLVGMALVLGMVSGGTSAAILLPRRP

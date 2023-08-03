@@ -1,0 +1,4 @@
+>ID:WP_186699738.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|hypothetical protein|279|NZ_CP047940(2748087):1239039-1239317:1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186699736.1(-1),ID:WP_186699739.1(-1)|neighbour_genes:purS,cobW| | aligned:23-92 (92)
+MRPLEPIPLRCRQSSGPWRACSLLVERLGERWSLLLDDQRLEFRHDGRGAVTMQRPSPGNPSPVWIPVEARWTDDPALCWNGVCAQGDFPLD
+>ID:WP_197148809.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|hypothetical protein|228|NZ_CP060395(3226220):2570339-2570566:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197148807.1(1),ID:WP_197148811.1(1)|neighbour_genes:cobW,IS5 family transposa..| | aligned:1-75 (75)
+MVVESPGERWEIRVAGSRISFRHDGSGTVTMNNPPDGPLSKLPRGKGWIPVQTSWIAGPALCWNGVCAQGDIPLD

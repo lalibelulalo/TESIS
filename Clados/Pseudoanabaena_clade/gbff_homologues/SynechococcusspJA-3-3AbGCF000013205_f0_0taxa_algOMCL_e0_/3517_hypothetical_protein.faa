@@ -1,0 +1,4 @@
+>ID:WP_126387684.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|hypothetical protein|192|NZ_AP017560(4796642):3429236-3429427:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126387682.1(1),ID:WP_126387686.1(-1)|neighbour_genes:peptidylprolyl isome..,hmpF| | aligned:10-63 (63)
+MTQDVELSSSKTSYPITSIPKPEPTASPTLTELKQELILCQHCLRTASNGIKCQGICVADSNY
+>ID:WP_015167385.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|hypothetical protein|186|NC_019702(3510253):578488-578673:-1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015167384.1(1),ID:WP_015167386.1(1)|neighbour_genes:hypothetical protein,MBL fold metallo-hyd..| | aligned:6-61 (61)
+MTSQLSSTDHPVNHSINHKPNQNLESNLGKVKQEIVLCPHCQRTASNGIKCQGICVADSSY

@@ -1,0 +1,4 @@
+>ID:WP_015230212.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|hypothetical protein|213|NC_019780(3781008):2715183-2715395:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015230211.1(-1),ID:WP_015230213.1(-1)|neighbour_genes:type II toxin-antito..,DUF1636 domain-conta..| | aligned:1-56 (70)
+MATQFTAILKKDGDWWIGWIEEVKGVNAQEATKEELIESLREALQDILELNREEARREAIDNYEEVFITT
+>ID:WP_197671664.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|type II toxin-antito..|192|NZ_AP014815(3883409):2829412-2829603:-1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_066347476.1(-1),ID:WP_066347478.1(1)|neighbour_genes:SDR family oxidoredu..,FdhF/YdeP family oxi..| | aligned:6-61 (63)
+MRKLIMSIEYTAIITKDEDWWLGWVEEIPGANAQEKTKEELIISLQEAVKDIIELRRQYSRSY

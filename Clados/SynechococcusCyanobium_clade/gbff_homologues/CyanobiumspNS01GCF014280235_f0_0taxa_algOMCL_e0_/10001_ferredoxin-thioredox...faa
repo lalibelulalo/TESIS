@@ -1,0 +1,16 @@
+>ID:WP_043325964.1 |[Cyanobium gracile PCC 6307]|PCC 6307|Cyanobium_gracile_PCC_6307_GCF_000316515.1_genomic.gbff|ferredoxin-thioredox..|219|NC_019675(3342364):3066349-3066567:1 ^^ Cyanobium gracile PCC 6307, complete sequence.|neighbours:ID:WP_015110659.1(1),ID:WP_015110661.1(-1)|neighbour_genes:hypothetical protein,pyrR| | aligned:1-72 (72)
+MEPGDQVRVCRSVVVYNHPQHRGEAFDMEGQQGEVLNVLNDWKGRPISPTLPVVVAFGKFRAHFRADELAAV
+>ID:WP_213205131.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|ferredoxin--nitrite ..|219|NZ_CP073761(3180296):829690-829908:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213204333.1(1),ID:WP_213204334.1(-1)|neighbour_genes:pyrR,hypothetical protein| | aligned:1-70 (72)
+MQPGDPVRVCQSVVVFHHPQHRGEAFDLQGQEGEVHTVLNDWKGRVISPNLPVIVAFGKFRAHFRADELERL
+>ID:WP_087068735.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|ferredoxin-thioredox..|219|NZ_LT578417(3021545):2564812-2565030:1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087068734.1(1),ID:WP_087068736.1(-1)|neighbour_genes:hypothetical protein,pyrR| | aligned:1-72 (72)
+MQPGDQVKVCQSVVVYHHPQHRGEAFDLMGQQGEVHTVLDSWKGRVISPTLPVVVAFGKFRAHFRPDELEAV
+>ID:WP_186698868.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|ferredoxin-thioredox..|219|NZ_CP047940(2748087):675015-675233:-1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186698866.1(1),ID:WP_225875895.1(-1)|neighbour_genes:pyrR,hypothetical protein| | aligned:1-72 (72)
+MQPGDQVRVCQSVVVYHHPEHRGEAFDLKGQQGEVKTVLNEWKGRVISPTLPVIVVFGKFRAHFRPDELEAA
+>ID:WP_197156782.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|ferredoxin-thioredox..|219|NZ_CP060398(3854122):161450-161668:1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197170583.1(1),ID:WP_197156784.1(-1)|neighbour_genes:hypothetical protein,pyrR| | aligned:1-72 (72)
+MQPGDPVSVSSSVVVFHHPQHRGQAFDLKGQQGEVVSVLNDWKGRPISPTLPVIVAFGKFRAHFRSDELSPA
+>ID:WP_197212889.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|ferredoxin-thioredox..|219|NZ_CP060397(3672318):1528732-1528950:-1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197212887.1(1),ID:WP_197212890.1(-1)|neighbour_genes:pyrR,hypothetical protein| | aligned:1-72 (72)
+MQPGDQVTVSESVVVYHHPQHRGEAFDLKGQQGEVLQVLHDWKGRTISPTLPVVVAFGKFRAHFRPDELQAV
+>ID:WP_197156782.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|ferredoxin-thioredox..|219|NZ_CP060396(3860130):146153-146371:1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197156780.1(1),ID:WP_197156784.1(-1)|neighbour_genes:hypothetical protein,pyrR| | aligned:1-72 (72)
+MQPGDPVSVSSSVVVFHHPQHRGQAFDLKGQQGEVVSVLNDWKGRPISPTLPVIVAFGKFRAHFRSDELSPA
+>ID:WP_197151402.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|ferredoxin-thioredox..|219|NZ_CP060395(3226220):729851-730069:1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_231596507.1(1),ID:WP_197151403.1(-1)|neighbour_genes:hypothetical protein,pyrR| | aligned:1-72 (72)
+MQPGDQVKVSQSVVVYHHPQHRGEAYDLQGQMGEVVTVLNNWKGRVISPTLPVVVAFGKFRAHFRDDELEAV

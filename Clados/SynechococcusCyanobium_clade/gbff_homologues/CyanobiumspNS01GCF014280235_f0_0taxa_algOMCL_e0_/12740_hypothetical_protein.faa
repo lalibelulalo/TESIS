@@ -1,0 +1,6 @@
+>ID:WP_197158465.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|hypothetical protein|267|NZ_CP060398(3854122):666560-666826:1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197170925.1(1),ID:WP_197170926.1(1)|neighbour_genes:gatB,hypothetical protein| | aligned:1-88 (88)
+MSEHTDQKPTSREMVRAHAGIVLQLITTVSAVVMAASLVPLARQAKIWDACYSTSVQWHSQSTPDDNREVIKAWATRFCNGGSLRPRE
+>ID:WP_197158465.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|hypothetical protein|267|NZ_CP060396(3860130):1424323-1424589:-1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197158463.1(-1),ID:WP_197158467.1(-1)|neighbour_genes:2OG-Fe(II) oxygenase,gatB| | aligned:1-88 (88)
+MSEHTDQKPTSREMVRAHAGIVLQLITTVSAVVMAASLVPLARQAKIWDACYSTSVQWHSQSTPDDNREVIKAWATRFCNGGSLRPRE
+>ID:WP_197149275.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|hypothetical protein|270|NZ_CP060395(3226220):2856155-2856424:1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_231596351.1(1),ID:WP_197149277.1(1)|neighbour_genes:PIN domain-containin..,substrate-binding do..| | aligned:1-82 (89)
+MPDHDERKLSIREMINAHLFPVLALAATASAISIAMSLAPVAEQAARWNKCYDAGLAWLERSSPSIKGGDRTAIAANFCNGGLPNRPAR

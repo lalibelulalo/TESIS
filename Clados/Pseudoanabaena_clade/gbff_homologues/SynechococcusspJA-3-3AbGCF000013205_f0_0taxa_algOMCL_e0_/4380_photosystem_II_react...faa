@@ -1,0 +1,6 @@
+>ID:WP_126389222.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|photosystem II react..|114|NZ_AP017560(4796642):4379605-4379718:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126389220.1(-1),ID:WP_126389224.1(-1)|neighbour_genes:hypothetical protein,psbB| | aligned:1-37 (37)
+MEALTYTFIFACLIGLFFFAIFFREPPKVPTSSKDKK
+>ID:WP_015163978.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|photosystem II react..|111|NC_019701(4557046):899801-899911:1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015163977.1(1),ID:WP_015163979.1(1)|neighbour_genes:psbB,response regulator| | aligned:1-36 (36)
+METITYVLIFAGIIGLFFFAIFFREPPKIVSKDDKK
+>ID:WP_015167284.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|photosystem II react..|108|NC_019702(3510253):473811-473918:-1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015167283.1(-1),ID:WP_015167285.1(-1)|neighbour_genes:rimO,psbB| | aligned:1-35 (35)
+METITYVLIFASLIGLFFFAIFFREPPKINTGKKK

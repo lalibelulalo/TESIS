@@ -1,0 +1,4 @@
+>ID:WP_256377512.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|hypothetical protein|234|NC_019680(3697276):3449060-3449293:1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_253276383.1(1),ID:WP_015126083.1(1)|neighbour_genes:hypothetical protein,ABC transporter perm..| | aligned:1-77 (77)
+MDIIIRNGDIIACEIESSMRKFDMYSFDRKVAFYQKRHQCPVTRKIVISPMVDDPARPVAEDLGIEVYSFAEKVENL
+>ID:WP_255451687.1 |[Thermosynechococcus sp. CL-1]|CL-1|Thermosynechococcus_sp_CL-1_GCF_008386235.1_genomic.gbff|hypothetical protein|240|NZ_CP040671(2647823):150348-150587:1 ^^ Thermosynechococcus sp. CL-1 chromosome, complete genome.|neighbours:ID:WP_255451686.1(1),ID:WP_149817249.1(-1)|neighbour_genes:DUF3782 domain-conta..,yidD| | aligned:3-79 (79)
+MELDLIIKNGLTIACEIKSSIDKAGMYIFDRKVNFYARHHQRQIDRKIVILPMVDDRARPVAAALGIEIYRYADAVEGL

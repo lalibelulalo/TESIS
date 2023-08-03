@@ -1,0 +1,16 @@
+>ID:WP_015110549.1 |[Cyanobium gracile PCC 6307]|PCC 6307|Cyanobium_gracile_PCC_6307_GCF_000316515.1_genomic.gbff|chlorophyll a/b-bind..|189|NC_019675(3342364):2964837-2965025:1 ^^ Cyanobium gracile PCC 6307, complete sequence.|neighbours:ID:WP_015110548.1(1),ID:WP_015110550.1(1)|neighbour_genes:DNA-directed RNA pol..,rlmN| | aligned:6-62 (62)
+MTDPALATPRAPSRPTPVPVRRLPRFGFHTHTERLNGRVAMLGFIALLAVEWKLGHGLLIWP
+>ID:WP_213204239.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|high light inducible..|177|NZ_CP073761(3180296):706632-706808:1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213204238.1(1),ID:WP_213205114.1(1)|neighbour_genes:DNA-directed RNA pol..,rlmN| | aligned:2-58 (58)
+MTTSNPPLTALGTPIPQRRLPRYGFHRHTELLNGRLAMLGFIALVAVEWKLGHGLLIW
+>ID:WP_087068803.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|high light inducible..|192|NZ_LT578417(3021545):2671013-2671204:-1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087068802.1(-1),ID:WP_087068804.1(-1)|neighbour_genes:rlmN,DNA-directed RNA pol..| | aligned:6-62 (63)
+MSSSSSTKQRPLTALGTPVPLRRLPRYGFHPHTERLNGRLAMLGFVALVAVEWWLGHGLLIWS
+>ID:WP_186700139.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|high light inducible..|150|NZ_CP047940(2748087):569468-569617:1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186698685.1(1),ID:WP_186698687.1(1)|neighbour_genes:DNA-directed RNA pol..,rlmN| | aligned:1-49 (49)
+MGTPVPQRRLPRFGFHTHTERLNGRAAMLGFMALLAVEWWLGHGLLIWP
+>ID:WP_197156890.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|chlorophyll a/b-bind..|159|NZ_CP060398(3854122):234885-235043:-1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197170617.1(-1),ID:WP_231598352.1(-1)|neighbour_genes:rlmN,DNA-directed RNA pol..| | aligned:1-52 (52)
+MTATATPVPQRRLPRFGFHTHNERLHGRLAMLGFMALLGVEWFLGHGLLVTP
+>ID:WP_197214009.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|high light inducible..|159|NZ_CP060397(3672318):3422677-3422835:1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197211292.1(1),ID:WP_231596917.1(1)|neighbour_genes:DNA-directed RNA pol..,rlmN| | aligned:1-52 (52)
+MTELGTPIPVRRLPRWGFHTHNELLNGRMAMLGFIALLAVEWKLGHGILIWP
+>ID:WP_197156890.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|chlorophyll a/b-bind..|159|NZ_CP060396(3860130):219307-219465:-1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197156888.1(-1),ID:WP_231605680.1(-1)|neighbour_genes:rlmN,DNA-directed RNA pol..| | aligned:1-52 (52)
+MTATATPVPQRRLPRFGFHTHNERLHGRLAMLGFMALLGVEWFLGHGLLVTP
+>ID:WP_197151481.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|chlorophyll a/b-bind..|174|NZ_CP060395(3226220):786070-786243:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197153358.1(-1),ID:WP_197151483.1(-1)|neighbour_genes:rlmN,DNA-directed RNA pol..| | aligned:1-57 (57)
+MAKPERTSLDTPVPQRRLPRFGFHSHTELLNGRMAMLGFIALLVVEWKLGHGLLIWP

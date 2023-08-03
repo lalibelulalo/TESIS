@@ -1,0 +1,6 @@
+>ID:WP_126385997.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|chlorophyll A-B bind..|153|NZ_AP017560(4796642):1567009-1567161:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126385996.1(1),ID:WP_126385998.1(1)|neighbour_genes:rpsF,tetratricopeptide re..| | aligned:1-50 (50)
+MSDENRNVWSFGFNTGAENWNGRLAMIGFVSALAIELISGQGVLHFFGIL
+>ID:WP_015163302.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|chlorophyll a/b-bind..|153|NC_019701(4557046):12158-12310:1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015163301.1(1),ID:WP_015163303.1(-1)|neighbour_genes:M23 family metallope..,rpsF| | aligned:1-50 (50)
+MENQERNTWSWGFSTGAENWNGRLAMIGFVAALATELIAGQGVLHFWGIL
+>ID:WP_041429844.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|chlorophyll a/b-bind..|153|NC_019702(3510253):761876-762028:-1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015167546.1(-1),ID:WP_015167548.1(-1)|neighbour_genes:hypothetical protein,rsmI| | aligned:1-50 (50)
+MSDDNRNAWTFGFTNGAENWNGRLAMIGFVAAIAVELITGQGVLHFWGII

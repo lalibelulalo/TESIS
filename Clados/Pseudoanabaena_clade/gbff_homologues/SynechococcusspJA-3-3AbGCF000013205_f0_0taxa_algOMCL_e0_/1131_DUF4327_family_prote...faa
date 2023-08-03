@@ -1,0 +1,8 @@
+>ID:WP_126385367.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|DUF4327 family prote..|222|NZ_AP017560(4796642):789380-789601:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_174235233.1(-1),ID:WP_126385368.1(-1)|neighbour_genes:cyanophycinase,branched-chain amino..| | aligned:1-73 (73)
+MLHSLYYSIGAIQDEARHLLESGRLTRSQPIHTLCSFFRDREWCQIERELEENHYLLRDRICDLLSRECWQSD
+>ID:WP_015165939.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|DUF4327 family prote..|222|NC_019701(4557046):3435730-3435951:-1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_225882658.1(-1),ID:WP_015165940.1(-1)|neighbour_genes:cyanophycinase,methyltransferase do..| | aligned:1-73 (73)
+MLQSAQYSIGAIRDEARQLIDGGKLNRHQPIHALCKFFSDREWNCIEHELEINQFLLRDRLCELLSHEDWAND
+>ID:WP_011433156.1 |[Synechococcus sp. JA-2-3B'a(2-13)]|JA-2-3B'a(2-13)|Synechococcus_sp_JA-2-3Ba_2-13_JA-2-3Ba_2-13_GCF_000013225.1_genomic.gbff|DUF4327 family prote..|231|NC_007776(3046682):1619763-1619993:-1 ^^ Synechococcus sp. JA-2-3B'a(2-13), complete sequence.|neighbours:ID:WP_011433155.1(-1),ID:WP_011433157.1(-1)|neighbour_genes:bifunctional (p)ppGp..,pyk| | aligned:3-76 (76)
+MPTLQATHYAVEAIQEEARRLIQQGVLRRSAAIAHLQPFFPQREWQAIAQELELQDYCPSDPLCDLIGDCEEWGED
+>ID:WP_015169130.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|DUF4327 family prote..|222|NC_019702(3510253):2479590-2479811:1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015169129.1(1),ID:WP_015169131.1(1)|neighbour_genes:IS701 family transpo..,cyanophycinase| | aligned:1-73 (73)
+MVESLYMSIGAICEEARHLVESGSITRQQPIHCLCKYFPDREWCMVEHELELNQFLLRDRISDLMSKEDWSND

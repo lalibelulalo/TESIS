@@ -1,0 +1,6 @@
+>ID:WP_096722622.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|hypothetical protein|195|NZ_AP018281(4516676):3841779-3841973:1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096722620.1(1),ID:WP_096722624.1(1)|neighbour_genes:Crp/Fnr family trans..,CHAD domain-containi..| | aligned:8-63 (64)
+MYKQEQSEKIVVAAYLQFFAQEVINLCDRDDCQQFDLATYEQIRQLWLELKQEKPEIVNYIQEK
+>ID:WP_015192084.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|hypothetical protein|207|NC_019748(5041209):912338-912544:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015192083.1(1),ID:WP_015192085.1(1)|neighbour_genes:Crp/Fnr family trans..,CHAD domain-containi..| | aligned:1-68 (68)
+MQDKSDSKVPEQLLLKDHLHNFGEAVIDICDREEQYQLSAQAAYQKIRQMWLQLQKNQPEIKNYIHNN
+>ID:WP_096380516.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|225|NZ_AP017375(5319768):578092-578316:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096380513.1(-1),ID:WP_096380520.1(-1)|neighbour_genes:CHAD domain-containi..,Crp/Fnr family trans..| | aligned:1-68 (74)
+MQNKSDSKVPEKLVLEEHLNNFGEAVIAICDREENYQLSTQAAYQRIRQMWLQLRQTQPEITDYIQHNYIKKQV

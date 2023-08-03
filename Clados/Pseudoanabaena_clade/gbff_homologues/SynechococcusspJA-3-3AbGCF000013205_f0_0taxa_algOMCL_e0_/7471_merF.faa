@@ -1,0 +1,4 @@
+>ID:WP_015165425.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|merF|219|NC_019701(4557046):2792309-2792527:-1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015165424.1(-1),ID:WP_015165426.1(-1)|neighbour_genes:(2Fe-2S)-binding pro..,cobA| | aligned:1-68 (72)
+MKSKNALIASIVGTIVVAICCFTPILVLFIGLLGWGAFAGYLDYILLPLLLGMILLTTFSYIRYRQHCRFSR
+>ID:WP_017328108.1 |[Synechococcus sp. PCC 7336]|PCC 7336|Synechococcus_sp_PCC_7336_GCF_000332275.1_genomic.gbff|merF|243|NZ_CM001776(5066637):4647872-4648114:1 ^^ Synechococcus sp. PCC 7336 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017328107.1(1),ID:WP_026101223.1(1)|neighbour_genes:AAA family ATPase,copper chaperone Cop..| | aligned:1-68 (80)
+MNPKTALQASISGTVFVALCCFTPILVVVFGAVGLSAWVGYLDFVLLPALGVMVGLSIVSYFRYRRYCYQESGKQGEDLR

@@ -1,0 +1,6 @@
+>ID:WP_096721563.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|hypothetical protein|222|NZ_AP018281(4516676):3194003-3194224:1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096721561.1(-1),ID:WP_096721565.1(-1)|neighbour_genes:TIGR00297 family pro..,EAL domain-containin..| | aligned:1-72 (73)
+MSLSKPEAKQLLERMIFDDQPPQQWVEDVWGLTPMLGDSAAKLYEAFEALIACCPEDKLDNLLQTYLKEKFEQ
+>ID:WP_015193733.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|hypothetical protein|216|NC_019748(5041209):2852940-2853155:-1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015193732.1(1),ID:WP_015193734.1(1)|neighbour_genes:sulfite oxidase-like..,hypothetical protein| | aligned:1-69 (71)
+MSLSQTEAKQLLERLIFDDQQPQEWVQDVWGLSPILGDSAAKLVEVFEALIQCCPQEQLENLLQSYYQEIE
+>ID:WP_096384578.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|219|NZ_AP017375(5319768):3037476-3037694:1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096384577.1(-1),ID:WP_096384579.1(-1)|neighbour_genes:hypothetical protein,sulfite oxidase-like..| | aligned:1-72 (72)
+MSLSQTEAKQLLERLIFDEQQPQEWVQDVWGLSPMLGDSAAKLLEVFEALIECCPQEQLDNLLQSYYQEKVE

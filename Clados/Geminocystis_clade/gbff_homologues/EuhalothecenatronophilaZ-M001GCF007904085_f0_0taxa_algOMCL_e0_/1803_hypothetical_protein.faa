@@ -1,0 +1,6 @@
+>ID:WP_015159144.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|234|NC_019697(6284095):1929109-1929342:1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_157259929.1(1),ID:WP_015159145.1(-1)|neighbour_genes:hypothetical protein,TolC family protein| | aligned:1-77 (77)
+MKKQNILMGAIASMMATLVLSQASYANESSNNASKSSPLSVRTQTHEVAMFNKQGKPHKHPGKKVNKPKKVSKASKA
+>ID:WP_015328759.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|237|NC_020053(446651):69219-69455:1 ^^ Chamaesiphon minutus PCC 6605 plasmid pCHA6605.01, complete sequence.|neighbours:ID:WP_015328758.1(1),ID:WP_015328760.1(-1)|neighbour_genes:hypothetical protein,TolC family protein| | aligned:1-78 (78)
+MKKQNILTGAIASMMVTLVLSQASYANESNNNASKSSPLSVRTQTHEVAMFNKQGKPHKHPTGKKINKPKKVSKASKA
+>ID:WP_015329071.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|228|NC_020053(446651):394800-395027:-1 ^^ Chamaesiphon minutus PCC 6605 plasmid pCHA6605.01, complete sequence.|neighbours:ID:WP_015329070.1(1),ID:WP_015329072.1(-1)|neighbour_genes:TolC family protein,hypothetical protein| | aligned:1-75 (75)
+MKKQNILMGSIASMMATLVLSQVSYANEYSNNASTSSPLSVRSQTREVAIFNKQGKPHKHPTGKKVNKPKKASKA

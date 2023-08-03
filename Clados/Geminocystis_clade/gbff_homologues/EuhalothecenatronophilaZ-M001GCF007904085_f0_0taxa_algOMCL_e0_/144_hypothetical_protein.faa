@@ -1,0 +1,8 @@
+>ID:WP_015157650.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|264|NC_019697(6284095):161526-161789:-1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015157649.1(-1),ID:WP_015157651.1(1)|neighbour_genes:urease accessory pro..,psbQ| | aligned:1-75 (87)
+MFRVFAKDYDRQFERWTDALEAGNSLKSQCKSLLQDVRIFDGEELIWIYSRSHTYPQYIGAGVYDKLARLFLLENAPTIAVEVDEPE
+>ID:WP_096721002.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|hypothetical protein|273|NZ_AP018281(4516676):2841493-2841765:-1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096721000.1(1),ID:WP_096721004.1(1)|neighbour_genes:deoxyribonuclease V,glycerol acyltransfe..| | aligned:1-76 (90)
+MFRVITPGFQAEYSRWTDALNKANSLMPECKGLFKDIRIYYGDNLIWIYSRSHKYPQYIGAGIYDKLAKLFIVEALEAEQDDQSSTTETQ
+>ID:WP_015195442.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|hypothetical protein|255|NC_019748(5041209):4852238-4852492:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015195440.1(-1),ID:WP_015195443.1(-1)|neighbour_genes:alpha-mannosidase,aroF| | aligned:1-83 (84)
+MFKVVYQNSEQEFERWTEALDYAKALIPNCKSLFADIRIYHEKELIWIYSRSHKYPQYIGAGTYDRLARLFILETMEEEEEKRR
+>ID:WP_096385402.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|255|NZ_AP017375(5319768):4041670-4041924:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096385401.1(1),ID:WP_096385404.1(-1)|neighbour_genes:aroF,DUF202 domain-contai..| | aligned:1-84 (84)
+MFKVVYQNIEREFSRWTEALDYAKHLIPDCKSLFADIRIYQEKELIWIYSRSHKYPQYIGAGTYDRLARLFIVETMEEEEEKKR

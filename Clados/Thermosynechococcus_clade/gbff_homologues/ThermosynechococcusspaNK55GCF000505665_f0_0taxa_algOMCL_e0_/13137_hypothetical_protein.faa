@@ -1,0 +1,8 @@
+>ID:WP_212667199.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|279|NZ_CP064927(210325):96066-96344:-1 ^^ Acaryochloris marina S15 plasmid unnamed15, complete sequence.|neighbours:ID:WP_249370342.1(-1),ID:WP_212667200.1(-1)|neighbour_genes:HlyD family secretio..,hypothetical protein| | aligned:8-91 (92)
+MMSRNHKSQLFSDLDETKQECIIGGFNTSINSYFSYLFKPFINQKPFNENITTQDFSTDVVINNAVQVNLAFAIGENNSASAIAQQSIATLI
+>ID:WP_212667201.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|222|NZ_CP064927(210325):97052-97273:-1 ^^ Acaryochloris marina S15 plasmid unnamed15, complete sequence.|neighbours:ID:WP_212667200.1(-1),ID:WP_212667202.1(-1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-73 (73)
+MSNLFVELNDDQQELISGGSFGPELFSRNYLEQDFSTDIDVDDTYQTNAALSIGKNNSSGAAAKQALTVLSFS
+>ID:WP_212667202.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|222|NZ_CP064927(210325):97403-97624:-1 ^^ Acaryochloris marina S15 plasmid unnamed15, complete sequence.|neighbours:ID:WP_212667201.1(-1),ID:WP_212667203.1(-1)|neighbour_genes:hypothetical protein,CTB family bacterioc..| | aligned:1-73 (73)
+MSNLFVELNDDQQELISGGSFGPELFSRNYLEQDFSTDIDVDDTYQTNAALSIGKNNRSDAFAMQDLTVLSFS
+>ID:WP_212667203.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|CTB family bacterioc..|222|NZ_CP064927(210325):97754-97975:-1 ^^ Acaryochloris marina S15 plasmid unnamed15, complete sequence.|neighbours:ID:WP_212667202.1(-1),ID:WP_212667204.1(-1)|neighbour_genes:hypothetical protein,transposase| | aligned:1-73 (73)
+MSNLFVELSDNQQELVSGGFFGPELFSYNYLEQDFSTDIDVDDTYQTNAALSIGKNNSSGAAAKQDLTVLSFS

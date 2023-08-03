@@ -1,0 +1,4 @@
+>ID:WP_015166102.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|psaM|99|NC_019701(4557046):3646077-3646175:1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015166101.1(1),ID:WP_015166103.1(1)|neighbour_genes:DUF2808 domain-conta..,hypothetical protein| | aligned:1-29 (32)
+MGLSDAQVLTALAIAIFPAAMAMMLGSALYNS
+>ID:WP_015169906.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|psaM|96|NC_019702(3510253):3336830-3336925:-1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015167904.1(1),ID:WP_015169907.1(-1)|neighbour_genes:IS630 family transpo..,DUF2808 domain-conta..| | aligned:1-29 (31)
+MSLSDAQVLTALVVALLPAVLALMLGTALAE

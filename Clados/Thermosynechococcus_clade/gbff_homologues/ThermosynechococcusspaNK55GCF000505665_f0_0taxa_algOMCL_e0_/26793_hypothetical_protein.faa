@@ -1,0 +1,8 @@
+>ID:WP_157768312.1 |[Thermostichus lividus PCC 6715]|PCC 6715|Thermostichus_lividus_PCC_6715_GCF_002754935.1_genomic.gbff|hypothetical protein|141|NZ_CP018092(2659739):341980-342120:1 ^^ Thermostichus lividus PCC 6715 chromosome, complete genome.|neighbours:ID:WP_157768311.1(-1),ID:WP_099797932.1(1)|neighbour_genes:hypothetical protein,speY| | aligned:4-46 (46)
+MSTVKDLALMGDPNITTWYLEMGLRQRRAAIPALSVVDNCEGPSMS
+>ID:WP_255451698.1 |[Thermosynechococcus sp. CL-1]|CL-1|Thermosynechococcus_sp_CL-1_GCF_008386235.1_genomic.gbff|hypothetical protein|132|NZ_CP040671(2647823):385042-385173:-1 ^^ Thermosynechococcus sp. CL-1 chromosome, complete genome.|neighbours:ID:WP_149817679.1(-1),ID:WP_149817681.1(1)|neighbour_genes:speY,hypothetical protein| | aligned:1-43 (43)
+MKQLTLMGYPNITTWYLEMGLRQRRAAIPALSVVDNCEGPSMS
+>ID:WP_256468046.1 |[Thermosynechococcus sp. HN-54]|HN-54|Thermosynechococcus_sp_HN-54_GCF_023650955.1_genomic.gbff|hypothetical protein|132|NZ_CP098039(2705963):2311320-2311451:-1 ^^ Thermosynechococcus sp. HN-54 chromosome, complete genome.|neighbours:ID:WP_250682166.1(-1),ID:WP_250682167.1(1)|neighbour_genes:speY,hypothetical protein| | aligned:1-43 (43)
+MKQLTLMGYPNITPWYLEMGLRQRRAAIPALSVVDHCEGPSMS
+>ID:WP_255451698.1 |[Thermosynechococcus sp. TA-1]|TA-1|Thermosynechococcus_sp_TA-1_GCF_017086385.1_genomic.gbff|hypothetical protein|132|NZ_CP070960(2658717):1150271-1150402:1 ^^ Thermosynechococcus sp. TA-1 chromosome, complete genome.|neighbours:ID:WP_206201401.1(-1),ID:WP_149817679.1(1)|neighbour_genes:hypothetical protein,speY| | aligned:1-43 (43)
+MKQLTLMGYPNITTWYLEMGLRQRRAAIPALSVVDNCEGPSMS

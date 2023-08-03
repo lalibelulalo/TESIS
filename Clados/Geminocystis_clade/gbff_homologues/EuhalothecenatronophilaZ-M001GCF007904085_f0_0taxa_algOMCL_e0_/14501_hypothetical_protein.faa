@@ -1,0 +1,4 @@
+>ID:WP_041235283.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|hypothetical protein|189|NC_019780(3781008):626801-626989:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015228395.1(1),ID:WP_015228396.1(-1)|neighbour_genes:hypothetical protein,dcm| | aligned:11-62 (62)
+MLKKSIGWFSKAKGKRQEAKGKRQKARGKRVEQSMNLRFYSDINRLKSLFGKTFSFPTASPN
+>ID:WP_198007564.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|hypothetical protein|192|NC_019780(3781008):2568052-2568243:1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015230116.1(-1),ID:WP_015230117.1(1)|neighbour_genes:peptidylprolyl isome..,ATP-dependent Clp pr..| | aligned:12-63 (63)
+MKFTKPNTNQQEPRGKRQEARGKRQEARCVTIEQSMNLHFYSYLNRLKSLFGKTFSFPTAKPN

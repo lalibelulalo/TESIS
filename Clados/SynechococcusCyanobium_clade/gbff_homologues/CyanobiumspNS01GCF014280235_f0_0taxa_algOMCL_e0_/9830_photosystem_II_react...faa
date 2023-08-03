@@ -1,0 +1,16 @@
+>ID:WP_015109102.1 |[Cyanobium gracile PCC 6307]|PCC 6307|Cyanobium_gracile_PCC_6307_GCF_000316515.1_genomic.gbff|photosystem II react..|123|NC_019675(3342364):1479618-1479740:1 ^^ Cyanobium gracile PCC 6307, complete sequence.|neighbours:ID:WP_015109101.1(-1),ID:WP_015109103.1(1)|neighbour_genes:YggT family protein,Ycf66 family protein| | aligned:1-40 (40)
+MTPSLANFLSSLAWGAVIVVIPISIALVLISQNDQVDRRL
+>ID:WP_213204068.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|Photosystem II react..|123|NZ_CP073761(3180296):525663-525785:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213204067.1(-1),ID:WP_213204069.1(1)|neighbour_genes:hypothetical protein,YggT family protein| | aligned:1-40 (40)
+MTPSLANFLSSLVWGGVIVVIPIAVALVLISQNDRLDRKL
+>ID:WP_087068847.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|photosystem II react..|123|NZ_LT578417(3021545):2731078-2731200:1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087068846.1(-1),ID:WP_087068848.1(1)|neighbour_genes:YggT family protein,Ycf66 family protein| | aligned:1-40 (40)
+MTPSLANFLSSLVWGAVIVVVPISIGLVLISQNDQVDRRL
+>ID:WP_186698588.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|photosystem II react..|123|NZ_CP047940(2748087):492304-492426:-1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186698586.1(-1),ID:WP_186698589.1(1)|neighbour_genes:Ycf66 family protein,YggT family protein| | aligned:1-39 (40)
+MTPSLANFLSSLAWGAVIVVVPISIALVLISQTDQVDRRS
+>ID:WP_197158731.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|photosystem II react..|123|NZ_CP060398(3854122):1974621-1974743:-1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197169578.1(-1),ID:WP_197172189.1(1)|neighbour_genes:Ycf66 family protein,YggT family protein| | aligned:1-40 (40)
+MTPSLANFLSSLAWGAVIVVIPITLALVLISQNDQVDRRL
+>ID:WP_197210918.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|photosystem II react..|123|NZ_CP060397(3672318):2934692-2934814:-1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197210917.1(-1),ID:WP_197210919.1(1)|neighbour_genes:Ycf66 family protein,YggT family protein| | aligned:1-40 (40)
+MTPSLANFLSSLVWGAVIVVIPISIALFLISQNDRLDRRL
+>ID:WP_197158731.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|photosystem II react..|123|NZ_CP060396(3860130):1750468-1750590:-1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197158730.1(-1),ID:WP_197158732.1(1)|neighbour_genes:Ycf66 family protein,YggT family protein| | aligned:1-40 (40)
+MTPSLANFLSSLAWGAVIVVIPITLALVLISQNDQVDRRL
+>ID:WP_197151570.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|photosystem II react..|123|NZ_CP060395(3226220):841685-841807:1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197151569.1(-1),ID:WP_197151572.1(1)|neighbour_genes:YggT family protein,Ycf66 family protein| | aligned:1-40 (40)
+MTPSLANFLSSLAWGAVIVVVPITIALVLISQNDRLDRRL

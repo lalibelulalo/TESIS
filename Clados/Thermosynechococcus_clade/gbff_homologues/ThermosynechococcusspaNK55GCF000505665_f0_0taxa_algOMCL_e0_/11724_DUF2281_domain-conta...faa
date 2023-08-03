@@ -1,0 +1,6 @@
+>ID:WP_212663184.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|DUF2281 domain-conta..|240|NZ_CP064923(5881945):4987200-4987439:-1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_249369523.1(-1),ID:WP_212663185.1(-1)|neighbour_genes:PIN domain-containin..,hypothetical protein| | aligned:1-79 (79)
+MTAAEKLYELIQSLPESQVNEVLNFAEFLHHKQLNSSQSQAIPPGTLTGLRGIAKGPKAASSDHELQAEYTDYLTQKYQ
+>ID:WP_235110123.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|DUF2281 domain-conta..|240|NZ_CP071717(5699248):2005339-2005578:-1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235110122.1(-1),ID:WP_235110124.1(-1)|neighbour_genes:PIN domain-containin..,GNAT family N-acetyl..| | aligned:1-79 (79)
+MTAAEKLYELIQSLPESQVNEVLNFAEFLHQKQLNISQSQAIPPGMLTGLRGIAKRSEAAPSDHELQAEYTDYLTQKYQ
+>ID:WP_015124731.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|DUF2281 domain-conta..|234|NC_019680(3697276):2021642-2021875:-1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_051020993.1(-1),ID:WP_015124732.1(-1)|neighbour_genes:hypothetical protein,Uma2 family endonucl..| | aligned:1-76 (77)
+MTTAEKLHQLIATLSEKQIREVLRFAELIQQKQLTTTQSEQSRAIQTMRGLLKTDHAPPTDEEVIALLEQRRMDKYL

@@ -1,0 +1,4 @@
+>ID:WP_232432250.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|225|NC_019697(6284095):2372783-2373007:1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_232432249.1(1),ID:WP_015159529.1(1)|neighbour_genes:hypothetical protein,ABC transporter subs..| | aligned:1-67 (74)
+MAFEYQIESGSLNSQVQTLDKLTDPTPTILSPQRIVGVGSVGKIEGKASYTIYHPGSNKLEFKTVRYGAKKGFG
+>ID:WP_051018166.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|hypothetical protein|240|NC_019776(4114099):3953744-3953983:-1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015221093.1(-1),ID:WP_015221094.1(1)|neighbour_genes:NAD(P)H-quinone oxid..,MATE family efflux t..| | aligned:12-78 (79)
+MLITIFSARSHLTFNYQLQTGLIKSTVTTLEGISTTQTQETKNKNLVGIGRVNKNSHQGTYTIYNPYNNQLEFRHISYS

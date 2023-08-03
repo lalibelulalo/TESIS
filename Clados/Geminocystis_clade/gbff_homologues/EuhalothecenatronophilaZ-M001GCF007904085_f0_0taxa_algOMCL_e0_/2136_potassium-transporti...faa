@@ -1,0 +1,12 @@
+>ID:WP_015159439.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|potassium-transporti..|240|NC_019697(6284095):2270923-2271162:-1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015159438.1(-1),ID:WP_015159440.1(-1)|neighbour_genes:kdpC,kdpB| | aligned:6-79 (79)
+MKCFPTDDLALLWQTWSRRKYPTYIFLALCLNVILASAAFAATGDTFTRPQIYALGILGLGTVALSGYLFVVMFQPERF
+>ID:WP_015220063.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|kdpF|207|NC_019776(4114099):2690336-2690542:-1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015220062.1(-1),ID:WP_015220064.1(-1)|neighbour_genes:kdpC,kdpB| | aligned:1-68 (68)
+MKIRFFSDKLSVYLFSILVVNILISPLVYASTNQVFSRGQSYALGLLGLVTMSLFIYLFVVIFQPEKF
+>ID:WP_066349311.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|kdpF|207|NZ_AP014815(3883409):471419-471625:1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_066343710.1(1),ID:WP_231933027.1(1)|neighbour_genes:kdpB,Uma2 family endonucl..| | aligned:1-68 (68)
+MKIKYFVQKFSVYLFLILVINTIISPLVYAGTNQILSKGQSYALSLLGLVTFSLFIYLFVVIFQPEKF
+>ID:WP_082713012.1 |[Geminocystis sp. NIES-3709]|NIES-3709|Geminocystis_sp_NIES-3709_GCF_001548115.1_genomic.gbff|kdpF|249|NZ_AP014821(4150181):3309017-3309265:-1 ^^ Geminocystis sp. NIES-3709 chromosome, complete genome.|neighbours:ID:WP_071828051.1(-1),ID:WP_071828052.1(1)|neighbour_genes:Uma2 family endonucl..,type II toxin-antito..| | aligned:10-82 (82)
+MNTNISLGKQTFFTIIKKFFSHKLSIYLLSIFLINLILSPVVYASTKDVLSKGQTYALGLLGLVTFSLFIYLFIVIFQPEKF
+>ID:WP_015195148.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|potassium-transporti..|270|NC_019748(5041209):4509424-4509693:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015195147.1(1),ID:WP_015195149.1(1)|neighbour_genes:kdpB,kdpC| | aligned:1-89 (89)
+MKLNKTNEFFLTNNTIETIQNIRDRFLKNPLAIVLLLTMSLNLVIAPAVMAASGNEITKNTAYAIAILYCVTIALSIYLFTVIFQPERF
+>ID:WP_096382243.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|potassium-transporti..|270|NZ_AP017375(5319768):1367794-1368063:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096387807.1(-1),ID:WP_096382245.1(-1)|neighbour_genes:K(+)-transporting AT..,kdpB| | aligned:1-89 (89)
+MKLNKANEFCLTNNTIETIQNISDRFTKNPVAKVLFLTMSLNLVIAPAVMAASSNEITRNTAYAIALLYCVTIALSIYLFTVIFQPERF

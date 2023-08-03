@@ -1,0 +1,4 @@
+>ID:WP_011432108.1 |[Synechococcus sp. JA-2-3B'a(2-13)]|JA-2-3B'a(2-13)|Synechococcus_sp_JA-2-3Ba_2-13_JA-2-3Ba_2-13_GCF_000013225.1_genomic.gbff|hypothetical protein|357|NC_007776(3046682):459188-459544:1 ^^ Synechococcus sp. JA-2-3B'a(2-13), complete sequence.|neighbours:ID:WP_041436160.1(-1),ID:WP_011432109.1(-1)|neighbour_genes:lepB,general secretion pa..| | aligned:1-118 (118)
+MTISTEERLERVERLVEANSQAIARLTQQQEEVLRRIDRLSGDSEKLSERVEKLSGDVEKLSGDVEKLSGDVEKLTFKFDTSQTIGERLERLATSLIAGATISIIAGVILVLLREGSR
+>ID:WP_011431083.1 |[Synechococcus sp. JA-3-3Ab]|JA-3-3Ab|Synechococcus_sp_JA-3-3Ab_GCF_000013205.1_genomic.gbff|hypothetical protein|315|NC_007775(2932766):2282600-2282914:-1 ^^ Synechococcus sp. JA-3-3Ab, complete sequence.|neighbours:ID:WP_011431082.1(1),ID:WP_011431084.1(1)|neighbour_genes:general secretion pa..,lepB| | aligned:1-104 (104)
+MTISTEERLERVERLVETNSQAIARLTQQQGEILDRIDRLSGDTQKLSERVEKLSGDVEKLTFKFDTAQTIGERLERLATSLIAGATISIIAGVILVLLREGSR

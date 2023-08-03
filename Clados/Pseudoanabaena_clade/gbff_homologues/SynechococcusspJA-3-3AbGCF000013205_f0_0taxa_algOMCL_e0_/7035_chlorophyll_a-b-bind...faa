@@ -1,0 +1,4 @@
+>ID:WP_015165005.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|chlorophyll a/b-bind..|318|NC_019701(4557046):2229429-2229746:1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015165004.1(1),ID:WP_015165006.1(1)|neighbour_genes:lepA,YggS family pyridoxa..| | aligned:1-90 (105)
+MTTDKIDLDNINVNPSGKGVFGFSNFAEVWNGRMAMLGVVAGFAGEALTGKGILEQVGISTQGGGIMAALFLTGFTAAAMIGYYAVKMSSQLDASNPTEVSESAS
+>ID:WP_015168653.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|chlorophyll a/b-bind..|300|NC_019702(3510253):1971387-1971686:1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015168652.1(-1),ID:WP_015168654.1(1)|neighbour_genes:hypothetical protein,pirin family protein| | aligned:1-90 (99)
+MTTNKINFANTNVNPTGQGVFGFSNFAELWNGRMAMIGFVAALAGEVTTGKGILGQIGINTSGGDVLVALFLAGFTAAAIIGYYAVKLSNVQAIASENS

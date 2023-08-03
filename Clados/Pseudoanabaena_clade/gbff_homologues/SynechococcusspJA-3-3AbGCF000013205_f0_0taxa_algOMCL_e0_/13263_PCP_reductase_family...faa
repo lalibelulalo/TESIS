@@ -1,0 +1,8 @@
+>ID:WP_126386924.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|PCP reductase family..|189|NZ_AP017560(4796642):2676372-2676560:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126386923.1(-1),ID:WP_126386925.1(-1)|neighbour_genes:GspE/PulE family pro..,PadR family transcri..| | aligned:1-59 (62)
+MSEKITWTAEAEAKLKDIPFFVRPFAFKKIEKYAQDNNFQQITLEVYEQAKKQFNKKYNEMK
+>ID:WP_011430576.1 |[Synechococcus sp. JA-3-3Ab]|JA-3-3Ab|Synechococcus_sp_JA-3-3Ab_GCF_000013205.1_genomic.gbff|PCP reductase family..|171|NC_007775(2932766):1749682-1749852:1 ^^ Synechococcus sp. JA-3-3Ab, complete sequence.|neighbours:ID:WP_041439081.1(1),ID:WP_011430577.1(1)|neighbour_genes:DUF751 family protei..,site-2 protease fami..| | aligned:1-56 (56)
+MDEAIEWTPEAEARLKEIPFFVRPAARKKIEQFAREAGIQKITVAVYEQAKQKFGS
+>ID:WP_017325195.1 |[Synechococcus sp. PCC 7336]|PCC 7336|Synechococcus_sp_PCC_7336_GCF_000332275.1_genomic.gbff|PCP reductase family..|177|NZ_CM001776(5066637):1408734-1408910:1 ^^ Synechococcus sp. PCC 7336 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017325194.1(-1),ID:WP_017325196.1(1)|neighbour_genes:lipA,aldo/keto reductase| | aligned:3-55 (58)
+MSQLEWTPDAEARMKEVPFFVRRAARKKIEKFAVEEGVSTIDGEFCDRARAKFNANRR
+>ID:WP_015167805.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|PCP reductase family..|180|NC_019702(3510253):1043978-1044157:-1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015167804.1(1),ID:WP_015167806.1(-1)|neighbour_genes:rhodanese-like domai..,ribonuclease Z| | aligned:1-59 (59)
+MSEIISWTVEAEAMLKEIPFFIRPFARKKIETYAQENHLNEITIEIYKKAKELFNKKYN

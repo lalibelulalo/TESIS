@@ -1,0 +1,16 @@
+>ID:WP_006173336.1 |[Cyanobium gracile PCC 6307]|PCC 6307|Cyanobium_gracile_PCC_6307_GCF_000316515.1_genomic.gbff|rpmJ|114|NC_019675(3342364):1764008-1764121:1 ^^ Cyanobium gracile PCC 6307, complete sequence.|neighbours:ID:WP_015109419.1(1),ID:WP_015109420.1(1)|neighbour_genes:adenylate kinase,rpsM| | aligned:1-37 (37)
+MKVRASVKKMCDKCRVIRRHGRVMVICTNPKHKQRQG
+>ID:WP_006173336.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|rpmJ|114|NZ_CP073761(3180296):2688737-2688850:1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213203295.1(1),ID:WP_213203296.1(1)|neighbour_genes:adenylate kinase,rpsM| | aligned:1-37 (37)
+MKVRASVKKMCDKCRVIRRHGRVMVICTNPKHKQRQG
+>ID:WP_006173336.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|rpmJ|114|NZ_LT578417(3021545):1657741-1657854:1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087068068.1(1),ID:WP_006909855.1(1)|neighbour_genes:adenylate kinase,rpsM| | aligned:1-37 (37)
+MKVRASVKKMCDKCRVIRRHGRVMVICTNPKHKQRQG
+>ID:WP_006173336.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|rpmJ|114|NZ_CP047940(2748087):2318403-2318516:1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186697297.1(1),ID:WP_186697298.1(1)|neighbour_genes:adenylate kinase,rpsM| | aligned:1-37 (37)
+MKVRASVKKMCDKCRVIRRHGRVMVICTNPKHKQRQG
+>ID:WP_007100636.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|rpmJ|114|NZ_CP060398(3854122):1738387-1738500:-1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_197157063.1(-1),ID:WP_197157061.1(-1)|neighbour_genes:rpsM,adenylate kinase| | aligned:1-37 (37)
+MKVRASVKKMCEKCRVIRRHGRVMVICTNPKHKQRQG
+>ID:WP_006173336.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|rpmJ|114|NZ_CP060397(3672318):3142526-3142639:-1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197211070.1(-1),ID:WP_197211071.1(-1)|neighbour_genes:rpsM,adenylate kinase| | aligned:1-37 (37)
+MKVRASVKKMCDKCRVIRRHGRVMVICTNPKHKQRQG
+>ID:WP_007100636.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|rpmJ|114|NZ_CP060396(3860130):359990-360103:1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197157061.1(1),ID:WP_197157063.1(1)|neighbour_genes:adenylate kinase,rpsM| | aligned:1-37 (37)
+MKVRASVKKMCEKCRVIRRHGRVMVICTNPKHKQRQG
+>ID:WP_006173336.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|rpmJ|114|NZ_CP060395(3226220):1873226-1873339:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197147992.1(-1),ID:WP_197147993.1(-1)|neighbour_genes:rpsM,adenylate kinase| | aligned:1-37 (37)
+MKVRASVKKMCDKCRVIRRHGRVMVICTNPKHKQRQG

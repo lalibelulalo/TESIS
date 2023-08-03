@@ -1,0 +1,4 @@
+>ID:WP_126387177.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|DUF3134 domain-conta..|243|NZ_AP017560(4796642):2963337-2963579:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126387176.1(-1),ID:WP_126387178.1(-1)|neighbour_genes:TIGR02450 family Trp..,YbaB/EbfC family nuc..| | aligned:1-63 (80)
+MNNPALRVQRRNEPAALIPTRQQASILDWLESTGRLIAREGTESSLKFDDEAEELSELMLGDDASYIDDDDDDLDDDDVD
+>ID:WP_015165835.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|DUF3134 domain-conta..|237|NC_019701(4557046):3282198-3282434:1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015165834.1(1),ID:WP_041698474.1(1)|neighbour_genes:hypothetical protein,mraY| | aligned:1-60 (78)
+MRNPSLREQPRRQPAPVVSTKQTVSILGWLQQNNRLLERETEIGFEYKNESQELDALVVGDNYEDDDDDDDDDDDDDD

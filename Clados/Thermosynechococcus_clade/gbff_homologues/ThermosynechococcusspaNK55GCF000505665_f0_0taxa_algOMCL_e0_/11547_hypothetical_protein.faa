@@ -1,0 +1,4 @@
+>ID:WP_212663033.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|303|NZ_CP064923(5881945):4790071-4790373:-1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_249369483.1(-1),ID:WP_212663034.1(-1)|neighbour_genes:S41 family peptidase,ABC transporter subs..| | aligned:1-97 (100)
+MTVLCHRSLRVFLTAPLTLSRSIPLLAQTPVHSQHYRQQRSLFQQRRQHLQQQLDFHRQFCLNQHRHIDEFLKQRQQELRQQLKHRRDLERRQFLPQGER
+>ID:WP_235109968.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|hypothetical protein|321|NZ_CP071717(5699248):1799708-1800028:-1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235109966.1(-1),ID:WP_235109969.1(-1)|neighbour_genes:S41 family peptidase,ABC transporter subs..| | aligned:1-103 (106)
+MTALCHHRSLSVFLTAAFILSLSPSLLAQTPIYSQPYRQQRPLLQQRLPQQQRFQQPLDFHRQLRLHQHRHIDELLRQRQQEFRQQRQQRRDLKRRQFLPQRQMEH

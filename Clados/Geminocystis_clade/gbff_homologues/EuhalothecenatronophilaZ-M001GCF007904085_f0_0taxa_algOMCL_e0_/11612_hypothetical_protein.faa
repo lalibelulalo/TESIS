@@ -1,0 +1,6 @@
+>ID:WP_015219001.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|hypothetical protein|243|NC_019776(4114099):1399006-1399248:1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015219000.1(1),ID:WP_015219002.1(-1)|neighbour_genes:BrnT family toxin,response regulator t..| | aligned:1-80 (80)
+MNNKIRYTDEDLEFGEIVEDFLPPPEKLTLKGIKIQIPVELTEKNLSFLKQEANRNNISYQNLIELIINEYIEQHGQNFT
+>ID:WP_017293464.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|hypothetical protein|243|NZ_CM001775(4263418):1128518-1128760:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_040467065.1(-1),ID:WP_017293465.1(-1)|neighbour_genes:hypothetical protein,DUF1902 domain-conta..| | aligned:1-80 (80)
+MKNKIKYTDENLEFGEIMEDFLPPPEKLTLKEIKVQIPVELTETNLSFLKEKADKNNMSYQNLIELIINEYIKQNAGNFT
+>ID:WP_015227083.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|hypothetical protein|237|NC_019779(4179170):3336049-3336285:-1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015227082.1(1),ID:WP_015227084.1(1)|neighbour_genes:FAD-dependent oxidor..,speA| | aligned:1-75 (78)
+MKNTTPDPAEPMGEVTIVNDFLPSPEELVPKKNTVRVTMEFTRESIEFFKREAERHNASYQAMIRNLVDAYAKQQQDG

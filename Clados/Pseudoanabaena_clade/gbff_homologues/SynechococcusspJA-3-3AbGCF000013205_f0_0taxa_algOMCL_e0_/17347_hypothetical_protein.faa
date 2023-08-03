@@ -1,0 +1,6 @@
+>ID:WP_017326971.1 |[Synechococcus sp. PCC 7336]|PCC 7336|Synechococcus_sp_PCC_7336_GCF_000332275.1_genomic.gbff|hypothetical protein|264|NZ_CM001776(5066637):3331121-3331384:-1 ^^ Synechococcus sp. PCC 7336 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_051039926.1(-1),ID:WP_026101063.1(-1)|neighbour_genes:ribD,hypothetical protein| | aligned:1-87 (87)
+MWGRQSRLDRIEQTVERLIEIREATNLRVDRTVERFAEISEATNLRIDRFVEASGQQIQAMNQRTEQLRERTEQLQRAVDYLLSKDG
+>ID:WP_026101063.1 |[Synechococcus sp. PCC 7336]|PCC 7336|Synechococcus_sp_PCC_7336_GCF_000332275.1_genomic.gbff|hypothetical protein|210|NZ_CM001776(5066637):3331534-3331743:-1 ^^ Synechococcus sp. PCC 7336 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017326971.1(-1),ID:WP_017326973.1(-1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-69 (69)
+MWGRPSRLDRIEQTVERLAEISEATNLRIDRFVEASGQQIQAMNQRTEQLRERTEQLQRAVDYLLSKDG
+>ID:WP_017326973.1 |[Synechococcus sp. PCC 7336]|PCC 7336|Synechococcus_sp_PCC_7336_GCF_000332275.1_genomic.gbff|hypothetical protein|189|NZ_CM001776(5066637):3331893-3332081:-1 ^^ Synechococcus sp. PCC 7336 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_026101063.1(-1),ID:WP_017326974.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-62 (62)
+MWGRPSRLDRIEQTVERLAEISEATNLRIDRFVDASEQQIQILHQRTEQLQRAVEYLMSKDG

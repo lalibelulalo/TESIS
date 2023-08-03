@@ -1,0 +1,4 @@
+>ID:WP_011432028.1 |[Synechococcus sp. JA-2-3B'a(2-13)]|JA-2-3B'a(2-13)|Synechococcus_sp_JA-2-3Ba_2-13_JA-2-3Ba_2-13_GCF_000013225.1_genomic.gbff|hypothetical protein|219|NC_007776(3046682):379607-379825:1 ^^ Synechococcus sp. JA-2-3B'a(2-13), complete sequence.|neighbours:ID:WP_011432027.1(1),ID:WP_011432029.1(-1)|neighbour_genes:cbiT,ubiE| | aligned:1-72 (72)
+MDQFQHPFQESREVKLRQLLIRERWPEMLKGCRACIHWDDFKRPECCGDCGIGDRRRQAVAEESPPSKSPGI
+>ID:WP_049749797.1 |[Synechococcus sp. JA-3-3Ab]|JA-3-3Ab|Synechococcus_sp_JA-3-3Ab_GCF_000013205.1_genomic.gbff|hypothetical protein|213|NC_007775(2932766):2767328-2767540:1 ^^ Synechococcus sp. JA-3-3Ab, complete sequence.|neighbours:ID:WP_011431520.1(1),ID:WP_143597342.1(-1)|neighbour_genes:cbiT,hypothetical protein| | aligned:1-70 (70)
+MDELQHPFPESREVRLRQLLIRERWPEMLKGCRACIHWDDFKRPECCGDCGIGDRRRQEAENQPSKSSGI

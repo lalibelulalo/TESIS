@@ -1,0 +1,6 @@
+>ID:WP_010472075.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|210|NC_009925(6503724):4595785-4595994:-1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012164845.1(1),ID:WP_012164846.1(-1)|neighbour_genes:hypothetical protein,phosphoglucomutase/p..| | aligned:1-69 (69)
+MFSPTHPFSKVPPILFKPEQLELLVSLAILPILVALLGQQQLFRCLTTLGTWSESLLQGVALPFLDLPE
+>ID:WP_212665126.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|hypothetical protein|210|NZ_CP064923(5881945):1576487-1576696:-1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212665125.1(-1),ID:WP_212665127.1(-1)|neighbour_genes:ppc,phosphoglucomutase/p..| | aligned:1-69 (69)
+MFSSSNPISKVPPILLKPEQLELLVSLAILPILVALLGQQQLFRCLTTLGTWSESLLQGVALPFLDLPE
+>ID:WP_212665126.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|hypothetical protein|210|NZ_CP071717(5699248):4414217-4414426:-1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_212665123.1(-1),ID:WP_235107776.1(-1)|neighbour_genes:hypothetical protein,phosphoglucomutase/p..| | aligned:1-69 (69)
+MFSSSNPISKVPPILLKPEQLELLVSLAILPILVALLGQQQLFRCLTTLGTWSESLLQGVALPFLDLPE

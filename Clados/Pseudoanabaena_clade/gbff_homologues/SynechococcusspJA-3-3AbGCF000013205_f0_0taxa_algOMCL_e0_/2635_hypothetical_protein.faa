@@ -1,0 +1,4 @@
+>ID:WP_126386753.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|hypothetical protein|237|NZ_AP017560(4796642):2450863-2451099:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126386752.1(1),ID:WP_126386754.1(-1)|neighbour_genes:PhzF family phenazin..,ATP-binding protein| | aligned:2-78 (78)
+MMILSLSEIQPTNLSTPWGDEKGISYLGKTFLPIDVHPNQQEAIAACRRDLDAGAISIIVDEGDRISVWWYFTEDTEL
+>ID:WP_015167440.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|hypothetical protein|234|NC_019702(3510253):647235-647468:-1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015167439.1(-1),ID:WP_041429818.1(-1)|neighbour_genes:2-oxo acid dehydroge..,FAD-dependent oxidor..| | aligned:1-77 (77)
+MIVKLSDTNNIEISVLGQKMQAISYLGKAFLPTNLAGEVQKLVPACRRDLDMGLISMVVEEPNTHRLWTSVPKEMQI

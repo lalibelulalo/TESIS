@@ -1,0 +1,4 @@
+>ID:WP_149820342.1 |[Thermosynechococcus sp. CL-1]|CL-1|Thermosynechococcus_sp_CL-1_GCF_008386235.1_genomic.gbff|hypothetical protein|195|NZ_CP040671(2647823):1947560-1947754:-1 ^^ Thermosynechococcus sp. CL-1 chromosome, complete genome.|neighbours:ID:WP_226971940.1(-1),ID:WP_149820343.1(-1)|neighbour_genes:cysH,hypothetical protein| | aligned:1-64 (64)
+METRQVVGTWPARLEDRYYWVVQPEIVVAPGRYAVLTSSPQTWSYNATSKNAGMTWIEGYPMPR
+>ID:WP_206200887.1 |[Thermosynechococcus sp. TA-1]|TA-1|Thermosynechococcus_sp_TA-1_GCF_017086385.1_genomic.gbff|hypothetical protein|195|NZ_CP070960(2658717):482374-482568:1 ^^ Thermosynechococcus sp. TA-1 chromosome, complete genome.|neighbours:ID:WP_206200885.1(1),ID:WP_255521485.1(1)|neighbour_genes:DUF3326 domain-conta..,cysH| | aligned:1-64 (64)
+METRQVVGTWPARLENRYYWVVQPEIVVAPGRYAVLTSSPQTWSYNATSKNAGMTWIEGYPMPR

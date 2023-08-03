@@ -1,0 +1,4 @@
+>ID:WP_015231012.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|hypothetical protein|309|NC_019780(3781008):3667774-3668082:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015231011.1(-1),ID:WP_015231013.1(-1)|neighbour_genes:gamma-glutamyl-gamma..,hypothetical protein| | aligned:1-101 (102)
+MTRHPLQFLTRLESALKRFIDASAPTLPAPSEASPSQLELGEVIYAHGWETPYEVVSGAFNRLYYFRWQGHLVSACADSPNSINYYLKPLGGERLVRLQIKR
+>ID:WP_015224475.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|hypothetical protein|312|NC_019779(4179170):409251-409562:1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015224474.1(1),ID:WP_015224476.1(-1)|neighbour_genes:ABC-F family ATP-bin..,precorrin-8X methylm..| | aligned:1-101 (103)
+MLRHPLKFLNRMELALERFFDTSARTIPVIIESSYSRLNIGEVIYGQGWNAPYQVVSGSFNRIYYFRWRGHLVSACADPPNTVNYYLKRLGGQQIIRLHLKPD

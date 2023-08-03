@@ -1,0 +1,18 @@
+>ID:WP_015157569.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|hypothetical protein|138|NC_019697(6284095):74479-74616:-1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015157567.1(-1),ID:WP_015157570.1(1)|neighbour_genes:mutL,TOBE-like domain-con..| | aligned:1-45 (45)
+MSDLDRGIMKFKGADTPAAIAISSTLVLGGIIFLVIWALKHAYAV
+>ID:WP_015219695.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|hypothetical protein|141|NC_019776(4114099):2232300-2232440:1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_015219694.1(1),ID:WP_015219696.1(1)|neighbour_genes:ruvB,PAS domain-containin..| | aligned:1-46 (46)
+MSDLNRGIMKFDGADKPIVVAVSAVIILGSIAALIIWALKVAYAVA
+>ID:WP_015229973.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|hypothetical protein|141|NC_019780(3781008):2410129-2410269:1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015229972.1(1),ID:WP_015229974.1(-1)|neighbour_genes:SulP family inorgani..,sir| | aligned:1-46 (46)
+MSDLDRGIMKFRGADKPVVVAVSSVVVLGAIVALILWALQVAYVVE
+>ID:WP_186708911.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|hypothetical protein|141|NZ_CP042326(3326959):221273-221413:-1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146294261.1(-1),ID:WP_246140364.1(-1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-46 (46)
+MSDLNRGIMKFPGADKPVVVAVSSVLILGAIAGLIIWALQVAYTVE
+>ID:WP_017292901.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|hypothetical protein|141|NZ_CM001775(4263418):555932-556072:1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017292900.1(1),ID:WP_017292902.1(1)|neighbour_genes:AarF/ABC1/UbiB kinas..,hypothetical protein| | aligned:1-46 (46)
+MSDLNRGIMKFDGADKPIIVGITAVIILGSIAALIVWALKVAYVVA
+>ID:WP_173644985.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|hypothetical protein|141|NZ_AP014815(3883409):39731-39871:1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_066342813.1(1),ID:WP_066342821.1(1)|neighbour_genes:carotenoid oxygenase..,hypothetical protein| | aligned:1-46 (46)
+MSDLNRGIMKFDGADKPIIVAISAVIILGSIAALIIWALKVAYVVA
+>ID:WP_173645701.1 |[Geminocystis sp. NIES-3709]|NIES-3709|Geminocystis_sp_NIES-3709_GCF_001548115.1_genomic.gbff|hypothetical protein|141|NZ_AP014821(4150181):1113584-1113724:1 ^^ Geminocystis sp. NIES-3709 chromosome, complete genome.|neighbours:ID:WP_066116763.1(-1),ID:WP_066116765.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-46 (46)
+MSDLNRGIMKFDGADKPIIVGISAIVILGSIIALIIWALKVAYVVG
+>ID:WP_015226506.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|hypothetical protein|141|NC_019779(4179170):2718908-2719048:-1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015226505.1(-1),ID:WP_015226507.1(1)|neighbour_genes:TIGR01777 family oxi..,J domain-containing ..| | aligned:1-46 (46)
+MSDLDRGIMKFSGADKPVVVAISSVVVLGAIAALIVWALQVAYAVE
+>ID:WP_015193270.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|hypothetical protein|141|NC_019748(5041209):2300597-2300737:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015193269.1(-1),ID:WP_015193271.1(-1)|neighbour_genes:SGNH/GDSL hydrolase ..,hypothetical protein| | aligned:1-46 (46)
+MSDLNRGIMKFDGADKPVVVAVSAALIFGSILVLIVWAINSAYAIN

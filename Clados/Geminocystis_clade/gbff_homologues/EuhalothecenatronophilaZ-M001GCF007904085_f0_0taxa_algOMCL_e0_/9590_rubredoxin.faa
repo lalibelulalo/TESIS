@@ -1,0 +1,8 @@
+>ID:WP_096722043.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|rubredoxin|186|NZ_AP018281(4516676):3489852-3490037:-1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096722039.1(1),ID:WP_096722045.1(1)|neighbour_genes:L-2-hydroxyglutarate..,Txe/YoeB family addi..| | aligned:9-58 (61)
+MTSSERRKVMRYICSVCGYEYNPEVGDPDSEIDPGTAFEELPEDWVCPVCGAETSDFEAEE
+>ID:WP_255358454.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|rubredoxin|162|NZ_AP014815(3883409):73950-74111:1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_066342881.1(1),ID:WP_173645028.1(1)|neighbour_genes:secretin and TonB N-..,glutamate-5-semialde..| | aligned:1-47 (53)
+MCRQCSMIYDPVIGDPDSGIVAGTIFEDIPEDWHCPICGAHKKLFVPYQEAIV
+>ID:WP_015192635.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|rubredoxin|162|NC_019748(5041209):1548764-1548925:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015192634.1(1),ID:WP_015192636.1(1)|neighbour_genes:ChaB family protein,CsbD family protein| | aligned:1-53 (53)
+MQKYQCTACQYIYDPEQGDPDSGIEPGTAFEDIPDDWYCPQCGVDKSMFEPID
+>ID:WP_096382487.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|rubredoxin|162|NZ_AP017375(5319768):1471220-1471381:1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096382485.1(1),ID:WP_096382490.1(1)|neighbour_genes:ChaB family protein,CsbD family protein| | aligned:1-53 (53)
+MQKYQCTACQYIYDPEQGDPDSDIPPGTPFEDIPDDWYCPQCGVDKSMFEPID

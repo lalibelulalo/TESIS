@@ -1,0 +1,4 @@
+>ID:WP_172820906.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|hypothetical protein|177|NZ_LT578417(3021545):2891292-2891468:-1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_087069471.1(1),ID:WP_087068971.1(-1)|neighbour_genes:response regulator t..,CYTH domain-containi..| | aligned:1-44 (58)
+MVGLYDSQGVLRFSGRDRDDCLAYAELFALPEDSFSLESVAVVVHPLDARAEGAPAIA
+>ID:WP_186698379.1 |[Cyanobium sp. NS01]|NS01|Cyanobium_sp_NS01_GCF_014280235.1_genomic.gbff|hypothetical protein|180|NZ_CP047940(2748087):354409-354588:1 ^^ Cyanobium sp. NS01 chromosome, complete genome.|neighbours:ID:WP_186698377.1(1),ID:WP_186698381.1(-1)|neighbour_genes:CYTH domain-containi..,response regulator t..| | aligned:1-44 (59)
+MLGLYDSQGVLRFAGRDRDDCLAYAELFALPEDSYSLESVAVLVGGSLASAPRAALAGV

@@ -1,0 +1,8 @@
+>ID:WP_126386577.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|PCP reductase family..|186|NZ_AP017560(4796642):2223457-2223642:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126386576.1(-1),ID:WP_126386578.1(-1)|neighbour_genes:murQ,U32 family peptidase| | aligned:2-61 (61)
+MPDSDYFEGLTWTAEAKVKYKNIPYFVRSQARQRIEQLAQAAGSDTITAEIVEKARVEFGQ
+>ID:WP_015164414.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|PCP reductase family..|180|NC_019701(4557046):1458581-1458760:-1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015164413.1(-1),ID:WP_015164415.1(-1)|neighbour_genes:murQ,ilvC| | aligned:1-59 (59)
+MAQFPDSLTWTAAAKAKLKNIPYFVRTQARQRIEQIANEQNTDTVTVEIVEQARLEFGQ
+>ID:WP_017326851.1 |[Synechococcus sp. PCC 7336]|PCC 7336|Synechococcus_sp_PCC_7336_GCF_000332275.1_genomic.gbff|PCP reductase family..|180|NZ_CM001776(5066637):3204091-3204270:-1 ^^ Synechococcus sp. PCC 7336 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017326850.1(1),ID:WP_017326852.1(-1)|neighbour_genes:biliverdin-producing..,DUF3352 domain-conta..| | aligned:1-59 (59)
+MSEFDDLLEWTDEAQEKFRKIPFFVRTQARQRIEALARKRDVDIVTAELVEEARQESGQ
+>ID:WP_015169545.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|PCP reductase family..|180|NC_019702(3510253):2913463-2913642:-1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_246828927.1(-1),ID:WP_015169546.1(-1)|neighbour_genes:Uma2 family endonucl..,DUF4168 domain-conta..| | aligned:1-59 (59)
+MSDDPETLIWTPEAQAKLRNIPYFVRSQARQRIEELTYASDSNIVTAEIVEQARIEFGQ

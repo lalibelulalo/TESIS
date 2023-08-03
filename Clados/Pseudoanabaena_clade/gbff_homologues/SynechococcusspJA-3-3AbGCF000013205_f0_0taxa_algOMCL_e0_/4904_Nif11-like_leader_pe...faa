@@ -1,0 +1,4 @@
+>ID:WP_126391261.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|Nif11-like leader pe..|210|NZ_AP017564(125503):2623-2832:-1 ^^ Pseudanabaena sp. ABRG5-3 plasmid ABRG53d, complete sequence.|neighbours:ID:WP_126391260.1(1),ID:WP_126391262.1(1)|neighbour_genes:tetratricopeptide re..,substrate-binding do..| | aligned:1-69 (69)
+MAREQVARLYRAAQSDSLLKAKLNQAPDLESFVQLAQAEGYDFTVEEWKQMTNFSVEELKCHLSEIPGI
+>ID:WP_017324342.1 |[Synechococcus sp. PCC 7336]|PCC 7336|Synechococcus_sp_PCC_7336_GCF_000332275.1_genomic.gbff|Nif11-like leader pe..|210|NZ_CM001776(5066637):522077-522286:1 ^^ Synechococcus sp. PCC 7336 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017324341.1(-1),ID:WP_083885636.1(1)|neighbour_genes:hypothetical protein,CHASE2 domain-contai..| | aligned:1-69 (69)
+MARENVVKLFRAARNDAQLQDKLSRASDLATFVRIATSNGYEFTADEYRQATGFSVEELECELSEIPGI

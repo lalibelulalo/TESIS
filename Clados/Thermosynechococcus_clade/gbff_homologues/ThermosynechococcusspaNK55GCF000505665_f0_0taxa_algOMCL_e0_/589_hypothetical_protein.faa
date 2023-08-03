@@ -1,0 +1,6 @@
+>ID:WP_012160819.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|hypothetical protein|192|NC_009925(6503724):119781-119972:1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_012160818.1(1),ID:WP_012160820.1(1)|neighbour_genes:moaC,glutaredoxin| | aligned:1-63 (63)
+MSALNVLVTLYRWTERWDSIEVDIPSRDHPCREDTTSGTIVTGLVSVPVELEIREWMTEWWQP
+>ID:WP_212661727.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|glutaredoxin|192|NZ_CP064923(5881945):3049484-3049675:1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212661726.1(1),ID:WP_212661728.1(1)|neighbour_genes:moaC,glutaredoxin| | aligned:1-63 (63)
+MPGPTVLIEIYRRAVASSSVEVDITSKDSPLRDNALLNTLTTKTVGIPVESEIREWLTEWWQP
+>ID:WP_235108678.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|glutaredoxin|192|NZ_CP071717(5699248):97307-97498:1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_235108677.1(1),ID:WP_235108679.1(1)|neighbour_genes:moaC,glutaredoxin| | aligned:1-63 (63)
+MPGPTVLIEIYRRAVASSSVEVNITSKDSPLRDNALLNTLTTKTVGIPVESEIREWLTEWWQP

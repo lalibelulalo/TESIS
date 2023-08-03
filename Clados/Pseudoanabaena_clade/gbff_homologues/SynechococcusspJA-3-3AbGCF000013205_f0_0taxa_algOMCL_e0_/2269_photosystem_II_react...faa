@@ -1,0 +1,6 @@
+>ID:WP_126386416.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|photosystem II react..|132|NZ_AP017560(4796642):2041369-2041500:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126386415.1(1),ID:WP_126386417.1(1)|neighbour_genes:GTP-binding protein,tetratricopeptide re..| | aligned:1-43 (43)
+MDFVTSALSSINFQLIFQLTSLALIVISGPVIIFLLSANSGDL
+>ID:WP_015163753.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|photosystem II react..|141|NC_019701(4557046):597524-597664:-1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_015163752.1(1),ID:WP_015163754.1(1)|neighbour_genes:DUF697 domain-contai..,(2Fe-2S) ferredoxin ..| | aligned:1-46 (46)
+MDFLTDITGIFSAIDFKVIFQLTCLALIVVAGPVVVFILANKGGDM
+>ID:WP_015169652.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|photosystem II react..|141|NC_019702(3510253):3044958-3045098:1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015169651.1(-1),ID:WP_015169653.1(-1)|neighbour_genes:ABC transporter ATP-..,adenylate/guanylate ..| | aligned:1-46 (46)
+MEFLDGLTTFLVGINFKLIFQLTCLALVVVSGPVVIFLLAAKGGDL

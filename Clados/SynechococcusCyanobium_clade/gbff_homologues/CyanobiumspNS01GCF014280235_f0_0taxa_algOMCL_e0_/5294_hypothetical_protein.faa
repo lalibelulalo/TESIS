@@ -1,0 +1,10 @@
+>ID:WP_213202681.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|195|NZ_CP073761(3180296):1984401-1984595:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213202680.1(1),ID:WP_213202682.1(1)|neighbour_genes:hypothetical protein,DUF433 domain-contai..| | aligned:1-64 (64)
+MFRDLVLVIGIPLALLLLAVLAMEQWRDRLPAWVQRLAKRPSWIWNTGIGLIIGLSLLRWLLQR
+>ID:WP_231596995.1 |[Synechococcus sp. CBW1002]|CBW1002|Synechococcus_sp_CBW1002_GCF_015840915.1_genomic.gbff|hypothetical protein|240|NZ_CP060398(3854122):2479487-2479726:1 ^^ Synechococcus sp. CBW1002 chromosome, complete genome.|neighbours:ID:WP_231597795.1(-1),ID:WP_197169791.1(-1)|neighbour_genes:galactose oxidase,type II toxin-antito..| | aligned:1-79 (79)
+MPLIAGYGAGTGEGSMLRELVLAVGIPLALLLLAVLALRQWRDRLPPWLQRFAERPSWLWNAGVGLIIGLSLLRWLLQR
+>ID:WP_231596995.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|hypothetical protein|240|NZ_CP060397(3672318):377194-377433:-1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_197169791.1(1),ID:WP_231596996.1(1)|neighbour_genes:type II toxin-antito..,galactose oxidase| | aligned:1-79 (79)
+MPLIAGYGAGTGEGSMLRELVLAVGIPLALLLLAVLALRQWRDRLPPWLQRFAERPSWLWNAGVGLIIGLSLLRWLLQR
+>ID:WP_197211974.1 |[Synechococcus sp. CBW1004]|CBW1004|Synechococcus_sp_CBW1004_GCF_015840715.1_genomic.gbff|hypothetical protein|195|NZ_CP060397(3672318):652619-652813:-1 ^^ Synechococcus sp. CBW1004 chromosome, complete genome.|neighbours:ID:WP_231597031.1(1),ID:WP_197211975.1(-1)|neighbour_genes:mechanosensitive ion..,RNA-binding protein| | aligned:1-64 (64)
+MARNLLLAIGLPLGVFLLLVLAVEHWGDRLPNWLRRLSGRSALLWNIGIGLIIALSLLRWLLQR
+>ID:WP_197147981.1 |[Synechococcus sp. CBW1108]|CBW1108|Synechococcus_sp_CBW1108_GCF_015840335.1_genomic.gbff|hypothetical protein|195|NZ_CP060395(3226220):1864315-1864509:-1 ^^ Synechococcus sp. CBW1108 chromosome, complete genome.|neighbours:ID:WP_197147980.1(-1),ID:WP_231596188.1(-1)|neighbour_genes:low affinity iron pe..,DUF1311 domain-conta..| | aligned:1-64 (64)
+MTTELLLAVGIPAAYLLISTSLLLCRHKTLPPFLLRLSARKAIAWNTMVGLSIAVGALRWATSR

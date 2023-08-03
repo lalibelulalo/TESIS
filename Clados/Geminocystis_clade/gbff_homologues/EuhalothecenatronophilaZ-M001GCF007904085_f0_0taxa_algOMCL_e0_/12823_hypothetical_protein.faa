@@ -1,0 +1,6 @@
+>ID:WP_015220198.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|hypothetical protein|237|NC_019776(4114099):2851562-2851798:1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_041922500.1(1),ID:WP_150108955.1(-1)|neighbour_genes:helix-turn-helix tra..,hypothetical protein| | aligned:1-77 (78)
+MNGKRILFSAIITGMIGFVAGVGIAKYGQANETSLKYDRVVYRNWVRSYGRAGFAIGFVVGAGQEYLRQAKKQRDKEL
+>ID:WP_015226877.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|hypothetical protein|270|NC_019779(4179170):3117828-3118097:1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015226876.1(1),ID:WP_015226878.1(1)|neighbour_genes:efflux RND transport..,mechanosensitive ion..| | aligned:1-74 (89)
+MNYKRIIFSGLVTALVGMGMGWVVGRAIPSPYTSEVYRDLGRKYAIVGGSFGLLMGLSQESLRQLKQQRDREENARHAKKHSSKESQNS
+>ID:WP_096384527.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|hypothetical protein|243|NZ_AP017375(5319768):2974432-2974674:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096384526.1(1),ID:WP_096384528.1(1)|neighbour_genes:sodium:proton antipo..,efflux RND transport..| | aligned:1-79 (80)
+MNGKRILFSAIMTAMIGFVVGLGLVKFGQPGEEQIKYETESYRRLFRTYGLLGGGIGFFVGAGQEYLRQAKIQRDLDDSK

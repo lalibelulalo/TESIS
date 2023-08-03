@@ -1,0 +1,6 @@
+>ID:WP_015230182.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|ribbon-helix-helix p..|219|NC_019780(3781008):2647222-2647440:-1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_041235486.1(1),ID:WP_015230183.1(1)|neighbour_genes:DNA cytosine methylt..,thiC| | aligned:1-71 (72)
+MKQTTIYLPEEIEASLQELAKKRGNSISELIEEVIDDYLIKTSQKLPNSMGMGASGRSNLSSKAEQLLLTED
+>ID:WP_146295008.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|ribbon-helix-helix p..|219|NZ_CP042326(3326959):1145342-1145560:1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146295007.1(1),ID:WP_146295009.1(1)|neighbour_genes:valine--tRNA ligase,PIN domain-containin..| | aligned:2-70 (72)
+MMTDTMISLSEESQAKLRQLAQEKGKTPSEVIEEMIHFYLTHQTQKVPKSLGKGQSNLSDLSERVDELLWQD
+>ID:WP_017292703.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|hypothetical protein|219|NZ_CM001775(4263418):330682-330900:-1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017292702.1(-1),ID:WP_017292704.1(-1)|neighbour_genes:PIN domain-containin..,hypothetical protein| | aligned:1-71 (72)
+MQPTTIYLPTETQNKLEKICQEKGKTVAEVIQEIVINQIENQPKKLPKSMGMGASGRGDLSSKVDELLWTEK

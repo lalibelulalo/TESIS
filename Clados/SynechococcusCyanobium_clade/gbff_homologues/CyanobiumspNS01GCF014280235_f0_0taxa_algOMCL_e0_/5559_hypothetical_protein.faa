@@ -1,0 +1,6 @@
+>ID:WP_213202905.1 |[Cyanobium sp. M30B3]||Cyanobium_sp_M30B3_GCF_018399015.1_genomic.gbff|hypothetical protein|276|NZ_CP073761(3180296):2257607-2257882:-1 ^^ Cyanobium sp. M30B3 chromosome, complete genome.|neighbours:ID:WP_213202904.1(-1),ID:WP_213202906.1(-1)|neighbour_genes:methyltransferase do..,DUF563 domain-contai..| | aligned:1-90 (91)
+MSKQAFERGDWQAVIDAHPLESHDPAEWLRYGAALLLTIEPGPQQGKQQQQAALAFEQAKRQGARVEQVQAMQRQVLRRCLQQALQRLVLG
+>ID:WP_087068604.1 |[Cyanobium sp. NIES-981]|NIES-981|Cyanobium_sp_NIES-981_GCF_900088535.1_genomic.gbff|hypothetical protein|291|NZ_LT578417(3021545):2400754-2401044:-1 ^^ Cyanobium sp. NIES-981 chromosome I, complete sequence.|neighbours:ID:WP_157665448.1(-1),ID:WP_172820888.1(-1)|neighbour_genes:methyltransferase do..,hypothetical protein| | aligned:1-83 (96)
+MSESSLEQTPWEDIIHAHALESHDPAAWLQYGLALLQTLPDGDGVLRQQQQAALAFVKAQEHGATEEDVKQVQLKALRNTLTELVGLLAVDSTESR
+>ID:WP_197154619.1 |[Synechococcus sp. CBW1006]|CBW1006|Synechococcus_sp_CBW1006_GCF_015840525.1_genomic.gbff|hypothetical protein|288|NZ_CP060396(3860130):2697331-2697618:1 ^^ Synechococcus sp. CBW1006 chromosome, complete genome.|neighbours:ID:WP_197154618.1(-1),ID:WP_231605630.1(1)|neighbour_genes:AbrB/MazE/SpoVT fami..,methyltransferase do..| | aligned:1-90 (95)
+MTQQAFERGDWQAVIEAHPLESHDPAEWLRYGAALLHTIEPGADQAKQQQQAALAFLQAQKEGASAEVVDAAQQQAVRLNLIEALRHAALLHQPG

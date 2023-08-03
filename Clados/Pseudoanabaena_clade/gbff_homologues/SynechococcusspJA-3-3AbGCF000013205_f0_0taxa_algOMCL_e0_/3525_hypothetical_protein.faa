@@ -1,0 +1,6 @@
+>ID:WP_174235274.1 |[Pseudanabaena sp. ABRG5-3]|ABRG5-3|Pseudanabaena_sp_ABRG5-3_GCF_003967015.1_genomic.gbff|hypothetical protein|156|NZ_AP017560(4796642):3436097-3436252:-1 ^^ Pseudanabaena sp. ABRG5-3 chromosome, complete genome.|neighbours:ID:WP_126387696.1(1),ID:WP_126387697.1(-1)|neighbour_genes:TldD/PmbA family pro..,glycoside hydrolase ..| | aligned:5-51 (51)
+MNVSQRKAEAAANHKANLSASIKRRMEVARSNNDTNLLNVLEQEMKQLGLN
+>ID:WP_015165527.1 |[Pseudanabaena sp. PCC 7367]|PCC 7367|Pseudanabaena_sp_PCC_7367_GCF_000317065.1_genomic.gbff|hypothetical protein|159|NC_019701(4557046):2914827-2914985:-1 ^^ Pseudanabaena sp. PCC 7367, complete sequence.|neighbours:ID:WP_156800388.1(-1),ID:WP_015165528.1(-1)|neighbour_genes:hypothetical protein,TetR/AcrR family tra..| | aligned:6-52 (52)
+MSINNEKRRQAMANHKANLAASINHRLEVARSENNDSLVNMLEREKRQLGLN
+>ID:WP_015167590.1 |[Synechococcus sp. PCC 7502]|PCC 7502|Synechococcus_sp_PCC_7502_GCF_000317085.1_genomic.gbff|hypothetical protein|159|NC_019702(3510253):797761-797919:1 ^^ Synechococcus sp. PCC 7502, complete sequence.|neighbours:ID:WP_015167589.1(-1),ID:WP_015167591.1(1)|neighbour_genes:homocysteine biosynt..,DUF2488 family prote..| | aligned:7-52 (52)
+MNDTQKQRKVEASLNHKANIAASLKHRLEVAKNNKDKNLISLLEQEMNQVGI
