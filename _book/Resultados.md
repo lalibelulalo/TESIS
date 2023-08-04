@@ -2832,6 +2832,402 @@ En la Figura \@ref(fig:FIG23P) mostramos 3 gráficos (uno por cada marco de lect
 
 
 
+### GGGATCCC
+
+#### Red de transiciones
+
+Para hacer mas visual la reconstrucción, construimos una red de las transiciones entre los estados ancestrales. Esto lo hicimos en r usando la función ```Create_Transition_Table()```:
+
+
+```r
+source("ASR_Orth_Functions/NodeAndEdges.R")
+Nodes.Edges <- Create_Transition_Table(SitesTable = "Clados/Pseudoanabaena_clade/PALINDROMES/GGGATCCC/JA-2-3Ba/Orthologues_Palindrome_sites.txt",
+                                EvolutionModel = "F81",
+                                Method = "bayes",
+                                Phylogeny = "Clados/Pseudoanabaena_clade/SpeciesTree_rooted.txt",
+                                OrthoPath = "Clados/Pseudoanabaena_clade/PALINDROMES/GGGATCCC/JA-2-3Ba/Only_ORTHOLOGUES/")
+
+```
+
+Posteriormente creamos la red usando la función ```Create_Network()```:
+
+
+
+y visualizamos dicha red .
+
+
+
+Para visualizar la red usamos la paqueteria ```networkD3```. Hicimos 2 figuras, la (Figura \@ref(fig:FIG24P)) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En dicha red podemos ver algunos nodos con bordes muy gruesos como **GCAATTGC**, **GCAATCGC**, **GCAATAGC**, **GCGATTGC** (Tabla \@ref(tab:TAB62P)).
+
+
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG24P-1.png" alt="**Red de todas las transiciones del clado Pseudoanabaena.** En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios."  />
+<p class="caption">(\#fig:FIG24P)**Red de todas las transiciones del clado Pseudoanabaena.** En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios.</p>
+</div>
+
+En la (Figura \@ref(fig:FIG25P)) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG25P-1.png" alt="**Red de todas las transiciones del clado Pseudoanabaena.** En esta imagen se muestra la red  de la Figura \@ref(fig:FIG24P) de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió."  />
+<p class="caption">(\#fig:FIG25P)**Red de todas las transiciones del clado Pseudoanabaena.** En esta imagen se muestra la red  de la Figura \@ref(fig:FIG24P) de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió.</p>
+</div>
+
+<table class=" lightable-paper table table-striped table-condensed" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 11px; width: auto !important; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">(\#tab:TAB62P)Transiciones entre nodos.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> from </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> to </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> weight </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="9"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">166</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe7bb">49</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe9c2">45</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCCG</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeed0">36</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3dd">28</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATCCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e0">26</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGAACCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e6">22</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATTCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e8">21</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">AGGATCCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e8">21</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATTCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7ea">20</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATGCC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8eb">19</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8eb">19</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGTATTCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">18</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCCG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">17</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGAATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">17</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9f0">16</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCTC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="5"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9f0">16</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCCA</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">15</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGAGCCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf3">14</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CGGATCCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf3">14</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGCTCCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf3">14</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">13</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGTATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">13</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGTTCCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">13</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf6">12</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGGTCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf6">12</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCCT</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf6">12</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">AGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">11</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATTCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">11</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">11</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCTC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">10</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGCTCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGTATTCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGTATTCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATTCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">AAGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: orange !important;">GCGATCGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGAATTCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCCT</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATACC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATTCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGGTTCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGTATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGTATTCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">-------C</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">-------G</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCCG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+</tbody>
+</table>
+
+
+
+#### Transiciones entre Nodo 7 y Nodo 8
+Para entender más como es que se gana o se pierden los sitios palindrómicos revisamos la transición en tre los nodos 7 y 8. Esto es porque es esta transicion de nodos la que separa a los dos subclados entre los que hay una repentino cambio de abundancia de sitios palindrómicos (Figura \@ref(fig:FIG15P)).
+
+
+Para hacer esto filtramos los datos de la red para mostrar unicamente las transiciones que se dieron entre los nodos 7 y 8 e hicimos las mismas figuras.
+En la (Figura \@ref(fig:FIG26P)) se muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En la (Figura \@ref(fig:FIG27P)) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
+
+
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG26P-1.png" alt="**Red de las transiciones entre los Nodos 7 y 8 del clado Pseudoanabaena.** En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios."  />
+<p class="caption">(\#fig:FIG26P)**Red de las transiciones entre los Nodos 7 y 8 del clado Pseudoanabaena.** En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios.</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG27P-1.png" alt="**Red de las transiciones entre los nodos 7 y 0 del clado Pseudoanabaena.** En esta imagen se muestra la red  de la Figura \@ref(fig:FIG26) de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió."  />
+<p class="caption">(\#fig:FIG27P)**Red de las transiciones entre los nodos 7 y 0 del clado Pseudoanabaena.** En esta imagen se muestra la red  de la Figura \@ref(fig:FIG26) de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió.</p>
+</div>
+
+#### Mutaciones en los codones
+
+Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG28P)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG28P-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG28P-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG28P-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" />
+<p class="caption">(\#fig:FIG28P)**Abundancia de peptidos por cada nodo segun el marco de lectura.**.</p>
+</div>
+
+En la (Figura \@ref(fig:FIG29P)) mostramos 3 gráficos que indican la abundancia del tipo de mutaciones que hay en cada nodo de acuerdo al marco de lectura. Lo sitios de mutaciones mostrados pueden ser de los siguientes tipos:
+
+* Conservative (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62)
+* ConservativeNoSiteMut (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62. Sin embargo, el sitio no sufrió mutaciones)
+* Deletion (La secuencia de AA tiene sufrio 1 o mas deleciones)
+* NoMutation (La secuencia de AA no sufrio mutaciones)
+* NoSynonym (La secuencia de AA cambió)
+* NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
+* Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG29P-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG29P-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG29P-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" />
+<p class="caption">(\#fig:FIG29P)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.</p>
+</div>
+
+#### Análisis de sitios en los cuales su ancestro era GGGATCCC
+
+Para tratar de entender como es que los sitios HIP1 se pierden hicimos un análisis unicamente en en las transiciones en las que el nodo ancestral tenia un sitio GGGATCCC.
+
+En la (Figura \@ref(fig:FIG30P)) mostramos 3 gráficos que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
+
+En la (Figura \@ref(fig:FIG31P)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio GGGATCCC.
+
+En la (Figura \@ref(fig:FIG32P)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG30P-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio GGGATCCC.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG30P-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio GGGATCCC.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG30P-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio GGGATCCC.**" width="50%" />
+<p class="caption">(\#fig:FIG30P)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio GGGATCCC.**</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG31P-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio GGGATCCC para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG31P-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio GGGATCCC para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG31P-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio GGGATCCC para cada nodo segun el marco de lectura.**." width="50%" />
+<p class="caption">(\#fig:FIG31P)**Frecuencia de las mutaciones de cada nucleótido del sitio GGGATCCC para cada nodo segun el marco de lectura.**.</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG32P-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios GGGATCCC para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG32P-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios GGGATCCC para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG32P-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios GGGATCCC para cada marco de lectura**." width="50%" />
+<p class="caption">(\#fig:FIG32P)**Frecuencia del tipo de sustituciónes de base en los sitios GGGATCCC para cada marco de lectura**.</p>
+</div>
+
+#### Análisis de sitios en los cuales solo el nodo actual tiene GGGATCCC
+
+Para tratar de entender como es que los sitios GGGATCCC se ganan, hicimos un analisis unicamente en las transiciones en las que el nodo actual tenia un sitio GGGATCCC. 
+
+En la Figura \@ref(fig:FIG33P) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG33P-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio GGGATCCC.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG33P-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio GGGATCCC.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG33P-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio GGGATCCC.**." width="50%" />
+<p class="caption">(\#fig:FIG33P)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio GGGATCCC.**.</p>
+</div>
+
+
+
 ## Clado Thermosynechococcus
 
 El clado Thermosynechococcus contiene 12 especies  y es de interes ya que segun la filogenia estan estrechamente relacionadas y muestra un cambio en el palindromo mas abundante, pasando de **GCGATCGC** a **CAGGCCTG** (Figure \@ref(fig:FIG12T)).

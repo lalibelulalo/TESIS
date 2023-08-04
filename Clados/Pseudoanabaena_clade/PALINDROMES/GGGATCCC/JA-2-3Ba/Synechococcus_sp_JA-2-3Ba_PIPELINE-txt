@@ -1,0 +1,70 @@
+
+python3 CountPalsInOrthologues.py gbff_homologues/SynechococcusspJA-3-3AbGCF000013205_f0_0taxa_algOMCL_e0_ pals.list orthologues.list 3
+
+awk '{if ($5!=0 && $2=="Synechococcus_sp_JA-2-3Ba"){print $1}}' ../../../Markov_count_GGGATCCC_gbff_homologuesSynechococcusspJA-3-3AbGCF000013205_f0_0taxa_algOMCL_e0__2023-7-16_16hrs20mins_Octanuc_M3_.txt | sed 's/.fna//g' | uniq >Ortologos_GGGATCCC_Synechococcus_sp_JA-2-3Ba.txt
+
+mkdir Orthologues_GGGATCCC_Synechococcus_sp_JA-2-3Ba
+
+cd ../../../gbff_homologues/SynechococcusspJA-3-3AbGCF000013205_f0_0taxa_algOMCL_e0_/
+
+for word in $(cat ../../PALINDROMES/GGGATCCC/JA-2-3Ba/Ortologos_GGGATCCC_Synechococcus_sp_JA-2-3Ba.txt); do cp $word.fna ../../PALINDROMES/GGGATCCC/JA-2-3Ba/Orthologues_GGGATCCC_Synechococcus_sp_JA-2-3Ba; done
+
+for word in $(cat ../../PALINDROMES/GGGATCCC/JA-2-3Ba/Ortologos_GGGATCCC_Synechococcus_sp_JA-2-3Ba.txt); do cp $word.faa ../../PALINDROMES/GGGATCCC/JA-2-3Ba/Orthologues_GGGATCCC_Synechococcus_sp_JA-2-3Ba; done
+
+cd ../../PALINDROMES/GGGATCCC/JA-2-3Ba/
+
+mkdir Only_ORTHOLOGUES
+mkdir PARALOGUES
+
+python3 ../../../../FiltradoParalogos.py Orthologues_GGGATCCC_Synechococcus_sp_JA-2-3Ba/ 6
+
+cd Only_ORTHOLOGUES/
+
+for f in *.fna; do awk -F "|" '{if (NR%2){print ">"$2}else{print $1}}' $f | sed 's/ /_/g' | sed 's/\.//g' | sed 's/\[//g' | sed 's/\]//g' | sed 's/)//g' | sed 's/(//g'| sed "s/'//g" | sed 's/\//-/g' | sed 's/Pseudanabaena_sp_ABRG5-3/ABRG5-3/g' | sed 's/Pseudanabaena_sp_PCC_7367/PCC_7367/g' | sed 's/Synechococcus_sp_JA-2-3Ba2-13/JA-2-3Ba/g' | sed 's/Synechococcus_sp_JA-3-3Ab/JA-3-3Ab/g' | sed 's/Synechococcus_sp_PCC_7336/PCC_7336/g' | sed 's/Synechococcus_sp_PCC_7502/PCC_7502/g' >$f.awk1;done
+
+for f in *.faa; do awk -F "|" '{if (NR%2){print ">"$2}else{print $1}}' $f | sed 's/ /_/g' | sed 's/\.//g' | sed 's/\[//g' | sed 's/\]//g' | sed 's/)//g' | sed 's/(//g'| sed "s/'//g" | sed 's/\//-/g' | sed 's/Pseudanabaena_sp_ABRG5-3/ABRG5-3/g' | sed 's/Pseudanabaena_sp_PCC_7367/PCC_7367/g' | sed 's/Synechococcus_sp_JA-2-3Ba2-13/JA-2-3Ba/g' | sed 's/Synechococcus_sp_JA-3-3Ab/JA-3-3Ab/g' | sed 's/Synechococcus_sp_PCC_7336/PCC_7336/g' | sed 's/Synechococcus_sp_PCC_7502/PCC_7502/g' >$f.awk1;done
+
+---
+for f in *faa.awk1; do mafft $f >$f.mafft;done
+
+ls *.fna | sed 's/.fna//g' >../only.orthologues.txt
+
+for f in $(cat ../only.orthologues.txt); do perl ../../../../../pal2nal.pl $f.faa.awk1.mafft $f.fna.awk1 -output fasta >$f.codon.alg.fasta;done
+---
+
+cd ..
+
+python3 ../../../../Fasta2Phylip.py Only_ORTHOLOGUES/
+
+python3 ../../../../AlignmentPalindromeCoords.py Only_ORTHOLOGUES/ GGGATCCC JA-2-3Ba
+
+python3 ../../../../AlignmentPalindromeCoordsAA.py Only_ORTHOLOGUES/ GGGATCCC JA-2-3Ba FIRST
+
+---
+R
+setwd('/home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Geminocystis_clade/PALINDROMES/GCGATCGC/NIES-4102/')
+Create_Reconstruction_Files(SitesTable = "Orthologues_Palindrome_sites.AllFrames.FIRST.txt",
+                            EvolutionModel = "F81",
+                            Method ="bayes",
+                            Phylogeny = "../../../SpeciesTree_rooted.txt",
+                            OrthoPath = "Only_ORTHOLOGUES/",
+                            TAXON = 'JA-2-3Ba')
+
+mkdir RECONSTRUCCIONES
+---
+
+mv Only_ORTHOLOGUES/*.RECONSTRUCTION.fasta RECONSTRUCCIONES
+
+python3 ../../../../Fasta2Phylip.py RECONSTRUCCIONES/
+python3 ../../../../AlignmentPalindromeCoordsAA.py RECONSTRUCCIONES/ GCGATCGC NIES-4102 SECOND
+
+---
+R
+for(RF in 1:3){ ## Para los tres marcos de lectura (RF)
+  CreateCodonMutationsTable(Tree = '../../../SpeciesTree_rooted.txt',
+                            Second = 'Orthologues_Palindrome_sites.AllFrames.SECOND.txt',
+                            TaxonNumber = 6,
+                            RF = RF)
+  system(paste0('python3 ../../../../CodonMutations.py RF',RF,'.RECONSTRUCTION.rooted.parents.txt ',RF,' codon_mutations_RF',RF,'.rooted.txt GGGATCCC'))
+}
+---
