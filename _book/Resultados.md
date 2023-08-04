@@ -581,7 +581,7 @@ En la (Figura \@ref(fig:FIG16)) se muestra la red como una conexión de nodos a 
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG18)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG18-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG18-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG18-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG18-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG18-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG18-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG18)**Abundancia de peptidos por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -596,7 +596,7 @@ En la (Figura \@ref(fig:FIG19)) mostramos 3 gráficos que indican la abundancia 
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG19-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG19-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG19-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG19-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG19-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG19-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG19)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -611,17 +611,17 @@ En la (Figura \@ref(fig:FIG21)) mostramos 3 gráficos (uno por cada marco de lec
 En la (Figura \@ref(fig:FIG22)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG20-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG20-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG20-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="50%" />
+<img src="Resultados_files/figure-epub3/FIG20-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG20-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG20-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" />
 <p class="caption">(\#fig:FIG20)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG21-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG21-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG21-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG21-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG21-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG21-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG21)**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG22-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG22-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG22-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG22-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG22-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG22-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" />
 <p class="caption">(\#fig:FIG22)**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.</p>
 </div>
 
@@ -632,7 +632,7 @@ Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis
 En la Figura \@ref(fig:FIG23) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG23-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG23-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG23-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG23-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG23-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG23-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" />
 <p class="caption">(\#fig:FIG23)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.</p>
 </div>
 
@@ -856,7 +856,7 @@ En la (Figura \@ref(fig:FIG26)) se muestra la red como una conexión de nodos a 
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG28)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG28-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG28-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG28-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG28-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG28-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG28-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG28)**Abundancia de peptidos por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -871,7 +871,7 @@ En la (Figura \@ref(fig:FIG29)) mostramos 3 gráficos que indican la abundancia 
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG29-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG29-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG29-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG29-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG29-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG29-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG29)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -886,17 +886,17 @@ En la (Figura \@ref(fig:FIG31)) mostramos 3 gráficos (uno por cada marco de lec
 En la (Figura \@ref(fig:FIG32)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG30-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TGGCGCCA.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG30-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TGGCGCCA.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG30-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TGGCGCCA.**" width="50%" />
+<img src="Resultados_files/figure-epub3/FIG30-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TGGCGCCA.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG30-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TGGCGCCA.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG30-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TGGCGCCA.**" width="110%" />
 <p class="caption">(\#fig:FIG30)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TGGCGCCA.**</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG31-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio TGGCGCCA para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG31-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio TGGCGCCA para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG31-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio TGGCGCCA para cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG31-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio TGGCGCCA para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG31-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio TGGCGCCA para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG31-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio TGGCGCCA para cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG31)**Frecuencia de las mutaciones de cada nucleótido del sitio TGGCGCCA para cada nodo segun el marco de lectura.**.</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG32-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios TGGCGCCA para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG32-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios TGGCGCCA para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG32-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios TGGCGCCA para cada marco de lectura**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG32-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios TGGCGCCA para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG32-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios TGGCGCCA para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG32-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios TGGCGCCA para cada marco de lectura**." width="110%" />
 <p class="caption">(\#fig:FIG32)**Frecuencia del tipo de sustituciónes de base en los sitios TGGCGCCA para cada marco de lectura**.</p>
 </div>
 
@@ -907,7 +907,7 @@ Para tratar de entender como es que los sitios TGGCGCCA se ganan, hicimos un ana
 En la Figura \@ref(fig:FIG33) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG33-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TGGCGCCA.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG33-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TGGCGCCA.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG33-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TGGCGCCA.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG33-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TGGCGCCA.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG33-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TGGCGCCA.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG33-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TGGCGCCA.**." width="110%" />
 <p class="caption">(\#fig:FIG33)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TGGCGCCA.**.</p>
 </div>
 
@@ -1178,7 +1178,7 @@ En la (Figura \@ref(fig:FIG16C)) se muestra la red como una conexión de nodos a
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG18C)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG18C-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG18C-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG18C-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG18C-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG18C-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG18C-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG18C)**Abundancia de peptidos por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -1193,7 +1193,7 @@ En la (Figura \@ref(fig:FIG19C)) mostramos 3 gráficos que indican la abundancia
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG19C-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG19C-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG19C-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG19C-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG19C-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG19C-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG19C)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -1208,17 +1208,17 @@ En la (Figura \@ref(fig:FIG21C)) mostramos 3 gráficos (uno por cada marco de le
 En la (Figura \@ref(fig:FIG22C)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG20C-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG20C-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG20C-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="50%" />
+<img src="Resultados_files/figure-epub3/FIG20C-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG20C-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG20C-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" />
 <p class="caption">(\#fig:FIG20C)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG21C-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG21C-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG21C-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG21C-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG21C-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG21C-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG21C)**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG22C-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG22C-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG22C-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG22C-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG22C-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG22C-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" />
 <p class="caption">(\#fig:FIG22C)**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.</p>
 </div>
 
@@ -1229,7 +1229,7 @@ Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis
 En la Figura \@ref(fig:FIG23C) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG23C-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG23C-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG23C-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG23C-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG23C-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG23C-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" />
 <p class="caption">(\#fig:FIG23C)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.</p>
 </div>
 
@@ -1741,7 +1741,7 @@ En la (Figura \@ref(fig:FIG16G)) se muestra la red como una conexión de nodos a
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG18G)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG18G-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG18G-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG18G-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG18G-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG18G-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG18G-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG18G)**Abundancia de peptidos por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -1756,7 +1756,7 @@ En la (Figura \@ref(fig:FIG19G)) mostramos 3 gráficos que indican la abundancia
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG19G-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG19G-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG19G-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG19G-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG19G-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG19G-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG19G)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -1771,17 +1771,17 @@ En la (Figura \@ref(fig:FIG21G)) mostramos 3 gráficos (uno por cada marco de le
 En la (Figura \@ref(fig:FIG22G)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG20G-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG20G-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG20G-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="50%" />
+<img src="Resultados_files/figure-epub3/FIG20G-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG20G-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG20G-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" />
 <p class="caption">(\#fig:FIG20G)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG21G-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG21G-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG21G-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG21G-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG21G-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG21G-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG21G)**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG22G-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG22G-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG22G-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG22G-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG22G-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG22G-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" />
 <p class="caption">(\#fig:FIG22G)**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.</p>
 </div>
 
@@ -1792,7 +1792,7 @@ Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis
 En la Figura \@ref(fig:FIG23G) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG23G-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG23G-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG23G-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG23G-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG23G-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG23G-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" />
 <p class="caption">(\#fig:FIG23G)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.</p>
 </div>
 
@@ -2312,7 +2312,7 @@ En la (Figura \@ref(fig:FIG26G)) se muestra la red como una conexión de nodos a
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG28G)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG28G-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG28G-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG28G-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG28G-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG28G-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG28G-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG28G)**Abundancia de peptidos por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -2327,7 +2327,7 @@ En la (Figura \@ref(fig:FIG29G)) mostramos 3 gráficos que indican la abundancia
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG29G-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG29G-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG29G-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG29G-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG29G-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG29G-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG29G)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -2342,17 +2342,17 @@ En la (Figura \@ref(fig:FIG31G)) mostramos 3 gráficos (uno por cada marco de le
 En la (Figura \@ref(fig:FIG32G)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG30G-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TCGATCGA.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG30G-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TCGATCGA.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG30G-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TCGATCGA.**" width="50%" />
+<img src="Resultados_files/figure-epub3/FIG30G-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TCGATCGA.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG30G-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TCGATCGA.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG30G-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TCGATCGA.**" width="110%" />
 <p class="caption">(\#fig:FIG30G)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TCGATCGA.**</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG31G-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio TCGATCGA para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG31G-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio TCGATCGA para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG31G-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio TCGATCGA para cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG31G-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio TCGATCGA para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG31G-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio TCGATCGA para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG31G-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio TCGATCGA para cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG31G)**Frecuencia de las mutaciones de cada nucleótido del sitio TCGATCGA para cada nodo segun el marco de lectura.**.</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG32G-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios TCGATCGA para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG32G-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios TCGATCGA para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG32G-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios TCGATCGA para cada marco de lectura**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG32G-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios TCGATCGA para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG32G-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios TCGATCGA para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG32G-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios TCGATCGA para cada marco de lectura**." width="110%" />
 <p class="caption">(\#fig:FIG32G)**Frecuencia del tipo de sustituciónes de base en los sitios TCGATCGA para cada marco de lectura**.</p>
 </div>
 
@@ -2363,7 +2363,7 @@ Para tratar de entender como es que los sitios TCGATCGA se ganan, hicimos un ana
 En la Figura \@ref(fig:FIG33G) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG33G-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TCGATCGA.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG33G-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TCGATCGA.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG33G-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TCGATCGA.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG33G-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TCGATCGA.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG33G-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TCGATCGA.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG33G-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TCGATCGA.**." width="110%" />
 <p class="caption">(\#fig:FIG33G)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TCGATCGA.**.</p>
 </div>
 
@@ -2775,7 +2775,7 @@ En la (Figura \@ref(fig:FIG16P)) se muestra la red como una conexión de nodos a
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG18P)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG18P-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG18P-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG18P-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG18P-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG18P-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG18P-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG18P)**Abundancia de peptidos por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -2790,7 +2790,7 @@ En la (Figura \@ref(fig:FIG19P)) mostramos 3 gráficos que indican la abundancia
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG19P-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG19P-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG19P-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG19P-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG19P-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG19P-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG19P)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -2805,17 +2805,17 @@ En la (Figura \@ref(fig:FIG21P)) mostramos 3 gráficos (uno por cada marco de le
 En la (Figura \@ref(fig:FIG22P)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG20P-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG20P-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG20P-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="50%" />
+<img src="Resultados_files/figure-epub3/FIG20P-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG20P-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG20P-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" />
 <p class="caption">(\#fig:FIG20P)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG21P-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG21P-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG21P-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG21P-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG21P-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG21P-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG21P)**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG22P-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG22P-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG22P-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG22P-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG22P-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG22P-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" />
 <p class="caption">(\#fig:FIG22P)**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.</p>
 </div>
 
@@ -2826,7 +2826,7 @@ Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis
 En la Figura \@ref(fig:FIG23P) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG23P-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG23P-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG23P-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG23P-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG23P-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG23P-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" />
 <p class="caption">(\#fig:FIG23P)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.</p>
 </div>
 
@@ -3171,7 +3171,7 @@ En la (Figura \@ref(fig:FIG26P)) se muestra la red como una conexión de nodos a
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG28P)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG28P-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG28P-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG28P-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG28P-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG28P-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG28P-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG28P)**Abundancia de peptidos por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -3186,7 +3186,7 @@ En la (Figura \@ref(fig:FIG29P)) mostramos 3 gráficos que indican la abundancia
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG29P-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG29P-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG29P-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG29P-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG29P-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG29P-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG29P)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -3201,17 +3201,17 @@ En la (Figura \@ref(fig:FIG31P)) mostramos 3 gráficos (uno por cada marco de le
 En la (Figura \@ref(fig:FIG32P)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG30P-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio GGGATCCC.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG30P-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio GGGATCCC.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG30P-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio GGGATCCC.**" width="50%" />
+<img src="Resultados_files/figure-epub3/FIG30P-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio GGGATCCC.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG30P-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio GGGATCCC.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG30P-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio GGGATCCC.**" width="110%" />
 <p class="caption">(\#fig:FIG30P)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio GGGATCCC.**</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG31P-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio GGGATCCC para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG31P-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio GGGATCCC para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG31P-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio GGGATCCC para cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG31P-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio GGGATCCC para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG31P-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio GGGATCCC para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG31P-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio GGGATCCC para cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG31P)**Frecuencia de las mutaciones de cada nucleótido del sitio GGGATCCC para cada nodo segun el marco de lectura.**.</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG32P-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios GGGATCCC para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG32P-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios GGGATCCC para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG32P-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios GGGATCCC para cada marco de lectura**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG32P-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios GGGATCCC para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG32P-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios GGGATCCC para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG32P-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios GGGATCCC para cada marco de lectura**." width="110%" />
 <p class="caption">(\#fig:FIG32P)**Frecuencia del tipo de sustituciónes de base en los sitios GGGATCCC para cada marco de lectura**.</p>
 </div>
 
@@ -3222,7 +3222,7 @@ Para tratar de entender como es que los sitios GGGATCCC se ganan, hicimos un ana
 En la Figura \@ref(fig:FIG33P) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG33P-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio GGGATCCC.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG33P-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio GGGATCCC.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG33P-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio GGGATCCC.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG33P-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio GGGATCCC.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG33P-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio GGGATCCC.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG33P-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio GGGATCCC.**." width="110%" />
 <p class="caption">(\#fig:FIG33P)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio GGGATCCC.**.</p>
 </div>
 
@@ -3614,7 +3614,7 @@ En la (Figura \@ref(fig:FIG16T)) se muestra la red como una conexión de nodos a
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG18T)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG18T-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG18T-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG18T-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG18T-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG18T-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG18T-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG18T)**Abundancia de peptidos por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -3629,7 +3629,7 @@ En la (Figura \@ref(fig:FIG19T)) mostramos 3 gráficos que indican la abundancia
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG19T-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG19T-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG19T-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG19T-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG19T-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG19T-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG19T)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -3644,17 +3644,17 @@ En la (Figura \@ref(fig:FIG21T)) mostramos 3 gráficos (uno por cada marco de le
 En la (Figura \@ref(fig:FIG22T)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG20T-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG20T-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG20T-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="50%" />
+<img src="Resultados_files/figure-epub3/FIG20T-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG20T-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG20T-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" />
 <p class="caption">(\#fig:FIG20T)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG21T-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG21T-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG21T-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG21T-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG21T-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG21T-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG21T)**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG22T-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG22T-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG22T-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG22T-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG22T-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG22T-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" />
 <p class="caption">(\#fig:FIG22T)**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.</p>
 </div>
 
@@ -3665,7 +3665,7 @@ Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis
 En la Figura \@ref(fig:FIG23T) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG23T-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG23T-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG23T-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG23T-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG23T-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG23T-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" />
 <p class="caption">(\#fig:FIG23T)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.</p>
 </div>
 
@@ -3821,7 +3821,7 @@ En la (Figura \@ref(fig:FIG26T)) se muestra la red como una conexión de nodos a
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG28T)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG28T-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG28T-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG28T-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG28T-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG28T-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG28T-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG28T)**Abundancia de peptidos por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -3836,7 +3836,7 @@ En la (Figura \@ref(fig:FIG29T)) mostramos 3 gráficos que indican la abundancia
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG29T-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG29T-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG29T-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG29T-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG29T-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG29T-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG29T)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.</p>
 </div>
 
@@ -3851,17 +3851,17 @@ En la (Figura \@ref(fig:FIG31T)) mostramos 3 gráficos (uno por cada marco de le
 En la (Figura \@ref(fig:FIG32T)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG30T-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio CAGGCCTG.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG30T-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio CAGGCCTG.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG30T-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio CAGGCCTG.**" width="50%" />
+<img src="Resultados_files/figure-epub3/FIG30T-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio CAGGCCTG.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG30T-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio CAGGCCTG.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG30T-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio CAGGCCTG.**" width="110%" />
 <p class="caption">(\#fig:FIG30T)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio CAGGCCTG.**</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG31T-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio CAGGCCTG para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG31T-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio CAGGCCTG para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG31T-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio CAGGCCTG para cada nodo segun el marco de lectura.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG31T-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio CAGGCCTG para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG31T-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio CAGGCCTG para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG31T-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio CAGGCCTG para cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG31T)**Frecuencia de las mutaciones de cada nucleótido del sitio CAGGCCTG para cada nodo segun el marco de lectura.**.</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG32T-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios CAGGCCTG para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG32T-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios CAGGCCTG para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG32T-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios CAGGCCTG para cada marco de lectura**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG32T-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios CAGGCCTG para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG32T-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios CAGGCCTG para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG32T-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios CAGGCCTG para cada marco de lectura**." width="110%" />
 <p class="caption">(\#fig:FIG32T)**Frecuencia del tipo de sustituciónes de base en los sitios CAGGCCTG para cada marco de lectura**.</p>
 </div>
 
@@ -3872,7 +3872,7 @@ Para tratar de entender como es que los sitios CAGGCCTG se ganan, hicimos un ana
 En la Figura \@ref(fig:FIG33T) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
 <div class="figure" style="text-align: center">
-<img src="Resultados_files/figure-epub3/FIG33T-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio CAGGCCTG.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG33T-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio CAGGCCTG.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG33T-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio CAGGCCTG.**." width="50%" />
+<img src="Resultados_files/figure-epub3/FIG33T-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio CAGGCCTG.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG33T-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio CAGGCCTG.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG33T-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio CAGGCCTG.**." width="110%" />
 <p class="caption">(\#fig:FIG33T)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio CAGGCCTG.**.</p>
 </div>
 

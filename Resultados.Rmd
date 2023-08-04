@@ -173,7 +173,7 @@ networkD3::sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", 
 
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG18)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
-```{r FIG18, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG18, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 File= "Clados/Callothrix_clade/PALINDROMES/GCGATCGC/336-3/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
 table = read.table(File,header = TRUE,sep = "\t",row.names = NULL)
 tableMA = table[ , c(2,5,8)]
@@ -229,7 +229,7 @@ En la (Figura \@ref(fig:FIG19)) mostramos 3 gráficos que indican la abundancia 
 * NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
-```{r FIG19, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG19, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 FileRF1 = "Clados/Callothrix_clade/PALINDROMES/GCGATCGC/336-3/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 ##Extraigo unicamente la columna de especie (Spp) y SType:
@@ -280,7 +280,7 @@ En la (Figura \@ref(fig:FIG21)) mostramos 3 gráficos (uno por cada marco de lec
 
 En la (Figura \@ref(fig:FIG22)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
-```{r FIG20, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG20, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**",message=FALSE,warning=FALSE,results='hide'}
 ##Cargo la tabla
 FileRF1 = "Clados/Callothrix_clade/PALINDROMES/GCGATCGC/336-3/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
@@ -326,7 +326,7 @@ ggplot2::ggplot(tableM3.SType, ggplot2::aes(x = reorder(Spp, -Counts), y = Count
   ggplot2::geom_text(ggplot2::aes(label = Counts, group = SType), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG21, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG21, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 ##Quito los casos que tengan deleciones
 tableRF1<-tableRF1%>%
   filter(SType!='Deletion')
@@ -412,7 +412,7 @@ ggplot2::ggplot(dfC, ggplot2::aes(x = reorder(Nodo, -Count), y = Count, fill = N
   ggplot2::geom_text(ggplot2::aes(label = Count, group = NucPos), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG22, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG22, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
 TR <- tableRF1[ , c(2,33,34,35,36,37,38,39,40)]
 Spps <-unique(tableRF1[ , c(2)])
 df2 = c()
@@ -500,7 +500,7 @@ Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis
 
 En la Figura \@ref(fig:FIG23) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
-```{r FIG23, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG23, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.",message=FALSE,warning=FALSE,results='hide'}
 ## Filtro dejando solo aquellos casos en los que HIP fue el palíndromo parental
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 tableRF1<-tableRF1%>%
@@ -697,7 +697,7 @@ networkD3::sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", 
 
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG28)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
-```{r FIG28, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG28, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 File= "Clados/Callothrix_clade/PALINDROMES/TGGCGCCA/PCC_7716/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
 table = read.table(File,header = TRUE,sep = "\t",row.names = NULL)
 tableMA = table[ , c(2,5,8)]
@@ -753,7 +753,7 @@ En la (Figura \@ref(fig:FIG29)) mostramos 3 gráficos que indican la abundancia 
 * NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
-```{r FIG29, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG29, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 FileRF1 = "Clados/Callothrix_clade/PALINDROMES/TGGCGCCA/PCC_7716/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 ##Extraigo unicamente la columna de especie (Spp) y SType:
@@ -804,7 +804,7 @@ En la (Figura \@ref(fig:FIG31)) mostramos 3 gráficos (uno por cada marco de lec
 
 En la (Figura \@ref(fig:FIG32)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
-```{r FIG30, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TGGCGCCA.**",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG30, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TGGCGCCA.**",message=FALSE,warning=FALSE,results='hide'}
 ##Cargo la tabla
 FileRF1 = "Clados/Callothrix_clade/PALINDROMES/TGGCGCCA/PCC_7716/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
@@ -850,7 +850,7 @@ ggplot2::ggplot(tableM3.SType, ggplot2::aes(x = reorder(Spp, -Counts), y = Count
   ggplot2::geom_text(ggplot2::aes(label = Counts, group = SType), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG31, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio TGGCGCCA para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG31, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio TGGCGCCA para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 ##Quito los casos que tengan deleciones
 tableRF1<-tableRF1%>%
   filter(SType!='Deletion')
@@ -936,7 +936,7 @@ ggplot2::ggplot(dfC, ggplot2::aes(x = reorder(Nodo, -Count), y = Count, fill = N
   ggplot2::geom_text(ggplot2::aes(label = Count, group = NucPos), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG32, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios TGGCGCCA para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG32, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios TGGCGCCA para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
 TR <- tableRF1[ , c(2,33,34,35,36,37,38,39,40)]
 Spps <-unique(tableRF1[ , c(2)])
 df2 = c()
@@ -1024,7 +1024,7 @@ Para tratar de entender como es que los sitios TGGCGCCA se ganan, hicimos un ana
 
 En la Figura \@ref(fig:FIG33) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
-```{r FIG33, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TGGCGCCA.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG33, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TGGCGCCA.**.",message=FALSE,warning=FALSE,results='hide'}
 ## Filtro dejando solo aquellos casos en los que HIP fue el palíndromo parental
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 tableRF1<-tableRF1%>%
@@ -1256,7 +1256,7 @@ networkD3::sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", 
 
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG18C)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
-```{r FIG18C, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG18C, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 File= "Clados/Cyanobacterium_clade/PALINDROMES/GCGATCGC/PCC_8801/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
 table = read.table(File,header = TRUE,sep = "\t",row.names = NULL)
 tableMA = table[ , c(2,5,8)]
@@ -1312,7 +1312,7 @@ En la (Figura \@ref(fig:FIG19C)) mostramos 3 gráficos que indican la abundancia
 * NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
-```{r FIG19C, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG19C, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 FileRF1 = "Clados/Cyanobacterium_clade/PALINDROMES/GCGATCGC/PCC_8801/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 ##Extraigo unicamente la columna de especie (Spp) y SType:
@@ -1363,7 +1363,7 @@ En la (Figura \@ref(fig:FIG21C)) mostramos 3 gráficos (uno por cada marco de le
 
 En la (Figura \@ref(fig:FIG22C)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
-```{r FIG20C, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG20C, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**",message=FALSE,warning=FALSE,results='hide'}
 ##Cargo la tabla
 FileRF1 = "Clados/Cyanobacterium_clade/PALINDROMES/GCGATCGC/PCC_8801/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
@@ -1409,7 +1409,7 @@ ggplot2::ggplot(tableM3.SType, ggplot2::aes(x = reorder(Spp, -Counts), y = Count
   ggplot2::geom_text(ggplot2::aes(label = Counts, group = SType), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG21C, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG21C, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 ##Quito los casos que tengan deleciones
 tableRF1<-tableRF1%>%
   filter(SType!='Deletion')
@@ -1495,7 +1495,7 @@ ggplot2::ggplot(dfC, ggplot2::aes(x = reorder(Nodo, -Count), y = Count, fill = N
   ggplot2::geom_text(ggplot2::aes(label = Count, group = NucPos), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG22C, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG22C, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
 TR <- tableRF1[ , c(2,33,34,35,36,37,38,39,40)]
 Spps <-unique(tableRF1[ , c(2)])
 df2 = c()
@@ -1583,7 +1583,7 @@ Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis
 
 En la Figura \@ref(fig:FIG23C) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
-```{r FIG23C, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG23C, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.",message=FALSE,warning=FALSE,results='hide'}
 ## Filtro dejando solo aquellos casos en los que HIP fue el palíndromo parental
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 tableRF1<-tableRF1%>%
@@ -1825,7 +1825,7 @@ networkD3::sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", 
 
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG18G)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
-```{r FIG18G, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG18G, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 File= "Clados/Geminocystis_clade/PALINDROMES/GCGATCGC/NIES-4102/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
 table = read.table(File,header = TRUE,sep = "\t",row.names = NULL)
 tableMA = table[ , c(2,5,8)]
@@ -1881,7 +1881,7 @@ En la (Figura \@ref(fig:FIG19G)) mostramos 3 gráficos que indican la abundancia
 * NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
-```{r FIG19G, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG19G, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 FileRF1 = "Clados/Geminocystis_clade/PALINDROMES/GCGATCGC/NIES-4102/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 ##Extraigo unicamente la columna de especie (Spp) y SType:
@@ -1932,7 +1932,7 @@ En la (Figura \@ref(fig:FIG21G)) mostramos 3 gráficos (uno por cada marco de le
 
 En la (Figura \@ref(fig:FIG22G)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
-```{r FIG20G, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG20G, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**",message=FALSE,warning=FALSE,results='hide'}
 ##Cargo la tabla
 FileRF1 = "Clados/Geminocystis_clade/PALINDROMES/GCGATCGC/NIES-4102/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
@@ -1978,7 +1978,7 @@ ggplot2::ggplot(tableM3.SType, ggplot2::aes(x = reorder(Spp, -Counts), y = Count
   ggplot2::geom_text(ggplot2::aes(label = Counts, group = SType), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG21G, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG21G, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 ##Quito los casos que tengan deleciones
 tableRF1<-tableRF1%>%
   filter(SType!='Deletion')
@@ -2064,7 +2064,7 @@ ggplot2::ggplot(dfC, ggplot2::aes(x = reorder(Nodo, -Count), y = Count, fill = N
   ggplot2::geom_text(ggplot2::aes(label = Count, group = NucPos), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG22G, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG22G, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
 TR <- tableRF1[ , c(2,33,34,35,36,37,38,39,40)]
 Spps <-unique(tableRF1[ , c(2)])
 df2 = c()
@@ -2152,7 +2152,7 @@ Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis
 
 En la Figura \@ref(fig:FIG23G) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
-```{r FIG23G, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG23G, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.",message=FALSE,warning=FALSE,results='hide'}
 ## Filtro dejando solo aquellos casos en los que HIP fue el palíndromo parental
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 tableRF1<-tableRF1%>%
@@ -2362,7 +2362,7 @@ networkD3::sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", 
 
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG28G)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
-```{r FIG28G, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG28G, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 File= "Clados/Geminocystis_clade/PALINDROMES/TCGATCGA/PCC_6308/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
 table = read.table(File,header = TRUE,sep = "\t",row.names = NULL)
 tableMA = table[ , c(2,5,8)]
@@ -2418,7 +2418,7 @@ En la (Figura \@ref(fig:FIG29G)) mostramos 3 gráficos que indican la abundancia
 * NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
-```{r FIG29G, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG29G, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 FileRF1 = "Clados/Geminocystis_clade/PALINDROMES/TCGATCGA/PCC_6308/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 ##Extraigo unicamente la columna de especie (Spp) y SType:
@@ -2469,7 +2469,7 @@ En la (Figura \@ref(fig:FIG31G)) mostramos 3 gráficos (uno por cada marco de le
 
 En la (Figura \@ref(fig:FIG32G)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
-```{r FIG30G, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TCGATCGA.**",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG30G, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TCGATCGA.**",message=FALSE,warning=FALSE,results='hide'}
 ##Cargo la tabla
 FileRF1 = "Clados/Geminocystis_clade/PALINDROMES/TCGATCGA/PCC_6308/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
@@ -2515,7 +2515,7 @@ ggplot2::ggplot(tableM3.SType, ggplot2::aes(x = reorder(Spp, -Counts), y = Count
   ggplot2::geom_text(ggplot2::aes(label = Counts, group = SType), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG31G, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio TCGATCGA para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG31G, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio TCGATCGA para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 ##Quito los casos que tengan deleciones
 tableRF1<-tableRF1%>%
   filter(SType!='Deletion')
@@ -2601,7 +2601,7 @@ ggplot2::ggplot(dfC, ggplot2::aes(x = reorder(Nodo, -Count), y = Count, fill = N
   ggplot2::geom_text(ggplot2::aes(label = Count, group = NucPos), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG32G, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios TCGATCGA para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG32G, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios TCGATCGA para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
 TR <- tableRF1[ , c(2,33,34,35,36,37,38,39,40)]
 Spps <-unique(tableRF1[ , c(2)])
 df2 = c()
@@ -2689,7 +2689,7 @@ Para tratar de entender como es que los sitios TCGATCGA se ganan, hicimos un ana
 
 En la Figura \@ref(fig:FIG33G) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
-```{r FIG33G, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TCGATCGA.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG33G, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TCGATCGA.**.",message=FALSE,warning=FALSE,results='hide'}
 ## Filtro dejando solo aquellos casos en los que HIP fue el palíndromo parental
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 tableRF1<-tableRF1%>%
@@ -2920,7 +2920,7 @@ networkD3::sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", 
 
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG18P)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
-```{r FIG18P, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG18P, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 File= "Clados/Pseudoanabaena_clade/PALINDROMES/GCGATCGC/PCC_7336/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
 table = read.table(File,header = TRUE,sep = "\t",row.names = NULL)
 tableMA = table[ , c(2,5,8)]
@@ -2976,7 +2976,7 @@ En la (Figura \@ref(fig:FIG19P)) mostramos 3 gráficos que indican la abundancia
 * NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
-```{r FIG19P, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG19P, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 FileRF1 = "Clados/Pseudoanabaena_clade/PALINDROMES/GCGATCGC/PCC_7336/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 ##Extraigo unicamente la columna de especie (Spp) y SType:
@@ -3027,7 +3027,7 @@ En la (Figura \@ref(fig:FIG21P)) mostramos 3 gráficos (uno por cada marco de le
 
 En la (Figura \@ref(fig:FIG22P)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
-```{r FIG20P, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG20P, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**",message=FALSE,warning=FALSE,results='hide'}
 ##Cargo la tabla
 FileRF1 = "Clados/Pseudoanabaena_clade/PALINDROMES/GCGATCGC/PCC_7336/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
@@ -3073,7 +3073,7 @@ ggplot2::ggplot(tableM3.SType, ggplot2::aes(x = reorder(Spp, -Counts), y = Count
   ggplot2::geom_text(ggplot2::aes(label = Counts, group = SType), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG21P, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG21P, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 ##Quito los casos que tengan deleciones
 tableRF1<-tableRF1%>%
   filter(SType!='Deletion')
@@ -3159,7 +3159,7 @@ ggplot2::ggplot(dfC, ggplot2::aes(x = reorder(Nodo, -Count), y = Count, fill = N
   ggplot2::geom_text(ggplot2::aes(label = Count, group = NucPos), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG22P, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG22P, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
 TR <- tableRF1[ , c(2,33,34,35,36,37,38,39,40)]
 Spps <-unique(tableRF1[ , c(2)])
 df2 = c()
@@ -3247,7 +3247,7 @@ Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis
 
 En la Figura \@ref(fig:FIG23P) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
-```{r FIG23P, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG23P, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.",message=FALSE,warning=FALSE,results='hide'}
 ## Filtro dejando solo aquellos casos en los que HIP fue el palíndromo parental
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 tableRF1<-tableRF1%>%
@@ -3457,7 +3457,7 @@ networkD3::sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", 
 
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG28P)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
-```{r FIG28P, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG28P, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 File= "Clados/Pseudoanabaena_clade/PALINDROMES/GGGATCCC/JA-2-3Ba/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
 table = read.table(File,header = TRUE,sep = "\t",row.names = NULL)
 tableMA = table[ , c(2,5,8)]
@@ -3513,7 +3513,7 @@ En la (Figura \@ref(fig:FIG29P)) mostramos 3 gráficos que indican la abundancia
 * NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
-```{r FIG29P, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG29P, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 FileRF1 = "Clados/Pseudoanabaena_clade/PALINDROMES/GGGATCCC/JA-2-3Ba/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 ##Extraigo unicamente la columna de especie (Spp) y SType:
@@ -3564,7 +3564,7 @@ En la (Figura \@ref(fig:FIG31P)) mostramos 3 gráficos (uno por cada marco de le
 
 En la (Figura \@ref(fig:FIG32P)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
-```{r FIG30P, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio GGGATCCC.**",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG30P, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio GGGATCCC.**",message=FALSE,warning=FALSE,results='hide'}
 ##Cargo la tabla
 FileRF1 = "Clados/Pseudoanabaena_clade/PALINDROMES/GGGATCCC/JA-2-3Ba/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
@@ -3610,7 +3610,7 @@ ggplot2::ggplot(tableM3.SType, ggplot2::aes(x = reorder(Spp, -Counts), y = Count
   ggplot2::geom_text(ggplot2::aes(label = Counts, group = SType), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG31P, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio GGGATCCC para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG31P, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio GGGATCCC para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 ##Quito los casos que tengan deleciones
 tableRF1<-tableRF1%>%
   filter(SType!='Deletion')
@@ -3696,7 +3696,7 @@ ggplot2::ggplot(dfC, ggplot2::aes(x = reorder(Nodo, -Count), y = Count, fill = N
   ggplot2::geom_text(ggplot2::aes(label = Count, group = NucPos), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG32P, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios GGGATCCC para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG32P, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios GGGATCCC para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
 TR <- tableRF1[ , c(2,33,34,35,36,37,38,39,40)]
 Spps <-unique(tableRF1[ , c(2)])
 df2 = c()
@@ -3784,7 +3784,7 @@ Para tratar de entender como es que los sitios GGGATCCC se ganan, hicimos un ana
 
 En la Figura \@ref(fig:FIG33P) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
-```{r FIG33P, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio GGGATCCC.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG33P, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio GGGATCCC.**.",message=FALSE,warning=FALSE,results='hide'}
 ## Filtro dejando solo aquellos casos en los que HIP fue el palíndromo parental
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 tableRF1<-tableRF1%>%
@@ -4031,7 +4031,7 @@ networkD3::sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", 
 
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG18T)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
-```{r FIG18T, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG18T, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 File= "Clados/Thermosynechococcus_clade/PALINDROMES/GCGATCGC/SCTE542/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
 table = read.table(File,header = TRUE,sep = "\t",row.names = NULL)
 tableMA = table[ , c(2,5,8)]
@@ -4087,7 +4087,7 @@ En la (Figura \@ref(fig:FIG19T)) mostramos 3 gráficos que indican la abundancia
 * NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
-```{r FIG19T, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG19T, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 FileRF1 = "Clados/Thermosynechococcus_clade/PALINDROMES/GCGATCGC/SCTE542/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 ##Extraigo unicamente la columna de especie (Spp) y SType:
@@ -4138,7 +4138,7 @@ En la (Figura \@ref(fig:FIG21T)) mostramos 3 gráficos (uno por cada marco de le
 
 En la (Figura \@ref(fig:FIG22T)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
-```{r FIG20T, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG20T, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**",message=FALSE,warning=FALSE,results='hide'}
 ##Cargo la tabla
 FileRF1 = "Clados/Thermosynechococcus_clade/PALINDROMES/GCGATCGC/SCTE542/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
@@ -4184,7 +4184,7 @@ ggplot2::ggplot(tableM3.SType, ggplot2::aes(x = reorder(Spp, -Counts), y = Count
   ggplot2::geom_text(ggplot2::aes(label = Counts, group = SType), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG21T, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG21T, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 ##Quito los casos que tengan deleciones
 tableRF1<-tableRF1%>%
   filter(SType!='Deletion')
@@ -4270,7 +4270,7 @@ ggplot2::ggplot(dfC, ggplot2::aes(x = reorder(Nodo, -Count), y = Count, fill = N
   ggplot2::geom_text(ggplot2::aes(label = Count, group = NucPos), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 1.5)
 ```
 
-```{r FIG22T, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG22T, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
 TR <- tableRF1[ , c(2,33,34,35,36,37,38,39,40)]
 Spps <-unique(tableRF1[ , c(2)])
 df2 = c()
@@ -4358,7 +4358,7 @@ Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis
 
 En la Figura \@ref(fig:FIG23T) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
-```{r FIG23T, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG23T, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.",message=FALSE,warning=FALSE,results='hide'}
 ## Filtro dejando solo aquellos casos en los que HIP fue el palíndromo parental
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 tableRF1<-tableRF1%>%
@@ -4568,7 +4568,7 @@ networkD3::sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", 
 
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG28T)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
 
-```{r FIG28T, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG28T, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 File= "Clados/Thermosynechococcus_clade/PALINDROMES/CAGGCCTG/PCC_6312/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
 table = read.table(File,header = TRUE,sep = "\t",row.names = NULL)
 tableMA = table[ , c(2,5,8)]
@@ -4624,7 +4624,7 @@ En la (Figura \@ref(fig:FIG29T)) mostramos 3 gráficos que indican la abundancia
 * NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
 * Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
 
-```{r FIG29T, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG29T, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 FileRF1 = "Clados/Thermosynechococcus_clade/PALINDROMES/CAGGCCTG/PCC_6312/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 ##Extraigo unicamente la columna de especie (Spp) y SType:
@@ -4675,7 +4675,7 @@ En la (Figura \@ref(fig:FIG31T)) mostramos 3 gráficos (uno por cada marco de le
 
 En la (Figura \@ref(fig:FIG32T)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
-```{r FIG30T, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio CAGGCCTG.**",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG30T, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio CAGGCCTG.**",message=FALSE,warning=FALSE,results='hide'}
 ##Cargo la tabla
 FileRF1 = "Clados/Thermosynechococcus_clade/PALINDROMES/CAGGCCTG/PCC_6312/codon_mutations_RF1.rooted.txt"
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
@@ -4721,7 +4721,7 @@ ggplot2::ggplot(tableM3.SType, ggplot2::aes(x = reorder(Spp, -Counts), y = Count
   ggplot2::geom_text(ggplot2::aes(label = Counts, group = SType), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG31T, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio CAGGCCTG para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG31T, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio CAGGCCTG para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 ##Quito los casos que tengan deleciones
 tableRF1<-tableRF1%>%
   filter(SType!='Deletion')
@@ -4807,7 +4807,7 @@ ggplot2::ggplot(dfC, ggplot2::aes(x = reorder(Nodo, -Count), y = Count, fill = N
   ggplot2::geom_text(ggplot2::aes(label = Count, group = NucPos), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
 
-```{r FIG32T, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios CAGGCCTG para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG32T, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios CAGGCCTG para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
 TR <- tableRF1[ , c(2,33,34,35,36,37,38,39,40)]
 Spps <-unique(tableRF1[ , c(2)])
 df2 = c()
@@ -4895,7 +4895,7 @@ Para tratar de entender como es que los sitios CAGGCCTG se ganan, hicimos un ana
 
 En la Figura \@ref(fig:FIG33T) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
-```{r FIG33T, echo=FALSE, fig.show="hold", out.width="50%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio CAGGCCTG.**.",message=FALSE,warning=FALSE,results='hide'}
+```{r FIG33T, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio CAGGCCTG.**.",message=FALSE,warning=FALSE,results='hide'}
 ## Filtro dejando solo aquellos casos en los que HIP fue el palíndromo parental
 tableRF1 = read.table(FileRF1,header = TRUE,sep = "\t",row.names = NULL)
 tableRF1<-tableRF1%>%

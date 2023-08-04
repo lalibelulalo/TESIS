@@ -1,5 +1,5 @@
 p.caption {
-  color: #777;
+  color: #blue;
   margin-top: 10px;
 }
 p code {
@@ -11,4 +11,8 @@ pre {
 }
 pre code {
   white-space: inherit;
+}
+
+body {
+    font-size: 14px;
 }

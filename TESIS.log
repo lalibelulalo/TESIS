@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  3 AUG 2023 19:34
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  3 AUG 2023 21:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -953,6 +953,24 @@ File: Resultados_files/figure-latex/FIG18-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18-2.pdf>
 File: Resultados_files/figure-latex/FIG18-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 563--564
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 563--564
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 563--564
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 568.
+
 [25] [26]
 File: Resultados_files/figure-latex/FIG19-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19-1.pdf>
@@ -960,30 +978,120 @@ File: Resultados_files/figure-latex/FIG19-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19-2.pdf>
 File: Resultados_files/figure-latex/FIG19-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 592--593
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 592--593
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 592--593
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 597.
+
 File: Resultados_files/figure-latex/FIG20-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20-1.pdf>
 File: Resultados_files/figure-latex/FIG20-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20-2.pdf>
 File: Resultados_files/figure-latex/FIG20-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 612--613
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 612--613
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 612--613
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 283.98145pt on input line 617.
+
 File: Resultados_files/figure-latex/FIG21-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG21-1.pdf>
 File: Resultados_files/figure-latex/FIG21-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG21-2.pdf>
 File: Resultados_files/figure-latex/FIG21-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG21-3.pdf>
+
+Overfull \hbox (34.50598pt too wide) in paragraph at lines 621--622
+ [][] 
+ []
+
+
+Overfull \hbox (34.50598pt too wide) in paragraph at lines 621--622
+ [] 
+ []
+
+
+Overfull \hbox (34.50598pt too wide) in paragraph at lines 621--622
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 256.92923pt on input line 626.
+
 File: Resultados_files/figure-latex/FIG22-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG22-1.pdf>
 File: Resultados_files/figure-latex/FIG22-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG22-2.pdf>
 File: Resultados_files/figure-latex/FIG22-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG22-3.pdf>
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 630--631
+ [][] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 630--631
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 630--631
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 253.33064pt on input line 635.
+
 File: Resultados_files/figure-latex/FIG23-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23-1.pdf>
 File: Resultados_files/figure-latex/FIG23-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23-2.pdf>
 File: Resultados_files/figure-latex/FIG23-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 646--647
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 646--647
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 646--647
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 283.87146pt on input line 651.
+
 [27] [28] [29] [30] [31] [32]
 
 LaTeX Warning: Reference `fig:FIG24' on page 33 undefined on input line 676.
@@ -1006,6 +1114,24 @@ File: Resultados_files/figure-latex/FIG28-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG28-2.pdf>
 File: Resultados_files/figure-latex/FIG28-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG28-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 695--696
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 695--696
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 695--696
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 700.
+
 [33] [34]
 File: Resultados_files/figure-latex/FIG29-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG29-1.pdf>
@@ -1013,36 +1139,125 @@ File: Resultados_files/figure-latex/FIG29-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG29-2.pdf>
 File: Resultados_files/figure-latex/FIG29-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG29-3.pdf>
-[35]
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 724--725
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 724--725
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 724--725
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 729.
+
 File: Resultados_files/figure-latex/FIG30-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG30-1.pdf>
 File: Resultados_files/figure-latex/FIG30-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG30-2.pdf>
 File: Resultados_files/figure-latex/FIG30-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG30-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 744--745
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 744--745
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 744--745
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 284.09145pt on input line 749.
+
 File: Resultados_files/figure-latex/FIG31-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG31-1.pdf>
 File: Resultados_files/figure-latex/FIG31-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG31-2.pdf>
 File: Resultados_files/figure-latex/FIG31-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG31-3.pdf>
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 753--754
+ [][] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 753--754
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 753--754
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 255.28064pt on input line 758.
+
 File: Resultados_files/figure-latex/FIG32-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG32-1.pdf>
 File: Resultados_files/figure-latex/FIG32-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG32-2.pdf>
 File: Resultados_files/figure-latex/FIG32-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG32-3.pdf>
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 762--763
+ [][] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 762--763
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 762--763
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 255.16064pt on input line 767.
+
 File: Resultados_files/figure-latex/FIG33-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG33-1.pdf>
 File: Resultados_files/figure-latex/FIG33-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG33-2.pdf>
 File: Resultados_files/figure-latex/FIG33-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG33-3.pdf>
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 778--779
+ [][] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 778--779
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 778--779
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 265.44064pt on input line 783.
+
 File: Clados/Cyanobacterium_clade/figures/cyanobacterium_Octanuc_FrecObs_sel32_
 filogenia_HIG.png Graphic file (type bmp)
 <Clados/Cyanobacterium_clade/figures/cyanobacterium_Octanuc_FrecObs_sel32_filog
 enia_HIG.png>
-[36] [37] [38] [39] [40] [41]
+[35] [36] [37] [38] [39] [40] [41]
 
 LaTeX Warning: Reference `fig:FIG13C' on page 42 undefined on input line 822.
 
@@ -1060,100 +1275,295 @@ LaTeX Warning: Reference `fig:FIG16C' on page 42 undefined on input line 838.
 
 LaTeX Warning: Reference `fig:FIG17C' on page 42 undefined on input line 838.
 
-[42]
 File: Resultados_files/figure-latex/FIG18C-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18C-1.pdf>
 File: Resultados_files/figure-latex/FIG18C-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18C-2.pdf>
 File: Resultados_files/figure-latex/FIG18C-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18C-3.pdf>
-[43]
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 847--848
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 847--848
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 847--848
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 852.
+
+[42]
 File: Resultados_files/figure-latex/FIG19C-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19C-1.pdf>
 File: Resultados_files/figure-latex/FIG19C-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19C-2.pdf>
 File: Resultados_files/figure-latex/FIG19C-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19C-3.pdf>
-[44]
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 876--877
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 876--877
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 876--877
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 881.
+
+[43] [44] [45]
 File: Resultados_files/figure-latex/FIG20C-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20C-1.pdf>
 File: Resultados_files/figure-latex/FIG20C-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20C-2.pdf>
 File: Resultados_files/figure-latex/FIG20C-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20C-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 896--897
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 896--897
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 896--897
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 283.98145pt on input line 901.
+
 File: Resultados_files/figure-latex/FIG21C-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG21C-1.pdf>
 File: Resultados_files/figure-latex/FIG21C-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG21C-2.pdf>
 File: Resultados_files/figure-latex/FIG21C-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG21C-3.pdf>
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 905--906
+ [][] 
+ []
+
+
+Overfull \hbox (34.50598pt too wide) in paragraph at lines 905--906
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 905--906
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 255.83017pt on input line 910.
+
 File: Resultados_files/figure-latex/FIG22C-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG22C-1.pdf>
 File: Resultados_files/figure-latex/FIG22C-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG22C-2.pdf>
 File: Resultados_files/figure-latex/FIG22C-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG22C-3.pdf>
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 914--915
+ [][] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 914--915
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 914--915
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 255.16064pt on input line 919.
+
 File: Resultados_files/figure-latex/FIG23C-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23C-1.pdf>
 File: Resultados_files/figure-latex/FIG23C-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23C-2.pdf>
 File: Resultados_files/figure-latex/FIG23C-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23C-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 930--931
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 930--931
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 930--931
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 283.87146pt on input line 935.
+
 File: Clados/Geminocystis_clade/figures/geminocystis_Octanuc_FrecObs_sel32_filo
 genia_HIG.png Graphic file (type bmp)
 <Clados/Geminocystis_clade/figures/geminocystis_Octanuc_FrecObs_sel32_filogenia
 _HIG.png>
 
-LaTeX Warning: Reference `fig:FIG13G' on page 45 undefined on input line 974.
+LaTeX Warning: Reference `fig:FIG13G' on page 46 undefined on input line 974.
 
 
-LaTeX Warning: Reference `tab:TAB6G' on page 45 undefined on input line 974.
+LaTeX Warning: Reference `tab:TAB6G' on page 46 undefined on input line 974.
 
-[45] [46] [47] [48] [49] [50]
 
-LaTeX Warning: Reference `fig:FIG14G' on page 51 undefined on input line 976.
+LaTeX Warning: Reference `fig:FIG14G' on page 46 undefined on input line 976.
 
+[46] [47] [48] [49] [50] [51]
 File: Resultados_files/figure-latex/FIG15G-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG15G-1.pdf>
 
-LaTeX Warning: Reference `fig:FIG16G' on page 51 undefined on input line 990.
+LaTeX Warning: Reference `fig:FIG16G' on page 52 undefined on input line 990.
 
 
-LaTeX Warning: Reference `fig:FIG17G' on page 51 undefined on input line 990.
+LaTeX Warning: Reference `fig:FIG17G' on page 52 undefined on input line 990.
 
-[51]
+[52]
 File: Resultados_files/figure-latex/FIG18G-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18G-1.pdf>
 File: Resultados_files/figure-latex/FIG18G-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18G-2.pdf>
 File: Resultados_files/figure-latex/FIG18G-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18G-3.pdf>
-[52]
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 999--1000
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 999--1000
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 999--1000
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 1004.
+
 File: Resultados_files/figure-latex/FIG19G-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19G-1.pdf>
 File: Resultados_files/figure-latex/FIG19G-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19G-2.pdf>
 File: Resultados_files/figure-latex/FIG19G-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19G-3.pdf>
-[53]
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1028--1029
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1028--1029
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1028--1029
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 1033.
+
 File: Resultados_files/figure-latex/FIG20G-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20G-1.pdf>
 File: Resultados_files/figure-latex/FIG20G-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20G-2.pdf>
 File: Resultados_files/figure-latex/FIG20G-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20G-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1048--1049
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1048--1049
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1048--1049
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 283.98145pt on input line 1053.
+
 File: Resultados_files/figure-latex/FIG21G-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG21G-1.pdf>
 File: Resultados_files/figure-latex/FIG21G-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG21G-2.pdf>
 File: Resultados_files/figure-latex/FIG21G-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG21G-3.pdf>
+
+Overfull \hbox (34.50598pt too wide) in paragraph at lines 1057--1058
+ [][] 
+ []
+
+
+Overfull \hbox (34.50598pt too wide) in paragraph at lines 1057--1058
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1057--1058
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 256.3797pt on input line 1062.
+
 File: Resultados_files/figure-latex/FIG22G-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG22G-1.pdf>
 File: Resultados_files/figure-latex/FIG22G-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG22G-2.pdf>
 File: Resultados_files/figure-latex/FIG22G-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG22G-3.pdf>
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1066--1067
+ [][] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1066--1067
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1066--1067
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 255.16064pt on input line 1071.
+
 File: Resultados_files/figure-latex/FIG23G-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23G-1.pdf>
 File: Resultados_files/figure-latex/FIG23G-2.pdf Graphic file (type pdf)
@@ -1161,20 +1571,41 @@ File: Resultados_files/figure-latex/FIG23G-2.pdf Graphic file (type pdf)
 File: Resultados_files/figure-latex/FIG23G-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23G-3.pdf>
 
-LaTeX Warning: Reference `fig:FIG24G' on page 54 undefined on input line 1112.
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1082--1083
+ [][] 
+ []
 
 
-LaTeX Warning: Reference `tab:TAB62G' on page 54 undefined on input line 1112.
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1082--1083
+ [] 
+ []
 
 
-LaTeX Warning: Reference `fig:FIG25G' on page 54 undefined on input line 1114.
-
-[54] [55] [56] [57] [58]
-
-LaTeX Warning: Reference `fig:FIG26G' on page 59 undefined on input line 1122.
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1082--1083
+ [] 
+ []
 
 
-LaTeX Warning: Reference `fig:FIG27G' on page 59 undefined on input line 1122.
+LaTeX Warning: Float too large for page by 283.87146pt on input line 1087.
+
+
+Underfull \vbox (badness 1490) has occurred while \output is active []
+
+[53] [54] [55] [56] [57] [58] [59]
+
+LaTeX Warning: Reference `fig:FIG24G' on page 60 undefined on input line 1112.
+
+
+LaTeX Warning: Reference `tab:TAB62G' on page 60 undefined on input line 1112.
+
+
+LaTeX Warning: Reference `fig:FIG25G' on page 60 undefined on input line 1114.
+
+
+LaTeX Warning: Reference `fig:FIG26G' on page 60 undefined on input line 1122.
+
+
+LaTeX Warning: Reference `fig:FIG27G' on page 60 undefined on input line 1122.
 
 File: Resultados_files/figure-latex/FIG28G-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG28G-1.pdf>
@@ -1182,25 +1613,97 @@ File: Resultados_files/figure-latex/FIG28G-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG28G-2.pdf>
 File: Resultados_files/figure-latex/FIG28G-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG28G-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1131--1132
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1131--1132
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1131--1132
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 1136.
+
+[60] [61]
 File: Resultados_files/figure-latex/FIG29G-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG29G-1.pdf>
 File: Resultados_files/figure-latex/FIG29G-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG29G-2.pdf>
 File: Resultados_files/figure-latex/FIG29G-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG29G-3.pdf>
-[59] [60] [61]
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1160--1161
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1160--1161
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1160--1161
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 1165.
+
 File: Resultados_files/figure-latex/FIG30G-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG30G-1.pdf>
 File: Resultados_files/figure-latex/FIG30G-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG30G-2.pdf>
 File: Resultados_files/figure-latex/FIG30G-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG30G-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1180--1181
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1180--1181
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1180--1181
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 284.09145pt on input line 1185.
+
 File: Resultados_files/figure-latex/FIG31G-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG31G-1.pdf>
 File: Resultados_files/figure-latex/FIG31G-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG31G-2.pdf>
 File: Resultados_files/figure-latex/FIG31G-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG31G-3.pdf>
+
+Overfull \hbox (34.50598pt too wide) in paragraph at lines 1189--1190
+ [][] 
+ []
+
+
+Overfull \hbox (34.50598pt too wide) in paragraph at lines 1189--1190
+ [] 
+ []
+
+
+Overfull \hbox (34.50598pt too wide) in paragraph at lines 1189--1190
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 256.92923pt on input line 1194.
+
 File: Resultados_files/figure-latex/FIG32G-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG32G-1.pdf>
 File: Resultados_files/figure-latex/FIG32G-2.pdf Graphic file (type pdf)
@@ -1208,9 +1711,23 @@ File: Resultados_files/figure-latex/FIG32G-2.pdf Graphic file (type pdf)
 File: Resultados_files/figure-latex/FIG32G-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG32G-3.pdf>
 
-Underfull \vbox (badness 2990) has occurred while \output is active []
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1198--1199
+ [][] 
+ []
 
-[62] [63] [64]
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1198--1199
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1198--1199
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 255.16064pt on input line 1203.
+
 File: Resultados_files/figure-latex/FIG33G-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG33G-1.pdf>
 File: Resultados_files/figure-latex/FIG33G-2.pdf Graphic file (type pdf)
@@ -1218,30 +1735,48 @@ File: Resultados_files/figure-latex/FIG33G-2.pdf Graphic file (type pdf)
 File: Resultados_files/figure-latex/FIG33G-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG33G-3.pdf>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (34.50598pt too wide) in paragraph at lines 1214--1215
+ [][] 
+ []
 
-[65]
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1214--1215
+ [] 
+ []
+
+
+Overfull \hbox (34.50598pt too wide) in paragraph at lines 1214--1215
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 266.5397pt on input line 1219.
+
+
+Underfull \vbox (badness 2698) has occurred while \output is active []
+
+[62] [63] [64] [65] [66] [67]
 File: Clados/Pseudoanabaena_clade/figures/pseudoanabaena_Octanuc_FrecObs_sel32_
 filogenia_HIG.png Graphic file (type bmp)
 <Clados/Pseudoanabaena_clade/figures/pseudoanabaena_Octanuc_FrecObs_sel32_filog
 enia_HIG.png>
-[66]
+[68]
 
-LaTeX Warning: Reference `fig:FIG13P' on page 67 undefined on input line 1258.
-
-
-LaTeX Warning: Reference `tab:TAB6P' on page 67 undefined on input line 1258.
+LaTeX Warning: Reference `fig:FIG13P' on page 69 undefined on input line 1258.
 
 
-LaTeX Warning: Reference `fig:FIG14P' on page 67 undefined on input line 1260.
+LaTeX Warning: Reference `tab:TAB6P' on page 69 undefined on input line 1258.
+
+
+LaTeX Warning: Reference `fig:FIG14P' on page 69 undefined on input line 1260.
 
 File: Resultados_files/figure-latex/FIG15P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG15P-1.pdf>
 
-LaTeX Warning: Reference `fig:FIG16P' on page 67 undefined on input line 1274.
+LaTeX Warning: Reference `fig:FIG16P' on page 69 undefined on input line 1274.
 
 
-LaTeX Warning: Reference `fig:FIG17P' on page 67 undefined on input line 1274.
+LaTeX Warning: Reference `fig:FIG17P' on page 69 undefined on input line 1274.
 
 File: Resultados_files/figure-latex/FIG18P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18P-1.pdf>
@@ -1249,32 +1784,121 @@ File: Resultados_files/figure-latex/FIG18P-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18P-2.pdf>
 File: Resultados_files/figure-latex/FIG18P-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18P-3.pdf>
-[67] [68] [69]
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1283--1284
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1283--1284
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1283--1284
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 1288.
+
+[69] [70] [71]
 File: Resultados_files/figure-latex/FIG19P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19P-1.pdf>
 File: Resultados_files/figure-latex/FIG19P-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19P-2.pdf>
 File: Resultados_files/figure-latex/FIG19P-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19P-3.pdf>
-[70]
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1312--1313
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1312--1313
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1312--1313
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 1317.
+
 File: Resultados_files/figure-latex/FIG20P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20P-1.pdf>
 File: Resultados_files/figure-latex/FIG20P-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20P-2.pdf>
 File: Resultados_files/figure-latex/FIG20P-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20P-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1332--1333
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1332--1333
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1332--1333
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 283.98145pt on input line 1337.
+
 File: Resultados_files/figure-latex/FIG21P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG21P-1.pdf>
 File: Resultados_files/figure-latex/FIG21P-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG21P-2.pdf>
 File: Resultados_files/figure-latex/FIG21P-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG21P-3.pdf>
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1341--1342
+ [][] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1341--1342
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1341--1342
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 255.28064pt on input line 1346.
+
 File: Resultados_files/figure-latex/FIG22P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG22P-1.pdf>
 File: Resultados_files/figure-latex/FIG22P-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG22P-2.pdf>
 File: Resultados_files/figure-latex/FIG22P-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG22P-3.pdf>
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1350--1351
+ [][] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1350--1351
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1350--1351
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 255.16064pt on input line 1355.
+
 File: Resultados_files/figure-latex/FIG23P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23P-1.pdf>
 File: Resultados_files/figure-latex/FIG23P-2.pdf Graphic file (type pdf)
@@ -1282,20 +1906,38 @@ File: Resultados_files/figure-latex/FIG23P-2.pdf Graphic file (type pdf)
 File: Resultados_files/figure-latex/FIG23P-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23P-3.pdf>
 
-LaTeX Warning: Reference `fig:FIG24P' on page 71 undefined on input line 1396.
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1366--1367
+ [][] 
+ []
 
 
-LaTeX Warning: Reference `tab:TAB62P' on page 71 undefined on input line 1396.
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1366--1367
+ [] 
+ []
 
 
-LaTeX Warning: Reference `fig:FIG25P' on page 71 undefined on input line 1398.
-
-[71] [72] [73] [74] [75]
-
-LaTeX Warning: Reference `fig:FIG26P' on page 76 undefined on input line 1406.
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1366--1367
+ [] 
+ []
 
 
-LaTeX Warning: Reference `fig:FIG27P' on page 76 undefined on input line 1406.
+LaTeX Warning: Float too large for page by 283.87146pt on input line 1371.
+
+[72] [73] [74] [75] [76] [77]
+
+LaTeX Warning: Reference `fig:FIG24P' on page 78 undefined on input line 1396.
+
+
+LaTeX Warning: Reference `tab:TAB62P' on page 78 undefined on input line 1396.
+
+
+LaTeX Warning: Reference `fig:FIG25P' on page 78 undefined on input line 1398.
+
+
+LaTeX Warning: Reference `fig:FIG26P' on page 78 undefined on input line 1406.
+
+
+LaTeX Warning: Reference `fig:FIG27P' on page 78 undefined on input line 1406.
 
 File: Resultados_files/figure-latex/FIG28P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG28P-1.pdf>
@@ -1303,25 +1945,97 @@ File: Resultados_files/figure-latex/FIG28P-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG28P-2.pdf>
 File: Resultados_files/figure-latex/FIG28P-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG28P-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1415--1416
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1415--1416
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1415--1416
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 276.17946pt on input line 1420.
+
+[78] [79]
 File: Resultados_files/figure-latex/FIG29P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG29P-1.pdf>
 File: Resultados_files/figure-latex/FIG29P-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG29P-2.pdf>
 File: Resultados_files/figure-latex/FIG29P-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG29P-3.pdf>
-[76] [77] [78]
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1444--1445
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1444--1445
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1444--1445
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 1449.
+
 File: Resultados_files/figure-latex/FIG30P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG30P-1.pdf>
 File: Resultados_files/figure-latex/FIG30P-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG30P-2.pdf>
 File: Resultados_files/figure-latex/FIG30P-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG30P-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1464--1465
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1464--1465
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1464--1465
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 284.09145pt on input line 1469.
+
 File: Resultados_files/figure-latex/FIG31P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG31P-1.pdf>
 File: Resultados_files/figure-latex/FIG31P-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG31P-2.pdf>
 File: Resultados_files/figure-latex/FIG31P-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG31P-3.pdf>
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1473--1474
+ [][] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1473--1474
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1473--1474
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 255.28064pt on input line 1478.
+
 File: Resultados_files/figure-latex/FIG32P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG32P-1.pdf>
 File: Resultados_files/figure-latex/FIG32P-2.pdf Graphic file (type pdf)
@@ -1329,9 +2043,23 @@ File: Resultados_files/figure-latex/FIG32P-2.pdf Graphic file (type pdf)
 File: Resultados_files/figure-latex/FIG32P-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG32P-3.pdf>
 
-Underfull \vbox (badness 2990) has occurred while \output is active []
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1482--1483
+ [][] 
+ []
 
-[79] [80] [81]
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1482--1483
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1482--1483
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 255.16064pt on input line 1487.
+
 File: Resultados_files/figure-latex/FIG33P-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG33P-1.pdf>
 File: Resultados_files/figure-latex/FIG33P-2.pdf Graphic file (type pdf)
@@ -1339,33 +2067,44 @@ File: Resultados_files/figure-latex/FIG33P-2.pdf Graphic file (type pdf)
 File: Resultados_files/figure-latex/FIG33P-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG33P-3.pdf>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1498--1499
+ [][] 
+ []
 
-[82]
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1498--1499
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1498--1499
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 265.44064pt on input line 1503.
+
 File: Clados/Thermosynechococcus_clade/figures/thermosynechococcus_Octanuc_Frec
 Obs_sel32_filogenia_HIG.png Graphic file (type bmp)
 <Clados/Thermosynechococcus_clade/figures/thermosynechococcus_Octanuc_FrecObs_s
 el32_filogenia_HIG.png>
+[80] [81] [82] [83] [84] [85] [86]
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[83]
-
-LaTeX Warning: Reference `fig:FIG13T' on page 84 undefined on input line 1542.
+LaTeX Warning: Reference `fig:FIG13T' on page 87 undefined on input line 1542.
 
 
-LaTeX Warning: Reference `tab:TAB6T' on page 84 undefined on input line 1542.
+LaTeX Warning: Reference `tab:TAB6T' on page 87 undefined on input line 1542.
 
 
-LaTeX Warning: Reference `fig:FIG14T' on page 84 undefined on input line 1544.
+LaTeX Warning: Reference `fig:FIG14T' on page 87 undefined on input line 1544.
 
 File: Resultados_files/figure-latex/FIG15T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG15T-1.pdf>
 
-LaTeX Warning: Reference `fig:FIG16T' on page 84 undefined on input line 1558.
+LaTeX Warning: Reference `fig:FIG16T' on page 87 undefined on input line 1558.
 
 
-LaTeX Warning: Reference `fig:FIG17T' on page 84 undefined on input line 1558.
+LaTeX Warning: Reference `fig:FIG17T' on page 87 undefined on input line 1558.
 
 File: Resultados_files/figure-latex/FIG18T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18T-1.pdf>
@@ -1373,26 +2112,98 @@ File: Resultados_files/figure-latex/FIG18T-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18T-2.pdf>
 File: Resultados_files/figure-latex/FIG18T-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG18T-3.pdf>
-[84]
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1567--1568
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1567--1568
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1567--1568
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 1572.
+
+[87]
 File: Resultados_files/figure-latex/FIG19T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19T-1.pdf>
 File: Resultados_files/figure-latex/FIG19T-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19T-2.pdf>
 File: Resultados_files/figure-latex/FIG19T-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG19T-3.pdf>
-[85] [86] [87]
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1596--1597
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1596--1597
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1596--1597
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 1601.
+
+[88] [89] [90]
 File: Resultados_files/figure-latex/FIG20T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20T-1.pdf>
 File: Resultados_files/figure-latex/FIG20T-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20T-2.pdf>
 File: Resultados_files/figure-latex/FIG20T-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG20T-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1616--1617
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1616--1617
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1616--1617
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 283.98145pt on input line 1621.
+
 File: Resultados_files/figure-latex/FIG21T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG21T-1.pdf>
 File: Resultados_files/figure-latex/FIG21T-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG21T-2.pdf>
 File: Resultados_files/figure-latex/FIG21T-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG21T-3.pdf>
+
+Overfull \hbox (34.50598pt too wide) in paragraph at lines 1625--1626
+ [][] 
+ []
+
+
+Overfull \hbox (34.50598pt too wide) in paragraph at lines 1625--1626
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1625--1626
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 256.3797pt on input line 1630.
+
 File: Resultados_files/figure-latex/FIG22T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG22T-1.pdf>
 File: Resultados_files/figure-latex/FIG22T-2.pdf Graphic file (type pdf)
@@ -1400,9 +2211,23 @@ File: Resultados_files/figure-latex/FIG22T-2.pdf Graphic file (type pdf)
 File: Resultados_files/figure-latex/FIG22T-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG22T-3.pdf>
 
-Underfull \vbox (badness 3039) has occurred while \output is active []
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1634--1635
+ [][] 
+ []
 
-[88] [89] [90]
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1634--1635
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1634--1635
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 255.16064pt on input line 1639.
+
 File: Resultados_files/figure-latex/FIG23T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23T-1.pdf>
 File: Resultados_files/figure-latex/FIG23T-2.pdf Graphic file (type pdf)
@@ -1410,23 +2235,38 @@ File: Resultados_files/figure-latex/FIG23T-2.pdf Graphic file (type pdf)
 File: Resultados_files/figure-latex/FIG23T-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG23T-3.pdf>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[91]
-
-LaTeX Warning: Reference `fig:FIG24T' on page 92 undefined on input line 1680.
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1650--1651
+ [][] 
+ []
 
 
-LaTeX Warning: Reference `tab:TAB62T' on page 92 undefined on input line 1680.
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1650--1651
+ [] 
+ []
 
 
-LaTeX Warning: Reference `fig:FIG25T' on page 92 undefined on input line 1682.
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1650--1651
+ [] 
+ []
 
 
-LaTeX Warning: Reference `fig:FIG26T' on page 92 undefined on input line 1690.
+LaTeX Warning: Float too large for page by 283.87146pt on input line 1655.
 
 
-LaTeX Warning: Reference `fig:FIG27T' on page 92 undefined on input line 1690.
+LaTeX Warning: Reference `fig:FIG24T' on page 91 undefined on input line 1680.
+
+
+LaTeX Warning: Reference `tab:TAB62T' on page 91 undefined on input line 1680.
+
+
+LaTeX Warning: Reference `fig:FIG25T' on page 91 undefined on input line 1682.
+
+[91] [92] [93] [94] [95]
+
+LaTeX Warning: Reference `fig:FIG26T' on page 96 undefined on input line 1690.
+
+
+LaTeX Warning: Reference `fig:FIG27T' on page 96 undefined on input line 1690.
 
 File: Resultados_files/figure-latex/FIG28T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG28T-1.pdf>
@@ -1434,31 +2274,121 @@ File: Resultados_files/figure-latex/FIG28T-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG28T-2.pdf>
 File: Resultados_files/figure-latex/FIG28T-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG28T-3.pdf>
-[92] [93]
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1699--1700
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1699--1700
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1699--1700
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 1704.
+
 File: Resultados_files/figure-latex/FIG29T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG29T-1.pdf>
 File: Resultados_files/figure-latex/FIG29T-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG29T-2.pdf>
 File: Resultados_files/figure-latex/FIG29T-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG29T-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1728--1729
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1728--1729
+ [] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1728--1729
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 271.98145pt on input line 1733.
+
+[96] [97] [98]
 File: Resultados_files/figure-latex/FIG30T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG30T-1.pdf>
 File: Resultados_files/figure-latex/FIG30T-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG30T-2.pdf>
 File: Resultados_files/figure-latex/FIG30T-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG30T-3.pdf>
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1748--1749
+ [][] 
+ []
+
+
+Overfull \hbox (34.50203pt too wide) in paragraph at lines 1748--1749
+ [] 
+ []
+
+
+Overfull \hbox (34.52414pt too wide) in paragraph at lines 1748--1749
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 280.67476pt on input line 1753.
+
 File: Resultados_files/figure-latex/FIG31T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG31T-1.pdf>
 File: Resultados_files/figure-latex/FIG31T-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG31T-2.pdf>
 File: Resultados_files/figure-latex/FIG31T-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG31T-3.pdf>
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1757--1758
+ [][] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1757--1758
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1757--1758
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 255.28064pt on input line 1762.
+
 File: Resultados_files/figure-latex/FIG32T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG32T-1.pdf>
 File: Resultados_files/figure-latex/FIG32T-2.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG32T-2.pdf>
 File: Resultados_files/figure-latex/FIG32T-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG32T-3.pdf>
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1766--1767
+ [][] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1766--1767
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1766--1767
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 255.16064pt on input line 1771.
+
 File: Resultados_files/figure-latex/FIG33T-1.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG33T-1.pdf>
 File: Resultados_files/figure-latex/FIG33T-2.pdf Graphic file (type pdf)
@@ -1466,9 +2396,23 @@ File: Resultados_files/figure-latex/FIG33T-2.pdf Graphic file (type pdf)
 File: Resultados_files/figure-latex/FIG33T-3.pdf Graphic file (type pdf)
 <use Resultados_files/figure-latex/FIG33T-3.pdf>
 
-Underfull \vbox (badness 2698) has occurred while \output is active []
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1782--1783
+ [][] 
+ []
 
-[94] [95] [96] [97] [98] [99]
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1782--1783
+ [] 
+ []
+
+
+Overfull \hbox (34.5119pt too wide) in paragraph at lines 1782--1783
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 265.44064pt on input line 1787.
+
 File: figures/A18-40_Octanuc_OE_sel32_filogenia_HIG.png Graphic file (type bmp)
 
 <figures/A18-40_Octanuc_OE_sel32_filogenia_HIG.png>
@@ -1485,13 +2429,11 @@ Overfull \hbox (205.03809pt too wide) in paragraph at lines 1816--1817
 LaTeX Warning: Float too large for page by 60.08807pt on input line 1821.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[100] [101] [102]
 Overfull \hbox (9.61006pt too wide) in paragraph at lines 1832--1847
  [][] 
  []
 
+[99] [100] [101] [102] [103] [104] [105] [106] [107]
 File: Clados/Clado_A18-40/SWM_repeat_AA.png Graphic file (type bmp)
 <Clados/Clado_A18-40/SWM_repeat_AA.png>
 
@@ -1499,7 +2441,10 @@ Overfull \hbox (10.26004pt too wide) in paragraph at lines 1906--1927
  [][] 
  []
 
-[103] [104]
+
+Underfull \vbox (badness 1715) has occurred while \output is active []
+
+[108]
 File: Clados/Clado_A18-40/SWM_3.png Graphic file (type bmp)
 <Clados/Clado_A18-40/SWM_3.png>
 
@@ -1510,9 +2455,9 @@ Overfull \hbox (912.56133pt too wide) in paragraph at lines 1967--1968
 
 LaTeX Warning: Float too large for page by 28.812pt on input line 1972.
 
-(./TESIS.bbl [105] [106] [107] [108
+(./TESIS.bbl [109] [110]) [111
 
-]) [109] (./TESIS.aux)
+] (./TESIS.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1520,10 +2465,10 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  21423 strings out of 476191
  450153 string characters out of 5812072
- 856389 words of memory out of 5000000
+ 863542 words of memory out of 5000000
  41680 multiletter control sequences out of 15000+600000
  475734 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,15n,121p,1002b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,15n,121p,1002b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on TESIS.pdf (109 pages).
+Output written on TESIS.pdf (111 pages).
