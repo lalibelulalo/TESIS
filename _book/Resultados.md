@@ -3672,6 +3672,211 @@ En la Figura \@ref(fig:FIG23T) mostramos 3 gráficos (uno por cada marco de lect
 
 
 
+### CAGGCCTG
+
+#### Red de transiciones
+
+Para hacer mas visual la reconstrucción, construimos una red de las transiciones entre los estados ancestrales. Esto lo hicimos en r usando la función ```Create_Transition_Table()```:
+
+
+```r
+source("ASR_Orth_Functions/NodeAndEdges.R")
+Nodes.Edges <- Create_Transition_Table(SitesTable = "Clados/Thermosynechococcus_clade/PALINDROMES/CAGGCCTG/PCC_6312/Orthologues_Palindrome_sites.txt",
+                                EvolutionModel = "F81",
+                                Method = "bayes",
+                                Phylogeny = "Clados/Thermosynechococcus_clade/SpeciesTree_rooted.txt",
+                                OrthoPath = "Clados/Thermosynechococcus_clade/PALINDROMES/CAGGCCTG/PCC_6312/Only_ORTHOLOGUES/")
+
+```
+
+Posteriormente creamos la red usando la función ```Create_Network()```:
+
+
+
+y visualizamos dicha red .
+
+
+
+Para visualizar la red usamos la paqueteria ```networkD3```. Hicimos 2 figuras, la (Figura \@ref(fig:FIG24T)) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En dicha red podemos ver algunos nodos con bordes muy gruesos como **GCAATTGC**, **GCAATCGC**, **GCAATAGC**, **GCGATTGC** (Tabla \@ref(tab:TAB62T)).
+
+
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG24T-1.png" alt="**Red de todas las transiciones del clado Thermosynechococcus.** En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios."  />
+<p class="caption">(\#fig:FIG24T)**Red de todas las transiciones del clado Thermosynechococcus.** En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios.</p>
+</div>
+
+En la (Figura \@ref(fig:FIG25T)) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG25T-1.png" alt="**Red de todas las transiciones del clado Thermosynechococcus.** En esta imagen se muestra la red  de la Figura \@ref(fig:FIG24) de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió."  />
+<p class="caption">(\#fig:FIG25T)**Red de todas las transiciones del clado Thermosynechococcus.** En esta imagen se muestra la red  de la Figura \@ref(fig:FIG24) de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió.</p>
+</div>
+
+<table class=" lightable-paper table table-striped table-condensed" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 11px; width: auto !important; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">(\#tab:TAB62T)Transiciones entre nodos.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> from </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> to </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> weight </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">38</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAAGCCTG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd68b">21</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAAGCCTG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d5">12</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGGCTTG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e6">10</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">CAGGCATG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e6">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAAGCATG</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGGACTG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGGCTTG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf6">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGGCCTG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGGCCTG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">AGT-----</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">AGTGCCTG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGGCGTG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGGCATG</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">------TG</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+</tbody>
+</table>
+
+
+
+#### Transiciones entre Nodo 14 y Nodo 15
+Para entender más como es que se gana o se pierden los sitios palindrómicos revisamos la transición en tre los nodos 14 y 15. Esto es porque es esta transicion de nodos la que separa a los dos subclados entre los que hay una repentino cambio de abundancia de sitios palindrómicos (Figura \@ref(fig:FIG15T)).
+
+
+Para hacer esto filtramos los datos de la red para mostrar unicamente las transiciones que se dieron entre los nodos 14 y 15 e hicimos las mismas figuras.
+En la (Figura \@ref(fig:FIG26T)) se muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En la (Figura \@ref(fig:FIG27T)) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
+
+
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG26T-1.png" alt="**Red de las transiciones entre los Nodos 14 y 15 del clado Thermosynechococcus.** En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios."  />
+<p class="caption">(\#fig:FIG26T)**Red de las transiciones entre los Nodos 14 y 15 del clado Thermosynechococcus.** En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios.</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG27T-1.png" alt="**Red de las transiciones entre los nodos 14 y 15 del clado Thermosynechococcus.** En esta imagen se muestra la red  de la Figura \@ref(fig:FIG26T) de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió."  />
+<p class="caption">(\#fig:FIG27T)**Red de las transiciones entre los nodos 14 y 15 del clado Thermosynechococcus.** En esta imagen se muestra la red  de la Figura \@ref(fig:FIG26T) de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió.</p>
+</div>
+
+#### Mutaciones en los codones
+
+Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG28T)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG28T-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG28T-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG28T-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="50%" />
+<p class="caption">(\#fig:FIG28T)**Abundancia de peptidos por cada nodo segun el marco de lectura.**.</p>
+</div>
+
+En la (Figura \@ref(fig:FIG29T)) mostramos 3 gráficos que indican la abundancia del tipo de mutaciones que hay en cada nodo de acuerdo al marco de lectura. Lo sitios de mutaciones mostrados pueden ser de los siguientes tipos:
+
+* Conservative (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62)
+* ConservativeNoSiteMut (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62. Sin embargo, el sitio no sufrió mutaciones)
+* Deletion (La secuencia de AA tiene sufrio 1 o mas deleciones)
+* NoMutation (La secuencia de AA no sufrio mutaciones)
+* NoSynonym (La secuencia de AA cambió)
+* NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
+* Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG29T-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG29T-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG29T-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="50%" />
+<p class="caption">(\#fig:FIG29T)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.</p>
+</div>
+
+#### Análisis de sitios en los cuales su ancestro era CAGGCCTG
+
+Para tratar de entender como es que los sitios HIP1 se pierden hicimos un análisis unicamente en en las transiciones en las que el nodo ancestral tenia un sitio CAGGCCTG.
+
+En la (Figura \@ref(fig:FIG30T)) mostramos 3 gráficos que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
+
+En la (Figura \@ref(fig:FIG31T)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio CAGGCCTG.
+
+En la (Figura \@ref(fig:FIG32T)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG30T-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio CAGGCCTG.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG30T-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio CAGGCCTG.**" width="50%" /><img src="Resultados_files/figure-epub3/FIG30T-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio CAGGCCTG.**" width="50%" />
+<p class="caption">(\#fig:FIG30T)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio CAGGCCTG.**</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG31T-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio CAGGCCTG para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG31T-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio CAGGCCTG para cada nodo segun el marco de lectura.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG31T-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio CAGGCCTG para cada nodo segun el marco de lectura.**." width="50%" />
+<p class="caption">(\#fig:FIG31T)**Frecuencia de las mutaciones de cada nucleótido del sitio CAGGCCTG para cada nodo segun el marco de lectura.**.</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG32T-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios CAGGCCTG para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG32T-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios CAGGCCTG para cada marco de lectura**." width="50%" /><img src="Resultados_files/figure-epub3/FIG32T-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios CAGGCCTG para cada marco de lectura**." width="50%" />
+<p class="caption">(\#fig:FIG32T)**Frecuencia del tipo de sustituciónes de base en los sitios CAGGCCTG para cada marco de lectura**.</p>
+</div>
+
+#### Análisis de sitios en los cuales solo el nodo actual tiene CAGGCCTG
+
+Para tratar de entender como es que los sitios CAGGCCTG se ganan, hicimos un analisis unicamente en las transiciones en las que el nodo actual tenia un sitio CAGGCCTG. 
+
+En la Figura \@ref(fig:FIG33T) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG33T-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio CAGGCCTG.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG33T-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio CAGGCCTG.**." width="50%" /><img src="Resultados_files/figure-epub3/FIG33T-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio CAGGCCTG.**." width="50%" />
+<p class="caption">(\#fig:FIG33T)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio CAGGCCTG.**.</p>
+</div>
+
+
 ## Clado A18-40
 
 El clado A18-40 fue de particular interés ya que entre las especies **Synechococcus_sp_A18−40** y **Synechococcus sp RS9915** hay un cambio abrupto del palíndromo con mayor OE. Más aun, los genomas de ambas especies son muy parecidos y ambas especias son cercanas segun la filogenia (Figura \@ref(fig:FIG7)).
