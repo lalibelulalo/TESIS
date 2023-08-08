@@ -176,6 +176,8 @@ Se crearon 4 conjuntos de resultados de acuerdo a 4 valores mínimos de signific
 
 El conjunto más laxo corresponde a **sel32** ya que su valor de corte de FDR es $1 \times 10^{-32}$, debido a esto, es el conjunto con más palíndromos (Figura \@ref(fig:FIG1)). Por otro lado, el conjunto **sel256** es el conjunto más restrictivo ya que su valor de corte de FDR es de $1 \times 10^{-256}$, y por lo tanto tiene menos palíndromos (Figura \@ref(fig:FIG2)).
 
+En la tabla (Tabla \@ref(tab:SigSites)) se muestra el conjunto **sel256** el cual contiene 9 palindromos significativos.
+
 ## Visualización de la abundancia: OE vs Frecuencia Observada cada 1000nt 
 
 Para visualizar la abundancia creamos un gráfico que muestra el enriquecimiento OE vs la abundancia por cada 1000 nucleótidos. Esto se hizo para cada conjunto de significancia y para cada conjunto de genomas.
@@ -186,6 +188,38 @@ knitr::include_graphics(normalizePath('figures/df_refseq_chr_269_Octanuc_FrecObs
 
 ```{r FIG2, echo=FALSE, fig.cap='**Enriquecimiento versus abundancia de palíndromos octámeros en el conjunto de genomas complete\\_chr con un $FDR \\leq 1 \\times 10^{-256}$.** Enriquecimiento (**O/E**) en función de la frecuencia del motivo cada 1000 nt (**FrecObs**). Cada punto representa un palíndromo octámero de un genoma.', out.width='80%', fig.asp=.75, fig.align='center'}
 knitr::include_graphics(normalizePath("figures/df_refseq_chr_269_Octanuc_FrecObs_sel256_significative-palindromes.png"))
+```
+
+
+```{r SigSites,  eval=knitr::is_html_output(), echo=FALSE, message=FALSE,warning=FALSE}
+library(kableExtra)
+library(formattable)
+Counts <- read.table("significative_tables/Markov_refseq_chr_269_Octanuc_FrecObs_1e-256.txt", sep = "\t", header = TRUE)
+Counts = Counts[ , c(1,3,14,15)]
+Counts[,c(3,4)] <- log(Counts[,c(3,4)])
+Counts <- Counts[order(Counts[,2], Counts[,3]),]
+Counts <- as.data.frame(Counts)
+row.names(Counts) <- NULL
+colnames(Counts) <- c("Spp","Palindrome","Log10(FrecObs)","Log10(OE)")
+
+Counts$`Log10(FrecObs)` <- color_tile("white", "orange")(Counts$`Log10(FrecObs)`)
+
+kbl(Counts, align = "l",caption = "Genomas con un p-value >= 10^-256",longtable = TRUE,format = "html", escape = F) %>%
+  kable_paper(full_width = T) %>%
+  column_spec(1:2, bold = T) %>%
+  collapse_rows(columns = 1:2, valign = "top")%>%
+  row_spec(1:3, bold = T, color = "gray20", background = "#FFE4E1")%>%
+  row_spec(5, bold = T, color = "gray20", background = "#FFE4E1")%>%
+  row_spec(9:10, bold = T, color = "gray20", background = "#FFE4E1")%>%
+  row_spec(11:192, bold = T, color = "gray20", background = "#54FF9F")%>%
+  row_spec(193:194, bold = T, color = "gray20", background = "#FFE4E1")%>%
+  row_spec(203:205, bold = T, color = "gray20", background = "#FFE4E1")%>%
+  kable_styling(c("striped", "condensed"), 
+                latex_options = "striped", 
+                full_width = F,
+                fixed_thead = T,
+                font_size = 11)
+
 ```
 
 ## Filogenia

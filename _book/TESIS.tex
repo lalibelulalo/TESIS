@@ -120,7 +120,7 @@
 
 \title{Evolución de secuencias palindromicas en genomas de cianobacterias}
 \author{Eduardo Padilla Mendoza}
-\date{2023-08-03}
+\date{2023-08-07}
 
 \begin{document}
 \maketitle
@@ -356,6 +356,8 @@ Se crearon 4 conjuntos de resultados de acuerdo a 4 valores mínimos de signific
 
 El conjunto más laxo corresponde a \textbf{sel32} ya que su valor de corte de FDR es \(1 \times 10^{-32}\), debido a esto, es el conjunto con más palíndromos (Figura \ref{fig:FIG1}). Por otro lado, el conjunto \textbf{sel256} es el conjunto más restrictivo ya que su valor de corte de FDR es de \(1 \times 10^{-256}\), y por lo tanto tiene menos palíndromos (Figura \ref{fig:FIG2}).
 
+En la tabla (Tabla \ref{tab:SigSites}) se muestra el conjunto \textbf{sel256} el cual contiene 9 palindromos significativos.
+
 \hypertarget{visualizaciuxf3n-de-la-abundancia-oe-vs-frecuencia-observada-cada-1000nt}{%
 \section{Visualización de la abundancia: OE vs Frecuencia Observada cada 1000nt}\label{visualizaciuxf3n-de-la-abundancia-oe-vs-frecuencia-observada-cada-1000nt}}
 
@@ -498,6 +500,13 @@ Toda la información de la reconstrucción fue guardada en dos tablas las cuales
 \hypertarget{resultados}{%
 \chapter{Resultados}\label{resultados}}
 
+Para el analisis de los sitios palindrómicos primero se hizo un conteo de lo sitios en cada especie de cada clado para luego tomar aquella especie que tuviera la mayor cantidad de sitios posibles. Esto con el fin de tener mas sitios para analizar (Tabla \ref{tab:HighestSites}).
+
+\hypertarget{distribuciuxf3n-de-hip1-en-los-marcos-de-lectura}{%
+\section{Distribución de HIP1 en los marcos de lectura}\label{distribuciuxf3n-de-hip1-en-los-marcos-de-lectura}}
+
+Para ver como es la distribución de los sitios HIP1 a traves del genoma hicimos un conteo de sitios en cada marco de lectura (Tabla \ref{tab:TABMuts}).
+
 \hypertarget{clado-calothrix}{%
 \section{Clado Calothrix}\label{clado-calothrix}}
 
@@ -509,7 +518,7 @@ El clado calothrix contiene 6 especies y es de interes ya que segun la filogenia
 
 }
 
-\caption{**Filogenia anotada del clado Calothrix.** En esta imagen se muestra un cambio abrupto en la Frecuencia observada de **GCGCATCGC** en las especies PCC\_6303, NIES-3974 y 336-3.}\label{fig:FIG12}
+\caption{**Filogenia anotada del clado Calothrix.** En esta imagen se muestra un cambio abrupto en la Frecuencia observada de **GCGCATCGC** en las especies NIES-4105, NIES-4071 y PCC\_7716.}\label{fig:FIG12}
 \end{figure}
 
 \hypertarget{gcgatcgc}{%
@@ -535,7 +544,7 @@ Posteriormente creamos la red usando la función \texttt{Create\_Network()}:
 
 y visualizamos dicha red .
 
-Para visualizar la red usamos la paqueteria \texttt{networkD3}. Hicimos 2 figuras, la (Figura \ref{fig:FIG13}) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En dicha red podemos ver algunos nodos con bordes muy gruesos como \textbf{GCAATTGC}, \textbf{GCAATCGC}, \textbf{GCAATAGC}, \textbf{GCGATTGC} (Tabla \ref{tab:TAB6}).
+Para visualizar la red usamos la paqueteria \texttt{networkD3}. Hicimos 2 figuras, la (Figura \ref{fig:FIG13}) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En dicha red podemos ver algunos nodos con bordes muy gruesos como \textbf{GCGATTGC}, \textbf{GCAATTGC}, \textbf{GCTATCGC}, \textbf{GCTATTGC} (Tabla \ref{tab:TAB6}).
 
 En la (Figura \ref{fig:FIG14}) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
 
@@ -556,7 +565,7 @@ En la (Figura \ref{fig:FIG16}) se muestra la red como una conexión de nodos a t
 \hypertarget{mutaciones-en-los-codones}{%
 \subsubsection{Mutaciones en los codones}\label{mutaciones-en-los-codones}}
 
-Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \ref{fig:FIG18}) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
+Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \ref{fig:FIG18}) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran. En esta figura podemos observar que el marco de lectura es el que contiene la mayoria de los sitios
 
 \begin{figure}
 
@@ -603,10 +612,6 @@ Para tratar de entender como es que los sitios HIP1 se pierden hicimos un análi
 
 En la (Figura \ref{fig:FIG20}) mostramos 3 gráficos que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
-En la (Figura \ref{fig:FIG21}) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio HIP.
-
-En la (Figura \ref{fig:FIG22}) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
-
 \begin{figure}
 
 {\centering \includegraphics[width=1.1\linewidth]{Resultados_files/figure-latex/FIG20-1} \includegraphics[width=1.1\linewidth]{Resultados_files/figure-latex/FIG20-2} \includegraphics[width=1.1\linewidth]{Resultados_files/figure-latex/FIG20-3} 
@@ -616,6 +621,8 @@ En la (Figura \ref{fig:FIG22}) mostramos 3 gráficos (uno por cada marco de lect
 \caption{**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**}\label{fig:FIG20}
 \end{figure}
 
+En la (Figura \ref{fig:FIG21}) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio HIP.
+
 \begin{figure}
 
 {\centering \includegraphics[width=1.1\linewidth]{Resultados_files/figure-latex/FIG21-1} \includegraphics[width=1.1\linewidth]{Resultados_files/figure-latex/FIG21-2} \includegraphics[width=1.1\linewidth]{Resultados_files/figure-latex/FIG21-3} 
@@ -624,6 +631,8 @@ En la (Figura \ref{fig:FIG22}) mostramos 3 gráficos (uno por cada marco de lect
 
 \caption{**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.}\label{fig:FIG21}
 \end{figure}
+
+En la (Figura \ref{fig:FIG22}) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
 \begin{figure}
 

@@ -1,11 +1,294 @@
 # Resultados
 
+Para el analisis de los sitios palindrómicos primero se hizo un conteo de lo sitios en cada especie de cada clado para luego tomar aquella especie que tuviera la mayor cantidad de sitios posibles. Esto con el fin de tener mas sitios para analizar (Tabla \@ref(tab:HighestSites)).
+<table class=" lightable-paper table table-striped table-condensed" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 11px; width: auto !important; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">(\#tab:HighestSites)Conteo de sitios en las especies de cada clado.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Clade </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Spp </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> SiteCounts </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;" rowspan="6"> Callothrix_clade </td>
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">PCC_7716</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">12  </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">NIES-4071</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">19  </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">NIES-4105</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">19  </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">PCC_6303</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffb93a">2473</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">NIES-3974</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa80a">3078</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: yellow !important;">336/3</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">3216</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="6"> Cyanobacterium_clade </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">bigelowii</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">14  </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">ALOHA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefc">30  </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">ATCC_51142</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeecf">600 </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">Yunoko</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">63  </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">gibberula</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">65  </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: yellow !important;">PCC_8801</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe9c0">785 </span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;" rowspan="11"> Geminocystis_clade </td>
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">Z-M001</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe2ad">1028</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">PCC_10605</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe1ab">1055</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">PCC_7418</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdda0">1198</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">PCC_7437</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd994">1341</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">NIES-3757</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd993">1354</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: yellow !important;">NIES-4102</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd281">1586</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">PCC_6308</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ec">241 </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">NIES-3709</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e1">374 </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">NIES-3708</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2da">457 </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">PCC_8305</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedce">612 </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">PCC_6605</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffebc7">706 </span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="6"> Pseudoanabaena_clade </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">JA-2-3Ba</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">15  </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">PCC_7367</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd27f">1608</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">PCC_7502</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffc864">1949</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">ABRG5-3</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffbf4a">2280</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: yellow !important;">PCC_7336</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffbe48">2303</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">JA-3-3Ab</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">24  </span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;" rowspan="12"> Thermosynechococcus_clade </td>
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">PCC_6715</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd485">1531</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">NK55a</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd27f">1606</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">HN-54</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd17e">1621</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">BP-1</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd07b">1663</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">CL-1</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd07a">1674</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">TA-1</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffcf78">1692</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: yellow !important;">SCTE542</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffcf78">1694</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">D10</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">2   </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">PCC_6312</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">2   </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">Moss_Beach</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d7">502 </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">S15</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d6">516 </span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: gray20 !important;">MBIC11017</span> </td>
+   <td style="text-align:left;font-weight: bold;color: gray20 !important;background-color: #FFE4E1 !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d5">527 </span> </td>
+  </tr>
+</tbody>
+</table>
+
+
+
+## Distribución de HIP1 en los marcos de lectura
+
+Para ver como es la distribución de los sitios HIP1 a traves del genoma hicimos un conteo de sitios en cada marco de lectura (Tabla \@ref(tab:TABMuts)).
+
+<table class=" lightable-paper table table-striped table-condensed" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 11px; width: auto !important; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">(\#tab:TABMuts)Conteo de sitios por marco de lectura.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Clade </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Spp </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> RF1 </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> RF2 </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> RF3 </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> AllFrames </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Callothrix_clade </td>
+   <td style="text-align:left;font-weight: bold;"> 336-3 </td>
+   <td style="text-align:left;"> 1396 </td>
+   <td style="text-align:left;"> 831 </td>
+   <td style="text-align:left;"> 364 </td>
+   <td style="text-align:left;"> 2591 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Cyanobacterium_clade </td>
+   <td style="text-align:left;font-weight: bold;"> PCC_8801 </td>
+   <td style="text-align:left;"> 300 </td>
+   <td style="text-align:left;"> 281 </td>
+   <td style="text-align:left;"> 119 </td>
+   <td style="text-align:left;"> 700 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Geminocystis_clade </td>
+   <td style="text-align:left;font-weight: bold;"> NIES-4102 </td>
+   <td style="text-align:left;"> 724 </td>
+   <td style="text-align:left;"> 490 </td>
+   <td style="text-align:left;"> 159 </td>
+   <td style="text-align:left;"> 1373 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Pseudoanabaena_clade </td>
+   <td style="text-align:left;font-weight: bold;"> PCC_7336 </td>
+   <td style="text-align:left;"> 904 </td>
+   <td style="text-align:left;"> 718 </td>
+   <td style="text-align:left;"> 272 </td>
+   <td style="text-align:left;"> 1894 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Thermosynechococcus_clade </td>
+   <td style="text-align:left;font-weight: bold;"> SCTE542 </td>
+   <td style="text-align:left;"> 500 </td>
+   <td style="text-align:left;"> 741 </td>
+   <td style="text-align:left;"> 204 </td>
+   <td style="text-align:left;"> 1445 </td>
+  </tr>
+</tbody>
+</table>
+
+
+
 ## Clado Calothrix
 
 El clado calothrix contiene 6 especies  y es de interes ya que segun la filogenia estan estrechamente relacionadas y muestra un cambio en el palindromo mas abundante, pasando de **GCGATCGC** a **TGGCGCCA** (Figure \@ref(fig:FIG12)).
 <div class="figure" style="text-align: center">
-<img src="Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia_HIG.png" alt="**Filogenia anotada del clado Calothrix.** En esta imagen se muestra un cambio abrupto en la Frecuencia observada de **GCGCATCGC** en las especies PCC\_6303, NIES-3974 y 336-3." width="100%" />
-<p class="caption">(\#fig:FIG12)**Filogenia anotada del clado Calothrix.** En esta imagen se muestra un cambio abrupto en la Frecuencia observada de **GCGCATCGC** en las especies PCC\_6303, NIES-3974 y 336-3.</p>
+<img src="Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia_HIG.png" alt="**Filogenia anotada del clado Calothrix.** En esta imagen se muestra un cambio abrupto en la Frecuencia observada de **GCGCATCGC** en las especies NIES-4105, NIES-4071 y PCC\_7716." width="100%" />
+<p class="caption">(\#fig:FIG12)**Filogenia anotada del clado Calothrix.** En esta imagen se muestra un cambio abrupto en la Frecuencia observada de **GCGCATCGC** en las especies NIES-4105, NIES-4071 y PCC\_7716.</p>
 </div>
 
 ### GCGATCGC
@@ -33,7 +316,7 @@ y visualizamos dicha red .
 
 
 
-Para visualizar la red usamos la paqueteria ```networkD3```. Hicimos 2 figuras, la (Figura \@ref(fig:FIG13)) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En dicha red podemos ver algunos nodos con bordes muy gruesos como **GCAATTGC**, **GCAATCGC**, **GCAATAGC**, **GCGATTGC** (Tabla \@ref(tab:TAB6)).
+Para visualizar la red usamos la paqueteria ```networkD3```. Hicimos 2 figuras, la (Figura \@ref(fig:FIG13)) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En dicha red podemos ver algunos nodos con bordes muy gruesos como **GCGATTGC**, **GCAATTGC**, **GCTATCGC**, **GCTATTGC** (Tabla \@ref(tab:TAB6)).
 
 
 
@@ -578,7 +861,7 @@ En la (Figura \@ref(fig:FIG16)) se muestra la red como una conexión de nodos a 
 
 #### Mutaciones en los codones
 
-Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG18)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
+Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG18)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran. En esta figura podemos observar que el marco de lectura es el que contiene la mayoria de los sitios
 
 <div class="figure" style="text-align: center">
 <img src="Resultados_files/figure-epub3/FIG18-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG18-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG18-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" />
@@ -606,19 +889,19 @@ Para tratar de entender como es que los sitios HIP1 se pierden hicimos un análi
 
 En la (Figura \@ref(fig:FIG20)) mostramos 3 gráficos que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
-En la (Figura \@ref(fig:FIG21)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio HIP.
-
-En la (Figura \@ref(fig:FIG22)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
-
 <div class="figure" style="text-align: center">
 <img src="Resultados_files/figure-epub3/FIG20-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG20-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG20-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" />
 <p class="caption">(\#fig:FIG20)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**</p>
 </div>
 
+En la (Figura \@ref(fig:FIG21)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio HIP.
+
 <div class="figure" style="text-align: center">
 <img src="Resultados_files/figure-epub3/FIG21-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG21-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG21-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" />
 <p class="caption">(\#fig:FIG21)**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.</p>
 </div>
+
+En la (Figura \@ref(fig:FIG22)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
 <div class="figure" style="text-align: center">
 <img src="Resultados_files/figure-epub3/FIG22-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG22-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG22-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" />

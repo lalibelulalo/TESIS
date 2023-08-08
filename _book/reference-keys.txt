@@ -8,10 +8,13 @@ eq:EQ7
 eq:Markov1HIP
 fig:FIG1
 fig:FIG2
+tab:SigSites
 fig:FIG3
 fig:FIG4
 fig:FIG5
 fig:FIG6
+tab:HighestSites
+tab:TABMuts
 fig:FIG12
 fig:FIG13
 fig:FIG14
@@ -148,6 +151,7 @@ reconstrucción-ancestral-de-sitios-palindrómicos-en-ortólogos
 ortólogos
 reconstrucción
 resultados
+distribución-de-hip1-en-los-marcos-de-lectura
 clado-calothrix
 gcgatcgc
 red-de-transiciones

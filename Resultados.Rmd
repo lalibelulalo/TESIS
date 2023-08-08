@@ -1,9 +1,118 @@
 # Resultados
 
+Para el analisis de los sitios palindrómicos primero se hizo un conteo de lo sitios en cada especie de cada clado para luego tomar aquella especie que tuviera la mayor cantidad de sitios posibles. Esto con el fin de tener mas sitios para analizar. Aquellas especies con la mayor cantidad de sitios se muestran resaltadas en amarillo en la Tabla \@ref(tab:HighestSites).
+```{r HighestSites,  eval=knitr::is_html_output(), echo=FALSE, message=FALSE,warning=FALSE}
+library(kableExtra)
+library(formattable)
+Sys.setenv("OPENSSL_CONF"="/dev/null")
+
+CountClades <- c('Callothrix_clade','Cyanobacterium_clade','Geminocystis_clade','Pseudoanabaena_clade','Thermosynechococcus_clade')
+SiteCounts <- matrix(0,
+               nrow = 0,
+               ncol = 3)
+colnames(SiteCounts) <- c("Clade","Spp","SiteCounts")
+
+for (k in 1:length(CountClades)){
+  Counts <- read.table(paste0("Clados/",CountClades[k],"/Markov_count_GCGATCGC.txt"), sep = "\t", header = TRUE)
+  Spp <- Counts$spp
+  Spp <- unique(Spp)
+  CountsVector <- c()
+  i=0
+  for (n in 1:length(Spp)){ 
+    for (m in 1:length(Counts$spp)) {
+      if (Spp[n] == Counts[m,2]){
+        i=i+Counts[m,5]
+      }
+    }
+    CountsVector <- cbind(CountsVector,CountClades[k],Spp[n],i) 
+    SiteCounts <- rbind(SiteCounts,CountsVector)
+    i=0
+    CountsVector <- c()
+  }
+}
+
+SiteCounts <- SiteCounts[order(SiteCounts[,1], SiteCounts[,3]),]
+SiteCounts <- as.data.frame(SiteCounts)
+
+SiteCounts$Spp = cell_spec(SiteCounts$Spp,
+                                   background = ifelse(SiteCounts$Spp == '336/3'|SiteCounts$Spp == 'PCC_8801'|SiteCounts$Spp == 'NIES-4102'|SiteCounts$Spp == 'PCC_7336'|SiteCounts$Spp == 'SCTE542',"yellow","gray20"))
+
+SiteCounts$SiteCounts <- color_tile("white", "orange")(SiteCounts$SiteCounts)
+
+kbl(SiteCounts, align = "l",caption = "Conteo de sitios en las especies de cada clado.",longtable = TRUE,format = "html", escape = F) %>%
+  kable_paper(full_width = T) %>%
+  column_spec(1:2, bold = T) %>%
+  collapse_rows(columns = 1:2, valign = "top")%>%
+  row_spec(1:6, bold = T, color = "gray20", background = "#FFE4E1")%>%
+  #row_spec(7:12, bold = T, color = "gray20", background = "moccasin")%>%
+  row_spec(13:23, bold = T, color = "gray20", background = "#FFE4E1")%>%
+  #row_spec(24:29, bold = T, color = "gray20", background = "lightskyblue")%>%
+  row_spec(30:41, bold = T, color = "gray20", background = "#FFE4E1")%>%
+  kable_styling(c("striped", "condensed"), 
+                latex_options = "striped", 
+                full_width = F,
+                fixed_thead = T,
+                font_size = 11)
+
+```
+
+## Distribución de HIP1 en los marcos de lectura
+
+Para ver como es la distribución de los sitios HIP1 a traves del genoma hicimos un conteo de sitios en cada marco de lectura (Tabla \@ref(tab:TABMuts)).
+
+```{r TABMuts,  eval=knitr::is_html_output(), echo=FALSE, message=FALSE,warning=FALSE}
+library(kableExtra)
+library(formattable)
+## awk '{if($2=="336-3") {print $1}}' Orthologues_Palindrome_sites.AllFrames.SECOND.txt |wc -l
+## awk '{if($2=="336-3" && $5==3) {print $1}}' Orthologues_Palindrome_sites.AllFrames.SECOND.txt |wc -l
+
+Sys.setenv("OPENSSL_CONF"="/dev/null")
+CountSpps <- c('336-3','PCC_8801','NIES-4102','PCC_7336','SCTE542')
+CountClades <- c('Callothrix_clade','Cyanobacterium_clade','Geminocystis_clade','Pseudoanabaena_clade','Thermosynechococcus_clade')
+
+ReadingFrames <- matrix(0,
+               nrow = 0,
+               ncol = 6)
+colnames(ReadingFrames) <- c("Clade","Spp","RF1","RF2","RF3","AllFrames")
+
+for (i in 1:length(CountSpps)){
+  EmptyVector <- c()
+  File = paste0("Clados/",CountClades[i],"/PALINDROMES/GCGATCGC/",CountSpps[i],"/Orthologues_Palindrome_sites.AllFrames.SECOND.txt")
+  commandA = paste0("awk '{if($2==\"",CountSpps[i],"\") {print $1}}' ",File," |wc -l")
+  All_Frames <- as.numeric(system(commandA, intern = TRUE))
+  EmptyVector <- cbind(EmptyVector,CountClades[i])
+  EmptyVector <- cbind(EmptyVector,CountSpps[i])
+  
+  for (RF in 1:3){
+    commandB = paste0("awk '{if($2==\"",CountSpps[i],"\" && $5==",RF,") {print $1}}' ",File," |wc -l")
+    RFCounts <- as.numeric(system(commandB, intern = TRUE))
+    EmptyVector <- cbind(EmptyVector,RFCounts)
+  }
+  EmptyVector <- cbind(EmptyVector,All_Frames)
+  ReadingFrames <- rbind(ReadingFrames,EmptyVector)
+}
+ReadingFrames <- as.data.frame(ReadingFrames)
+ReadingFrames <- transform(ReadingFrames, AllFrames = as.numeric(AllFrames))
+ReadingFrames <- transform(ReadingFrames, RF1 = as.numeric(RF1))
+ReadingFrames <- transform(ReadingFrames, RF2 = as.numeric(RF2))
+ReadingFrames <- transform(ReadingFrames, RF3 = as.numeric(RF3))
+
+kbl(ReadingFrames, align = "l",caption = "Conteo de sitios por marco de lectura.",longtable = TRUE,format = "html", escape = F) %>%
+  kable_paper(full_width = T) %>%
+  column_spec(1:2, bold = T) %>%
+  collapse_rows(columns = 1:2, valign = "top")%>%
+  kable_styling(c("striped", "condensed"), 
+                latex_options = "striped", 
+                full_width = F,
+                fixed_thead = T,
+                font_size = 11)
+
+```
+
 ## Clado Calothrix
 
 El clado calothrix contiene 6 especies  y es de interes ya que segun la filogenia estan estrechamente relacionadas y muestra un cambio en el palindromo mas abundante, pasando de **GCGATCGC** a **TGGCGCCA** (Figure \@ref(fig:FIG12)).
-```{r FIG12, echo=FALSE, fig.cap="**Filogenia anotada del clado Calothrix.** En esta imagen se muestra un cambio abrupto en la Frecuencia observada de **GCGCATCGC** en las especies PCC\\_6303, NIES-3974 y 336-3.", out.width="100%", fig.align='center'}
+```{r FIG12, echo=FALSE, fig.cap="**Filogenia anotada del clado Calothrix.** En esta imagen se muestra un cambio abrupto en la Frecuencia observada de **GCGCATCGC** en las especies NIES-4105, NIES-4071 y PCC\\_7716.", out.width="100%", fig.align='center'}
 knitr::include_graphics("Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia_HIG.png")
 ```
 
@@ -47,7 +156,7 @@ FORCE <- networkD3::forceNetwork(Links = edges_d3, Nodes = nodes_d3,
                         opacity = 1, fontSize = 16, zoom = TRUE)
 ```
 
-Para visualizar la red usamos la paqueteria ```networkD3```. Hicimos 2 figuras, la (Figura \@ref(fig:FIG13)) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En dicha red podemos ver algunos nodos con bordes muy gruesos como **GCAATTGC**, **GCAATCGC**, **GCAATAGC**, **GCGATTGC** (Tabla \@ref(tab:TAB6)).
+Para visualizar la red usamos la paqueteria ```networkD3```. Hicimos 2 figuras, la (Figura \@ref(fig:FIG13)) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En dicha red podemos ver algunos nodos con bordes muy gruesos como **GCGATTGC**, **GCAATTGC**, **GCTATCGC**, **GCTATTGC** (Tabla \@ref(tab:TAB6)).
 
 ```{r,echo=FALSE,message=FALSE,warning=FALSE,results='hide'}
 routes_tidy <- tidygraph::tbl_graph(nodes = nodes,
@@ -171,7 +280,7 @@ networkD3::sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", 
 
 #### Mutaciones en los codones
 
-Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG18)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
+Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG18)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran. En esta figura podemos observar que el marco de lectura es el que contiene la mayoria de los sitios
 
 ```{r FIG18, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 File= "Clados/Callothrix_clade/PALINDROMES/GCGATCGC/336-3/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
@@ -276,10 +385,6 @@ Para tratar de entender como es que los sitios HIP1 se pierden hicimos un análi
 
 En la (Figura \@ref(fig:FIG20)) mostramos 3 gráficos que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
 
-En la (Figura \@ref(fig:FIG21)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio HIP.
-
-En la (Figura \@ref(fig:FIG22)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
-
 ```{r FIG20, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**",message=FALSE,warning=FALSE,results='hide'}
 ##Cargo la tabla
 FileRF1 = "Clados/Callothrix_clade/PALINDROMES/GCGATCGC/336-3/codon_mutations_RF1.rooted.txt"
@@ -325,6 +430,8 @@ ggplot2::ggplot(tableM3.SType, ggplot2::aes(x = reorder(Spp, -Counts), y = Count
   ggplot2::xlab("Nodo") + ggplot2::ylab("Conteo") + ggplot2::labs(fill = "Substitution Type")+
   ggplot2::geom_text(ggplot2::aes(label = Counts, group = SType), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
+
+En la (Figura \@ref(fig:FIG21)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio HIP.
 
 ```{r FIG21, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
 ##Quito los casos que tengan deleciones
@@ -411,6 +518,8 @@ ggplot2::ggplot(dfC, ggplot2::aes(x = reorder(Nodo, -Count), y = Count, fill = N
   ggplot2::xlab("Nodo") + ggplot2::ylab("Conteo") + ggplot2::labs(fill = "Substitution Position")+
   ggplot2::geom_text(ggplot2::aes(label = Count, group = NucPos), position = ggplot2::position_dodge(0.9), vjust = -0.3, size = 3.5)
 ```
+
+En la (Figura \@ref(fig:FIG22)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
 
 ```{r FIG22, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.",message=FALSE,warning=FALSE,results='hide'}
 TR <- tableRF1[ , c(2,33,34,35,36,37,38,39,40)]
