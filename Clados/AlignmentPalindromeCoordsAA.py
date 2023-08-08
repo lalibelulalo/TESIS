@@ -72,17 +72,22 @@ pattern = pattern[:-4]
 
 
 k=0
+l=0
+l1=0
+l2=0
+l3=0
 RF1=0
 RF2=0
 RF3=0
 for orthologue in Orthologues:
     file = re.sub('\.fna\.awk1\.mafft\.phy', '', orthologue)
     FNA = str("".join ([SequencesDir,orthologue]))
-    spps = [str(record.description) for record in SeqIO.parse(open(FNA),'phylip')]
-    sequencesDict = {str(record.description):str(record.seq) for record in SeqIO.parse(open(FNA),'phylip')}
-    Sites = [match.span()[0] for match in re.finditer(pattern, sequencesDict[SPP])]
-    EndSites = [match.span()[1] for match in re.finditer(pattern, sequencesDict[SPP])]
-    j=0
+    spps = [str(record.description) for record in SeqIO.parse(open(FNA),'phylip')]## Guardo las especies (del enacbezado) en una lista
+    sequencesDict = {str(record.description):str(record.seq) for record in SeqIO.parse(open(FNA),'phylip')}## Creo un diccionario. La llave es la especie y el valor es la secuencia nucleotídica
+    Sites = [match.span()[0] for match in re.finditer(pattern, sequencesDict[SPP])]## Busco el INICIO del patron unicamente en la llave (especie) que me interesa. Guardo estos sitios en un arreglo.
+    EndSites = [match.span()[1] for match in re.finditer(pattern, sequencesDict[SPP])]## Busco el FINAL del patron unicamente en la llave (especie) que me interesa. Guardo estos sitios en un arreglo.
+    
+    j=0 ## Iniciamos contador en 0. El primer sitio.
     for site in Sites:
         k += 1
         for spp in spps:    
@@ -104,6 +109,8 @@ for orthologue in Orthologues:
                 RF3+=1
                 
             if len(kmer)==8 and RF ==1:
+                l += 1
+                l1 += 1
                 AAstart = int(((start+3)/3)-1)
                 AAend = AAstart+3
                 AAseq = sequencesDict[spp]
@@ -112,10 +119,12 @@ for orthologue in Orthologues:
                 codon2 = sequencesDict[spp][site+3:site+3+3]
                 codon3 = sequencesDict[spp][site+3+3:site+3+3+3]
                 word = " ".join ([codon1,codon2,codon3])
-                print ('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
+                ##print ('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
                 output.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
                 #outputM1.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
             elif len(kmer)==8 and RF ==2:
+                l += 1
+                l2 += 1
                 AAstart = int(((start+2)/3)-1)
                 AAend = AAstart+3
                 AAseq = sequencesDict[spp]
@@ -124,10 +133,12 @@ for orthologue in Orthologues:
                 codon2 = sequencesDict[spp][site-1+3:site-1+3+3]
                 codon3 = sequencesDict[spp][site-1+3+3:site-1+3+3+3]
                 word = " ".join ([codon1,codon2,codon3])
-                print ('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
+                ##print ('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
                 output.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
                 #outputM2.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
             elif len(kmer)==8 and RF ==3:
+                l += 1
+                l3 += 1
                 AAstart = int(((start+1)/3)-1)
                 AAend = AAstart+4
                 AAseq = sequencesDict[spp]
@@ -137,18 +148,29 @@ for orthologue in Orthologues:
                 codon3 = sequencesDict[spp][site-2+3+3:site-2+3+3+3]
                 codon4 = sequencesDict[spp][site-2+3+3+3:site-2+3+3+3+3]
                 word = " ".join ([codon1,codon2,codon3,codon4])
-                print ('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
+                ##print ('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
                 output.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
                 #outputM3.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
         j += 1
-        print ('_________________________________________________________________________\n')
+        ##print ('_________________________________________________________________________\n')
         #k = k + len(Sites)
 output.close()
 #outputM1.close()
 #outputM2.close()
 #outputM3.close()
-print ("TOTAL: {} sitios".format(k))
 
-print ("Hay {} sitios en el marco de lectura 1.".format(RF1/len(spps)))
-print ("Hay {} sitios en el marco de lectura 2.".format(RF2/len(spps)))
-print ("Hay {} sitios en el marco de lectura 3.".format(RF3/len(spps)))
+print ("\n\nMARCO DE LECTURA 1:")
+print ("{} sitios interrumpidos.".format(((RF1/len(spps))-(l1/len(spps)))))
+print ("{} sitios sin interrumpir.\n".format(l1/len(spps)))
+
+print ("MARCO DE LECTURA 2:")
+print ("{} sitios interrumpidos.".format(((RF2/len(spps))-(l2/len(spps)))))
+print ("{} sitios sin interrumpir.\n".format(l2/len(spps)))
+
+print ("MARCO DE LECTURA 3:")
+print ("{} sitios interrumpidos.".format(((RF3/len(spps))-(l3/len(spps)))))
+print ("{} sitios sin interrumpir.\n".format(l3/len(spps)))
+print ("-----------------------------------")
+print ("Hay {} sitios sin interrumpir.".format(l/(len(spps))))
+print ("Hay {} sitios interrumpidos.".format(k -(l/(len(spps)))))
+print ("TOTAL: {} sitios.\n".format(k))

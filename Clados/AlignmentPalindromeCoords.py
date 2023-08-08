@@ -41,8 +41,8 @@ for Orthologue in Orthologues:
                 end = match.span()[1]
                 if len(site)==8:
                     k += 1
-                    print ('{}\t{}\t{}\t{}:{}'.format(i,Orthologue,site,start+1,end))
+                    ##print ('{}\t{}\t{}\t{}:{}'.format(i,Orthologue,site,start+1,end))
                     output.write('{}\t{}\t{}\t{}\n'.format(Orthologue,site,start+1,end))
-    print ('_________________________________________________________________________\n')
+    ##print ('_________________________________________________________________________\n')
 output.close()
 print ("TOTAL: {} sitios".format(k))

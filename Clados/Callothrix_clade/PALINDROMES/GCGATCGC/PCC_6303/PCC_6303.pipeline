@@ -37,7 +37,7 @@ python3 ../../../../Fasta2Phylip.py Only_ORTHOLOGUES/
 
 python3 ../../../../AlignmentPalindromeCoords.py Only_ORTHOLOGUES/ GCGATCGC PCC_6303
 
-python3 ../../../../AlignmentPalindromeCoordsAA.py Only_ORTHOLOGUES/ GCGATCGC PCC_6303 FIRST
+python3 ../../../../AlignmentPalindromeCoordsAA.py Only_ORTHOLOGUES/ GCGATCGC PCC_6303 FIRST >FIRST.output
 ---
 R
 source("/home/lalibelulalo/TESIS/ASR_Orth_Functions/NodeAndEdges.R")
@@ -56,7 +56,7 @@ mv Only_ORTHOLOGUES/*.RECONSTRUCTION.fasta RECONSTRUCCIONES
 
 python3 ../../../../Fasta2Phylip.py RECONSTRUCCIONES/
 
-python3 ../../../../AlignmentPalindromeCoordsAA.py RECONSTRUCCIONES/ GCGATCGC PCC_6303 SECOND
+python3 ../../../../AlignmentPalindromeCoordsAA.py RECONSTRUCCIONES/ GCGATCGC PCC_6303 SECOND >SECOND.output
 ---
 R
 source("/home/lalibelulalo/TESIS/ASR_Orth_Functions/NodeAndEdges.R")
