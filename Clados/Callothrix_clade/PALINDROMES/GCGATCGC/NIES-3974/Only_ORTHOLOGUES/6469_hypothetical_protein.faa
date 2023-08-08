@@ -1,0 +1,12 @@
+>ID:WP_035157479.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|204|NZ_CP011382(6283267):5703559-5703762:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035157475.1(1),ID:WP_046814906.1(-1)|neighbour_genes:def,cellulase family gly..| | aligned:1-67 (67)
+MYMTPKSGIFLGAACITAIAAVGSIFELSSGTPDLGTQTTAIILALSIPLTVLLFFAAVKDTKANIK
+>ID:WP_096620885.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|hypothetical protein|204|NZ_AP018254(5985875):1468086-1468289:1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096620884.1(1),ID:WP_096620886.1(1)|neighbour_genes:def,S8 family peptidase| | aligned:1-67 (67)
+MYMTPKSGLLLAGSCITAIAAVGSVFELTSGQPDFGTQNTAIILALSIPLTIIFFLAAVKDTKANIK
+>ID:WP_096687507.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|204|NZ_AP018255(11064963):3402930-3403133:1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096687506.1(1),ID:WP_096687508.1(1)|neighbour_genes:def,S8 family peptidase| | aligned:1-67 (67)
+MYLTPKSGFFLAISCVTAIAAVGSVFELSYGQPNFGTQTTAIILALSIPLTILSFLAAVKDAKANIK
+>ID:WP_096687507.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|204|NZ_AP018290(11062175):3403139-3403342:1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096687506.1(1),ID:WP_096687508.1(1)|neighbour_genes:def,S8 family peptidase| | aligned:1-67 (67)
+MYLTPKSGFFLAISCVTAIAAVGSVFELSYGQPNFGTQTTAIILALSIPLTILSFLAAVKDAKANIK
+>ID:WP_015200653.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|204|NC_019751(6767834):6194280-6194483:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015200652.1(1),ID:WP_015200654.1(1)|neighbour_genes:def,hypothetical protein| | aligned:1-67 (67)
+MYLTPKSGLLLLVSCVSAIAAVGCVFELTSGQPDLGNQNTAIILAVSIPLTVLAFLAAVRDAKDNME
+>ID:WP_019489829.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|204|NZ_AP025018(11423121):7132142-7132345:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224174697.1(1),ID:WP_224174698.1(1)|neighbour_genes:def,S8 family peptidase| | aligned:1-67 (67)
+MYLTPKSGFFLAVSCVTAIAAVGSVFELSYGQPNLGTQTTAIILALSIPATVLSFLAAVKDAKTNMK

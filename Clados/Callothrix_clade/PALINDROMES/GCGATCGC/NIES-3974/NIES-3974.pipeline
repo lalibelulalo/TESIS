@@ -1,0 +1,76 @@
+
+awk '{if ($5!=0 && $2=="Calothrix_sp_NIES-3974"){print $1}}' ../../../Markov_count_GCGATCGC_2023-5-7_18hrs43mins_Octanuc_.txt | sed 's/.fna//g' | uniq >Ortologos_GCGATCGC_Calothrix_sp_NIES-3974.txt
+
+mkdir Orthologues_GCGATCGC_Calothrix_sp_NIES-3974
+
+cd ../../../gbff_homologues/CalothrixspNIES-3974NIES-3974_f0_0taxa_algOMCL_e0_
+
+for word in $(cat ../../PALINDROMES/GCGATCGC/NIES-3974/Ortologos_GCGATCGC_Calothrix_sp_NIES-3974.txt); do cp $word.fna ../../PALINDROMES/GCGATCGC/NIES-3974/Orthologues_GCGATCGC_Calothrix_sp_NIES-3974; done
+
+for word in $(cat ../../PALINDROMES/GCGATCGC/NIES-3974/Ortologos_GCGATCGC_Calothrix_sp_NIES-3974.txt); do cp $word.faa ../../PALINDROMES/GCGATCGC/NIES-3974/Orthologues_GCGATCGC_Calothrix_sp_NIES-3974; done
+
+cd ../../PALINDROMES/GCGATCGC/NIES-3974/
+
+mkdir Only_ORTHOLOGUES
+mkdir PARALOGUES
+
+python3 ../../../../FiltradoParalogos.py Orthologues_GCGATCGC_Calothrix_sp_NIES-3974/ 6
+
+cd Only_ORTHOLOGUES/
+
+for f in *.fna; do awk -F "|" '{if (NR%2){print ">"$2}else{print $1}}' $f | sed 's/ /_/g' | sed 's/\.//g' | sed 's/\[//g' | sed 's/\]//g' | sed 's/\//-/g' | sed 's/Calothrix_sp_//g' >$f.awk1;done
+
+for f in *.faa; do awk -F "|" '{if (NR%2){print ">"$2}else{print $1}}' $f | sed 's/ /_/g' | sed 's/\.//g' | sed 's/\[//g' | sed 's/\]//g' | sed 's/\//-/g' | sed 's/Calothrix_sp_//g' >$f.awk1;done
+
+
+---
+for f in *faa.awk1; do mafft $f >$f.mafft;done
+
+ls *.fna | sed 's/.fna//g' >../only.orthologues.txt
+
+for f in $(cat ../only.orthologues.txt); do perl ../../../../../pal2nal.pl $f.faa.awk1.mafft $f.fna.awk1 -output fasta >$f.codon.alg.fasta;done
+---
+
+cd ..
+
+python3 ../../../../Fasta2Phylip.py Only_ORTHOLOGUES/
+
+python3 ../../../../AlignmentPalindromeCoords.py Only_ORTHOLOGUES/ GCGATCGC NIES-3974
+
+python3 ../../../../AlignmentPalindromeCoordsAA.py Only_ORTHOLOGUES/ GCGATCGC NIES-3974 FIRST
+---
+R
+source("/home/lalibelulalo/TESIS/ASR_Orth_Functions/NodeAndEdges.R")
+setwd('/home/lalibelulalo/TESIS/Clados/Callothrix_clade/PALINDROMES/GCGATCGC/NIES-3974/')
+Create_Reconstruction_Files(SitesTable = "Orthologues_Palindrome_sites.AllFrames.FIRST.txt",
+                            EvolutionModel = "F81",
+                            Method ="bayes",
+                            Phylogeny = "../../../SpeciesTree_rooted.txt",
+                            OrthoPath = "Only_ORTHOLOGUES/",
+                            TAXON = 'NIES-3974')
+
+---
+mkdir RECONSTRUCCIONES
+
+mv Only_ORTHOLOGUES/*.RECONSTRUCTION.fasta RECONSTRUCCIONES
+
+python3 ../../../../Fasta2Phylip.py RECONSTRUCCIONES/
+
+python3 ../../../../AlignmentPalindromeCoordsAA.py RECONSTRUCCIONES/ GCGATCGC NIES-3974 SECOND
+---
+R
+source("/home/lalibelulalo/TESIS/ASR_Orth_Functions/NodeAndEdges.R")
+for(RF in 1:3){ ## Para los tres marcos de lectura (RF)
+  CreateCodonMutationsTable(Tree = '../../../SpeciesTree_rooted.txt',
+                            Second = 'Orthologues_Palindrome_sites.AllFrames.SECOND.txt',
+                            TaxonNumber = 6,
+                            RF = RF)
+  system(paste0('python3 ../../../../CodonMutations.py RF',RF,'.RECONSTRUCTION.rooted.parents.txt ',RF,' codon_mutations_RF',RF,'.rooted.txt GCGATCGC'))
+}
+---
+
+
+
+
+
+

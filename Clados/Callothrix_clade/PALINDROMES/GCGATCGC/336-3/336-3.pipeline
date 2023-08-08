@@ -40,7 +40,8 @@ python3 ../../../../AlignmentPalindromeCoords.py Only_ORTHOLOGUES/ GCGATCGC 336-
 python3 ../../../../AlignmentPalindromeCoordsAA.py Only_ORTHOLOGUES/ GCGATCGC 336-3 FIRST
 ---
 R
-setwd('/home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Callothrix_clade/PALINDROMES/GCGATCGC/336-3/')
+source("/home/lalibelulalo/TESIS/ASR_Orth_Functions/NodeAndEdges.R")
+setwd('/home/lalibelulalo/TESIS/Clados/Callothrix_clade/PALINDROMES/GCGATCGC/336-3/')
 Create_Reconstruction_Files(SitesTable = "Orthologues_Palindrome_sites.AllFrames.FIRST.txt",
                             EvolutionModel = "F81",
                             Method ="bayes",

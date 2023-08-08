@@ -1,0 +1,12 @@
+>ID:WP_035155867.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|225|NZ_CP011382(6283267):4770138-4770362:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035155864.1(1),ID:WP_035155870.1(1)|neighbour_genes:infB,peptidylprolyl isome..| | aligned:14-74 (74)
+MAQTSLNSTPQNPLINGEHQSPYDTEIWYSLKCAIAASSGFQGWQLERETQLQSLNLEQQVQKYLRETLENLAY
+>ID:WP_096621383.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|hypothetical protein|198|NZ_AP018254(5985875):2200334-2200531:1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_157780687.1(1),ID:WP_096621384.1(1)|neighbour_genes:hypothetical protein,SDR family oxidoredu..| | aligned:1-65 (65)
+MSLINASNTHPEMADTEIWQSLKQAIASSSGFQRWLLESNSQLQSLSLDRQVQRYLRETLENLAY
+>ID:WP_096691819.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|hypothetical protein|195|NZ_AP018255(11064963):9012997-9013191:1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096691818.1(1),ID:WP_096694469.1(-1)|neighbour_genes:translation initiati..,alpha/beta hydrolase| | aligned:1-64 (64)
+MGNINLSENNGIADTEIWDSLQHAIAASSGFLRWQLEAGAKFHDLRLEEQVQKYLRETLENLAY
+>ID:WP_096691819.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|hypothetical protein|195|NZ_AP018290(11062175):9010331-9010525:1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096691818.1(1),ID:WP_096694469.1(-1)|neighbour_genes:translation initiati..,alpha/beta hydrolase| | aligned:1-64 (64)
+MGNINLSENNGIADTEIWDSLQHAIAASSGFLRWQLEAGAKFHDLRLEEQVQKYLRETLENLAY
+>ID:WP_015197518.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|198|NC_019751(6767834):2197277-2197474:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015197517.1(1),ID:WP_015197519.1(-1)|neighbour_genes:hypothetical protein,tetratricopeptide re..| | aligned:1-65 (65)
+MINIQASSDRSRVADTEIWQSLKNAIASSSGFQRWLSESTAQIQSFRLDEQVQRYLRETLENLAY
+>ID:WP_223981591.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|195|NZ_AP025018(11423121):818067-818261:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_255666770.1(1),ID:WP_223981594.1(-1)|neighbour_genes:infB,alpha/beta hydrolase| | aligned:1-64 (64)
+MGNINLESNNNIADTEIWNSLQQAIGASSGFLRWQLEAGAKYQNLRREEQVQRYLRETLENLAY
