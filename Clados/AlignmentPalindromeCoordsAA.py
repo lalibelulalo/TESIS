@@ -62,7 +62,7 @@ def translate(seq):
     return protein
 
     
-Orthologues = [x for x in os.listdir(SequencesDir) if x.endswith(".phy")] ## creo un arreglo con todos los ortólogis de la carpeta
+Orthologues = [x for x in os.listdir(SequencesDir) if x.endswith(".phy")] ## creo un arreglo con todos los ortólogos de la carpeta
 #pattern = '[cC][-]*[gG][-]*[gG][-]*[cC][-]*[gG][-]*[cC][-]*[cC][-]*[gG]'
 pattern = re.sub('G', '[gG][-]*', pattern)
 pattern = re.sub('C', '[cC][-]*', pattern)
@@ -159,18 +159,31 @@ output.close()
 #outputM2.close()
 #outputM3.close()
 
-print ("\n\nMARCO DE LECTURA 1:")
-print ("{} sitios interrumpidos.".format(((RF1/len(spps))-(l1/len(spps)))))
-print ("{} sitios sin interrumpir.\n".format(l1/len(spps)))
+RF1I = int(((RF1/len(spps))-(l1/len(spps))))
+RF2I = int(((RF2/len(spps))-(l2/len(spps))))
+RF3I = int(((RF3/len(spps))-(l3/len(spps))))
+RFAU = int(l/(len(spps)))
+RF1U = int(l1/len(spps))
+RF2U = int(l2/len(spps))
+RF3U = int(l3/len(spps))
+RFAI = int(k -(l/(len(spps))))
 
-print ("MARCO DE LECTURA 2:")
-print ("{} sitios interrumpidos.".format(((RF2/len(spps))-(l2/len(spps)))))
-print ("{} sitios sin interrumpir.\n".format(l2/len(spps)))
+RFoutput = open ('Reading_Frame_Counts.txt', 'w') ## Abrimos el archivo de salida
+RFoutput.write("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}".format(SPP,RF1U,RF2U,RF3U,RF1I,RF2I,RF3I,RFAU,RFAI))
+RFoutput.close()
 
-print ("MARCO DE LECTURA 3:")
-print ("{} sitios interrumpidos.".format(((RF3/len(spps))-(l3/len(spps)))))
-print ("{} sitios sin interrumpir.\n".format(l3/len(spps)))
+print ("RF1:")
+print ("{}\tinterrupted sites.".format(RF1I))
+print ("{}\tUNinterrupted sites.\n".format(RF1U))
+
+print ("RF2:")
+print ("{}\tinterrupted sites.".format(RF2I))
+print ("{}\tUNinterrupted sites.\n".format(RF2U))
+
+print ("RF3:")
+print ("{}\tinterrupted sites.".format(RF3I))
+print ("{}\tUNinterrupted sites.\n".format(RF3U))
 print ("-----------------------------------")
-print ("Hay {} sitios sin interrumpir.".format(l/(len(spps))))
-print ("Hay {} sitios interrumpidos.".format(k -(l/(len(spps)))))
-print ("TOTAL: {} sitios.\n".format(k))
+print ("There are {}\tinterrupted sites.".format(RFAI))
+print ("There are {}\tUNinterrupted sites.".format(RFAU))
+print ("TOTAL: {}\tsites.\n".format(int(k)))

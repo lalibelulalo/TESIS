@@ -1,0 +1,83 @@
+
+awk '{if ($5!=0 && $2=="Geminocystis_herdmanii_PCC_6308"){print $1}}' ../../../Markov_count_GCGATCGC_2023-7-13_14hrs46mins_Octanuc_M3_.txt | sed 's/.fna//g' | uniq >Ortologos_GCGATCGC_Geminocystis_herdmanii_PCC_6308.txt
+
+mkdir Orthologues_GCGATCGC_Geminocystis_herdmanii_PCC_6308
+
+cd ../../../gbff_homologues/EuhalothecenatronophilaZ-M001GCF007904085_f0_0taxa_algOMCL_e0_/
+
+for word in $(cat ../../PALINDROMES/GCGATCGC/PCC_6308/Ortologos_GCGATCGC_Geminocystis_herdmanii_PCC_6308.txt); do cp $word.fna ../../PALINDROMES/GCGATCGC/PCC_6308/Orthologues_GCGATCGC_Geminocystis_herdmanii_PCC_6308; done
+
+for word in $(cat ../../PALINDROMES/GCGATCGC/PCC_6308/Ortologos_GCGATCGC_Geminocystis_herdmanii_PCC_6308.txt); do cp $word.faa ../../PALINDROMES/GCGATCGC/PCC_6308/Orthologues_GCGATCGC_Geminocystis_herdmanii_PCC_6308; done
+
+cd ../../PALINDROMES/GCGATCGC/PCC_6308/
+
+mkdir Only_ORTHOLOGUES
+mkdir PARALOGUES
+
+python3 ../../../../FiltradoParalogos.py Orthologues_GCGATCGC_Geminocystis_herdmanii_PCC_6308/ 11
+
+cd Only_ORTHOLOGUES/
+
+for f in *.fna; do awk -F "|" '{if (NR%2){print ">"$2}else{print $1}}' $f | sed 's/ /_/g' | sed 's/\.//g' | sed 's/\[//g' | sed 's/\]//g' | sed 's/\//-/g' | sed 's/Chamaesiphon_minutus_PCC_6605/PCC_6605/g' | sed 's/Chondrocystis_sp_NIES-4102/NIES-4102/g' | sed 's/Cyanobacterium_aponinum_PCC_10605/PCC_10605/g' | sed 's/Dactylococcopsis_salina_PCC_8305/PCC_8305/g' | sed 's/Euhalothece_natronophila_Z-M001/Z-M001/g' | sed 's/Geminocystis_herdmanii_PCC_6308/PCC_6308/g' | sed 's/Geminocystis_sp_NIES-3708/NIES-3708/g' | sed 's/Geminocystis_sp_NIES-3709/NIES-3709/g' | sed 's/Halothece_sp_PCC_7418/PCC_7418/g' | sed 's/Stanieria_cyanosphaera_PCC_7437/PCC_7437/g' | sed 's/Stanieria_sp_NIES-3757/NIES-3757/g' >$f.awk1;done
+
+for f in *.faa; do awk -F "|" '{if (NR%2){print ">"$2}else{print $1}}' $f | sed 's/ /_/g' | sed 's/\.//g' | sed 's/\[//g' | sed 's/\]//g' | sed 's/\//-/g' | sed 's/Chamaesiphon_minutus_PCC_6605/PCC_6605/g' | sed 's/Chondrocystis_sp_NIES-4102/NIES-4102/g' | sed 's/Cyanobacterium_aponinum_PCC_10605/PCC_10605/g' | sed 's/Dactylococcopsis_salina_PCC_8305/PCC_8305/g' | sed 's/Euhalothece_natronophila_Z-M001/Z-M001/g' | sed 's/Geminocystis_herdmanii_PCC_6308/PCC_6308/g' | sed 's/Geminocystis_sp_NIES-3708/NIES-3708/g' | sed 's/Geminocystis_sp_NIES-3709/NIES-3709/g' | sed 's/Halothece_sp_PCC_7418/PCC_7418/g' | sed 's/Stanieria_cyanosphaera_PCC_7437/PCC_7437/g' | sed 's/Stanieria_sp_NIES-3757/NIES-3757/g' >$f.awk1;done
+
+#---
+for f in *faa.awk1; do mafft $f >$f.mafft;done
+
+ls *.fna | sed 's/.fna//g' >../only.orthologues.txt
+
+for f in $(cat ../only.orthologues.txt); do perl ../../../../../pal2nal.pl $f.faa.awk1.mafft $f.fna.awk1 -output fasta >$f.codon.alg.fasta;done
+
+#---
+
+cd ..
+
+python3 ../../../../Fasta2Phylip.py Only_ORTHOLOGUES/
+python3 ../../../../AlignmentPalindromeCoords.py Only_ORTHOLOGUES/ GCGATCGC PCC_6308
+python3 ../../../../AlignmentPalindromeCoordsAA.py Only_ORTHOLOGUES/ GCGATCGC PCC_6308 FIRST >FIRST.output
+
+
+---
+R
+source("/home/lalibelulalo/TESIS/ASR_Orth_Functions/NodeAndEdges.R")
+#setwd('/home/lalibelulalo/PIPELINES_2023/ASR_ORTHOLOGUES/Geminocystis_clade/PALINDROMES/GCGATCGC/PCC_6308/')
+Create_Reconstruction_Files(SitesTable = "Orthologues_Palindrome_sites.AllFrames.FIRST.txt",
+                            EvolutionModel = "F81",
+                            Method ="bayes",
+                            Phylogeny = "../../../SpeciesTree_rooted.txt",
+                            OrthoPath = "Only_ORTHOLOGUES/",
+                            TAXON = 'PCC_6308')
+
+system('mkdir RECONSTRUCCIONES')
+system('mv Only_ORTHOLOGUES/*.RECONSTRUCTION.fasta RECONSTRUCCIONES')
+
+system('python3 ../../../../Fasta2Phylip.py RECONSTRUCCIONES/')
+system('python3 ../../../../AlignmentPalindromeCoordsAA.py RECONSTRUCCIONES/ GCGATCGC PCC_6308 SECOND >SECOND.output')
+
+for(RF in 1:3){ ## Para los tres marcos de lectura (RF)
+  CreateCodonMutationsTable(Tree = '../../../SpeciesTree_rooted.txt',
+                            Second = 'Orthologues_Palindrome_sites.AllFrames.SECOND.txt',
+                            TaxonNumber = 11,
+                            RF = RF)
+  system(paste0('python3 ../../../../CodonMutations.py RF',RF,'.RECONSTRUCTION.rooted.parents.txt ',RF,' codon_mutations_RF',RF,'.rooted.txt GCGATCGC'))
+}
+
+system('cat codon_mutations_RF1.rooted.txt codon_mutations_RF2.rooted.txt codon_mutations_RF3.rooted.txt >codon_mutations_AllF.rooted.txt')
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

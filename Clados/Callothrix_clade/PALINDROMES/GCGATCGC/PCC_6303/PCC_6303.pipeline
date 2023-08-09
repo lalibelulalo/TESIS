@@ -68,7 +68,15 @@ for(RF in 1:3){ ## Para los tres marcos de lectura (RF)
   system(paste0('python3 ../../../../CodonMutations.py RF',RF,'.RECONSTRUCTION.rooted.parents.txt ',RF,' codon_mutations_RF',RF,'.rooted.txt GCGATCGC'))
 }
 ---
+cat codon_mutations_RF1.rooted.txt codon_mutations_RF2.rooted.txt codon_mutations_RF3.rooted.txt >codon_mutations_AllF.rooted.txt
 
+## sitios PCC_6303 que comparten posicion con 336-3
+awk '{if($2=="PCC_6303" && $24=="SITE"){print $0}}' codon_mutations_AllF.rooted.txt |wc -l
+## 1037
+
+## sitios PCC_6303 que comparten posicion con NIES-3974
+awk '{if($2=="NIES-3974" && $24=="SITE"){print $0}}' codon_mutations_AllF.rooted.txt |wc -l
+## 1082
 
 
 

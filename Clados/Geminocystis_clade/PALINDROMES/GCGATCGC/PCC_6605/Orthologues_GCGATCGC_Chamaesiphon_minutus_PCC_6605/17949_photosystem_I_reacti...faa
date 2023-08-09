@@ -1,0 +1,22 @@
+>ID:WP_015162045.1 |[Chamaesiphon minutus PCC 6605]|PCC 6605|Chamaesiphon_minutus_PCC_6605_GCF_000317145.1_genomic.gbff|psaI|108|NC_019697(6284095):5353549-5353656:1 ^^ Chamaesiphon minutus PCC 6605, complete sequence.|neighbours:ID:WP_015162044.1(1),ID:WP_015162046.1(-1)|neighbour_genes:hypothetical protein,photosystem II react..| | aligned:2-34 (35)
+MAASFLPSILVPTVGLVFPAIAMAFLFMYIDRDSI
+>ID:WP_096720613.1 |[Chondrocystis sp. NIES-4102]|NIES-4102|Chondrocystis_sp_NIES-4102_GCF_002368355.1_genomic.gbff|photosystem I reacti..|126|NZ_AP018281(4516676):2567615-2567740:1 ^^ Chondrocystis sp. NIES-4102 DNA, complete genome.|neighbours:ID:WP_096720611.1(-1),ID:WP_096720615.1(1)|neighbour_genes:photosystem I reacti..,AAA family ATPase| | aligned:1-38 (41)
+MIGSYAASWLPIAMVPLVGIVGAAISMALLHVYIEGESETK
+>ID:WP_041922957.1 |[Cyanobacterium aponinum PCC 10605]|PCC 10605|Cyanobacterium_aponinum_PCC_10605_GCF_000317675.1_genomic.gbff|photosystem I reacti..|117|NC_019776(4114099):3778998-3779114:1 ^^ Cyanobacterium aponinum PCC 10605, complete sequence.|neighbours:ID:WP_206536282.1(-1),ID:WP_015220964.1(-1)|neighbour_genes:photosystem I reacti..,class I SAM-dependen..| | aligned:1-38 (38)
+MLGDFAASFLPAILVPAVGLVMPAVVMGLLFLQIESEA
+>ID:WP_015230764.1 |[Dactylococcopsis salina PCC 8305]|PCC 8305|Dactylococcopsis_salina_PCC_8305_GCF_000317615.1_genomic.gbff|photosystem I reacti..|117|NC_019780(3781008):3371413-3371529:1 ^^ Dactylococcopsis salina PCC 8305, complete sequence.|neighbours:ID:WP_015230763.1(1),ID:WP_015230765.1(1)|neighbour_genes:photosystem I reacti..,ndhC| | aligned:1-38 (38)
+MTGEYAASFLPLILVPAVGLLMPAVVMGLLFIYIESEA
+>ID:WP_146294428.1 |[Euhalothece natronophila Z-M001]|Z-M001|Euhalothece_natronophila_Z-M001_GCF_007904085.1_genomic.gbff|photosystem I reacti..|117|NZ_CP042326(3326959):447994-448110:1 ^^ Euhalothece natronophila Z-M001 chromosome, complete genome.|neighbours:ID:WP_146294427.1(1),ID:WP_146294429.1(1)|neighbour_genes:photosystem I reacti..,transposase| | aligned:1-38 (38)
+MSGDYAASFLPYILIPVVGWLMPAVVMGLLFIHIESDA
+>ID:WP_017295711.1 |[Geminocystis herdmanii PCC 6308]|PCC 6308|Geminocystis_herdmanii_PCC_6308_GCF_000332235.1_genomic.gbff|photosystem I reacti..|117|NZ_CM001775(4263418):3443187-3443303:-1 ^^ Geminocystis herdmanii PCC 6308 chromosome, whole genome shotgun sequence.|neighbours:ID:WP_017295710.1(1),ID:WP_202803917.1(1)|neighbour_genes:DUF2993 domain-conta..,photosystem I reacti..| | aligned:1-38 (38)
+MIGDFAAAFLPSILVPAVGLVMPAVVMGLLFLQIESEA
+>ID:WP_017295711.1 |[Geminocystis sp. NIES-3708]|NIES-3708|Geminocystis_sp_NIES-3708_GCF_001548095.1_genomic.gbff|photosystem I reacti..|117|NZ_AP014815(3883409):1444120-1444236:-1 ^^ Geminocystis sp. NIES-3708 chromosome, complete genome.|neighbours:ID:WP_066344932.1(-1),ID:WP_066344937.1(1)|neighbour_genes:hflX,photosystem I reacti..| | aligned:1-38 (38)
+MIGDFAAAFLPSILVPAVGLVMPAVVMGLLFLQIESEA
+>ID:WP_066121282.1 |[Geminocystis sp. NIES-3709]|NIES-3709|Geminocystis_sp_NIES-3709_GCF_001548115.1_genomic.gbff|photosystem I reacti..|117|NZ_AP014821(4150181):3844304-3844420:1 ^^ Geminocystis sp. NIES-3709 chromosome, complete genome.|neighbours:ID:WP_197671908.1(-1),ID:WP_066121284.1(-1)|neighbour_genes:photosystem I reacti..,fasciclin domain-con..| | aligned:1-38 (38)
+MIGDFAASFLPTVFVPIVGWVFPAVVMGLLFLHFESEA
+>ID:WP_015224773.1 |[Halothece sp. PCC 7418]|PCC 7418|Halothece_sp_PCC_7418_GCF_000317635.1_genomic.gbff|photosystem I reacti..|117|NC_019779(4179170):747797-747913:1 ^^ Halothece sp. PCC 7418, complete sequence.|neighbours:ID:WP_015224772.1(1),ID:WP_015224774.1(-1)|neighbour_genes:photosystem I reacti..,SHOCT domain-contain..| | aligned:1-38 (38)
+MTGEYAASFLPLILVPAVGLLMPAVTMGLLFIYIESDA
+>ID:WP_015193669.1 |[Stanieria cyanosphaera PCC 7437]|PCC 7437|Stanieria_cyanosphaera_PCC_7437_GCF_000317575.1_genomic.gbff|photosystem I reacti..|117|NC_019748(5041209):2783313-2783429:1 ^^ Stanieria cyanosphaera PCC 7437, complete sequence.|neighbours:ID:WP_015193668.1(1),ID:WP_015193670.1(-1)|neighbour_genes:photosystem I reacti..,hypothetical protein| | aligned:1-38 (38)
+MTGTYAAAYLPWIFIPVICWLMPAVVMGLLFIYIESEI
+>ID:WP_015193669.1 |[Stanieria sp. NIES-3757]|NIES-3757|Stanieria_sp_NIES-3757_GCF_002355455.1_genomic.gbff|photosystem I reacti..|117|NZ_AP017375(5319768):5229198-5229314:-1 ^^ Stanieria sp. NIES-3757 DNA, complete genome.|neighbours:ID:WP_096388172.1(1),ID:WP_096387520.1(-1)|neighbour_genes:hypothetical protein,photosystem I reacti..| | aligned:1-38 (38)
+MTGTYAAAYLPWIFIPVICWLMPAVVMGLLFIYIESEI
