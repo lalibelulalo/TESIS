@@ -1,0 +1,24 @@
+>ID:WP_010477430.1 |[Acaryochloris marina MBIC11017]|MBIC11017|Acaryochloris_marina_MBIC11017_GCF_000018105.1_genomic.gbff|rpmI|198|NC_009925(6503724):2114302-2114499:-1 ^^ Acaryochloris marina MBIC11017, complete sequence.|neighbours:ID:WP_010477428.1(-1),ID:WP_012162622.1(1)|neighbour_genes:rplT,clpB| | aligned:1-65 (65)
+MPKLKTRRSAAKRFKRSGSGKFMRRKAYKNHLLEHKGPDRKSRLSKKCVVSEQDAENVRAMMPYS
+>ID:WP_010477430.1 |[Acaryochloris marina S15]|S15|Acaryochloris_marina_S15_GCF_018336915.1_genomic.gbff|rpmI|198|NZ_CP064923(5881945):4825457-4825654:-1 ^^ Acaryochloris marina S15 chromosome, complete genome.|neighbours:ID:WP_212663060.1(-1),ID:WP_212663061.1(1)|neighbour_genes:rplT,clpB| | aligned:1-65 (65)
+MPKLKTRRSAAKRFKRSGSGKFMRRKAYKNHLLEHKGPDRKSRLSKKCVVSEQDAENVRAMMPYS
+>ID:WP_010477430.1 |[Acaryochloris sp. 'Moss Beach']|Moss Beach|Acaryochloris_sp__Moss_Beach_GCF_021497025.1_genomic.gbff|rpmI|198|NZ_CP071717(5699248):1835515-1835712:-1 ^^ Acaryochloris sp. 'Moss Beach' chromosome, complete genome.|neighbours:ID:WP_212663060.1(-1),ID:WP_212663061.1(1)|neighbour_genes:rplT,clpB| | aligned:1-65 (65)
+MPKLKTRRSAAKRFKRSGSGKFMRRKAYKNHLLEHKGPDRKSRLSKKCVVSEQDAENVRAMMPYS
+>ID:WP_071455673.1 |[Gloeomargarita lithophora Alchichica-D10]|D10|Gloeomargarita_lithophora_Alchichica-_D10_GCF_001870225.1_genomic.gbff|rpmI|201|NZ_CP017675(3049282):371768-371968:-1 ^^ Gloeomargarita lithophora Alchichica-D10 chromosome.|neighbours:ID:WP_071453366.1(-1),ID:WP_071453367.1(-1)|neighbour_genes:rplT,NAD-dependent malic ..| | aligned:4-65 (66)
+MAKTKLKTRKSAAKRFQVTGSGKILRRKGMRNHILQKKSSLRKQRLARKVEVHERDVENVRLMLAS
+>ID:WP_015123110.1 |[Synechococcus sp. PCC 6312]|PCC 6312|Synechococcus_sp_PCC_6312_GCF_000316685.1_genomic.gbff|rpmI|198|NC_019680(3697276):339578-339775:-1 ^^ Synechococcus sp. PCC 6312, complete sequence.|neighbours:ID:WP_015123109.1(-1),ID:WP_015123111.1(1)|neighbour_genes:rplT,hypothetical protein| | aligned:1-64 (65)
+MPKLKTRRAAAKRFRATGSGKWIRRKANKNHLLEHKGSDRKNRLSQMAVVDERDGERVTLMLPYL
+>ID:WP_099798670.1 |[Thermostichus lividus PCC 6715]|PCC 6715|Thermostichus_lividus_PCC_6715_GCF_002754935.1_genomic.gbff|rpmI|198|NZ_CP018092(2659739):1168740-1168937:1 ^^ Thermostichus lividus PCC 6715 chromosome, complete genome.|neighbours:ID:WP_099798669.1(-1),ID:WP_099798671.1(1)|neighbour_genes:hypothetical protein,rplT| | aligned:1-65 (65)
+MPKLKTRRSAAKRFRATGSGKFIRRKANKNHLLEHKGSDRKNRLSQKALVDERDFERVSLMLPYA
+>ID:WP_149818467.1 |[Thermosynechococcus elongatus PKUAC-SCTE542]|PKUAC-SCTE542|Thermosynechococcus_elongatus_PKUAC-SCTE542_GCF_003555505.1_genomic.gbff|rpmI|198|NZ_CP032152(2650294):1439649-1439846:-1 ^^ Thermosynechococcus elongatus PKUAC-SCTE542 chromosome, complete genome.|neighbours:ID:WP_181494378.1(-1),ID:WP_181494379.1(1)|neighbour_genes:rplT,hypothetical protein| | aligned:1-65 (65)
+MPKLKTRRAAAKRFRTTGSGKFVRRKANKNHLLEHKGSDRKNRLSHKALVDPRDFERVSLMLPYA
+>ID:WP_149818467.1 |[Thermosynechococcus sp. CL-1]|CL-1|Thermosynechococcus_sp_CL-1_GCF_008386235.1_genomic.gbff|rpmI|198|NZ_CP040671(2647823):816506-816703:-1 ^^ Thermosynechococcus sp. CL-1 chromosome, complete genome.|neighbours:ID:WP_149818464.1(-1),ID:WP_149818469.1(1)|neighbour_genes:rplT,hypothetical protein| | aligned:1-65 (65)
+MPKLKTRRAAAKRFRTTGSGKFVRRKANKNHLLEHKGSDRKNRLSHKALVDPRDFERVSLMLPYA
+>ID:WP_250681564.1 |[Thermosynechococcus sp. HN-54]|HN-54|Thermosynechococcus_sp_HN-54_GCF_023650955.1_genomic.gbff|rpmI|198|NZ_CP098039(2705963):1641095-1641292:1 ^^ Thermosynechococcus sp. HN-54 chromosome, complete genome.|neighbours:ID:WP_250681563.1(-1),ID:WP_149818464.1(1)|neighbour_genes:hypothetical protein,rplT| | aligned:1-65 (65)
+MPKLKTRRAAAKRFRTTGSGKFIRRKANKNHLLEHKSSDRKNRLSHKALVDKRDLERVSLMLPYA
+>ID:WP_206199755.1 |[Thermosynechococcus sp. TA-1]|TA-1|Thermosynechococcus_sp_TA-1_GCF_017086385.1_genomic.gbff|rpmI|198|NZ_CP070960(2658717):1675447-1675644:-1 ^^ Thermosynechococcus sp. TA-1 chromosome, complete genome.|neighbours:ID:WP_149818464.1(-1),ID:WP_255521441.1(1)|neighbour_genes:rplT,hypothetical protein| | aligned:1-65 (65)
+MPKLKTRRAAAKRFRTTGSGKFVRRKANKNHLLEHKGSDRKNRLSHKALVDPRDFERVLLMLPYA
+>ID:WP_024125171.1 |[Thermosynechococcus sp. NK55a]|NK55|Thermosynechococcus_sp_a_NK55_GCF_000505665.1_genomic.gbff|rpmI|198|NC_023033(2520064):1555471-1555668:-1 ^^ Thermosynechococcus sp. NK55a, complete sequence.|neighbours:ID:WP_024125170.1(-1),ID:WP_024125172.1(1)|neighbour_genes:rplT,hypothetical protein| | aligned:1-65 (65)
+MPKLKTRRAAAKRFRTTGSGKFVRRKANKNHLLEHKGSDRKNRLSHKALVDPRDIERVSLMLPYA
+>ID:WP_011057993.1 |[Thermosynechococcus vestitus BP-1]|BP-1|Thermosynechococcus_vestitus_BP-1_GCF_000011345.1_genomic.gbff|rpmI|198|NC_004113(2593857):2239933-2240130:-1 ^^ Thermosynechococcus vestitus BP-1, complete sequence.|neighbours:ID:WP_011057992.1(-1),ID:WP_011057994.1(1)|neighbour_genes:rplT,hypothetical protein| | aligned:1-65 (65)
+MPKLKTRRAAAKRFRTTGSGKFVRRKANKNHLLEHKGSDRKNRLSHKALVDPRDVERVSLMLPYA

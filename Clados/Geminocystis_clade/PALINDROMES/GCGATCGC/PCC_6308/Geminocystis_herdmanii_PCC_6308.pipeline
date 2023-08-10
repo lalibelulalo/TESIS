@@ -51,11 +51,12 @@ Create_Reconstruction_Files(SitesTable = "Orthologues_Palindrome_sites.AllFrames
 
 system('mkdir RECONSTRUCCIONES')
 system('mv Only_ORTHOLOGUES/*.RECONSTRUCTION.fasta RECONSTRUCCIONES')
-
 system('python3 ../../../../Fasta2Phylip.py RECONSTRUCCIONES/')
 system('python3 ../../../../AlignmentPalindromeCoordsAA.py RECONSTRUCCIONES/ GCGATCGC PCC_6308 SECOND >SECOND.output')
 
-for(RF in 1:3){ ## Para los tres marcos de lectura (RF)
+RFS <- length(unique(system('awk \'{if(NR!=1) {print $5}}\' Orthologues_Palindrome_sites.AllFrames.SECOND.txt |uniq',intern = TRUE)))
+
+for(RF in 1:RFS){ ## Para los tres marcos de lectura (RF)
   CreateCodonMutationsTable(Tree = '../../../SpeciesTree_rooted.txt',
                             Second = 'Orthologues_Palindrome_sites.AllFrames.SECOND.txt',
                             TaxonNumber = 11,
@@ -63,7 +64,7 @@ for(RF in 1:3){ ## Para los tres marcos de lectura (RF)
   system(paste0('python3 ../../../../CodonMutations.py RF',RF,'.RECONSTRUCTION.rooted.parents.txt ',RF,' codon_mutations_RF',RF,'.rooted.txt GCGATCGC'))
 }
 
-system('cat codon_mutations_RF1.rooted.txt codon_mutations_RF2.rooted.txt codon_mutations_RF3.rooted.txt >codon_mutations_AllF.rooted.txt')
+system('cat *.rooted.txt >codon_mutations_AllF.rooted.txt')
 ---
 
 

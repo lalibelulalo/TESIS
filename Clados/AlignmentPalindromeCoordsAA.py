@@ -14,6 +14,8 @@ output_file = '' ## Nombre del archivo de salida
 output_file = '.'.join(['Orthologues_Palindrome_sites.AllFrames',OUT,'txt'])
 output = open (output_file, 'w') ## Abrimos el archivo de salida
 output.write('FILE\tSpp\tSTART\tEND\tReadingFrame\tOrthLength\tPAL\tAA\n')
+codonErrors = '.'.join(['CodonErrors',SPP,'txt'])
+ErrorFile = open (codonErrors, 'w')
 
 #output_fileM1 = '.'.join(['Orthologues_Palindrome_sites.M1',OUT,SPP,pattern,'txt'])
 #outputM1 = open (output_fileM1, 'w') ## Abrimos el archivo de salida
@@ -79,82 +81,94 @@ l3=0
 RF1=0
 RF2=0
 RF3=0
-for orthologue in Orthologues:
-    file = re.sub('\.fna\.awk1\.mafft\.phy', '', orthologue)
-    FNA = str("".join ([SequencesDir,orthologue]))
-    spps = [str(record.description) for record in SeqIO.parse(open(FNA),'phylip')]## Guardo las especies (del enacbezado) en una lista
-    sequencesDict = {str(record.description):str(record.seq) for record in SeqIO.parse(open(FNA),'phylip')}## Creo un diccionario. La llave es la especie y el valor es la secuencia nucleotídica
-    Sites = [match.span()[0] for match in re.finditer(pattern, sequencesDict[SPP])]## Busco el INICIO del patron unicamente en la llave (especie) que me interesa. Guardo estos sitios en un arreglo.
-    EndSites = [match.span()[1] for match in re.finditer(pattern, sequencesDict[SPP])]## Busco el FINAL del patron unicamente en la llave (especie) que me interesa. Guardo estos sitios en un arreglo.
-    
-    j=0 ## Iniciamos contador en 0. El primer sitio.
-    for site in Sites:
-        k += 1
-        for spp in spps:    
-            end = EndSites[j]
-            kmer = sequencesDict[spp][site:end]
-            OrthLength = len(sequencesDict[spp])
-            start = site
-            mod1 = (start+1+2) % 3
-            mod2 = (start+1+1) % 3
-            mod3 = (start+1+0) % 3
-            if mod1 == 0:
-                RF = 1
-                RF1+=1
-            elif mod2 == 0:
-                RF = 2
-                RF2+=1
-            elif mod3 == 0:
-                RF = 3
-                RF3+=1
-                
-            if len(kmer)==8 and RF ==1:
-                l += 1
-                l1 += 1
-                AAstart = int(((start+3)/3)-1)
-                AAend = AAstart+3
-                AAseq = sequencesDict[spp]
-                AA = translate(AAseq)[AAstart:AAend]
-                codon1 = sequencesDict[spp][site:site+3]
-                codon2 = sequencesDict[spp][site+3:site+3+3]
-                codon3 = sequencesDict[spp][site+3+3:site+3+3+3]
-                word = " ".join ([codon1,codon2,codon3])
-                ##print ('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
-                output.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
-                #outputM1.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
-            elif len(kmer)==8 and RF ==2:
-                l += 1
-                l2 += 1
-                AAstart = int(((start+2)/3)-1)
-                AAend = AAstart+3
-                AAseq = sequencesDict[spp]
-                AA = translate(AAseq)[AAstart:AAend]
-                codon1 = sequencesDict[spp][site-1:site-1+3]
-                codon2 = sequencesDict[spp][site-1+3:site-1+3+3]
-                codon3 = sequencesDict[spp][site-1+3+3:site-1+3+3+3]
-                word = " ".join ([codon1,codon2,codon3])
-                ##print ('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
-                output.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
-                #outputM2.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
-            elif len(kmer)==8 and RF ==3:
-                l += 1
-                l3 += 1
-                AAstart = int(((start+1)/3)-1)
-                AAend = AAstart+4
-                AAseq = sequencesDict[spp]
-                AA = translate(AAseq)[AAstart:AAend]
-                codon1 = sequencesDict[spp][site-2:site-2+3]
-                codon2 = sequencesDict[spp][site-2+3:site-2+3+3]
-                codon3 = sequencesDict[spp][site-2+3+3:site-2+3+3+3]
-                codon4 = sequencesDict[spp][site-2+3+3+3:site-2+3+3+3+3]
-                word = " ".join ([codon1,codon2,codon3,codon4])
-                ##print ('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
-                output.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
-                #outputM3.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
-        j += 1
-        ##print ('_________________________________________________________________________\n')
-        #k = k + len(Sites)
+strangecodons=0
+try:
+    for orthologue in Orthologues:
+        file = re.sub('\.fna\.awk1\.mafft\.phy', '', orthologue)
+        FNA = str("".join ([SequencesDir,orthologue]))
+        spps = [str(record.description) for record in SeqIO.parse(open(FNA),'phylip')]## Guardo las especies (del enacbezado) en una lista
+        sequencesDict = {str(record.description):str(record.seq) for record in SeqIO.parse(open(FNA),'phylip')}## Creo un diccionario. La llave es la especie y el valor es la secuencia nucleotídica
+        Sites = [match.span()[0] for match in re.finditer(pattern, sequencesDict[SPP])]## Busco el INICIO del patron unicamente en la llave (especie) que me interesa. Guardo estos sitios en un arreglo.
+        EndSites = [match.span()[1] for match in re.finditer(pattern, sequencesDict[SPP])]## Busco el FINAL del patron unicamente en la llave (especie) que me interesa. Guardo estos sitios en un arreglo.
+        
+        j=0 ## Iniciamos contador en 0. El primer sitio.
+        for site in Sites:
+            k += 1
+            for spp in spps:    
+                end = EndSites[j]
+                kmer = sequencesDict[spp][site:end]
+                OrthLength = len(sequencesDict[spp])
+                start = site
+                mod1 = (start+1+2) % 3
+                mod2 = (start+1+1) % 3
+                mod3 = (start+1+0) % 3
+                if mod1 == 0:
+                    RF = 1
+                    RF1+=1
+                elif mod2 == 0:
+                    RF = 2
+                    RF2+=1
+                elif mod3 == 0:
+                    RF = 3
+                    RF3+=1
+                    
+                if len(kmer)==8 and RF ==1:
+                    l += 1
+                    l1 += 1
+                    AAstart = int(((start+3)/3)-1)
+                    AAend = AAstart+3
+                    AAseq = sequencesDict[spp]
+                    AA = translate(AAseq)[AAstart:AAend]
+                    codon1 = sequencesDict[spp][site:site+3]
+                    codon2 = sequencesDict[spp][site+3:site+3+3]
+                    codon3 = sequencesDict[spp][site+3+3:site+3+3+3]
+                    word = " ".join ([codon1,codon2,codon3])
+                    ##print ('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
+                    output.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
+                    #outputM1.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
+                elif len(kmer)==8 and RF ==2:
+                    l += 1
+                    l2 += 1
+                    AAstart = int(((start+2)/3)-1)
+                    AAend = AAstart+3
+                    AAseq = sequencesDict[spp]
+                    AA = translate(AAseq)[AAstart:AAend]
+                    codon1 = sequencesDict[spp][site-1:site-1+3]
+                    codon2 = sequencesDict[spp][site-1+3:site-1+3+3]
+                    codon3 = sequencesDict[spp][site-1+3+3:site-1+3+3+3]
+                    word = " ".join ([codon1,codon2,codon3])
+                    ##print ('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
+                    output.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
+                    #outputM2.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
+                elif len(kmer)==8 and RF ==3:
+                    l += 1
+                    l3 += 1
+                    AAstart = int(((start+1)/3)-1)
+                    AAend = AAstart+4
+                    AAseq = sequencesDict[spp]
+                    AA = translate(AAseq)[AAstart:AAend]
+                    codon1 = sequencesDict[spp][site-2:site-2+3]
+                    codon2 = sequencesDict[spp][site-2+3:site-2+3+3]
+                    codon3 = sequencesDict[spp][site-2+3+3:site-2+3+3+3]
+                    codon4 = sequencesDict[spp][site-2+3+3+3:site-2+3+3+3+3]
+                    word = " ".join ([codon1,codon2,codon3,codon4])
+                    ##print ('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
+                    output.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
+                    #outputM3.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(file,spp,start+1,end,RF,OrthLength,word,AA))
+            j += 1
+            ##print ('_________________________________________________________________________\n')
+            #k = k + len(Sites)
+except KeyError as e:
+    strangecodons += 1
+    ErrorFile.write("-----------------------------------\n")
+    ErrorFile.write("There is a strange codon in orthologue \"{}\". Check it.\n".format(orthologue))
+    ErrorFile.write("The strange codon is: {}.\n".format(e.args[0]))
+    ErrorFile.write("-----------------------------------\n")
+    pass
+
+
 output.close()
+ErrorFile.close()
 #outputM1.close()
 #outputM2.close()
 #outputM3.close()
@@ -168,7 +182,10 @@ RF2U = int(l2/len(spps))
 RF3U = int(l3/len(spps))
 RFAI = int(k -(l/(len(spps))))
 
-RFoutput = open ('Reading_Frame_Counts.txt', 'w') ## Abrimos el archivo de salida
+output_file2 = '_'.join([SPP,'Reading_Frames.counts'])
+#RFoutput = open ('Reading_Frames.counts', 'w') ## Abrimos el archivo de salida
+RFoutput = open (output_file2, 'w')
+
 RFoutput.write("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}".format(SPP,RF1U,RF2U,RF3U,RF1I,RF2I,RF3I,RFAU,RFAI))
 RFoutput.close()
 
@@ -186,4 +203,4 @@ print ("{}\tUNinterrupted sites.\n".format(RF3U))
 print ("-----------------------------------")
 print ("There are {}\tinterrupted sites.".format(RFAI))
 print ("There are {}\tUNinterrupted sites.".format(RFAU))
-print ("TOTAL: {}\tsites.\n".format(int(k)))
+print ("TOTAL: {}\tsites.\n".format(int(k)-strangecodons))

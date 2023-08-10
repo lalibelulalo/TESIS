@@ -36,7 +36,7 @@ python3 ../../../../Fasta2Phylip.py Only_ORTHOLOGUES/
 
 python3 ../../../../AlignmentPalindromeCoords.py Only_ORTHOLOGUES/ GCGATCGC ATCC_51142
 
-python3 ../../../../AlignmentPalindromeCoordsAA.py Only_ORTHOLOGUES/ GCGATCGC ATCC_51142 FIRST
+python3 ../../../../AlignmentPalindromeCoordsAA.py Only_ORTHOLOGUES/ GCGATCGC ATCC_51142 FIRST >FIRST.output
 
 ---
 R
@@ -50,21 +50,22 @@ Create_Reconstruction_Files(SitesTable = "Orthologues_Palindrome_sites.AllFrames
                             TAXON = 'ATCC_51142')
 ---
 
-mkdir RECONSTRUCCIONES
-mv Only_ORTHOLOGUES/*.RECONSTRUCTION.fasta RECONSTRUCCIONES
+system('mkdir RECONSTRUCCIONES')
+system('mv Only_ORTHOLOGUES/*.RECONSTRUCTION.fasta RECONSTRUCCIONES')
+system('python3 ../../../../Fasta2Phylip.py RECONSTRUCCIONES/')
+system('python3 ../../../../AlignmentPalindromeCoordsAA.py RECONSTRUCCIONES/ GCGATCGC ATCC_51142 SECOND >SECOND.output')
 
-python3 ../../../../Fasta2Phylip.py RECONSTRUCCIONES/
-python3 ../../../../AlignmentPalindromeCoordsAA.py RECONSTRUCCIONES/ GCGATCGC ATCC_51142 SECOND
+RFS <- length(unique(system('awk \'{if(NR!=1) {print $5}}\' Orthologues_Palindrome_sites.AllFrames.SECOND.txt |uniq',intern = TRUE)))
 
----
-R
 source("/home/lalibelulalo/TESIS/ASR_Orth_Functions/NodeAndEdges.R")
-for(RF in 1:3){ ## Para los tres marcos de lectura (RF)
+for(RF in 1:RFS){ ## Para los tres marcos de lectura (RF)
   CreateCodonMutationsTable(Tree = '../../../SpeciesTree_rooted.txt',
                             Second = 'Orthologues_Palindrome_sites.AllFrames.SECOND.txt',
                             TaxonNumber = 6,
                             RF = RF)
   system(paste0('python3 ../../../../CodonMutations.py RF',RF,'.RECONSTRUCTION.rooted.parents.txt ',RF,' codon_mutations_RF',RF,'.rooted.txt GCGATCGC'))
 }
+
+system('cat *.rooted.txt >codon_mutations_AllF.rooted.txt')
 ---
 

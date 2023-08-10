@@ -1,0 +1,65 @@
+
+awk '{if ($5!=0 && $2=="cyanobacterium_endosymbiont_of_Rhopalodia_gibberula"){print $1}}' ../../../Markov_count_GCGATCGC_2023-4-19_10hrs45mins_Octanuc_M3_.txt | sed 's/.fna//g' | uniq >Ortologos_GCGATCGC_cyanobacterium_endosymbiont_of_Rhopalodia_gibberula.txt
+
+mkdir Orthologues_GCGATCGC_cyanobacterium_endosymbiont_of_Rhopalodia_gibberula
+
+cd ../../../gbff_homologues/CandidatusAtelocyanobacteriumthalassaisolateALOHA_f0_0taxa_algOMCL_e0_/
+
+for word in $(cat ../../PALINDROMES/GCGATCGC/gibberula/Ortologos_GCGATCGC_cyanobacterium_endosymbiont_of_Rhopalodia_gibberula.txt); do cp $word.fna ../../PALINDROMES/GCGATCGC/gibberula/Orthologues_GCGATCGC_cyanobacterium_endosymbiont_of_Rhopalodia_gibberula; done
+
+for word in $(cat ../../PALINDROMES/GCGATCGC/gibberula/Ortologos_GCGATCGC_cyanobacterium_endosymbiont_of_Rhopalodia_gibberula.txt); do cp $word.faa ../../PALINDROMES/GCGATCGC/gibberula/Orthologues_GCGATCGC_cyanobacterium_endosymbiont_of_Rhopalodia_gibberula; done
+
+cd ../../PALINDROMES/GCGATCGC/gibberula/
+
+mkdir Only_ORTHOLOGUES
+mkdir PARALOGUES
+
+python3 ../../../../FiltradoParalogos.py Orthologues_GCGATCGC_cyanobacterium_endosymbiont_of_Rhopalodia_gibberula/ 6
+
+cd Only_ORTHOLOGUES/
+
+for f in *.fna; do awk -F "|" '{if (NR%2){print ">"$2}else{print $1}}' $f | sed 's/ /_/g' | sed 's/\.//g' | sed 's/\[//g' | sed 's/\]//g' | sed 's/\//-/g' | sed 's/cyanobacterium_endosymbiont_of_//g' | sed 's/Candidatus_Atelocyanobacterium_thalassa_isolate_ALOHA/ALOHA/g' | sed 's/Crocosphaera_subtropica_ATCC_51142/ATCC_51142/g' | sed 's/Rippkaea_orientalis_PCC_8801/PCC_8801/g' | sed 's/Braarudosphaera_bigelowii/bigelowii/g' | sed 's/Epithemia_turgida_isolate_EtSB_Lake_Yunoko/Yunoko/g' | sed 's/Rhopalodia_gibberula/gibberula/g' >$f.awk1;done
+
+for f in *.faa; do awk -F "|" '{if (NR%2){print ">"$2}else{print $1}}' $f | sed 's/ /_/g' | sed 's/\.//g' | sed 's/\[//g' | sed 's/\]//g' | sed 's/\//-/g' | sed 's/cyanobacterium_endosymbiont_of_//g' | sed 's/Candidatus_Atelocyanobacterium_thalassa_isolate_ALOHA/ALOHA/g' | sed 's/Crocosphaera_subtropica_ATCC_51142/ATCC_51142/g' | sed 's/Rippkaea_orientalis_PCC_8801/PCC_8801/g' | sed 's/Braarudosphaera_bigelowii/bigelowii/g' | sed 's/Epithemia_turgida_isolate_EtSB_Lake_Yunoko/Yunoko/g' | sed 's/Rhopalodia_gibberula/gibberula/g' >$f.awk1;done
+
+#---
+for f in *faa.awk1; do mafft $f >$f.mafft;done
+
+ls *.fna | sed 's/.fna//g' >../only.orthologues.txt
+
+for f in $(cat ../only.orthologues.txt); do perl ../../../../../pal2nal.pl $f.faa.awk1.mafft $f.fna.awk1 -output fasta >$f.codon.alg.fasta;done
+#---
+
+cd ..
+python3 ../../../../Fasta2Phylip.py Only_ORTHOLOGUES/
+python3 ../../../../AlignmentPalindromeCoords.py Only_ORTHOLOGUES/ GCGATCGC gibberula
+python3 ../../../../AlignmentPalindromeCoordsAA.py Only_ORTHOLOGUES/ GCGATCGC gibberula FIRST >FIRST.output
+
+---
+R
+source("/home/lalibelulalo/TESIS/ASR_Orth_Functions/NodeAndEdges.R")
+#setwd('/home/lalibelulalo/TESIS/Clados/Cyanobacterium_clade/PALINDROMES/GCGATCGC/gibberula/')
+Create_Reconstruction_Files(SitesTable = "Orthologues_Palindrome_sites.AllFrames.FIRST.txt",
+                            EvolutionModel = "F81",
+                            Method ="bayes",
+                            Phylogeny = "../../../SpeciesTree_rooted.txt",
+                            OrthoPath = "Only_ORTHOLOGUES/",
+                            TAXON = 'gibberula')
+                            
+system('mkdir RECONSTRUCCIONES')
+system('mv Only_ORTHOLOGUES/*.RECONSTRUCTION.fasta RECONSTRUCCIONES')
+system('python3 ../../../../Fasta2Phylip.py RECONSTRUCCIONES/')
+system('python3 ../../../../AlignmentPalindromeCoordsAA.py RECONSTRUCCIONES/ GCGATCGC gibberula SECOND >SECOND.output')
+
+RFS <- length(unique(system('awk \'{if(NR!=1) {print $5}}\' Orthologues_Palindrome_sites.AllFrames.SECOND.txt |uniq',intern = TRUE)))
+
+for(RF in 1:RFS){ ## Para los tres marcos de lectura (RF)
+  CreateCodonMutationsTable(Tree = '../../../SpeciesTree_rooted.txt',
+                            Second = 'Orthologues_Palindrome_sites.AllFrames.SECOND.txt',
+                            TaxonNumber = 6,
+                            RF = RF)
+  system(paste0('python3 ../../../../CodonMutations.py RF',RF,'.RECONSTRUCTION.rooted.parents.txt ',RF,' codon_mutations_RF',RF,'.rooted.txt GCGATCGC'))
+}
+system('cat *.rooted.txt >codon_mutations_AllF.rooted.txt')
+---
+

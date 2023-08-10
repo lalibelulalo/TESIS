@@ -1,0 +1,661 @@
+FILE	Spp	START	END	ReadingFrame	OrthLength	PAL	AA
+1058_potassium_channel_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	631	638	1	1086	GCA ATT GCT	AIA
+1058_potassium_channel_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	631	638	1	1086	GCG ATT TCC	AIS
+1058_potassium_channel_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	631	638	1	1086	GCG ATA GCT	AIA
+1058_potassium_channel_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	631	638	1	1086	GCG ATC GCT	AIA
+1058_potassium_channel_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	631	638	1	1086	GCG ATC GCC	AIA
+1058_potassium_channel_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	631	638	1	1086	GCA ATT GCT	AIA
+1058_potassium_channel_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	631	638	1	1086	GCA ATT GCT	AIA
+1058_potassium_channel_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	631	638	1	1086	GCA ATT GCT	AIA
+1058_potassium_channel_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	631	638	1	1086	GCG ATT GCC	AIA
+1058_potassium_channel_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	631	638	1	1086	GCG ATT GCC	AIA
+1058_potassium_channel_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	631	638	1	1086	GCG ATC GCT	AIA
+141_tetratricopeptide_re...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	571	578	1	945	GCT ATT TTA	AIL
+141_tetratricopeptide_re...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	571	578	1	945	GCG ATA GCC	AIA
+141_tetratricopeptide_re...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	571	578	1	945	GCG ATC ACT	AIT
+141_tetratricopeptide_re...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	571	578	1	945	GCG ATC GCT	AIA
+141_tetratricopeptide_re...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	571	578	1	945	GCG ATC GCC	AIA
+141_tetratricopeptide_re...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	571	578	1	945	ACT ATT ACA	TIT
+141_tetratricopeptide_re...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	571	578	1	945	GCT ATT TTA	AIL
+141_tetratricopeptide_re...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	571	578	1	945	GCT ATT ACA	AIT
+141_tetratricopeptide_re...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	571	578	1	945	GCG ATC GCC	AIA
+141_tetratricopeptide_re...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	571	578	1	945	GCG ATC GCC	AIA
+141_tetratricopeptide_re...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	571	578	1	945	GCG ATC GCT	AIA
+224_rplJ.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	376	383	1	567	GCA ATT GCT	AIA
+224_rplJ.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	376	383	1	567	GCG ATC GCT	AIA
+224_rplJ.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	376	383	1	567	GAG ATC GCC	EIA
+224_rplJ.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	376	383	1	567	GCG ATC GCT	AIA
+224_rplJ.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	376	383	1	567	GCG ATC GCT	AIA
+224_rplJ.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	376	383	1	567	GCA ATT GCT	AIA
+224_rplJ.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	376	383	1	567	GCA ATT GCT	AIA
+224_rplJ.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	376	383	1	567	GCA ATT GCT	AIA
+224_rplJ.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	376	383	1	567	GCG ATC GCT	AIA
+224_rplJ.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	376	383	1	567	GCG ATC GCT	AIA
+224_rplJ.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	376	383	1	567	GCG ATC GCT	AIA
+152_DNA_polymerase_III_s...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	772	779	1	2475	GCA ATT CGC	AIR
+152_DNA_polymerase_III_s...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	772	779	1	2475	GCG ATC GCT	AIA
+152_DNA_polymerase_III_s...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	772	779	1	2475	GCG ATT TCC	AIS
+152_DNA_polymerase_III_s...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	772	779	1	2475	GCG ATC GCC	AIA
+152_DNA_polymerase_III_s...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	772	779	1	2475	GCC ATC AAC	AIN
+152_DNA_polymerase_III_s...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	772	779	1	2475	GCA ATT CGT	AIR
+152_DNA_polymerase_III_s...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	772	779	1	2475	GCA ATT CGC	AIR
+152_DNA_polymerase_III_s...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	772	779	1	2475	GCA ATT CGC	AIR
+152_DNA_polymerase_III_s...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	772	779	1	2475	GCG ATC GCC	AIA
+152_DNA_polymerase_III_s...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	772	779	1	2475	GCG ATC GCC	AIA
+152_DNA_polymerase_III_s...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	772	779	1	2475	GCG ATC GCC	AIA
+926_AAA_family_ATPase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	1728	1735	3	1842	CCA AGA TCG GCT	PRSA
+926_AAA_family_ATPase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	1728	1735	3	1842	CCC CGT TCT CCT	PRSP
+926_AAA_family_ATPase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	1728	1735	3	1842	CCA CGA TCG CCT	PRSP
+926_AAA_family_ATPase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	1728	1735	3	1842	CCG CGA TCG CCT	PRSP
+926_AAA_family_ATPase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	1728	1735	3	1842	CCG CGA TCG CCT	PRSP
+926_AAA_family_ATPase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	1728	1735	3	1842	CCA AGA TCT CCT	PRSP
+926_AAA_family_ATPase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	1728	1735	3	1842	CCA AGA TCG GCT	PRSA
+926_AAA_family_ATPase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	1728	1735	3	1842	CCA AGA TCG CCT	PRSP
+926_AAA_family_ATPase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	1728	1735	3	1842	CCG CGA TCG CCT	PRSP
+926_AAA_family_ATPase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	1728	1735	3	1842	CCG CGA TCG CCT	PRSP
+926_AAA_family_ATPase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	1728	1735	3	1842	CCG CGA TCG CCT	PRSP
+7_response_regulator_t...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	45	52	3	825	CTA CGT TCT TTA	LRSL
+7_response_regulator_t...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	45	52	3	825	CTG CGA TCG CTT	LRSL
+7_response_regulator_t...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	45	52	3	825	CTG CGA TCG CTT	LRSL
+7_response_regulator_t...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	45	52	3	825	CTG CGA TCG CTT	LRSL
+7_response_regulator_t...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	45	52	3	825	CTA CGC TCA TTA	LRSL
+7_response_regulator_t...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	45	52	3	825	CTA CGT TCT TTA	LRSL
+7_response_regulator_t...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	45	52	3	825	CTA CGT TCT TTA	LRSL
+7_response_regulator_t...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	45	52	3	825	CTA CGT TCT TTA	LRSL
+7_response_regulator_t...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	45	52	3	825	CTA CGA TCG TTA	LRSL
+7_response_regulator_t...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	45	52	3	825	CTG CGA TCG CTT	LRSL
+7_response_regulator_t...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	45	52	3	825	CTG CGA TCG CTT	LRSL
+665_ABC_transporter_ATP-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	1447	1454	1	1740	GCA ATT GCT	AIA
+665_ABC_transporter_ATP-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	1447	1454	1	1740	GCG ATC GCG	AIA
+665_ABC_transporter_ATP-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	1447	1454	1	1740	GCG ATT GCT	AIA
+665_ABC_transporter_ATP-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	1447	1454	1	1740	GCG ATC GCT	AIA
+665_ABC_transporter_ATP-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	1447	1454	1	1740	GCG ATC GCC	AIA
+665_ABC_transporter_ATP-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	1447	1454	1	1740	GCA ATT GCT	AIA
+665_ABC_transporter_ATP-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	1447	1454	1	1740	GCA ATT GCT	AIA
+665_ABC_transporter_ATP-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	1447	1454	1	1740	GCA ATT GCT	AIA
+665_ABC_transporter_ATP-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	1447	1454	1	1740	GCG ATC GCT	AIA
+665_ABC_transporter_ATP-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	1447	1454	1	1740	GCG ATC GCT	AIA
+665_ABC_transporter_ATP-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	1447	1454	1	1740	GCG ATC GCT	AIA
+27_accB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	40	47	1	507	TCA ATA GCC	SIA
+27_accB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	40	47	1	507	GCG ATC GCT	AIA
+27_accB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	40	47	1	507	GCG ATC GCT	AIA
+27_accB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	40	47	1	507	GCG ATC GCT	AIA
+27_accB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	40	47	1	507	GCG ATC GCT	AIA
+27_accB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	40	47	1	507	GCA ATA GCC	AIA
+27_accB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	40	47	1	507	TCA ATA GCC	SIA
+27_accB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	40	47	1	507	GCA ATA GCC	AIA
+27_accB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	40	47	1	507	GCG ATC GCT	AIA
+27_accB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	40	47	1	507	GCG ATC GCT	AIA
+27_accB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	40	47	1	507	GCG ATC GCT	AIA
+812_DUF3084_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	65	72	2	1485	GGT GAT CGA	GDR
+812_DUF3084_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	65	72	2	1485	GGG GAT CGT	GDR
+812_DUF3084_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	65	72	2	1485	GGC GAT CGC	GDR
+812_DUF3084_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	65	72	2	1485	GGC GAT CGC	GDR
+812_DUF3084_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	65	72	2	1485	GGC GAT CGC	GDR
+812_DUF3084_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	65	72	2	1485	GGT GAT CGG	GDR
+812_DUF3084_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	65	72	2	1485	GGT GAT CGA	GDR
+812_DUF3084_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	65	72	2	1485	GGT GAT CGG	GDR
+812_DUF3084_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	65	72	2	1485	GGC GAT CGC	GDR
+812_DUF3084_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	65	72	2	1485	GGC GAT CGC	GDR
+812_DUF3084_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	65	72	2	1485	GGC GAT CGC	GDR
+115_TlyA_family_RNA_meth...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	564	571	3	822	GGT AAA TCT AAG	GKSK
+115_TlyA_family_RNA_meth...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	564	571	3	822	GGG CGA TCG CGT	GRSR
+115_TlyA_family_RNA_meth...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	564	571	3	822	GGG CGG TCG CGG	GRSR
+115_TlyA_family_RNA_meth...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	564	571	3	822	GGG CGA TCG CGG	GRSR
+115_TlyA_family_RNA_meth...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	564	571	3	822	GGG CGA TCG CGC	GRSR
+115_TlyA_family_RNA_meth...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	564	571	3	822	GGC CGA TCT AAG	GRSK
+115_TlyA_family_RNA_meth...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	564	571	3	822	GGT AAA TCT AAG	GKSK
+115_TlyA_family_RNA_meth...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	564	571	3	822	GGC CGA TCT AAG	GRSK
+115_TlyA_family_RNA_meth...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	564	571	3	822	GGG CGA TCG CGG	GRSR
+115_TlyA_family_RNA_meth...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	564	571	3	822	GGG CGA TCG CGG	GRSR
+115_TlyA_family_RNA_meth...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	564	571	3	822	GGG CGA TCG CGG	GRSR
+599_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	91	98	1	1476	GCG ACA GCT	ATA
+599_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	91	98	1	1476	GCG ATC GCC	AIA
+599_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	91	98	1	1476	GCG ATT GCC	AIA
+599_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	91	98	1	1476	GCG ATC GCC	AIA
+599_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	91	98	1	1476	GCG GTT GCT	AVA
+599_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	91	98	1	1476	GCA ACA GCT	ATA
+599_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	91	98	1	1476	GCG ACA GCT	ATA
+599_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	91	98	1	1476	GCG ACA GCT	ATA
+599_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	91	98	1	1476	GCG ATT GCT	AIA
+599_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	91	98	1	1476	GCG ATC GCC	AIA
+599_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	91	98	1	1476	GCG ATC GCC	AIA
+861_peptide_chain_releas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	536	543	2	1620	GGT GAT AGC	GDS
+861_peptide_chain_releas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	536	543	2	1620	GGC GAT CGC	GDR
+861_peptide_chain_releas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	536	543	2	1620	GGT GAT CGC	GDR
+861_peptide_chain_releas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	536	543	2	1620	GGC GAT CGC	GDR
+861_peptide_chain_releas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	536	543	2	1620	GGC GAT CGC	GDR
+861_peptide_chain_releas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	536	543	2	1620	GGT GAT AGT	GDS
+861_peptide_chain_releas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	536	543	2	1620	GGT GAT AGC	GDS
+861_peptide_chain_releas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	536	543	2	1620	GGT GAT AGC	GDS
+861_peptide_chain_releas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	536	543	2	1620	GGC GAT CGC	GDR
+861_peptide_chain_releas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	536	543	2	1620	GGC GAT CGC	GDR
+861_peptide_chain_releas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	536	543	2	1620	GGC GAT CGC	GDR
+1091_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	1383	1390	3	1584	TTA CGT TCT CTT	LRSL
+1091_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	1383	1390	3	1584	GTG CGA TCG CTT	VRSL
+1091_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	1383	1390	3	1584	GTG CGA TCG CTC	VRSL
+1091_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	1383	1390	3	1584	GTG CGA TCG CTT	VRSL
+1091_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	1383	1390	3	1584	TTA CGT TCC CTT	LRSL
+1091_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	1383	1390	3	1584	TTA CGT TCT CTT	LRSL
+1091_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	1383	1390	3	1584	TTA CGT TCT CTT	LRSL
+1091_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	1383	1390	3	1584	TTA CGT TCT CTT	LRSL
+1091_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	1383	1390	3	1584	TTA CGT TCG CTT	LRSL
+1091_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	1383	1390	3	1584	GTG CGA TCG CTT	VRSL
+1091_insulinase_family_pr...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	1383	1390	3	1584	GTG CGA TCG CTT	VRSL
+308_DUF3318_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	349	356	1	612	ATC ATT TTT	IIF
+308_DUF3318_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	349	356	1	612	GCG ATC GCA	AIA
+308_DUF3318_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	349	356	1	612	GCG ATT TCC	AIS
+308_DUF3318_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	349	356	1	612	GCG ATC GCC	AIA
+308_DUF3318_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	349	356	1	612	GCC ATT TCA	AIS
+308_DUF3318_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	349	356	1	612	ATT ATT TTT	IIF
+308_DUF3318_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	349	356	1	612	ATC ATT TTT	IIF
+308_DUF3318_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	349	356	1	612	ATC ATT TTT	IIF
+308_DUF3318_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	349	356	1	612	GCC ATT TCA	AIS
+308_DUF3318_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	349	356	1	612	GCG ATC GCA	AIA
+308_DUF3318_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	349	356	1	612	GCG ATC GCC	AIA
+900_ribonuclease_R.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	1332	1339	3	2253	ATT CGT TCC TTA	IRSL
+900_ribonuclease_R.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	1332	1339	3	2253	GTG CGT TCC CTC	VRSL
+900_ribonuclease_R.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	1332	1339	3	2253	GTG CGC TCG CTG	VRSL
+900_ribonuclease_R.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	1332	1339	3	2253	GTG CGA TCG CTG	VRSL
+900_ribonuclease_R.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	1332	1339	3	2253	ATT CGT TCC CTG	IRSL
+900_ribonuclease_R.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	1332	1339	3	2253	ATT CGT TCT TTA	IRSL
+900_ribonuclease_R.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	1332	1339	3	2253	ATT CGT TCC TTA	IRSL
+900_ribonuclease_R.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	1332	1339	3	2253	ATT CGT TCC TTA	IRSL
+900_ribonuclease_R.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	1332	1339	3	2253	ATT CGT TCC CTG	IRSL
+900_ribonuclease_R.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	1332	1339	3	2253	GTG CGT TCC CTG	VRSL
+900_ribonuclease_R.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	1332	1339	3	2253	GTG CGA TCG CTG	VRSL
+1153_dapB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	292	299	1	828	GCA ATT GCT	AIA
+1153_dapB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	292	299	1	828	GCG ATC GCC	AIA
+1153_dapB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	292	299	1	828	GCG ATT GCT	AIA
+1153_dapB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	292	299	1	828	GCG ATC GCC	AIA
+1153_dapB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	292	299	1	828	GCC ATT GCT	AIA
+1153_dapB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	292	299	1	828	GCG ATT GCT	AIA
+1153_dapB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	292	299	1	828	GCA ATT GCT	AIA
+1153_dapB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	292	299	1	828	GCG ATT GCT	AIA
+1153_dapB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	292	299	1	828	GCG ATT GCT	AIA
+1153_dapB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	292	299	1	828	GCG ATC GCC	AIA
+1153_dapB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	292	299	1	828	GCG ATC GCC	AIA
+501_clpX.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	1150	1157	1	1353	GAA ATT GCA	EIA
+501_clpX.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	1150	1157	1	1353	GCG ATC GCA	AIA
+501_clpX.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	1150	1157	1	1353	GCG ATT GCG	AIA
+501_clpX.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	1150	1157	1	1353	GCG ATC GCG	AIA
+501_clpX.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	1150	1157	1	1353	GCG ATC GCT	AIA
+501_clpX.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	1150	1157	1	1353	GAG ATC GCA	EIA
+501_clpX.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	1150	1157	1	1353	GAA ATT GCA	EIA
+501_clpX.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	1150	1157	1	1353	GAG ATC GCA	EIA
+501_clpX.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	1150	1157	1	1353	GCG ATC GCA	AIA
+501_clpX.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	1150	1157	1	1353	GCG ATC GCA	AIA
+501_clpX.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	1150	1157	1	1353	GCG ATC GCG	AIA
+425_hypothetical_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	358	365	1	1956	ACA ATA GCC	TIA
+425_hypothetical_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	358	365	1	1956	GCA GTT GCC	AVA
+425_hypothetical_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	358	365	1	1956	GCG ATC GCT	AIA
+425_hypothetical_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	358	365	1	1956	GCG ATC GCT	AIA
+425_hypothetical_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	358	365	1	1956	GCG GTA GCC	AVA
+425_hypothetical_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	358	365	1	1956	ACA ATA GCC	TIA
+425_hypothetical_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	358	365	1	1956	ACA ATA GCC	TIA
+425_hypothetical_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	358	365	1	1956	ACA ATA GCC	TIA
+425_hypothetical_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	358	365	1	1956	GCG GTA GCC	AVA
+425_hypothetical_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	358	365	1	1956	GCG GTA GCC	AVA
+425_hypothetical_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	358	365	1	1956	GCG ATC GCT	AIA
+512_mutL.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	421	428	1	1737	GCT ATT GCT	AIA
+512_mutL.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	421	428	1	1737	GCG ATC GCC	AIA
+512_mutL.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	421	428	1	1737	GCA ATC GCC	AIA
+512_mutL.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	421	428	1	1737	GCG ATC GCC	AIA
+512_mutL.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	421	428	1	1737	CCA ATG GCA	PMA
+512_mutL.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	421	428	1	1737	GCC ATT GCT	AIA
+512_mutL.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	421	428	1	1737	GCT ATT GCT	AIA
+512_mutL.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	421	428	1	1737	GCC ATT GCT	AIA
+512_mutL.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	421	428	1	1737	GCA ATC GCC	AIA
+512_mutL.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	421	428	1	1737	GCG ATC GCC	AIA
+512_mutL.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	421	428	1	1737	GCG ATC GCC	AIA
+728_uvrB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	1061	1068	2	2016	GGC GAT CAA	GDQ
+728_uvrB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	1061	1068	2	2016	GGC GAT CGC	GDR
+728_uvrB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	1061	1068	2	2016	GGT GAT CGC	GDR
+728_uvrB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	1061	1068	2	2016	GGC GAT CGC	GDR
+728_uvrB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	1061	1068	2	2016	GGG GAT CAG	GDQ
+728_uvrB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	1061	1068	2	2016	GGC GAT CAG	GDQ
+728_uvrB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	1061	1068	2	2016	GGC GAT CAA	GDQ
+728_uvrB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	1061	1068	2	2016	GGC GAT CAG	GDQ
+728_uvrB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	1061	1068	2	2016	GGC GAT CAG	GDQ
+728_uvrB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	1061	1068	2	2016	GGC GAT CGC	GDR
+728_uvrB.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	1061	1068	2	2016	GGC GAT CGC	GDR
+580_valine--tRNA_ligase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	1901	1908	2	2736	GCT GAT TAT	ADY
+580_valine--tRNA_ligase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	1901	1908	2	2736	TGC GAT CGC	CDR
+580_valine--tRNA_ligase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	1901	1908	2	2736	TGC GAT CGC	CDR
+580_valine--tRNA_ligase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	1901	1908	2	2736	TGC GAT CGC	CDR
+580_valine--tRNA_ligase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	1901	1908	2	2736	TCA GAT CGC	SDR
+580_valine--tRNA_ligase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	1901	1908	2	2736	GCT GAC TAT	ADY
+580_valine--tRNA_ligase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	1901	1908	2	2736	GCT GAT TAT	ADY
+580_valine--tRNA_ligase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	1901	1908	2	2736	GCT GAT TAT	ADY
+580_valine--tRNA_ligase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	1901	1908	2	2736	TCC GAT CGC	SDR
+580_valine--tRNA_ligase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	1901	1908	2	2736	TGC GAT CGC	CDR
+580_valine--tRNA_ligase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	1901	1908	2	2736	TGC GAT CGC	CDR
+1063_fabF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	1078	1085	1	1257	GCC ATC GCC	AIA
+1063_fabF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	1078	1085	1	1257	GCG ATC GCT	AIA
+1063_fabF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	1078	1085	1	1257	GCG ATT GCT	AIA
+1063_fabF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	1078	1085	1	1257	GCG ATC GCT	AIA
+1063_fabF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	1078	1085	1	1257	GCG ATC GCT	AIA
+1063_fabF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	1078	1085	1	1257	GCA ATC GCT	AIA
+1063_fabF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	1078	1085	1	1257	GCC ATC GCC	AIA
+1063_fabF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	1078	1085	1	1257	GCA ATC GCT	AIA
+1063_fabF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	1078	1085	1	1257	GCG ATC GCT	AIA
+1063_fabF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	1078	1085	1	1257	GCG ATC GCT	AIA
+1063_fabF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	1078	1085	1	1257	GCG ATC GCT	AIA
+149_rsgA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	247	254	1	1134	TTA ATT ATT	LII
+149_rsgA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	247	254	1	1134	GCG ATC GCT	AIA
+149_rsgA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	247	254	1	1134	GTG ATC GCT	VIA
+149_rsgA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	247	254	1	1134	GCG ATC GCT	AIA
+149_rsgA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	247	254	1	1134	GCG ATC GCT	AIA
+149_rsgA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	247	254	1	1134	TCA ATT GTT	SIV
+149_rsgA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	247	254	1	1134	TTA ATT ATT	LII
+149_rsgA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	247	254	1	1134	TCA ATT GTT	SIV
+149_rsgA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	247	254	1	1134	GCG ATC GCT	AIA
+149_rsgA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	247	254	1	1134	GCG ATC GCT	AIA
+149_rsgA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	247	254	1	1134	GCG ATC GCT	AIA
+954_rpsI.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	61	68	1	411	TCA ATT GCA	SIA
+954_rpsI.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	61	68	1	411	GCG ATC GCC	AIA
+954_rpsI.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	61	68	1	411	GCG ATC GCA	AIA
+954_rpsI.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	61	68	1	411	GCG ATC GCA	AIA
+954_rpsI.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	61	68	1	411	GCG GTC GCT	AVA
+954_rpsI.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	61	68	1	411	TCA ATT GCG	SIA
+954_rpsI.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	61	68	1	411	TCA ATT GCA	SIA
+954_rpsI.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	61	68	1	411	TCA ATT GCA	SIA
+954_rpsI.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	61	68	1	411	GCG ATC GCA	AIA
+954_rpsI.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	61	68	1	411	GCG ATC GCA	AIA
+954_rpsI.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	61	68	1	411	GCG ATC GCA	AIA
+378_pgeF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	736	743	1	849	TCT ATT GCC	SIA
+378_pgeF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	736	743	1	849	GCG ATC GCC	AIA
+378_pgeF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	736	743	1	849	GCG ATA GCC	AIA
+378_pgeF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	736	743	1	849	GCG ATC GCC	AIA
+378_pgeF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	736	743	1	849	AGT ATA GCC	SIA
+378_pgeF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	736	743	1	849	TCT ATC GCT	SIA
+378_pgeF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	736	743	1	849	TCT ATT GCC	SIA
+378_pgeF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	736	743	1	849	TCT ATC GCC	SIA
+378_pgeF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	736	743	1	849	GCT ATC GCC	AIA
+378_pgeF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	736	743	1	849	GCG ATC GCC	AIA
+378_pgeF.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	736	743	1	849	GCG ATC GCC	AIA
+815_M56_family_metallope...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	145	152	1	852	ACT ATT TCA	TIS
+815_M56_family_metallope...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	145	152	1	852	TCC CTT GCC	SLA
+815_M56_family_metallope...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	145	152	1	852	GCG ATC GCT	AIA
+815_M56_family_metallope...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	145	152	1	852	GCG ATC GCA	AIA
+815_M56_family_metallope...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	145	152	1	852	GCA ATT GCC	AIA
+815_M56_family_metallope...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	145	152	1	852	GCT ATC TCA	AIS
+815_M56_family_metallope...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	145	152	1	852	ACT ATT TCA	TIS
+815_M56_family_metallope...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	145	152	1	852	GCT ATT TCA	AIS
+815_M56_family_metallope...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	145	152	1	852	GCA ATT GCC	AIA
+815_M56_family_metallope...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	145	152	1	852	GCG ATT GCC	AIA
+815_M56_family_metallope...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	145	152	1	852	GCG ATC GCA	AIA
+811_ntcA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	538	545	1	675	GCT ATT GCA	AIA
+811_ntcA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	538	545	1	675	GCG ATC GCT	AIA
+811_ntcA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	538	545	1	675	GCG ATC GCT	AIA
+811_ntcA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	538	545	1	675	GCG ATC GCT	AIA
+811_ntcA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	538	545	1	675	GCG ATC GCT	AIA
+811_ntcA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	538	545	1	675	GCT ATT GCC	AIA
+811_ntcA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	538	545	1	675	GCT ATT GCA	AIA
+811_ntcA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	538	545	1	675	GCT ATT GCC	AIA
+811_ntcA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	538	545	1	675	GCG ATC GCT	AIA
+811_ntcA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	538	545	1	675	GCG ATC GCT	AIA
+811_ntcA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	538	545	1	675	GCG ATC GCT	AIA
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	390	397	3	2529	GGT AAG TCA CAA	GKSQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	390	397	3	2529	GGG CGA TCG CAG	GRSQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	390	397	3	2529	GGA CGA TCA CAA	GRSQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	390	397	3	2529	GAG CGA TCG CAA	ERSQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	390	397	3	2529	AGT AAA TCT CAA	SKSQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	390	397	3	2529	GGA AAG TCA CAA	GKSQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	390	397	3	2529	GGT AAG TCA CAA	GKSQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	390	397	3	2529	GGT AAG TCA CAA	GKSQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	390	397	3	2529	GGT AAA TCG CAA	GKSQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	390	397	3	2529	GGG CGA TCG CAA	GRSQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	390	397	3	2529	GGG CGA TCG CAA	GRSQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	486	493	3	2529	CTT CAA AAG ACA	LQKT
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	486	493	3	2529	TTG CGA TCG CAA	LRSQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	486	493	3	2529	TTG CTG TCG CAA	LLSQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	486	493	3	2529	TTG CGA TCG CAA	LRSQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	486	493	3	2529	TTA AAA GCA CAA	LKAQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	486	493	3	2529	CTT CAG AAA GAA	LQKE
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	486	493	3	2529	CTT CAA AAG ACA	LQKT
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	486	493	3	2529	CTT CAA AAG GAA	LQKE
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	486	493	3	2529	TTG CAA TCG CAA	LQSQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	486	493	3	2529	TTG CGA TCG CAA	LRSQ
+516_priA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	486	493	3	2529	TTG CGA TCG CAA	LRSQ
+1096_pyridoxine_5--phosph...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	262	269	1	747	CAA ATT GCT	QIA
+1096_pyridoxine_5--phosph...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	262	269	1	747	GCG ATC GCC	AIA
+1096_pyridoxine_5--phosph...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	262	269	1	747	CTG ATC GCC	LIA
+1096_pyridoxine_5--phosph...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	262	269	1	747	GCG ATC GCC	AIA
+1096_pyridoxine_5--phosph...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	262	269	1	747	GCG ATC GCC	AIA
+1096_pyridoxine_5--phosph...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	262	269	1	747	AAA ATT GCT	KIA
+1096_pyridoxine_5--phosph...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	262	269	1	747	CAA ATT GCT	QIA
+1096_pyridoxine_5--phosph...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	262	269	1	747	AAA ATT GCT	KIA
+1096_pyridoxine_5--phosph...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	262	269	1	747	GCG ATC GCC	AIA
+1096_pyridoxine_5--phosph...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	262	269	1	747	GCG ATC GCC	AIA
+1096_pyridoxine_5--phosph...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	262	269	1	747	GCG ATC GCC	AIA
+895_DUF2555_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	136	143	1	210	ACA ATA CTT	TIL
+895_DUF2555_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	136	143	1	210	GCG ATC GCG	AIA
+895_DUF2555_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	136	143	1	210	GCG ATA GCT	AIA
+895_DUF2555_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	136	143	1	210	GCG ATC GCT	AIA
+895_DUF2555_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	136	143	1	210	GCG ATC GCC	AIA
+895_DUF2555_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	136	143	1	210	ACA ATA CTT	TIL
+895_DUF2555_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	136	143	1	210	ACA ATA CTT	TIL
+895_DUF2555_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	136	143	1	210	ACA ATA CTT	TIL
+895_DUF2555_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	136	143	1	210	GCG ATC GCT	AIA
+895_DUF2555_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	136	143	1	210	GCG ATC GCT	AIA
+895_DUF2555_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	136	143	1	210	GCG ATC GCT	AIA
+17_phosphoglycerate_kin...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	1009	1016	1	1200	GAA ATC GCC	EIA
+17_phosphoglycerate_kin...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	1009	1016	1	1200	GCG ATC GCT	AIA
+17_phosphoglycerate_kin...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	1009	1016	1	1200	GCG ATA GCT	AIA
+17_phosphoglycerate_kin...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	1009	1016	1	1200	GCG ATC GCC	AIA
+17_phosphoglycerate_kin...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	1009	1016	1	1200	GCG ATC GCT	AIA
+17_phosphoglycerate_kin...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	1009	1016	1	1200	AAA ATT GCT	KIA
+17_phosphoglycerate_kin...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	1009	1016	1	1200	GAA ATC GCC	EIA
+17_phosphoglycerate_kin...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	1009	1016	1	1200	GAA ATC GCT	EIA
+17_phosphoglycerate_kin...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	1009	1016	1	1200	GCG ATC GCT	AIA
+17_phosphoglycerate_kin...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	1009	1016	1	1200	GCG ATC GCT	AIA
+17_phosphoglycerate_kin...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	1009	1016	1	1200	GCG ATC GCT	AIA
+736_lipid-A-disaccharide...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	1178	1185	2	1269	CAT TGT AAT	HCN
+736_lipid-A-disaccharide...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	1178	1185	2	1269	CGC GAT CGC	RDR
+736_lipid-A-disaccharide...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	1178	1185	2	1269	CGC GAT CGG	RDR
+736_lipid-A-disaccharide...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	1178	1185	2	1269	CGC GAT CGC	RDR
+736_lipid-A-disaccharide...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	1178	1185	2	1269	CAC CAT CGC	HHR
+736_lipid-A-disaccharide...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	1178	1185	2	1269	CAC TAT AAC	HYN
+736_lipid-A-disaccharide...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	1178	1185	2	1269	CAT TGT AAT	HCN
+736_lipid-A-disaccharide...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	1178	1185	2	1269	CAC TAT AAC	HYN
+736_lipid-A-disaccharide...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	1178	1185	2	1269	CAC GAT CGC	HDR
+736_lipid-A-disaccharide...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	1178	1185	2	1269	CGC GAT CGC	RDR
+736_lipid-A-disaccharide...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	1178	1185	2	1269	CGC GAT CGC	RDR
+519_tgt.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	966	973	3	1098	GTA AGA TCA CAA	VRSQ
+519_tgt.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	966	973	3	1098	GTG CGA TCG CAG	VRSQ
+519_tgt.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	966	973	3	1098	GTG CGA TCG CAG	VRSQ
+519_tgt.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	966	973	3	1098	GTG CGA TCG CAG	VRSQ
+519_tgt.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	966	973	3	1098	GTG CGA TCG CAG	VRSQ
+519_tgt.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	966	973	3	1098	ATA AGA TCA CAA	IRSQ
+519_tgt.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	966	973	3	1098	GTA AGA TCA CAA	VRSQ
+519_tgt.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	966	973	3	1098	GTA AGA TCA CAA	VRSQ
+519_tgt.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	966	973	3	1098	GTG CGA TCG CAG	VRSQ
+519_tgt.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	966	973	3	1098	GTG CGA TCG CAG	VRSQ
+519_tgt.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	966	973	3	1098	GTG CGA TCG CAG	VRSQ
+95_pds.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	10	17	1	1425	GCA ATT TCT	AIS
+95_pds.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	10	17	1	1425	GCG ATC GCC	AIA
+95_pds.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	10	17	1	1425	GCG ATC GCC	AIA
+95_pds.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	10	17	1	1425	GCG ATC GCC	AIA
+95_pds.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	10	17	1	1425	GCG ATC GCC	AIA
+95_pds.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	10	17	1	1425	GCG ATC TCT	AIS
+95_pds.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	10	17	1	1425	GCA ATT TCT	AIS
+95_pds.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	10	17	1	1425	GCG ATC TCT	AIS
+95_pds.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	10	17	1	1425	GCG ATC GCC	AIA
+95_pds.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	10	17	1	1425	GCG ATC GCC	AIA
+95_pds.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	10	17	1	1425	GCG ATC GCC	AIA
+134_pyridoxal_phosphate-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	226	233	1	1173	GCT ATA GTA	AIV
+134_pyridoxal_phosphate-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	226	233	1	1173	GCG ATC GCT	AIA
+134_pyridoxal_phosphate-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	226	233	1	1173	GCG ATC GCC	AIA
+134_pyridoxal_phosphate-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	226	233	1	1173	GCG ATC GCT	AIA
+134_pyridoxal_phosphate-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	226	233	1	1173	GCG ATC GCC	AIA
+134_pyridoxal_phosphate-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	226	233	1	1173	GCT TTA GTA	ALV
+134_pyridoxal_phosphate-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	226	233	1	1173	GCT ATA GTA	AIV
+134_pyridoxal_phosphate-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	226	233	1	1173	GCT ATA GTA	AIV
+134_pyridoxal_phosphate-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	226	233	1	1173	GCG ATC GCC	AIA
+134_pyridoxal_phosphate-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	226	233	1	1173	GCG ATC GCT	AIA
+134_pyridoxal_phosphate-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	226	233	1	1173	GCG ATC GCT	AIA
+23_ribonuclease_J.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	347	354	2	1803	GCT GAT CGT	ADR
+23_ribonuclease_J.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	347	354	2	1803	AGC GAT CGC	SDR
+23_ribonuclease_J.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	347	354	2	1803	AGC GAT CGT	SDR
+23_ribonuclease_J.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	347	354	2	1803	AGC GAT CGC	SDR
+23_ribonuclease_J.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	347	354	2	1803	AGC GAT CGC	SDR
+23_ribonuclease_J.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	347	354	2	1803	AGT GGT CGC	SGR
+23_ribonuclease_J.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	347	354	2	1803	GCT GAT CGT	ADR
+23_ribonuclease_J.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	347	354	2	1803	AGT GAT CGC	SDR
+23_ribonuclease_J.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	347	354	2	1803	AGC GAT CGC	SDR
+23_ribonuclease_J.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	347	354	2	1803	AGC GAT CGC	SDR
+23_ribonuclease_J.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	347	354	2	1803	AGC GAT CGC	SDR
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	37	44	1	1380	GCG ATT GCA	AIA
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	37	44	1	1380	GCG ATC GCT	AIA
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	37	44	1	1380	GCG ATT GCT	AIA
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	37	44	1	1380	GCG ATC GCT	AIA
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	37	44	1	1380	GCG ATC GCA	AIA
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	37	44	1	1380	GGA ATT GCA	GIA
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	37	44	1	1380	GCG ATT GCA	AIA
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	37	44	1	1380	GCG ATT GCA	AIA
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	37	44	1	1380	GCG ATC GCA	AIA
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	37	44	1	1380	GCG ATC GCT	AIA
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	37	44	1	1380	GCG ATC GCT	AIA
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	743	750	2	1380	AGT AAT AAA	SNK
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	743	750	2	1380	AGC GAT CGC	SDR
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	743	750	2	1380	TGT GAC CGT	CDR
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	743	750	2	1380	TGC GAT CGC	CDR
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	743	750	2	1380	AGC GAT CGC	SDR
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	743	750	2	1380	ACT AAT CGA	TNR
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	743	750	2	1380	AGT AAT AAA	SNK
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	743	750	2	1380	AGT AAT CGA	SNR
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	743	750	2	1380	AGC GAT CGC	SDR
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	743	750	2	1380	AGC GAT CGC	SDR
+641_mnmE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	743	750	2	1380	TGC GAT CGC	CDR
+894_aroC.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	267	274	3	1089	TTT TTT ACT CAA	FFTQ
+894_aroC.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	267	274	3	1089	CAG CGA TCG CAG	QRSQ
+894_aroC.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	267	274	3	1089	GCG CGA TCG CAA	ARSQ
+894_aroC.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	267	274	3	1089	GCG CGA TCG CAA	ARSQ
+894_aroC.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	267	274	3	1089	GCA CGA TCA CAA	ARSQ
+894_aroC.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	267	274	3	1089	TTT TGT CCG CAA	FCPQ
+894_aroC.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	267	274	3	1089	TTT TTT ACT CAA	FFTQ
+894_aroC.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	267	274	3	1089	TTT TGT CCG CAA	FCPQ
+894_aroC.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	267	274	3	1089	GCG CGA TCG CAA	ARSQ
+894_aroC.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	267	274	3	1089	GCG CGA TCG CAA	ARSQ
+894_aroC.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	267	274	3	1089	GCG CGA TCG CAA	ARSQ
+609_secD.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	52	59	1	1413	GCT ATA ACC	AIT
+609_secD.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	52	59	1	1413	TCC ATC TTC	SIF
+609_secD.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	52	59	1	1413	GCA ATC GCC	AIA
+609_secD.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	52	59	1	1413	GCG ATC GCC	AIA
+609_secD.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	52	59	1	1413	GCG ATC GCC	AIA
+609_secD.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	52	59	1	1413	GCA ATT ACC	AIT
+609_secD.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	52	59	1	1413	GCT ATA ACC	AIT
+609_secD.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	52	59	1	1413	GCA ATT ACC	AIT
+609_secD.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	52	59	1	1413	GCG ATC GCC	AIA
+609_secD.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	52	59	1	1413	GCG ATC GCC	AIA
+609_secD.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	52	59	1	1413	GCG ATC GCC	AIA
+920_J_domain-containing_...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	481	488	1	618	TCT ATT GTT	SIV
+920_J_domain-containing_...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	481	488	1	618	GCC ATC GCT	AIA
+920_J_domain-containing_...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	481	488	1	618	GCG ATC ACT	AIT
+920_J_domain-containing_...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	481	488	1	618	GCG ATC GCT	AIA
+920_J_domain-containing_...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	481	488	1	618	GCC ATT TTT	AIF
+920_J_domain-containing_...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	481	488	1	618	TCT ATT ATC	SII
+920_J_domain-containing_...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	481	488	1	618	TCT ATT GTT	SIV
+920_J_domain-containing_...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	481	488	1	618	TCT ATT GTT	SIV
+920_J_domain-containing_...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	481	488	1	618	GCC ATT GTT	AIV
+920_J_domain-containing_...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	481	488	1	618	GCC ATC GCT	AIA
+920_J_domain-containing_...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	481	488	1	618	GCG ATC GCT	AIA
+938_rplE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	223	230	1	543	GCA ATC GCA	AIA
+938_rplE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	223	230	1	543	GCG ATC GCG	AIA
+938_rplE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	223	230	1	543	GCA ATC GCT	AIA
+938_rplE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	223	230	1	543	GCG ATC GCT	AIA
+938_rplE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	223	230	1	543	GCG ATC GCT	AIA
+938_rplE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	223	230	1	543	GCA ATT GCA	AIA
+938_rplE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	223	230	1	543	GCA ATC GCA	AIA
+938_rplE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	223	230	1	543	GCA ATC GCA	AIA
+938_rplE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	223	230	1	543	GCG ATC GCT	AIA
+938_rplE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	223	230	1	543	GCG ATC GCT	AIA
+938_rplE.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	223	230	1	543	GCG ATC GCT	AIA
+259_guaA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	532	539	1	1626	GCA ATT GCC	AIA
+259_guaA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	532	539	1	1626	GCG ATC GCC	AIA
+259_guaA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	532	539	1	1626	GCG ATC GCC	AIA
+259_guaA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	532	539	1	1626	GCG ATC GCC	AIA
+259_guaA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	532	539	1	1626	GCG ATC GCC	AIA
+259_guaA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	532	539	1	1626	GCT ATT GCT	AIA
+259_guaA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	532	539	1	1626	GCA ATT GCC	AIA
+259_guaA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	532	539	1	1626	GCT ATT GCC	AIA
+259_guaA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	532	539	1	1626	GCG ATC GCC	AIA
+259_guaA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	532	539	1	1626	GCG ATC GCC	AIA
+259_guaA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	532	539	1	1626	GCG ATC GCC	AIA
+71_lepA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	674	681	2	1809	GGA GAC CTA	GDL
+71_lepA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	674	681	2	1809	GGC GAT CGC	GDR
+71_lepA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	674	681	2	1809	GAT GAT CGA	DDR
+71_lepA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	674	681	2	1809	GGC GAT CGC	GDR
+71_lepA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	674	681	2	1809	GGC GAT CGC	GDR
+71_lepA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	674	681	2	1809	GGG GAT CTT	GDL
+71_lepA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	674	681	2	1809	GGA GAC CTA	GDL
+71_lepA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	674	681	2	1809	GGG GAT CTT	GDL
+71_lepA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	674	681	2	1809	GGC GAT CGC	GDR
+71_lepA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	674	681	2	1809	GGC GAT CGC	GDR
+71_lepA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	674	681	2	1809	GGC GAT CGC	GDR
+965_SpoIID-LytB_domain-c...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	913	920	1	1614	GCA ATT AAT	AIN
+965_SpoIID-LytB_domain-c...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	913	920	1	1614	GCG ATC GCC	AIA
+965_SpoIID-LytB_domain-c...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	913	920	1	1614	GCG ATC AAA	AIK
+965_SpoIID-LytB_domain-c...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	913	920	1	1614	GCG ATC GCA	AIA
+965_SpoIID-LytB_domain-c...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	913	920	1	1614	GCG ATC GCA	AIA
+965_SpoIID-LytB_domain-c...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	913	920	1	1614	GCA ATT AAT	AIN
+965_SpoIID-LytB_domain-c...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	913	920	1	1614	GCA ATT AAT	AIN
+965_SpoIID-LytB_domain-c...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	913	920	1	1614	GCA ATT AAT	AIN
+965_SpoIID-LytB_domain-c...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	913	920	1	1614	GCG ATC GCA	AIA
+965_SpoIID-LytB_domain-c...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	913	920	1	1614	GCG ATC GCA	AIA
+965_SpoIID-LytB_domain-c...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	913	920	1	1614	GCG ATC GCA	AIA
+689_rpsU.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	165	172	3	180	CAA AGA TCT CGT	QRSR
+689_rpsU.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	165	172	3	180	CAG CGA TCG CGC	QRSR
+689_rpsU.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	165	172	3	180	CAG CGA TCA CGC	QRSR
+689_rpsU.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	165	172	3	180	CAG CGA TCG CGC	QRSR
+689_rpsU.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	165	172	3	180	CAG CGA TCG CGT	QRSR
+689_rpsU.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	165	172	3	180	CAA AGG TCC CGC	QRSR
+689_rpsU.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	165	172	3	180	CAA AGA TCT CGT	QRSR
+689_rpsU.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	165	172	3	180	CAA AGA TCC CGC	QRSR
+689_rpsU.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	165	172	3	180	CAG CGA TCG CGC	QRSR
+689_rpsU.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	165	172	3	180	CAG CGA TCG CGC	QRSR
+689_rpsU.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	165	172	3	180	CAG CGA TCG CGC	QRSR
+945_adenylate_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	124	131	1	579	GCT ATA GCT	AIA
+945_adenylate_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	124	131	1	579	GCG ATT GCC	AIA
+945_adenylate_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	124	131	1	579	GCA ATC TCT	AIS
+945_adenylate_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	124	131	1	579	GCG ATC GCT	AIA
+945_adenylate_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	124	131	1	579	GCC ATT GCC	AIA
+945_adenylate_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	124	131	1	579	GCT ATC ACT	AIT
+945_adenylate_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	124	131	1	579	GCT ATA GCT	AIA
+945_adenylate_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	124	131	1	579	GCT ATC GCT	AIA
+945_adenylate_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	124	131	1	579	GCG ATT GCC	AIA
+945_adenylate_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	124	131	1	579	GCG ATT GCC	AIA
+945_adenylate_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	124	131	1	579	GCG ATC GCT	AIA
+139_ribBA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	1477	1484	1	1683	GCT ATT ACA	AIT
+139_ribBA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	1477	1484	1	1683	GCG ATC GCG	AIA
+139_ribBA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	1477	1484	1	1683	ACG ATT GCT	TIA
+139_ribBA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	1477	1484	1	1683	GCG ATC GCT	AIA
+139_ribBA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	1477	1484	1	1683	GCC ATT ACT	AIT
+139_ribBA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	1477	1484	1	1683	GCT ATT ATA	AII
+139_ribBA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	1477	1484	1	1683	GCT ATT ACA	AIT
+139_ribBA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	1477	1484	1	1683	GCT ATT ACA	AIT
+139_ribBA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	1477	1484	1	1683	GCG ATT ACT	AIT
+139_ribBA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	1477	1484	1	1683	GCG ATC GCT	AIA
+139_ribBA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	1477	1484	1	1683	GCG ATC GCT	AIA
+157_pyrH.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	592	599	1	720	GCT ATA TCA	AIS
+157_pyrH.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	592	599	1	720	GCG ATC GCC	AIA
+157_pyrH.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	592	599	1	720	GCG ATC GCC	AIA
+157_pyrH.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	592	599	1	720	GCG ATC GCC	AIA
+157_pyrH.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	592	599	1	720	GCG ATC GCC	AIA
+157_pyrH.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	592	599	1	720	GCC ATA TCA	AIS
+157_pyrH.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	592	599	1	720	GCT ATA TCA	AIS
+157_pyrH.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	592	599	1	720	GCC ATA TCA	AIS
+157_pyrH.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	592	599	1	720	GCG ATC GCC	AIA
+157_pyrH.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	592	599	1	720	GCG ATC GCC	AIA
+157_pyrH.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	592	599	1	720	GCG ATC GCC	AIA
+913_ATP-binding_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	1042	1049	1	2313	GCC GTT GCT	AVA
+913_ATP-binding_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	1042	1049	1	2313	GCC GTT GCG	AVA
+913_ATP-binding_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	1042	1049	1	2313	GCA ATC GCC	AIA
+913_ATP-binding_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	1042	1049	1	2313	GCG ATC GCT	AIA
+913_ATP-binding_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	1042	1049	1	2313	GCT GTT GCT	AVA
+913_ATP-binding_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	1042	1049	1	2313	GGC GTT GCT	GVA
+913_ATP-binding_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	1042	1049	1	2313	GCC GTT GCT	AVA
+913_ATP-binding_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	1042	1049	1	2313	GCC GTT GCT	AVA
+913_ATP-binding_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	1042	1049	1	2313	GCC GTT GCT	AVA
+913_ATP-binding_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	1042	1049	1	2313	GCC GTT GCT	AVA
+913_ATP-binding_protein.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	1042	1049	1	2313	GCG ATC GCT	AIA
+616_thiazole_synthase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	631	638	1	801	GCG ATC GCA	AIA
+616_thiazole_synthase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	631	638	1	801	GCG ATC GCT	AIA
+616_thiazole_synthase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	631	638	1	801	GCG ATC GCC	AIA
+616_thiazole_synthase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	631	638	1	801	GCG ATC GCT	AIA
+616_thiazole_synthase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	631	638	1	801	GCG ATC GCT	AIA
+616_thiazole_synthase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	631	638	1	801	GCG ATC GCA	AIA
+616_thiazole_synthase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	631	638	1	801	GCG ATC GCA	AIA
+616_thiazole_synthase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	631	638	1	801	GCG ATC GCA	AIA
+616_thiazole_synthase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	631	638	1	801	GCG ATC GCT	AIA
+616_thiazole_synthase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	631	638	1	801	GCG ATC GCT	AIA
+616_thiazole_synthase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	631	638	1	801	GCG ATC GCT	AIA
+77_polyprenyl_synthetas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	895	902	1	927	GCT ATT GCC	AIA
+77_polyprenyl_synthetas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	895	902	1	927	GCG ATC GCT	AIA
+77_polyprenyl_synthetas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	895	902	1	927	GCG ATC GCC	AIA
+77_polyprenyl_synthetas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	895	902	1	927	GCG ATC GCC	AIA
+77_polyprenyl_synthetas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	895	902	1	927	GCG ATC GCT	AIA
+77_polyprenyl_synthetas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	895	902	1	927	GCT ATT GCT	AIA
+77_polyprenyl_synthetas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	895	902	1	927	GCT ATT GCC	AIA
+77_polyprenyl_synthetas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	895	902	1	927	GCT ATT GCT	AIA
+77_polyprenyl_synthetas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	895	902	1	927	GCG ATC GCT	AIA
+77_polyprenyl_synthetas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	895	902	1	927	GCG ATC GCT	AIA
+77_polyprenyl_synthetas...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	895	902	1	927	GCG ATC GCC	AIA
+348_uvrA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	958	965	1	2886	GCT ATT GCT	AIA
+348_uvrA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	958	965	1	2886	GCG ATC GCC	AIA
+348_uvrA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	958	965	1	2886	GCA ATC GCT	AIA
+348_uvrA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	958	965	1	2886	GCG ATC GCT	AIA
+348_uvrA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	958	965	1	2886	GCT ATT GCT	AIA
+348_uvrA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	958	965	1	2886	GCT ATT GTT	AIV
+348_uvrA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	958	965	1	2886	GCT ATT GCT	AIA
+348_uvrA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	958	965	1	2886	GCT ATT GCT	AIA
+348_uvrA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	958	965	1	2886	GCT ATT GCT	AIA
+348_uvrA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	958	965	1	2886	GCG ATC GCT	AIA
+348_uvrA.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	958	965	1	2886	GCG ATC GCT	AIA
+332_rnc.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	260	267	2	729	AGC GAT AAT	SDN
+332_rnc.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	260	267	2	729	AGC GAT CGC	SDR
+332_rnc.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	260	267	2	729	AGC GAT CGC	SDR
+332_rnc.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	260	267	2	729	AGC GAT CGC	SDR
+332_rnc.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	260	267	2	729	AGC GAT CGC	SDR
+332_rnc.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	260	267	2	729	AGT GAT AAT	SDN
+332_rnc.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	260	267	2	729	AGC GAT AAT	SDN
+332_rnc.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	260	267	2	729	AGC GAT AAT	SDN
+332_rnc.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	260	267	2	729	AGC GAT CGC	SDR
+332_rnc.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	260	267	2	729	AGC GAT CGC	SDR
+332_rnc.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	260	267	2	729	AGC GAT CGC	SDR
+733_DUF3769_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	1502	1509	2	2670	CGG GAT AGA	RDR
+733_DUF3769_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	1502	1509	2	2670	CGC GAT CGC	RDR
+733_DUF3769_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	1502	1509	2	2670	CGA GAT CGC	RDR
+733_DUF3769_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	1502	1509	2	2670	CGC GAT CGC	RDR
+733_DUF3769_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	1502	1509	2	2670	CGC GAT CGT	RDR
+733_DUF3769_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	1502	1509	2	2670	CGT GAT AGA	RDR
+733_DUF3769_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	1502	1509	2	2670	CGG GAT AGA	RDR
+733_DUF3769_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	1502	1509	2	2670	CGT GAT AGA	RDR
+733_DUF3769_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	1502	1509	2	2670	CGC GAT CGC	RDR
+733_DUF3769_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	1502	1509	2	2670	CGC GAT CGC	RDR
+733_DUF3769_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	1502	1509	2	2670	CGC GAT CGC	RDR
+1007_recN.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	745	752	1	1764	GCA GTT GTA	AVV
+1007_recN.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	745	752	1	1764	GCG ATC GCC	AIA
+1007_recN.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	745	752	1	1764	GCG ATC GCT	AIA
+1007_recN.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	745	752	1	1764	GCG ATC GCC	AIA
+1007_recN.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	745	752	1	1764	GCG ATC GCC	AIA
+1007_recN.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	745	752	1	1764	GCA GTT ATA	AVI
+1007_recN.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	745	752	1	1764	GCA GTT GTA	AVV
+1007_recN.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	745	752	1	1764	GCA GTT GTA	AVV
+1007_recN.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	745	752	1	1764	GCG ATC GCC	AIA
+1007_recN.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	745	752	1	1764	GCG ATC GCC	AIA
+1007_recN.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	745	752	1	1764	GCG ATC GCC	AIA
+166_cobalamin_biosynthes...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	481	488	1	945	AGT ACT GCT	STA
+166_cobalamin_biosynthes...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	481	488	1	945	GCG ATC GCT	AIA
+166_cobalamin_biosynthes...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	481	488	1	945	GCG ATC GCC	AIA
+166_cobalamin_biosynthes...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	481	488	1	945	GCG ATC GCC	AIA
+166_cobalamin_biosynthes...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	481	488	1	945	GCT ACA GCC	ATA
+166_cobalamin_biosynthes...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	481	488	1	945	AGT ATA GCT	SIA
+166_cobalamin_biosynthes...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	481	488	1	945	AGT ACT GCT	STA
+166_cobalamin_biosynthes...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	481	488	1	945	AGT ATA GCT	SIA
+166_cobalamin_biosynthes...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	481	488	1	945	GCT ATA GCC	AIA
+166_cobalamin_biosynthes...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	481	488	1	945	GCG ATC GCC	AIA
+166_cobalamin_biosynthes...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	481	488	1	945	GCG ATC GCC	AIA
+235_NAD-+-_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	625	632	1	921	GCT ATT GCA	AIA
+235_NAD-+-_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	625	632	1	921	GCG ATC GCC	AIA
+235_NAD-+-_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	625	632	1	921	GCG ATC GCT	AIA
+235_NAD-+-_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	625	632	1	921	GCG ATC GCT	AIA
+235_NAD-+-_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	625	632	1	921	GCG ATC GCT	AIA
+235_NAD-+-_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	625	632	1	921	GCT ATT GCA	AIA
+235_NAD-+-_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	625	632	1	921	GCT ATT GCA	AIA
+235_NAD-+-_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	625	632	1	921	GCT ATT GCA	AIA
+235_NAD-+-_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	625	632	1	921	GCG ATC GCT	AIA
+235_NAD-+-_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	625	632	1	921	GCG ATC GCT	AIA
+235_NAD-+-_kinase.codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	625	632	1	921	GCG ATC GCT	AIA
+303_DUF3685_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ALOHA	29	36	2	1788	AGT GAT AGC	SDS
+303_DUF3685_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_8801	29	36	2	1788	AGC GAT CGC	SDR
+303_DUF3685_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	Yunoko	29	36	2	1788	AGC GAT CGC	SDR
+303_DUF3685_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	gibberula	29	36	2	1788	AGC GAT CGC	SDR
+303_DUF3685_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	ATCC_51142	29	36	2	1788	AGC GAT CGC	SDR
+303_DUF3685_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	bigelowii	29	36	2	1788	AGT GAT AGC	SDS
+303_DUF3685_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	7	29	36	2	1788	AGT GAT AGC	SDS
+303_DUF3685_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	29	36	2	1788	AGT GAT AGC	SDS
+303_DUF3685_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	29	36	2	1788	AGC GAT CGC	SDR
+303_DUF3685_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	29	36	2	1788	AGC GAT CGC	SDR
+303_DUF3685_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	29	36	2	1788	AGC GAT CGC	SDR
