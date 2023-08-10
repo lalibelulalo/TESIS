@@ -1,6 +1,6 @@
 # Resultados
 
-Para el analisis de los sitios palindrómicos primero se hizo un conteo de lo sitios en cada especie de cada clado para luego tomar aquella especie que tuviera la mayor cantidad de sitios posibles. Esto con el fin de tener mas sitios para analizar (Tabla \@ref(tab:HighestSites)).
+Para el analisis de los sitios palindrómicos primero se hizo un conteo de lo sitios en cada especie de cada clado para luego tomar aquella especie que tuviera la mayor cantidad de sitios posibles. Esto con el fin de tener mas sitios para analizar. Aquellas especies con la mayor cantidad de sitios se muestran resaltadas en amarillo en la Tabla \@ref(tab:HighestSites).
 <table class=" lightable-paper table table-striped table-condensed" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 11px; width: auto !important; margin-left: auto; margin-right: auto;'>
 <caption style="font-size: initial !important;">(\#tab:HighestSites)Conteo de sitios en las especies de cada clado.</caption>
  <thead>
@@ -280,6 +280,337 @@ Para ver como es la distribución de los sitios HIP1 a traves del genoma hicimos
   </tr>
 </tbody>
 </table>
+
+
+
+<table class=" lightable-paper table table-striped table-condensed" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 11px; width: auto !important; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">(\#tab:TABMuts2)Conteo de sitios por marco de lectura.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Clade </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Spp </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> RF1 </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> RF2 </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> RF3 </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> AllFrames </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="6"> Callothrix_clade </td>
+   <td style="text-align:left;font-weight: bold;"> PCC_7716 </td>
+   <td style="text-align:left;"> 1 </td>
+   <td style="text-align:left;"> 3 </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> 4 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> NIES-4071 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 4 </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> 6 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> NIES-4105 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 4 </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> 6 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> PCC_6303 </td>
+   <td style="text-align:left;"> 960 </td>
+   <td style="text-align:left;"> 706 </td>
+   <td style="text-align:left;"> 356 </td>
+   <td style="text-align:left;"> 2022 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> NIES-3974 </td>
+   <td style="text-align:left;"> 1344 </td>
+   <td style="text-align:left;"> 854 </td>
+   <td style="text-align:left;"> 350 </td>
+   <td style="text-align:left;"> 2548 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> 336-3 </td>
+   <td style="text-align:left;"> 1396 </td>
+   <td style="text-align:left;"> 831 </td>
+   <td style="text-align:left;"> 364 </td>
+   <td style="text-align:left;"> 2591 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="6"> Cyanobacterium_clade </td>
+   <td style="text-align:left;font-weight: bold;"> bigelowii </td>
+   <td style="text-align:left;"> 10 </td>
+   <td style="text-align:left;"> 4 </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> 14 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> ALOHA </td>
+   <td style="text-align:left;"> 20 </td>
+   <td style="text-align:left;"> 8 </td>
+   <td style="text-align:left;"> 1 </td>
+   <td style="text-align:left;"> 29 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> Yunoko </td>
+   <td style="text-align:left;"> 36 </td>
+   <td style="text-align:left;"> 15 </td>
+   <td style="text-align:left;"> 5 </td>
+   <td style="text-align:left;"> 56 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> gibberula </td>
+   <td style="text-align:left;"> 39 </td>
+   <td style="text-align:left;"> 11 </td>
+   <td style="text-align:left;"> 10 </td>
+   <td style="text-align:left;"> 60 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> ATCC_51142 </td>
+   <td style="text-align:left;"> 250 </td>
+   <td style="text-align:left;"> 197 </td>
+   <td style="text-align:left;"> 82 </td>
+   <td style="text-align:left;"> 529 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> PCC_8801 </td>
+   <td style="text-align:left;"> 300 </td>
+   <td style="text-align:left;"> 281 </td>
+   <td style="text-align:left;"> 119 </td>
+   <td style="text-align:left;"> 700 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="11"> Geminocystis_clade </td>
+   <td style="text-align:left;font-weight: bold;"> PCC_6308 </td>
+   <td style="text-align:left;"> 176 </td>
+   <td style="text-align:left;"> 18 </td>
+   <td style="text-align:left;"> 5 </td>
+   <td style="text-align:left;"> 199 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> NIES-3709 </td>
+   <td style="text-align:left;"> 276 </td>
+   <td style="text-align:left;"> 22 </td>
+   <td style="text-align:left;"> 15 </td>
+   <td style="text-align:left;"> 313 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> NIES-3708 </td>
+   <td style="text-align:left;"> 244 </td>
+   <td style="text-align:left;"> 107 </td>
+   <td style="text-align:left;"> 37 </td>
+   <td style="text-align:left;"> 388 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> PCC_8305 </td>
+   <td style="text-align:left;"> 390 </td>
+   <td style="text-align:left;"> 105 </td>
+   <td style="text-align:left;"> 22 </td>
+   <td style="text-align:left;"> 517 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> PCC_6605 </td>
+   <td style="text-align:left;"> 394 </td>
+   <td style="text-align:left;"> 139 </td>
+   <td style="text-align:left;"> 51 </td>
+   <td style="text-align:left;"> 584 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> Z-M001 </td>
+   <td style="text-align:left;"> 474 </td>
+   <td style="text-align:left;"> 289 </td>
+   <td style="text-align:left;"> 131 </td>
+   <td style="text-align:left;"> 894 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> PCC_10605 </td>
+   <td style="text-align:left;"> 574 </td>
+   <td style="text-align:left;"> 292 </td>
+   <td style="text-align:left;"> 64 </td>
+   <td style="text-align:left;"> 930 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> PCC_7418 </td>
+   <td style="text-align:left;"> 567 </td>
+   <td style="text-align:left;"> 315 </td>
+   <td style="text-align:left;"> 134 </td>
+   <td style="text-align:left;"> 1016 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> PCC_7437 </td>
+   <td style="text-align:left;"> 601 </td>
+   <td style="text-align:left;"> 409 </td>
+   <td style="text-align:left;"> 116 </td>
+   <td style="text-align:left;"> 1126 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> NIES-3757 </td>
+   <td style="text-align:left;"> 599 </td>
+   <td style="text-align:left;"> 427 </td>
+   <td style="text-align:left;"> 115 </td>
+   <td style="text-align:left;"> 1141 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> NIES-4102 </td>
+   <td style="text-align:left;"> 724 </td>
+   <td style="text-align:left;"> 490 </td>
+   <td style="text-align:left;"> 159 </td>
+   <td style="text-align:left;"> 1373 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="6"> Pseudoanabaena_clade </td>
+   <td style="text-align:left;font-weight: bold;"> JA-2-3Ba </td>
+   <td style="text-align:left;"> 1 </td>
+   <td style="text-align:left;"> 11 </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> 12 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> JA-3-3Ab </td>
+   <td style="text-align:left;"> 9 </td>
+   <td style="text-align:left;"> 10 </td>
+   <td style="text-align:left;"> 1 </td>
+   <td style="text-align:left;"> 20 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> PCC_7367 </td>
+   <td style="text-align:left;"> 798 </td>
+   <td style="text-align:left;"> 364 </td>
+   <td style="text-align:left;"> 208 </td>
+   <td style="text-align:left;"> 1370 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> PCC_7502 </td>
+   <td style="text-align:left;"> 926 </td>
+   <td style="text-align:left;"> 515 </td>
+   <td style="text-align:left;"> 241 </td>
+   <td style="text-align:left;"> 1682 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> PCC_7336 </td>
+   <td style="text-align:left;"> 904 </td>
+   <td style="text-align:left;"> 718 </td>
+   <td style="text-align:left;"> 272 </td>
+   <td style="text-align:left;"> 1894 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> ABRG5-3 </td>
+   <td style="text-align:left;"> 972 </td>
+   <td style="text-align:left;"> 654 </td>
+   <td style="text-align:left;"> 281 </td>
+   <td style="text-align:left;"> 1907 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="10"> Thermosynechococcus_clade </td>
+   <td style="text-align:left;font-weight: bold;"> Moss_Beach </td>
+   <td style="text-align:left;"> 220 </td>
+   <td style="text-align:left;"> 160 </td>
+   <td style="text-align:left;"> 54 </td>
+   <td style="text-align:left;"> 434 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> S15 </td>
+   <td style="text-align:left;"> 218 </td>
+   <td style="text-align:left;"> 164 </td>
+   <td style="text-align:left;"> 54 </td>
+   <td style="text-align:left;"> 436 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> MBIC11017 </td>
+   <td style="text-align:left;"> 229 </td>
+   <td style="text-align:left;"> 159 </td>
+   <td style="text-align:left;"> 58 </td>
+   <td style="text-align:left;"> 446 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> PCC_6715 </td>
+   <td style="text-align:left;"> 477 </td>
+   <td style="text-align:left;"> 664 </td>
+   <td style="text-align:left;"> 172 </td>
+   <td style="text-align:left;"> 1313 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> NK55a </td>
+   <td style="text-align:left;"> 470 </td>
+   <td style="text-align:left;"> 712 </td>
+   <td style="text-align:left;"> 196 </td>
+   <td style="text-align:left;"> 1378 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> HN-54 </td>
+   <td style="text-align:left;"> 477 </td>
+   <td style="text-align:left;"> 713 </td>
+   <td style="text-align:left;"> 197 </td>
+   <td style="text-align:left;"> 1387 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> BP-1 </td>
+   <td style="text-align:left;"> 494 </td>
+   <td style="text-align:left;"> 726 </td>
+   <td style="text-align:left;"> 206 </td>
+   <td style="text-align:left;"> 1426 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> CL-1 </td>
+   <td style="text-align:left;"> 489 </td>
+   <td style="text-align:left;"> 737 </td>
+   <td style="text-align:left;"> 208 </td>
+   <td style="text-align:left;"> 1434 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> SCTE542 </td>
+   <td style="text-align:left;"> 500 </td>
+   <td style="text-align:left;"> 741 </td>
+   <td style="text-align:left;"> 204 </td>
+   <td style="text-align:left;"> 1445 </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> TA-1 </td>
+   <td style="text-align:left;"> 498 </td>
+   <td style="text-align:left;"> 740 </td>
+   <td style="text-align:left;"> 211 </td>
+   <td style="text-align:left;"> 1449 </td>
+  </tr>
+</tbody>
+</table>
+
 
 
 

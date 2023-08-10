@@ -109,6 +109,32 @@ kbl(ReadingFrames, align = "l",caption = "Conteo de sitios por marco de lectura.
 
 ```
 
+```{r TABMuts2,  eval=knitr::is_html_output(), echo=FALSE, message=FALSE,warning=FALSE}
+library(kableExtra)
+library(formattable)
+Sys.setenv("OPENSSL_CONF"="/dev/null")
+
+PerFrameMutations <- read.table("Clados/all_species_per_frame_HIP_counts/PerFrameHIP.counts", sep = "\t", header = FALSE, col.names = c("Clade","Spp","RF1U","RF2U","RF3U","RF1I","RF2I","RF3I","RFU_TOTAL","RFI_TOTAL") )
+
+PerFrameMutations <- PerFrameMutations[order(PerFrameMutations[,1], PerFrameMutations[,9]),]
+uninterrupted <- PerFrameMutations[ , c(1,2,3,4,5,9)]
+colnames(uninterrupted) <- c("Clade","Spp","RF1","RF2","RF3","AllFrames")
+row.names(uninterrupted) <- NULL
+uninterrupted <- as.data.frame(uninterrupted)
+
+kbl(uninterrupted, align = "l",caption = "Conteo de sitios por marco de lectura.",longtable = TRUE,format = "html", escape = F) %>%
+  kable_paper(full_width = T) %>%
+  column_spec(1:2, bold = T) %>%
+  collapse_rows(columns = 1:2, valign = "top")%>%
+  kable_styling(c("striped", "condensed"), 
+                latex_options = "striped", 
+                full_width = F,
+                fixed_thead = T,
+                font_size = 11)
+
+```
+
+
 ## Clado Calothrix
 
 El clado calothrix contiene 6 especies  y es de interes ya que segun la filogenia estan estrechamente relacionadas y muestra un cambio en el palindromo mas abundante, pasando de **GCGATCGC** a **TGGCGCCA** (Figure \@ref(fig:FIG12)).
