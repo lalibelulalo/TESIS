@@ -631,7 +631,7 @@ Para hacer mas visual la reconstrucción, construimos una red de las transicione
 
 ```r
 source("ASR_Orth_Functions/NodeAndEdges.R")
-Nodes.Edges <- Create_Transition_Table(SitesTable = "Clados/Callothrix_clade/PALINDROMES/GCGATCGC/336-3/Orthologues_Palindrome_sites.txt",
+Nodes.Edges <- Create_Transition_Table_No_Fit(SitesTable = "Clados/Callothrix_clade/PALINDROMES/GCGATCGC/336-3/Orthologues_Palindrome_sites.txt",
                                 EvolutionModel = "F81",
                                 Method = "bayes",
                                 Phylogeny = "Clados/Callothrix_clade/SpeciesTree_rooted.txt",
@@ -674,422 +674,462 @@ En la (Figura \@ref(fig:FIG14)) podemos ver las transiciones de una forma mas or
 <tbody>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="9"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">95</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffb01f">84</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffc04e">68</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="11"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">139</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffc151">67</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffc55c">91</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffc55c">91</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffc65f">62</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffc760">89</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffcd73">79</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd68d">66</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd68d">66</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffcc71">56</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffcf79">53</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdb9a">59</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd588">48</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdc9e">57</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe3b1">47</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGT</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd68b">47</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd890">45</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd993">44</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe4b3">46</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffda96">43</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe5b7">44</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdd9f">40</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe7bb">42</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATAGC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdfa5">38</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe3b0">34</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">GCTATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe5b6">32</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe6b9">31</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe8bf">29</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGACCGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffecca">25</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGACCGT</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedcd">24</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffefd3">22</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffefd3">22</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe9c1">39</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffefd3">22</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffefd3">22</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATAGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d6">21</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGTTCGC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d6">21</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffebc8">35</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">GCTATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedcc">33</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedce">32</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGA</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="5"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedce">32</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGTTCGC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d6">21</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff1d8">27</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGACCGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff1d8">27</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2da">26</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTCGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2dc">25</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e0">23</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e0">23</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e0">23</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGACCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e2">22</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGAACGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">21</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATAGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e5">20</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e5">20</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">18</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATAGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">18</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">18</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2dc">19</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATAGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3df">18</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATAGA</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3df">18</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">GCTATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3df">18</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e2">17</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e2">17</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e2">17</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e2">17</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATAGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e4">16</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">18</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e7">15</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e7">15</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e7">15</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGACCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7ea">14</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7ea">14</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGAACGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7ea">14</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7ea">14</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8eb">17</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATAGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">13</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">16</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">13</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">13</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGACCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9f0">12</span> </td>
-  </tr>
-  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGTTCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9f0">12</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9f0">12</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATAGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9f0">12</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">11</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGAGCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">11</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGTTCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">11</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGACCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGACCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">11</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">16</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATAGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">16</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATAGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">11</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">15</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGCTCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">11</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf6">10</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">15</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGAGCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf6">10</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf6">10</span> </td>
-  </tr>
-  <tr>
    
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGTTAGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf6">10</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf1">14</span> </td>
   </tr>
   <tr>
-   
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf6">10</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAGTTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf6">10</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGACCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAAC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATAGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">9</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf1">14</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACAGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">9</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf1">14</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATAGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">9</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAAATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf1">14</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">13</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGACCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGT</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">13</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">13</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">9</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">13</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">13</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGTTCGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">13</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAAA</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">13</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATAGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">12</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGACCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">12</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACAATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">12</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATAGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">GCGATAGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">12</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATAGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">12</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAGTTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">11</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATAGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">9</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">11</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAAA</span> </td>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">9</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">11</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGCTCGC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">9</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">11</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">9</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGACCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGACCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">11</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTGTTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfc">8</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGACCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">10</span> </td>
   </tr>
   <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGA</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfc">8</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">10</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfc">8</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGACCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAAC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfc">8</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">10</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATAGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">GCTATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfc">8</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATAGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGA</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATGGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="6"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATATC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGTTCTC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATAGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATTTC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGAACGT</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAGTTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTGTTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGACCGT</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfc">8</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGAACGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfc">8</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTAACCGC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfc">8</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACAATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATAGA</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfc">8</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATAGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfc">8</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAGTTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAAATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAAATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTGTTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAA</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTTTAGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATAGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGACCGA</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTAATCGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTAGC</span> </td>
+   
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
@@ -1098,68 +1138,33 @@ En la (Figura \@ref(fig:FIG14)) podemos ver las transiciones de una forma mas or
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTTTAGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGAACGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAGTTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTAACCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATAGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAGTTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATTGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATTAC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGAACGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGG</span> </td>
+   
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACTATCGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATGGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATGGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
 </tbody>
@@ -1251,6 +1256,118 @@ En la Figura \@ref(fig:FIG23) mostramos 3 gráficos (uno por cada marco de lectu
 </div>
 
 
+
+### Conjunto de sitios HIP1 unicos en las especies 336-3, NIES-3974 y PCC_6303
+
+#### Red de transiciones
+
+Para aumentar el numero de "experimentos", buscamos todos los sitios HIP1 UNICOS existentes en el subclado que contiene a las especies 336-3, NIES-3974 y PCC_6303.
+
+Posteriormente creamos la red usando la función ```Create_Network()```:
+
+
+
+y visualizamos dicha red .
+
+
+
+Para visualizar la red usamos la paqueteria ```networkD3```. Hicimos 2 figuras, la (Figura \@ref(fig:FIG13)) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En dicha red podemos ver algunos nodos con bordes muy gruesos como **GCGATTGC**, **GCAATTGC**, **GCTATCGC**, **GCTATTGC** (Tabla \@ref(tab:TAB6)).
+
+
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG34-1.png" alt="**Red de todas las transiciones del clado Calothrix.** En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios. Esta red es una represntación de aquellos sitios que son unicos en las especies 336-3, NIES-3974 y PCC\_6303"  />
+<p class="caption">(\#fig:FIG34)**Red de todas las transiciones del clado Calothrix.** En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios. Esta red es una represntación de aquellos sitios que son unicos en las especies 336-3, NIES-3974 y PCC\_6303</p>
+</div>
+
+En la (Figura \@ref(fig:FIG14)) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG35-1.png" alt="**Red de todas las transiciones del clado Calothrix.** En esta imagen se muestra la red  de la Figura \@ref(fig:FIG34) de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió."  />
+<p class="caption">(\#fig:FIG35)**Red de todas las transiciones del clado Calothrix.** En esta imagen se muestra la red  de la Figura \@ref(fig:FIG34) de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió.</p>
+</div>
+#### Transiciones entre Nodo 9 y Nodo 10
+
+En la (Figura \@ref(fig:FIG36)) se muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En la (Figura \@ref(fig:FIG37)) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
+
+
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG36-1.png" alt="**Red de las transiciones entre los Nodos 9 y 10 del clado Calothrix.** En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios."  />
+<p class="caption">(\#fig:FIG36)**Red de las transiciones entre los Nodos 9 y 10 del clado Calothrix.** En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios.</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG37-1.png" alt="**Red de las transiciones entre los nodos 9 y 10 del clado Calothrix.** En esta imagen se muestra la red  de la Figura \@ref(fig:FIG16) de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió."  />
+<p class="caption">(\#fig:FIG37)**Red de las transiciones entre los nodos 9 y 10 del clado Calothrix.** En esta imagen se muestra la red  de la Figura \@ref(fig:FIG16) de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió.</p>
+</div>
+
+#### Mutaciones en los codones
+
+Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG38)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran. En esta figura podemos observar que el marco de lectura es el que contiene la mayoria de los sitios
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG38-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG38-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG38-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%" />
+<p class="caption">(\#fig:FIG38)**Abundancia de peptidos por cada nodo segun el marco de lectura.**.</p>
+</div>
+
+En la (Figura \@ref(fig:FIG39)) mostramos 3 gráficos que indican la abundancia del tipo de mutaciones que hay en cada nodo de acuerdo al marco de lectura. Lo sitios de mutaciones mostrados pueden ser de los siguientes tipos:
+
+* Conservative (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62)
+* ConservativeNoSiteMut (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62. Sin embargo, el sitio no sufrió mutaciones)
+* Deletion (La secuencia de AA tiene sufrio 1 o mas deleciones)
+* NoMutation (La secuencia de AA no sufrio mutaciones)
+* NoSynonym (La secuencia de AA cambió)
+* NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
+* Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG39-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG39-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG39-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%" />
+<p class="caption">(\#fig:FIG39)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.</p>
+</div>
+
+
+
+
+
+#### Análisis de sitios en los cuales su ancestro era HIP1
+
+Para tratar de entender como es que los sitios HIP1 se pierden hicimos un análisis unicamente en en las transiciones en las que el nodo ancestral tenia un sitio HIP1.
+
+En la (Figura \@ref(fig:FIG40)) mostramos 3 gráficos que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG40-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG40-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" /><img src="Resultados_files/figure-epub3/FIG40-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%" />
+<p class="caption">(\#fig:FIG40)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**</p>
+</div>
+
+En la (Figura \@ref(fig:FIG41)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio HIP.
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG41-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG41-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG41-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%" />
+<p class="caption">(\#fig:FIG41)**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.</p>
+</div>
+
+En la (Figura \@ref(fig:FIG42)) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG42-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG42-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" /><img src="Resultados_files/figure-epub3/FIG42-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%" />
+<p class="caption">(\#fig:FIG42)**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.</p>
+</div>
+
+
+#### Análisis de sitios en los cuales solo el nodo actual tiene HIP1
+
+Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis unicamente en las transiciones en las que el nodo actual tenia un sitio HIP1. 
+
+En la Figura \@ref(fig:FIG43) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
+
+<div class="figure" style="text-align: center">
+<img src="Resultados_files/figure-epub3/FIG43-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG43-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" /><img src="Resultados_files/figure-epub3/FIG43-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%" />
+<p class="caption">(\#fig:FIG43)**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.</p>
+</div>
+
+
+
 ### TGGCGCCA
 
 #### Red de transiciones
@@ -1302,143 +1419,138 @@ En la (Figura \@ref(fig:FIG25)) podemos ver las transiciones de una forma mas or
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">TGGCGCCA</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">TGGCGCCA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGTGCCA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">51</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">54</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGCACCA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffcb6e">32</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGAGCCA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd68b">27</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffcb6c">34</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CGGCGCCA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TGGCGCCA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd890">26</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd487">29</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">TGGCGCCA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGCGACA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdc9c">24</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4"> <span style="     color: red !important;">TGGCGCCA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGAGCCA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd487">29</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGCGCAA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdea2">23</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd892">27</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGCGACA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffda97">26</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGTGCAA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe2ad">21</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe4b3">21</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGCGCCG</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">TGGCGCCA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe6b8">20</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedce">16</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">TGGCGCCA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGCACCA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedce">16</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">AGGCGCCA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffefd3">15</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGCGCCT</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TGGCGCCA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeac5">17</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff1d9">14</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="5"> <span style="     color: red !important;">TGGCGCCA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGCGCCG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeac5">17</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3de">13</span> </td>
   </tr>
   <tr>
    
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGCACCA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffecca">16</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGTGCTA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffecca">16</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CGGCGCCA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeed0">15</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">AGGCGCCA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d6">14</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGTGCTA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGTGCCA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e2">12</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TGGCGCCA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGCGCTA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e2">12</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">AGGCGCCA</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">TGGCGCCA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e7">11</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGCGCCT</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e7">11</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">TGGCGCCA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGCTCCA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">10</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGGGCAA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">9</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGCACCA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TGGCGCCA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">8</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">TGGCGCCA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGCGCCT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">8</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">12</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGCGCCA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">8</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">12</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CGGCGCCA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">12</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGTGCTA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">12</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGTGCTA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGTGCCA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">11</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TGGCGCCA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGCGCCA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">11</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">AGGCGCCA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TGGCGCCA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">11</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4"> <span style="     color: red !important;">TGGCGCCA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGCTCCA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">11</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGCGCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">8</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">11</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGTGCAA</span> </td>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGGGCAA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf4">9</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGAGCAA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdf9">8</span> </td>
+  </tr>
+  <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGTGCCA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGTGCTA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">TGGCGCCA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGCGGCA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGCGCCT</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
    
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGCGTCA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGTGCCA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TGGCGCCA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGCACCA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
 </tbody>
@@ -1543,7 +1655,7 @@ Para hacer mas visual la reconstrucción, construimos una red de las transicione
 
 ```r
 source("ASR_Orth_Functions/NodeAndEdges.R")
-Nodes.Edges <- Create_Transition_Table(SitesTable = "Clados/Cyanobacterium_clade/PALINDROMES/GCGATCGC/PCC_8801/Orthologues_Palindrome_sites.txt",
+Nodes.Edges <- Create_Transition_Table_No_Fit(SitesTable = "Clados/Cyanobacterium_clade/PALINDROMES/GCGATCGC/PCC_8801/Orthologues_Palindrome_sites.txt",
                                 EvolutionModel = "F81",
                                 Method = "bayes",
                                 Phylogeny = "Clados/Cyanobacterium_clade/SpeciesTree_rooted.txt",
@@ -1587,151 +1699,141 @@ En la (Figura \@ref(fig:FIG14C)) podemos ver las transiciones de una forma mas o
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">88</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">83</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffcd71">52</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffc968">52</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd384">46</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd07c">46</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd890">42</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd382">44</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffda97">40</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdb9a">37</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGT</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdea3">36</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe0a7">33</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="5"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe6b9">29</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe9c2">25</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeac5">24</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe8c0">27</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeac5">24</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe9c3">26</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeac5">24</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedcc">23</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedcc">22</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d6">19</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d6">19</span> </td>
+  </tr>
+  <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeecf">22</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGT</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d6">19</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7ea">13</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff1d9">19</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATAGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7ea">13</span> </td>
   </tr>
   <tr>
    
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2dc">18</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3df">17</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">12</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e8">14</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">12</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e8">14</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">12</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">11</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATAGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">11</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf1">11</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf4">10</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">GCTATTGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf4">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf4">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
   </tr>
   <tr>
    
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCAC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTAC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
   </tr>
   <tr>
@@ -1740,13 +1842,28 @@ En la (Figura \@ref(fig:FIG14C)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
+   
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATAGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCAC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGT</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
@@ -1910,57 +2027,57 @@ En la (Figura \@ref(fig:FIG14G)) podemos ver las transiciones de una forma mas o
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">294</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">292</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd892">129</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd78f">132</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe6ba">84</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe7bb">83</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeac5">72</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeac3">73</span> </td>
   </tr>
   <tr>
-   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffebc8">68</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffebc8">68</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="6"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedcd">63</span> </td>
-  </tr>
-  <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff1d7">51</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="5"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d4">54</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2da">48</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2dc">46</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGG</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2da">48</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e2">39</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3dd">45</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e7">33</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e5">36</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e6">34</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
@@ -1970,36 +2087,56 @@ En la (Figura \@ref(fig:FIG14G)) podemos ver las transiciones de una forma mas o
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e8">32</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">31</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">TCGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ec">28</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">27</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">31</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">26</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ec">28</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ec">28</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">26</span> </td>
   </tr>
   <tr>
    
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">27</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">25</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">26</span> </td>
   </tr>
   <tr>
    
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">26</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">25</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">24</span> </td>
+  </tr>
+  <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">24</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">24</span> </td>
   </tr>
   <tr>
@@ -2008,38 +2145,23 @@ En la (Figura \@ref(fig:FIG14G)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9f0">23</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9f0">23</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9f0">23</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">21</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">21</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">21</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf4">19</span> </td>
-  </tr>
-  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf4">19</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">20</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">18</span> </td>
   </tr>
   <tr>
@@ -2048,38 +2170,38 @@ En la (Figura \@ref(fig:FIG14G)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">18</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCTC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTCGC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">15</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">18</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">14</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf6">17</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCTC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf6">16</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf6">16</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">14</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">15</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">14</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">14</span> </td>
   </tr>
   <tr>
    
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">14</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdf9">13</span> </td>
   </tr>
   <tr>
@@ -2088,19 +2210,49 @@ En la (Figura \@ref(fig:FIG14G)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdf9">13</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdf9">13</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdf9">13</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">12</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCTC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">12</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">12</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">11</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">11</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGCTCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">11</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">11</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGT</span> </td>
@@ -2108,59 +2260,29 @@ En la (Figura \@ref(fig:FIG14G)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">11</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">11</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">11</span> </td>
   </tr>
   <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">11</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGAACGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">11</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">11</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefc">10</span> </td>
   </tr>
   <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">11</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">11</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">11</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">11</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">11</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">11</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefc">10</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
@@ -2168,33 +2290,23 @@ En la (Figura \@ref(fig:FIG14G)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefc">10</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefc">10</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefc">10</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGG</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefc">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefc">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGAACGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">9</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTTTAGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGTTAGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">9</span> </td>
   </tr>
   <tr>
@@ -2203,9 +2315,9 @@ En la (Figura \@ref(fig:FIG14G)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">9</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTAA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">8</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCTC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">9</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGT</span> </td>
@@ -2213,23 +2325,23 @@ En la (Figura \@ref(fig:FIG14G)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">8</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">8</span> </td>
   </tr>
   <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCTTAGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTTTAGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">8</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAA</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">8</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTAGC</span> </td>
-   
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">8</span> </td>
   </tr>
   <tr>
@@ -2238,47 +2350,32 @@ En la (Figura \@ref(fig:FIG14G)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">8</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTTTAGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGTTAGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">8</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">8</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">8</span> </td>
-  </tr>
-  <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGG</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">8</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CTGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">8</span> </td>
   </tr>
   <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGT</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTTTAGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">8</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefe">8</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTAA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGCTCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTAC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
@@ -2288,8 +2385,18 @@ En la (Figura \@ref(fig:FIG14G)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTAGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
@@ -2309,7 +2416,7 @@ En la (Figura \@ref(fig:FIG14G)) podemos ver las transiciones de una forma mas o
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTTATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
@@ -2412,7 +2519,7 @@ En la Figura \@ref(fig:FIG23G) mostramos 3 gráficos (uno por cada marco de lect
 
 
 
-### TGGCGCCA
+### TCGATCGA
 
 #### Red de transiciones
 
@@ -2465,141 +2572,141 @@ En la (Figura \@ref(fig:FIG25G)) podemos ver las transiciones de una forma mas o
   <tr>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4"> <span style="     color: red !important;">TCGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">91</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">89</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffb939">72</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa90c">85</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffbb3f">70</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffbc41">68</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffcc70">54</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffcf79">50</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: orange !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd78e">44</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd78f">43</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">TCGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd892">42</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd892">42</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdc9e">38</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffda97">41</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCAA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdfa4">36</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe0a7">35</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe1aa">35</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe2ae">33</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe1aa">35</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">TCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe2ad">34</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe2ad">34</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCAA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe2ad">34</span> </td>
-  </tr>
-  <tr>
-   
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">TCGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: orange !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe3b0">33</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe4b4">31</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATTGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe3b0">33</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe7bd">28</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe9c0">27</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: orange !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe9c0">27</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: orange !important;">GCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe7bc">29</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeac3">26</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe9c2">27</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: orange !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeac5">26</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGACCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2da">19</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">TCGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffecca">24</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2da">19</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeed0">22</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d6">20</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCTATTGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3dd">18</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff1d9">19</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3dd">18</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">TTGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3dd">18</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3dd">18</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e0">17</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e0">17</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">16</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGACCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">TTGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2dc">18</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGT</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">16</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">16</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4df">17</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4df">17</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">TCGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">16</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGA</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">16</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGT</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">16</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">TTGATCGT</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">16</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
+   
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">16</span> </td>
   </tr>
   <tr>
@@ -2608,8 +2715,18 @@ En la (Figura \@ref(fig:FIG25G)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">16</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">TCGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCAATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e6">15</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCCATTGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e6">15</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e6">15</span> </td>
   </tr>
   <tr>
@@ -2618,13 +2735,8 @@ En la (Figura \@ref(fig:FIG25G)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e6">15</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e6">15</span> </td>
-  </tr>
-  <tr>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCTA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e6">15</span> </td>
   </tr>
   <tr>
@@ -2634,113 +2746,103 @@ En la (Figura \@ref(fig:FIG25G)) podemos ver las transiciones de una forma mas o
   </tr>
   <tr>
    
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCTA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">14</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCCATTGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATTGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">14</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ec">13</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCCATTGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ec">13</span> </td>
-  </tr>
-  <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ec">13</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCTATTGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATTGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ec">13</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCAA</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">12</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: orange !important;">GCGATCGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">11</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">11</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">12</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: orange !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">12</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGT</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">12</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGACCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">11</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">12</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCAA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">11</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">11</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">11</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">11</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCAA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">TCGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCTATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">11</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGTTCAA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGTTCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGACAGA</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">TTGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGG</span> </td>
    
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">11</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCCATTGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCTATTGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">11</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATAGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGAGCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGACCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGTTCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
   </tr>
   <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCTATTGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATTGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGT</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCCATTGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATTGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCCATCGA</span> </td>
@@ -2748,83 +2850,78 @@ En la (Figura \@ref(fig:FIG25G)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATAGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGAGCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCCATTGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCTATTGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGACCAA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCAA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
-  </tr>
-  <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: orange !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATAGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCAATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">TTGATCGA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
   </tr>
   <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCAA</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCAA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCAA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATTGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">TCGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGCTCGA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: orange !important;">GCGATCGC</span> </td>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATAGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGTTCAA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGTTCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATAGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGT</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGACAGA</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">TTGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGG</span> </td>
+   
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
   </tr>
   <tr>
@@ -2833,6 +2930,11 @@ En la (Figura \@ref(fig:FIG25G)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
   </tr>
   <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: orange !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
+  </tr>
+  <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGT</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
@@ -2843,8 +2945,8 @@ En la (Figura \@ref(fig:FIG25G)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGAAATA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCTC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
   </tr>
   <tr>
@@ -2853,48 +2955,98 @@ En la (Figura \@ref(fig:FIG25G)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGACCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGACCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGT</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCCATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCAATTGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCAATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">TCGATCGA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATAGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: orange !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
+   
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCCATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">TCGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCTATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
    
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCAA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCAA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCAA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGTTCCA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGTTCTA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: orange !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCTATTGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCCATTGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCTATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCTATTGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">TCGATCGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TAGATCAA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACCATTGA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATTGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGACCAA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TTGATCAA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGAGATA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGTTCTA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCTA</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
 </tbody>
@@ -3044,227 +3196,227 @@ En la (Figura \@ref(fig:FIG14P)) podemos ver las transiciones de una forma mas o
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">167</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">137</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe1aa">60</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd68d">65</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGG</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe2af">57</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdd9e">56</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="6"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe5b7">52</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="8"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdda0">55</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe5b7">52</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe7bd">48</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe2ae">48</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedcc">39</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe4b2">46</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe4b2">46</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATGGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe6b8">43</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedcc">39</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeac4">37</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedcd">38</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d7">32</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATGGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff1d8">31</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeac4">37</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2da">30</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffecca">34</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedcd">32</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3dd">28</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffefd1">30</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffefd3">29</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3dd">28</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d5">28</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d5">28</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2db">25</span> </td>
+  </tr>
+  <tr>
+   
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e0">26</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3dd">24</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTGGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e0">26</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e0">26</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e2">25</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3dd">24</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e2">25</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3dd">24</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="5"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e5">23</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e7">22</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e1">22</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e8">21</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">18</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCGG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">18</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">17</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGAGCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">17</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">17</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9f0">16</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9f0">16</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="5"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">15</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCTC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">15</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGCTGGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf3">14</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf3">14</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e1">22</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf3">14</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">21</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCGG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">21</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGAGCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e7">19</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf3">14</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8eb">17</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">13</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8eb">17</span> </td>
   </tr>
   <tr>
    
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">13</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8eb">17</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">16</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">15</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCTC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">15</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">15</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGCTCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf1">14</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf1">14</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf1">14</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">13</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">13</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATTGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">12</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">12</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGCTCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">12</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">11</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">12</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">AGGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">11</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCTC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">10</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">11</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="9"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">AGGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">10</span> </td>
-  </tr>
-  <tr>
-   
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">10</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">10</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">11</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">10</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
   </tr>
   <tr>
    
@@ -3272,67 +3424,57 @@ En la (Figura \@ref(fig:FIG14P)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
   </tr>
   <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGTTGGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGCTCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTCTGGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGCTGGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAGTGGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTGGC</span> </td>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATGGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAT</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCAC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
   </tr>
   <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGCTCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGCTCTC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTAC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTCTGGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCAC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
-   
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CGGATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
@@ -3342,18 +3484,8 @@ En la (Figura \@ref(fig:FIG14P)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTAATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
    
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCTG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGCTCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
 </tbody>
@@ -3499,236 +3631,226 @@ En la (Figura \@ref(fig:FIG25P)) podemos ver las transiciones de una forma mas o
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="9"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">166</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe7bb">49</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">212</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTCC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe9c2">45</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe9c2">56</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeac4">54</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCCG</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeed0">36</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d5">40</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e4">28</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCGC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3dd">28</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATCCC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e0">26</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e4">28</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGAACCC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e6">22</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATTCC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e8">21</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7eb">23</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">AGGATCCC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e8">21</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7eb">23</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATTCC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7ea">20</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATGCC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8eb">19</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATCCC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8eb">19</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7eb">23</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGTATTCC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">18</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">GGGATTCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ec">22</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCCG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">17</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGAATCCC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">17</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9f0">16</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCTC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="5"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9f0">16</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCCA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATTCC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">15</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ec">22</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGAGCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="5"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">21</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATTCC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf3">14</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">20</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CGGATCCC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf3">14</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">20</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATGCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">20</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGCTCCC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf3">14</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9f0">19</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">13</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGTATCCC</span> </td>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">13</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf1">18</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGTTCCC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">13</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf6">12</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">17</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGGTCCC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf6">12</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCCT</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf6">12</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCCA</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">17</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">AGGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">11</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf3">16</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATTCC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">11</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGAATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="6"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf3">16</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">11</span> </td>
-  </tr>
-  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCCT</span> </td>
    
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">15</span> </td>
+  </tr>
+  <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCTC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">10</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf6">14</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGGTCCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">13</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">13</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGTATCCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">12</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">12</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCT</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">10</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">11</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CGGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">10</span> </td>
-  </tr>
-  <tr>
-   
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGCTCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">10</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">11</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">10</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGTATTCC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCCC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGTATTCC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATTCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">AAGATCCC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: orange !important;">GCGATCGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCG</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGAATTCC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCCT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCCG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfa">11</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATACC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">10</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">10</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">10</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCTC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefc">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">AAGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefc">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TGGATCCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefc">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCCC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefc">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGAATTCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefc">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATTCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCCA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGTTCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATTCC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATTCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGAATCCC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
@@ -3742,13 +3864,28 @@ En la (Figura \@ref(fig:FIG25P)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCCC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGTATTCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">GCGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCG</span> </td>
+   
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">-------C</span> </td>
-   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GGGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATTCC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGCATCCC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
@@ -3903,296 +4040,311 @@ En la (Figura \@ref(fig:FIG14T)) podemos ver las transiciones de una forma mas o
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">88</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">102</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffb225">76</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffab12">95</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffbe48">65</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffcf78">57</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd280">54</span> </td>
+  </tr>
+  <tr>
+   
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffc967">55</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd383">53</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffce74">51</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd993">47</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">GCCATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffcf77">50</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd07a">49</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd993">41</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffda97">40</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffda97">40</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdb9a">39</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdb9a">39</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd993">47</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdfa6">40</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdda0">37</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdfa6">40</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdfa6">40</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdfa6">40</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe1aa">34</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe1ab">38</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATGGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe2ad">33</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe1ab">38</span> </td>
   </tr>
   <tr>
    
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe2ae">37</span> </td>
+  </tr>
+  <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe7bc">28</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffebc6">25</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe3b1">36</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffebc6">25</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffebc6">25</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGG</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffecc9">24</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedcc">23</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedcc">23</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeac3">29</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeecf">22</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffecc9">27</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffecc9">27</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedcc">26</span> </td>
+  </tr>
+  <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeecf">22</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedce">25</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedce">25</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffeed1">24</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffefd4">23</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffefd4">23</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">ACGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d6">22</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff1d9">21</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d6">20</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2dc">20</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCCC</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d6">20</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3df">17</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCTC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3df">17</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e2">16</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e2">16</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e2">16</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCAATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e2">16</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCTC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e8">14</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2dc">20</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e8">14</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGAACGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3de">19</span> </td>
   </tr>
   <tr>
    
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGAACGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e8">14</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e4">17</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCTC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e4">17</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAC</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e6">16</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGATCGC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">15</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCTC</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">15</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="8"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">15</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">15</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGATCGG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ec">14</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTGGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">13</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">13</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e8">14</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">13</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ec">13</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">TCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ec">13</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf1">12</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGCTCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf4">11</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGG</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf4">11</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGG</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf6">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf6">10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdf9">9</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCGG</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">12</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdf9">9</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGATCGG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdf9">9</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: blue !important;">GCAATTGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">11</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGG</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf2">11</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGG</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGG</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGACCGG</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGATCGG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">10</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAA</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTGGC</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGG</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGC</span> </td>
-   
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf8">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGG</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdf9">9</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATCGT</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdf9">9</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGCTCGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">8</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGCTCCC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdf9">9</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGT</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCGG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCCATTGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefc">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="5"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATCAA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefc">8</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GGGAGCGG</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGATCGC</span> </td>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGTTGGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGAGCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATGGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTGGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGACCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGATCGA</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCTATTGC</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATTGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">GCGATCGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGATAGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
-   
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GCGGTGGC</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GTGATTGC</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">GCGATCGC</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
 </tbody>
@@ -4339,51 +4491,56 @@ En la (Figura \@ref(fig:FIG25T)) podemos ver las transiciones de una forma mas o
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">--------</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">CAGGCCTG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">38</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">35</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">CAGGCCTG</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAAGCCTG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd68b">21</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd588">20</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAAGCCTG</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">CAGGCCTG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff0d5">12</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGGCTTG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e6">10</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2da">11</span> </td>
   </tr>
   <tr>
    
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: black !important;">CAGGCATG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e6">10</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2da">11</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAAGCATG</span> </td>
    
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">CAGGCCTG</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGGACTG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ee">9</span> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGGCTTG</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">CAGGCCTG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf6">8</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ec">9</span> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">CAGGCCTG</span> </td>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGGCCTG</span> </td>
-   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGGACTG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ec">9</span> </td>
   </tr>
   <tr>
    
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGGCCTG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">GAGGCCTG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGGCATG</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">------TG</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAAGCCTG</span> </td>
+   
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">8</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CGGGCCTG</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
@@ -4392,18 +4549,28 @@ En la (Figura \@ref(fig:FIG25T)) podemos ver las transiciones de una forma mas o
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CCGGCCTG</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGGCCTT</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAAGCGTG</span> </td>
    <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGGCGTG</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGGCATG</span> </td>
-   <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: red !important;">CAGGCCTG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGGGCTG</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">------TG</span> </td>
-   
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">---GTGTG</span> </td>
+   <td style="text-align:left;font-weight: bold;"> <span style="     color: black !important;">CAGGTGTG</span> </td>
    <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span> </td>
   </tr>
 </tbody>

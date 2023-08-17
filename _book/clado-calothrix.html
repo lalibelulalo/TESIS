@@ -1,0 +1,1829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Clado Calothrix | Evolución de secuencias palindromicas en genomas de cianobacterias</title>
+<meta name="author" content="Eduardo Padilla Mendoza">
+<meta name="description" content="El clado calothrix contiene 6 especies y es de interes ya que segun la filogenia estan estrechamente relacionadas y muestra un cambio en el palindromo mas abundante, pasando de GCGATCGC a TGGCGCCA...">
+<meta name="generator" content="bookdown 0.34 with bs4_book()">
+<meta property="og:title" content="Clado Calothrix | Evolución de secuencias palindromicas en genomas de cianobacterias">
+<meta property="og:type" content="book">
+<meta property="og:description" content="El clado calothrix contiene 6 especies y es de interes ya que segun la filogenia estan estrechamente relacionadas y muestra un cambio en el palindromo mas abundante, pasando de GCGATCGC a TGGCGCCA...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Clado Calothrix | Evolución de secuencias palindromicas en genomas de cianobacterias">
+<meta name="twitter:description" content="El clado calothrix contiene 6 especies y es de interes ya que segun la filogenia estan estrechamente relacionadas y muestra un cambio en el palindromo mas abundante, pasando de GCGATCGC a TGGCGCCA...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.5.0/transition.js"></script><script src="libs/bs3compat-0.5.0/tabs.js"></script><script src="libs/bs3compat-0.5.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="libs/kePrint-0.0.1/kePrint.js"></script><link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet">
+<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script><script src="libs/htmlwidgets-1.6.2/htmlwidgets.js"></script><script src="libs/d3-4.5.0/d3.min.js"></script><script src="libs/forceNetwork-binding-0.4/forceNetwork.js"></script><script src="libs/sankey-1/sankey.js"></script><script src="libs/sankeyNetwork-binding-0.4/sankeyNetwork.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<style type="text/css">
+    /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+        }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Evolución de secuencias palindromicas en genomas de cianobacterias</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Resumen</a></li>
+<li><a class="" href="introducci%C3%B3n.html"><span class="header-section-number">1</span> Introducción</a></li>
+<li><a class="" href="m%C3%A9todos.html"><span class="header-section-number">2</span> Métodos</a></li>
+<li class="book-part">Sección I</li>
+<li><a class="" href="distribuci%C3%B3n-de-hip1-en-los-marcos-de-lectura.html">Distribución de HIP1 en los marcos de lectura</a></li>
+<li class="book-part">Sección II</li>
+<li><a class="active" href="clado-calothrix.html">Clado Calothrix</a></li>
+<li><a class="" href="referencias.html">Referencias</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/lalibelulalo/TESIS">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="clado-calothrix" class="section level1 unnumbered">
+<h1>Clado Calothrix<a class="anchor" aria-label="anchor" href="#clado-calothrix"><i class="fas fa-link"></i></a>
+</h1>
+El clado calothrix contiene 6 especies y es de interes ya que segun la filogenia estan estrechamente relacionadas y muestra un cambio en el palindromo mas abundante, pasando de <strong>GCGATCGC</strong> a <strong>TGGCGCCA</strong> (Figure <a href="clado-calothrix.html#fig:FIG12">4.1</a>).
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG12"></span>
+<img src="Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia_HIG.png" alt="**Filogenia anotada del clado Calothrix.** En esta imagen se muestra un cambio abrupto en la Frecuencia observada de **GCGCATCGC** en las especies NIES-4105, NIES-4071 y PCC\_7716." width="100%"><p class="caption">
+Figure 4.1: <strong>Filogenia anotada del clado Calothrix.</strong> En esta imagen se muestra un cambio abrupto en la Frecuencia observada de <strong>GCGCATCGC</strong> en las especies NIES-4105, NIES-4071 y PCC_7716.
+</p>
+</div>
+<div id="conjunto-de-sitios-hip1-usando-la-especie-336-3-como-referencia" class="section level2" number="4.1">
+<h2>
+<span class="header-section-number">4.1</span> Conjunto de sitios HIP1 usando la especie 336-3 como referencia<a class="anchor" aria-label="anchor" href="#conjunto-de-sitios-hip1-usando-la-especie-336-3-como-referencia"><i class="fas fa-link"></i></a>
+</h2>
+<div id="red-de-transiciones" class="section level3" number="4.1.1">
+<h3>
+<span class="header-section-number">4.1.1</span> Red de transiciones<a class="anchor" aria-label="anchor" href="#red-de-transiciones"><i class="fas fa-link"></i></a>
+</h3>
+<p>Para hacer mas visual la reconstrucción, construimos una red de las transiciones entre los estados ancestrales. Esto lo hicimos en r usando la función <code>Create_Transition_Table()</code>:</p>
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/source.html">source</a></span><span class="op">(</span><span class="st">"ASR_Orth_Functions/NodeAndEdges.R"</span><span class="op">)</span></span>
+<span><span class="va">Nodes.Edges</span> <span class="op">&lt;-</span> <span class="fu">Create_Transition_Table_No_Fit</span><span class="op">(</span>SitesTable <span class="op">=</span> <span class="st">"Clados/Callothrix_clade/PALINDROMES/GCGATCGC/336-3/Orthologues_Palindrome_sites.txt"</span>,</span>
+<span>                                EvolutionModel <span class="op">=</span> <span class="st">"F81"</span>,</span>
+<span>                                Method <span class="op">=</span> <span class="st">"bayes"</span>,</span>
+<span>                                Phylogeny <span class="op">=</span> <span class="st">"Clados/Callothrix_clade/SpeciesTree_rooted.txt"</span>,</span>
+<span>                                OrthoPath <span class="op">=</span> <span class="st">"Clados/Callothrix_clade/PALINDROMES/GCGATCGC/336-3/Only_ORTHOLOGUES/"</span><span class="op">)</span></span></code></pre></div>
+<p>Posteriormente creamos la red usando la función <code>Create_Network()</code>:</p>
+<p>y visualizamos dicha red .</p>
+<p>Para visualizar la red usamos la paqueteria <code>networkD3</code>. Hicimos 2 figuras, la (Figura <a href="clado-calothrix.html#fig:FIG13">4.2</a>) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En dicha red podemos ver algunos nodos con bordes muy gruesos como <strong>GCGATTGC</strong>, <strong>GCAATTGC</strong>, <strong>GCTATCGC</strong>, <strong>GCTATTGC</strong> (Tabla <a href="clado-calothrix.html#tab:TAB6">4.1</a>).</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG13"></span>
+<div class="forceNetwork html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-acea3316013a21e5dc12" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-acea3316013a21e5dc12">{"x":{"links":{"source":[0,1,2,3,4,5,2,6,6,7,8,0,9,10,11,12,13,14,7,15,16,7,17,16,18,19,20,2,21,7,22,23,24,25,26,27,28,29,30,6,23,31,32,33,34,5,35,36,5,37,38,39,40,41,34,42,43,4,25,44,45,10,34,46,41,34,5,34,47,48,16,14,49,50,51,11,52,53,34,54,55,56,10,2,57,16,58,6,59,34,60,61,62,63,64,16,14,42,65],"target":[1,34,3,34,34,4,34,4,34,6,34,34,34,0,34,34,34,34,9,34,34,17,34,17,34,34,34,16,34,34,34,34,34,1,34,34,34,34,34,17,17,34,34,34,29,29,34,34,34,34,34,40,34,40,17,34,34,9,34,34,34,34,46,34,34,19,6,47,34,34,3,16,34,34,50,6,34,34,1,24,34,34,25,29,34,6,34,16,34,3,34,34,34,34,34,2,23,29,36],"value":[23,66,16,89,79,9,39,32,91,13,14,46,57,13,8,9,7,11,18,7,91,17,139,44,7,47,7,12,14,42,16,13,9,12,59,35,10,66,26,33,7,8,27,12,9,12,25,9,16,9,8,14,32,11,23,20,10,10,27,10,8,22,11,20,18,13,10,7,21,13,23,8,13,14,8,8,9,8,11,7,7,7,11,15,13,18,9,18,8,10,7,9,15,9,10,8,9,12,7],"colour":["#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666"]},"nodes":{"name":["GCGACCGT","GCGACCGC","GCAATAGC","GCAATCGC","GCTATCGC","GCTATAGC","GCTATTGC","GCCATTGC","GCGAGCGC","GCCATCGC","GTGACCGT","GCTGTTGC","GCAATCGT","GTGATCGT","GCAGTTGC","GTGACCGA","GCAATTGC","GCGATTGC","GTAATCGC","GTGATCGC","GCGGTAGC","GTGATTGC","GCGATCAC","GCGGTTGC","GCGATTGA","GTGACCGC","--------","GCGATCGT","GAGACCGC","GCGATAGC","GCGATCGA","GAGACCGT","GCGTTCGC","ACAATTGC","GCGATCGC","GCGGTCGC","GCGATGGC","GCAATATC","GTAACCGC","GCGACAGA","GCGATAGA","GTGATAGA","GCCATAGC","GCGACCGA","GCGATAAC","GAGATAGA","ACGATCGC","GCGAACGC","GAGATCGC","ACGTTCGC","GAAATCGC","GAAATTGC","GCGTTCTC","GCGATCAA","GCAATTGA","GCAATTAC","GCGATCGG","GCGATAAA","GTGATAGC","GCTTTAGC","ACTATCGC","GCAATTTC","GCGCTCGC","GCGAACGT","GCGATTGT","GCAATGGC"],"group":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65]},"options":{"NodeID":"label","Group":"id","colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":16,"fontFamily":"serif","clickTextSize":40,"linkDistance":50,"linkWidth":"function(d) { return Math.sqrt(d.value); }","charge":-30,"opacity":1,"zoom":true,"legend":false,"arrows":false,"nodesize":false,"radiusCalculation":" Math.sqrt(d.nodesize)+6","bounded":false,"opacityNoHover":0,"clickAction":null}},"evals":[],"jsHooks":[]}</script><p class="caption">
+Figure 4.2: <strong>Red de todas las transiciones del clado Calothrix.</strong> En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios.
+</p>
+</div>
+En la (Figura <a href="clado-calothrix.html#fig:FIG14">4.3</a>) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG14"></span>
+<div class="sankeyNetwork html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-4aa4f9bc0c8c86f895ca" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-4aa4f9bc0c8c86f895ca">{"x":{"links":{"source":[0,1,2,3,4,5,2,6,6,7,8,0,9,10,11,12,13,14,7,15,16,7,17,16,18,19,20,2,21,7,22,23,24,25,26,27,28,29,30,6,23,31,32,33,34,5,35,36,5,37,38,39,40,41,34,42,43,4,25,44,45,10,34,46,41,34,5,34,47,48,16,14,49,50,51,11,52,53,34,54,55,56,10,2,57,16,58,6,59,34,60,61,62,63,64,16,14,42,65],"target":[1,34,3,34,34,4,34,4,34,6,34,34,34,0,34,34,34,34,9,34,34,17,34,17,34,34,34,16,34,34,34,34,34,1,34,34,34,34,34,17,17,34,34,34,29,29,34,34,34,34,34,40,34,40,17,34,34,9,34,34,34,34,46,34,34,19,6,47,34,34,3,16,34,34,50,6,34,34,1,24,34,34,25,29,34,6,34,16,34,3,34,34,34,34,34,2,23,29,36],"value":[23,66,16,89,79,9,39,32,91,13,14,46,57,13,8,9,7,11,18,7,91,17,139,44,7,47,7,12,14,42,16,13,9,12,59,35,10,66,26,33,7,8,27,12,9,12,25,9,16,9,8,14,32,11,23,20,10,10,27,10,8,22,11,20,18,13,10,7,21,13,23,8,13,14,8,8,9,8,11,7,7,7,11,15,13,18,9,18,8,10,7,9,15,9,10,8,9,12,7]},"nodes":{"name":["GCGACCGT","GCGACCGC","GCAATAGC","GCAATCGC","GCTATCGC","GCTATAGC","GCTATTGC","GCCATTGC","GCGAGCGC","GCCATCGC","GTGACCGT","GCTGTTGC","GCAATCGT","GTGATCGT","GCAGTTGC","GTGACCGA","GCAATTGC","GCGATTGC","GTAATCGC","GTGATCGC","GCGGTAGC","GTGATTGC","GCGATCAC","GCGGTTGC","GCGATTGA","GTGACCGC","--------","GCGATCGT","GAGACCGC","GCGATAGC","GCGATCGA","GAGACCGT","GCGTTCGC","ACAATTGC","GCGATCGC","GCGGTCGC","GCGATGGC","GCAATATC","GTAACCGC","GCGACAGA","GCGATAGA","GTGATAGA","GCCATAGC","GCGACCGA","GCGATAAC","GAGATAGA","ACGATCGC","GCGAACGC","GAGATCGC","ACGTTCGC","GAAATCGC","GAAATTGC","GCGTTCTC","GCGATCAA","GCAATTGA","GCAATTAC","GCGATCGG","GCGATAAA","GTGATAGC","GCTTTAGC","ACTATCGC","GCAATTTC","GCGCTCGC","GCGAACGT","GCGATTGT","GCAATGGC"],"group":["GCGACCGT","GCGACCGC","GCAATAGC","GCAATCGC","GCTATCGC","GCTATAGC","GCTATTGC","GCCATTGC","GCGAGCGC","GCCATCGC","GTGACCGT","GCTGTTGC","GCAATCGT","GTGATCGT","GCAGTTGC","GTGACCGA","GCAATTGC","GCGATTGC","GTAATCGC","GTGATCGC","GCGGTAGC","GTGATTGC","GCGATCAC","GCGGTTGC","GCGATTGA","GTGACCGC","--------","GCGATCGT","GAGACCGC","GCGATAGC","GCGATCGA","GAGACCGT","GCGTTCGC","ACAATTGC","GCGATCGC","GCGGTCGC","GCGATGGC","GCAATATC","GTAACCGC","GCGACAGA","GCGATAGA","GTGATAGA","GCCATAGC","GCGACCGA","GCGATAAC","GAGATAGA","ACGATCGC","GCGAACGC","GAGATCGC","ACGTTCGC","GAAATCGC","GAAATTGC","GCGTTCTC","GCGATCAA","GCAATTGA","GCAATTAC","GCGATCGG","GCGATAAA","GTGATAGC","GCTTTAGC","ACTATCGC","GCAATTTC","GCGCTCGC","GCGAACGT","GCGATTGT","GCAATGGC"]},"options":{"NodeID":"label","NodeGroup":"label","LinkGroup":null,"colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":16,"fontFamily":null,"nodeWidth":15,"nodePadding":10,"units":"TIME(s)","margin":{"top":null,"right":null,"bottom":null,"left":null},"iterations":32,"sinksRight":true}},"evals":[],"jsHooks":[]}</script><p class="caption">
+Figure 4.3: <strong>Red de todas las transiciones del clado Calothrix.</strong> En esta imagen se muestra la red de la Figura <a href="clado-calothrix.html#fig:FIG13">4.2</a> de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió.
+</p>
+</div>
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:200px; overflow-x: scroll; width:500px; ">
+<div class="inline-table"><table class=" lightable-paper table table-striped table-condensed" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 11px; width: auto !important; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">
+<span id="tab:TAB6">Table 4.1: </span>Transiciones entre nodos.
+</caption>
+<thead><tr>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;">
+from
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;">
+to
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;">
+weight
+</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="11">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">139</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTATTGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffc55c">91</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: blue !important;">GCAATTGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffc55c">91</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffc760">89</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffcd73">79</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGACCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd68d">66</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATAGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd68d">66</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">——–</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdb9a">59</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCCATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffdc9e">57</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GTGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe3b1">47</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGACCGT</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe4b3">46</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: blue !important;">GCAATTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATTGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe5b7">44</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCCATTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe7bb">42</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAATAGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe9c1">39</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATCGT</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffebc8">35</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2">
+<span style="     color: black !important;">GCTATTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATTGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedcc">33</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedce">32</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATAGA</span>
+</td>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="5">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedce">32</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGTTCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff1d8">27</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GTGACCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff1d8">27</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATCGA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2da">26</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGGTCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff2dc">25</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGACCGT</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGACCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e0">23</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATTGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e0">23</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: blue !important;">GCAATTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e0">23</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GTGACCGT</span>
+</td>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff4e2">22</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGAACGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">21</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCCATAGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e5">20</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">ACGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff6e5">20</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCCATTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCCATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">18</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GTGATAGA</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">18</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: blue !important;">GCAATTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTATTGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">18</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTATTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: blue !important;">GCAATTGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">18</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCCATTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATTGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8eb">17</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAATAGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">16</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATCAC</span>
+</td>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">16</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTATAGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff8ed">16</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAATAGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATAGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">15</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGCTCGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff9ef">15</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGAGCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf1">14</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GTGATTGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf1">14</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGACAGA</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATAGA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf1">14</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GAAATCGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf1">14</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCCATTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTATTGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">13</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GTGACCGT</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGACCGT</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">13</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGGTTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">13</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GTGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">13</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GAGATCGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">13</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">ACGTTCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">13</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATAAA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffaf3">13</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAATAGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: blue !important;">GCAATTGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">12</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GTGACCGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGACCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">12</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">ACAATTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">12</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTATAGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2">
+<span style="     color: black !important;">GCGATAGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">12</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCCATAGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf5">12</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAGTTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">11</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GTGATAGA</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATAGA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">11</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">ACGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">11</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGACCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">11</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GTGACCGT</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GTGACCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf7">11</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GAGACCGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">10</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGACCGA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">10</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTATCGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCCATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">10</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATAAC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">10</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTATAGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTATTGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">10</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">10</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATTGT</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffcf9">10</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTATAGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAATCGT</span>
+</td>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATTGA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATAGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATGGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="6">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAATATC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGTTCTC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GTGATAGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAATTTC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGAACGT</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAGTTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGGTTGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdfb">9</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTGTTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GAGACCGT</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GTAACCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GAGATAGA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAGTTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: blue !important;">GCAATTGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GAAATTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GAAATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTGTTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTATTGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATCAA</span>
+</td>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCTTTAGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: blue !important;">GCAATTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAATAGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffefd">8</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GTGATCGT</span>
+</td>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GTGACCGA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GTAATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGGTAGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGGTTGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATTGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGAACGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAATTGA</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATTGA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAATTAC</span>
+</td>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="3">
+<span style="     color: red !important;">GCGATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATCGG</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">ACTATCGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCAATGGC</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">GCGATGGC</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div id="transiciones-entre-nodo-9-y-nodo-10" class="section level3" number="4.1.2">
+<h3>
+<span class="header-section-number">4.1.2</span> Transiciones entre Nodo 9 y Nodo 10<a class="anchor" aria-label="anchor" href="#transiciones-entre-nodo-9-y-nodo-10"><i class="fas fa-link"></i></a>
+</h3>
+<p>Para entender más como es que se gana o se pierden los sitios palindrómicos revisamos la transición en tre los nodos 9 y 10. Esto es porque es esta transicion de nodos la que separa a los dos subclados entre los que hay una repentino cambio de abundancia de sitios palindrómicos (Figura <a href="clado-calothrix.html#fig:FIG15">4.4</a>).</p>
+<div class="figure">
+<span style="display:block;" id="fig:FIG15"></span>
+<img src="ResultadosII_files/figure-html/FIG15-1.png" alt="**Filogenia del clado Calotrix**. En rojo y azul se muestran los subclados unidos (en verde) por la transición entre los nodos 9 y 10. " width="672"><p class="caption">
+Figure 4.4: <strong>Filogenia del clado Calotrix</strong>. En rojo y azul se muestran los subclados unidos (en verde) por la transición entre los nodos 9 y 10.
+</p>
+</div>
+<p>Para hacer esto filtramos los datos de la red para mostrar unicamente las transiciones que se dieron entre los nodos 9 y 10 e hicimos las mismas figuras.
+En la (Figura <a href="clado-calothrix.html#fig:FIG16">4.5</a>) se muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En la (Figura <a href="clado-calothrix.html#fig:FIG17">4.6</a>) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG16"></span>
+<div class="forceNetwork html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-8af4ce5d2ecc368b9c75" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-8af4ce5d2ecc368b9c75">{"x":{"links":{"source":[0,1,2,3,4,5,6,7],"target":[8,8,8,8,8,8,8,8],"value":[49,48,44,34,62,46,31,54],"colour":["#666","#666","#666","#666","#666","#666","#666","#666"]},"nodes":{"name":["GCGACCGC","GCTATCGC","GCGACCGT","GCCATCGC","GCTATTGC","GCGATTGC","GCGATAGC","GCAATTGC","GCGATCGC"],"group":[0,1,2,3,4,5,6,7,8]},"options":{"NodeID":"label","Group":"id","colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":16,"fontFamily":"serif","clickTextSize":40,"linkDistance":50,"linkWidth":"function(d) { return Math.sqrt(d.value); }","charge":-30,"opacity":1,"zoom":true,"legend":false,"arrows":false,"nodesize":false,"radiusCalculation":" Math.sqrt(d.nodesize)+6","bounded":false,"opacityNoHover":0,"clickAction":null}},"evals":[],"jsHooks":[]}</script><p class="caption">
+Figure 4.5: <strong>Red de las transiciones entre los Nodos 9 y 10 del clado Calothrix.</strong> En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios.
+</p>
+</div>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG17"></span>
+<div class="sankeyNetwork html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-03ec8244caa566b9b7b2" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-03ec8244caa566b9b7b2">{"x":{"links":{"source":[0,1,2,3,4,5,6,7],"target":[8,8,8,8,8,8,8,8],"value":[49,48,44,34,62,46,31,54]},"nodes":{"name":["GCGACCGC","GCTATCGC","GCGACCGT","GCCATCGC","GCTATTGC","GCGATTGC","GCGATAGC","GCAATTGC","GCGATCGC"],"group":["GCGACCGC","GCTATCGC","GCGACCGT","GCCATCGC","GCTATTGC","GCGATTGC","GCGATAGC","GCAATTGC","GCGATCGC"]},"options":{"NodeID":"label","NodeGroup":"label","LinkGroup":null,"colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":16,"fontFamily":null,"nodeWidth":15,"nodePadding":10,"units":"TIME(s)","margin":{"top":null,"right":null,"bottom":null,"left":null},"iterations":32,"sinksRight":true}},"evals":[],"jsHooks":[]}</script><p class="caption">
+Figure 4.6: <strong>Red de las transiciones entre los nodos 9 y 10 del clado Calothrix.</strong> En esta imagen se muestra la red de la Figura <a href="clado-calothrix.html#fig:FIG16">4.5</a> de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió.
+</p>
+</div>
+</div>
+<div id="mutaciones-en-los-codones" class="section level3" number="4.1.3">
+<h3>
+<span class="header-section-number">4.1.3</span> Mutaciones en los codones<a class="anchor" aria-label="anchor" href="#mutaciones-en-los-codones"><i class="fas fa-link"></i></a>
+</h3>
+<p>Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura <a href="clado-calothrix.html#fig:FIG18">4.7</a>) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran. En esta figura podemos observar que el marco de lectura es el que contiene la mayoria de los sitios</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG18"></span>
+<img src="ResultadosII_files/figure-html/FIG18-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG18-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG18-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%"><p class="caption">
+Figure 4.7: <strong>Abundancia de peptidos por cada nodo segun el marco de lectura.</strong>.
+</p>
+</div>
+<p>En la (Figura <a href="clado-calothrix.html#fig:FIG19">4.8</a>) mostramos 3 gráficos que indican la abundancia del tipo de mutaciones que hay en cada nodo de acuerdo al marco de lectura. Lo sitios de mutaciones mostrados pueden ser de los siguientes tipos:</p>
+<ul>
+<li>Conservative (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62)</li>
+<li>ConservativeNoSiteMut (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62. Sin embargo, el sitio no sufrió mutaciones)</li>
+<li>Deletion (La secuencia de AA tiene sufrio 1 o mas deleciones)</li>
+<li>NoMutation (La secuencia de AA no sufrio mutaciones)</li>
+<li>NoSynonym (La secuencia de AA cambió)</li>
+<li>NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)</li>
+<li>Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)</li>
+</ul>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG19"></span>
+<img src="ResultadosII_files/figure-html/FIG19-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG19-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG19-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%"><p class="caption">
+Figure 4.8: <strong>Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.</strong>.
+</p>
+</div>
+</div>
+<div id="análisis-de-sitios-en-los-cuales-su-ancestro-era-hip1" class="section level3" number="4.1.4">
+<h3>
+<span class="header-section-number">4.1.4</span> Análisis de sitios en los cuales su ancestro era HIP1<a class="anchor" aria-label="anchor" href="#an%C3%A1lisis-de-sitios-en-los-cuales-su-ancestro-era-hip1"><i class="fas fa-link"></i></a>
+</h3>
+<p>Para tratar de entender como es que los sitios HIP1 se pierden hicimos un análisis unicamente en en las transiciones en las que el nodo ancestral tenia un sitio HIP1.</p>
+<p>En la (Figura <a href="clado-calothrix.html#fig:FIG20">4.9</a>) mostramos 3 gráficos que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG20"></span>
+<img src="ResultadosII_files/figure-html/FIG20-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%"><img src="ResultadosII_files/figure-html/FIG20-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%"><img src="ResultadosII_files/figure-html/FIG20-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%"><p class="caption">
+Figure 4.9: <strong>Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.</strong>
+</p>
+</div>
+<p>En la (Figura <a href="clado-calothrix.html#fig:FIG21">4.10</a>) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio HIP.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG21"></span>
+<img src="ResultadosII_files/figure-html/FIG21-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG21-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG21-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%"><p class="caption">
+Figure 4.10: <strong>Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.</strong>.
+</p>
+</div>
+<p>En la (Figura <a href="clado-calothrix.html#fig:FIG22">4.11</a>) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG22"></span>
+<img src="ResultadosII_files/figure-html/FIG22-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%"><img src="ResultadosII_files/figure-html/FIG22-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%"><img src="ResultadosII_files/figure-html/FIG22-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%"><p class="caption">
+Figure 4.11: <strong>Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura</strong>.
+</p>
+</div>
+</div>
+<div id="análisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-hip1" class="section level3" number="4.1.5">
+<h3>
+<span class="header-section-number">4.1.5</span> Análisis de sitios en los cuales solo el nodo actual tiene HIP1<a class="anchor" aria-label="anchor" href="#an%C3%A1lisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-hip1"><i class="fas fa-link"></i></a>
+</h3>
+<p>Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis unicamente en las transiciones en las que el nodo actual tenia un sitio HIP1.</p>
+<p>En la Figura <a href="clado-calothrix.html#fig:FIG23">4.12</a> mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG23"></span>
+<img src="ResultadosII_files/figure-html/FIG23-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%"><img src="ResultadosII_files/figure-html/FIG23-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%"><img src="ResultadosII_files/figure-html/FIG23-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%"><p class="caption">
+Figure 4.12: <strong>Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.</strong>.
+</p>
+</div>
+</div>
+</div>
+<div id="conjunto-de-sitios-hip1-usando-la-especie-nies-3974-como-referencia" class="section level2" number="4.2">
+<h2>
+<span class="header-section-number">4.2</span> Conjunto de sitios HIP1 usando la especie NIES-3974 como referencia<a class="anchor" aria-label="anchor" href="#conjunto-de-sitios-hip1-usando-la-especie-nies-3974-como-referencia"><i class="fas fa-link"></i></a>
+</h2>
+<div id="red-de-transiciones-1" class="section level4" number="4.2.0.1">
+<h4>
+<span class="header-section-number">4.2.0.1</span> Red de transiciones<a class="anchor" aria-label="anchor" href="#red-de-transiciones-1"><i class="fas fa-link"></i></a>
+</h4>
+<p>Para aumentar el numero de “experimentos”, buscamos todos los sitios HIP1 UNICOS existentes en el subclado que contiene a las especies 336-3, NIES-3974 y PCC_6303.</p>
+<p>Posteriormente creamos la red usando la función <code>Create_Network()</code>:</p>
+<p>y visualizamos dicha red .</p>
+<p>Para visualizar la red usamos la paqueteria <code>networkD3</code>. Hicimos 2 figuras, la (Figura <a href="clado-calothrix.html#fig:FIG44">4.13</a>) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG44"></span>
+<div class="forceNetwork html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-06c54c2d602afed18536" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-06c54c2d602afed18536">{"x":{"links":{"source":[0,1,2,3,2,4,5,6,0,7,8,9,10,11,4,12,11,13,14,15,2,14,7,11,7,7,10,16,17,7,18,7,9,7,19,4,20,7,21,22,7,7,7,7,7,23,7,24,25,26,27,28,29,5,16,10,7,7,4,28,7,7,14,30,31,32,33,34,7,7,35,7,2,14,7,25,14,36,11,7,7,7,20,7,37,29,7,7],"target":[1,7,3,7,7,5,7,7,7,14,14,7,0,9,7,7,13,7,13,7,14,7,2,7,38,36,16,1,7,11,7,20,5,15,7,13,13,37,7,7,6,39,12,3,28,7,40,7,7,7,15,15,7,9,7,7,17,9,14,7,41,18,3,7,7,7,7,7,13,33,7,42,12,4,31,12,2,7,4,43,5,35,7,4,20,12,44,1],"value":[20,51,17,48,36,30,59,8,41,25,7,48,15,14,63,45,16,86,37,23,10,69,7,35,7,19,13,13,7,14,18,8,7,11,7,39,8,7,7,18,8,17,27,24,7,21,19,7,16,7,12,10,14,10,26,20,8,8,11,12,7,15,19,10,7,7,14,9,49,9,13,7,9,20,10,9,9,12,10,8,11,11,8,12,9,9,7,8],"colour":["#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666"]},"nodes":{"name":["GCGACCGT","GCGACCGC","GCAATAGC","GCAATCGC","GCTATTGC","GCTATCGC","GCGAGCGC","GCGATCGC","GTAATTGC","GCCATCGC","GTGACCGT","GCCATTGC","GCGATAGC","GCGATTGC","GCAATTGC","GCGATAGA","GTGACCGC","GCGATCGG","GCGATCGT","GAGACCGC","GCGGTTGC","GAGACCGT","GCGTTCGC","--------","GCGCTCGC","GCTATAGC","GTAACCGC","GCGACAGA","GTGATAGA","GCCATAGC","ACGTTCGC","GCGAACGC","GCGTTCTC","GCGGTCGC","GCGACCGA","GCGATCGA","GTGATCGC","GCAGTTGC","GAGATCGC","GCGATCAC","ACGATCGC","GCAATGGC","CCGATCGC","GCTGTCGC","GCGATAAA"],"group":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44]},"options":{"NodeID":"label","Group":"id","colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":16,"fontFamily":"serif","clickTextSize":40,"linkDistance":50,"linkWidth":"function(d) { return Math.sqrt(d.value); }","charge":-30,"opacity":1,"zoom":true,"legend":false,"arrows":false,"nodesize":false,"radiusCalculation":" Math.sqrt(d.nodesize)+6","bounded":false,"opacityNoHover":0,"clickAction":null}},"evals":[],"jsHooks":[]}</script><p class="caption">
+Figure 4.13: <strong>Red de todas las transiciones del clado Calothrix.</strong> En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios. Esta red es una represntación de aquellos sitios que se encuentran en la especie NIES-3974.
+</p>
+</div>
+En la (Figura <a href="clado-calothrix.html#fig:FIG45">4.14</a>) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG45"></span>
+<div class="sankeyNetwork html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-dd809af9a912b180f5de" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-dd809af9a912b180f5de">{"x":{"links":{"source":[0,1,2,3,2,4,5,6,0,7,8,9,10,11,4,12,11,13,14,15,2,14,7,11,7,7,10,16,17,7,18,7,9,7,19,4,20,7,21,22,7,7,7,7,7,23,7,24,25,26,27,28,29,5,16,10,7,7,4,28,7,7,14,30,31,32,33,34,7,7,35,7,2,14,7,25,14,36,11,7,7,7,20,7,37,29,7,7],"target":[1,7,3,7,7,5,7,7,7,14,14,7,0,9,7,7,13,7,13,7,14,7,2,7,38,36,16,1,7,11,7,20,5,15,7,13,13,37,7,7,6,39,12,3,28,7,40,7,7,7,15,15,7,9,7,7,17,9,14,7,41,18,3,7,7,7,7,7,13,33,7,42,12,4,31,12,2,7,4,43,5,35,7,4,20,12,44,1],"value":[20,51,17,48,36,30,59,8,41,25,7,48,15,14,63,45,16,86,37,23,10,69,7,35,7,19,13,13,7,14,18,8,7,11,7,39,8,7,7,18,8,17,27,24,7,21,19,7,16,7,12,10,14,10,26,20,8,8,11,12,7,15,19,10,7,7,14,9,49,9,13,7,9,20,10,9,9,12,10,8,11,11,8,12,9,9,7,8]},"nodes":{"name":["GCGACCGT","GCGACCGC","GCAATAGC","GCAATCGC","GCTATTGC","GCTATCGC","GCGAGCGC","GCGATCGC","GTAATTGC","GCCATCGC","GTGACCGT","GCCATTGC","GCGATAGC","GCGATTGC","GCAATTGC","GCGATAGA","GTGACCGC","GCGATCGG","GCGATCGT","GAGACCGC","GCGGTTGC","GAGACCGT","GCGTTCGC","--------","GCGCTCGC","GCTATAGC","GTAACCGC","GCGACAGA","GTGATAGA","GCCATAGC","ACGTTCGC","GCGAACGC","GCGTTCTC","GCGGTCGC","GCGACCGA","GCGATCGA","GTGATCGC","GCAGTTGC","GAGATCGC","GCGATCAC","ACGATCGC","GCAATGGC","CCGATCGC","GCTGTCGC","GCGATAAA"],"group":["GCGACCGT","GCGACCGC","GCAATAGC","GCAATCGC","GCTATTGC","GCTATCGC","GCGAGCGC","GCGATCGC","GTAATTGC","GCCATCGC","GTGACCGT","GCCATTGC","GCGATAGC","GCGATTGC","GCAATTGC","GCGATAGA","GTGACCGC","GCGATCGG","GCGATCGT","GAGACCGC","GCGGTTGC","GAGACCGT","GCGTTCGC","--------","GCGCTCGC","GCTATAGC","GTAACCGC","GCGACAGA","GTGATAGA","GCCATAGC","ACGTTCGC","GCGAACGC","GCGTTCTC","GCGGTCGC","GCGACCGA","GCGATCGA","GTGATCGC","GCAGTTGC","GAGATCGC","GCGATCAC","ACGATCGC","GCAATGGC","CCGATCGC","GCTGTCGC","GCGATAAA"]},"options":{"NodeID":"label","NodeGroup":"label","LinkGroup":null,"colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":16,"fontFamily":null,"nodeWidth":15,"nodePadding":10,"units":"TIME(s)","margin":{"top":null,"right":null,"bottom":null,"left":null},"iterations":32,"sinksRight":true}},"evals":[],"jsHooks":[]}</script><p class="caption">
+Figure 4.14: <strong>Red de todas las transiciones del clado Calothrix.</strong> En esta imagen se muestra la red de la Figura <a href="clado-calothrix.html#fig:FIG44">4.13</a> de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió.
+</p>
+</div>
+</div>
+</div>
+<div id="conjunto-de-sitios-hip1-unicos-en-las-especies-336-3-nies-3974-y-pcc_6303" class="section level2" number="4.3">
+<h2>
+<span class="header-section-number">4.3</span> Conjunto de sitios HIP1 unicos en las especies 336-3, NIES-3974 y PCC_6303<a class="anchor" aria-label="anchor" href="#conjunto-de-sitios-hip1-unicos-en-las-especies-336-3-nies-3974-y-pcc_6303"><i class="fas fa-link"></i></a>
+</h2>
+<div id="red-de-transiciones-2" class="section level4" number="4.3.0.1">
+<h4>
+<span class="header-section-number">4.3.0.1</span> Red de transiciones<a class="anchor" aria-label="anchor" href="#red-de-transiciones-2"><i class="fas fa-link"></i></a>
+</h4>
+<p>Para aumentar el numero de “experimentos”, buscamos todos los sitios HIP1 UNICOS existentes en el subclado que contiene a las especies 336-3, NIES-3974 y PCC_6303.</p>
+<p>Posteriormente creamos la red usando la función <code>Create_Network()</code>:</p>
+<p>y visualizamos dicha red .</p>
+<p>Para visualizar la red usamos la paqueteria <code>networkD3</code>. Hicimos 2 figuras, la (Figura <a href="clado-calothrix.html#fig:FIG34">4.15</a>) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG34"></span>
+<div class="forceNetwork html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-93b26e1330fa3c3a58a2" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-93b26e1330fa3c3a58a2">{"x":{"links":{"source":[0,1,2,3,4,5,6,1,7,8,9,10,11,12,13,14,2,2,15,16,17,18,19,1,20,2,21,1,22,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23],"target":[23,23,23,23,23,23,23,0,23,23,23,23,23,23,23,23,1,10,23,24,2,2,23,2,23,9,2,10,10,2,21,24,25,11,18,26,9,3,5,27,28,19,29,10,30,15,31,32,0,7,1,33,34,13,35,36],"value":[16,21,19,11,9,9,91,10,10,7,28,31,8,7,10,8,8,19,9,9,7,8,13,13,7,12,7,7,7,32,7,10,7,7,9,11,24,9,10,7,7,20,13,26,7,11,7,10,13,7,17,7,7,10,7,7],"colour":["#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666"]},"nodes":{"name":["GCTATCGC","GCTATTGC","GCAATTGC","GTGATCGC","GTGATTGC","GCCATCGC","--------","GCGATCGA","ACAATTGC","GCAATCGC","GCGATTGC","GCGATAGA","GAGATCGC","GCGATCGT","GCGACCGC","GCGAACGC","GCAATTGA","GTAATTGC","GCAGTTGC","GCGATAGC","GCGATTGT","GCAATAGC","GCCATTGC","GCGATCGC","GCGATTGA","GCGGTTGC","GCGAGCGC","GTGATAGA","GCAATGGC","ACGATCGC","GCGGTCGC","ACAATCGC","GCTGTCGC","GCTATCGA","GCAATCAC","GCGAACGT","GCGATAAA"],"group":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36]},"options":{"NodeID":"label","Group":"id","colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":16,"fontFamily":"serif","clickTextSize":40,"linkDistance":50,"linkWidth":"function(d) { return Math.sqrt(d.value); }","charge":-30,"opacity":1,"zoom":true,"legend":false,"arrows":false,"nodesize":false,"radiusCalculation":" Math.sqrt(d.nodesize)+6","bounded":false,"opacityNoHover":0,"clickAction":null}},"evals":[],"jsHooks":[]}</script><p class="caption">
+Figure 4.15: <strong>Red de todas las transiciones del clado Calothrix.</strong> En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios. Esta red es una represntación de aquellos sitios que son unicos en las especies 336-3, NIES-3974 y PCC_6303
+</p>
+</div>
+En la (Figura <a href="clado-calothrix.html#fig:FIG35">4.16</a>) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG35"></span>
+<div class="sankeyNetwork html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a5cdf670704a5fc1e206" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-a5cdf670704a5fc1e206">{"x":{"links":{"source":[0,1,2,3,4,5,6,1,7,8,9,10,11,12,13,14,2,2,15,16,17,18,19,1,20,2,21,1,22,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23],"target":[23,23,23,23,23,23,23,0,23,23,23,23,23,23,23,23,1,10,23,24,2,2,23,2,23,9,2,10,10,2,21,24,25,11,18,26,9,3,5,27,28,19,29,10,30,15,31,32,0,7,1,33,34,13,35,36],"value":[16,21,19,11,9,9,91,10,10,7,28,31,8,7,10,8,8,19,9,9,7,8,13,13,7,12,7,7,7,32,7,10,7,7,9,11,24,9,10,7,7,20,13,26,7,11,7,10,13,7,17,7,7,10,7,7]},"nodes":{"name":["GCTATCGC","GCTATTGC","GCAATTGC","GTGATCGC","GTGATTGC","GCCATCGC","--------","GCGATCGA","ACAATTGC","GCAATCGC","GCGATTGC","GCGATAGA","GAGATCGC","GCGATCGT","GCGACCGC","GCGAACGC","GCAATTGA","GTAATTGC","GCAGTTGC","GCGATAGC","GCGATTGT","GCAATAGC","GCCATTGC","GCGATCGC","GCGATTGA","GCGGTTGC","GCGAGCGC","GTGATAGA","GCAATGGC","ACGATCGC","GCGGTCGC","ACAATCGC","GCTGTCGC","GCTATCGA","GCAATCAC","GCGAACGT","GCGATAAA"],"group":["GCTATCGC","GCTATTGC","GCAATTGC","GTGATCGC","GTGATTGC","GCCATCGC","--------","GCGATCGA","ACAATTGC","GCAATCGC","GCGATTGC","GCGATAGA","GAGATCGC","GCGATCGT","GCGACCGC","GCGAACGC","GCAATTGA","GTAATTGC","GCAGTTGC","GCGATAGC","GCGATTGT","GCAATAGC","GCCATTGC","GCGATCGC","GCGATTGA","GCGGTTGC","GCGAGCGC","GTGATAGA","GCAATGGC","ACGATCGC","GCGGTCGC","ACAATCGC","GCTGTCGC","GCTATCGA","GCAATCAC","GCGAACGT","GCGATAAA"]},"options":{"NodeID":"label","NodeGroup":"label","LinkGroup":null,"colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":16,"fontFamily":null,"nodeWidth":15,"nodePadding":10,"units":"TIME(s)","margin":{"top":null,"right":null,"bottom":null,"left":null},"iterations":32,"sinksRight":true}},"evals":[],"jsHooks":[]}</script><p class="caption">
+Figure 4.16: <strong>Red de todas las transiciones del clado Calothrix.</strong> En esta imagen se muestra la red de la Figura <a href="clado-calothrix.html#fig:FIG34">4.15</a> de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió.
+</p>
+</div>
+</div>
+<div id="transiciones-entre-nodo-9-y-nodo-10-1" class="section level4" number="4.3.0.2">
+<h4>
+<span class="header-section-number">4.3.0.2</span> Transiciones entre Nodo 9 y Nodo 10<a class="anchor" aria-label="anchor" href="#transiciones-entre-nodo-9-y-nodo-10-1"><i class="fas fa-link"></i></a>
+</h4>
+<p>En la (Figura <a href="clado-calothrix.html#fig:FIG36">4.17</a>) se muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En la (Figura <a href="clado-calothrix.html#fig:FIG37">4.18</a>) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG36"></span>
+<div class="forceNetwork html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-64e7d044d0968f9cc01c" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-64e7d044d0968f9cc01c">{"x":{"links":{"source":[0,1,2,3,4,5,6,7,0,8,5,9,10,11,12,13,14,15,16],"target":[10,17,0,18,19,14,20,5,5,21,22,23,24,25,14,26,24,27,24],"value":[6,3,4,4,3,6,3,4,4,3,4,3,3,3,4,4,3,3,3],"colour":["#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666"]},"nodes":{"name":["GCTATTGC","GCAATATC","GCTATAGC","GCGAACGT","GAAATAGC","GCAATTGC","GTTATTGC","GCAATAGC","GCGACCGT","GCAATTGA","GCTATCGC","GCTGTCTC","GCCATTGC","GCGCGCGC","GCGATTGC","GCGATAGA","GCGACCGC","GCAATTTC","GCGAACGC","GAAATCGC","GTGATTGC","GCGATCGT","GCAATCGC","GCAATCGA","GCGATCGC","GCTGTCGC","GCGAGCGC","GCGATCGA"],"group":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27]},"options":{"NodeID":"label","Group":"id","colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":16,"fontFamily":"serif","clickTextSize":40,"linkDistance":50,"linkWidth":"function(d) { return Math.sqrt(d.value); }","charge":-30,"opacity":1,"zoom":true,"legend":false,"arrows":false,"nodesize":false,"radiusCalculation":" Math.sqrt(d.nodesize)+6","bounded":false,"opacityNoHover":0,"clickAction":null}},"evals":[],"jsHooks":[]}</script><p class="caption">
+Figure 4.17: <strong>Red de las transiciones entre los Nodos 9 y 10 del clado Calothrix.</strong> En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios.
+</p>
+</div>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG37"></span>
+<div class="sankeyNetwork html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-38f200d97849b42b2276" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-38f200d97849b42b2276">{"x":{"links":{"source":[0,1,2,3,4,5,6,7,0,8,5,9,10,11,12,13,14,15,16],"target":[10,17,0,18,19,14,20,5,5,21,22,23,24,25,14,26,24,27,24],"value":[6,3,4,4,3,6,3,4,4,3,4,3,3,3,4,4,3,3,3]},"nodes":{"name":["GCTATTGC","GCAATATC","GCTATAGC","GCGAACGT","GAAATAGC","GCAATTGC","GTTATTGC","GCAATAGC","GCGACCGT","GCAATTGA","GCTATCGC","GCTGTCTC","GCCATTGC","GCGCGCGC","GCGATTGC","GCGATAGA","GCGACCGC","GCAATTTC","GCGAACGC","GAAATCGC","GTGATTGC","GCGATCGT","GCAATCGC","GCAATCGA","GCGATCGC","GCTGTCGC","GCGAGCGC","GCGATCGA"],"group":["GCTATTGC","GCAATATC","GCTATAGC","GCGAACGT","GAAATAGC","GCAATTGC","GTTATTGC","GCAATAGC","GCGACCGT","GCAATTGA","GCTATCGC","GCTGTCTC","GCCATTGC","GCGCGCGC","GCGATTGC","GCGATAGA","GCGACCGC","GCAATTTC","GCGAACGC","GAAATCGC","GTGATTGC","GCGATCGT","GCAATCGC","GCAATCGA","GCGATCGC","GCTGTCGC","GCGAGCGC","GCGATCGA"]},"options":{"NodeID":"label","NodeGroup":"label","LinkGroup":null,"colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":16,"fontFamily":null,"nodeWidth":15,"nodePadding":10,"units":"TIME(s)","margin":{"top":null,"right":null,"bottom":null,"left":null},"iterations":32,"sinksRight":true}},"evals":[],"jsHooks":[]}</script><p class="caption">
+Figure 4.18: <strong>Red de las transiciones entre los nodos 9 y 10 del clado Calothrix.</strong> En esta imagen se muestra la red de la Figura <a href="clado-calothrix.html#fig:FIG16">4.5</a> de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió.
+</p>
+</div>
+</div>
+<div id="mutaciones-en-los-codones-1" class="section level4" number="4.3.0.3">
+<h4>
+<span class="header-section-number">4.3.0.3</span> Mutaciones en los codones<a class="anchor" aria-label="anchor" href="#mutaciones-en-los-codones-1"><i class="fas fa-link"></i></a>
+</h4>
+<p>Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura <a href="clado-calothrix.html#fig:FIG38">4.19</a>) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran. En esta figura podemos observar que el marco de lectura es el que contiene la mayoria de los sitios</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG38"></span>
+<img src="ResultadosII_files/figure-html/FIG38-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG38-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG38-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%"><p class="caption">
+Figure 4.19: <strong>Abundancia de peptidos por cada nodo segun el marco de lectura.</strong>.
+</p>
+</div>
+<p>En la (Figura <a href="clado-calothrix.html#fig:FIG39">4.20</a>) mostramos 3 gráficos que indican la abundancia del tipo de mutaciones que hay en cada nodo de acuerdo al marco de lectura. Lo sitios de mutaciones mostrados pueden ser de los siguientes tipos:</p>
+<ul>
+<li>Conservative (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62)</li>
+<li>ConservativeNoSiteMut (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62. Sin embargo, el sitio no sufrió mutaciones)</li>
+<li>Deletion (La secuencia de AA tiene sufrio 1 o mas deleciones)</li>
+<li>NoMutation (La secuencia de AA no sufrio mutaciones)</li>
+<li>NoSynonym (La secuencia de AA cambió)</li>
+<li>NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)</li>
+<li>Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)</li>
+</ul>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG39"></span>
+<img src="ResultadosII_files/figure-html/FIG39-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG39-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG39-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%"><p class="caption">
+Figure 4.20: <strong>Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.</strong>.
+</p>
+</div>
+</div>
+<div id="análisis-de-sitios-en-los-cuales-su-ancestro-era-hip1-1" class="section level4" number="4.3.0.4">
+<h4>
+<span class="header-section-number">4.3.0.4</span> Análisis de sitios en los cuales su ancestro era HIP1<a class="anchor" aria-label="anchor" href="#an%C3%A1lisis-de-sitios-en-los-cuales-su-ancestro-era-hip1-1"><i class="fas fa-link"></i></a>
+</h4>
+<p>Para tratar de entender como es que los sitios HIP1 se pierden hicimos un análisis unicamente en en las transiciones en las que el nodo ancestral tenia un sitio HIP1.</p>
+<p>En la (Figura <a href="clado-calothrix.html#fig:FIG40">4.21</a>) mostramos 3 gráficos que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG40"></span>
+<img src="ResultadosII_files/figure-html/FIG40-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%"><img src="ResultadosII_files/figure-html/FIG40-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%"><img src="ResultadosII_files/figure-html/FIG40-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**" width="110%"><p class="caption">
+Figure 4.21: <strong>Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.</strong>
+</p>
+</div>
+<p>En la (Figura <a href="clado-calothrix.html#fig:FIG41">4.22</a>) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio HIP.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG41"></span>
+<img src="ResultadosII_files/figure-html/FIG41-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG41-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG41-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**." width="110%"><p class="caption">
+Figure 4.22: <strong>Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.</strong>.
+</p>
+</div>
+<p>En la (Figura <a href="clado-calothrix.html#fig:FIG42">4.23</a>) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG42"></span>
+<img src="ResultadosII_files/figure-html/FIG42-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%"><img src="ResultadosII_files/figure-html/FIG42-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%"><img src="ResultadosII_files/figure-html/FIG42-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**." width="110%"><p class="caption">
+Figure 4.23: <strong>Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura</strong>.
+</p>
+</div>
+</div>
+<div id="análisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-hip1-1" class="section level4" number="4.3.0.5">
+<h4>
+<span class="header-section-number">4.3.0.5</span> Análisis de sitios en los cuales solo el nodo actual tiene HIP1<a class="anchor" aria-label="anchor" href="#an%C3%A1lisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-hip1-1"><i class="fas fa-link"></i></a>
+</h4>
+<p>Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis unicamente en las transiciones en las que el nodo actual tenia un sitio HIP1.</p>
+<p>En la Figura <a href="clado-calothrix.html#fig:FIG43">4.24</a> mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG43"></span>
+<img src="ResultadosII_files/figure-html/FIG43-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%"><img src="ResultadosII_files/figure-html/FIG43-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%"><img src="ResultadosII_files/figure-html/FIG43-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**." width="110%"><p class="caption">
+Figure 4.24: <strong>Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.</strong>.
+</p>
+</div>
+</div>
+<div id="tggcgcca" class="section level3" number="4.3.1">
+<h3>
+<span class="header-section-number">4.3.1</span> TGGCGCCA<a class="anchor" aria-label="anchor" href="#tggcgcca"><i class="fas fa-link"></i></a>
+</h3>
+<div id="red-de-transiciones-3" class="section level4" number="4.3.1.1">
+<h4>
+<span class="header-section-number">4.3.1.1</span> Red de transiciones<a class="anchor" aria-label="anchor" href="#red-de-transiciones-3"><i class="fas fa-link"></i></a>
+</h4>
+<p>Para hacer mas visual la reconstrucción, construimos una red de las transiciones entre los estados ancestrales. Esto lo hicimos en r usando la función <code>Create_Transition_Table()</code>:</p>
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/source.html">source</a></span><span class="op">(</span><span class="st">"ASR_Orth_Functions/NodeAndEdges.R"</span><span class="op">)</span></span>
+<span><span class="va">Nodes.Edges</span> <span class="op">&lt;-</span> <span class="fu">Create_Transition_Table</span><span class="op">(</span>SitesTable <span class="op">=</span> <span class="st">"Clados/Callothrix_clade/PALINDROMES/TGGCGCCA/PCC_7716/Orthologues_Palindrome_sites.txt"</span>,</span>
+<span>                                EvolutionModel <span class="op">=</span> <span class="st">"F81"</span>,</span>
+<span>                                Method <span class="op">=</span> <span class="st">"bayes"</span>,</span>
+<span>                                Phylogeny <span class="op">=</span> <span class="st">"Clados/Callothrix_clade/SpeciesTree_rooted.txt"</span>,</span>
+<span>                                OrthoPath <span class="op">=</span> <span class="st">"Clados/Callothrix_clade/PALINDROMES/TGGCGCCA/PCC_7716/Only_ORTHOLOGUES/"</span><span class="op">)</span></span></code></pre></div>
+<p>Posteriormente creamos la red usando la función <code>Create_Network()</code>:</p>
+<p>y visualizamos dicha red .</p>
+<p>Para visualizar la red usamos la paqueteria <code>networkD3</code>. Hicimos 2 figuras, la (Figura <a href="clado-calothrix.html#fig:FIG24">4.25</a>) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En dicha red podemos ver algunos nodos con bordes muy gruesos como <strong>GCAATTGC</strong>, <strong>GCAATCGC</strong>, <strong>GCAATAGC</strong>, <strong>GCGATTGC</strong> (Tabla <a href="clado-calothrix.html#tab:TAB62">4.2</a>).</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG24"></span>
+<div class="forceNetwork html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-5a6751c01c8555f79da2" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-5a6751c01c8555f79da2">{"x":{"links":{"source":[0,1,0,0,0,2,3,4,0,0,0,5,0,0,0,0,6,7,0,0,0,0,0,0,0,0,0],"target":[8,3,3,9,10,0,1,0,11,12,6,0,13,14,15,16,0,0,7,17,18,19,20,5,21,1,4],"value":[12,11,54,34,9,16,7,20,16,11,7,29,21,29,7,27,14,11,15,12,8,26,11,12,11,12,13],"colour":["#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666"]},"nodes":{"name":["TGGCGCCA","TGGTGCTA","--------","TGGTGCCA","TGGCGCCG","CGGCGCCA","TGGCGCCT","AGGCGCCA","TGGCGCTA","TGGCACCA","TGGGGCAA","TAGCACCA","TAGCGCCA","TGGTGCAA","TGGAGCCA","TTGCACCA","TGGCGCAA","TTGCGCCA","TGGAGCAA","TGGCGACA","TGGCTCCA","TGGCGCGA"],"group":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]},"options":{"NodeID":"label","Group":"id","colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":16,"fontFamily":"serif","clickTextSize":40,"linkDistance":50,"linkWidth":"function(d) { return Math.sqrt(d.value); }","charge":-30,"opacity":1,"zoom":true,"legend":false,"arrows":false,"nodesize":false,"radiusCalculation":" Math.sqrt(d.nodesize)+6","bounded":false,"opacityNoHover":0,"clickAction":null}},"evals":[],"jsHooks":[]}</script><p class="caption">
+Figure 4.25: <strong>Red de todas las transiciones del clado Calothrix.</strong> En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios.
+</p>
+</div>
+En la (Figura <a href="clado-calothrix.html#fig:FIG25">4.26</a>) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG25"></span>
+<div class="sankeyNetwork html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-5f515d0b4e4096f13862" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-5f515d0b4e4096f13862">{"x":{"links":{"source":[0,1,0,0,0,2,3,4,0,0,0,5,0,0,0,0,6,7,0,0,0,0,0,0,0,0,0],"target":[8,3,3,9,10,0,1,0,11,12,6,0,13,14,15,16,0,0,7,17,18,19,20,5,21,1,4],"value":[12,11,54,34,9,16,7,20,16,11,7,29,21,29,7,27,14,11,15,12,8,26,11,12,11,12,13]},"nodes":{"name":["TGGCGCCA","TGGTGCTA","--------","TGGTGCCA","TGGCGCCG","CGGCGCCA","TGGCGCCT","AGGCGCCA","TGGCGCTA","TGGCACCA","TGGGGCAA","TAGCACCA","TAGCGCCA","TGGTGCAA","TGGAGCCA","TTGCACCA","TGGCGCAA","TTGCGCCA","TGGAGCAA","TGGCGACA","TGGCTCCA","TGGCGCGA"],"group":["TGGCGCCA","TGGTGCTA","--------","TGGTGCCA","TGGCGCCG","CGGCGCCA","TGGCGCCT","AGGCGCCA","TGGCGCTA","TGGCACCA","TGGGGCAA","TAGCACCA","TAGCGCCA","TGGTGCAA","TGGAGCCA","TTGCACCA","TGGCGCAA","TTGCGCCA","TGGAGCAA","TGGCGACA","TGGCTCCA","TGGCGCGA"]},"options":{"NodeID":"label","NodeGroup":"label","LinkGroup":null,"colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":16,"fontFamily":null,"nodeWidth":15,"nodePadding":10,"units":"TIME(s)","margin":{"top":null,"right":null,"bottom":null,"left":null},"iterations":32,"sinksRight":true}},"evals":[],"jsHooks":[]}</script><p class="caption">
+Figure 4.26: <strong>Red de todas las transiciones del clado Calothrix.</strong> En esta imagen se muestra la red de la Figura <a href="clado-calothrix.html#fig:FIG24">4.25</a> de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió.
+</p>
+</div>
+<div class="inline-table"><table class=" lightable-paper table table-striped table-condensed" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 11px; width: auto !important; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">
+<span id="tab:TAB62">Table 4.2: </span>Transiciones entre nodos.
+</caption>
+<thead><tr>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+from
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+to
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+weight
+</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2">
+<span style="     color: red !important;">TGGCGCCA</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGTGCCA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">54</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGCACCA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffcb6c">34</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">CGGCGCCA</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: red !important;">TGGCGCCA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd487">29</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4">
+<span style="     color: red !important;">TGGCGCCA</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGAGCCA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd487">29</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGCGCAA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffd892">27</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGCGACA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffda97">26</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGTGCAA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe4b3">21</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGCGCCG</span>
+</td>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2">
+<span style="     color: red !important;">TGGCGCCA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffe6b8">20</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">——–</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedce">16</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2">
+<span style="     color: red !important;">TGGCGCCA</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TAGCACCA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffedce">16</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">AGGCGCCA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffefd3">15</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGCGCCT</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: red !important;">TGGCGCCA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff1d9">14</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="5">
+<span style="     color: red !important;">TGGCGCCA</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGCGCCG</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff3de">13</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGCGCTA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">12</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TTGCGCCA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">12</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">CGGCGCCA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">12</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGTGCTA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff5e3">12</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGTGCTA</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGTGCCA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">11</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: red !important;">TGGCGCCA</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TAGCGCCA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">11</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">AGGCGCCA</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: red !important;">TGGCGCCA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">11</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="4">
+<span style="     color: red !important;">TGGCGCCA</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGCTCCA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">11</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGCGCGA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fff7e9">11</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGGGCAA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffbf4">9</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGAGCAA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fffdf9">8</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGTGCCA</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGTGCTA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="2">
+<span style="     color: red !important;">TGGCGCCA</span>
+</td>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TGGCGCCT</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+<span style="     color: black !important;">TTGCACCA</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">7</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div id="transiciones-entre-nodo-9-y-nodo-10-2" class="section level4" number="4.3.1.2">
+<h4>
+<span class="header-section-number">4.3.1.2</span> Transiciones entre Nodo 9 y Nodo 10<a class="anchor" aria-label="anchor" href="#transiciones-entre-nodo-9-y-nodo-10-2"><i class="fas fa-link"></i></a>
+</h4>
+<p>Para entender más como es que se gana o se pierden los sitios palindrómicos revisamos la transición en tre los nodos 9 y 10. Esto es porque es esta transicion de nodos la que separa a los dos subclados entre los que hay una repentino cambio de abundancia de sitios palindrómicos (Figura <a href="clado-calothrix.html#fig:FIG15">4.4</a>).</p>
+<p>Para hacer esto filtramos los datos de la red para mostrar unicamente las transiciones que se dieron entre los nodos 9 y 10 e hicimos las mismas figuras.
+En la (Figura <a href="clado-calothrix.html#fig:FIG26">4.27</a>) se muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En la (Figura <a href="clado-calothrix.html#fig:FIG27">4.28</a>) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG26"></span>
+<div class="forceNetwork html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-4307be56e21dcf615688" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-4307be56e21dcf615688">{"x":{"links":{"source":[0,0,0,0,0,0,0],"target":[1,2,3,4,5,6,7],"value":[29,12,16,19,11,22,15],"colour":["#666","#666","#666","#666","#666","#666","#666"]},"nodes":{"name":["TGGCGCCA","TGGTGCCA","TAGCACCA","TGGTGCAA","TGGAGCCA","TGGCACCA","TGGCGACA","TGGCGCAA"],"group":[0,1,2,3,4,5,6,7]},"options":{"NodeID":"label","Group":"id","colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":16,"fontFamily":"serif","clickTextSize":40,"linkDistance":50,"linkWidth":"function(d) { return Math.sqrt(d.value); }","charge":-30,"opacity":1,"zoom":true,"legend":false,"arrows":false,"nodesize":false,"radiusCalculation":" Math.sqrt(d.nodesize)+6","bounded":false,"opacityNoHover":0,"clickAction":null}},"evals":[],"jsHooks":[]}</script><p class="caption">
+Figure 4.27: <strong>Red de las transiciones entre los Nodos 9 y 10 del clado Calothrix.</strong> En esta imagen se muestra una red en la que cada nodo es un octanucleótido el cual esta unido a otro nodo por un vertice. Dicho vertice tiene un grosor proporcional al numero de veces que dicha transición ocurrió en la reconstrucción ancestral de sitios.
+</p>
+</div>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG27"></span>
+<div class="sankeyNetwork html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-ea679098fcbe20165d4b" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-ea679098fcbe20165d4b">{"x":{"links":{"source":[0,0,0,0,0,0,0],"target":[1,2,3,4,5,6,7],"value":[29,12,16,19,11,22,15]},"nodes":{"name":["TGGCGCCA","TGGTGCCA","TAGCACCA","TGGTGCAA","TGGAGCCA","TGGCACCA","TGGCGACA","TGGCGCAA"],"group":["TGGCGCCA","TGGTGCCA","TAGCACCA","TGGTGCAA","TGGAGCCA","TGGCACCA","TGGCGACA","TGGCGCAA"]},"options":{"NodeID":"label","NodeGroup":"label","LinkGroup":null,"colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":16,"fontFamily":null,"nodeWidth":15,"nodePadding":10,"units":"TIME(s)","margin":{"top":null,"right":null,"bottom":null,"left":null},"iterations":32,"sinksRight":true}},"evals":[],"jsHooks":[]}</script><p class="caption">
+Figure 4.28: <strong>Red de las transiciones entre los nodos 9 y 10 del clado Calothrix.</strong> En esta imagen se muestra la red de la Figura <a href="clado-calothrix.html#fig:FIG26">4.27</a> de una forma mas visual y con el numero de veces que ocurrio cada transición, asi como la dirección en la que ocurrió.
+</p>
+</div>
+</div>
+<div id="mutaciones-en-los-codones-2" class="section level4" number="4.3.1.3">
+<h4>
+<span class="header-section-number">4.3.1.3</span> Mutaciones en los codones<a class="anchor" aria-label="anchor" href="#mutaciones-en-los-codones-2"><i class="fas fa-link"></i></a>
+</h4>
+<p>Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura <a href="clado-calothrix.html#fig:FIG28">4.29</a>) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG28"></span>
+<img src="ResultadosII_files/figure-html/FIG28-1.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG28-2.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG28-3.png" alt="**Abundancia de peptidos por cada nodo segun el marco de lectura.**." width="110%"><p class="caption">
+Figure 4.29: <strong>Abundancia de peptidos por cada nodo segun el marco de lectura.</strong>.
+</p>
+</div>
+<p>En la (Figura <a href="clado-calothrix.html#fig:FIG29">4.30</a>) mostramos 3 gráficos que indican la abundancia del tipo de mutaciones que hay en cada nodo de acuerdo al marco de lectura. Lo sitios de mutaciones mostrados pueden ser de los siguientes tipos:</p>
+<ul>
+<li>Conservative (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62)</li>
+<li>ConservativeNoSiteMut (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62. Sin embargo, el sitio no sufrió mutaciones)</li>
+<li>Deletion (La secuencia de AA tiene sufrio 1 o mas deleciones)</li>
+<li>NoMutation (La secuencia de AA no sufrio mutaciones)</li>
+<li>NoSynonym (La secuencia de AA cambió)</li>
+<li>NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)</li>
+<li>Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)</li>
+</ul>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG29"></span>
+<img src="ResultadosII_files/figure-html/FIG29-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG29-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG29-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**." width="110%"><p class="caption">
+Figure 4.30: <strong>Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.</strong>.
+</p>
+</div>
+</div>
+<div id="análisis-de-sitios-en-los-cuales-su-ancestro-era-tggcgcca" class="section level4" number="4.3.1.4">
+<h4>
+<span class="header-section-number">4.3.1.4</span> Análisis de sitios en los cuales su ancestro era TGGCGCCA<a class="anchor" aria-label="anchor" href="#an%C3%A1lisis-de-sitios-en-los-cuales-su-ancestro-era-tggcgcca"><i class="fas fa-link"></i></a>
+</h4>
+<p>Para tratar de entender como es que los sitios HIP1 se pierden hicimos un análisis unicamente en en las transiciones en las que el nodo ancestral tenia un sitio TGGCGCCA.</p>
+<p>En la (Figura <a href="clado-calothrix.html#fig:FIG30">4.31</a>) mostramos 3 gráficos que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.</p>
+<p>En la (Figura <a href="clado-calothrix.html#fig:FIG31">4.32</a>) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio HIP.</p>
+<p>En la (Figura <a href="clado-calothrix.html#fig:FIG32">4.33</a>) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG30"></span>
+<img src="ResultadosII_files/figure-html/FIG30-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TGGCGCCA.**" width="110%"><img src="ResultadosII_files/figure-html/FIG30-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TGGCGCCA.**" width="110%"><img src="ResultadosII_files/figure-html/FIG30-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TGGCGCCA.**" width="110%"><p class="caption">
+Figure 4.31: <strong>Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TGGCGCCA.</strong>
+</p>
+</div>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG31"></span>
+<img src="ResultadosII_files/figure-html/FIG31-1.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio TGGCGCCA para cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG31-2.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio TGGCGCCA para cada nodo segun el marco de lectura.**." width="110%"><img src="ResultadosII_files/figure-html/FIG31-3.png" alt="**Frecuencia de las mutaciones de cada nucleótido del sitio TGGCGCCA para cada nodo segun el marco de lectura.**." width="110%"><p class="caption">
+Figure 4.32: <strong>Frecuencia de las mutaciones de cada nucleótido del sitio TGGCGCCA para cada nodo segun el marco de lectura.</strong>.
+</p>
+</div>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG32"></span>
+<img src="ResultadosII_files/figure-html/FIG32-1.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios TGGCGCCA para cada marco de lectura**." width="110%"><img src="ResultadosII_files/figure-html/FIG32-2.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios TGGCGCCA para cada marco de lectura**." width="110%"><img src="ResultadosII_files/figure-html/FIG32-3.png" alt="**Frecuencia del tipo de sustituciónes de base en los sitios TGGCGCCA para cada marco de lectura**." width="110%"><p class="caption">
+Figure 4.33: <strong>Frecuencia del tipo de sustituciónes de base en los sitios TGGCGCCA para cada marco de lectura</strong>.
+</p>
+</div>
+</div>
+<div id="análisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-tggcgcca" class="section level4" number="4.3.1.5">
+<h4>
+<span class="header-section-number">4.3.1.5</span> Análisis de sitios en los cuales solo el nodo actual tiene TGGCGCCA<a class="anchor" aria-label="anchor" href="#an%C3%A1lisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-tggcgcca"><i class="fas fa-link"></i></a>
+</h4>
+<p>Para tratar de entender como es que los sitios TGGCGCCA se ganan, hicimos un analisis unicamente en las transiciones en las que el nodo actual tenia un sitio TGGCGCCA.</p>
+<p>En la Figura <a href="clado-calothrix.html#fig:FIG33">4.34</a> mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG33"></span>
+<img src="ResultadosII_files/figure-html/FIG33-1.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TGGCGCCA.**." width="110%"><img src="ResultadosII_files/figure-html/FIG33-2.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TGGCGCCA.**." width="110%"><img src="ResultadosII_files/figure-html/FIG33-3.png" alt="**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TGGCGCCA.**." width="110%"><p class="caption">
+Figure 4.34: <strong>Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TGGCGCCA.</strong>.
+</p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="distribuci%C3%B3n-de-hip1-en-los-marcos-de-lectura.html">Distribución de HIP1 en los marcos de lectura</a></div>
+<div class="next"><a href="referencias.html">Referencias</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#clado-calothrix">Clado Calothrix</a></li>
+<li>
+<a class="nav-link" href="#conjunto-de-sitios-hip1-usando-la-especie-336-3-como-referencia"><span class="header-section-number">4.1</span> Conjunto de sitios HIP1 usando la especie 336-3 como referencia</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#red-de-transiciones"><span class="header-section-number">4.1.1</span> Red de transiciones</a></li>
+<li><a class="nav-link" href="#transiciones-entre-nodo-9-y-nodo-10"><span class="header-section-number">4.1.2</span> Transiciones entre Nodo 9 y Nodo 10</a></li>
+<li><a class="nav-link" href="#mutaciones-en-los-codones"><span class="header-section-number">4.1.3</span> Mutaciones en los codones</a></li>
+<li><a class="nav-link" href="#an%C3%A1lisis-de-sitios-en-los-cuales-su-ancestro-era-hip1"><span class="header-section-number">4.1.4</span> Análisis de sitios en los cuales su ancestro era HIP1</a></li>
+<li><a class="nav-link" href="#an%C3%A1lisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-hip1"><span class="header-section-number">4.1.5</span> Análisis de sitios en los cuales solo el nodo actual tiene HIP1</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#conjunto-de-sitios-hip1-usando-la-especie-nies-3974-como-referencia"><span class="header-section-number">4.2</span> Conjunto de sitios HIP1 usando la especie NIES-3974 como referencia</a></li>
+<li>
+<a class="nav-link" href="#conjunto-de-sitios-hip1-unicos-en-las-especies-336-3-nies-3974-y-pcc_6303"><span class="header-section-number">4.3</span> Conjunto de sitios HIP1 unicos en las especies 336-3, NIES-3974 y PCC_6303</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#tggcgcca"><span class="header-section-number">4.3.1</span> TGGCGCCA</a></li></ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/lalibelulalo/TESIS/blob/master/ResultadosII.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/lalibelulalo/TESIS/edit/master/ResultadosII.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Evolución de secuencias palindromicas en genomas de cianobacterias</strong>" was written by Eduardo Padilla Mendoza. It was last built on 2023-08-16.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

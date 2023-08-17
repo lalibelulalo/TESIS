@@ -1,0 +1,53 @@
+\contentsline {chapter}{Resumen}{5}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Introducción}{7}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Métodos}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Abundancia de palíndromos.}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Modelos de Markov}{9}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Modelo de Markov de orden 1 para hallar octanucleótidos}{11}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Abundancia de acuerdo a la frecuencia observada y tasa OE}{12}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Significancia de los conteos observados}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Prueba binomial.}{12}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}FDR}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Conjuntos de conteos de acuerdo a la significancia}{13}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Visualización de la abundancia: OE vs Frecuencia Observada cada 1000nt}{14}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Filogenia}{14}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Anotación de la filogenia}{16}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}Identificación de casos relevantes}{16}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Reconstrucción Ancestral de sitios palindrómicos en ortólogos}{16}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Ortólogos}{16}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Reconstrucción}{21}{subsection.2.6.2}%
+\contentsline {chapter}{\numberline {3}RESULTADOS}{23}{chapter.3}%
+\contentsline {chapter}{Sección I}{25}{chapter*.3}%
+\contentsline {section}{\numberline {3.1}Distribución de HIP1 en los marcos de lectura}{25}{section.3.1}%
+\contentsline {chapter}{Sección II}{27}{chapter*.4}%
+\contentsline {section}{\numberline {3.2}Clado Calothrix}{27}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Conjunto de sitios HIP1 usando la especie 336-3 como referencia}{27}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}Red de transiciones}{27}{subsubsection.3.2.1.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}Transiciones entre Nodo 9 y Nodo 10}{29}{subsubsection.3.2.1.2}%
+\contentsline {subsubsection}{\numberline {3.2.1.3}Mutaciones en los codones}{29}{subsubsection.3.2.1.3}%
+\contentsline {subsubsection}{\numberline {3.2.1.4}Análisis de sitios en los cuales su ancestro era HIP1}{31}{subsubsection.3.2.1.4}%
+\contentsline {subsubsection}{\numberline {3.2.1.5}Análisis de sitios en los cuales solo el nodo actual tiene HIP1}{31}{subsubsection.3.2.1.5}%
+\contentsline {subsection}{\numberline {3.2.2}Conjunto de sitios HIP1 usando la especie NIES-3974 como referencia}{31}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Red de transiciones}{31}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}Transiciones entre Nodo 9 y Nodo 10}{37}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.3}Mutaciones en los codones}{37}{subsubsection.3.2.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.2.4}Análisis de sitios en los cuales su ancestro era HIP1}{40}{subsubsection.3.2.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.2.5}Análisis de sitios en los cuales solo el nodo actual tiene HIP1}{40}{subsubsection.3.2.2.5}%
+\contentsline {subsection}{\numberline {3.2.3}Conjunto de sitios HIP1 usando la especie PCC\_6303 como referencia}{40}{subsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.1}Red de transiciones}{40}{subsubsection.3.2.3.1}%
+\contentsline {subsubsection}{\numberline {3.2.3.2}Transiciones entre Nodo 9 y Nodo 10}{40}{subsubsection.3.2.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.3.3}Mutaciones en los codones}{45}{subsubsection.3.2.3.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.4}Análisis de sitios en los cuales su ancestro era HIP1}{45}{subsubsection.3.2.3.4}%
+\contentsline {subsubsection}{\numberline {3.2.3.5}Análisis de sitios en los cuales solo el nodo actual tiene HIP1}{51}{subsubsection.3.2.3.5}%
+\contentsline {subsection}{\numberline {3.2.4}Conjunto de sitios HIP1 unicos en las especies 336-3, NIES-3974 y PCC\_6303}{51}{subsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.4.1}Red de transiciones}{51}{subsubsection.3.2.4.1}%
+\contentsline {subsubsection}{\numberline {3.2.4.2}Transiciones entre Nodo 9 y Nodo 10}{51}{subsubsection.3.2.4.2}%
+\contentsline {subsubsection}{\numberline {3.2.4.3}Mutaciones en los codones}{51}{subsubsection.3.2.4.3}%
+\contentsline {subsubsection}{\numberline {3.2.4.4}Análisis de sitios en los cuales su ancestro era HIP1}{54}{subsubsection.3.2.4.4}%
+\contentsline {subsubsection}{\numberline {3.2.4.5}Análisis de sitios en los cuales solo el nodo actual tiene HIP1}{54}{subsubsection.3.2.4.5}%
+\contentsline {subsection}{\numberline {3.2.5}TGGCGCCA}{54}{subsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.5.1}Red de transiciones}{54}{subsubsection.3.2.5.1}%
+\contentsline {subsubsection}{\numberline {3.2.5.2}Transiciones entre Nodo 9 y Nodo 10}{60}{subsubsection.3.2.5.2}%
+\contentsline {subsubsection}{\numberline {3.2.5.3}Mutaciones en los codones}{60}{subsubsection.3.2.5.3}%
+\contentsline {subsubsection}{\numberline {3.2.5.4}Análisis de sitios en los cuales su ancestro era TGGCGCCA}{62}{subsubsection.3.2.5.4}%
+\contentsline {subsubsection}{\numberline {3.2.5.5}Análisis de sitios en los cuales solo el nodo actual tiene TGGCGCCA}{62}{subsubsection.3.2.5.5}%

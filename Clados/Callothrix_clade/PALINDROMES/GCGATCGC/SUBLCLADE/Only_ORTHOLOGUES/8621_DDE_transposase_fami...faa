@@ -1,0 +1,12 @@
+>ID:WP_035156052.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|hypothetical protein|198|NZ_CP011382(6283267):4870441-4870638:-1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_035156051.1(1),ID:WP_035159375.1(1)|neighbour_genes:S41 family peptidase,sensor histidine kin..| | aligned:1-64 (65)
+MENSQSWYIVKQPSGNCEIVTIRDIPENQDTEKPEKIEKWGPFPSQGEAIARRIGLIRSGKCQPV
+>ID:WP_096623352.1 |[Calothrix sp. NIES-3974]|NIES-3974|Calothrix_sp_NIES-3974_NIES-3974.gbff|DDE transposase fami..|183|NZ_AP018254(5985875):4157568-4157750:-1 ^^ Calothrix sp. NIES-3974 chromosome, complete genome.|neighbours:ID:WP_096623350.1(1),ID:WP_096626319.1(-1)|neighbour_genes:S41 family peptidase,elongation factor G| | aligned:1-60 (60)
+MTEQTYYIIKRPNQTCEIVPSQQLTEEDLQTIEKWGPFANQNEVIARRVGLIRAGKCQPQ
+>ID:WP_096685330.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|DDE transposase fami..|186|NZ_AP018255(11064963):1825613-1825798:1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096685328.1(-1),ID:WP_096685332.1(-1)|neighbour_genes:hypothetical protein,S41 family peptidase| | aligned:1-61 (61)
+MSDTLDTQKWYIVKRPTENCEIVNDNLENSEVIEKWGPFDSQGDAIARRIGLIRAGKCQPQ
+>ID:WP_096685330.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|DDE transposase fami..|186|NZ_AP018290(11062175):1825561-1825746:1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096685328.1(-1),ID:WP_096685332.1(-1)|neighbour_genes:hypothetical protein,S41 family peptidase| | aligned:1-61 (61)
+MSDTLDTQKWYIVKRPTENCEIVNDNLENSEVIEKWGPFDSQGDAIARRIGLIRAGKCQPQ
+>ID:WP_015196580.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|192|NC_019751(6767834):1004688-1004879:-1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015196579.1(1),ID:WP_015196581.1(1)|neighbour_genes:S41 family peptidase,serine/threonine-pro..| | aligned:2-63 (63)
+MVEYQQKWYIFKLSTQTCEIIPSKEMTEEQNMEISERWGPYDSREDAIAHRIGLIRAGKCQPQ
+>ID:WP_223978125.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|DDE transposase fami..|189|NZ_AP025018(11423121):8783781-8783969:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223978124.1(-1),ID:WP_223978126.1(-1)|neighbour_genes:MotA/TolQ/ExbB proto..,S41 family peptidase| | aligned:1-62 (62)
+MTDTLDVQKWYVVRRPVGHCEIVNDNIETHGEVIEKWGPFDSHGDAIARRIGLIRAGKCQPQ
