@@ -127,9 +127,9 @@ ggtree::ggtree(tidytree::as.treedata(tree3), ggplot2::aes(color=group),branch.le
   ggtree::geom_label(ggplot2::aes(label = node),show.legend = TRUE)+
     ggtree::geom_cladelab(node=1, label="336-3", align=TRUE, 
                         geom='label', fill='red')+
-  ggtree::geom_cladelab(node=2, label="PCC_6303", align=TRUE, 
+  ggtree::geom_cladelab(node=2, label="NIES-3974", align=TRUE, 
                         geom='label', fill='red')+
-  ggtree::geom_cladelab(node=3, label="NIES-3974", align=TRUE, 
+  ggtree::geom_cladelab(node=3, label="PCC_6303", align=TRUE, 
                         geom='label', fill='red',)+
     ggtree::geom_cladelab(node=4, label="PCC_7716", align=TRUE, 
                         geom='label', fill='steelblue')+
